@@ -1,0 +1,15 @@
+{
+  "name": "sukses-ujian-sekolah-uaj-pai-9",
+  "version": "1.0.0",
+  "description": "Static site for UAJ PAI 9",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -p 3000"
+  },
+  "keywords": [
+    "html",
+    "tailwindcss"
+  ],
+  "author": "Sukses Ujian Sekolah",
+  "license": "ISC"
+}

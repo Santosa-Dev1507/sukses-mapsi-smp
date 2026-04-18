@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "materi": "Al-Qur'an",
+
+"pertanyaan": "Perhatikan potongan ayat berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>تَفَسَّحُوا فِي الْمَجَالِسِ فَافْسَحُوا يَفْسَحِ اللَّهُ لَكُمْ</span><br>Pada potongan ayat tersebut menjelaskan bahwa ....",
+
+
+        "gambar": "",
+
+"kutipan": "",
+
+
+        "opsi": [
+            "Allah mengetahui apa yang ada di langit dan di bumi",
+
+            "Allah memerintahkan manusia untuk berlapang-lapang dalam majelis ilmu",
+
+            "Perbedaan orang musyrik dengan orang yang takut kepada Tuhannya",
+
+            "Tuhan yang mempunyai kerajaan, memberikan kerajaan kepada siapa yang dikehendaki"
+
+        ],
+        "kunciJawaban": 1,
+        "tipsBidang": "",
+
+        "tipe": "pg"
+
+    },
+    {
+        "id": 2,
+        "materi": "Ilmu Tajwid",
+
+"pertanyaan": "Perhatikan potongan ayat berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>خَيْرٌ لَّكُمْ وَأَطْهَرُ ۗ فَإِن لَّمْ تَجِدُوا</span><br>Pada potongan ayat tersebut terdapat tanda Waqaf Qila (Waqfu Aula), yang artinya ....",
+
+
+        "gambar": "",
+
+"kutipan": "",
+
+
+        "opsi": [
+            "Diutamakan berhenti",
+
+            "Diutamakan lanjut",
+
+            "Harus berhenti",
+
+            "Boleh berhenti, boleh lanjut"
+
+        ],
+        "kunciJawaban": 0,
+        "tipsBidang": "",
+
+        "tipe": "pg"
+
+    },
+    {
+        "id": 3,
+        "materi": "Al-Qur'an",
+
+"pertanyaan": "'Sesungguhnya Aku (Allah) hendak menjadikan seorang khalifah di muka bumi'. Ayat yang terjemahannya sesuai dengan pernyataan tersebut adalah ....",
+
+
+        "gambar": "",
+
+"kutipan": "",
+
+
+        "opsi": [
+            "<span class='text-2xl font-arabic block' dir='rtl'>وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ ۖ وَلَا تَنسَ نَصِيبَكَ مِنَ الدُّنْيَا</span>",
+
+            "<span class='text-2xl font-arabic block' dir='rtl'>وَمِن كُلِّ شَيْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ</span>",
+
+            "<span class='text-2xl font-arabic block' dir='rtl'>وَبَشِّرِ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أَنَّ لَهُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ</span>",
+
+            "<span class='text-2xl font-arabic block' dir='rtl'>وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً</span>"
+
+        ],
+        "kunciJawaban": 3,
+        "tipsBidang": "",
+
+        "tipe": "pg"
+
+    },
+    {
+        "id": 4,
+        "materi": "Al-Qur'an",
+
+"pertanyaan": "Perhatikan QS. Al Qasas (28) : 77 berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ ۖ وَلَا تَنسَ نَصِيبَكَ مِنَ الدُّنْيَا ۖ وَأَحْسِن كَمَا أَحْسَنَ اللَّهُ إِلَيْكَ ۖ وَلَا تَبْغِ الْفَسَادَ فِي الْأَرْضِ</span><br>Manakah yang <span class='italic font-bold'>bukan</span> merupakan kandungan QS. Al Qasas (28) : 77?",
+
+
+        "gambar": "",
+
+"kutipan": 

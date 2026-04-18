@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "materi": "Al-Qur'an & Hadis",
+
+"pertanyaan": "Hadits adalah sumber hukum Islam kedua setelah Al Qur'an. Fungsi Hadits ada 4 yaitu, sebagai Bayān Al-Taqrīr (menetapkan dan memperkuat apa yang telah diterangkan di dalam Al-Qur'an), Bayān Al-Tafsīr (penjelasan terhadap ayat-ayat yang memerlukan perincian atau penjelasan lebih lanjut), Bayān Al-Tasyri' (memberikan kepastian hukum Islam yang tidak ada di Al-Qur'an) dan Bayan Al-Nasakh (membatalkan ketentuan terdahulu).<br><br><span class=\'italic\'>\'Dan Kami tidak menurunkan Kitab (Al-Qur'an) ini kepadamu (Muhammad), melainkan agar engkau dapat menjelaskan kepada mereka apa yang mereka perselisihkan, serta menjadi petunjuk dan rahmat bagi orang-orang yang beriman.\'</span> Q.S. An-Nahl/16 : 64<br><br>Untuk memahami Q.S. An-Nahl/16 : 64 ini, fungsi Hadits yang sesuai adalah sebagai....",
+
+
+        "gambar": "",
+
+"kutipan": "",
+
+
+        "opsi": [
+            "Bayān Al-Taqrīr",
+
+            "Bayān Al-Tafsīr",
+
+            "Bayān Al-Tasyri'",
+
+            "Bayan Al-Nasakh"
+
+        ],
+        "kunciJawaban": 1,
+        "tipsBidang": "",
+
+        "tipe": "pg"
+
+    },
+    {
+        "id": 2,
+        "materi": "Al-Qur'an & Hadis",
+
+"pertanyaan": "Sebagai seorang mukmin, sudah seharusnya kita menggantungkan harapan dan mohon pertolongan kepada Allah SWT, karena itu menjadi salah satu indikator keimanan kita. Allah juga menjelaskan di beberapa ayat, diantaranya ayat berikut ini:<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ</span><br>Allah menyuruh kita meminta pertolongan kepada Allah SWT dengan cara....",
+
+
+        "gambar": "",
+
+"kutipan": "",
+
+
+        "opsi": [
+            "Sabar dan salat",
+
+            "Dzikir dan doa",
+
+            "Salat dan puasa",
+
+            "Zakat dan sedekah"
+
+        ],
+        "kunciJawaban": 0,
+        "tipsBidang": "",
+
+        "tipe": "pg"
+
+    },
+    {
+        "id": 3,
+        "materi": "Al-Qur'an & Hadis",
+
+"pertanyaan": "Perhatikan Q.S Al Isra'/17 : 27 berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>إِنَّ الْمُبَذِّرِينَ كَانُوا إِخْوَانَ الشَّيَاطِينِ ۖ وَكَانَ الشَّيْطَانُ لِرَبِّهِ كَفُورًا</span><br>Di bawah ini ada beberapa pernyataan mengenai kandungan Q.S Al Isra' : 27 pilihlah salah satu jawaban yang paling tepat!",
+
+
+        "gambar": "",
+
+"kutipan": "",
+
+
+        "opsi": [
+            "Saudara-saudara setan adalah orang yang selalu berbuat dholim kepada temannya",
+
+            "Prilaku yang dicintai oleh Allah SWT adalah mereka yang suka menabung dan tidak melakukan prilaku boros dalam kehidupan sehari-hari",
+
+            "Prilaku yang dicintai Allah SWT adalah mereka yang banyak bersedekah dan berinfaq",
+
+            "Setan menjadi saudara orang-orang yang banyak membicarakan kejelekan orang lain"
+
+        ],
+        "kunc

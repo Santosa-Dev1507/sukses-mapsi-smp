@@ -1,0 +1,58 @@
+=== HALAMAN 1 ===
+--- TABEL 1 ---
+['No\nUrut', 'Capaian Pembelajaran/ Tujuan\nPembelajaran', 'Bahan Kelas/\nSemester', 'Materi', 'Indikator TP', 'level\nkognitif', 'Bentuk\nsoal', 'No Soal']
+['1', '2', '3', '4', '5', '6', '7', '8']
+["MATERI : AL QUR'AN", None, None, None, None, None, None, None]
+['1', 'Al-Qur’an Menginspirasi: Meraih\nKesuksesan Dengan Semangat\nMencari Ilmu', 'IX/1', 'QS Al Mujadalah /58:11 dan QS Az\nZumar/39:9, hukum waqaf', 'Disajikan QS Al Mujadalah/58: 11 dan QS Az Zumar/39:9\npeserta didik mengidentifikasi makna dalam ayat\ntersebut', 'C2', 'PG', '1']
+[None, None, None, None, 'Disajikan QS Al Mujadalah/58: 11 dan QS Az Zumar/39:9\nserta hadis mencari ilmu siswa menuliskan kembali\ndan menjelaskan isinya', 'C2', 'Uraian', '41']
+[None, None, None, None, 'Disajikan beberapa potongan ayat siswa\nmengidentifikasi hukum bacaan waqaf', 'C3', 'PG', '2']
+[None, None, None, None, 'Disajikan narasi siswa mengidentifikasi prilaku-prilaku\nsemangat mencari ilmu', 'C3', 'PG', '3']
+['2', 'Al-Qur’an Menginspirasi: Menjadi\nKhalifatullah Fil ‘Ard Penebar Kasih\nSayang', 'IX/2', 'QS Al Baqoroh/2: 30 dan QS\nQosos/28:77 , hukum bacaan Mad', 'Disajikan Q.S. al-Baqarah/2:30 dan Q.S. al Qasas/28:77\nserta hadis tentang Khalifatullah fil arḍ Penebar Kasih\nSayang siswa menentukan arti makna dalam\npotongan ayat dan hadis tersebut', 'C2', 'PG', '4, 5']
+[None, None, None, None, 'Disajika hadis tentang khalifatullah fil ard penebar\nkasih sayang siswa melengkapi hadis tersebut', 'C2', 'PG', '6']
+[None, None, None, None, 'Disajikan sebuah lafaz potongan ayat al Qurán siswa\nmenentukan hukum bacaan Mad', 'C3', 'PGA', '38']
+=== HALAMAN 2 ===
+--- TABEL 1 ---
+['3', 'Inspirasi Al-Qur’an i: Melestarikan\nalam, menjaga kehidupan', 'VIII/1', 'Q.S. ar Rum/30:41, ibrahim /14:32,\ndan az-Zukhruf/43:13 , hukum bacaan\nra dan lam jalālah', 'Menganalisis kandungan Q.S. ar Rum/30:41,\nIbrahim/14:32, dan az-Zukhruf/43:13 tentang pelestarian\nalam', 'C4', 'PG', '8']
+['4', 'Inspirasi Al-Qur’an: Indahnya\nBeragama Secara Moderat', 'VIII/2', 'Q.S. al Baqarah/2:143, hukum bacaan\nnun sukun / tanwin dan mim sukun', 'Menganalisis kandungan Q.S. al-Baqarah/2:143 dan\nmengidentifikasi hukum bacaan nun sukun/ mim sukun\ndengan benar', 'C4', 'PG', '9']
+['5', "Al Qur'an dan Sunnah Sebagai\nPedoman Hidup", 'VII/1', 'Q.S an-Nisā’/4: 59 dan Q.S. an-\nNaḥl/16: 64 , hukum bacaan Alif Lām\nSyamsiyyah dan Alif Lām Qamariyyah', 'Menunjukkan arti potongan ayat QS. An-Nisa/4: 59', 'C2', 'PG', '10']
+['6', 'Alam Semesta sebagai Tanda\nKekuasaan Allah', 'VII/2', "Q.S al-Anbiya'/21: 30 dan Q.S. Al-\nA'raf/7: 54 , hukum bacaan Ghunnah", 'Menjelaskan isi kandungan QS. Al-A’raf/7: 54', 'C3', 'PG', '11']
+['MATERI : AQIDAH', None, None, None, None, None, None, None]
+['7', 'Meyakini Hari Akhir Dengan Mawas\nDiri', 'IX/1', 'Iman Kepada Hari Akhir', 'Disajikan dalil ayat al Qurán tentang hari ahir siswa\nmenganalisis tahapan hari akhir yang dimaksud\ndalam dalil ayat tersebut', 'C4', 'PG', '7']
+[None, None, None, None, 'Disajikan narasi siswa menentukan prilaku yang\nsesuai dengan iman terhadap hari akhir', 'C4', 'PG', '12']
+['8', 'Meraih Ketenangan Jiwa Dengan\nMeyakini Qada Dan Qadar', 'IX/2', 'Iman Kepada Qodo dan Qodar', 'Disajikan narasi tentang peristiwa Qada dan Qadar\nAllah, siswa mengidentifikasi taqdir mubram dan\nmuallaq', 'C3', 'PG', '13']
+[None, None, None, None, 'Disajikan narasi tentang penciptaan manusia, siswa\nmenjelaskan istilah dalam proses penciptaan manusia', 'C2', 'PG', '14']
+[None, None, None, None, None, 'C2', 'Uraian', '45']
+=== HALAMAN 3 ===
+--- TABEL 1 ---
+['9', 'Meyakini Kitab-Kitab Allah: Menjadi\nGenerasi Pecinta Al-Qur’an Yang\nToleran', 'VIII/1', 'Iman kepada Kitab-kitab', 'Memaparkan cara mencintai al Qur’an agar menjadi\ngenerasi yang berkarakter', 'C3', 'PG', '15']
+['10', 'Meyakini Nabi Dan Rasul Allah:\nMenjadi Generasi Digital Yang\nBerkarakter', 'VIII/2', 'Iman kepada Nabi dan rosul', 'Memberikan contoh penerapan keteladanan terhadap\nnabi dan rasul dalam kehidupan generasi digital', 'C2', 'PG', '16']
+['11', 'Meneladani Nama dan Sifat Allah\nuntuk Kebaikan Hidup', 'VII/1', 'Iman Kepada Allah', 'Menganalisis contoh penerapan beriman kepada asmaul\nhusna Al-Alim, As-Sami’, Al-Bashir, dan Al-Khabir dalam\nkehidupan sehari-hari', 'C4', 'PG', '17']
+['12', 'Mawas Diri dan Intropeksi Dalam\nMenjalani Kehidupan', 'VII/2', 'Iman Kepada Malaikat', 'Mengidentifikasi tugas-tugas malaikat Allah', 'C4', 'PG', '18']
+[None, None, None, None, 'Mengidentifikasi perbedaan malaikat, jin, dan manusia', 'C4', 'Uraian', '44']
+['MATERI : AKHLAK', None, None, None, None, None, None, None]
+['13', 'Indahnya Etika Pergaulan Dan\nKomunikasi Islami', 'IX/1', 'Etika Pergaulan Islam', 'Siswa menentukan etika pergaulan dan komunikasi\nIslam dalam pergaulan anatar lawan jenis', 'C2', 'PG', '19']
+['14', 'Dengan Seni Islami, Kehidupan\nSemakin Harmoni', 'IX/2', 'Tradisi dan Seni Islami', 'Disajikan narasi tentang seni Islami peserta didik\nmenentukan prinsip-prinsip seni arsitektur dalam Islam', 'C2', 'PGA', '36']
+['15', 'Menjadi Pribadi Berintegritas\nDengan Sifat Amanah Dan Jujur', 'VIII/1', 'Jujur, Amanah', 'Mengidentifikasi contoh perilaku amanah dan jujur dalam\nkehidupan sehari-hari dengan baik, dapat menemukan\nhikmah sikap amanah dan jujur dalam kehidupan sehari-\nhari dengan benar,', 'C4', 'PG', '20, 21']
+['16', 'Menghadirkan Salat Dan Zikir Dalam\nKehidupan', 'VII/1', 'Salat dan zikir', 'Mengidentifikasi dalil tentang shalat', 'C4', 'PG', '24']
+['17', 'Menghindari Ghibah dan\nmelaksanakan Tabayun', 'VII/2', 'Ghibah dan Tabayun', 'Menerapkan sikap Tabayun dalam kehidupan sehari-hari', 'C3', 'PG', '22']
+[None, None, None, None, 'Mengidentifikasi dampak buruk perilaku ghibah', 'C4', 'PGA', '40']
+['MATERI : FIQIH', None, None, None, None, None, None, None]
+=== HALAMAN 4 ===
+--- TABEL 1 ---
+['18', 'Bersyukur Dengan Akikah Peduli\nSesama Dengan Berkurban', 'IX/1', 'Aqiqoh dan Qurban', 'Disajikan pernyataan tentang ketentuan akikah dan\nkurban peserta didik dapat mengidentifikasi ketentuan\nakikah dan kurban dengan benar', 'C2', 'PG', '25']
+[None, None, None, None, 'Disajikan narasi tentang hewan kurban peserta didik\nmenentukan hewan kurban yang sesuai ketentuan', 'C2', 'PGA', '37']
+['19', 'Mengenal Imam Madzhab, Ibadah\nSemakin Mantab', 'IX/2', 'Madzab dalam fiqih islam', 'Disajikan biografi tokoh imam mazhab, peserta didik\nmenyebutkan nama asli imam mazhab', 'C2', 'PG', '31']
+[None, None, None, None, 'Siswa menjelaskan keteladanan imam mazhab', 'C2', 'Uraian', '42']
+['20', 'Ibadah dengan Disiplin dan Penuh\nHarap Kepada Allah Swt serta Peduli\nterhadap Sesama Melalui Salat\nGerhana, Istiska, dan Jenazah', 'VIII/1', 'Salat Gerhana, Istiska, dan Jenazah', 'Mengidentifikasi tata cara shalat Gerhana', 'C4', 'PG', '26']
+['21', 'Menjadi Pribadi Yang Dapat\nDipercaya Serta Terhindar Dari Riba\nDalam Jual Beli Dan Hutang Piutang', 'VIII/2', 'Jual beli dan hutang piutang', 'Menganalisis contoh kegiatan yang berkaitan dengan fikih\nmuamalah', 'C4', 'PG', '27']
+['22', 'Mengagungkan Allah Swt. Dengan\nTunduk Pada Perintah-Nya', 'VII/1', 'sujud sahwi, tilawah, dan syukur', 'Mengidentifikasi bacaan sujud tilawah, sujud syukur, dan\nsujud sahwi.', 'C4', 'PG', '28']
+['23', 'Rukhsah : Kemudahan Dari Allah\nSWT Dalam melaksanakan Ibadah\nKepadaNya', 'VII/2', 'Rukhsoh dalam Ibadah', 'Menjelaskan makna rukhsah', 'C3', 'PG', '23']
+['MATERI : SKI TAREKH', None, None, None, None, None, None, None]
+['24', 'Mengapresiasi Peradaban Daulah\nUsmani', 'IX/1', 'Peradaban Islam masa Daulah\nUsmani', 'Disajikan narasi sejarah Turki Usmani peserta didik dapat\nmenunjukkan nama tokoh pemimpin Turki Usmani', 'C3', 'PG', '29']
+[None, None, None, None, 'Disajikan narasi peserta didik mampu menganalisis sebab-\nsebab runtuhnya Turki Usmani', 'C4', 'PG', '30']
+['25', 'Meneladani Produktivitas Dalam\nBerkarya Dan Semangat Literasi\nMasa Keemasan Islam Era Daulah\nAbbasiyah (750-1258 M)', 'VIII/1', 'Sejarah Peradaban Islam pada masa\ndaulah Abbasiyah', 'Menganalisis sejarah keemasan Islam pada masa Bani\nAbbasiyah dan menganalisa fungsi Bayt Al Hikmah\nmemiliki rasa ingin tahu yang tinggi untuk mendalaminya', 'C4', 'PG,\nUraian', '32, 43']
+=== HALAMAN 5 ===
+--- TABEL 1 ---
+['26', 'Meneladani Inspirasi Dan Kontribusi\nIlmuwan Muslim Pada Masa Bani\nAbbasiyah Untuk Kemanusiaan Dan\nPeradaban', 'VIII/2', 'Cendikiawan Muslim dan karyanya\nmasa bani Abbasiyah', 'Mengidentifikasi peran ilmuwan muslim pada masa Bani\nAbbasiyah dalam menginspirasi dunia ilmu pengetahuan\ndan teknologi dan kontribusinya untuk kemanusiaan dan\nperadaban', 'C4', 'PG, PGA', '33, 39']
+['27', 'Damaskus: Pusat Peradaban Timur\nIslam (661-750 M)', 'VII/1', 'Sejarah Peradaban Islam masa bani\nUmayah di Damascus', 'Menunjukkan sebab kemunduran Dinasti Bani Umayyah', 'C2', 'PG', '35']
+['28', 'Andalusia :Kota Peradaban Islam\ndi Barat (756-1031 M)', 'VII/2', 'Sejarah Bani Umayah di Andalusia', 'Mengidentifikasi Tokoh/ Ilmuwan pada masa Bani Umayah\ndi Andalusia', 'C4', 'PG', '34']

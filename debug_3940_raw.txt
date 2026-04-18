@@ -1,0 +1,19 @@
+        "id": 40,
+        "materi": "Tarikh",
+
+"pertanyaan": "Masjid Al Jabbar adalah salals ssu ısssjld hsm di /aws |hural ynng Lliensıikau pudin Lhisenler 21122.\nMssjs! A) /alısn Ierlaksui LI Lils Haudiup,/isun Ilnsn.\nIndahvya Maısjsd A! laalals nsenginsailksin kii:a Lepadss uslsis ssrs ynng lsıgit ıssılalns. ualnsis Msun ssnll sepoili lniadsa gamnlnr niıssjin AI Inshsr tettselnı Uinsunsskinı",
+
+
+        "gambar": "",
+
+"kutipan": "",
+
+
+        "opsi": [
+            "Scni arsitck",
+
+            "Seni BııcnAI Qur'an",
+
+            "Scni Laligıa/ī",
+
+            "Scni mnusik IsIsısi"

@@ -1,0 +1,25 @@
+        "id": 39,
+        "materi": "Fiqih",
+
+"pertanyaan": "Dalam hüding Fiqiih Liln srngenal -1 imalish, ıilauis suwuhsh It1sLlus idalals pervnris Inu ıln nnnalan jxnna isahil It'ulslnilıt ynu inajils kilis 1Lıil Iun Innmintli jsnxlnttniıysı. tkuikus indalırls Lr-.| uuxlisal Ieısrluı lıscuntli ...",
+
+
+        "gambar": "",
+
+"kutipan": "",
+
+
+        "opsi": [
+            "Imamn Ilasnlı",
+
+            "lınınu Alaliki",
+
+            "Imasm Syali'i",
+
+            "Iınanı Oıınhli"
+
+        ],
+        "kunciJawaban": 3,
+        "tipsBidang": "",
+
+        "tipe": "pg"
