@@ -310,9 +310,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // ══════════════════════════════════════════════════════════
     // SELESAIKAN UJIAN
     // ══════════════════════════════════════════════════════════
-    function finishExam(isTimeout = false) {
+    async function finishExam(isTimeout = false) {
+        if (!examStarted && !isTimeout) return; // Mencegah double click
         examStarted = false; // Mencegah fitur anti-cheat (seperti exitFullscreen) mencatat pelanggaran
         if (timerInterval) clearInterval(timerInterval);
+
+        // Ubah tombol jadi status menyimpan
+        if (dom.btnNext) {
+            dom.btnNext.innerHTML = '<span>Menyimpan data...⏳</span>';
+            dom.btnNext.disabled = true;
+            dom.btnNext.style.opacity = '0.7';
+            dom.btnNext.style.cursor = 'not-allowed';
+        }
+        if (dom.btnPrev) {
+            dom.btnPrev.disabled = true;
+            dom.btnPrev.style.opacity = '0.5';
+        }
 
         let score = 0, totalPG = 0, essayCount = 0;
         quizData.forEach((q, i) => {
@@ -321,7 +334,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (userAnswers[i] === q.kunciJawaban) score++;
             } else if (q.tipe === 'pga') {
                 totalPG++;
-                const uArr = [...userAnswers[i]].sort();
+                const uArr = Array.isArray(userAnswers[i]) ? [...userAnswers[i]].sort() : [];
                 const kArr = Array.isArray(q.kunciJawaban) ? [...q.kunciJawaban].sort() : [];
                 if (uArr.length === kArr.length && uArr.every((v, idx) => v === kArr[idx])) score++;
             } else if (q.tipe === 'uraian') {
@@ -333,7 +346,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const durasi = startTimestamp ? Math.round((Date.now() - startTimestamp) / 60000) : 0;
 
         // FITUR 11: Kirim hasil ke Google Sheets
-        sendToSheet({
+        await sendToSheet({
             action      : 'hasil',
             nama        : studentName,
             kelas       : studentClass,
@@ -348,7 +361,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const pesanTimeout = isTimeout ? '⏰ Waktu ujian telah habis!\n\n' : '';
         alert(
-            `✅ ${pesanTimeout}Ujian Selesai!\n\n` +
+            `✅ Data jawaban Anda berhasil tersimpan di server!\n\n` +
+            `${pesanTimeout}Ujian Selesai!\n\n` +
             `👤 Nama  : ${studentName}\n` +
             `🏫 Kelas : ${studentClass}\n\n` +
             `📊 Nilai    : ${nilai}\n` +
@@ -356,6 +370,9 @@ document.addEventListener("DOMContentLoaded", () => {
             (essayCount > 0 ? `📝 Uraian  : ${essayCount} soal (dinilai guru)\n` : '') +
             `\n⚠️  Pelanggaran tercatat: ${violationCount} kali`
         );
+
+        // Arahkan kembali ke beranda agar tidak bisa disubmit berulang kali
+        window.location.replace('index.html');
     }
     window.finishExam = () => finishExam(false);
 
@@ -363,7 +380,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // FITUR 11: KIRIM KE GOOGLE SHEETS
     // ══════════════════════════════════════════════════════════
     function sendToSheet(payload) {
-        fetch(SHEET_URL, {
+        return fetch(SHEET_URL, {
             method  : 'POST',
             headers : { 'Content-Type': 'application/json' },
             body    : JSON.stringify(payload),
