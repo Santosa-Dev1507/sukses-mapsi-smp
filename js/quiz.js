@@ -311,6 +311,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // SELESAIKAN UJIAN
     // ══════════════════════════════════════════════════════════
     function finishExam(isTimeout = false) {
+        examStarted = false; // Mencegah fitur anti-cheat (seperti exitFullscreen) mencatat pelanggaran
         if (timerInterval) clearInterval(timerInterval);
 
         let score = 0, totalPG = 0, essayCount = 0;
@@ -468,7 +469,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // ── FITUR 6: Deteksi Pindah Tab ───────────────────────
         document.addEventListener('visibilitychange', () => {
-            if (!examStarted) return;
+            if (!examStarted || window.isConfirming) return;
             if (document.hidden) {
                 logViolation('Pindah Tab', 'Siswa berpindah ke tab/aplikasi lain saat ujian berlangsung.');
             }
@@ -477,7 +478,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // ── FITUR 7: Deteksi Keluar Fullscreen ────────────────
         ['fullscreenchange', 'webkitfullscreenchange', 'mozfullscreenchange'].forEach(evt => {
             document.addEventListener(evt, () => {
-                if (!examStarted) return;
+                if (!examStarted || window.isConfirming) return;
                 const isFS = !!(
                     document.fullscreenElement ||
                     document.webkitFullscreenElement ||
@@ -513,8 +514,31 @@ document.addEventListener("DOMContentLoaded", () => {
         if (currentIndex > 0) { currentIndex--; renderQuestion(currentIndex); }
     });
     dom.btnNext.addEventListener('click', () => {
-        if (currentIndex < quizData.length - 1) { currentIndex++; renderQuestion(currentIndex); }
-        else finishExam(false);
+        if (currentIndex < quizData.length - 1) { 
+            currentIndex++; 
+            renderQuestion(currentIndex); 
+        } else {
+            // Cek apakah ada soal yang belum dijawab
+            const belumDijawab = userAnswers.some(ans => ans === null || (Array.isArray(ans) && ans.length === 0));
+            window.isConfirming = true;
+            if (belumDijawab) {
+                const yakin = confirm("Masih ada soal yang belum dijawab. Apakah Anda yakin ingin mengakhiri ujian?");
+                window.isConfirming = false;
+                if (!yakin) {
+                    requestFullscreen(); // Pastikan tetap fullscreen setelah confirm
+                    return;
+                }
+            } else {
+                const yakin = confirm("Anda sudah berada di soal terakhir. Akhiri ujian sekarang?");
+                window.isConfirming = false;
+                if (!yakin) {
+                    requestFullscreen(); // Pastikan tetap fullscreen setelah confirm
+                    return;
+                }
+            }
+            window.isConfirming = false;
+            finishExam(false);
+        }
     });
 
 });
