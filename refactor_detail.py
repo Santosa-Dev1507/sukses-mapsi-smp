@@ -5,7 +5,7 @@ with open("detail-materi.html", "r", encoding="utf-8") as f:
 # Add IDs to header stuff
 # Replace <span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-widest">Fiqih</span>
 text = re.sub(r'<span class="(px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-widest)">Fiqih</span>',
-              r'<span id="materi-kelas" class="\1">Kelas 9 Semester Ganjil - Bab 1</span>', text)
+              r'<span id="materi-kelas" class="\1">Kelas 7-9-9 Semester Ganjil - Bab 1</span>', text)
 
 # Replace <span class="material-symbols-outlined text-[18px] mr-1">schedule</span> 5 Menit Baca
 text = re.sub(r'<span class="material-symbols-outlined text-\[18px\] mr-1">schedule</span> 5 Menit Baca',

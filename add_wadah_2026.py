@@ -25,7 +25,7 @@ for i in range(45):
         
     questions2026.append({
         "id": i + 1,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
         "pertanyaan": f"[Wadah 2026] Soal {desc} Nomor {i+1} : Menunggu input soal asli.",
         "gambar": "",
         "kutipan": "",

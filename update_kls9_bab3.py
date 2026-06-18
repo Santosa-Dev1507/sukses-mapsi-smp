@@ -1,7 +1,7 @@
 import json
 import os
 
-# Naskah Materi Bab 3 Kelas 9 Semester Ganjil
+# Naskah Materi Bab 3 Kelas 7-9-9 Semester Ganjil
 html_content = """
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
     Manusia diciptakan sebagai makhluk sosial yang tidak bisa hidup sendiri. Agar hubungan antarmanusia harmonis dan membawa berkah, Islam mengatur etika dalam bergaul dan berkomunikasi. Mari kita pelajari bagaimana cara berinteraksi yang disenangi Allah Swt.

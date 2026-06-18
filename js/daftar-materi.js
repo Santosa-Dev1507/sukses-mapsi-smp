@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     Object.keys(groupByKelas).sort().forEach(kelas => {
         const details = document.createElement("details");
-        // Kelas 9 dibuka by default agar langsung lihat materi ujian
+        // Kelas 7-9-9 dibuka by default agar langsung lihat materi ujian
         if (kelas === "9") details.open = true;
         
         details.className = "group bg-surface-container-low rounded-[2rem] border border-outline-variant/20 open:bg-white open:shadow-lg transition-all duration-300 mb-6";

@@ -2410,712 +2410,1054 @@ const quizData2025 = [
 
 const quizData2026 = [
     {
-        "id": 1,
-        "materi": "Al-Qur'an",
-        "pertanyaan": "Perhatikan potongan ayat berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>تَفَسَّحُوا فِي الْمَجَالِسِ فَافْسَحُوا يَفْسَحِ اللَّهُ لَكُمْ</span><br>Pada potongan ayat tersebut menjelaskan bahwa ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 1,
+        "pertanyaan": "Dalam sebuah diskusi kelas, seorang siswa berpendapat bahwa iman cukup diyakini dalam hati tanpa perlu diamalkan. Berdasarkan analisis QS. Al-Baqarah: 285, pendapat ini keliru karena ayat tersebut mengisyaratkan bahwa keimanan yang sempurna menuntut...",
         "opsi": [
-            "Allah mengetahui apa yang ada di langit dan di bumi",
-            "Allah memerintahkan manusia untuk berlapang-lapang dalam majelis ilmu",
-            "Perbedaan orang musyrik dengan orang yang takut kepada Tuhannya",
-            "Tuhan yang mempunyai kerajaan, memberikan kerajaan kepada siapa yang dikehendaki"
+            "Hafalan dalil yang kuat tentang rukun iman",
+            "Ketundukan mutlak tanpa perlu memahami makna syariat",
+            "Keselarasan antara keyakinan hati, ucapan lisan, dan pembuktian melalui amal perbuatan",
+            "Pemisahan antara urusan ibadah ritual dan kehidupan sosial"
         ],
-        "kunciJawaban": 1,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 2,
-        "materi": "Al-Qur'an",
-        "pertanyaan": "Perhatikan QS. Al Qasas (28) : 77 berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ ۖ وَلَا تَنسَ نَصِيبَكَ مِنَ الدُّنْيَا ۖ وَأَحْسِن كَمَا أَحْسَنَ اللَّهُ إِلَيْكَ ۖ وَلَا تَبْغِ الْفَسَادَ فِي الْأَرْضِ</span><br>Manakah yang <span class='italic font-bold'>bukan</span> merupakan kandungan QS. Al Qasas (28) : 77?",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Perintah kepada manusia agar hidup secara seimbang antara dunia dan akherat",
-            "Perintah kepada manusia untuk berbuat baik kepada sesama manusia",
-            "Larangan berbuat kerusakan di muka bumi",
-            "Larangan memakan harta anak yatim"
-        ],
-        "kunciJawaban": 3,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 3,
-        "materi": "Ilmu Tajwid",
-        "pertanyaan": "Perhatikan bacaan Mad berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>فِيمَا آتَاكَ</span><br>Pada potongan ayat tersebut mengandung hukum bacaan ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Mad wajib muttasil",
-            "Mad jaiz munfasil",
-            "Mad Arid Lissukun",
-            "Mad Iwad"
-        ],
-        "kunciJawaban": 1,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 4,
-        "materi": "Al-Qur'an",
-        "pertanyaan": "Perhatikan ayat berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>ظَهَرَ الْفَسَادُ فِي الْبَرِّ وَالْبَحْرِ بِمَا كَسَبَتْ أَيْدِي النَّاسِ</span><br>Kandungan makna yang sesuai dengan ayat tersebut adalah ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Manusia adalah penyebab kerusakan alam",
-            "Allah SWT menumbuhkan tanaman dengan air hujan",
-            "Allah SWT menciptakan alam untuk manusia",
-            "Manusia dianugerahi akal pikiran agar dapat berpikir dan bersyukur"
-        ],
-        "kunciJawaban": 0,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 5,
-        "materi": "Ilmu Tajwid (HOTS)",
-        "pertanyaan": "Perhatikan lafaz berikut ini!<br>(1) <span class='font-arabic text-xl' dir='rtl'>مِنَ اللَّهِ</span><br>(2) <span class='font-arabic text-xl' dir='rtl'>بِسْمِ اللَّهِ</span><br>(3) <span class='font-arabic text-xl' dir='rtl'>رِزْقًا</span><br>(4) <span class='font-arabic text-xl' dir='rtl'>خَبِيرٌ</span> (dibaca waqaf)<br><br>Sesuai dengan kaidah makharijul huruf, manakah pasangan hukum bacaan Lam Jalalah Tarqiq dan Ra Tarqiq yang benar secara berurutan?",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "(1) dan (3)",
-            "(2) dan (3)",
-            "(2) dan (4)",
-            "(1) dan (4)"
-        ],
+        "tipe": "pg",
         "kunciJawaban": 2,
-        "tipsBidang": "Bismillahi: Lam jalalah tarqiq karena didahului kasrah. Khabir (waqaf): Ra tarqiq karena didahului ya sukun.",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Keimanan)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 6,
-        "materi": "Al-Qur'an",
-        "pertanyaan": "Dalam QS Al Baqarah: 143, diharapkan umat Islam menjadi umat yang adil dan Moderat. Yang <span class='italic font-bold'>tidak</span> termasuk dari adil dan moderat yang dimaksud adalah ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 2,
+        "pertanyaan": "Perhatikan fenomena berikut: Seseorang mengaku beriman kepada Allah, namun menolak mengakui kebenaran kitab suci umat terdahulu dan membeda-bedakan keistimewaan para nabi (QS. An-Nisa: 150-151). Status keimanan orang tersebut secara syariat adalah...",
         "opsi": [
-            "Memberikan perlakuan yang sama dalam menegakkan aturan kepada semua orang",
-            "Lebih mengutamakan akhirat tanpa memikirkan kehidupan dunia",
-            "Menempatkan segala sesuatu pada tempatnya",
-            "Memberikan keseimbangan antara kepentingan dunia dan akhirat"
+            "Sah, asalkan ia tetap mengamalkan rukun Islam",
+            "Tertolak, karena mengingkari kesatuan risalah para rasul tergolong kekafiran yang nyata",
+            "Diterima sebagian, karena yang paling penting adalah iman kepada Nabi Muhammad SAW",
+            "Sempurna, karena umat Islam hanya diwajibkan fokus pada syariat terakhir"
         ],
+        "tipe": "pg",
         "kunciJawaban": 1,
-        "tipsBidang": "",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Keimanan  Para  Nabi)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 7,
-        "materi": "Ilmu Tajwid",
-        "pertanyaan": "Perhatikan bacaan QS. Al-Baqarah: 143 berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا لِّتَكُونُوا شُهَدَاءَ عَلَى النَّاسِ وَيَكُونَ الرَّسُولُ عَلَيْكُمْ شَهِيدًا</span><br>Hukum bacaan izhar syafawi pada ayat tersebut berjumlah ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 3,
+        "pertanyaan": "QS. Ali Imran: 102 memerintahkan agar umat Islam bertakwa dengan \"sebenar-benar takwa\". Implementasi paling tepat dari prinsip ini bagi pelajar di era digital adalah...",
         "opsi": [
-            "Empat",
-            "Tiga",
-            "Dua",
-            "Satu"
+            "Menghapus semua media sosial agar tidak terjerumus pada kemaksiatan",
+            "Memanfaatkan teknologi untuk belajar dan menyebarkan kebaikan, serta tegas menjauhi konten negatif",
+            "Fokus beribadah di masjid dan meninggalkan semua kewajiban akademik",
+            "Mengisolasi diri dari pergaulan teman yang berbeda pandangan"
         ],
-        "kunciJawaban": 3,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 8,
-        "materi": "Al-Qur'an & Hadis (HOTS)",
-        "pertanyaan": "Hadits adalah sumber hukum Islam kedua setelah Al Qur'an. Fungsi Hadits ada 4 yaitu, sebagai Bayān Al-Taqrīr (menetapkan dan memperkuat apa yang telah diterangkan di dalam Al-Qur'an), Bayān Al-Tafsīr (penjelasan terhadap ayat-ayat yang memerlukan perincian atau penjelasan lebih lanjut), Bayān Al-Tasyri' (memberikan kepastian hukum Islam yang tidak ada di Al-Qur'an) dan Bayan Al-Nasakh (membatalkan ketentuan terdahulu).<br><br><span class='italic'>Dan Kami tidak menurunkan Kitab (Al-Qur'an) ini kepadamu (Muhammad), melainkan agar engkau dapat menjelaskan kepada mereka apa yang mereka perselisihkan, serta menjadi petunjuk dan rahmat bagi orang-orang yang beriman.</span> Q.S. An-Nahl/16 : 64<br><br>Untuk memahami Q.S. An-Nahl/16 : 64 ini, fungsi Hadits yang paling tepat berdasarkan makna ayat tersebut adalah sebagai....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Bayān Al-Taqrīr",
-            "Bayān Al-Tafsīr",
-            "Bayān Al-Tasyri'",
-            "Bayan Al-Nasakh"
-        ],
+        "tipe": "pg",
         "kunciJawaban": 1,
-        "tipsBidang": "",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Ketakwaan  Era  Digital)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 9,
-        "materi": "Ilmu Tajwid",
-        "pertanyaan": "Perhatikan potongan kalimat berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>عَلَيْكَ الْكِتَابَ</span><br>Hukum bacaan di atas adalah Alif Lam Qamariyah, sehingga cara membaca potongan ayat tersebut adalah ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 4,
+        "pertanyaan": "Seorang ayah terlalu sibuk bekerja sehingga mengabaikan pendidikan agama anaknya (QS. Luqman: 33). Pada hari kiamat kelak, analisis posisi ayah tersebut adalah...",
         "opsi": [
-            "Huruf alif lam tidak dibaca, masuk ke huruf kaf",
-            "Huruf alif lam dibaca melebur ke huruf Qamariyah",
-            "Huruf alif lam dibaca idghom, melebur pada huruf di depannya",
-            "Huruf alif lam dibaca jelas, tidak melebur pada huruf di depannya"
+            "Aman, karena mencari nafkah adalah kewajiban yang menggugurkan kewajiban mendidik",
+            "Diminta pertanggungjawaban berat, karena harta tidak bisa menebus dosa dan kelalaiannya mendidik keluarga",
+            "Dapat dimaklumi asalkan sang anak tetap sekolah di sekolah formal",
+            "Terselamatkan oleh doa anaknya meskipun anaknya tidak diajari agama"
         ],
-        "kunciJawaban": 3,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 10,
-        "materi": "Al-Qur'an & Tajwid (HOTS)",
-        "pertanyaan": "Ilmuwan modern sepakat bahwa alam semesta bermula dari satu titik padat yang kemudian meledak (Teori Big Bang). Belasan abad sebelum teori ini ditemukan, Al-Qur'an telah mengisyaratkan bahwa langit dan bumi dulunya menyatu lalu dipisahkan oleh kuasa Allah SWT, sebagaimana tercantum dalam QS. Al-Anbiya : 30.<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>أَنَّ السَّمَاوَاتِ وَالْأَرْضَ كَانَتَا رَتْقًا فَفَتَقْنَاهُمَا</span><br>Pada awal lafaz ayat di atas, kata <span class='font-arabic text-xl' dir='rtl'>أَنَّ</span> (Anna) ditebalkan secara pelafalan karena hukum bacaan Tajwidnya adalah ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Mim bertasydid, hukumnya Ghunnah dan dibaca jelas tanpa ditahan",
-            "Nun bertasydid, hukumnya Ghunnah Musyaddadah dan dibaca berdengung (ditahan 2 harakat)",
-            "Nun sukun bertemu Sin, hukumnya Ikhfa dan dibaca samar",
-            "Alif lam bertemu Sin, hukumnya Alif Lam Syamsiyah dan dibaca melebur"
-        ],
+        "tipe": "pg",
         "kunciJawaban": 1,
-        "tipsBidang": "",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Tanggung  Jawab  Orang  Tua)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 11,
-        "materi": "Aqidah (HOTS)",
-        "pertanyaan": "Bangkok - Salah satu gedung pencakar langit yang sedang dalam tahap pembangunan di Bangkok runtuh saat gempa bermagnitudo (M) 7,7 terjadi pekan lalu... Pengujian awal terhadap material yang dikumpulkan di lokasi menunjukkan adanya baja di bawah standar di antara reruntuhan... Runtuhnya gedung itu menewaskan sedikitnya 12 orang.<br><br>Pada berita tersebut yang kaitannya dengan fenomena alam gempa bumi, manakah ayat Al-Qur'an yang sangat sesuai?",
-        "gambar": "",
-        "kutipan": "",
+        "num": 5,
+        "pertanyaan": "Di sebuah perumahan, warga muslim sepakat untuk menjaga ketenangan saat umat agama lain sedang melaksanakan ibadah perayaan hari besar. Tindakan ini mencerminkan prinsip \"La ikraha fiddin\" (QS. Al-Baqarah: 256) yang secara kontekstual bermakna...",
         "opsi": [
-            "<span class='text-2xl font-arabic block' dir='rtl'>يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ</span>",
-            "<span class='text-2xl font-arabic block' dir='rtl'>وَإِذَا الْجِبَالُ سُيِّرَتْ</span>",
-            "<span class='text-2xl font-arabic block' dir='rtl'>إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا</span>",
-            "<span class='text-2xl font-arabic block' dir='rtl'>إِذَا السَّمَاءُ انفَطَرَتْ</span>"
+            "Kebebasan beragama yang diiringi sikap saling menghargai batas-batas syariat, --- PAGE 2 --- tanpa mencampuradukkan akidah",
+            "Mengikuti ibadah agama lain sebagai bentuk toleransi tingkat tinggi",
+            "Pembenaran bahwa semua ajaran agama memiliki kedudukan yang sama persis di mata Allah",
+            "Sikap acuh tak acuh terhadap kegiatan ibadah orang lain di sekitar kita"
         ],
+        "tipe": "pg",
+        "kunciJawaban": 0,
+        "materi": "Al-Quran  &  Hadis  (Toleransi  Beragama)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 6,
+        "pertanyaan": "Nabi Musa a.s. dikisahkan memiliki kerinduan mendalam untuk kembali ke tanah kelahirannya (QS. Al-Qashas: 85). Jika nilai ini diadaptasi oleh seorang pelajar yang mendapat beasiswa studi di luar negeri, komitmen yang harus dibangun adalah...",
+        "opsi": [
+            "Menetap di luar negeri selamanya demi karir pribadi",
+            "Mengadopsi seluruh budaya asing dan melupakan budaya bangsa sendiri",
+            "Menyerap ilmu sebanyak mungkin untuk kelak dibawa kembali demi membangun dan memajukan tanah airnya",
+            "Menolak beasiswa tersebut karena khawatir terpengaruh gaya hidup barat"
+        ],
+        "tipe": "pg",
         "kunciJawaban": 2,
-        "tipsBidang": "",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Cinta  Tanah  Air)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 12,
-        "materi": "Aqidah",
-        "pertanyaan": "Perhatikan ayat (QS Al Ghosyiyah) berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ</span><br>Pada ayat tersebut dijelaskan bahwa tidak ada makanan untuk penghuni neraka selain dari ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 7,
+        "pertanyaan": "Sebuah sekolah mengadakan penggalangan dana sukarela untuk membantu korban gempa bumi. Beberapa siswa menghindar karena merasa hartanya akan berkurang. Mengacu pada QS. An-Nisa: 66, keengganan ini menyerupai sifat...",
         "opsi": [
-            "Darah dan nanah",
-            "Sumber mata air yang sangat panas",
-            "Cairan tembaga yang mendidih",
-            "Pohon yang berduri"
+            "Orang-orang musyrik yang menentang secara terbuka",
+            "Orang-orang munafik yang hatinya berat melakukan pengorbanan demi kebaikan umat",
+            "Orang-orang murtad yang keluar dari agama",
+            "Orang-orang mukmin yang sedang diuji kesabarannya"
         ],
-        "kunciJawaban": 3,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 13,
-        "materi": "Aqidah (HOTS)",
-        "pertanyaan": "Nama Achmad Zaky dikenal sebagai pendiri Bukalapak, marketplace besar dari Indonesia. Berasal dari pelosok Jawa Tengah tanpa akses listrik di masa kecil, semangatnya mempelajari pemrograman tak pernah surut demi merubah nasib. Dari nol ia merintis hingga menjadi CEO. Kisah Zaky adalah bukti bahwa sukses tak didapat dari malas-malasan, melainkan kerja keras mengubah keadaan.<br><br>Hal ini sangat sesuai dengan dalil ayat Al-Qur'an berikut: ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "<span class='text-2xl font-arabic block' dir='rtl'>وَكُلُّ شَيْءٍ عِندَهُ بِمِقْدَارٍ</span>",
-            "<span class='text-2xl font-arabic block' dir='rtl'>إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا مَا بِأَنفُسِهِمْ</span>",
-            "<span class='text-2xl font-arabic block' dir='rtl'>وَلِكُلِّ أُمَّةٍ أَجَلٌ ۖ</span>",
-            "<span class='text-2xl font-arabic block' dir='rtl'>وَنُفِخَ فِي الصُّورِ فَإِذَا هُم مِّنَ الْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ</span>"
-        ],
+        "tipe": "pg",
         "kunciJawaban": 1,
-        "tipsBidang": "",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Pengorbanan  Harta)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 14,
-        "materi": "Aqidah (HOTS)",
-        "pertanyaan": "Perhatikan fenomena berikut ini!<br>1) Terlahir dengan warna mata cokelat<br>2) Berhasil sembuh dari penyakit kritis setelah berobat rutin<br>3) Memenangkan medali olimpiade sains karena gigih belajar<br>4) Jenis kelamin bayi yang baru lahir<br>5) Hari kiamat mematikan seluruh penduduk bumi<br><br>Dalam konsep Qada dan Qadar, domain yang tergolong absolute (mutlak) sebagai Takdir Mubram (tanpa campur tangan ikhtiar manusia) ditunjukkan pada nomor ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 8,
+        "pertanyaan": "Sebuah desa mengalami ketertinggalan ekonomi karena seluruh pemudanya pergi ke kota untuk bekerja sebagai buruh pabrik, tidak ada yang mendalami ilmu agama maupun sains. Solusi terbaik berdasarkan pesan QS. At-Taubah: 122 adalah...",
         "opsi": [
-            "1, 2, dan 3",
-            "1, 4, dan 5",
-            "2, 3, dan 5",
-            "3, 4, dan 5"
+            "Melarang semua pemuda merantau agar desa tetap ramai",
+            "Mewajibkan seluruh pemuda tanpa terkecuali untuk fokus belajar di pesantren",
+            "Membagi peran: sebagian merantau mencari nafkah, sebagian lainnya diutus menuntut ilmu (tafaqquh fiddin) agar kelak bisa memajukan desanya",
+            "Meminta bantuan dana desa dari pemerintah tanpa perlu membangun sumber daya manusia"
         ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Al-Quran  &  Hadis  (Tafaqquh  Fiddin)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 9,
+        "pertanyaan": "Menghadapi kemajuan teknologi Kecerdasan Buatan (AI) yang menggantikan banyak pekerjaan manusia, respons seorang pelajar muslim yang mengamalkan QS. Al-Mujadalah: 11 seharusnya adalah...",
+        "opsi": [
+            "Terus memacu diri meningkatkan kompetensi dan ilmu pengetahuan agar mampu mengendalikan teknologi tersebut untuk kemaslahatan",
+            "Menolak menggunakan teknologi baru karena dianggap membawa banyak mudarat",
+            "Pasrah pada keadaan karena rezeki manusia sudah ada takdirnya masing-masing",
+            "Berhenti sekolah formal dan fokus mencari uang sejak dini"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 0,
+        "materi": "Al-Quran  &  Hadis  (Menuntut  Ilmu  /  AI)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 10,
+        "pertanyaan": "Perbedaan antara orang berilmu dan orang tidak berilmu (QS. Az-Zumar: 9) sangat terlihat saat merespons isu sosial di masyarakat, yaitu...",
+        "opsi": [
+            "Orang berilmu cenderung emosional, sedangkan yang tidak berilmu lebih tenang",
+            "Orang berilmu menghindari masalah, sedangkan yang tidak berilmu berani mengambil risiko",
+            "Orang berilmu menyelesaikan masalah berbasis analisis data dan syariat, sedangkan yang tidak berilmu lebih mengandalkan asumsi dan prasangka",
+            "Keduanya akan menghasilkan keputusan yang sama jika niatnya sama-sama baik"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Al-Quran  &  Hadis  (Etika  Orang  Berilmu)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 11,
+        "pertanyaan": "Keluarga Pak Ahmad mengalami musibah kebakaran yang menghabiskan tempat usahanya. Ia segera mengucap \"Inna lillahi wa inna ilaihi raji'un\" dan esoknya mulai --- PAGE 3 --- membersihkan sisa puing untuk memulai kembali. Sikap ini adalah perwujudan langsung dari...",
+        "opsi": [
+            "QS. Ali Imran: 102",
+            "QS. Al-Baqarah: 155-156",
+            "QS. Luqman: 33",
+            "QS. Al-Mujadalah: 11"
+        ],
+        "tipe": "pg",
         "kunciJawaban": 1,
-        "tipsBidang": "Takdir Mubram adalah ketentuan mutlak (jenis kelamin, fisik lahir bawaan, dan ajal/kiamat). Sedangkan kesembuhan dan prestasi adalah Takdir Muallaq (bisa diupayakan).",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Sabar  Menghadapi  Musibah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 15,
-        "materi": "Aqidah",
-        "pertanyaan": "Sebagai seorang muslim sejati, pastinya Al Qur'an menjadi penunjuk arah kehidupan terdepan. Dimulai dari menyempatkan belajar membacanya sampai menggunakan dalam kehidupan sehari-hari. Berikut ini adalah tahapan sistematis dalam mencintai Al Qur'an, yaitu ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 12,
+        "pertanyaan": "Dalam menghadapi ujian kelulusan, banyak siswa merasa tertekan secara psikologis. Jika mereka menerapkan instruksi QS. Ali Imran: 200 (bersabar dan bersiap siaga/ murabathah ), langkah strategis yang harus diambil adalah...",
         "opsi": [
-            "Membaca, memahami, mengamalkan dan mentadabburi",
-            "Memahami, membaca, mengamalkan, dan mentadabburi",
-            "Mentadabburi, membaca, memahami dan mengamalkan",
-            "Membaca, memahami, mentadabburi dan mengamalkan"
+            "Mengandalkan doa orang tua semata tanpa perlu belajar keras",
+            "Menyusun jadwal belajar yang disiplin, menjaga kesehatan fisik, diiringi kepasrahan kepada Allah",
+            "Memforsir diri belajar siang dan malam hingga jatuh sakit",
+            "Mencari kunci jawaban dari pihak luar sebagai bentuk \"ikhtiar\" maksimal"
         ],
-        "kunciJawaban": 3,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 16,
-        "materi": "Aqidah (Generasi Z)",
-        "pertanyaan": "Para Nabi dan Rasul adalah teladan terbaik dalam karakter. Di era digital inipun, sifat keteladanan para Nabi pantas dicontoh untuk kondusifnya kemajuan zaman dari penjahat dunia maya. Berikut ini <span class='font-bold italic'>bukan</span> ciri generasi digital yang berkarakter islami adalah ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Berinternet dengan aman dan bertanggungjawab",
-            "Memanfaatkan internet untuk kebaikan",
-            "Menghindari dampak negatif internet (hoaks/cyberbullying)",
-            "Menggunakan internet bebas sesukanya jika menguntungkan dirinya saja"
-        ],
-        "kunciJawaban": 3,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 17,
-        "materi": "Aqidah",
-        "pertanyaan": "Setiap hari kita berangkat sekolah, ada bermacam-macam tujuan para siswa sampai ke sekolah. Sebagai siswa muslim yang taat, pergi sekolah adalah salah satu ibadah karena melaksanakan perintah Allah SWT untuk mencari ilmu. Dengan ilmu yang ia dapatkan akan banyak manfaat di dunia dan akhirat yang ia peroleh, salah satunya adalah akan ditinggikan derajat bagi orang yang beriman dan berilmu. Selain itu Mencari ilmu adalah salah satu pencerminan iman kepada Asmaul Husna yaitu ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Al 'Aliim",
-            "Al Khobir",
-            "Al Bashir",
-            "As Sami'"
-        ],
-        "kunciJawaban": 0,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 18,
-        "materi": "Aqidah (HOTS)",
-        "pertanyaan": "Pemilu telah usai, sebagai warga negara dan muslim yang baik, Xena merasa lega bisa melaksanakan kewajibannya sebagai warga negara sekaligus sebagai muslim. Ia berkeyakinan bahwa memilih pemimpin dan wakil rakyat juga ibadah dan ada aturannya dalam Islam. Meski hasilnya tidak sesuai yang ia pilih, tapi apa yang ia lakukan pasti akan dicatat dan dipertanggungjawabkan di akhirat kelak. Ini merupakan pencerminan iman kepada malaikat....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Jibril",
-            "Ridwan",
-            "Rokib dan Atid",
-            "Munkar dan Nakir"
-        ],
-        "kunciJawaban": 2,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 19,
-        "materi": "Akhlak",
-        "pertanyaan": "Sebagai manusia di kehidupan sehari-hari pasti mengalami interaksi dengan lawan jenis. Oleh karena itu perlu memperhatikan etika pergaulan Islami dengan lawan jenis. Adapun etika pergaulan lawan jenis di antaranya <span class='font-bold italic'>kecuali</span> ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Berbicara sengaja dengan jarak yang saling berdempetan dekat",
-            "Menundukkan pandangan (Ghadul Bashar)",
-            "Menghindari berada berduaan di tempat yang sunyi (Khalwat)",
-            "Tidak berbaur campur aduk (Ikhtilat) secara bebas antara laki-laki dan perempuan"
-        ],
-        "kunciJawaban": 0,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 20,
-        "materi": "Akhlak",
-        "pertanyaan": "Saat menjelang Idul Fitri, Wawan menerima amplop gaji dari bosnya. Ia terkejut isinya jauh lebih banyak dari seharusnya. Karena yakin bos salah hitung, Wawan langsung mengembalikannya jujur. Si Bos malah tersenyum dan memberikan sisa uang itu kembali kepada Wawan sebagai 'Bonus Kejujuran'. Kejadian manis ini menggambarkan bahwa ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Majikan Wawan pada dasarnya tidak teliti hitung uang",
-            "Wawan awalnya panik takut dituduh polisi",
-            "Wawan langsung memetik hikmah berkah instan dari integritas kejujurannya",
-            "Uang itu sebenarnya memang murni bonus THR tanpa syarat"
-        ],
-        "kunciJawaban": 2,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 21,
-        "materi": "Akhlak",
-        "pertanyaan": "Di bulan suci, guru PAI menugaskan Lembar Kegiatan Amaliah Ramadhan di rumah. Hafidz sebagai siswa berintegritas, selalu mengisi buku laporannya itu sejujur-jujurnya sesuai fakta lapangan (tidak dikarang fiktif). Perilaku Hafidz tersebut merupakan contoh pelaksanaan tanggung jawab dan amanah kepada ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Sekolah",
-            "Orang tua",
-            "Teman sekelas",
-            "Allah SWT"
-        ],
-        "kunciJawaban": 3,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 22,
-        "materi": "Akhlak",
-        "pertanyaan": "Sebagai makhluk sosial, manusia selalu membutuhkan orang lain. Orang lain di sekitar kita harus diperlakukan secara baik, santun, saling menyayangi, dan menghormati. Berprasangka baik kepada orang lain akan menumbuhkan keharmonisan dalam kehidupan masyarakat. Sikap buruk sangka hanya akan memicu perpecahan dan konflik. Banyak pertikaian dan kerusuhan terjadi karena sikap buruk sangka. Jika ada isu-isu negative hendaknya diklarifikasi (tabayyun) terlebih dahulu agar kita tidak terjerumus kepada sikap curiga dan buruk sangka.<br>Orang yang terbiasa berbaik sangka dan mengutamakan tabayyun akan memperoleh manfaat sebagai berikut ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Hidup menjadi lebih harmonis, orang yang baik akan bergaul dengan orang baik, menghindari konflik fitnah di masyarakat",
-            "Jika mengalami kegagalan akan merasa sedih menyalahkan orang lain",
-            "Menjadi berfikir dan terkadang merasa lelah dan stress",
-            "Keras kepala dan tidak bisa dinasehati tetangga"
-        ],
-        "kunciJawaban": 0,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 23,
-        "materi": "Fiqih",
-        "pertanyaan": "Rukhsah adalah keringanan dari Allah Swt. untuk hambaNya dalam melaksanakan ibadah, tujuan diberikan rukhsah ini, agar mudah melaksanakan ibadah tanpa rasa berat.<br>Berikut ini yang <span class='italic font-bold'>bukan</span> termasuk rukhsah adalah ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Melaksanakan shalat jamak qashar saat mudik bepergian jauh",
-            "Membayar zakat fïtrah dengan uang",
-            "Mengganti puasa bagi orang yang sakit parah saat bulan Ramadhan",
-            "Membayar denda (Dam) bagi jamaah haji yang tidak bisa hadir saat wukuf"
-        ],
-        "kunciJawaban": 3,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 24,
-        "materi": "Akhlak",
-        "pertanyaan": "Dalam QS Al Ankabut /29 : 45 Allah SWT berfirman: <br><span class='italic font-bold'>... Sesungguhnya salat itu mencegah dari (perbuatan) keji dan mungkar ...</span><br>Pernyataan yang <span class='italic font-bold'>tidak</span> sesuai dengan hikmah ayat tersebut adalah ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Orang yang menjaga salatnya otomatis sedang menegakkan agama Allah",
-            "Salat adalah cara mengingat Allah Swt., orang yang senantiasa ingat tidak akan bermaksiat",
-            "Orang yang salat berarti hidupnya tidak punya kesempatan mencari rezeki",
-            "Orang yang khusyuk tekun dalam salat, hatinya akan lebih cenderung kepada amal saleh"
-        ],
-        "kunciJawaban": 2,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 25,
-        "materi": "Fiqih",
-        "pertanyaan": "Pak Hamid dan Bu Eka bersyukur dikaruniai melahirkan anak laki-laki lucu. Tiba saatnya hari ketujuh, keluarga ini bersiap merayakan syukur syariat penyembelihan Akikah. Syarat ketentuan jenis kurban akikah yang paling sah secara standar sunah Rasulullah untuk bayi rujukan mereka adalah ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Menyembelih cukup satu ekor ayam",
-            "Dua ekor domba atau kambing",
-            "Satu ekor domba atau kambing",
-            "Satu ekor sapi utuh"
-        ],
+        "tipe": "pg",
         "kunciJawaban": 1,
-        "tipsBidang": "Sesuai fiqih, akikah untuk laki-laki disyariatkan sunnah afdhol dengan dua ekor kambing/domba.",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Kesiagaan  Psikologis)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 26,
-        "materi": "Fiqih",
-        "pertanyaan": "Salat gerhana dalam fikih Islam dikenal dengan istilah shalat <i>Kusufain</i> yang berarti shalat dua tipe gerhana (matahari maupun bulan). Hukum shalat gerhana ini sunah muakkad.<br>Di bawah ini ketentuan detail teknis shalat gerhana yang benar adalah ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 13,
+        "pertanyaan": "Dalam lafaz \"وَﻟَﻧَﺑْﻠُوَﻧﱠﻛُم\" , terdapat huruf ba' (ب) yang berharakat sukun asli di tengah kalimat. Kaidah tajwid mengharuskan huruf ini dibaca dengan cara...",
         "opsi": [
-            "Shalat khusuf dilakukan berjamaah dengan jumlah rekaat dua, dua ruku' pada tiap rekaatnya.",
-            "Shalat gerhana dilakukan berjamaah dengan membaca selawat di sujud panjang.",
-            "Shalat kusuf dilakukan munfarid tanpa perlu ruku'.",
-            "Shalat khusuf batal jika tidak mendengar khutbah gerhana."
+            "Memantul secara ringan (Qalqalah Sughra)",
+            "Memantul dengan tekanan kuat (Qalqalah Kubra)",
+            "Berdengung selama 2 harakat (Ghunnah)",
+            "Samar-samar mendekati huruf mim (Ikhfa)"
         ],
+        "tipe": "pg",
         "kunciJawaban": 0,
-        "tipsBidang": "Shalat gerhana cirinya ada DUA KALI rukuk di masing-masing rakaat.",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Tajwid:  Qalqalah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 27,
-        "materi": "Fiqih (HOTS)",
-        "pertanyaan": "Riba secara istilah berarti tambahan pada harta yang disyaratkan dalam transaksi menukar uang. Jika Aisya meminjam uang dana darurat kepada Siti sebesar Rp.50.000,00 selama enam bulan tanpa ada perjanjian apapun. Namun, ketika lunas jatuh tempo Aisya mengembalilan uang tersebut sejumlah Rp.55.000,00 dengan murni sukarela karena merasa sangat berhutang budi kebaikan Siti. Maka uang Rp.5.000,00 yang dilebihkan Aisya kepada Siti dihukumi ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 14,
+        "pertanyaan": "Seorang qari' membaca ayat yang mengandung lafaz \"ﻣِنْ ﺑَﻌْدِ\" . Secara tajwid (Iqlab), analisis fonologis yang terjadi pada bacaan tersebut adalah...",
         "opsi": [
-            "Masuk ranah Riba Fadl yang dosa mutlak",
-            "Masuk ranah Riba Nasi'ah yang mutlak membatalkan pahala sedekah",
-            "Bukan Riba, karena tanpa akad pemaksaan, jadi statusnya adalah sedekah hadiah (halal)",
-            "Tergolong penipuan denda rentenir terselubung"
+            "Suara huruf nun mati dibaca jelas tanpa ada perubahan",
+            "Suara huruf nun mati dileburkan sepenuhnya ke dalam huruf ba'",
+            "Suara huruf nun mati diubah menjadi bunyi mim sukun yang disamarkan, disertai dengungan di rongga hidung",
+            "Suara huruf nun mati disamarkan menyerupai huruf ng"
         ],
+        "tipe": "pg",
         "kunciJawaban": 2,
-        "tipsBidang": "Memberikan tambahan secara murni sukarela SAAT pelunasan (padahal hutang tak mensyaratkannya) tergolong hadiah/terima kasih yang mulia, bukan Riba.",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Tajwid:  Iqlab)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 28,
-        "materi": "Fiqih",
-        "pertanyaan": "Laela salat Zuhur sendirian (munfarid) di kamarnya. Saking tak fokus, di rakaat penutup ia ragu \"Ini tadi sudah rakaat 3 atau 4 ya? Lupa!\". Dalam skenario kebimbangan darurat memori ini, apa manuver teknis yang wajib ditempuh Laela seketika?",
-        "gambar": "",
-        "kutipan": "",
+        "num": 15,
+        "pertanyaan": "Perbedaan cara membaca antara lafaz \"ٱﻟﺷﱠﻣْسُ\" Asy-Syams) dan \"ٱﻟْﻘَﻣَرُ\" Al-Qamar) berdasarkan kaidah tajwid Alif Lam terletak pada...",
         "opsi": [
-            "Membatalkan salat dan mengulang takbiratul ihram baru dari rakaat awal",
-            "Melanjutkan saja nekat lalu melaksanakan Sujud Tilawah setelah salam",
-            "Menetapkan pada kepastian jumlah paling sedikit (3) ditambah 1 rakaat lagi, lalu menutupi dengan Sujud Sahwi sebelum salam",
-            "Bertanya berteriak ke ibu menanyakan rakaatnya"
+            "Pada Asy-Syams huruf lam dibaca jelas, pada Al-Qamar huruf lam dilebur",
+            "Pada Asy-Syams huruf lam dilebur ke huruf syin (Syamsiyah), pada Al-Qamar huruf lam dibaca jelas (Qamariyah)",
+            "Pada Asy-Syams terdapat mad thabi'i, sedangkan pada Al-Qamar tidak ada",
+            "Pada Asy-Syams harus dibaca dengan qalqalah, sedangkan Al-Qamar dibaca ghunnah"
         ],
-        "kunciJawaban": 2,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 29,
-        "materi": "Tarikh",
-        "pertanyaan": "Osman I sang singa pendiri Daulah Turkic Usmani menanamkan ideologi jihad murni non-pamrih militer. Pasukan elit pendobraknya begitu militan disegani daratan eropa. Para patriot infantri garda depan ini dilabeli status gelar <strong>'Al-Ghazi'</strong>, yang bernyawa makna ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Pembunuh Hitam Berbayar",
-            "Tentara Bayaran Asing",
-            "Ksatria Penakluk / Pasukan Syuhada Pahlawan Islam",
-            "Penjaga Harta Kerajaan"
-        ],
-        "kunciJawaban": 2,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 30,
-        "materi": "Tarikh (HOTS)",
-        "pertanyaan": "Tahun 1453 M menjadi tahun paling mengguncang bagi peradaban Eropa sekaligus loncatan agung bagi imperium Islam. Sultan Muhammad Al-Fatih mencetak rekor sejarah merebut benteng absolut paling elit di Eropa kala itu yaitu Konstantinopel (Bizantium) dengan menurunkan meriam basilica raksasa. Dampak global terpenting dari penaklukan benteng strategis ini bagi konstelasi dunia masa itu adalah ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Hancurnya total asimilasi penduduk budaya seluruh Eropa",
-            "Jalur gerbang rempah-rempah eropa tertutup oleh usmani sehingga Eropa panik memicu Era Penjelajahan Samudra Spanyol/Portugis",
-            "Tamatnya Kekhalifahan Abbasiyah di timur tengah",
-            "Meredam Revolusi Industri di benua Amerika kuno"
-        ],
+        "tipe": "pg",
         "kunciJawaban": 1,
-        "tipsBidang": "Jatuhnya Konstantinopel memaksa bangsa Barat mencari rute laut baru ke Timur, yang memicu ekspedisi Magellan/Columbus dan dimulainya Kolonialisme.",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Tajwid:  Al-Syamsiyah  &  Qamariyah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 31,
-        "materi": "Fiqih",
-        "pertanyaan": "Mazhab adalah konvensi manhaj atau landasan rute pemikiran teologi fikih. Di dunia Sunni (Ahlussunnah Wal Jamaah) modern saat ini terpusat komando pada 4 Imam Mazhab absolut yang paling otoritatif. Berikut ini yang <span class='font-bold italic'>bukan</span> termasuk dalam pendiri 4 mazhab fikih tersebut adalah ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 16,
+        "pertanyaan": "Saat membaca lafaz \" ﺑِﺳْمِ ٱ\u0000ﱠِ \", pembaca harus menganalisis harakat huruf sebelum lafaz Allah (Lam Jalalah). Karena huruf mim berharakat kasrah, maka lafaz Allah wajib dibaca secara...",
         "opsi": [
-            "Imam Abu Hanifah",
-            "Imam Malik bin Anas",
-            "Imam Al-Ghazali",
-            "Imam Ahmad bin Hanbal"
+            "Tafkhim (tebal, rongga mulut penuh)",
+            "Tarqiq (tipis, posisi lidah merendah)",
+            "Ghunnah (dengung yang ditahan)",
+            "Idgham (dileburkan)"
         ],
-        "kunciJawaban": 2,
-        "tipsBidang": "",
-        "tipe": "pg"
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Al-Quran  &  Hadis  (Tajwid:  Lam  Jalalah",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 32,
-        "materi": "Tarikh",
-        "pertanyaan": "Peradaban Daulah Abbasiyah (Baghdad) mencatat masa keemasan <i>The Golden Age of Islam</i>. Budaya Literasi Terjemah dari bahasa Yunani ke bahasa Arab menjadi prioritas mutlak. Institusi riset raksasa paling epik yang mendunia kala itu adalah <b>Bayt Al-Hikmah</b> (The House of Wisdom). Siapa khalifah inisiator yang memfungsikan pilar monumental tersebut?",
-        "gambar": "",
-        "kutipan": "",
+        "num": 17,
+        "pertanyaan": "Hukum Mad Wajib Muttasil berlaku apabila Mad Thabi'i bertemu hamzah di dalam satu kata (seperti: ﺟَﺂءَ .) Mengapa hukum bacaan ini disebut \"wajib\" panjangnya (4-5 harakat)?",
         "opsi": [
-            "Khalifah Al-Makmun, difungsikan formal sebagai universitas & biro terjemah publik",
-            "Khalifah Al-Amin, difungsikan sebagai benteng perlindungan militer",
-            "Khalifah Abu Ja'far Al-Mansur, sebagai sentra pengumpulan pajak negara",
-            "Khalifah Harun Ar-Rasyid, disembunyikan sebagai loker buku privasi keluarga raja"
+            "Karena jika dipendekkan akan merusak tatanan makna kata secara ekstrem dalam bahasa Arab",
+            "Karena hamzah merupakan huruf yang berat diucapkan sehingga butuh jeda yang lama --- PAGE 4 ---",
+            "Karena bertepatan dengan tanda waqaf lazim di akhir ayat",
+            "Karena semua ulama Qiraah sepakat mutlak membacanya lebih dari dua harakat tanpa ada keringanan memendekkannya menjadi dua harakat"
         ],
-        "kunciJawaban": 0,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 33,
-        "materi": "Tarikh",
-        "pertanyaan": "Cocokkan silang cendekiawan ilmuwan muslim elite era klasik dengan disiplin ilmunya!<br>1) Muhammad ibn Musa Al-Khwarizmi<br>2) Ibnu Sina (Avicenna)<br>3) Al-Ghazali<br>4) Jabir bin Hayyan<br><br>Garis disiplin keilmuan yang paling tepat adalah ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "1-Matematika Aljabar, 2-Kedokteran (Bapak Medis Modern), 3-Tasawuf/Akhlak, 4-Kimia",
-            "1-Astronomi, 2-Filsafat Barat, 3-Kedokteran, 4-Fisika Kuantum",
-            "1-Tasawuf, 2-Ahli Bedah, 3-Matematika, 4-Sosiologi",
-            "1-Geografi Navigasi, 2-Ilmu Fikih, 3-Ahli Botani, 4-Arsitektur"
-        ],
-        "kunciJawaban": 0,
-        "tipsBidang": "",
-        "tipe": "pg"
-    },
-    {
-        "id": 34,
-        "materi": "Tarikh",
-        "pertanyaan": "Keharuman peradaban Umayyah di benua Eropa berpusat di Andalusia (Spanyol). Peninggalan pariwisata yang membikin dunia takjub hingga hari ini melihat kecanggihan kaligrafi dan arsitektur batu bata bata merah nan megah adalah reruntuhan mahakarya Keraton ....",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [
-            "Menara Emas Katedral",
-            "Mezquita Kordoba",
-            "Taj Mahal",
-            "Istana Merah Al-Hamra (Alhambra)"
-        ],
+        "tipe": "pg",
         "kunciJawaban": 3,
-        "tipsBidang": "",
-        "tipe": "pg"
+        "materi": "Al-Quran  &  Hadis  (Tajwid:  Mad  Wajib  Muttasil)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 35,
-        "materi": "Tarikh (HOTS)",
-        "pertanyaan": "Umar Bin Abdul Aziz adalah Sang Legenda dari Kekhalifahan Bani Umayyah di Damaskus (sering dijuluki <i>Khulafaur Rasyidin ke-5</i> berkat keadilannya). Di antara mahakarya pemerintahannya, terdapat satu warisan agung yang menjaga lestarinya sumber agama hingga terselamatkannya umat Islam hari ini, yaitu ....",
-        "gambar": "",
-        "kutipan": "",
+        "num": 18,
+        "pertanyaan": "Siswa kelas IX membaca lafaz \"ﻋَمﱠ ﯾَﺗَﺳَﺂءَﻟُونَ\" . Mim yang bertasydid pada kata \"Amma\" mewajibkan penerapan hukum Ghunnah Musyaddadah. Cara mengaplikasikan hukum ini adalah...",
         "opsi": [
-            "Intruksi resmi kodifikasi (pembukuan massal) Hadis lintas provinsi",
-            "Penaklukan benua eropa barat tanpa pertempuran berdarah",
-            "Membangun armada laut tempur terbesar melampaui Romawi",
-            "Memadukan hukum Romawi ke dalam syariat peradilan Fikih lokal"
+            "Membaca mim secara jelas dan cepat",
+            "Membunyikan mim dengan menahan suara di rongga hidung (dengung) selama kurang lebih 2-3 harakat",
+            "Memantulkan huruf mim di akhir pengucapan",
+            "Menyembunyikan mim di bibir tanpa suara sengau"
         ],
-        "kunciJawaban": 0,
-        "tipsBidang": "Umar bin Abdul Aziz memerintahkan Ibnu Syihab az-Zuhri untuk melacak dan membukukan hadis secara kenegaraan agar tidak punah saat banyak ulama wafat.",
-        "tipe": "pg"
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Al-Quran  &  Hadis  (Tajwid:  Ghunnah  Musyaddadah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 36,
-        "materi": "Akhlak (Tradisi & Seni Islami)",
-        "pertanyaan": "Kesenian Islam bersifat luhur dan sama sekali tidak membatasi kreativitas manusia selama mematuhi koridor syariat akidah. Manakah dari pernyataan di bawah ini yang sepenuhnya merepresentasikan karya <b>Seni Islami dan Tradisi Lokal</b> bertema kepatuhan? <br><br><i>(Pilihlah dua indikator ciri yang tepat! PGA)</i>",
-        "gambar": "",
-        "kutipan": "",
+        "num": 19,
+        "pertanyaan": "Seseorang membaca ayat dan memilih waqaf (berhenti) pada lafaz \"أَﺣَدٌ\" . Huruf dal berharakat dammahtain berubah menjadi sukun arid (sukun baru). Secara analitis, hukum bacaan tajwid yang terbentuk adalah...",
         "opsi": [
-            "Sastra musik lokal yang syairnya mengajak mabuk dan kemewahan foya-foya duniawi",
-            "Kaligrafi murni Arab (Khat) yang mengukir ayat suci di dinding masjid",
-            "Seni pahat patung berwujud menyerupai dewa peribadatan secara utuh tiga dimensi",
-            "Tradisi Tahlilan/Qasidah (vokal rebana) yang liriknya berisi selawat nabi dan nasihat moral"
+            "Izhar Halqi",
+            "Mad Iwad, mengganti dammahtain menjadi alif",
+            "Qalqalah Kubra, dibaca memantul dengan kuat karena berada di posisi waqaf",
+            "Qalqalah Sughra, karena huruf dal adalah huruf asli qalqalah"
         ],
-        "kunciJawaban": [
-            1,
-            3
-        ],
-        "tipsBidang": "",
-        "tipe": "pga"
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Al-Quran  &  Hadis  (Tajwid:  Qalqalah  Kubra)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 37,
-        "materi": "Fiqih (Aqiqah & Qurban)",
-        "pertanyaan": "Secara substansial, pelaksanaan Kurban (Idul Adha) dan Aqiqah (Syukuran anak dilaahirkan) sama-sama merupakan ibadah penyembelihan yang bernilai tinggi namun dengan rujukan dan parameter waktu yang berbeda. Pilihlah ketentuan mana saja yang BENAR membedakan Qurban dan Aqiqah! <br><br><i>(Boleh memilih lebih dari satu jawaban PGA)</i>",
-        "gambar": "",
-        "kutipan": "",
+        "num": 20,
+        "pertanyaan": "Menganalisis hukum Ra' (ر) pada lafaz \"ﻓِرْﻋَوْنَ\" . Huruf ra' pada kata tersebut bersukun. Meskipun demikian, ra' ini wajib dibaca Tarqiq (tipis). Alasan yang tepat berdasarkan ilmu tajwid adalah...",
         "opsi": [
-            "Hewan Aqiqah mutlak disembelih pada rentang tanggal 10, 11, 12, dan 13 Dzulhijjah saja",
-            "Hewan Kurban (misal Sapi/Unta) boleh patungan 7 orang, sementara Aqiqah tidak diperkenankan patungan komunal hewan",
-            "Tujuan utama Aqiqah adalah murni menembus tebusan perlindungan bagi anak yang baru dilahirkan ke dunia",
-            "Daging kurban disyaratkan untuk dibagikan dalan kondisi sudah matang (dimasak) layaknya Aqiqah"
+            "Didahului oleh huruf berharakat fathah",
+            "Berada di tengah-tengah kata yang panjang",
+            "Didahului huruf berharakat kasrah asli dan setelahnya bukan merupakan huruf Isti'la (huruf tebal)",
+            "Karena kata tersebut merupakan nama orang non-Arab"
         ],
-        "kunciJawaban": [
-            1,
-            2
-        ],
-        "tipsBidang": "Qurban boleh patungan (Sapi/Unta 7 orang). Aqiqah syarat utamanya adalah tebusan kelahiran. Daging qurban dibagikan MENTAH, Aqiqah MATANG.",
-        "tipe": "pga"
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Al-Quran  &  Hadis  (Tajwid:  Hukum  Ra'  Tarqiq)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 38,
-        "materi": "Al-Qur'an (Khalifah & Keseimbangan)",
-        "pertanyaan": "Berdasarkan prinsip kandungan Q.S Al-Qasas: 77 (<i>...dan carilah porsi keselamatan di negeri akhirat tanpa melupakan porsimu di kehidupan dunia, dan berbuat baiklah serta jangan merusak bumi...</i>). Sikap manakah di bawah ini yang sejalan dan mengamalkan instruksi Keseimbangan Paradoks tersebut? <br><br><i>(Pilihan Ganda Kompleks - Centang Opsi Benar)</i>",
-        "gambar": "",
-        "kutipan": "",
+        "num": 21,
+        "pertanyaan": "Seorang auditor memiliki kesempatan memanipulasi laporan keuangan sekolah demi keuntungan pribadi tanpa diketahui kepala sekolah. Namun ia menolak melakukannya karena meyakini sifat Allah Al-'Alim dan Al-Khabir. Dampak sosiologis dari pengamalan Asmaul Husna ini adalah...",
         "opsi": [
-            "Mengeksploitasi tambang batu bara liar demi mendirikan puluhan panti asuhan yatim",
-            "Bekerja keras dari pagi hingga sore merintis startup digital Halal untuk menafkahi kemandirian keluarga dan membayar zakat",
-            "Merusak terumbu karang ekosistem laut demi proyek pembangunan properti mewah pesisir",
-            "Berdoa menangis siang-malam di dalam masjid menanti rezeki turun dari surga tanpa mau berikhtiar mencari kerja di luar"
+            "Menciptakan kecurigaan berlebihan antar rekan kerja",
+            "Terbentuknya sistem integritas berbasis kesadaran spiritual (self-control) tanpa perlu pengawasan fisik yang ketat",
+            "Meningkatkan ketakutan terhadap ancaman pidana dari aparat penegak hukum",
+            "Membangun citra diri agar cepat mendapatkan promosi jabatan"
         ],
-        "kunciJawaban": [
-            1
-        ],
-        "tipsBidang": "",
-        "tipe": "pga"
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Aqidah  (Asmaul  Husna:  Al-'Alim,  Al-Khabir)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 39,
-        "materi": "Tarikh (Tokoh Abbasiyah)",
-        "pertanyaan": "Kehebatan Ilmuwan Muslim klasik tak bisa ditampik berkontribusi mencetak peta sains dunia saat ini. Ibnu Sina (Avicenna) disebut sebagai Sang Bapak Medis Modern yang karya literaturnya dihafal matang oleh mahasiswa London di masa itu. Manakah dari gelar dan kitab berikut yang memang shahih ditujukan untuk masterpiece Ibnu Sina? <br><br><i>(Pilihan Ganda Kompleks - Centang Opsi Benar/Bisa lebih dari 1)</i>",
-        "gambar": "",
-        "kutipan": "",
+        "num": 22,
+        "pertanyaan": "Di media sosial, marak fenomena akun anonim (fake account) yang digunakan untuk melontarkan ujaran kebencian. Seorang remaja muslim menolak tren ini karena meyakini sifat Al-Sami' dan Al-Basir. Pemahamannya adalah...",
         "opsi": [
-            "Al-Qanun fi at-Tibb (The Canon of Medicine) kitab rujukan ensiklopedia medis Eropa selama berabad-abad",
-            "Ihya Ulumuddin kitab pembangkit nilai ruhani tasawuf kalbu",
-            "Sang Perintis Teori Orbit Planet Kosmologi Astrologi Barat",
-            "Ahli di bidang penyembuhan klinis empirik dan dijuluki Pangeran Para Dokter (Prince of Physicians)"
+            "Takut rekam jejak digitalnya dibongkar oleh peretas ahli",
+            "Sadar bahwa Allah Maha Melihat rekam ketikan di layar dan Maha Mendengar niat buruk di dalam hati, meskipun identitasnya disembunyikan dari manusia",
+            "Kawatir akun anonimnya dilaporkan dan di-banned oleh pihak platform",
+            "Merasa perbuatan menyebarkan ujaran kebencian membuang kuota internet"
         ],
-        "kunciJawaban": [
-            0,
-            3
-        ],
-        "tipsBidang": "",
-        "tipe": "pga"
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Aqidah  (Asmaul  Husna:  Al-Sami',  Al-Basir)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 40,
-        "materi": "Akhlak (HOTS Ghibah/Tabayyun)",
-        "pertanyaan": "Di tengah serbuan arus algoritma sosial media generasi Z, gosip dan pembusukan karakter alias Ghibah <i>(Cyberbullying)</i> menjadi hal paling lumrah namun mematikan. Seorang muslimah digital harus dibekali senjata 'Tabayyun'. Bagaimana aksi proteksi konkrit yang harus diluncurkan ketika kita menerima <i>broadcast</i> potongan video aib teman sekelas? <br><br><i>(Pilih tindakan-tindakan preventif Islami yang tepat! PGA)</i>",
-        "gambar": "",
-        "kutipan": "",
+        "num": 23,
+        "pertanyaan": "Seorang ilmuwan muslim meneliti struktur DNA manusia yang miliaran jumlahnya dan tersusun sangat sistematis. Penelitian ini mengantarkannya pada kekaguman luar biasa dan memperkuat imannya terhadap Asmaul Husna...",
         "opsi": [
-            "Langsung percaya 100% video tersebut dan segera memutus tali pertemanan karena alergi toxic",
-            "Meredam distribusi video tersebut hanya bertepi di grup Whatsapp kita pribadi tanpa membagikannya ulang (Stop Forward)",
-            "Menghubungi subjek/objek terkait secara privat kekeluargaan tanpa menghakiminya guna menggali konteks yang utuh",
-            "Mengklarifikasi langsung di kolom komentar akun gosip publik agar viral sekalian demi efek jera bagi pelaku yang ada di video"
+            "Al-Quddus",
+            "Al-Ghafur --- PAGE 5 ---",
+            "Al-Khabir",
+            "As-Salam"
         ],
-        "kunciJawaban": [
-            1,
-            2
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Aqidah  (Asmaul  Husna:  Al-Khabir)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 24,
+        "pertanyaan": "Bagi seorang remaja yang sedang mencari jati diri dan mudah terpengaruh *peer pressure* (tekanan teman sebaya), fungsi utama mengimani keberadaan Malaikat Raqib dan Atid adalah...",
+        "opsi": [
+            "Menjadikannya individu yang tertutup (introvert) dan menjauhi interaksi sosial",
+            "Menjadi alarm internal yang menahan dirinya saat diajak melakukan perbuatan melanggar norma, karena sadar pencatatan amal terus berlangsung",
+            "Mendorongnya untuk segera mencari pekerjaan agar rezekinya dicatat malaikat",
+            "Membuatnya merasa selalu diawasi sehingga hidupnya tidak tenang"
         ],
-        "tipsBidang": "Tabayyun digital adalah konfirmasi privat murni silaturahmi (bukan menghakimi/melabrak) dan otomatis men-stop lajur forward hoaks.",
-        "tipe": "pga"
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Aqidah  (Iman  kepada  Malaikat  Raqib  Atid)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 41,
-        "materi": "Al-Qur'an (Uraian)",
-        "pertanyaan": "Islam sangat memuliakan orang yang rajin belajar. Hal ini tertulis dalam Al-Qur'an Surah Al-Mujadalah ayat 11 yang menjanjikan derajat tinggi bagi orang beriman dan berilmu.<br><br>Jawablah pertanyaan berikut:<br>1. Apa isi pokok atau pesan utama dari QS. Al-Mujadalah ayat 11 tentang menuntut ilmu?<br>2. Sebutkan 2 (dua) contoh sikap yang mencerminkan adab belajar yang baik di era zaman sekarang!",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [],
-        "kunciJawaban": 0,
-        "tipsBidang": "1. QS. Al-Mujadalah: 11 berisi perintah Allah untuk melapangkan majelis dan beranjak jika disuruh. Allah berjanji akan mengangkat derajat orang beriman dan berilmu. 2. Contoh: mematikan notifikasi HP saat pelajaran berlangsung, tidak menyontek, dan aktif bertanya kepada guru.",
-        "tipe": "uraian"
+        "num": 25,
+        "pertanyaan": "Malaikat Mikail bertugas mengatur distribusi rezeki. Jika seorang pemuda mengalami Pemutusan Hubungan Kerja (PHK), respons yang paling sejalan dengan keimanannya kepada tugas Mikail adalah...",
+        "opsi": [
+            "Berdiam diri di rumah dan menunggu rezeki turun dengan sendirinya",
+            "Marah kepada sistem ekonomi global yang tidak adil",
+            "Mengevaluasi diri, meningkatkan keterampilan, dan terus mencari peluang baru dengan keyakinan bahwa porsi rezeki dari Allah sangat luas dan tidak pernah tertukar",
+            "Menyalahkan atasannya di perusahaan lama"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Aqidah  (Iman  kepada  Malaikat  Mikail)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 42,
-        "materi": "Fiqih (Uraian)",
-        "pertanyaan": "Imam Syafi'i adalah salah satu dari empat Imam Besar dalam ilmu Fikih Islam. Beliau dikenal sebagai ulama yang sangat gigih belajar sejak kecil walau dari keluarga sederhana.<br><br>Sebutkan 3 (tiga) sifat atau kebiasaan baik Imam Syafi'i yang bisa kamu tiru dalam kehidupan sehari-hari sebagai pelajar!",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [],
-        "kunciJawaban": 0,
-        "tipsBidang": "1. Semangat merantau jauh demi menuntut ilmu. 2. Sangat hormat dan memuliakan guru. 3. Bersikap moderat (adil dan seimbang) dalam segala hal.",
-        "tipe": "uraian"
+        "num": 26,
+        "pertanyaan": "Bencana alam sering menimbulkan kepanikan masal. Mengimani Malaikat Israfil (peniup sangkakala kiamat) dapat mereduksi kepanikan irasional menjadi energi positif berupa...",
+        "opsi": [
+            "Membangun bungker bawah tanah yang diklaim anti kiamat",
+            "Sikap antisipatif logis (mitigasi bencana) sekaligus kesiapan spiritual dengan memperbanyak amal saleh sebelum batas waktu dunia benar-benar berakhir",
+            "Penyebaran hoaks tentang tanggal pasti datangnya kiamat",
+            "Sikap pasrah total tanpa mau melakukan evakuasi saat bencana datang"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Aqidah  (Iman  kepada  Malaikat  Israfil)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 43,
-        "materi": "Tarikh (Uraian)",
-        "pertanyaan": "Kerajaan Islam Dinasti Abbasiyah yang berpusat di Kota Baghdad pernah menjadi pusat ilmu pengetahuan dunia, sehingga masa itu disebut sebagai 'Zaman Keemasan Islam'.<br><br>Jawablah pertanyaan berikut:<br>1. Mengapa masa Dinasti Abbasiyah disebut sebagai 'Zaman Keemasan Islam'? Berikan 2 alasannya!<br>2. Apa fungsi utama dari 'Bayt Al-Hikmah' yang terkenal pada masa itu?",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [],
-        "kunciJawaban": 0,
-        "tipsBidang": "1. Karena banyak kemajuan ilmu pengetahuan (kedokteran, matematika, astronomi) dan pemerintah mendanai kegiatan ilmiah. 2. Bayt Al-Hikmah berfungsi sebagai perpustakaan dan tempat menerjemahkan buku-buku ilmu pengetahuan dari bahasa Yunani dan India ke bahasa Arab.",
-        "tipe": "uraian"
+        "num": 27,
+        "pertanyaan": "Dalam konteks toleransi di sekolah, seorang siswa muslim meyakini Al-Quran sebagai kitab penyempurna, namun ia tetap menghormati teman beragama lain yang berpedoman pada kitab sucinya. Korelasi keimanan kepada kitab-kitab Allah (sebelum Al-Quran) terhadap sikap toleran ini adalah...",
+        "opsi": [
+            "Umat Islam wajib mengikuti juga ajaran dari kitab-kitab terdahulu",
+            "Al-Quran membenarkan bahwa kitab-kitab sebelumnya (Taurat, Injil, Zabur) pada asalnya adalah wahyu Allah, sehingga melahirkan sikap saling menghormati keragaman keyakinan samawi",
+            "Semua kitab suci pada era modern ini dianggap memiliki kemurnian yang setara 100%",
+            "Toleransi berarti mencampuradukkan ajaran kitab suci agar semua pihak merasa dihargai"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Aqidah  (Iman  kepada  Kitab-Kitab  Allah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 44,
-        "materi": "Aqidah (Uraian)",
-        "pertanyaan": "Sebagai orang Islam, kita wajib beriman kepada Malaikat Allah. Dua di antara malaikat yang bertugas mencatat amal manusia adalah Malaikat Raqib (pencatat amal baik) dan Malaikat Atid (pencatat amal buruk).<br><br>Jawablah pertanyaan berikut:<br>1. Sebutkan 3 perbedaan antara Malaikat, Jin dan Manusia!<br>2. Apa pengaruhnya bagi perilakumu sehari-hari jika kamu betul-betul yakin bahwa Malaikat Raqib dan Atid selalu mencatat semua perbuatanmu?",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [],
-        "kunciJawaban": 0,
-        "tipsBidang": "1. Malaikat: diciptakan dari cahaya (Nur), tidak punya hawa nafsu, selalu taat. Jin: diciptakan dari api, punya hawa nafsu, bisa taat atau durhaka. Manusia: diciptakan dari tanah/saripati tanah, punya hawa nafsu dan akal, bisa berbuat baik atau buruk. 2. Akan lebih berhati-hati dalam bertindak, tidak berani berbuat curang (nyontek), tidak membuang-buang waktu, dan selalu berusaha berbuat baik meski tidak ada yang melihat.",
-        "tipe": "uraian"
+        "num": 28,
+        "pertanyaan": "Di tengah derasnya arus budaya global yang sering bertentangan dengan norma agama, Al-Quran difungsikan sebagai Al-Furqan . Maksud dari fungsi Al-Furqan bagi karakter remaja muslim adalah...",
+        "opsi": [
+            "Sebagai pedoman yang bersifat fleksibel mengikuti tren mayoritas masyarakat",
+            "Sebagai alat pemisah yang tegas untuk membedakan antara yang hak (benar) dan yang batil (salah), sehingga remaja tidak mudah terseret arus pergaulan bebas",
+            "Sebagai bacaan ritual semata saat ada orang meninggal dunia",
+            "Sebagai kumpulan kisah sejarah yang tidak berhubungan dengan hukum modern"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Aqidah  (Fungsi  Al-Quran  sebagai  Al-Furqan)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     },
     {
-        "id": 45,
-        "materi": "Aqidah (Uraian)",
-        "pertanyaan": "Dalam Islam, kita mengenal dua jenis Takdir Allah, yaitu Takdir Mubram dan Takdir Muallaq.<br><br>Jawablah pertanyaan berikut:<br>1. Jelaskan dengan bahasa kamu sendiri, apa perbedaan antara Takdir Mubram dan Takdir Muallaq!<br>2. Berikan masing-masing 1 (satu) contoh Takdir Mubram dan 1 contoh Takdir Muallaq dalam kehidupan nyata!",
-        "gambar": "",
-        "kutipan": "",
-        "opsi": [],
+        "num": 29,
+        "pertanyaan": "Salah satu bukti kecerdasan (Fathanah) Rasulullah SAW dalam membangun peradaban multikultural di Madinah yang relevan untuk resolusi konflik bangsa saat ini adalah... --- PAGE 6 ---",
+        "opsi": [
+            "Mengusir paksa semua penduduk asli yang tidak mau masuk Islam",
+            "Menggagas Piagam Madinah yang menjamin kebebasan beragama, hak sipil, dan kewajiban membela kota secara bersama antara muslim dan Yahudi",
+            "Membangun tembok pembatas antara pemukiman muslim dan non-muslim",
+            "Memfokuskan seluruh anggaran negara untuk memperkuat angkatan perang militer"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Aqidah  (Sifat  Rasul:  Fathanah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 30,
+        "pertanyaan": "Seorang ketua kelas menggunakan dana kas untuk kepentingan pribadi dan berbohong saat ditanya wali kelas. Tindakannya ini secara diametral melanggar sifat wajib rasul, khususnya sifat...",
+        "opsi": [
+            "Tabligh dan Fathanah",
+            "Amanah (dapat dipercaya) dan Shidiq (jujur)",
+            "Baladah dan Khianat",
+            "Kitman dan Kizib"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Aqidah  (Sifat  Wajib  &  C3  (Identifikasi",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 31,
+        "pertanyaan": "Konsep Hari Kiamat sering direduksi oleh film fiksi ilmiah sekadar sebagai hancurnya bumi akibat meteor. Secara teologis Islam, kiamat bukan sekadar kehancuran fisik kosmik, melainkan bermakna filosofis sebagai...",
+        "opsi": [
+            "Berakhirnya eksistensi ruh manusia secara total",
+            "Awal dari perpindahan peradaban manusia untuk mencari planet baru",
+            "Titik akhir dari masa ujian (darul ibtila') di dunia, sekaligus pintu gerbang menuju fase penimbangan keadilan dan pertanggungjawaban mutlak (Hari Pembalasan)",
+            "Proses seleksi alam semesta di mana hanya yang kuat yang akan bertahan hidup"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Aqidah  (Esensi  Hari  Kiamat)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 32,
+        "pertanyaan": "Pemahaman mendalam mengenai Yaumul Mizan (Hari Penimbangan) seharusnya mencegah seorang siswa melakukan tindak perundungan verbal (bullying) di sekolah, karena ia meyakini bahwa...",
+        "opsi": [
+            "Korban bullying pasti akan membalas dendam di dunia",
+            "Hukuman dari guru BK akan mencoreng nama baiknya",
+            "Setiap kata cacian sekecil apa pun akan memiliki bobot hisab yang sangat berat di timbangan akhirat dan bisa menyebabkan kebangkrutan pahala (muflis)",
+            "Perbuatan tersebut dapat diselesaikan secara damai hanya dengan ucapan maaf"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Aqidah  (Hari  Kiamat:  Yaumul  Mizan  &  Bullying)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 33,
+        "pertanyaan": "Kematian tiap-tiap makhluk disebut sebagai Kiamat Sughra (Kiamat Kecil). Pelajaran analitis yang dapat dipetik dari kepastian kematian ini dalam manajemen waktu (Time Management) pelajar adalah...",
+        "opsi": [
+            "Deadline pengumpulan amal bersifat rahasia dan bisa datang tiba-tiba, sehingga ia akan disiplin menggunakan waktu untuk hal produktif tanpa menunda-nunda kebaikan",
+            "Karena kiamat masih jauh, masa muda sebaiknya dihabiskan untuk bersenang-senang (hedonisme)",
+            "Hanya orang sakit dan lanjut usia yang perlu mengatur waktunya untuk beribadah",
+            "Kematian adalah akhir segalanya, sehingga tidak perlu terlalu memikirkan masa depan"
+        ],
+        "tipe": "pg",
         "kunciJawaban": 0,
-        "tipsBidang": "1. Takdir Mubram adalah ketentuan Allah yang sudah pasti dan tidak bisa diubah sama sekali oleh manusia (contoh: kematian, jenis kelamin). Takdir Muallaq adalah ketentuan Allah yang masih bisa berubah tergantung usaha dan doa manusia. 2. Mubram: tanggal kelahiran (tidak bisa diubah). Muallaq: nilai ujian yang bisa berubah tergantung seberapa rajin belajar.",
-        "tipe": "uraian"
+        "materi": "Aqidah  (Kiamat  Sughra)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 34,
+        "pertanyaan": "Surga dan Neraka adalah manifestasi keadilan Allah SWT yang sempurna. Secara rasional, mengapa keadilan mutlak ini tidak dituntaskan seketika di kehidupan dunia?",
+        "opsi": [
+            "Karena dunia terlalu luas untuk diatur secara adil",
+            "Karena kapasitas dunia terbatas; di dunia, orang zalim terkadang lolos dari jerat hukum, dan pahlawan yang berkorban nyawa tidak bisa dibalas dengan materi dunia yang sepadan",
+            "Karena sistem peradilan buatan manusia lebih canggih daripada hukum agama",
+            "Karena Allah tidak ikut campur dalam urusan sosial manusia di bumi"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Aqidah  (Keadilan  Surga  Neraka  vs  Dunia)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 35,
+        "pertanyaan": "Kaum materialis menolak adanya Yaumul Ba'ats (Hari Kebangkitan) dengan dalih tubuh --- PAGE 7 --- yang sudah hancur menjadi tanah tidak logis bisa dihidupkan kembali. Al-Quran membantah argumentasi ini secara rasional (aqli) dengan menganalogikan bahwa...",
+        "opsi": [
+            "Manusia purba saja bisa hidup kembali",
+            "Proses kebangkitan itu sama mudahnya dengan menghidupkan kembali bumi yang tandus kerontang menjadi subur kembali setelah disiram air hujan, dan proses pengulangan ciptaan selalu lebih mudah daripada penciptaan pertama",
+            "Hanya roh manusia saja yang bangkit, sedangkan jasmaninya dibiarkan musnah selamanya",
+            "Manusia akan dibangkitkan dalam wujud cahaya sehingga tidak butuh fisik"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Aqidah  (Bantahan  Yaumul  Ba'ats)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 36,
+        "pertanyaan": "Aplikasi sekolah bernama SiAMANAH digunakan untuk mencatat dan mengunduh slip iuran secara mandiri oleh siswa. Tujuan utama integrasi teknologi ini, jika ditinjau dari sisi pembangunan akhlak di lingkungan sekolah, adalah untuk...",
+        "opsi": [
+            "Menghilangkan peran guru sepenuhnya dalam mendidik siswa",
+            "Menciptakan iklim transparansi (Amanah) yang kuat, sehingga menutup celah kecurigaan (Su'uzan) dan melatih kejujuran (Shidiq) seluruh warga sekolah",
+            "Membuat siswa saling berlomba menyumbang paling banyak demi mendapat pujian (Riya')",
+            "Mempersulit birokrasi sekolah agar terlihat lebih modern"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Akhlak  (Integrasi  Aplikasi  SiAMANAH)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 37,
+        "pertanyaan": "Sebuah panitia sekolah mendapati ada nama \"Vicki\" yang tidak aktif, namun ada nama \"VICKY\" yang rutin absen di kegiatan. Bukannya langsung menghukum siswa tersebut karena disangka membolos, panitia mengecek dan mengonfirmasi bahwa keduanya adalah orang yang sama akibat kesalahan ketik (typo) . Sikap yang ditunjukkan panitia ini merepresentasikan akhlak...",
+        "opsi": [
+            "Sikap apatis dan tidak peduli terhadap data siswa",
+            "Sikap keras kepala dalam menegakkan disiplin",
+            "Sikap Tabayyun (klarifikasi) dan Husnuzan (berprasangka baik), yang mencegah pengambilan keputusan dzalim akibat informasi yang simpang siur",
+            "Sikap ragu-ragu dan lamban dalam bertindak"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Akhlak  (Tabayyun  pada  Kasus  Kesalahan  Data)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 38,
+        "pertanyaan": "Seorang siswa yang ikut ekstrakurikuler Jujitsu bekerja paling keras menata matras latihan, namun saat sesi dokumentasi untuk Instagram sekolah, ia justru memilih berdiri di belakang agar wajahnya tidak terlihat menonjol. Secara kejiwaan agama (Tazkiyatun Nafs), siswa ini sedang melatih akhlak...",
+        "opsi": [
+            "Ikhlas lillahi ta'ala dengan menjaga hatinya dari penyakit Riya' (pamer) dan Sum'ah (ingin didengar/dipuji orang lain)",
+            "Sifat Ujub (membanggakan kemampuan diri secara diam-diam)",
+            "Sikap rendah diri (minder) yang berlebihan karena merasa tidak pantas difoto",
+            "Sikap antisosial karena tidak mau bergaul dengan teman satu klub"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 0,
+        "materi": "Akhlak  (Ikhlas  vs  Riya'/Sum'ah  di  Ekskul  Jujitsu)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 39,
+        "pertanyaan": "Bersyukur tidak hanya diucapkan dengan lisan (Tahmid), namun harus diimplementasikan dengan perbuatan (bil arkan) . Bentuk konkret rasa syukur seorang pelajar yang dikaruniai kecerdasan otak adalah...",
+        "opsi": [
+            "Menyombongkan nilai raportnya di media sosial",
+            "Membantu menjelaskan materi pelajaran (tutor sebaya) kepada temannya yang kesulitan dalam memahami pelajaran, tanpa meminta imbalan",
+            "Memberikan contekan kepada temannya saat ujian semester berlangsung",
+            "Menyimpan semua ringkasan belajarnya agar tidak disaingi teman lain"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Akhlak  (Syukur  bil  Arkan)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 40,
+        "pertanyaan": "Mencintai Rasulullah SAW (Mahabbah ar-Rasul) bagi Gen Z tidak cukup sekadar memperingati Maulid Nabi. Bukti autentik cinta kepada Rasulullah bagi seorang pelajar yang aktif membuat konten di TikTok adalah... --- PAGE 8 ---",
+        "opsi": [
+            "Menghafal silsilah keluarga Nabi namun sering mengucapkan kata-kata kotor di video",
+            "Memproduksi konten edukatif yang jujur, menyebarkan narasi kasih sayang, menghindari ghibah digital, sebagai bentuk peneladanan sunnah Nabi di dunia maya",
+            "Menggunakan pakaian ala Timur Tengah tetapi gemar membuat konten hoaks untuk mencari sensasi (clickbait)",
+            "Hanya membuat video tentang sejarah perang Rasulullah tanpa mengambil pelajaran moralnya"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Akhlak  (Cinta  Rasul  /  Pembuat  Konten)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 41,
+        "pertanyaan": "Di sekolah terdapat siswa berkebutuhan khusus (disabilitas fisik). Teman-teman sekelasnya berinisiatif membuat jadwal piket untuk membantu mendorong kursi rodanya ke perpustakaan. Sikap empati kelompok siswa ini merupakan penjabaran dari hadis Nabi Muhammad SAW mengenai...",
+        "opsi": [
+            "\"Tuntutlah ilmu walau ke negeri Cina\"",
+            "\"Kasihanilah siapa saja yang ada di bumi, niscaya Dzat yang ada di langit akan mengasihanimu\"",
+            "\"Kebersihan itu adalah sebagian dari iman\"",
+            "\"Sebaik-baik kamu adalah yang belajar Al-Quran dan mengajarkannya\""
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Akhlak  (Kasih  Sayang  Sesama  &  Disabilitas)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 42,
+        "pertanyaan": "Guru PAI masuk kelas dan mendapati muridnya ribut luar biasa. Alih-alih membentak, guru tersebut tersenyum, menyapa dengan lembut, lalu memberikan tugas analisis kelompok untuk menyalurkan energi siswa. Tindakan pedagogis ini merupakan aplikasi dari akhlak...",
+        "opsi": [
+            "Sabar dalam kemalasan",
+            "Kasih sayang (Rahmah) dan ketegasan mendidik (Tarbiyah) yang mampu mengubah situasi negatif menjadi produktif tanpa kekerasan verbal",
+            "Sikap pasrah karena tidak mampu menguasai kelas (Apatis)",
+            "Pilih kasih karena hanya memberikan tugas kepada siswa yang ribut"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Akhlak  (Kasih  Sayang  Guru  /  Pedagogik)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 43,
+        "pertanyaan": "Setelah berprasangka buruk menuduh temannya menghilangkan buku, Ahmad menyadari temannya tidak bersalah. Langkah pembersihan jiwa (Tazkiyatun Nafs) yang wajib ia lakukan adalah...",
+        "opsi": [
+            "Melupakan kejadian tersebut dan bersikap seolah tidak terjadi apa-apa",
+            "Bertaubat kepada Allah atas su'uzan-nya, lalu secara ksatria meminta maaf langsung kepada temannya untuk menggugurkan hak adami (urusan sesama manusia)",
+            "Menghindari teman tersebut karena merasa malu",
+            "Membuat prasangka buruk kepada siswa lain sebagai bentuk kompensasi psikologis"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Akhlak  (Tazkiyatun  Nafs:  Bertaubat  dari  Su'uzan)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 44,
+        "pertanyaan": "SMPN 5 Klaten mengagendakan program Jumat Bersih . Seluruh siswa diinstruksikan untuk mengenakan seragam olahraga (kaos dan training) serta membawa peralatan kebersihan seperti sapu dan lap dari rumah masing-masing. Berdasarkan filosofi Fiqh al-Bi'ah (Fiqih Lingkungan), esensi utama kewajiban ini adalah...",
+        "opsi": [
+            "Menghemat pengeluaran sekolah untuk menyewa jasa petugas kebersihan profesional",
+            "Melatih kesadaran praktis siswa akan posisinya sebagai khalifah (pemimpin) di bumi yang diamanati Allah untuk mencegah kerusakan (fasad) dan aktif merawat ekosistem terdekatnya",
+            "Menghabiskan waktu luang di hari Jumat agar jam pelajaran teori berkurang",
+            "Mencari apresiasi dari dinas pendidikan setempat agar sekolah mendapat  penghargaan adiwiyata semata"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Akhlak  (Lingkungan:  Filosofi  Jumat  Bersih)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 45,
+        "pertanyaan": "Dalam pelaksanaannya, seorang siswa membuang sampah sisa makanan ke selokan sekolah agar cepat selesai saat Jumat Bersih. Dari kacamata akhlak terhadap lingkungan alam, tindakan ini dikategorikan sebagai...",
+        "opsi": [
+            "Perbuatan makruh yang masih bisa ditoleransi",
+            "Sikap pragmatis yang cerdas",
+            "Perbuatan zalim terhadap alam karena menciptakan mudarat (potensi banjir) yang melanggar prinsip Rahmatan lil 'Alamin",
+            "Bentuk efisiensi waktu dalam kegiatan kerja bakti"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Akhlak  (Lingkungan:  Dampak  Membuang  Sampah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 46,
+        "pertanyaan": "Saat salat Asar berjamaah, Imam lupa melakukan tahiyat awal dan langsung berdiri tegak ke rakaat ketiga. Beberapa makmum mengucapkan \"Subhanallah\", namun imam telanjur berdiri sempurna. Solusi fiqih yang tepat berdasarkan sunah adalah...",
+        "opsi": [
+            "Imam wajib membatalkan salatnya dan mengulang takbiratul ihram",
+            "Imam harus turun kembali duduk tahiyat awal, meskipun sudah membaca Al-Fatihah",
+            "Imam melanjutkan salatnya hingga selesai, lalu sebelum mengucapkan salam, imam dan makmum melakukan Sujud Sahwi sebanyak dua kali",
+            "Makmum langsung memisahkan diri (mufaraqah) dari imam"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Fiqih  (Sujud  Sahwi  -  Lupa  Tahiyat  Awal)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 47,
+        "pertanyaan": "Siti sedang tilawah Al-Quran di kamarnya dan sampai pada QS. Al-'Alaq ayat 19 yang merupakan ayat sajdah. Praktik yang disunahkan bagi Siti saat itu adalah...",
+        "opsi": [
+            "Langsung melaksanakan salat dua rakaat",
+            "Melakukan Sujud Tilawah satu kali dengan membaca \"Sajada wajhiya lilladzi khalaqahu...\" , baik dalam keadaan berwudu maupun menghadap kiblat",
+            "Melakukan Sujud Syukur karena berhasil menyelesaikan surat pendek",
+            "Berhenti membaca dan melanjutkannya di hari lain"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Fiqih  (Sujud  Tilawah)  C3  (Penerapan  Praktik)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 48,
+        "pertanyaan": "Pengumuman kelulusan tiba, dan Budi dinyatakan lolos ke SMA favoritnya. Ia seketika menjatuhkan diri melakukan Sujud Syukur di lapangan. Syarat sah pelaksanaan Sujud Syukur menurut mayoritas ulama (Jumhur) adalah...",
+        "opsi": [
+            "Tidak ada syarat khusus, boleh dilakukan meski aurat terbuka",
+            "Tetap mensyaratkan suci dari hadas (berwudu), menutup aurat, dan menghadap kiblat layaknya salat biasa, meski dikerjakan di luar salat",
+            "Hanya boleh dikerjakan di dalam masjid setelah salat jamaah",
+            "Harus menyembelih ayam sebagai pelengkap syukurnya"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Fiqih  (Syarat  Sah  Sujud  Syukur)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 49,
+        "pertanyaan": "Dalam pelaksanaan Salat Jumat, khatib naik mimbar namun karena grogi, ia lupa membaca selawat kepada Nabi Muhammad SAW pada khutbah pertama maupun kedua. Implikasi hukum dari kejadian ini adalah...",
+        "opsi": [
+            "Khutbah tetap sah karena membaca selawat hukumnya sunah haiat",
+            "Khutbah menjadi batal (tidak sah) karena selawat adalah salah satu rukun khutbah, sehingga berdampak pada tidak sahnya pelaksanaan Salat Jumat jamaah tersebut",
+            "Khutbah sah, namun khatib harus menggantinya dengan sujud sahwi di akhir salat",
+            "Jamaah boleh memilih untuk tetap salat Jumat atau pulang mengganti dengan salat Zuhur di rumah"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Fiqih  (Salat  Jumat:  Rukun  Khutbah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 50,
+        "pertanyaan": "Seorang musafir singgah di masjid pada hari Jumat. Ia ikut salat berjamaah namun baru bergabung ketika imam sedang dalam posisi iktidal pada rakaat kedua. Status salat musafir ini (masbuk) adalah...",
+        "opsi": [
+            "Ia sah mendapat salat Jumat dan cukup menambah satu rakaat lagi setelah imam salam",
+            "Ia kehilangan rakaat Jumat (karena tidak sempat rukuk bersama imam di rakaat --- PAGE 10 --- kedua), sehingga setelah imam salam ia wajib meneruskannya menjadi salat Zuhur empat rakaat",
+            "Ia harus menunggu salat Jumat selesai lalu salat Zuhur sendirian",
+            "Salatnya batal secara otomatis"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Fiqih  (Salat  Jumat:  Kasus  Jamaah  Masbuk)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 51,
+        "pertanyaan": "Ibadah Haji dan Umrah di Tanah Suci memiliki kesamaan ritual, namun ada perbedaan mendasar yang memisahkan keduanya secara status fikih. Puncak ibadah yang merupakan rukun mutlak Haji namun tidak ada dalam Umrah adalah...",
+        "opsi": [
+            "Mengenakan pakaian ihram dari Miqat Makani",
+            "Pelaksanaan Sa'i antara bukit Safa dan Marwah sebanyak 7 kali balikan",
+            "Wukuf berdiam diri di Padang Arafah pada tanggal 9 Zulhijah",
+            "Melaksanakan Tawaf mengelilingi Ka'bah"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Fiqih  (Perbedaan  Haji  dan  Umrah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 52,
+        "pertanyaan": "Tawaf Wada' merupakan salah satu wajib haji. Analisis hikmah di balik diwajibkannya Tawaf Wada' bagi jemaah yang hendak pulang ke tanah airnya adalah...",
+        "opsi": [
+            "Sebagai hukuman fisik karena banyak berbuat dosa di tanah suci",
+            "Sebagai penghormatan dan perpisahan terakhir dengan Baitullah (Ka'bah) sebelum meninggalkan kota Makkah",
+            "Sebagai syarat utama agar ibadah hajinya mendatangkan kekayaan ekonomi saat pulang",
+            "Hanya sebagai tradisi budaya Arab kuno yang dipertahankan"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Fiqih  (Haji:  Hikmah  Tawaf  Wada')",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 53,
+        "pertanyaan": "Kecelakaan tragis mengakibatkan seorang muslim meninggal dunia dengan kondisi tubuh yang hancur atau mengalami luka bakar sangat parah, sehingga memandikannya dengan air dapat merusak sisa jasadnya. Solusi syariat (rukhsah darurat) dalam menyucikan jenazah ini adalah...",
+        "opsi": [
+            "Gugur kewajiban menyucikannya, langsung dikafani dan dikubur",
+            "Ditayamumkan menggunakan debu/tanah yang suci dengan mengusap pelan pada bagian wajah dan tangannya sebagai pengganti mandi",
+            "Dibakar hingga menjadi abu agar tidak merepotkan warga",
+            "Disiram air es dari jarak jauh"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Fiqih  (Penyelenggaraan  Jenazah:  Luka  Bakar  Parah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 54,
+        "pertanyaan": "Pelaksanaan Salat Jenazah memiliki formasi yang unik, tanpa rukuk dan sujud. Jika jenazah yang disalatkan adalah perempuan (mayitah), posisi berdiri Imam yang disunahkan adalah...",
+        "opsi": [
+            "Sejajar dengan kepala jenazah",
+            "Sejajar dengan bagian tengah badan (perut/pusar) jenazah",
+            "Berdiri di bagian kaki jenazah",
+            "Membelakangi jenazah"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Fiqih  (Salat  Jenazah  Perempuan)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 55,
+        "pertanyaan": "Menjelang Idul Adha, panitia qurban menolak menyembelih seekor sapi sumbangan warga karena sapi tersebut mengalami kebutaan sebelah mata yang sangat jelas dan pincang parah. Alasan syar'i penolakan ini adalah...",
+        "opsi": [
+            "Sapi cacat memiliki harga jual daging yang murah di pasar",
+            "Hewan yang cacat permanen secara fisik dilarang dijadikan hewan qurban, sebagai wujud etika persembahan terbaik (Ihsan) kepada Allah dan memuliakan penerima daging",
+            "Sapi tersebut akan memberontak saat disembelih sehingga membahayakan panitia",
+            "Hanya mitos bahwa daging hewan buta mengandung penyakit"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Fiqih  (Qurban:  Syarat  Fisik  Hewan)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 56,
+        "pertanyaan": "Keluarga Pak Budi dikaruniai seorang bayi laki-laki. Sebagai rasa syukur, ia melaksanakan akikah. Sunah Rasulullah SAW untuk penyembelihan akikah anak laki-laki beserta pencukuran rambutnya dilakukan pada...",
+        "opsi": [
+            "Hari ke-7 kelahirannya, dengan menyembelih 2 ekor kambing/domba --- PAGE 11 ---",
+            "Hari ke-14 kelahirannya, dengan menyembelih 1 ekor lembu/sapi",
+            "Hari ke-40 kelahirannya, dengan menyembelih 1 ekor kambing",
+            "Usia 1 tahun, dengan membagikan daging secara mentah"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 0,
+        "materi": "Fiqih  (Akikah  Anak  Laki-laki)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 57,
+        "pertanyaan": "Rombongan guru dan siswa kelas VIII mengadakan kegiatan Character Building (Pembinaan Karakter) ke sebuah kawasan alam terbuka di daerah Karanganyar . Mereka berangkat dari sekolah pukul 09.00 WIB. Perjalanan memakan waktu lama, dan mereka merencanakan akan tiba di lokasi menjelang sore hari. Demi kelancaran perjalanan, pembina memutuskan agar rombongan memajukan pelaksanaan Salat Asar untuk dikerjakan di waktu Zuhur di sebuah rest area, masing-masing diringkas menjadi 2 rakaat. Praktik rukhsah ini disebut...",
+        "opsi": [
+            "Jamak Takhir Sempurna (Zuhur 4 rakaat dilanjut Asar 4 rakaat pada waktu Asar)",
+            "Jamak Taqdim Qasar (Zuhur 2 rakaat dilanjut Asar 2 rakaat yang dilaksanakan pada waktu Zuhur)",
+            "Salat Jamak Khauf (karena sedang berada dalam perjalanan yang berbahaya)",
+            "Qada Salat Zuhur di waktu Asar"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Fiqih  (Rukhsah  Perjalanan  Karanganyar:  Jamak  Qasar)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 58,
+        "pertanyaan": "Berdasarkan studi kasus perjalanan ke Karanganyar di atas, syarat mutlak (Syurut as-Sihhah) yang memperbolehkan rombongan tersebut mengambil keringanan meng-Qasar (meringkas) salat adalah...",
+        "opsi": [
+            "Perjalanan tersebut bukan bertujuan maksiat dan jarak tempuhnya telah memenuhi batas minimal (sekitar 80-90 km / 2 marhalah)",
+            "Kondisi lalu lintas sangat macet meskipun jarak aslinya hanya 10 km dari sekolah",
+            "Mereka harus menggunakan kendaraan umum milik pemerintah",
+            "Mendapat surat izin dispensasi ibadah dari kepala sekolah"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 0,
+        "materi": "Fiqih  (Syarat  Sah  Meng-Qasar  Salat)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 59,
+        "pertanyaan": "Seorang dokter bedah muslim harus memimpin operasi pemisahan bayi kembar siam yang memakan waktu belasan jam tanpa henti, melewati waktu Zuhur hingga Isya. Solusi fikih kontemporer berbasis Maqashid Syariah (Hifz al-Nafs/Menjaga Nyawa) untuk dokter ini adalah...",
+        "opsi": [
+            "Dokter wajib meninggalkan meja operasi seketika masuk waktu salat, walau pasien meninggal",
+            "Kewajiban salatnya gugur secara permanen hari itu karena ia sedang menyelamatkan nyawa",
+            "Ia diperbolehkan menjamak salatnya atau meng-qada salat yang terlewat setelah operasi selesai sepenuhnya, karena ini tergolong uzur syar'i tingkat darurat kritis",
+            "Menugaskan perawat junior untuk mewakili salatnya di musala rumah sakit"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Fiqih  (Rukhsah  C4  (Pemecahan",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 60,
+        "pertanyaan": "Puncak kejayaan Kekhalifahan Bani Umayyah di Andalusia (Spanyol) diwarnai oleh harmoni sosial yang dikenal dengan istilah Convivencia . Dampak jangka panjang dari kebijakan toleransi antaragama ini bagi peradaban dunia adalah...",
+        "opsi": [
+            "Agama Islam lenyap terserap oleh budaya Eropa",
+            "Terciptanya kolaborasi intelektual antara cendekiawan Yahudi, Kristen, dan Islam yang berpusat di Cordoba untuk menerjemahkan filsafat dan merintis sains modern di Eropa",
+            "Terjadinya perang salib internal di semenanjung Iberia",
+            "Bani Umayyah berhasil menguasai seluruh benua Eropa dengan kekuatan militer absolut"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Tarikh  (Bani  Umayyah  Spanyol:  Convivencia)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 61,
+        "pertanyaan": "Pemindahan ibu kota Daulah Abbasiyah dari Damaskus ke Baghdad bukan sekadar urusan politik, melainkan strategi geopolitik dan ekonomi kelas atas. Analisis paling logis di balik pemilihan lokasi Baghdad adalah...",
+        "opsi": [
+            "Letaknya yang diapit sungai Tigris dan Eufrat memastikan ketahanan pangan --- PAGE 12 --- (subur), serta menjadi simpul Jalur Sutra yang mempertemukan perdagangan Timur dan Barat",
+            "Cuaca di Baghdad sangat dingin sehingga cocok bagi pasukan berkuda Abbasiyah",
+            "Untuk menjauhi pengaruh budaya Persia yang mulai menguat",
+            "Baghdad adalah kota suci ketiga setelah Makkah dan Madinah pada masa itu"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 0,
+        "materi": "Tarikh  (Abbasiyah:  Geopolitik  Baghdad)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 62,
+        "pertanyaan": "Lembaga Baitul Hikmah pada era Khalifah Harun ar-Rasyid (Abbasiyah) berevolusi dari sekadar perpustakaan menjadi akademi riset internasional. Warisan metodologi paling revolusioner dari Baitul Hikmah untuk sains hari ini adalah...",
+        "opsi": [
+            "Penerjemahan membabi-buta tanpa kritik terhadap teks-teks mitologi Yunani",
+            "Sintesis ilmu: tidak hanya menerjemahkan karya Yunani/India, tetapi mengkritisinya, melakukan observasi empiris, hingga melahirkan ilmu baru seperti Aljabar (oleh Al-Khawarizmi)",
+            "Pelarangan penggunaan akal (mantiq) dalam penelitian medis",
+            "Fokus eksklusif hanya pada penelitian ilmu mistik dan astrologi"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Tarikh  (Baitul  Hikmah:  Metodologi  Ilmiah)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 63,
+        "pertanyaan": "Buku kedokteran karya Ibnu Sina (Avicenna), yakni Al-Qanun fi al-Tibb , menjadi rujukan universitas kedokteran Eropa selama berabad-abad. Konsep visioner apa dari buku ini yang menjadi cikal bakal pemahaman pandemi modern?",
+        "opsi": [
+            "Penemuan teori bakteriologis bahwa penyakit menular disebarkan melalui udara, air, dan partikel kecil yang tak kasat mata",
+            "Terapi penyembuhan dengan cara menguras darah pasien (bloodletting) hingga lemas",
+            "Pernyataan bahwa wabah penyakit murni hanya karena kutukan spiritual tanpa ada kaitan dengan kebersihan lingkungan",
+            "Penggunaan mantra bahasa Arab untuk membedah pasien"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 0,
+        "materi": "Tarikh  (Kedokteran  Ibnu  Sina  /  Pandemi)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 64,
+        "pertanyaan": "Daulah Fatimiyah yang beraliran Syiah membangun sebuah masjid agung di Kairo, Mesir, yang kemudian bertransformasi menjadi salah satu universitas Islam tertua. Lembaga yang dimaksud adalah...",
+        "opsi": [
+            "Masjid Al-Azhar, yang kelak pada era Dinasti Ayyubiyah diubah orientasinya menjadi pusat pendidikan Islam Sunni moderat",
+            "Masjid Umayyah, yang menjadi pusat arsitektur kaligrafi Mesir",
+            "Madrasah Nizamiyah, pusat pengkaderan ulama mazhab Syafi'i",
+            "Baitul Maqdis, pusat kajian perbandingan agama"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 0,
+        "materi": "Tarikh  (Fatimiyah:  Universitas  Al-Azhar)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 65,
+        "pertanyaan": "Keberhasilan Jauhar as-Siqilli (Panglima Fatimiyah) menaklukkan Mesir diikuti dengan perencanaan tata kota yang visioner. Ibu kota baru yang dibangunnya untuk menyaingi Baghdad dan Cordoba bernama...",
+        "opsi": [
+            "Alexandria (Iskandariyah)",
+            "Al-Qahirah (Kairo), yang berarti \"Kota yang Menaklukkan\"",
+            "Fustat, kota perkemahan militer peninggalan Amru bin Ash",
+            "Damaskus Baru"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Tarikh  (Fatimiyah:  Pembangunan  Kota  Kairo)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 66,
+        "pertanyaan": "Kejatuhan Konstantinopel (1453 M) ke tangan Sultan Muhammad Al-Fatih (Turki Usmani) membawa efek domino luar biasa bagi sejarah Eropa, yakni...",
+        "opsi": [
+            "Bersatunya seluruh kerajaan Eropa di bawah satu panji Islam",
+            "Blokade jalur perdagangan rempah-rempah Asia ke Eropa, yang secara tidak langsung memaksa bangsa Eropa melakukan penjelajahan samudra (Era Penemuan) yang memicu kolonialisme global",
+            "Berakhirnya Perang Salib secara damai tanpa ada perjanjian",
+            "Hancurnya sistem kalender Masehi di dunia barat"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Tarikh  (Turki  Usmani:  Dampak  Konstantinopel)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 67,
+        "pertanyaan": "Daulah Turki Usmani mengandalkan sistem birokrasi dan militer yang unik melalui --- PAGE 13 --- rekrutmen Devshirme , yang menghasilkan pasukan elite infanteri sangat loyal bernama...",
+        "opsi": [
+            "Mamluk, budak-budak dari Kaukasus",
+            "Janissary (Inkisyariyah), pemuda-pemuda dari Balkan yang dilatih militer dan administrasi tingkat tinggi sejak kecil",
+            "Sipahi, pasukan kavaleri bangsawan Anatolia",
+            "Qizilbash, pasukan fanatik bertopi merah"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Tarikh  (Turki  Usmani:  Pasukan  Janissary)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 68,
+        "pertanyaan": "Puncak estetika arsitektur dan hukum Daulah Turki Usmani terjadi pada masa Sultan Sulaiman I. Oleh bangsa barat ia dijuluki \"The Magnificent\" , sementara di dunia Islam ia digelari \"Al-Qanuni\" karena prestasinya dalam...",
+        "opsi": [
+            "Membangun angkatan laut terbesar yang ditakuti armada Spanyol",
+            "Menyusun undang-undang sekuler pertama yang menolak syariat Islam",
+            "Mengkristalisasi hukum syariat dan administrasi negara (Kanun) ke dalam kitab undang-undang yang sistematis untuk mengatur masyarakat multietnis Kesultanan Usmani yang sangat luas",
+            "Menaklukkan seluruh daratan benua Afrika dalam waktu satu tahun"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Tarikh  (Turki  Usmani:  UU  Sulaiman  Al-Qanuni)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 69,
+        "pertanyaan": "Berbeda dengan Kekaisaran Usmani dan Mughal yang mayoritas beraliran Sunni, Daulah Syafawi di Persia (Iran) memaksakan identitas keagamaan yang menjadi akar geopolitik modern di Timur Tengah, yaitu...",
+        "opsi": [
+            "Menetapkan mazhab Syiah Itsna Asyariyah sebagai agama resmi negara dan melakukan konversi massal penduduk Persia",
+            "Menerapkan sekularisme absolut dengan memisahkan otoritas mullah dari kekuasaan Syah (Raja)",
+            "Mendeklarasikan aliran Mu'tazilah sebagai dasar filsafat kerajaan",
+            "Menghapus semua peninggalan budaya Persia pra-Islam"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 0,
+        "materi": "Tarikh  (Syafawi:  Mazhab  Syiah  Iran)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 70,
+        "pertanyaan": "Kota Isfahan menjadi saksi bisu kejayaan tata ruang kota (urban planning) Daulah Syafawi. Arsitektur ikonik yang dibangun pada masa Syah Abbas I dengan alun-alun raksasanya adalah...",
+        "opsi": [
+            "Masjid Biru (Blue Mosque) di Istanbul",
+            "Maidan-e Naqsh-e Jahan, alun-alun raksasa yang dikelilingi istana, masjid, dan bazar utama",
+            "Istana Al-Hamra yang dipenuhi kaligrafi",
+            "Taj Mahal yang dibangun dari marmer putih"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Tarikh  (Syafawi:  Arsitektur  Isfahan)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 71,
+        "pertanyaan": "Kaisar Akbar dari Kekaisaran Mughal di anak benua India menghadapi tantangan memerintah wilayah dengan mayoritas penduduk beragama Hindu. Strategi politik Sulakhul (Toleransi Universal) yang diterapkannya berdampak pada...",
+        "opsi": [
+            "Penghapusan pajak Jizyah bagi non-muslim dan integrasi elit Rajput (Hindu) ke dalam birokrasi pemerintahan, sehingga menciptakan stabilitas imperium yang kuat",
+            "Pemberontakan besar-besaran ulama ortodoks yang berujung pada runtuhnya kerajaan",
+            "Pembagian India menjadi negara Islam (Pakistan) dan negara Hindu secara prematur",
+            "Dominasi penuh budaya Arab yang menggantikan kebudayaan lokal Hindustan"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 0,
+        "materi": "Tarikh  (Mughal:  Kebijakan  Sulakhul  Akbar)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 72,
+        "pertanyaan": "Bangunan simetris berlapis marmer putih yang didirikan oleh Kaisar Shah Jahan di Agra merupakan adikarya arsitektur Mughal. Bangunan yang awalnya berfungsi sebagai makam (mausoleum) istrinya ini adalah...",
+        "opsi": [
+            "Benteng Merah (Red Fort)",
+            "Masjid Jama (Jama Masjid)",
+            "Taj Mahal --- PAGE 14 ---",
+            "Menara Qutub (Qutub Minar)"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Tarikh  (Mughal:  Arsitektur  Taj  Mahal)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 73,
+        "pertanyaan": "Mundurnya Kekaisaran Mughal bermula pada abad ke-18. Evaluasi sejarah menunjukkan bahwa faktor internal paling mematikan yang melemahkan fondasi negara sehingga mudah dikuasai oleh Inggris (East India Company) adalah...",
+        "opsi": [
+            "Kegagalan India memproduksi senjata api lokal",
+            "Konflik perebutan tahta antar pangeran yang berdarah, korupsi birokrasi kaum Mansabdar (tuan tanah), dan terkurasnya kas negara akibat perang maraton di wilayah Deccan",
+            "Serangan meteor yang menghancurkan lumbung pangan di Delhi",
+            "Kaisar terakhir yang secara sukarela menyerahkan kerajaannya kepada Ratu Victoria"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Tarikh  (Kejatuhan  Kekaisaran  Mughal)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 74,
+        "pertanyaan": "Di era digital modern, penyebaran misinformasi (hoax) di aplikasi perpesanan terjadi sangat masif. Berdasarkan kaidah komunikasi Islam dalam QS. Al-Hujurat: 6 tentang Tabayyun , tindakan membagikan ulang berita provokatif ke grup sekolah tanpa mengecek kebenarannya secara objektif dikategorikan sebagai...",
+        "opsi": [
+            "Tindakan antisipatif yang sah demi kewaspadaan dini masyarakat",
+            "Hak kebebasan berekspresi (freedom of speech) yang dilindungi secara absolut",
+            "Perilaku fasik di ruang siber karena menjadi agen penyebar fitnah tanpa sanad/sumber yang valid, yang sangat berpotensi memecah ukhuwah (persaudaraan)",
+            "Sebuah kewajiban literasi digital bagi generasi Z"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 2,
+        "materi": "Pengetahuan  Kontemporer  (Tabayyun  di  Medsos  /  Hoax)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
+    },
+    {
+        "num": 75,
+        "pertanyaan": "Majelis Ulama Indonesia (MUI) merilis Fatwa Nomor 41 Tahun 2014 tentang Pengelolaan Sampah untuk Mencegah Kerusakan Lingkungan Hidup. Dalam fatwa ini, membuang sampah sembarangan dan membakar hutan secara liar ditetapkan hukumnya Haram . Jika dianalisis menggunakan pisau bedah Maqashid Syariah , fatwa ekologis ini bermuara pada prinsip...",
+        "opsi": [
+            "Hifz ad-Din (Menjaga Agama) semata, agar pekarangan masjid tidak kotor",
+            "Hifz al-Nafs (Menjaga Jiwa/Kehidupan) dan Hifz al-Bi'ah (Menjaga Lingkungan), karena polusi dan degradasi alam mengancam kelangsungan hidup umat manusia dan generasi mendatang secara massal",
+            "Hifz al-Maal (Menjaga Harta), bertujuan agar anggaran negara tidak habis untuk membiayai dinas kebersihan",
+            "Hifz al-'Aql (Menjaga Akal), agar manusia bisa berpikir lebih logis saat melihat lingkungan yang bersih"
+        ],
+        "tipe": "pg",
+        "kunciJawaban": 1,
+        "materi": "Pengetahuan  Kontemporer  (Fatwa  MUI  Lingkungan  Hidup)",
+        "tipsBidang": "Perhatikan kata kunci pada pertanyaan."
     }
 ];
+

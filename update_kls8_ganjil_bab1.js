@@ -4,7 +4,7 @@ let content = fs.readFileSync('js/materi.js', 'utf8');
 
 const babKonten = `
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab perdana di Kelas 8 ini mengajak kita menyelami ajaran tauhid ekologis dalam Islam—yakni kesadaran penuh bahwa alam semesta adalah titipan mulia Allah untuk dikelola, bukan untuk dirusak, serta bagaimana perilaku kita menentukan nasib bumi.
+    Bab perdana di Kelas 7-9-9 ini mengajak kita menyelami ajaran tauhid ekologis dalam Islam—yakni kesadaran penuh bahwa alam semesta adalah titipan mulia Allah untuk dikelola, bukan untuk dirusak, serta bagaimana perilaku kita menentukan nasib bumi.
 </p>
 
 <!-- 1. Tajwid: Ra & Lam Jalalah -->

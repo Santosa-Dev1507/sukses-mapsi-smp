@@ -168,7 +168,7 @@ placeholders_30 = []
 for i in range(11, 41):
     placeholders_30.append({
         "id": i,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
         "pertanyaan": f"[Wadah 2026] Soal Pilihan Ganda Nomor {i} : Menunggu rancangan soal asli.",
         "gambar": "",
         "kutipan": "",

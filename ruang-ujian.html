@@ -3,8 +3,8 @@
 <html lang="id"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta name="description" content="Latihan soal interaktif Ujian Sekolah PAI Kelas 9 di Sukses Ujian Sekolah. Bank soal lengkap, timer, dan navigasi soal dinamis untuk persiapan terbaik."/>
-<title>Latihan Soal US PAI 9 - Sukses Ujian Sekolah | Ujian Sekolah</title>
+<meta name="description" content="Latihan soal interaktif Lomba CCAI MAPSI SMP di Sukses CCAI MAPSI SMP. Bank soal lengkap, timer, dan navigasi soal dinamis untuk persiapan terbaik."/>
+<title>Latihan Soal CCAI MAPSI SMP - Sukses CCAI MAPSI SMP | Lomba CCAI MAPSI</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
@@ -88,6 +88,82 @@
     </style>
 </head>
 <body class="bg-surface text-on-surface">
+
+<!-- ══════════════════════════════════════════════════════════ -->
+<!-- MODAL IDENTITAS SISWA                                       -->
+<!-- ══════════════════════════════════════════════════════════ -->
+<div id="modal-identitas" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(27,28,26,0.7); backdrop-filter:blur(8px); align-items:center; justify-content:center; padding:1.5rem;">
+    <div style="background:#ffffff; border-radius:2rem; padding:2.5rem; max-width:480px; width:100%; box-shadow:0 40px 80px rgba(0,0,0,0.2);">
+        <div style="text-align:center; margin-bottom:2rem;">
+            <div style="width:64px; height:64px; background:#006b47; border-radius:1rem; display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
+                <span class="material-symbols-outlined" style="color:#fff; font-size:32px;">school</span>
+            </div>
+            <h2 style="font-family:'Manrope',sans-serif; font-size:1.5rem; font-weight:800; color:#1b1c1a; margin-bottom:0.25rem;">Sebelum Memulai</h2>
+            <p style="color:#6e7a71; font-size:0.9rem;">Seleksi MAPSI tingkat SMPN 5 Klaten 2026</p>
+        </div>
+
+        <div style="margin-bottom:1.25rem;">
+            <label style="display:block; font-weight:700; font-size:0.85rem; color:#1b1c1a; margin-bottom:0.5rem; text-transform:uppercase; letter-spacing:0.05em;">Nama Lengkap</label>
+            <input id="input-nama" type="text" placeholder="Tulis nama lengkap Anda..." autocomplete="off"
+                style="width:100%; padding:0.875rem 1.25rem; border-radius:0.875rem; border:2px solid #bdcac0; font-size:1rem; color:#1b1c1a; outline:none; box-sizing:border-box; font-family:'Inter',sans-serif; transition:border-color 0.2s;"
+                onfocus="this.style.borderColor='#006b47'" onblur="this.style.borderColor='#bdcac0'"/>
+            <p id="error-nama" style="display:none; color:#ba1a1a; font-size:0.8rem; margin-top:0.4rem;">⚠️ Nama tidak boleh kosong.</p>
+        </div>
+
+        <div style="margin-bottom:2rem;">
+            <label style="display:block; font-weight:700; font-size:0.85rem; color:#1b1c1a; margin-bottom:0.5rem; text-transform:uppercase; letter-spacing:0.05em;">Kelas</label>
+            <select id="input-kelas"
+                style="width:100%; padding:0.875rem 1.25rem; border-radius:0.875rem; border:2px solid #bdcac0; font-size:1rem; color:#1b1c1a; outline:none; box-sizing:border-box; background:#fff; font-family:'Inter',sans-serif; cursor:pointer;"
+                onfocus="this.style.borderColor='#006b47'" onblur="this.style.borderColor='#bdcac0'">
+                <option value="">-- Pilih Kelas --</option>
+                <option value="VII A">VII A</option>
+                <option value="VII B">VII B</option>
+                <option value="VII C">VII C</option>
+                <option value="VII D">VII D</option>
+                <option value="VII E">VII E</option>
+                <option value="VII F">VII F</option>
+                <option value="VIII A">VIII A</option>
+                <option value="VIII B">VIII B</option>
+                <option value="VIII C">VIII C</option>
+                <option value="VIII D">VIII D</option>
+                <option value="VIII E">VIII E</option>
+                <option value="VIII F">VIII F</option>
+                <option value="IX A">IX A</option>
+                <option value="IX B">IX B</option>
+                <option value="IX C">IX C</option>
+                <option value="IX D">IX D</option>
+                <option value="IX E">IX E</option>
+                <option value="IX F">IX F</option>
+            </select>
+            <p id="error-kelas" style="display:none; color:#ba1a1a; font-size:0.8rem; margin-top:0.4rem;">⚠️ Silakan pilih kelas Anda.</p>
+        </div>
+
+        <div style="background:#f4f4f0; border-radius:1rem; padding:1rem 1.25rem; margin-bottom:1.5rem; border:1px solid #e9e8e4;">
+            <p style="font-size:0.8rem; color:#3e4942; line-height:1.6; margin:0;">
+                📌 <strong>Perhatian:</strong> Ujian akan berjalan dalam mode layar penuh. Berpindah tab, keluar fullscreen, atau menekan shortcut keyboard tertentu akan tercatat sebagai pelanggaran. Setelah <strong>3 pelanggaran</strong>, ujian diselesaikan otomatis.
+            </p>
+        </div>
+
+        <button id="btn-mulai" style="width:100%; padding:1rem; background:#006b47; color:#fff; border:none; border-radius:1rem; font-size:1rem; font-weight:800; font-family:'Manrope',sans-serif; cursor:pointer; letter-spacing:0.03em; transition:background 0.2s;"
+            onmouseover="this.style.background='#005235'" onmouseout="this.style.background='#006b47'">
+            🚀 Mulai Ujian Sekarang
+        </button>
+    </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════ -->
+<!-- OVERLAY PERINGATAN PELANGGARAN                             -->
+<!-- ══════════════════════════════════════════════════════════ -->
+<div id="overlay-warning" style="display:none; position:fixed; inset:0; z-index:9998; background:rgba(186,26,26,0.15); backdrop-filter:blur(12px); align-items:center; justify-content:center; padding:1.5rem;">
+    <div style="background:#ffffff; border-radius:2rem; padding:2.5rem; max-width:420px; width:100%; box-shadow:0 40px 80px rgba(186,26,26,0.25); text-align:center;">
+        <div id="warning-msg" style="margin-bottom:1.5rem;"></div>
+        <button id="btn-lanjutkan" style="width:100%; padding:0.875rem; background:#006b47; color:#fff; border:none; border-radius:1rem; font-size:0.95rem; font-weight:700; font-family:'Manrope',sans-serif; cursor:pointer; transition:background 0.2s;"
+            onmouseover="this.style.background='#005235'" onmouseout="this.style.background='#006b47'">
+            Saya Mengerti — Lanjutkan Ujian
+        </button>
+    </div>
+</div>
+
 <!-- Desktop TopAppBar -->
 <header class="sticky top-0 w-full z-50 bg-[#faf9f5]/85 backdrop-blur-xl border-b border-outline-variant/15">
 <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
@@ -97,14 +173,26 @@
 <span class="material-symbols-outlined text-white" data-icon="auto_stories">auto_stories</span>
 </div>
 <div>
-<h1 class="text-xl font-headline font-extrabold tracking-tight text-[#006b47]">Sukses Ujian Sekolah</h1>
+<h1 class="text-xl font-headline font-extrabold tracking-tight text-[#006b47]">Sukses CCAI MAPSI SMP</h1>
 <p class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant/60 -mt-1">Pendidikan Agama Islam</p>
 </div>
 </div>
 <div class="hidden md:block h-8 w-[1px] bg-outline-variant/30"></div>
-<h2 class="hidden md:block text-sm font-medium text-on-surface-variant">Latihan Ujian Sekolah</h2>
+<h2 class="hidden md:block text-sm font-medium text-on-surface-variant">Latihan Lomba CCAI MAPSI</h2>
 </div>
-<div class="flex items-center gap-6">
+<div class="flex items-center gap-3">
+<!-- Nama Siswa -->
+<div class="hidden md:flex items-center gap-2 bg-surface-container px-4 py-2 rounded-2xl border border-outline-variant/20">
+<span class="material-symbols-outlined text-primary text-[18px]">person</span>
+<span id="label-nama-siswa" class="text-sm font-semibold text-on-surface-variant">-</span>
+</div>
+<!-- Badge Pelanggaran -->
+<div id="violasi-badge" style="display:none;" class="flex items-center gap-2 bg-error/10 px-4 py-2 rounded-2xl border border-error/20">
+<span class="material-symbols-outlined text-error text-[18px]">warning</span>
+<span class="text-xs font-bold text-error uppercase tracking-wide">Pelanggaran</span>
+<span id="violasi-counter" class="bg-error text-white text-xs font-black w-6 h-6 rounded-full flex items-center justify-center">0</span>
+</div>
+<!-- Timer -->
 <div class="flex items-center gap-3 bg-secondary-container/30 px-5 py-2 rounded-2xl border border-secondary/10">
 <span class="material-symbols-outlined text-secondary text-[22px]" data-icon="timer">timer</span>
 <div class="flex flex-col">
@@ -230,7 +318,7 @@
 <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
 <span class="material-symbols-outlined text-white" data-icon="auto_stories">auto_stories</span>
 </div>
-<p class="text-2xl font-headline font-extrabold tracking-tight text-[#006b47]">Sukses Ujian Sekolah</p>
+<p class="text-2xl font-headline font-extrabold tracking-tight text-[#006b47]">Sukses CCAI MAPSI SMP</p>
 </div>
 <p class="text-on-surface-variant leading-relaxed max-w-md mb-8">
                     Platform pembelajaran interaktif untuk mendalami materi Pendidikan Agama Islam melalui latihan soal yang komprehensif dan menyenangkan.
@@ -266,7 +354,7 @@
 </div>
 </div>
 <div class="max-w-7xl mx-auto px-6 pt-12 mt-12 border-t border-outline-variant/10 text-center">
-<p class="text-sm text-on-surface-variant/60 font-medium">© 2026 Sukses Ujian Sekolah. Platform Belajar US PAI Kelas 9.</p>
+<p class="text-sm text-on-surface-variant/60 font-medium">© 2026 Sukses CCAI MAPSI SMP. Platform Belajar CCAI MAPSI Kelas 7-9-9.</p>
 </div>
 </footer>
 <script src="js/data.js"></script>

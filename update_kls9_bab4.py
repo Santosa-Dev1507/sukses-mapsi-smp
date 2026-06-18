@@ -1,7 +1,7 @@
 import json
 import os
 
-# Naskah Materi Bab 4 Kelas 9 Semester Ganjil
+# Naskah Materi Bab 4 Kelas 7-9-9 Semester Ganjil
 html_content = """
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
     Dalam ajaran Islam, rasa syukur kepada Allah Swt. tidak hanya diungkapkan dengan kata-kata, tetapi juga melalui perbuatan nyata yang bermanfaat bagi sesama, salah satunya melalui ibadah Akikah dan Kurban.

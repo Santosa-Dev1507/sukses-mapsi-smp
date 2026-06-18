@@ -163,6 +163,6 @@ if match:
     
     with open("js/materi.js", "w", encoding="utf-8") as f:
         f.write(text)
-    print("Update Kelas 9 Bab 2 Sukses")
+    print("Update Kelas 7-9-9 Bab 2 Sukses")
 else:
     print("Fail")

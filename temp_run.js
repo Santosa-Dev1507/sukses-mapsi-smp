@@ -2435,7 +2435,7 @@ const quizData2025 = [
 const quizData2026 = [
     {
         "id": 1,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 1 : Menunggu input soal asli.",
 
@@ -2463,7 +2463,7 @@ const quizData2026 = [
     },
     {
         "id": 2,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 2 : Menunggu input soal asli.",
 
@@ -2491,7 +2491,7 @@ const quizData2026 = [
     },
     {
         "id": 3,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 3 : Menunggu input soal asli.",
 
@@ -2519,7 +2519,7 @@ const quizData2026 = [
     },
     {
         "id": 4,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 4 : Menunggu input soal asli.",
 
@@ -2547,7 +2547,7 @@ const quizData2026 = [
     },
     {
         "id": 5,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 5 : Menunggu input soal asli.",
 
@@ -2575,7 +2575,7 @@ const quizData2026 = [
     },
     {
         "id": 6,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 6 : Menunggu input soal asli.",
 
@@ -2603,7 +2603,7 @@ const quizData2026 = [
     },
     {
         "id": 7,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 7 : Menunggu input soal asli.",
 
@@ -2631,7 +2631,7 @@ const quizData2026 = [
     },
     {
         "id": 8,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 8 : Menunggu input soal asli.",
 
@@ -2659,7 +2659,7 @@ const quizData2026 = [
     },
     {
         "id": 9,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 9 : Menunggu input soal asli.",
 
@@ -2687,7 +2687,7 @@ const quizData2026 = [
     },
     {
         "id": 10,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 10 : Menunggu input soal asli.",
 
@@ -2715,7 +2715,7 @@ const quizData2026 = [
     },
     {
         "id": 11,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 11 : Menunggu input soal asli.",
 
@@ -2743,7 +2743,7 @@ const quizData2026 = [
     },
     {
         "id": 12,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 12 : Menunggu input soal asli.",
 
@@ -2771,7 +2771,7 @@ const quizData2026 = [
     },
     {
         "id": 13,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 13 : Menunggu input soal asli.",
 
@@ -2799,7 +2799,7 @@ const quizData2026 = [
     },
     {
         "id": 14,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 14 : Menunggu input soal asli.",
 
@@ -2827,7 +2827,7 @@ const quizData2026 = [
     },
     {
         "id": 15,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 15 : Menunggu input soal asli.",
 
@@ -2855,7 +2855,7 @@ const quizData2026 = [
     },
     {
         "id": 16,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 16 : Menunggu input soal asli.",
 
@@ -2883,7 +2883,7 @@ const quizData2026 = [
     },
     {
         "id": 17,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 17 : Menunggu input soal asli.",
 
@@ -2911,7 +2911,7 @@ const quizData2026 = [
     },
     {
         "id": 18,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 18 : Menunggu input soal asli.",
 
@@ -2939,7 +2939,7 @@ const quizData2026 = [
     },
     {
         "id": 19,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 19 : Menunggu input soal asli.",
 
@@ -2967,7 +2967,7 @@ const quizData2026 = [
     },
     {
         "id": 20,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 20 : Menunggu input soal asli.",
 
@@ -2995,7 +2995,7 @@ const quizData2026 = [
     },
     {
         "id": 21,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 21 : Menunggu input soal asli.",
 
@@ -3023,7 +3023,7 @@ const quizData2026 = [
     },
     {
         "id": 22,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 22 : Menunggu input soal asli.",
 
@@ -3051,7 +3051,7 @@ const quizData2026 = [
     },
     {
         "id": 23,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 23 : Menunggu input soal asli.",
 
@@ -3079,7 +3079,7 @@ const quizData2026 = [
     },
     {
         "id": 24,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 24 : Menunggu input soal asli.",
 
@@ -3107,7 +3107,7 @@ const quizData2026 = [
     },
     {
         "id": 25,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 25 : Menunggu input soal asli.",
 
@@ -3135,7 +3135,7 @@ const quizData2026 = [
     },
     {
         "id": 26,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 26 : Menunggu input soal asli.",
 
@@ -3163,7 +3163,7 @@ const quizData2026 = [
     },
     {
         "id": 27,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 27 : Menunggu input soal asli.",
 
@@ -3191,7 +3191,7 @@ const quizData2026 = [
     },
     {
         "id": 28,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 28 : Menunggu input soal asli.",
 
@@ -3219,7 +3219,7 @@ const quizData2026 = [
     },
     {
         "id": 29,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 29 : Menunggu input soal asli.",
 
@@ -3247,7 +3247,7 @@ const quizData2026 = [
     },
     {
         "id": 30,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 30 : Menunggu input soal asli.",
 
@@ -3275,7 +3275,7 @@ const quizData2026 = [
     },
     {
         "id": 31,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 31 : Menunggu input soal asli.",
 
@@ -3303,7 +3303,7 @@ const quizData2026 = [
     },
     {
         "id": 32,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 32 : Menunggu input soal asli.",
 
@@ -3331,7 +3331,7 @@ const quizData2026 = [
     },
     {
         "id": 33,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 33 : Menunggu input soal asli.",
 
@@ -3359,7 +3359,7 @@ const quizData2026 = [
     },
     {
         "id": 34,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 34 : Menunggu input soal asli.",
 
@@ -3387,7 +3387,7 @@ const quizData2026 = [
     },
     {
         "id": 35,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Nomor 35 : Menunggu input soal asli.",
 
@@ -3415,7 +3415,7 @@ const quizData2026 = [
     },
     {
         "id": 36,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Alternatif Nomor 36 : Menunggu input soal asli.",
 
@@ -3446,7 +3446,7 @@ const quizData2026 = [
     },
     {
         "id": 37,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Alternatif Nomor 37 : Menunggu input soal asli.",
 
@@ -3477,7 +3477,7 @@ const quizData2026 = [
     },
     {
         "id": 38,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Alternatif Nomor 38 : Menunggu input soal asli.",
 
@@ -3508,7 +3508,7 @@ const quizData2026 = [
     },
     {
         "id": 39,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Alternatif Nomor 39 : Menunggu input soal asli.",
 
@@ -3539,7 +3539,7 @@ const quizData2026 = [
     },
     {
         "id": 40,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Pilihan Ganda Alternatif Nomor 40 : Menunggu input soal asli.",
 
@@ -3570,7 +3570,7 @@ const quizData2026 = [
     },
     {
         "id": 41,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Uraian Nomor 41 : Menunggu input soal asli.",
 
@@ -3589,7 +3589,7 @@ const quizData2026 = [
     },
     {
         "id": 42,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Uraian Nomor 42 : Menunggu input soal asli.",
 
@@ -3608,7 +3608,7 @@ const quizData2026 = [
     },
     {
         "id": 43,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Uraian Nomor 43 : Menunggu input soal asli.",
 
@@ -3627,7 +3627,7 @@ const quizData2026 = [
     },
     {
         "id": 44,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Uraian Nomor 44 : Menunggu input soal asli.",
 
@@ -3646,7 +3646,7 @@ const quizData2026 = [
     },
     {
         "id": 45,
-        "materi": "Materi Prediksi 2026",
+        "materi": "Materi CCAI MAPSI 2026",
 
 "pertanyaan": "[Wadah 2026] Soal Uraian Nomor 45 : Menunggu input soal asli.",
 

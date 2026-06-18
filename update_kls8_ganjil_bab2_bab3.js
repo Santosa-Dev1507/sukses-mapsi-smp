@@ -254,10 +254,10 @@ ${konten.replace(/`/g, '\\`')}
     }
 }
 
-// 1. Jalankan update untuk Bab 2 Kelas 8 Ganjil
+// 1. Jalankan update untuk Bab 2 Kelas 7-9-9 Ganjil
 updateBab('kls8-smtganjil-bab2', "Meyakini Kitab-Kitab Allah: Menjadi Generasi Pecinta Al-Qur\\'an yang Toleran", bab2Konten);
 
-// 2. Jalankan update untuk Bab 3 Kelas 8 Ganjil
+// 2. Jalankan update untuk Bab 3 Kelas 7-9-9 Ganjil
 updateBab('kls8-smtganjil-bab3', "Ketentuan Salat Sunah Berjamaah: Gerhana, Istiska, dan Jenazah", bab3Konten);
 
 // Simpan File
