@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="Persiapkan diri menghadapi Lomba CCAI MAPSI SMP bersama Sukses CCAI MAPSI SMP. Materi eksklusif, bank soal tahunan, dan kisi-kisi resmi 2026."/>
+<title>CCAI MAPSI SMP - Sukses CCAI MAPSI SMP | Lomba CCAI MAPSI SMP</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#00875a",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed": "#221b00",
+                        "surface-container-high": "#e9e8e4",
+                        "tertiary-fixed": "#f5e2a2",
+                        "error-container": "#ffdad6",
+                        "inverse-primary": "#71dba6",
+                        "surface-container-highest": "#e3e2df",
+                        "surface-container-low": "#f4f4f0",
+                        "on-primary-fixed": "#002113",
+                        "surface": "#faf9f5",
+                        "surface-bright": "#faf9f5",
+                        "surface-dim": "#dbdad6",
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-primary-fixed-variant": "#005235",
+                        "on-tertiary-container": "#4a3f0e",
+                        "on-secondary-fixed-variant": "#574500",
+                        "secondary-fixed": "#ffe088",
+                        "inverse-on-surface": "#f2f1ed",
+                        "outline": "#6e7a71",
+                        "on-tertiary": "#ffffff",
+                        "on-surface": "#1b1c1a",
+                        "on-primary-container": "#ffffff",
+                        "surface-container": "#efeeea",
+                        "on-error-container": "#93000a",
+                        "on-secondary-container": "#745c00",
+                        "primary-fixed": "#8df7c1",
+                        "outline-variant": "#bdcac0",
+                        "surface-variant": "#e3e2df",
+                        "on-primary": "#ffffff",
+                        "surface-tint": "#006c47",
+                        "secondary-container": "#fed65b",
+                        "tertiary-container": "#bbaa6f",
+                        "background": "#faf9f5",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-surface": "#2f312e",
+                        "error": "#ba1a1a",
+                        "on-surface-variant": "#3e4942",
+                        "primary": "#006b47",
+                        "on-error": "#ffffff",
+                        "tertiary-fixed-dim": "#d8c688",
+                        "on-secondary-fixed": "#241a00",
+                        "secondary": "#735c00",
+                        "on-background": "#1b1c1a",
+                        "tertiary": "#6b5e2b",
+                        "on-tertiary-fixed-variant": "#524615",
+                        "primary-fixed-dim": "#71dba6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .tonal-transition {
+            background: linear-gradient(180deg, transparent 0%, rgba(244, 244, 240, 1) 100%);
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed-variant">
+<!-- Desktop Header -->
+<header class="fixed top-0 w-full z-50 bg-[#faf9f5]/90 backdrop-blur-md border-b border-outline-variant/20 shadow-sm">
+<nav class="flex justify-between items-center px-6 lg:px-12 py-4 max-w-7xl mx-auto w-full">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="menu_book">menu_book</span>
+<span class="text-2xl font-extrabold text-emerald-800 tracking-tighter font-headline">Sukses CCAI MAPSI SMP</span>
+</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-primary border-b-2 border-primary pb-1 font-bold text-sm tracking-wide" href="index.html">Beranda</a>
+<a class="text-on-surface-variant font-semibold text-sm hover:text-primary transition-colors tracking-wide" href="kisi-kisi.html">Kisi-kisi</a>
+<a class="text-on-surface-variant font-semibold text-sm hover:text-primary transition-colors tracking-wide" href="daftar-materi.html">Materi</a>
+<a class="text-on-surface-variant font-semibold text-sm hover:text-primary transition-colors tracking-wide" href="latihan-soal.html">Latihan</a>
+</div>
+<a href="latihan-soal.html" class="hidden md:inline-block bg-primary hover:bg-primary-container text-white px-8 py-3 rounded-full font-bold text-sm transition-all active:scale-95 shadow-md hover:shadow-lg">
+                Mulai Belajar
+            </a>
+<!-- Mobile Hamburger -->
+<button id="mobile-menu-btn" class="md:hidden flex flex-col justify-center items-center w-10 h-10 gap-1.5 rounded-xl hover:bg-surface-container-high transition-colors" onclick="toggleMobileMenu()" aria-label="Menu">
+    <span class="w-6 h-0.5 bg-on-surface block transition-all rounded-full" id="ham-line1"></span>
+    <span class="w-6 h-0.5 bg-on-surface block transition-all rounded-full" id="ham-line2"></span>
+    <span class="w-6 h-0.5 bg-on-surface block transition-all rounded-full" id="ham-line3"></span>
+</button>
+</nav>
+<!-- Mobile Menu Panel -->
+<div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 right-0 bg-[#faf9f5]/97 backdrop-blur-md border-b border-outline-variant/20 shadow-lg px-6 py-4 z-40">
+    <nav class="flex flex-col gap-1">
+        <a href="index.html" class="font-bold text-primary py-3 px-4 rounded-xl bg-surface-container-low border-b border-outline-variant/10">Beranda</a>
+        <a href="kisi-kisi.html" class="font-semibold text-on-surface-variant hover:text-primary py-3 px-4 rounded-xl hover:bg-surface-container-low transition-colors">Kisi-kisi</a>
+        <a href="daftar-materi.html" class="font-semibold text-on-surface-variant hover:text-primary py-3 px-4 rounded-xl hover:bg-surface-container-low transition-colors">Materi</a>
+        <a href="latihan-soal.html" class="font-semibold text-on-surface-variant hover:text-primary py-3 px-4 rounded-xl hover:bg-surface-container-low transition-colors">Latihan</a>
+        <a href="latihan-soal.html" class="mt-2 w-full py-3 bg-primary text-white font-bold rounded-full text-center shadow-md">Mulai Belajar</a>
+    </nav>
+</div>
+</header>
+<main class="flex-grow pt-20">
+<!-- Hero Section -->
+<section class="relative px-6 py-20 lg:py-40 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px] -mr-48 -mt-24"></div>
+<div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-secondary-container/20 rounded-full blur-[100px] -ml-32 -mb-16"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+<div class="space-y-8 text-center lg:text-left">
+<span class="inline-block px-4 py-2 bg-secondary-container text-on-secondary-container rounded-full text-xs font-extrabold tracking-widest uppercase shadow-sm">
+                        Edisi Lomba CCAI MAPSI Tahun Ajaran 2026
+                    </span>
+<h1 class="text-5xl md:text-7xl lg:text-8xl font-headline font-extrabold tracking-tight text-on-surface leading-[1.05]">
+                        Siap Hadapi <br/> <span class="text-primary italic">CCAI MAPSI</span> Tahun 2026!
+                    </h1>
+<p class="text-lg md:text-xl text-on-surface-variant max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
+                        Kuasai materi Lomba Cerdas Cermat Agama Islam (CCAI) MAPSI SMP sesuai kisi kisi terbaru. Ringkasan materi eksklusif, bank soal tahunan, dan pembahasan mendalam untuk nilai terbaik.
+                    </p>
+<div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-6">
+<a class="w-full sm:w-auto px-12 py-5 bg-gradient-to-br from-primary to-primary-container text-white rounded-2xl font-bold text-xl shadow-xl hover:shadow-primary/30 transition-all active:scale-95 text-center" href="daftar-materi.html">
+                            Mulai Belajar Sekarang
+                        </a>
+<a class="w-full sm:w-auto px-12 py-5 bg-surface-container-lowest text-primary border-2 border-primary/10 rounded-2xl font-bold text-xl shadow-sm hover:bg-surface-container-high transition-all text-center" href="kisi-kisi.html">
+                            Lihat Kisi-kisi
+                        </a>
+</div>
+</div>
+<div class="hidden lg:block">
+<div class="relative">
+<div class="absolute -inset-4 bg-primary/10 rounded-[3rem] blur-2xl -z-10 animate-pulse"></div>
+<img alt="Masjid Islam" class="rounded-[3rem] shadow-2xl w-full aspect-[4/5] object-cover border-8 border-white" src="images/islamic_mosque.png"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 1: Kisi-Kisi -->
+<section class="py-32 bg-surface-container-low px-6" id="kisi-kisi">
+<div class="max-w-7xl mx-auto">
+<div class="grid lg:grid-cols-12 gap-20 items-start">
+<div class="lg:col-span-5 lg:sticky lg:top-32">
+<h2 class="text-5xl font-headline font-bold text-on-surface mb-8">Peta Materi &amp; <br/><span class="text-primary">Kisi-kisi Ujian</span></h2>
+<p class="text-on-surface-variant leading-relaxed text-xl mb-12">
+                            Kami telah menyederhanakan standar kompetensi kelulusan menjadi 5 pilar utama yang paling sering muncul dalam ujian 3 tahun terakhir berdasarkan analisis data tim ahli.
+                        </p>
+<div class="relative overflow-hidden rounded-3xl shadow-2xl group">
+<img alt="Islamic Architecture" class="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-700" src="images/islamic_mosque.png"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent flex items-end p-8">
+<p class="text-white font-bold text-lg">Inspirasi dari Sejarah untuk Masa Depan.</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 space-y-6">
+<!-- Accordion Items -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-sm border border-outline-variant/10">
+<div class="flex justify-between items-center cursor-pointer group">
+<div class="flex items-center gap-6">
+<div class="w-16 h-16 rounded-2xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl" data-icon="auto_stories">auto_stories</span>
+</div>
+<h3 class="text-2xl font-bold font-headline">Al-Qur'an &amp; Hadis</h3>
+</div>
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="expand_more">expand_more</span>
+</div>
+<div class="mt-8 pt-8 border-t border-outline-variant/10 text-on-surface-variant leading-relaxed text-lg">
+<ul class="space-y-4 list-disc pl-6">
+<li><strong>Hafalan &amp; Pemahaman:</strong> QS Al-Mujadalah, QS Az-Zumar, QS Al-Baqarah.</li>
+<li><strong>Hukum Tajwid:</strong> Bacaan Mad, Waqaf, Ra &amp; Lam Jalalah, Nun/Mim Sukun.</li>
+<li><strong>Kandungan Ayat:</strong> Kewajiban menuntut ilmu, Khalifah di bumi, bersikap moderat.</li>
+</ul>
+</div>
+</div>
+<div class="bg-surface-container p-8 rounded-3xl hover:bg-surface-container-lowest transition-all border border-transparent hover:border-outline-variant/10">
+<div class="flex justify-between items-center cursor-pointer group">
+<div class="flex items-center gap-6">
+<div class="w-16 h-16 rounded-2xl bg-white flex items-center justify-center text-on-surface-variant group-hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-3xl" data-icon="brightness_7">brightness_7</span>
+</div>
+<h3 class="text-2xl font-bold font-headline text-stone-700">Aqidah</h3>
+</div>
+<span class="material-symbols-outlined text-stone-400 group-hover:text-primary transition-colors text-3xl" data-icon="expand_more">expand_more</span>
+</div>
+<div class="mt-8 pt-8 border-t border-outline-variant/10 text-on-surface-variant leading-relaxed text-lg" style="display: none;">
+<ul class="space-y-4 list-disc pl-6">
+<li><strong>Iman Kepada Hari Akhir:</strong> Bermawas diri dan tahapan-tahapannya.</li>
+<li><strong>Iman Kepada Qada &amp; Qadar:</strong> Memahami takdir Mubram dan Muallaq.</li>
+<li><strong>Rukun Iman Lainnya:</strong> Kitab-kitab Allah, Nabi &amp; Rasul, dan Malaikat.</li>
+</ul>
+</div>
+</div>
+<div class="bg-surface-container p-8 rounded-3xl hover:bg-surface-container-lowest transition-all border border-transparent hover:border-outline-variant/10">
+<div class="flex justify-between items-center cursor-pointer group">
+<div class="flex items-center gap-6">
+<div class="w-16 h-16 rounded-2xl bg-white flex items-center justify-center text-on-surface-variant group-hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-3xl" data-icon="favorite">favorite</span>
+</div>
+<h3 class="text-2xl font-bold font-headline text-stone-700">Akhlak</h3>
+</div>
+<span class="material-symbols-outlined text-stone-400 group-hover:text-primary transition-colors text-3xl" data-icon="expand_more">expand_more</span>
+</div>
+<div class="mt-8 pt-8 border-t border-outline-variant/10 text-on-surface-variant leading-relaxed text-lg" style="display: none;">
+<ul class="space-y-4 list-disc pl-6">
+<li><strong>Etika Pergaulan:</strong> Adab berkomunikasi antar lawan jenis secara Islami.</li>
+<li><strong>Sifat Terpuji:</strong> Perilaku jujur dan amanah dalam kehidupan sehari-hari.</li>
+<li><strong>Sikap Sosial:</strong> Menghindari Ghibah dan membiasakan Tabayun.</li>
+</ul>
+</div>
+</div>
+<div class="bg-surface-container p-8 rounded-3xl hover:bg-surface-container-lowest transition-all border border-transparent hover:border-outline-variant/10">
+<div class="flex justify-between items-center cursor-pointer group">
+<div class="flex items-center gap-6">
+<div class="w-16 h-16 rounded-2xl bg-white flex items-center justify-center text-on-surface-variant group-hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-3xl" data-icon="gavel">gavel</span>
+</div>
+<h3 class="text-2xl font-bold font-headline text-stone-700">Fiqih</h3>
+</div>
+<span class="material-symbols-outlined text-stone-400 group-hover:text-primary transition-colors text-3xl" data-icon="expand_more">expand_more</span>
+</div>
+<div class="mt-8 pt-8 border-t border-outline-variant/10 text-on-surface-variant leading-relaxed text-lg" style="display: none;">
+<ul class="space-y-4 list-disc pl-6">
+<li><strong>Ketentuan Kurban &amp; Aqiqah:</strong> Syarat sah hewan peliharaan dan tata cara penyembelihan.</li>
+<li><strong>Fiqih Muamalah:</strong> Hukum jual beli dan larangan riba secara tegas.</li>
+<li><strong>Ibadah Praktis:</strong> Tata cara shalat jenazah, sujud sahwi, syukur, dan tilawah.</li>
+</ul>
+</div>
+</div>
+<div class="bg-surface-container p-8 rounded-3xl hover:bg-surface-container-lowest transition-all border border-transparent hover:border-outline-variant/10">
+<div class="flex justify-between items-center cursor-pointer group">
+<div class="flex items-center gap-6">
+<div class="w-16 h-16 rounded-2xl bg-white flex items-center justify-center text-on-surface-variant group-hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-3xl" data-icon="history_edu">history_edu</span>
+</div>
+<h3 class="text-2xl font-bold font-headline text-stone-700">Tarikh (Sejarah)</h3>
+</div>
+<span class="material-symbols-outlined text-stone-400 group-hover:text-primary transition-colors text-3xl" data-icon="expand_more">expand_more</span>
+</div>
+<div class="mt-8 pt-8 border-t border-outline-variant/10 text-on-surface-variant leading-relaxed text-lg" style="display: none;">
+<ul class="space-y-4 list-disc pl-6">
+<li><strong>Daulah Usmani:</strong> Pencapaian kejayaan dan tokoh-tokoh pemimpin utama.</li>
+<li><strong>Daulah Abbasiyah:</strong> Peran besar ilmuwan muslim dan masa keemasan peradaban Islam.</li>
+<li><strong>Bani Umayyah:</strong> Jejak bersejarah peradaban Islam di Damaskus dan Andalusia (Spanyol).</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Materi -->
+<section class="py-32 px-6 bg-surface" id="materi">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-4">
+<div>
+<h2 class="text-5xl font-headline font-bold text-on-surface">Ringkasan Materi <span class="text-primary italic">Populer</span></h2>
+<p class="text-xl text-on-surface-variant mt-4">Pahami konsep tersulit dengan penjelasan yang disederhanakan.</p>
+</div>
+<a class="flex items-center gap-2 text-primary font-bold text-lg hover:underline underline-offset-8 decoration-2" href="daftar-materi.html">
+                        Lihat Semua Materi <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Big Card 1 -->
+<div class="lg:col-span-2 bg-surface-container-lowest rounded-[2.5rem] p-10 border border-outline-variant/10 shadow-sm flex flex-col justify-between group hover:shadow-xl transition-all">
+<div>
+<div class="w-20 h-20 bg-secondary-container rounded-3xl flex items-center justify-center text-on-secondary-container mb-10 shadow-inner">
+<span class="material-symbols-outlined text-4xl" data-icon="content_cut">content_cut</span>
+</div>
+<h3 class="text-3xl font-bold font-headline mb-6">Ketentuan Penyembelihan Hewan</h3>
+<p class="text-on-surface-variant text-lg mb-10 leading-relaxed">Mendalami syarat sah, adab, dan tata cara penyembelihan secara syar'i serta integrasi teknologi modern dalam proses qurban.</p>
+</div>
+<a class="flex items-center gap-3 text-primary font-bold text-lg group-hover:translate-x-2 transition-all" href="detail-materi.html">
+                            Baca Selengkapnya <span class="material-symbols-outlined">chevron_right</span>
+</a>
+</div>
+<!-- Highlight Card -->
+<div class="bg-primary text-on-primary rounded-[2.5rem] p-10 shadow-2xl flex flex-col justify-between group hover:-translate-y-2 transition-all">
+<div>
+<div class="w-16 h-16 bg-primary-container rounded-2xl flex items-center justify-center mb-10">
+<span class="material-symbols-outlined text-3xl" data-icon="balance">balance</span>
+</div>
+<h3 class="text-2xl font-bold font-headline mb-6">Qadha &amp; Qadar</h3>
+<p class="text-primary-fixed/80 text-base mb-10 leading-relaxed">Menyelami rukun iman ke-enam dan bagaimana menyeimbangkan antara takdir dan usaha nyata.</p>
+</div>
+<a class="text-on-primary font-bold flex items-center gap-2 group-hover:gap-4 transition-all" href="detail-materi.html">
+                            Pelajari <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+<!-- Visual Card -->
+<div class="bg-surface-container-lowest rounded-[2.5rem] p-10 border border-outline-variant/10 shadow-sm flex flex-col justify-between group hover:shadow-xl transition-all">
+<div class="w-full h-48 mb-8 rounded-[2rem] overflow-hidden">
+<img alt="Kaligrafi Islam" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src="images/islamic_calligraphy.png"/>
+</div>
+<h3 class="text-2xl font-bold font-headline mb-4">Kejayaan Bani Abbasiyah</h3>
+<a class="text-primary font-bold flex items-center gap-2 group-hover:gap-4 transition-all" href="detail-materi.html">
+                            Buka <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+<!-- Wide Card -->
+<div class="lg:col-span-2 bg-surface-container-low rounded-[2.5rem] p-10 flex flex-col lg:flex-row gap-10 group hover:bg-surface-container transition-colors border border-transparent hover:border-outline-variant/10">
+<div class="shrink-0 w-32 h-32 bg-white rounded-3xl flex items-center justify-center shadow-lg group-hover:rotate-6 transition-transform">
+<span class="material-symbols-outlined text-6xl text-primary" data-icon="diversity_3">diversity_3</span>
+</div>
+<div>
+<h3 class="text-3xl font-bold font-headline mb-4">Etika Pergaulan Islami</h3>
+<p class="text-on-surface-variant text-lg mb-8 leading-relaxed">Tata krama, batasan interaksi, serta prinsip komunikasi tabayun yang sesuai dengan tuntunan Rasulullah SAW.</p>
+<a class="px-10 py-4 bg-primary-fixed text-on-primary-fixed-variant rounded-2xl font-bold inline-block hover:bg-primary hover:text-white transition-all shadow-sm" href="detail-materi.html">Mulai Baca Sekarang</a>
+</div>
+</div>
+<!-- Accessory Card -->
+<div class="lg:col-span-2 bg-secondary-container/30 rounded-[2.5rem] p-10 flex items-center justify-between border border-secondary-fixed hover:bg-secondary-container/40 transition-colors">
+<div class="max-w-md">
+<h3 class="text-3xl font-bold font-headline mb-4 text-on-secondary-container">Keringanan (Rukhsah) Ibadah</h3>
+<p class="text-on-secondary-container/80 text-lg">Panduan ibadah saat sakit, musafir, atau kondisi darurat sebagai bentuk kasih sayang Allah SWT.</p>
+</div>
+<div class="w-24 h-24 rounded-full bg-white/60 backdrop-blur-md flex items-center justify-center text-secondary shadow-lg">
+<span class="material-symbols-outlined text-5xl" data-icon="flight_takeoff">flight_takeoff</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Latihan Soal -->
+<section class="py-32 px-6 bg-surface-container-low" id="latihan">
+<div class="max-w-5xl mx-auto">
+<div class="text-center mb-16 space-y-6">
+<h2 class="text-5xl font-headline font-bold text-on-surface">Simulasi <span class="text-primary">Latihan Soal</span></h2>
+<p class="text-xl text-on-surface-variant max-w-2xl mx-auto">Uji kesiapanmu dengan bank soal interaktif kami yang diperbarui secara berkala sesuai kisi-kisi resmi tahun 2026.</p>
+</div>
+<!-- Desktop Tabs -->
+<div class="flex justify-center mb-16">
+<div class="bg-surface-container-high p-2 rounded-2xl flex gap-2" id="kuis-tabs">
+<button onclick="pilihTab(0)" id="tab-0" class="tab-btn px-10 py-4 bg-surface-container-lowest text-primary font-bold rounded-xl shadow-md transition-all active">Soal Seleksi MAPSI tingkat SMPN 5 Klaten 2026</button>
+</div>
+</div>
+<!-- Quiz Card -->
+<div class="bg-surface-container-lowest rounded-[3rem] p-10 lg:p-16 shadow-2xl border border-outline-variant/10">
+<div class="flex flex-col md:flex-row items-center justify-between mb-12 gap-6">
+<span id="quiz-kategori" class="px-6 py-2 bg-primary-fixed text-on-primary-fixed-variant rounded-full text-sm font-extrabold uppercase tracking-widest">Soal No. 1 - Aqidah</span>
+<div class="flex items-center gap-3 bg-surface-container-low px-6 py-3 rounded-2xl text-on-surface font-bold text-lg">
+<span class="material-symbols-outlined text-primary" data-icon="timer">timer</span> 01:24
+                        </div>
+</div>
+<h3 id="quiz-pertanyaan" class="text-2xl md:text-3xl font-headline font-bold text-on-surface mb-12 leading-relaxed">
+                        Perhatikan pernyataan berikut! <br/> <span class="italic text-primary-container">"Segala sesuatu yang terjadi di alam semesta ini telah ditetapkan oleh Allah SWT sejak zaman azali."</span> <br/> Pengertian tersebut merujuk pada istilah...
+                    </h3>
+<div class="grid lg:grid-cols-2 gap-6">
+<label class="group cursor-pointer">
+<input class="hidden peer" name="quiz" type="radio"/>
+<div class="flex items-center justify-between p-6 rounded-[2rem] border-2 border-outline-variant/20 bg-surface hover:bg-primary-fixed/30 hover:border-primary transition-all peer-checked:bg-primary-fixed peer-checked:border-primary peer-checked:shadow-lg">
+<span class="text-xl font-bold flex items-center gap-6">
+<span class="w-12 h-12 rounded-2xl bg-surface-container-high flex items-center justify-center text-on-surface-variant group-hover:bg-white group-hover:text-primary transition-all peer-checked:bg-primary peer-checked:text-white">A</span>
+                                    <span id="text-opsi-0">Qadha</span>
+                                </span>
+<span class="material-symbols-outlined opacity-0 peer-checked:opacity-100 text-primary text-3xl" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="quiz" type="radio"/>
+<div class="flex items-center justify-between p-6 rounded-[2rem] border-2 border-outline-variant/20 bg-surface hover:bg-primary-fixed/30 hover:border-primary transition-all peer-checked:bg-primary-fixed peer-checked:border-primary peer-checked:shadow-lg">
+<span class="text-xl font-bold flex items-center gap-6">
+<span class="w-12 h-12 rounded-2xl bg-surface-container-high flex items-center justify-center text-on-surface-variant group-hover:bg-white transition-all peer-checked:bg-primary peer-checked:text-white">B</span>
+                                    <span id="text-opsi-1">Qadar</span>
+                                </span>
+<span class="material-symbols-outlined opacity-0 peer-checked:opacity-100 text-primary text-3xl" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="quiz" type="radio"/>
+<div class="flex items-center justify-between p-6 rounded-[2rem] border-2 border-outline-variant/20 bg-surface hover:bg-primary-fixed/30 hover:border-primary transition-all peer-checked:bg-primary-fixed peer-checked:border-primary peer-checked:shadow-lg">
+<span class="text-xl font-bold flex items-center gap-6">
+<span class="w-12 h-12 rounded-2xl bg-surface-container-high flex items-center justify-center text-on-surface-variant group-hover:bg-white transition-all peer-checked:bg-primary peer-checked:text-white">C</span>
+                                    <span id="text-opsi-2">Ikhtiar</span>
+                                </span>
+<span class="material-symbols-outlined opacity-0 peer-checked:opacity-100 text-primary text-3xl" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="quiz" type="radio"/>
+<div class="flex items-center justify-between p-6 rounded-[2rem] border-2 border-outline-variant/20 bg-surface hover:bg-primary-fixed/30 hover:border-primary transition-all peer-checked:bg-primary-fixed peer-checked:border-primary peer-checked:shadow-lg">
+<span class="text-xl font-bold flex items-center gap-6">
+<span class="w-12 h-12 rounded-2xl bg-surface-container-high flex items-center justify-center text-on-surface-variant group-hover:bg-white transition-all peer-checked:bg-primary peer-checked:text-white">D</span>
+                                    <span id="text-opsi-3">Tawakal</span>
+                                </span>
+<span class="material-symbols-outlined opacity-0 peer-checked:opacity-100 text-primary text-3xl" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</label>
+</div>
+<div class="mt-16 flex flex-col lg:flex-row gap-8 justify-between items-center border-t border-outline-variant/10 pt-12">
+<button class="text-on-surface-variant font-bold text-lg flex items-center gap-3 hover:text-primary transition-all">
+<span class="material-symbols-outlined">flag</span> Laporkan Masalah
+                        </button>
+<div class="flex gap-6 w-full lg:w-auto">
+<button id="btn-lewati" onclick="langkahSoal()" class="flex-1 lg:px-12 py-5 rounded-2xl border-2 border-outline-variant/30 font-extrabold text-lg hover:bg-surface-container-high transition-all" style="display:none;">Soal Berikutnya</button>
+<a href="latihan-soal.html" id="btn-simpan" class="flex-[2] lg:px-16 py-5 rounded-2xl bg-primary text-white font-extrabold text-lg shadow-xl hover:shadow-primary/40 transition-all active:scale-95 text-center">Mulai Simulasi Penuh</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Full Desktop Footer -->
+<footer class="bg-inverse-surface text-surface py-20 px-6">
+<div class="max-w-7xl mx-auto">
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+<div class="lg:col-span-1">
+<div class="flex items-center gap-3 mb-8">
+<span class="material-symbols-outlined text-primary-fixed text-4xl" data-icon="menu_book">menu_book</span>
+<span class="font-headline font-black text-2xl tracking-tighter">Sukses CCAI MAPSI SMP</span>
+</div>
+<p class="text-surface-variant text-lg leading-relaxed mb-8">
+                        Platform bimbingan belajar khusus PAI Tahun 2026 untuk persiapan Lomba CCAI MAPSI yang berkualitas dan modern. Dirancang untuk hasil terbaik.
+                    </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors" href="#"><span class="material-symbols-outlined text-sm" data-icon="public">public</span></a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors" href="#"><span class="material-symbols-outlined text-sm" data-icon="mail">mail</span></a>
+<a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors" href="#"><span class="material-symbols-outlined text-sm" data-icon="call">call</span></a>
+</div>
+</div>
+<div>
+<h4 class="font-headline font-bold text-xl mb-8">Materi Utama</h4>
+<ul class="space-y-4 text-surface-variant text-lg">
+<li><a class="hover:text-primary transition-colors" href="#">Al-Qur'an &amp; Hadis</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Aqidah &amp; Akhlak</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Fiqih Ibadah</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Sejarah Islam</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold text-xl mb-8">Bantuan</h4>
+<ul class="space-y-4 text-surface-variant text-lg">
+<li><a class="hover:text-primary transition-colors" href="#">Cara Belajar</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">FAQ</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Kontak Kami</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Pusat Bantuan</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold text-xl mb-8">Legal</h4>
+<ul class="space-y-4 text-surface-variant text-lg">
+<li><a class="hover:text-primary transition-colors" href="#">Kebijakan Privasi</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Syarat &amp; Ketentuan</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Disclaimer</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-white/10 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-surface-variant font-medium">© 2026 Sukses CCAI MAPSI SMP. Platform Belajar CCAI MAPSI Tahun 2026.</p>
+</div>
+</div>
+</footer>
+<script>
+// Accordion untuk section kisi-kisi di homepage
+document.addEventListener('DOMContentLoaded', () => {
+    const accordionItems = document.querySelectorAll('#kisi-kisi .cursor-pointer.group');
+    accordionItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const content = item.nextElementSibling;
+            const icon = item.querySelector('.material-symbols-outlined[data-icon="expand_more"]');
+            if (!content) return;
+            const isOpen = content.style.display !== 'none' && content.style.maxHeight !== '0px';
+            // Tutup semua
+            document.querySelectorAll('#kisi-kisi .cursor-pointer.group').forEach(el => {
+                const c = el.nextElementSibling;
+                const ic = el.querySelector('.material-symbols-outlined[data-icon="expand_more"]');
+                if (c) c.style.display = 'none';
+                if (ic) ic.style.transform = 'rotate(0deg)';
+            });
+            // Buka yang diklik (toggle)
+            if (!isOpen) {
+                content.style.display = 'block';
+                if (icon) icon.style.transform = 'rotate(180deg)';
+            }
+        });
+    });
+    // Buka accordion pertama secara default
+    const firstContent = document.querySelector('#kisi-kisi .cursor-pointer.group + div');
+    const firstIcon = document.querySelector('#kisi-kisi .cursor-pointer.group .material-symbols-outlined[data-icon="expand_more"]');
+    if (firstContent) firstContent.style.display = 'block';
+    if (firstIcon) firstIcon.style.transform = 'rotate(180deg)';
+    // Tutup lainnya
+    const allContents = document.querySelectorAll('#kisi-kisi .cursor-pointer.group + div');
+    allContents.forEach((c, i) => { if (i > 0) c.style.display = 'none'; });
+    // Menangani Kuis Simulasi Interaktif
+    // Menangani Kuis Simulasi Interaktif
+    const simSoalData = [
+        { // [Index 0] Tab 0: Contoh Soal Preview
+            kategori: "Contoh Soal - Aqidah",
+            pertanyaan: "Perhatikan pernyataan berikut! <br> <span class='italic text-primary-container'>\"Segala sesuatu yang terjadi di alam semesta ini telah ditetapkan oleh Allah SWT sejak zaman azali.\"</span> <br> Pengertian tersebut merujuk pada istilah...",
+            opsi: ["Qadha", "Qadar", "Ikhtiar", "Tawakal"]
+        },
+        { // [Index 1] Tab 1: Soal 1
+            kategori: "Ujian T.A. 2024 - Al-Qur'an & Hadis (1/4)",
+            pertanyaan: "Sebagai seorang mukmin, sudah seharusnya kita menggantungkan harapan dan mohon pertolongan kepada Allah SWT, karena itu menjadi salah satu indikator keimanan kita. Allah juga menjelaskan di beberapa ayat, diantaranya ayat berikut ini:<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ</span><br>Allah menyuruh kita meminta pertolongan kepada Allah SWT dengan cara....",
+            opsi: ["Sabar dan salat", "Dzikir dan doa", "Salat dan puasa", "Zakat dan sedekah"]
+        },
+        { // [Index 2] Tab 1: Soal 2
+            kategori: "Ujian T.A. 2024 - Ilmu Tajwid (2/4)",
+            pertanyaan: "Cara membaca hukum bacaan <i>Qalqalah</i> adalah memantul, yang termasuk bacaan <i>Qalqalah sugra</i> adalah....",
+            opsi: ["<span class='text-2xl font-arabic'>ثُمَّ يُجْزَاهُ</span>", "<span class='text-2xl font-arabic'>وَأَنَّ سَعْيَهُ</span>", "<span class='text-2xl font-arabic'>لَا تَنْقُضُوا</span>", "<span class='text-2xl font-arabic'>وَاسْتَغْفِرْ لَهُمْ</span>"]
+        },
+        { // [Index 3] Tab 1: Soal 3
+            kategori: "Ujian T.A. 2024 - Al-Qur'an & Hadis (3/4)",
+            pertanyaan: "Perhatikan Q.S. Az-Zumar/39: 53 berikut!<br><br><span class='text-2xl font-bold font-arabic leading-loose text-center block' dir='rtl'>قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ ۚ إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا ۚ إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ</span><br>Pada ayat tersebut manakah yang <b>bukan</b> termasuk kandungan di dalamnya?",
+            opsi: ["Larangan putus asa", "Perintah mensyukuri nikmat", "Allah mengampuni semua dosa", "Allah Maha Pengampun"]
+        },
+        { // [Index 4] Tab 1: Soal 4
+            kategori: "Ujian T.A. 2024 - Aqidah (4/4)",
+            pertanyaan: "Pemilu telah usai, sebagai warga negara dan muslim yang baik, Xena merasa lega bisa melaksanakan kewajibannya. Ia berkeyakinan bahwa memilih pemimpin juga ibadah dan ada aturannya dalam Islam. Meski hasilnya tidak sesuai yang ia pilih, tapi apa yang ia lakukan pasti akan <b>dicatat dan dipertanggungjawabkan</b> kelak. Ini merupakan pencerminan iman kepada malaikat....",
+            opsi: ["Jibril", "Ridwan", "Rokib dan Atid", "Munkar dan Nakir"]
+        },
+        { // [Index 5] Tab 2: Soal 1 2025
+            kategori: "Ujian T.A. 2025 - Fiqih (1/1)",
+            pertanyaan: "Perhatikan prosedur teknis tradisional berikut:<br>1) Menyiapkan lubang darah 2) Menyiapkan ember pembersih 3) Hewan dihadapkan rute Kiblat 4) Kaki diikat kuat 5) Leher di atas lubang 6) Hewan dicekok 7) Niat 8) Membaca Basmalah & Takbir 9) Menyayat leher.<br>Urutan tahapan ritual Penyembelihan Hewan Islami yang mutlak sah adalah ....",
+            opsi: ["1, 2, 3, 5, 6, 7, 8", "2, 3, 4, 5, 7, 8, 9", "1, 3, 4, 5, 7, 8, 9", "2, 3, 5, 6, 7, 9"]
+        },
+        { // [Index 6] Tab 3: CCAI MAPSI 2026 - Soal HOTS
+            kategori: "Prediksi Kisi-Kisi 2026 - Aqidah HOTS",
+            pertanyaan: "Bangkok — Sebuah gedung pencakar langit yang sedang dibangun runtuh saat gempa bermagnitudo 7,7 mengguncang wilayah tersebut. Pengujian awal menemukan baja di bawah standar di reruntuhan. Setidaknya 12 orang meninggal dunia.<br><br>Berkaitan dengan fenomena alam <b>gempa bumi</b> pada berita tersebut, ayat Al-Qur'an manakah yang paling sesuai?",
+            opsi: [
+                "<span class='text-xl font-arabic block leading-loose' dir='rtl'>يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ</span>",
+                "<span class='text-xl font-arabic block leading-loose' dir='rtl'>وَإِذَا الْجِبَالُ سُيِّرَتْ</span>",
+                "<span class='text-xl font-arabic block leading-loose' dir='rtl'>إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا</span>",
+                "<span class='text-xl font-arabic block leading-loose' dir='rtl'>إِذَا السَّمَاءُ انفَطَرَتْ</span>"
+            ]
+        }
+    ];
+
+    let currentSoalIndex = 0;
+    let currentTab = 0;
+
+    window.pilihTab = function(tabIndex) {
+        currentTab = tabIndex;
+        // Update gaya tombol Tab
+        document.querySelectorAll('.tab-btn').forEach((btn, idx) => {
+            if (idx === tabIndex) {
+                btn.className = "tab-btn px-10 py-4 bg-surface-container-lowest text-primary font-bold rounded-xl shadow-md transition-all active";
+            } else {
+                btn.className = "tab-btn px-10 py-4 text-on-surface-variant font-bold hover:text-on-surface hover:bg-white/50 rounded-xl transition-all";
+            }
+        });
+
+        // Set state Index Soal awal per tab dan update link Simulasi Penuh
+        const btnSimpan = document.getElementById('btn-simpan');
+        
+        // Bersihkan onclick sebelumnya untuk mencegah multiple event listener (biarkan bersih dulu dengan clone jika butuh, tapi disini kita cukup timpa)
+        btnSimpan.onclick = function() {
+            if (tabIndex === 1) localStorage.setItem('quizYear', '2024');
+            else if (tabIndex === 2) localStorage.setItem('quizYear', '2025');
+            else if (tabIndex === 3) localStorage.setItem('quizYear', '2026');
+        };
+
+        if (tabIndex === 0) {
+            currentSoalIndex = 0;
+            btnSimpan.href = "latihan-soal.html"; // Balik ke lobi kalau milih "Contoh Soal"
+        } else if (tabIndex === 1) { // 2024
+            currentSoalIndex = 1;
+            btnSimpan.href = "ruang-ujian.html?year=2024";
+        } else if (tabIndex === 2) { // 2025
+            currentSoalIndex = 5;
+            btnSimpan.href = "ruang-ujian.html?year=2025";
+        } else if (tabIndex === 3) { // Prediksi
+            currentSoalIndex = 6;
+            btnSimpan.href = "ruang-ujian.html?year=2026";
+        }
+
+        // Atur kemunculan tombol "Soal Berikutnya"
+        const btnLewati = document.getElementById('btn-lewati');
+        if (tabIndex === 1 && currentSoalIndex < 4) {
+            btnLewati.style.display = 'block';
+        } else {
+            btnLewati.style.display = 'none'; // Untuk 2025 & 2026 cuma 1 soal teaser/preview
+        }
+
+        renderTeaserSoal(currentSoalIndex);
+    };
+
+    window.langkahSoal = function() {
+        if (currentTab === 1 && currentSoalIndex >= 1 && currentSoalIndex < 4) {
+            currentSoalIndex++; // Pindah ke soal selanjutnya
+            
+            // Sembunyikan tombol NEXT bila mencapai soal ke-4
+            if (currentSoalIndex === 4) {
+                document.getElementById('btn-lewati').style.display = 'none';
+            }
+            
+            renderTeaserSoal(currentSoalIndex);
+        }
+    };
+
+    function renderTeaserSoal(idx) {
+        const soal = simSoalData[idx];
+        document.getElementById('quiz-kategori').innerHTML = soal.kategori;
+        document.getElementById('quiz-pertanyaan').innerHTML = soal.pertanyaan;
+        for (let i = 0; i < 4; i++) {
+            // Gunakan innerHTML agar tag span untuk tulisan arab bisa dirender jadi DOM, bukan teks biasa
+            document.getElementById('text-opsi-' + i).innerHTML = soal.opsi[i];
+        }
+        
+        // Reset radio button checks
+        document.querySelectorAll('input[name="quiz"]').forEach(radio => radio.checked = false);
+    }
+
+    // Render soal teaser default (tab 0 sudah punya soal nyata)
+    renderTeaserSoal(0);
+});
+
+// Mobile menu toggle
+function toggleMobileMenu() {
+    const menu = document.getElementById('mobile-menu');
+    const line1 = document.getElementById('ham-line1');
+    const line2 = document.getElementById('ham-line2');
+    const line3 = document.getElementById('ham-line3');
+    const isOpen = !menu.classList.contains('hidden');
+    menu.classList.toggle('hidden');
+    // Animasi hamburger → X
+    if (!isOpen) {
+        line1.style.transform = 'translateY(8px) rotate(45deg)';
+        line2.style.opacity = '0';
+        line3.style.transform = 'translateY(-8px) rotate(-45deg)';
+    } else {
+        line1.style.transform = '';
+        line2.style.opacity = '';
+        line3.style.transform = '';
+    }
+}
+
+</script>
+</body></html>
