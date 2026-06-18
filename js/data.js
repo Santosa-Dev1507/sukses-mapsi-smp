@@ -2469,7 +2469,7 @@ const quizData2026 = [
         "num": 5,
         "pertanyaan": "Di sebuah perumahan, warga muslim sepakat untuk menjaga ketenangan saat umat agama lain sedang melaksanakan ibadah perayaan hari besar. Tindakan ini mencerminkan prinsip \"La ikraha fiddin\" (QS. Al-Baqarah: 256) yang secara kontekstual bermakna...",
         "opsi": [
-            "Kebebasan beragama yang diiringi sikap saling menghargai batas-batas syariat, --- PAGE 2 --- tanpa mencampuradukkan akidah",
+            "Kebebasan beragama yang diiringi sikap saling menghargai batas-batas syariat, tanpa mencampuradukkan akidah",
             "Mengikuti ibadah agama lain sebagai bentuk toleransi tingkat tinggi",
             "Pembenaran bahwa semua ajaran agama memiliki kedudukan yang sama persis di mata Allah",
             "Sikap acuh tak acuh terhadap kegiatan ibadah orang lain di sekitar kita"
@@ -2551,7 +2551,7 @@ const quizData2026 = [
     },
     {
         "num": 11,
-        "pertanyaan": "Keluarga Pak Ahmad mengalami musibah kebakaran yang menghabiskan tempat usahanya. Ia segera mengucap \"Inna lillahi wa inna ilaihi raji'un\" dan esoknya mulai --- PAGE 3 --- membersihkan sisa puing untuk memulai kembali. Sikap ini adalah perwujudan langsung dari...",
+        "pertanyaan": "Keluarga Pak Ahmad mengalami musibah kebakaran yang menghabiskan tempat usahanya. Ia segera mengucap \"Inna lillahi wa inna ilaihi raji'un\" dan esoknya mulai membersihkan sisa puing untuk memulai kembali. Sikap ini adalah perwujudan langsung dari...",
         "opsi": [
             "QS. Ali Imran: 102",
             "QS. Al-Baqarah: 155-156",
@@ -2638,7 +2638,7 @@ const quizData2026 = [
         "pertanyaan": "Hukum Mad Wajib Muttasil berlaku apabila Mad Thabi'i bertemu hamzah di dalam satu kata (seperti: ﺟَﺂءَ .) Mengapa hukum bacaan ini disebut \"wajib\" panjangnya (4-5 harakat)?",
         "opsi": [
             "Karena jika dipendekkan akan merusak tatanan makna kata secara ekstrem dalam bahasa Arab",
-            "Karena hamzah merupakan huruf yang berat diucapkan sehingga butuh jeda yang lama --- PAGE 4 ---",
+            "Karena hamzah merupakan huruf yang berat diucapkan sehingga butuh jeda yang lama ",
             "Karena bertepatan dengan tanda waqaf lazim di akhir ayat",
             "Karena semua ulama Qiraah sepakat mutlak membacanya lebih dari dua harakat tanpa ada keringanan memendekkannya menjadi dua harakat"
         ],
@@ -2722,7 +2722,7 @@ const quizData2026 = [
         "pertanyaan": "Seorang ilmuwan muslim meneliti struktur DNA manusia yang miliaran jumlahnya dan tersusun sangat sistematis. Penelitian ini mengantarkannya pada kekaguman luar biasa dan memperkuat imannya terhadap Asmaul Husna...",
         "opsi": [
             "Al-Quddus",
-            "Al-Ghafur --- PAGE 5 ---",
+            "Al-Ghafur ",
             "Al-Khabir",
             "As-Salam"
         ],
@@ -2803,7 +2803,7 @@ const quizData2026 = [
     },
     {
         "num": 29,
-        "pertanyaan": "Salah satu bukti kecerdasan (Fathanah) Rasulullah SAW dalam membangun peradaban multikultural di Madinah yang relevan untuk resolusi konflik bangsa saat ini adalah... --- PAGE 6 ---",
+        "pertanyaan": "Salah satu bukti kecerdasan (Fathanah) Rasulullah SAW dalam membangun peradaban multikultural di Madinah yang relevan untuk resolusi konflik bangsa saat ini adalah... ",
         "opsi": [
             "Mengusir paksa semua penduduk asli yang tidak mau masuk Islam",
             "Menggagas Piagam Madinah yang menjamin kebebasan beragama, hak sipil, dan kewajiban membela kota secara bersama antara muslim dan Yahudi",
@@ -2887,7 +2887,7 @@ const quizData2026 = [
     },
     {
         "num": 35,
-        "pertanyaan": "Kaum materialis menolak adanya Yaumul Ba'ats (Hari Kebangkitan) dengan dalih tubuh --- PAGE 7 --- yang sudah hancur menjadi tanah tidak logis bisa dihidupkan kembali. Al-Quran membantah argumentasi ini secara rasional (aqli) dengan menganalogikan bahwa...",
+        "pertanyaan": "Kaum materialis menolak adanya Yaumul Ba'ats (Hari Kebangkitan) dengan dalih tubuh yang sudah hancur menjadi tanah tidak logis bisa dihidupkan kembali. Al-Quran membantah argumentasi ini secara rasional (aqli) dengan menganalogikan bahwa...",
         "opsi": [
             "Manusia purba saja bisa hidup kembali",
             "Proses kebangkitan itu sama mudahnya dengan menghidupkan kembali bumi yang tandus kerontang menjadi subur kembali setelah disiram air hujan, dan proses pengulangan ciptaan selalu lebih mudah daripada penciptaan pertama",
@@ -2957,7 +2957,7 @@ const quizData2026 = [
     },
     {
         "num": 40,
-        "pertanyaan": "Mencintai Rasulullah SAW (Mahabbah ar-Rasul) bagi Gen Z tidak cukup sekadar memperingati Maulid Nabi. Bukti autentik cinta kepada Rasulullah bagi seorang pelajar yang aktif membuat konten di TikTok adalah... --- PAGE 8 ---",
+        "pertanyaan": "Mencintai Rasulullah SAW (Mahabbah ar-Rasul) bagi Gen Z tidak cukup sekadar memperingati Maulid Nabi. Bukti autentik cinta kepada Rasulullah bagi seorang pelajar yang aktif membuat konten di TikTok adalah... ",
         "opsi": [
             "Menghafal silsilah keluarga Nabi namun sering mengucapkan kata-kata kotor di video",
             "Memproduksi konten edukatif yang jujur, menyebarkan narasi kasih sayang, menghindari ghibah digital, sebagai bentuk peneladanan sunnah Nabi di dunia maya",
@@ -3100,7 +3100,7 @@ const quizData2026 = [
         "pertanyaan": "Seorang musafir singgah di masjid pada hari Jumat. Ia ikut salat berjamaah namun baru bergabung ketika imam sedang dalam posisi iktidal pada rakaat kedua. Status salat musafir ini (masbuk) adalah...",
         "opsi": [
             "Ia sah mendapat salat Jumat dan cukup menambah satu rakaat lagi setelah imam salam",
-            "Ia kehilangan rakaat Jumat (karena tidak sempat rukuk bersama imam di rakaat --- PAGE 10 --- kedua), sehingga setelah imam salam ia wajib meneruskannya menjadi salat Zuhur empat rakaat",
+            "Ia kehilangan rakaat Jumat (karena tidak sempat rukuk bersama imam di rakaat kedua), sehingga setelah imam salam ia wajib meneruskannya menjadi salat Zuhur empat rakaat",
             "Ia harus menunggu salat Jumat selesai lalu salat Zuhur sendirian",
             "Salatnya batal secara otomatis"
         ],
@@ -3183,7 +3183,7 @@ const quizData2026 = [
         "num": 56,
         "pertanyaan": "Keluarga Pak Budi dikaruniai seorang bayi laki-laki. Sebagai rasa syukur, ia melaksanakan akikah. Sunah Rasulullah SAW untuk penyembelihan akikah anak laki-laki beserta pencukuran rambutnya dilakukan pada...",
         "opsi": [
-            "Hari ke-7 kelahirannya, dengan menyembelih 2 ekor kambing/domba --- PAGE 11 ---",
+            "Hari ke-7 kelahirannya, dengan menyembelih 2 ekor kambing/domba ",
             "Hari ke-14 kelahirannya, dengan menyembelih 1 ekor lembu/sapi",
             "Hari ke-40 kelahirannya, dengan menyembelih 1 ekor kambing",
             "Usia 1 tahun, dengan membagikan daging secara mentah"
@@ -3253,7 +3253,7 @@ const quizData2026 = [
         "num": 61,
         "pertanyaan": "Pemindahan ibu kota Daulah Abbasiyah dari Damaskus ke Baghdad bukan sekadar urusan politik, melainkan strategi geopolitik dan ekonomi kelas atas. Analisis paling logis di balik pemilihan lokasi Baghdad adalah...",
         "opsi": [
-            "Letaknya yang diapit sungai Tigris dan Eufrat memastikan ketahanan pangan --- PAGE 12 --- (subur), serta menjadi simpul Jalur Sutra yang mempertemukan perdagangan Timur dan Barat",
+            "Letaknya yang diapit sungai Tigris dan Eufrat memastikan ketahanan pangan (subur), serta menjadi simpul Jalur Sutra yang mempertemukan perdagangan Timur dan Barat",
             "Cuaca di Baghdad sangat dingin sehingga cocok bagi pasukan berkuda Abbasiyah",
             "Untuk menjauhi pengaruh budaya Persia yang mulai menguat",
             "Baghdad adalah kota suci ketiga setelah Makkah dan Madinah pada masa itu"
@@ -3335,7 +3335,7 @@ const quizData2026 = [
     },
     {
         "num": 67,
-        "pertanyaan": "Daulah Turki Usmani mengandalkan sistem birokrasi dan militer yang unik melalui --- PAGE 13 --- rekrutmen Devshirme , yang menghasilkan pasukan elite infanteri sangat loyal bernama...",
+        "pertanyaan": "Daulah Turki Usmani mengandalkan sistem birokrasi dan militer yang unik melalui rekrutmen Devshirme , yang menghasilkan pasukan elite infanteri sangat loyal bernama...",
         "opsi": [
             "Mamluk, budak-budak dari Kaukasus",
             "Janissary (Inkisyariyah), pemuda-pemuda dari Balkan yang dilatih militer dan administrasi tingkat tinggi sejak kecil",
@@ -3409,7 +3409,7 @@ const quizData2026 = [
         "opsi": [
             "Benteng Merah (Red Fort)",
             "Masjid Jama (Jama Masjid)",
-            "Taj Mahal --- PAGE 14 ---",
+            "Taj Mahal ",
             "Menara Qutub (Qutub Minar)"
         ],
         "tipe": "pg",
