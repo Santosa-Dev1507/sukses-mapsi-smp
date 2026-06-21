@@ -1,8 +1,11 @@
-<!DOCTYPE html>
+import os
+import re
+
+sidebar_top = r"""<!DOCTYPE html>
 <html class="light" lang="id"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Kisi-kisi CCAI MAPSI SMP - Sukses CCAI MAPSI SMP | Lomba CCAI MAPSI</title>
+<title>{TITLE}</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
@@ -160,68 +163,9 @@
     <!-- Main Content Area -->
     <div class="flex-1 flex flex-col h-full overflow-hidden relative">
         <main class="flex-1 overflow-y-auto pt-20 lg:pt-8 px-6 lg:px-12 pb-24">
+"""
 
-
-
-
-<!-- Breadcrumbs -->
-<nav class="flex items-center gap-2 mb-10 text-sm font-medium text-on-surface-variant">
-<a class="hover:text-primary transition-colors" href="index.html">Beranda</a>
-<span class="material-symbols-outlined text-[16px]">chevron_right</span>
-<a class="hover:text-primary transition-colors" href="daftar-materi.html">Materi</a>
-<span class="material-symbols-outlined text-[16px]">chevron_right</span>
-<span class="text-primary font-bold">Kisi-kisi CCAI MAPSI</span>
-</nav>
-<!-- Hero / Summary Section -->
-<section class="relative overflow-hidden rounded-[2.5rem] bg-surface-container-low p-12 md:p-16 mb-16 shadow-sm">
-<div class="relative z-10 max-w-3xl">
-<h1 class="font-headline font-extrabold text-5xl md:text-6xl text-on-background tracking-tight mb-6 leading-tight">
-                    Panduan Belajar <span class="text-primary">Kisi-kisi</span> CCAI MAPSI
-                </h1>
-<p class="text-xl text-on-surface-variant leading-relaxed mb-8">
-                    Materi esensial yang disusun secara sistematis untuk membantumu fokus pada kompetensi utama. Pelajari setiap poin dengan teliti untuk mencapai nilai terbaik dalam Lomba CCAI MAPSI.
-                </p>
-<div class="flex flex-wrap gap-4">
-<div class="flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-sm font-semibold text-primary border border-outline-variant/15 shadow-sm">
-<span class="material-symbols-outlined text-[20px]">verified</span>
-                        Standar Nasional
-                    </div>
-<div class="flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-sm font-semibold text-secondary border border-outline-variant/15 shadow-sm">
-<span class="material-symbols-outlined text-[20px]">schedule</span>
-                        Update Tahun Ajaran 2026
-                    </div>
-</div>
-</div>
-<!-- Asymmetric Illustration Background -->
-<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary-fixed/20 rounded-full blur-3xl"></div>
-<div class="absolute -bottom-24 right-24 w-72 h-72 bg-secondary-container/20 rounded-full blur-2xl"></div>
-</section>
-
-<!-- Kisi-kisi Cards Grid (DINAMIS via js/kisi-kisi.js) -->
-<div id="kisi-kisi-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <!-- Konten di-generate oleh kisi-kisi.js bergantung pada data.js -->
-</div>
-
-<!-- Call to Action -->
-<div class="mt-24 text-center">
-<div class="inline-flex flex-col items-center">
-<p class="text-on-surface-variant font-semibold text-lg mb-8">Sudah menguasai semua materi kisi-kisi?</p>
-<div class="flex flex-col sm:flex-row gap-6">
-<a href="detail-materi.html" class="primary-gradient text-white font-headline font-bold px-12 py-5 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3">
-<span class="material-symbols-outlined">menu_book</span>
-                        Cari Materi Detil
-                    </a>
-<a href="latihan-soal.html" class="bg-secondary-container text-on-secondary-container font-headline font-bold px-12 py-5 rounded-2xl shadow-sm hover:shadow-md hover:bg-secondary-container/80 active:scale-95 transition-all flex items-center justify-center gap-3 border border-secondary/10">
-<span class="material-symbols-outlined">assignment</span>
-                        Mulai Latihan Ujian
-                    </a>
-</div>
-</div>
-</div>
-
-        
-        
-        
+sidebar_bottom = r"""
         </main>
     </div>
 
@@ -249,4 +193,66 @@
     }
 </script>
 </body></html>
+"""
 
+def process_file(filename):
+    with open(filename, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Determine original title if possible
+    title_match = re.search(r'<title>(.*?)</title>', content, re.IGNORECASE)
+    title = title_match.group(1) if title_match else "MAPSI SMPN 5 Klaten"
+
+    # Find <main...>
+    main_match = re.search(r'<main[^>]*>', content, re.IGNORECASE)
+    if not main_match:
+        print(f"Skipped {filename}: Could not find <main> tag")
+        return
+
+    main_start_idx = main_match.end() # right after <main ...>
+
+    # Find </main>
+    end_main_match = re.search(r'</main>', content, re.IGNORECASE)
+    if not end_main_match:
+        print(f"Skipped {filename}: Could not find </main> tag")
+        return
+
+    main_end_idx = end_main_match.start()
+
+    inner_main = content[main_start_idx:main_end_idx]
+
+    # Extract scripts
+    scripts = re.findall(r'(<script>.*?</script>)', content, re.DOTALL | re.IGNORECASE)
+    preserved_scripts = []
+    for s in scripts:
+        if 'toggleSidebar' not in s and 'tailwind-config' not in s:
+            preserved_scripts.append(s)
+
+    new_top = sidebar_top.replace("{TITLE}", title)
+    
+    new_content = new_top + inner_main + sidebar_bottom + "\n" + "\n".join(preserved_scripts)
+
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    print(f"Successfully processed {filename}")
+
+if __name__ == "__main__":
+    files_to_process = [
+        'index.html',
+        'ccai.html',
+        'kaligrafi.html',
+        'pidato.html',
+        'jadwal.html',
+        'dashboard-guru.html',
+        'kisi-kisi.html',
+        'daftar-materi.html',
+        'detail-materi.html',
+        'latihan-soal.html'
+    ]
+
+    for file in files_to_process:
+        filepath = os.path.join('d:/Project/sukses Mapsi/active_website', file)
+        if os.path.exists(filepath):
+            process_file(filepath)
+        else:
+            print(f"File not found: {filepath}")

@@ -2,7 +2,7 @@
 <html class="light" lang="id"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Kisi-kisi CCAI MAPSI SMP - Sukses CCAI MAPSI SMP | Lomba CCAI MAPSI</title>
+<title>Jadwal Siswa - Pusat Persiapan MAPSI SMPN 5 Klaten</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
@@ -162,64 +162,33 @@
         <main class="flex-1 overflow-y-auto pt-20 lg:pt-8 px-6 lg:px-12 pb-24">
 
 
+<div class="max-w-4xl mx-auto">
+        <div class="mb-10 text-center">
+            <h1 class="text-3xl font-bold font-headline mb-2">Linimasa Persiapan</h1>
+            <p class="text-stone-500">Cek jadwal bimbingan dan tugas yang telah diberikan oleh Guru Pendamping.</p>
+        </div>
 
+        <!-- Filter -->
+        <div class="flex flex-wrap justify-center gap-4 mb-10" id="filter-buttons">
+            <button onclick="filterJadwal('Semua')" class="px-6 py-2 rounded-full font-bold transition-all bg-primary text-white shadow-md filter-btn" data-type="Semua">Semua</button>
+            <button onclick="filterJadwal('CCAI')" class="px-6 py-2 rounded-full font-bold transition-all bg-white text-stone-600 border border-stone-200 hover:bg-stone-50 filter-btn" data-type="CCAI">CCAI</button>
+            <button onclick="filterJadwal('Kaligrafi')" class="px-6 py-2 rounded-full font-bold transition-all bg-white text-stone-600 border border-stone-200 hover:bg-stone-50 filter-btn" data-type="Kaligrafi">Kaligrafi</button>
+            <button onclick="filterJadwal('Pidato')" class="px-6 py-2 rounded-full font-bold transition-all bg-white text-stone-600 border border-stone-200 hover:bg-stone-50 filter-btn" data-type="Pidato">Pidato</button>
+        </div>
 
-<!-- Breadcrumbs -->
-<nav class="flex items-center gap-2 mb-10 text-sm font-medium text-on-surface-variant">
-<a class="hover:text-primary transition-colors" href="index.html">Beranda</a>
-<span class="material-symbols-outlined text-[16px]">chevron_right</span>
-<a class="hover:text-primary transition-colors" href="daftar-materi.html">Materi</a>
-<span class="material-symbols-outlined text-[16px]">chevron_right</span>
-<span class="text-primary font-bold">Kisi-kisi CCAI MAPSI</span>
-</nav>
-<!-- Hero / Summary Section -->
-<section class="relative overflow-hidden rounded-[2.5rem] bg-surface-container-low p-12 md:p-16 mb-16 shadow-sm">
-<div class="relative z-10 max-w-3xl">
-<h1 class="font-headline font-extrabold text-5xl md:text-6xl text-on-background tracking-tight mb-6 leading-tight">
-                    Panduan Belajar <span class="text-primary">Kisi-kisi</span> CCAI MAPSI
-                </h1>
-<p class="text-xl text-on-surface-variant leading-relaxed mb-8">
-                    Materi esensial yang disusun secara sistematis untuk membantumu fokus pada kompetensi utama. Pelajari setiap poin dengan teliti untuk mencapai nilai terbaik dalam Lomba CCAI MAPSI.
-                </p>
-<div class="flex flex-wrap gap-4">
-<div class="flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-sm font-semibold text-primary border border-outline-variant/15 shadow-sm">
-<span class="material-symbols-outlined text-[20px]">verified</span>
-                        Standar Nasional
-                    </div>
-<div class="flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-sm font-semibold text-secondary border border-outline-variant/15 shadow-sm">
-<span class="material-symbols-outlined text-[20px]">schedule</span>
-                        Update Tahun Ajaran 2026
-                    </div>
-</div>
-</div>
-<!-- Asymmetric Illustration Background -->
-<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary-fixed/20 rounded-full blur-3xl"></div>
-<div class="absolute -bottom-24 right-24 w-72 h-72 bg-secondary-container/20 rounded-full blur-2xl"></div>
-</section>
-
-<!-- Kisi-kisi Cards Grid (DINAMIS via js/kisi-kisi.js) -->
-<div id="kisi-kisi-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <!-- Konten di-generate oleh kisi-kisi.js bergantung pada data.js -->
-</div>
-
-<!-- Call to Action -->
-<div class="mt-24 text-center">
-<div class="inline-flex flex-col items-center">
-<p class="text-on-surface-variant font-semibold text-lg mb-8">Sudah menguasai semua materi kisi-kisi?</p>
-<div class="flex flex-col sm:flex-row gap-6">
-<a href="detail-materi.html" class="primary-gradient text-white font-headline font-bold px-12 py-5 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3">
-<span class="material-symbols-outlined">menu_book</span>
-                        Cari Materi Detil
-                    </a>
-<a href="latihan-soal.html" class="bg-secondary-container text-on-secondary-container font-headline font-bold px-12 py-5 rounded-2xl shadow-sm hover:shadow-md hover:bg-secondary-container/80 active:scale-95 transition-all flex items-center justify-center gap-3 border border-secondary/10">
-<span class="material-symbols-outlined">assignment</span>
-                        Mulai Latihan Ujian
-                    </a>
-</div>
-</div>
-</div>
-
+        <!-- Timeline Container -->
+        <div class="relative border-l-2 border-stone-200 ml-4 md:ml-6 space-y-8 pb-10" id="timeline-container">
+            <!-- Data injected here -->
+        </div>
         
+        <div id="empty-state" class="text-center bg-white p-10 rounded-3xl border border-stone-200 hidden">
+            <span class="material-symbols-outlined text-stone-300 text-6xl mb-4">event_busy</span>
+            <h3 class="text-xl font-bold font-headline text-stone-600 mb-2">Belum Ada Jadwal</h3>
+            <p class="text-stone-500">Guru belum menambahkan jadwal untuk kategori ini.</p>
+        </div>
+
+    </div>
+
         
         
         </main>
@@ -250,3 +219,101 @@
 </script>
 </body></html>
 
+<script>
+    let allSchedules = JSON.parse(localStorage.getItem('mapsi_schedules') || '[]');
+    // Ambil data progres centang siswa
+    let completedTasks = JSON.parse(localStorage.getItem('mapsi_completed_tasks') || '[]');
+
+    document.addEventListener('DOMContentLoaded', () => {
+        renderTimeline('Semua');
+    });
+
+    window.filterJadwal = function(type) {
+        // Update styling tombol
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            if(btn.dataset.type === type) {
+                btn.className = "px-6 py-2 rounded-full font-bold transition-all bg-primary text-white shadow-md filter-btn";
+            } else {
+                btn.className = "px-6 py-2 rounded-full font-bold transition-all bg-white text-stone-600 border border-stone-200 hover:bg-stone-50 filter-btn";
+            }
+        });
+        renderTimeline(type);
+    }
+
+    function renderTimeline(filterType) {
+        const container = document.getElementById('timeline-container');
+        const emptyState = document.getElementById('empty-state');
+        container.innerHTML = '';
+
+        let filtered = allSchedules;
+        if(filterType !== 'Semua') {
+            filtered = allSchedules.filter(s => s.lomba === filterType);
+        }
+
+        // Urutkan dari yang terbaru atau terlama
+        filtered.sort((a,b) => new Date(a.tanggal) - new Date(b.tanggal));
+
+        if(filtered.length === 0) {
+            emptyState.classList.remove('hidden');
+            container.classList.add('hidden');
+        } else {
+            emptyState.classList.add('hidden');
+            container.classList.remove('hidden');
+
+            filtered.forEach(item => {
+                const isCompleted = completedTasks.includes(item.id);
+                
+                // Set Icon berdasarkan lomba
+                let iconStr = 'event';
+                if(item.lomba === 'CCAI') iconStr = 'menu_book';
+                if(item.lomba === 'Kaligrafi') iconStr = 'draw';
+                if(item.lomba === 'Pidato') iconStr = 'record_voice_over';
+
+                const html = `
+                <div class="relative pl-8 md:pl-12 group">
+                    <div class="absolute -left-[11px] top-2 w-5 h-5 rounded-full border-4 border-white ${isCompleted ? 'bg-primary' : 'bg-stone-300'} shadow"></div>
+                    
+                    <div class="bg-white p-6 rounded-3xl border ${isCompleted ? 'border-primary/30 shadow-md' : 'border-stone-200 shadow-sm'} transition-all hover:shadow-lg">
+                        <div class="flex flex-wrap gap-3 items-start justify-between mb-4">
+                            <div>
+                                <span class="px-3 py-1 rounded-full text-xs font-bold ${isCompleted ? 'bg-primary-fixed text-primary' : 'bg-stone-100 text-stone-600'} uppercase tracking-wider flex items-center gap-1 w-max">
+                                    <span class="material-symbols-outlined text-sm">${iconStr}</span> ${item.lomba}
+                                </span>
+                            </div>
+                            <div class="text-sm font-bold text-stone-500 bg-stone-50 px-3 py-1 rounded-lg">
+                                ${new Date(item.tanggal).toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
+                                ${item.tanggal_akhir ? `<br/><span class="text-xs">s/d ` + new Date(item.tanggal_akhir).toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) + `</span>` : ''}
+                            </div>
+                        </div>
+                        
+                        <p class="text-lg text-stone-700 leading-relaxed mb-6 ${isCompleted ? 'line-through opacity-70' : ''}">
+                            ${item.deskripsi}
+                        </p>
+
+                        <div class="border-t border-stone-100 pt-4 flex justify-end">
+                            <button onclick="toggleSelesai('${item.id}')" class="px-6 py-2 rounded-xl font-bold flex items-center gap-2 transition-all ${isCompleted ? 'bg-stone-100 text-stone-500 hover:bg-stone-200' : 'bg-primary-fixed text-primary hover:bg-primary hover:text-white'}">
+                                <span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' ${isCompleted ? '1' : '0'}">check_circle</span>
+                                ${isCompleted ? 'Batalkan Selesai' : 'Tandai Selesai'}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+    }
+
+    window.toggleSelesai = function(id) {
+        if(completedTasks.includes(id)) {
+            completedTasks = completedTasks.filter(taskId => taskId !== id);
+        } else {
+            completedTasks.push(id);
+        }
+        localStorage.setItem('mapsi_completed_tasks', JSON.stringify(completedTasks));
+        
+        // Render ulang dengan filter yang sedang aktif
+        const activeFilter = document.querySelector('.filter-btn.bg-primary').dataset.type;
+        renderTimeline(activeFilter);
+    }
+</script>
