@@ -1,19 +1,18 @@
 const kisiKisiData = [
     {
         id: "quran",
-        kategori: "Al-Qur'an",
+        kategori: "Al-Qur'an & Hadis",
         ikon: "auto_stories",
         bgColor: "bg-emerald-50",
         pillColor: "bg-secondary-container/30 text-secondary",
-        judul: "Al-Qur'an & Tajwid",
+        judul: "Membaca & Memahami Makna",
         lgColSpan2: true,
         poin: [
-            { teks: "QS Al Mujadalah/58:11 & QS Az Zumar/39:9 — Semangat Mencari Ilmu", kelas: "IX/1", tag: "Soal 1, 2, 3, 41", tagColor: "bg-red-100 text-red-700" },
-            { teks: "QS Al Baqarah/2:30 & QS Al Qasas/28:77 — Khalifatullah Fil Ard, Penebar Kasih Sayang, Hukum Mad", kelas: "IX/2", tag: "Soal 4, 5, 6, 38", tagColor: "bg-red-100 text-red-700" },
-            { teks: "QS Ar Rum/30:41, Ibrahim/14:32 & Az Zukhruf/43:13 — Melestarikan Alam, Hukum Ra & Lam Jalalah", kelas: "VIII/1", tag: "Soal 8", tagColor: "bg-emerald-100 text-emerald-700" },
-            { teks: "QS Al Baqarah/2:143 — Beragama Secara Moderat, Hukum Nun Sukun/Tanwin & Mim Sukun", kelas: "VIII/2", tag: "Soal 9", tagColor: "bg-emerald-100 text-emerald-700" },
-            { teks: "QS An-Nisa'/4:59 & QS An-Nahl/16:64 — Pedoman Hidup, Alif Lam Syamsiyyah & Qamariyyah", kelas: "VII/1", tag: "Soal 10", tagColor: "bg-blue-100 text-blue-700" },
-            { teks: "QS Al-Anbiya'/21:30 & QS Al-A'raf/7:54 — Tanda Kekuasaan Allah, Hukum Ghunnah", kelas: "VII/2", tag: "Soal 11", tagColor: "bg-blue-100 text-blue-700" }
+            { teks: "Tajwid: Hukum Ra' Tarqiq, Al-Syamsiyah & Qamariyah, Ghunnah Musyaddadah", kelas: "VII-IX", tag: "Soal Terkait", tagColor: "bg-red-100 text-red-700" },
+            { teks: "Tajwid: Iqlab, Lam Jalalah, Mad Wajib Muttasil, Qalqalah Kubra", kelas: "VII-IX", tag: "Soal Terkait", tagColor: "bg-red-100 text-red-700" },
+            { teks: "Memahami Makna: Cinta Tanah Air, Etika Orang Berilmu, Kesiagaan Psikologis", kelas: "VII-IX", tag: "Soal Terkait", tagColor: "bg-emerald-100 text-emerald-700" },
+            { teks: "Memahami Makna: Ketakwaan Era Digital, Menuntut Ilmu (AI), Pengorbanan Harta", kelas: "VII-IX", tag: "Soal Terkait", tagColor: "bg-emerald-100 text-emerald-700" },
+            { teks: "Memahami Makna: Toleransi Beragama, Tanggung Jawab Orang Tua, Sabar Musibah", kelas: "VII-IX", tag: "Soal Terkait", tagColor: "bg-blue-100 text-blue-700" }
         ]
     },
     {
@@ -25,12 +24,11 @@ const kisiKisiData = [
         judul: "Keimanan & Keyakinan",
         lgColSpan2: true,
         poin: [
-            { teks: "Iman Kepada Hari Akhir — Mawas Diri, Tahapan Hari Akhir", kelas: "IX/1", tag: "Soal 7, 12", tagColor: "bg-red-100 text-red-700" },
-            { teks: "Iman Kepada Qada & Qadar — Taqdir Mubram & Muallaq, Penciptaan Manusia", kelas: "IX/2", tag: "Soal 13, 14, 45", tagColor: "bg-red-100 text-red-700" },
-            { teks: "Iman Kepada Kitab-kitab Allah — Generasi Pecinta Al-Qur'an Yang Toleran", kelas: "VIII/1", tag: "Soal 15", tagColor: "bg-emerald-100 text-emerald-700" },
-            { teks: "Iman Kepada Nabi & Rasul — Generasi Digital Yang Berkarakter", kelas: "VIII/2", tag: "Soal 16", tagColor: "bg-emerald-100 text-emerald-700" },
-            { teks: "Iman Kepada Allah — Asmaul Husna: Al-Alim, As-Sami', Al-Bashir, Al-Khabir", kelas: "VII/1", tag: "Soal 17", tagColor: "bg-blue-100 text-blue-700" },
-            { teks: "Iman Kepada Malaikat — Tugas Malaikat, Perbedaan Malaikat/Jin/Manusia", kelas: "VII/2", tag: "Soal 18, 44", tagColor: "bg-blue-100 text-blue-700" }
+            { teks: "Iman Kepada Allah — Asmaul Husna: Al-'Alim, Al-Khabir, Al-Sami', Al-Basir", kelas: "VII", tag: "Soal Terkait", tagColor: "bg-red-100 text-red-700" },
+            { teks: "Iman Kepada Malaikat — Israfil, Mikail, Raqib Atid", kelas: "VII", tag: "Soal Terkait", tagColor: "bg-red-100 text-red-700" },
+            { teks: "Iman Kepada Kitab — Fungsi Al-Quran sebagai Al-Furqan", kelas: "VIII", tag: "Soal Terkait", tagColor: "bg-emerald-100 text-emerald-700" },
+            { teks: "Iman Kepada Rasul — Sifat Rasul: Fathanah, Sifat Wajib", kelas: "VIII", tag: "Soal Terkait", tagColor: "bg-emerald-100 text-emerald-700" },
+            { teks: "Iman Kepada Hari Akhir — Esensi Hari Kiamat, Yaumul Mizan, Kiamat Sughra", kelas: "IX", tag: "Soal Terkait", tagColor: "bg-blue-100 text-blue-700" }
         ]
     },
     {
@@ -41,11 +39,10 @@ const kisiKisiData = [
         pillColor: "bg-secondary-container/30 text-secondary",
         judul: "Budi Pekerti & Perilaku",
         poin: [
-            { teks: "Etika Pergaulan & Komunikasi Islami — Pergaulan Antar Lawan Jenis", kelas: "IX/1", tag: "Soal 19", tagColor: "bg-red-100 text-red-700" },
-            { teks: "Tradisi & Seni Islami — Prinsip Seni Arsitektur Islam", kelas: "IX/2", tag: "Soal 36", tagColor: "bg-red-100 text-red-700" },
-            { teks: "Amanah & Jujur — Hikmah Sikap Amanah dan Jujur", kelas: "VIII/1", tag: "Soal 20, 21", tagColor: "bg-emerald-100 text-emerald-700" },
-            { teks: "Salat & Zikir — Dalil Tentang Shalat", kelas: "VII/1", tag: "Soal 24", tagColor: "bg-blue-100 text-blue-700" },
-            { teks: "Ghibah & Tabayun — Dampak Buruk Ghibah, Sikap Tabayun", kelas: "VII/2", tag: "Soal 22, 40", tagColor: "bg-blue-100 text-blue-700" }
+            { teks: "Tazkiyatun Nafs: Bertaubat dari Su'uzan, Ikhlas vs Riya'/Sum'ah", kelas: "VII-IX", tag: "Soal Terkait", tagColor: "bg-red-100 text-red-700" },
+            { teks: "Adab Pergaulan: Kasih Sayang Sesama & Disabilitas, Tabayyun Kesalahan Data", kelas: "VII-IX", tag: "Soal Terkait", tagColor: "bg-emerald-100 text-emerald-700" },
+            { teks: "Adab Terhadap Lingkungan: Dampak Membuang Sampah, Filosofi Jumat Bersih", kelas: "VII-IX", tag: "Soal Terkait", tagColor: "bg-blue-100 text-blue-700" },
+            { teks: "Syukur bil Arkan, Cinta Rasul (Pembuat Konten)", kelas: "VII-IX", tag: "Soal Terkait", tagColor: "bg-blue-100 text-blue-700" }
         ]
     },
     {
@@ -57,28 +54,27 @@ const kisiKisiData = [
         judul: "Ibadah & Muamalah",
         lgColSpan2: true,
         poin: [
-            { teks: "Aqiqah & Qurban — Ketentuan Akikah dan Kurban, Syarat Hewan Kurban", kelas: "IX/1", tag: "Soal 25, 37", tagColor: "bg-red-100 text-red-700" },
-            { teks: "Madzhab Dalam Fiqih Islam — Biografi Imam Mazhab, Keteladanan", kelas: "IX/2", tag: "Soal 31, 42", tagColor: "bg-red-100 text-red-700" },
-            { teks: "Salat Gerhana, Istiska & Jenazah — Tata Cara Shalat Gerhana", kelas: "VIII/1", tag: "Soal 26", tagColor: "bg-emerald-100 text-emerald-700" },
-            { teks: "Jual Beli & Hutang Piutang — Fikih Muamalah, Larangan Riba", kelas: "VIII/2", tag: "Soal 27", tagColor: "bg-emerald-100 text-emerald-700" },
-            { teks: "Sujud Sahwi, Tilawah & Syukur — Bacaan Sujud, Tata Cara", kelas: "VII/1", tag: "Soal 28", tagColor: "bg-blue-100 text-blue-700" },
-            { teks: "Rukhsah Dalam Ibadah — Kemudahan Dari Allah SWT", kelas: "VII/2", tag: "Soal 23", tagColor: "bg-blue-100 text-blue-700" }
+            { teks: "Salat Jamaah & Jumat — Rukun Khutbah, Kasus Jamaah Masbuk", kelas: "VII", tag: "Soal Terkait", tagColor: "bg-red-100 text-red-700" },
+            { teks: "Salat Musafir — Rukhsah Perjalanan, Syarat Sah Meng-Qasar Salat", kelas: "VII", tag: "Soal Terkait", tagColor: "bg-red-100 text-red-700" },
+            { teks: "Sujud — Sujud Sahwi (Lupa Tahiyat Awal), Sujud Tilawah, Syarat Sah Sujud Syukur", kelas: "VIII", tag: "Soal Terkait", tagColor: "bg-emerald-100 text-emerald-700" },
+            { teks: "Penyelenggaraan Jenazah — Luka Bakar Parah, Salat Jenazah Perempuan", kelas: "IX", tag: "Soal Terkait", tagColor: "bg-emerald-100 text-emerald-700" },
+            { teks: "Haji, Umrah, Qurban, Akikah — Hikmah Tawaf Wada', Syarat Hewan Qurban, Akikah Anak Laki-laki", kelas: "IX", tag: "Soal Terkait", tagColor: "bg-blue-100 text-blue-700" }
         ]
     },
     {
         id: "sejarah",
-        kategori: "SKI / Tarikh",
+        kategori: "Tarikh & Pengetahuan Kontemporer",
         ikon: "history_edu",
         bgColor: "bg-emerald-50",
         pillColor: "bg-secondary-container/30 text-secondary",
-        judul: "Sejarah Peradaban Islam",
+        judul: "Sejarah Islam & Isu Terkini",
         lgColSpan2: true,
         poin: [
-            { teks: "Peradaban Daulah Usmani — Tokoh Pemimpin, Sebab Runtuhnya Turki Usmani", kelas: "IX/1", tag: "Soal 29, 30", tagColor: "bg-red-100 text-red-700" },
-            { teks: "Daulah Abbasiyah (750-1258 M) — Masa Keemasan Islam, Bayt Al Hikmah", kelas: "VIII/1", tag: "Soal 32, 43", tagColor: "bg-emerald-100 text-emerald-700" },
-            { teks: "Ilmuwan Muslim Masa Abbasiyah — Kontribusi untuk Kemanusiaan & Peradaban", kelas: "VIII/2", tag: "Soal 33, 39", tagColor: "bg-emerald-100 text-emerald-700" },
-            { teks: "Bani Umayah di Damaskus (661-750 M) — Sebab Kemunduran Dinasti", kelas: "VII/1", tag: "Soal 35", tagColor: "bg-blue-100 text-blue-700" },
-            { teks: "Bani Umayah di Andalusia (756-1031 M) — Tokoh & Ilmuwan", kelas: "VII/2", tag: "Soal 34", tagColor: "bg-blue-100 text-blue-700" }
+            { teks: "Daulah Bani Umayyah — Convivencia di Spanyol", kelas: "VII", tag: "Soal Terkait", tagColor: "bg-red-100 text-red-700" },
+            { teks: "Daulah Abbasiyah — Geopolitik Baghdad, Baitul Hikmah (Metodologi Ilmiah)", kelas: "VIII", tag: "Soal Terkait", tagColor: "bg-emerald-100 text-emerald-700" },
+            { teks: "Fatimiyah — Pembangunan Kota Kairo, Universitas Al-Azhar", kelas: "VIII", tag: "Soal Terkait", tagColor: "bg-emerald-100 text-emerald-700" },
+            { teks: "Turki Usmani & Kerajaan Lain — Dampak Konstantinopel, Pasukan Janissary, UU Sulaiman Al-Qanuni, Arsitektur Taj Mahal Mughal", kelas: "IX", tag: "Soal Terkait", tagColor: "bg-blue-100 text-blue-700" },
+            { teks: "Pengetahuan Kontemporer — Fatwa MUI Lingkungan Hidup, Tabayyun di Medsos (Hoax)", kelas: "Umum", tag: "Soal Terkait", tagColor: "bg-blue-100 text-blue-700" }
         ]
     }
 ];
