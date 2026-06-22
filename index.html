@@ -275,6 +275,104 @@
             setTimeout(() => overlay.classList.add('hidden'), 300);
         }
     }
+
+    // Dashboard Jadwal Logic
+    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwQfgDcTK5fzkphsdawmcGpZjbOSwHAh_WadAie3UwCRLflSeFTLpFRIq4XGO81ykA1Iw/exec';
+
+    function renderDashboardJadwal(schedules) {
+        const container = document.getElementById('dashboard-jadwal');
+        if (!container) return;
+
+        if (!schedules || schedules.length === 0) {
+            container.innerHTML = `
+                <div class="text-center text-stone-400 py-8">
+                    <span class="material-symbols-outlined text-4xl mb-2">event_busy</span>
+                    <p>Belum ada jadwal latihan terdekat.</p>
+                </div>
+            `;
+            return;
+        }
+
+        // Sort by date and get top 3 closest upcoming schedules
+        const now = new Date();
+        now.setHours(0,0,0,0);
+
+        let upcoming = schedules
+            .map(s => ({...s, parsedDate: new Date(s.tanggal)}))
+            .filter(s => s.parsedDate >= now)
+            .sort((a,b) => a.parsedDate - b.parsedDate)
+            .slice(0, 3);
+
+        if(upcoming.length === 0) {
+             container.innerHTML = `
+                <div class="text-center text-stone-400 py-8">
+                    <span class="material-symbols-outlined text-4xl mb-2">event_available</span>
+                    <p>Semua jadwal latihan telah lewat.</p>
+                </div>
+            `;
+            return;
+        }
+
+        let html = '<div class="space-y-4">';
+        upcoming.forEach(item => {
+            let iconStr = 'event';
+            let bgClass = 'bg-primary/10 text-primary';
+            
+            if(item.lomba === 'CCAI') { iconStr = 'menu_book'; bgClass = 'bg-blue-500/10 text-blue-600'; }
+            if(item.lomba === 'Kaligrafi') { iconStr = 'draw'; bgClass = 'bg-orange-500/10 text-orange-600'; }
+            if(item.lomba === 'Pidato') { iconStr = 'record_voice_over'; bgClass = 'bg-purple-500/10 text-purple-600'; }
+
+            html += `
+                <div class="flex items-start gap-4 p-4 rounded-2xl bg-surface hover:bg-surface-container-high transition-colors border border-outline-variant/10">
+                    <div class="w-12 h-12 rounded-xl ${bgClass} flex items-center justify-center shrink-0">
+                        <span class="material-symbols-outlined">${iconStr}</span>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-on-surface text-base">${item.lomba}</h4>
+                        <div class="flex items-center gap-2 mt-1 text-sm text-on-surface-variant">
+                            <span class="material-symbols-outlined text-[16px]">calendar_today</span>
+                            <span>${item.tanggal}</span>
+                        </div>
+                        <p class="text-sm mt-2 text-on-surface-variant line-clamp-2">${item.deskripsi}</p>
+                    </div>
+                </div>
+            `;
+        });
+        html += '</div>';
+        container.innerHTML = html;
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+        // Load from local storage first for speed
+        let schedules = JSON.parse(localStorage.getItem('mapsi_schedules') || '[]');
+        if (schedules.length > 0) {
+            renderDashboardJadwal(schedules);
+        }
+
+        // Fetch updates from Google Sheets
+        try {
+            const response = await fetch(SHEET_URL + '?action=getJadwal');
+            const data = await response.json();
+            if (Array.isArray(data)) {
+                localStorage.setItem('mapsi_schedules', JSON.stringify(data));
+                renderDashboardJadwal(data);
+            }
+        } catch (err) {
+            console.error('Gagal mengambil jadwal:', err);
+            // If local storage is empty and fetch failed
+            if (schedules.length === 0) {
+                const container = document.getElementById('dashboard-jadwal');
+                if (container) {
+                    container.innerHTML = `
+                        <div class="text-center text-error py-8">
+                            <span class="material-symbols-outlined text-4xl mb-2">error</span>
+                            <p>Gagal memuat jadwal dari server.</p>
+                        </div>
+                    `;
+                }
+            }
+        }
+    });
 </script>
 </body></html>
 
