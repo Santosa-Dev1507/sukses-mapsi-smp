@@ -298,8 +298,12 @@
         now.setHours(0,0,0,0);
 
         let upcoming = schedules
-            .map(s => ({...s, parsedDate: new Date(s.tanggal)}))
-            .filter(s => s.parsedDate >= now)
+            .map(s => {
+                let pDate = new Date(s.tanggal);
+                let pEndDate = s.tanggal_akhir ? new Date(s.tanggal_akhir) : pDate;
+                return {...s, parsedDate: pDate, parsedEndDate: pEndDate};
+            })
+            .filter(s => s.parsedEndDate >= now)
             .sort((a,b) => a.parsedDate - b.parsedDate)
             .slice(0, 3);
 
@@ -331,7 +335,7 @@
                         <h4 class="font-bold text-on-surface text-base">${item.lomba}</h4>
                         <div class="flex items-center gap-2 mt-1 text-sm text-on-surface-variant">
                             <span class="material-symbols-outlined text-[16px]">calendar_today</span>
-                            <span>${item.tanggal}</span>
+                            <span>${item.tanggal} ${item.tanggal_akhir ? 's/d ' + item.tanggal_akhir : ''}</span>
                         </div>
                         <p class="text-sm mt-2 text-on-surface-variant line-clamp-2">${item.deskripsi}</p>
                     </div>
