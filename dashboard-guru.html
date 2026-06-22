@@ -402,7 +402,21 @@
             schedules = schedules.filter(s => s.id !== id);
             localStorage.setItem('mapsi_schedules', JSON.stringify(schedules));
             renderTable();
-            // Catatan: Idealnya kita kirim POST ke spreadsheet untuk menghapus juga.
+            
+            // Kirim POST ke spreadsheet untuk menghapus jadwal
+            try {
+                const formData = new FormData();
+                formData.append('sheetName', 'Jadwal');
+                formData.append('data', JSON.stringify({ action: 'delete', id: id }));
+                
+                fetch(SHEET_URL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    body: formData
+                });
+            } catch (err) {
+                console.error('Delete sync error:', err);
+            }
         }
     }
 </script>

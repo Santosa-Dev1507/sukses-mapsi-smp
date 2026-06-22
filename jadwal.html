@@ -220,12 +220,34 @@
 </body></html>
 
 <script>
+    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwQfgDcTK5fzkphsdawmcGpZjbOSwHAh_WadAie3UwCRLflSeFTLpFRIq4XGO81ykA1Iw/exec';
+
     let allSchedules = JSON.parse(localStorage.getItem('mapsi_schedules') || '[]');
     // Ambil data progres centang siswa
     let completedTasks = JSON.parse(localStorage.getItem('mapsi_completed_tasks') || '[]');
 
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', async () => {
+        // Tampilkan data lokal terlebih dahulu agar cepat
         renderTimeline('Semua');
+
+        // Tarik data terbaru dari Google Sheets
+        try {
+            const response = await fetch(SHEET_URL + '?action=getJadwal');
+            const data = await response.json();
+            
+            // Jika berhasil mengambil data dan berupa array, update local storage
+            if (Array.isArray(data)) {
+                allSchedules = data;
+                localStorage.setItem('mapsi_schedules', JSON.stringify(allSchedules));
+                
+                // Ambil filter yang sedang aktif
+                const activeFilterBtn = document.querySelector('.filter-btn.bg-primary');
+                const activeFilter = activeFilterBtn ? activeFilterBtn.dataset.type : 'Semua';
+                renderTimeline(activeFilter);
+            }
+        } catch (err) {
+            console.error('Gagal mengambil jadwal dari server:', err);
+        }
     });
 
     window.filterJadwal = function(type) {

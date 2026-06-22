@@ -81,11 +81,57 @@ document.addEventListener("DOMContentLoaded", () => {
 
         updateBtnState();
 
+        const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwQfgDcTK5fzkphsdawmcGpZjbOSwHAh_WadAie3UwCRLflSeFTLpFRIq4XGO81ykA1Iw/exec';
+
         btnRead.onclick = () => {
             if (!readMateri.includes(materiId)) {
-                readMateri.push(materiId);
-                localStorage.setItem('readMateri', JSON.stringify(readMateri));
-                updateBtnState();
+                // Tanyakan identitas siswa jika belum ada
+                let studentName = localStorage.getItem('studentName');
+                let studentClass = localStorage.getItem('studentClass');
+
+                if (!studentName || !studentClass) {
+                    studentName = prompt('Untuk mencatat laporan baca, silakan masukkan Nama Lengkap Anda:');
+                    if (!studentName) return; // Batal jika kosong
+                    
+                    studentClass = prompt('Kelas berapa? (contoh: VIII A)');
+                    if (!studentClass) return; // Batal jika kosong
+                    
+                    // Simpan untuk sesi berikutnya
+                    localStorage.setItem('studentName', studentName);
+                    localStorage.setItem('studentClass', studentClass);
+                }
+
+                // Tandai di tombol sebagai loading
+                const originalHtml = btnRead.innerHTML;
+                btnRead.innerHTML = `<span class="material-symbols-outlined animate-spin" style="font-variation-settings: 'FILL' 1;">refresh</span><span class="text-lg">Menyimpan Laporan...</span>`;
+                btnRead.style.pointerEvents = 'none';
+
+                // Kirim laporan ke Google Sheets
+                const payload = {
+                    action: 'read',
+                    nama: studentName,
+                    kelas: studentClass,
+                    materiId: materiId,
+                    materiJudul: materi.judul
+                };
+
+                fetch(SHEET_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                    mode: 'no-cors'
+                }).then(() => {
+                    // Sukses kirim (walau no-cors tidak bisa baca respons, asumsikan berhasil)
+                    readMateri.push(materiId);
+                    localStorage.setItem('readMateri', JSON.stringify(readMateri));
+                    updateBtnState();
+                    alert(`Terima kasih ${studentName}, laporan selesai membaca materi telah dikirim ke Guru!`);
+                }).catch(err => {
+                    console.error('Gagal mengirim laporan baca:', err);
+                    alert('Gagal mengirim laporan. Pastikan Anda terhubung ke internet.');
+                    btnRead.innerHTML = originalHtml;
+                    btnRead.style.pointerEvents = 'auto';
+                });
             }
         };
     }
