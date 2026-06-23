@@ -235,13 +235,13 @@
                             <div class="relative inline-flex items-center justify-center w-32 h-32 mb-6">
                                 <svg class="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
                                     <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" class="text-surface-container-high"></circle>
-                                    <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" stroke-dasharray="251.2" stroke-dashoffset="188.4" class="text-primary"></circle>
+                                    <circle id="progress-circle" cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" stroke-dasharray="251.2" stroke-dashoffset="251.2" class="text-primary transition-all duration-1000 ease-out"></circle>
                                 </svg>
                                 <div class="absolute inset-0 flex flex-col items-center justify-center">
-                                    <span class="text-2xl font-bold font-headline">25%</span>
+                                    <span id="progress-text" class="text-2xl font-bold font-headline">0%</span>
                                 </div>
                             </div>
-                            <p class="text-sm text-on-surface-variant font-medium mb-6">Lanjutkan pembelajaran dan persiapan materi lomba CCAI Anda.</p>
+                            <p id="progress-desc" class="text-sm text-on-surface-variant font-medium mb-6">Lanjutkan pembelajaran dan persiapan materi lomba CCAI Anda.</p>
                             <a href="ccai.html" class="block w-full py-3 bg-primary-fixed/30 text-on-primary-fixed-variant font-bold rounded-xl hover:bg-primary-fixed transition-colors">Lanjutkan Belajar</a>
                         </div>
                     </div>
@@ -253,6 +253,7 @@
         </main>
     </div>
 
+<script src="js/data-materi.js"></script>
 <script>
     const mobileBtn = document.getElementById('mobile-menu-btn');
     const closeBtn = document.getElementById('close-sidebar-btn');
@@ -347,6 +348,30 @@
     }
 
     document.addEventListener('DOMContentLoaded', async () => {
+        // --- Calculate CCAI Progress ---
+        if (typeof materiData !== 'undefined') {
+            const readMateri = JSON.parse(localStorage.getItem('readMateri') || '[]');
+            const totalMateri = materiData.length;
+            const readCount = readMateri.length;
+            const percentage = totalMateri > 0 ? Math.round((readCount / totalMateri) * 100) : 0;
+            
+            // Update UI
+            document.getElementById('progress-text').textContent = percentage + '%';
+            document.getElementById('progress-desc').textContent = `Anda telah menyelesaikan ${readCount} dari ${totalMateri} materi bacaan CCAI.`;
+            
+            // Circumference of r=40 is ~251.2
+            // stroke-dashoffset = 251.2 - (251.2 * percentage / 100)
+            const circle = document.getElementById('progress-circle');
+            if (circle) {
+                // Give a slight delay for the animation to kick in after load
+                setTimeout(() => {
+                    const offset = 251.2 - (251.2 * percentage / 100);
+                    circle.style.strokeDashoffset = offset;
+                }, 100);
+            }
+        }
+
+        // --- Load Dashboard Jadwal ---
         // Load from local storage first for speed
         let schedules = JSON.parse(localStorage.getItem('mapsi_schedules') || '[]');
         if (schedules.length > 0) {
