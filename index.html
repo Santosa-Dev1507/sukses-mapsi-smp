@@ -335,7 +335,7 @@
                         <h4 class="font-bold text-on-surface text-base">${item.lomba}</h4>
                         <div class="flex items-center gap-2 mt-1 text-sm text-on-surface-variant">
                             <span class="material-symbols-outlined text-[16px]">calendar_today</span>
-                            <span>${item.tanggal} ${item.tanggal_akhir ? 's/d ' + item.tanggal_akhir : ''}</span>
+                            <span>${new Date(item.tanggal).toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })} ${item.tanggal_akhir ? 's/d ' + new Date(item.tanggal_akhir).toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) : ''}</span>
                         </div>
                         <p class="text-sm mt-2 text-on-surface-variant line-clamp-2">${item.deskripsi}</p>
                     </div>
