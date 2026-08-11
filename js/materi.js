@@ -930,76 +930,167 @@ const materiData = [
         "kelas": 7,
         "semester": "Genap",
         "bab": "Bab 3",
-        "judul": "Rem Lisan Gibah & Digital Armor Tabayun (Anti-Hoaks)",
-        "waktuBumper": "21 Menit Baca",
+        "judul": "Bersyukur kepada Allah Swt. dan Penerapannya dalam Kehidupan",
+        "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab ini adalah suplemen pedoman paling vital berjuluk <em>Digital Ethics Modern</em> buat warga sosmed! Mari berlatih menjinakkan buasnya algoritma racun lisan dari virus menular penyakit sosial nan hina, eksploitasi <strong>Gibah</strong> (gosip merendahkan keburukan *circle* privasi orang), sekaligus memasang armor tameng radar *Fact-Checker* filter anti-bodoh yakni budaya <strong>Tabayun</strong>.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Bersyukur kepada Allah Swt. dan Penerapannya dalam Kehidupan</strong>, yang mencakup pengertian, dalil naqli, contoh perilaku sehari-hari, beserta hikmah membiasakan perilaku syukur.
 </p>
 
-<!-- 1. Gibah -->
-<h3 class="font-headline text-2xl font-bold text-error mb-6 flex items-center bg-error/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-error text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">virus</span> 1. Kutukan Gibah: Kanibalisme Biadap Terselubung</h3>
-<div class="bg-white p-8 md:p-12 rounded-[3.5rem] border-l-[12px] border-error shadow-[0_10px_30px_rgba(255,0,0,0.05)] mb-16 relative overflow-hidden group">
-    <span class="material-symbols-outlined absolute -top-10 -right-10 text-[200px] text-error/5 rotate-12 group-hover:scale-110 transition-transform duration-1000">restaurant_menu</span>
-    <div class="grid md:grid-cols-5 gap-10 items-center relative z-10">
-        <div class="md:col-span-3">
-            <p class="text-[15px] text-on-surface-variant mb-8 text-justify leading-relaxed font-medium bg-surface-container-high p-4 rounded-2xl">
-                Suka <em>spill</em> bahan keburukan sisi minus temen di belakang padahal dia asik? Mem-<em>bully julid</em> senyap di skena *DM/Group WhatsApp* eksklusif? Itu definisinya murni komplikasi hukum <strong>Gibah</strong> najis. Secara diagnosis bedah psikologis, racun perilaku gibah terpicu cacat <em>Inferiority complex mental</em> (Penyakit campuran kronis sirik iri hati buta kelotokan, jiwa kerdil minder akut kalah tenar, lalu ngerasa sipaling *playing victim* benar tinggi merendahkan).
+<!-- Bagian 1: Pengertian -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Pengertian Syukur</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <div class="grid md:grid-cols-2 gap-8">
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">translate</span> Secara Bahasa
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Secara bahasa, kata syukur berasal dari bahasa Arab yaitu <em>syakara</em> (<span class="font-quran" dir="rtl">شَكَرَ</span>) yang berarti <strong>berterima kasih</strong>. Dalam Kamus Besar Bahasa Indonesia (KBBI), syukur diartikan sebagai rasa terima kasih kepada Allah Swt., serta perasaan lega atau senang.
             </p>
-            <div class="bg-error/10 p-6 rounded-3xl border border-error/20 inline-block w-full">
-                <span class="font-bold text-[11px] uppercase tracking-widest text-error mb-3 block inline-block bg-white px-3 py-1 rounded shadow-sm border border-error/10">Ketukan Vonis Fatal Q.S. al-Hujurat: 12</span>
-                <p class="text-[14.5px] font-medium leading-relaxed italic text-error-on text-justify">"...Dan mutlak haram gatel lisanmu mencari-cari aib bangkai dosa orang, dan janganlah saling menggunjingkan (gibah). <strong>Adakah seorang bajingan berotak di antara kalian yang lahap nikmat mengunyah selapis demi selapis memakan daging tubuh saudara kalian yang sudah membusuk modar teler dibunuh mati bangkai?</strong> Tentu kau muntah ngerasa jijik setengah menjuluk ludah!"</p>
-            </div>
         </div>
-        <div class="md:col-span-2 relative z-10 flex flex-col justify-center h-full">
-            <h4 class="font-bold text-[14px] uppercase tracking-widest text-error border-b border-error/20 pb-3 mb-5">Obat Terapi Rehabilitasi Lisan:</h4>
-            <div class="space-y-4">
-                <div class="bg-white p-4 rounded-xl text-[13px] font-medium flex items-start gap-4 shadow-sm border hover:border-error transition-colors"><span class="material-symbols-outlined text-error text-[22px] mt-0.5">group_remove</span> <div class="text-justify leading-relaxed">Eksekusi <em>Unfollow & Leave/Block</em> *Circle* kumpulan gerombolan manusia toksik julid yang mulutnya minus berbusa nyinyir aib *circle* lain! Hukum teman penempaan pandai besi bara apinya mencipratimu.</div></div>
-                <div class="bg-white p-4 rounded-xl text-[13px] font-medium flex items-start gap-4 shadow-sm border hover:border-error transition-colors"><span class="material-symbols-outlined text-error text-[22px] mt-0.5">mirrored_stranglehold</span> <div class="text-justify leading-relaxed">Tampar telak dirimu disisi kaca refleksi sadar <strong>Introspeksi.</strong> Ngaca bos! Daftar borok catatan busuk aib hitam dirimu <em>list-nya</em> sendirinya numpuk gak ada ujung buat diplintir malu!</div></div>
-                <div class="bg-white p-4 rounded-xl text-[13px] font-medium flex items-start gap-4 shadow-sm border hover:border-error transition-colors"><span class="material-symbols-outlined text-error text-[22px] mt-0.5">backspace</span> <div class="text-justify leading-relaxed">Mending telan ludah <strong>Tutup Rapat Typing Keybordmu & Puasa Bisu Lisan Hampa Kosong!</strong> (Daripada bacot cuma bakar amal pahala percuma buat di-transfer ke akun musuh orang yang kamu hina julidin).</div></div>
-            </div>
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">menu_book</span> Secara Istilah
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Secara istilah (makna luas), syukur adalah <strong>pengakuan atas segala nikmat yang diberikan oleh Allah Swt. yang disertai dengan ketundukan kepada-Nya serta memanfaatkan nikmat tersebut sesuai dengan kehendak-Nya</strong>. Hakikat syukur adalah menampakkan nikmat tersebut lewat kepatuhan, yang merupakan lawan kata dari <em>kufur</em> (mengingkari atau menyembunyikan nikmat).
+            </p>
         </div>
     </div>
 </div>
 
-<!-- 2. Tabayun -->
-<h3 class="font-headline text-2xl font-bold text-primary mb-6 flex items-center bg-primary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-primary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">fact_check</span> 2. Eksekusi Tabayun: Antivirus Kebodohan Skala Nasional Hoax Massal</h3>
-<div class="bg-surface-container-low p-8 md:p-12 rounded-[3.5rem] border border-outline-variant/30 shadow-sm mb-16">
-    <div class="mb-10 text-center max-w-4xl mx-auto">
-        <span class="material-symbols-outlined text-6xl text-primary mb-2">policy</span>
-        <p class="text-[15.5px] font-medium text-on-surface leading-relaxed relative bg-white p-6 rounded-3xl border border-primary/20 shadow-sm">
-            Kalo nyasar nerima tembakan bom lemparan jarkoman *Broadast* Grup WA emak / TikTok / VT *clickbait* ngawur sensasional membongkar rahasia konyol bombastis? <strong>REMMMM! Haram pencet jari asal modal insting langsung klik <em>Forward / Repp-Thread Share!</em> TABAYUN-LAH BANG!</strong> <br><br>Tabayun memilah detektif verifikasi merilis identifikasi <em>research menakar logika jurnalistik meneliti dan menyeleksi urat fakta data</em> berita miring secara netral kepala es batu bertensi stabil, tanpa sedetikpun tergesa-gesa tersulut hawa emosi buta nafsu *framing* isu buatan politis palsu pecah belah demi menyayat urat pemutus laju sebaran infeksi bakteri rantai penyebaran sel gen mutasi <em>Hoaks!</em>
+<!-- Bagian 2: Dalil Naqli -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Dalil Naqli (Al-Qur'an dan Hadis)</h3>
+
+<div class="space-y-8 mb-12">
+    <!-- Dalil 1: Q.S. Ibrahim Ayat 7 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. IBRAHIM: 7</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Janji Tambahan Nikmat</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِنْ شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِنْ كَفَرْتُمْ إِنَّ عَذَابِي لَشَدِيدٌ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Dan (ingatlah) ketika Tuhanmu memaklumkan, “Sesungguhnya jika kamu bersyukur, niscaya Aku akan menambah (nikmat) kepadamu, tetapi jika kamu mengingkari (nikmat-Ku), maka pasti azab-Ku sangat pedih.”"
         </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Tafsir Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Ayat ini meletakkan prinsip dasar hubungan dinamis antara hamba dan Allah Swt. melalui rasa syukur. Allah Swt. menjanjikan secara mutlak bahwa bersyukur akan <strong>membuka pintu keberkahan dan menambah karunia hidup</strong>. Sebaliknya, sikap kufur (mengingkari nikmat) ditandai sebagai bentuk pembangkangan yang diancam dengan siksa yang sangat pedih.
+            </p>
+        </div>
+    </div>
+
+    <!-- Dalil 2: Q.S. Al-Baqarah Ayat 152 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-BAQARAH: 152</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Syukur dan Ingat kepada Allah</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Karena itu, ingatlah kamu kepada-Ku niscaya Aku ingat (pula) kepadamu, dan bersyukurlah kepada-Ku, dan janganlah kamu mengingkari (nikmat)-Ku."
+        </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Tafsir Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Ayat ini mendidik kita bahwa syukur adalah bentuk penghormatan tertinggi kepada Sang Pencipta. Melalui kesadaran untuk senantiasa mengingat dan bersyukur, seorang hamba akan <strong>mendapatkan perhatian khusus, kasih sayang, dan kedekatan spiritual</strong> di sisi Allah Swt..
+            </p>
+        </div>
+    </div>
+
+    <!-- Dalil 3: Hadis Riwayat Muslim -->
+    <div class="bg-gradient-to-br from-secondary to-secondary-container p-8 rounded-[2rem] shadow-sm relative text-white">
+        <span class="bg-white/20 text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest border border-white/30">H.R. MUSLIM</span>
+        <h4 class="font-bold text-lg text-white mb-4">Metode Praktis Bersyukur</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6" dir="rtl">
+انْظُرُوا إِلَى مَنْ هُوَ أَسْفَلَ مِنْكُمْ وَلَا تَنْظُرُوا إِلَى مَنْ هُوَ فَوْقَكُمْ فَهُوَ أَجْدَرُ أَنْ لَا تَزْدَرُوا نِعْمَةَ اللهِ عَلَيْكُمْ
+        </div>
+        <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 leading-relaxed mb-4">
+            "Lihatlah orang yang di bawah kalian dan janganlah melihat orang yang di atas kalian, sebab hal itu akan mendidik kalian untuk tidak meremehkan nikmat Allah Swt."
+        </p>
+        <div class="bg-white/10 p-4 rounded-xl border border-white/20">
+            <h5 class="font-bold text-sm text-white mb-2">Catatan & Penjelasan:</h5>
+            <p class="text-sm opacity-90 leading-relaxed">
+                Rasulullah saw. memberikan tuntunan psikologis yang sangat indah agar kita terhindar dari penyakit hati. Dalam urusan duniawi, kita dianjurkan untuk <strong>melihat orang yang kondisinya berada di bawah kita</strong> agar hati kita selalu merasa cukup (<em>qana'ah</em>), lapang dada, dan tidak meremehkan sekecil apa pun nikmat yang telah kita terima.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Bagian 3: Contoh Perilaku -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Contoh Perilaku Bersyukur dalam Kehidupan Sehari-hari</h3>
+<p class="text-sm text-on-surface-variant leading-relaxed mb-6">Sesuai tuntunan Islam, syukur harus diwujudkan melalui tiga aspek, yaitu pengakuan hati, pujian lisan (<em>Alhamdulillah</em>), dan perbuatan nyata:</p>
+<div class="grid md:grid-cols-3 gap-6 mb-12">
+    <!-- Keluarga -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">family_restroom</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Keluarga</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Menerima dengan ikhlas dan gembira apa pun menu makanan yang disajikan orang tua di rumah tanpa mengeluh atau mencelanya.</li>
+            <li>Memanfaatkan uang saku yang diberikan orang tua secara hemat, bijaksana, dan tidak boros sebagai bentuk menghargai jerih payah mereka.</li>
+            <li>Menjaga dan merawat barang-barang fasilitas rumah tangga (seperti motor, TV, atau komputer) agar tidak cepat rusak.</li>
+        </ul>
     </div>
     
-    <div class="grid md:grid-cols-2 gap-10 items-stretch">
-        <div class="bg-primary p-8 md:p-10 rounded-[2.5rem] text-white shadow-lg relative overflow-hidden flex flex-col justify-center">
-            <span class="material-symbols-outlined absolute -left-8 -bottom-8 text-[200px] text-white/10 -rotate-12">warning_amber</span>
-            <span class="font-bold text-[11px] uppercase tracking-widest text-[#FFF] bg-white/20 inline-block px-3 py-1.5 rounded mb-5 relative z-10 w-max shadow-sm border border-white/30">Ancaman Sakral Q.S. al-Hujurat: 6</span>
-            <div class="text-[15px] italic leading-relaxed font-medium relative z-10 border-l-[6px] border-white/50 pl-6 text-justify">
-                "Hai kalian para gerombolan orang beriman beretika otak genetik! Kalau 1 hari sepotong *buzzer* intel asik pecundang sampah / orang fasik cacat kepribadian dateng bawain lempar lu kado pelintiran berita framing tipuan gosip receh murahan berisik nyulut pitam, TAHAN! <strong>TELAAH VERIFIKASI SEKAT RISET FAKTA BERITA SILANG ANALISIS KEASLIAN BENARNYA (TABAYUN Mutlak)</strong>... Mengapa? Biar elo telak nggak asal jebret merugikan melenyapkan bunuh <em>cancel culture</em> nyawa reputasi sosial karir kaum bersih malang ber-kasta baik yg kebetulan sasaran target tak bersalah cuman gegara imbas modal ngebacot asumsi kebodoh cemplung ceroboh ketikan jarimu buta sempitmu doang kawan, yang akhirnya nyatanya keesoknya pasti seribu persen membatumu muntah keblinger menangisi nyesal sesal sujud nangis 7 turunan menyesali rekam jejak siksa sisa sel perbuatan lu yg gak bakal ke-hapus serpih arangnya bos!"
-            </div>
+    <!-- Sekolah -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">school</span>
         </div>
-        
-        <div class="bg-white p-8 rounded-[2.5rem] border border-outline-variant/30 shadow-[0_4px_20px_rgba(0,0,0,0.02)] h-full">
-            <h4 class="font-bold text-primary mb-6 border-b border-outline-variant/20 pb-3 text-lg font-headline flex items-center"><span class="material-symbols-outlined mr-2">gpp_good</span> Protap SOP Tabayun Kritis Dera Era Literasi Netizen Gawat Darurat Digital:</h4>
-            <ul class="text-[13.5px] font-medium text-on-surface-variant space-y-5">
-                <li class="flex items-start gap-4">
-                    <span class="bg-primary/10 text-primary w-10 h-10 rounded-xl flex items-center justify-center shrink-0 border border-primary/20"><span class="material-symbols-outlined text-[20px]">verified</span></span> 
-                    <div class="text-justify leading-relaxed pt-1"><strong>Lacak Validitas Domain DNA Asal Otoritas Sumber Media Pers:</strong> Profil kanal *News* portal url resmi komersil PT. lisensi bercentang biru kepegawaian jelas rekam jejak jurnalistik rujukan *Fact Checking* tersertifikasi Dewan Pers Independen? (Link wordpress gratisan ghoib curian akala anonim = Langsung Blokir Report Sampah Otomatis).</div>
-                </li>
-                <li class="flex items-start gap-4">
-                    <span class="bg-primary/10 text-primary w-10 h-10 rounded-xl flex items-center justify-center shrink-0 border border-primary/20"><span class="material-symbols-outlined text-[20px]">title</span></span> 
-                    <div class="text-justify leading-relaxed pt-1"><strong>Red Flags Jebakan Mengerikan Adiksi *Clickbait* Konten Sial:</strong> Judul kapital alay bombastis *"KLIK SHARE KALAU GAK MATI BESOK"* seruan nalar *provokatif framing hyperbole* dipastikan fiktif. Selalu wajib imbang tabrak cari *compare* riset 3 URL situs warta sekuler sentris berlawanan netral! Analisa letak *bias opinion* versus data statistik resmi!</div>
-                </li>
-                <li class="flex items-start gap-4">
-                    <span class="bg-primary/10 text-primary w-10 h-10 rounded-xl flex items-center justify-center shrink-0 border border-primary/20"><span class="material-symbols-outlined text-[20px]">image_search</span></span> 
-                    <div class="text-justify leading-relaxed pt-1"><strong>Forensik Visual *Reverse Image Engine Search*:</strong> Haram mendarah percaya nge-<em>share</em> mentah video TikTok <em>framing filter</em> 5 detik / potong <em>Crop out context</em> membagongkan, apalagi hasil cetakan generator rekayasa <em>Deepfake/AI</em> bot, kebangetan tololnya kalo dimuntahin tanpa nonton sidik kronologi rekaman CCTV wawancara versi durasi kasarnya *Uncut Raw Footage* aslinya dari detik pertama lahir sampe abis.</div>
-                </li>
-            </ul>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Sekolah</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Belajar dengan tekun dan sungguh-sungguh menggunakan sarana panca indra (mata, telinga, pikiran) yang sehat sebagai wujud syukur atas nikmat kecerdasan.</li>
+            <li>Menjaga kebersihan ruang kelas dan halaman sekolah dengan ikut serta melaksanakan piket harian.</li>
+            <li>Menghargai ilmu yang diberikan oleh bapak dan ibu guru dengan cara mendengarkan penjelasan mereka di kelas secara takzim.</li>
+        </ul>
+    </div>
+    
+    <!-- Masyarakat -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">group</span>
         </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Masyarakat</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Membantu tetangga atau teman yang sedang mengalami kesulitan dengan menyisihkan sebagian harta atau menyumbangkan tenaga.</li>
+            <li>Menjaga kelestarian lingkungan sekitar dengan tidak membuang sampah sembarangan dan rajin ikut kerja bakti.</li>
+            <li>Menggunakan nikmat jabatan, keahlian, atau pengaruh sosial untuk memajukan kesejahteraan masyarakat sekitar.</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Bagian 4: Hikmah / Dampak Positif -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Hikmah & Dampak Positif Perilaku Syukur</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-8">
+    <!-- Manfaat di Dunia -->
+    <div class="bg-primary/5 p-6 rounded-3xl border border-primary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-primary text-3xl mr-3">public</span>
+            <h4 class="font-bold text-lg text-primary">Manfaat di Dunia</h4>
+        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Meningkatkan Kesehatan Mental:</strong> Fokus pada nikmat yang ada membuat jiwa merasa puas, bahagia, serta mengurangi stres, depresi, dan kecemasan secara signifikan.</li>
+            <li><strong>Terhindar dari Penyakit Hati:</strong> Menjaga diri dari sifat sombong, serakah, kikir, serta mengikis rasa iri dan dengki terhadap apa yang dimiliki orang lain.</li>
+            <li><strong>Mempererat Hubungan Sosial:</strong> Mengucapkan terima kasih dan saling berbagi nikmat akan melahirkan keharmonisan, memperkuat ikatan batin, dan menciptakan rasa damai di masyarakat.</li>
+        </ul>
+    </div>
+
+    <!-- Manfaat di Akhirat -->
+    <div class="bg-secondary/5 p-6 rounded-3xl border border-secondary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-secondary text-3xl mr-3">auto_awesome</span>
+            <h4 class="font-bold text-lg text-secondary">Manfaat di Akhirat</h4>
+        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Mendapatkan Keberkatan dan Tambahan Karunia:</strong> Allah Swt. akan melipatgandakan kenikmatan hidup bagi hamba-Nya yang pandai bersyukur.</li>
+            <li><strong>Meningkatkan Derajat Spiritual:</strong> Syukur menaikkan kualitas hubungan spiritual dan menyejajarkan kita dalam golongan hamba-hamba pilihan-Nya.</li>
+            <li><strong>Selamat dari Azab Allah:</strong> Terhindar dari siksa akhirat yang sangat pedih yang diperuntukkan bagi orang-orang yang mengingkari (<em>kufur</em>) nikmat.</li>
+        </ul>
     </div>
 </div>
 
