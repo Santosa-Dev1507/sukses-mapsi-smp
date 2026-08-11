@@ -1118,134 +1118,157 @@ const materiData = [
         "kelas": 8,
         "semester": "Ganjil",
         "bab": "Bab 1",
-        "judul": "Inspirasi Al-Qur'an: Melestarikan Alam, Menjaga Kehidupan",
-        "waktuBumper": "14 Menit Baca",
+        "judul": "Toleransi & Larangan Pemaksaan (Q.S. Al-Baqarah: 256)",
+        "waktuBumper": "12 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
 
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab perdana di Kelas 7-9-9 ini mengajak kita menyelami ajaran tauhid ekologis dalam Islam—yakni kesadaran penuh bahwa alam semesta adalah titipan mulia Allah untuk dikelola, bukan untuk dirusak, serta bagaimana perilaku kita menentukan nasib bumi.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Toleransi</strong> dan <strong>Larangan Pemaksaan dalam Beragama</strong> berdasarkan <strong>Q.S. Al-Baqarah/2: 256</strong>, Hadis tentang toleransi, serta panduan hukum tajwid <strong>Lam Jalalah</strong> dan <strong>Ra'</strong>.
 </p>
 
-<!-- 1. Tajwid: Ra & Lam Jalalah -->
+<!-- Bagian 1: Q.S. Al-Baqarah Ayat 256 -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Q.S. Al-Baqarah Ayat 256 (Larangan Pemaksaan dan Toleransi Sejati)</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
+    <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-BAQARAH: 256</span>
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+لَا إِكْرَاهَ فِي الدِّينِ قَدْ تَبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ فَمَنْ يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِنْ بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَى لَا انْفِصَامَ لَهَا وَاللَّهُ سَمِيعٌ عَلِيمٌ
+    </div>
+    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+        "Tidak ada paksaan dalam (menganut) agama (Islam). Sungguh, telah jelas jalan yang benar dari jalan yang sesat. Siapa yang ingkar kepada tagut dan beriman kepada Allah sungguh telah berpegang teguh pada tali yang sangat kuat yang tidak akan putus. Allah Maha Mendengar lagi Maha Mengetahui."
+    </p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-2xl border-l-4 border-primary mb-12">
+    <h4 class="font-bold text-lg mb-2 text-primary">Analisis & Isi Kandungan (Asbabun Nuzul)</h4>
+    <ul class="text-sm text-on-surface-variant leading-relaxed list-disc list-inside space-y-2">
+        <li><strong>Sebab Turunnya Ayat (<em>Asbabun Nuzul</em>):</strong> Ayat ini turun berkaitan dengan seorang sahabat Ansar dari Bani Salim bin Auf bernama Husain. Ia memiliki dua anak laki-laki yang masih beragama Nasrani, sedangkan ia sendiri sudah memeluk Islam. Husain kemudian bertanya kepada Rasulullah saw. apakah ia harus memaksa kedua anaknya agar masuk Islam. Maka Allah Swt. menurunkan ayat ini sebagai <strong>koreksi dan ketegasan bahwa tidak dibenarkan adanya pemaksaan dalam urusan agama, bahkan terhadap anak kandung sendiri</strong>.</li>
+        <li><strong>Kebebasan Berkeyakinan:</strong> Keimanan harus didasarkan pada pilihan sadar, hidayah, dan kesadaran batin, bukan tekanan dari manusia ataupun kekuasaan.</li>
+        <li><strong>Makna <em>Al-'Urwah Al-Wuthqa</em>:</strong> Orang yang ingkar kepada tagut (setan, berhala, atau segala hal yang disembah selain Allah) dan beriman kepada Allah diumpamakan seperti <strong>berpegang erat pada buhul tali yang sangat kuat dan tidak akan putus</strong>.</li>
+    </ul>
+</div>
+
+<!-- Bagian 2: Hadis Terkait Toleransi -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6 flex items-center">
+    <span class="material-symbols-outlined mr-2">menu_book</span> Hadis Terkait Toleransi
+</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
+    <span class="bg-tertiary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">H.R. AHMAD</span>
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+عَنِ ابْنِ عَبَّاسٍ قَالَ : قِيلَ لِرَسُولِ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: أَيُّ الْأَدْيَانِ أَحَبُّ إِلَى اللَّهِ قَالَ : الْحَنِيفِيَّةُ السَّمْحَةُ
+    </div>
+    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+        "Dari Ibnu Abbas r.a. ia berkata: Ditanyakan kepada Rasulullah saw., 'Agama apakah yang paling dicintai oleh Allah?' Beliau menjawab: 'Al-Hanifiyyah as-Samhah (agama yang lurus lagi penuh toleransi/kemudahan).'"
+    </p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-2xl border-l-4 border-tertiary mb-12">
+    <h4 class="font-bold text-lg mb-2 text-tertiary">Penjelasan Hadis</h4>
+    <ul class="text-sm text-on-surface-variant leading-relaxed list-disc list-inside space-y-2">
+        <li><strong>Arti <em>Al-Hanifiyyah as-Samhah</em>:</strong> Ajaran yang lurus, menjauhi kebatilan, dibangun di atas prinsip kemudahan, serta <strong>tidak memberatkan atau menyempitkan umatnya</strong>.</li>
+        <li><strong>Cerminan Kuatnya Iman:</strong> Rasulullah saw. mengajarkan bahwa keteguhan iman tidak ditunjukkan dengan sikap angkuh, melainkan tercermin lewat <strong>tawadu, rasa hormat, tasamuh (toleran), dan sikap terbuka</strong> terhadap orang yang berbeda keyakinan.</li>
+    </ul>
+</div>
+
+<!-- Bagian 3: Materi Tajwid -->
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 flex items-center">
     <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
         <span class="material-symbols-outlined text-[24px]">spellcheck</span>
     </span>
-    1. Tajwid: Hukum Ra (ر) & Lam Jalalah (ل)
+    Materi Tajwid — Hukum Bacaan Lam Jalalah dan Ra'
 </h3>
-<p class="text-on-surface-variant mb-6 text-sm">Sebelum merenungi ayat pelestarian alam, pastikan bacaan Al-Qur'an kita bertajwid sempurna, khususnya terkait ketebalan huruf Ra dan Lam pada lafaz Allah.</p>
 
-<div class="grid lg:grid-cols-2 gap-8 mb-16">
-    
-    <!-- Hukum Ra -->
-    <div class="bg-surface-container-low rounded-[2rem] border border-outline-variant/30 overflow-hidden shadow-sm">
-        <div class="bg-primary/10 p-4 border-b border-outline-variant/20 flex justify-between items-center">
-            <h4 class="font-bold text-lg text-primary">Hukum Huruf Ra (ر)</h4>
-            <span class="material-symbols-outlined text-primary/50 text-3xl">r_mobiledata</span>
-        </div>
-        <div class="p-6 space-y-4">
-            <div class="bg-white p-4 rounded-xl shadow-[0_2px_10px_rgba(0,0,0,0.03)] border-l-4 border-error">
-                <h5 class="font-bold text-error text-sm mb-1">Tebal (Tafkhim / تَفْخِيمٌ)</h5>
-                <p class="text-xs text-on-surface-variant leading-relaxed">Ra berharakat fathah (رَ) atau dammah (رُ). Jika sukun (رْ), perhatikan huruf sebelumnya: wajib tebal jika huruf sebelumnya fathah/dammah, atau didahului hamzah wasal, atau didahului alif/wau mad.</p>
-                <div class="mt-2 text-right font-quran text-lg text-error-container-on bg-error/5 p-2 rounded-lg" dir="rtl">رَ - رُ - فَوْقَهُنَّ</div>
-            </div>
-            
-            <div class="bg-white p-4 rounded-xl shadow-[0_2px_10px_rgba(0,0,0,0.03)] border-l-4 border-secondary">
-                <h5 class="font-bold text-secondary text-sm mb-1">Tipis (Tarqiq / تَرْقِيقٌ)</h5>
-                <p class="text-xs text-on-surface-variant leading-relaxed">Ra berharakat kasrah (رِ). Jika sukun (رْ), wajib dibaca tipis/meringis jika huruf sebelumnya berharakat kasrah (kecuali jika setelahnya ada huruf istila') atau didahului ya' sukun.</p>
-                <div class="mt-2 text-right font-quran text-lg text-secondary-container-on bg-secondary/5 p-2 rounded-lg" dir="rtl">رِ - فِرْعَوْنَ - خَيْرٌ</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Hukum Lam Jalalah -->
-    <div class="bg-surface-container-low rounded-[2rem] border border-outline-variant/30 overflow-hidden shadow-sm">
-        <div class="bg-tertiary/10 p-4 border-b border-outline-variant/20 flex justify-between items-center">
-            <h4 class="font-bold text-tertiary text-lg">Hukum Lam Jalalah (اللَّهُ)</h4>
-            <span class="font-quran text-tertiary/50 text-3xl">ل</span>
-        </div>
-        <div class="p-6 space-y-4">
-            <p class="text-xs text-on-surface-variant mb-4">Berlaku mutlak pada kata <strong>Allah (اللَّهُ)</strong> atau <strong>Allahumma (اللَّهُمَّ)</strong> berdasarkan harakat ujung huruf sebelumnya.</p>
-            
-            <div class="bg-white p-4 rounded-xl shadow-[0_2px_10px_rgba(0,0,0,0.03)] border-l-4 border-error">
-                <h5 class="font-bold text-error text-sm mb-1">Tebal (Tafkhim)</h5>
-                <p class="text-xs text-on-surface-variant leading-relaxed">Lam dibaca tebal/membulat jika lafaz Allah jatuh setelah huruf yang berharakat <strong>fathah</strong> (A) atau <strong>dammah</strong> (U).</p>
-                <div class="mt-2 text-right font-quran text-lg text-error-container-on bg-error/5 p-2 rounded-lg" dir="rtl">قَالَ اللَّهُ - عَبْدُ اللَّهِ</div>
-            </div>
-            
-            <div class="bg-white p-4 rounded-xl shadow-[0_2px_10px_rgba(0,0,0,0.03)] border-l-4 border-secondary">
-                <h5 class="font-bold text-secondary text-sm mb-1">Tipis (Tarqiq)</h5>
-                <p class="text-xs text-on-surface-variant leading-relaxed">Lam dibaca tipis/meringis ke bawah jika lafaz Allah jatuh persis setelah huruf yang berharakat <strong>kasrah</strong> (I).</p>
-                <div class="mt-2 text-right font-quran text-lg text-secondary-container-on bg-secondary/5 p-2 rounded-lg" dir="rtl">بِسْمِ اللَّهِ - بِاللَّهِ</div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-<!-- 2. Ayat Alam Semesta -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-8 text-center"><span class="material-symbols-outlined text-3xl align-middle text-primary mr-2">public</span> Manusia & Alam Semesta</h3>
-
-<!-- Q.S. Ar-Rum -->
-<div class="bg-gradient-to-br from-error/10 to-transparent border-l-8 border-error rounded-r-3xl p-8 mb-8 relative overflow-hidden">
-    <div class="flex justify-between items-start mb-4">
-        <h4 class="font-bold text-error text-lg">Peringatan Kerusakan Bumi</h4>
-        <span class="bg-error text-white text-xs px-3 py-1 rounded-full font-bold tracking-widest">Q.S. AR-RUM [30]: 41</span>
-    </div>
-    <div class="text-right font-quran text-3xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-        ظَهَرَ الْفَسَادُ فِي الْبَرِّ وَالْبَحْرِ بِمَا كَسَبَتْ أَيْدِي النَّاسِ لِيُذِيقَهُمْ بَعْضَ الَّذِي عَمِلُوْا لَعَلَّهُمْ يَرْجِعُوْنَ
-    </div>
-    <div class="font-body italic text-on-surface-variant text-md pt-4 border-t border-error/20">
-        "Telah tampak kerusakan di darat dan di laut <strong>disebabkan karena perbuatan tangan manusia</strong>; Allah menghendaki agar mereka merasakan sebagian dari (akibat) perbuatan mereka, agar mereka kembali (ke jalan yang benar)."
-    </div>
-</div>
-
-<!-- Q.S. Ibrahim -->
-<div class="bg-gradient-to-br from-primary/10 to-transparent border-l-8 border-primary rounded-r-3xl p-8 mb-8 relative overflow-hidden">
-    <div class="flex justify-between items-start mb-4">
-        <h4 class="font-bold text-primary text-lg">Rantai Ekosistem & Karunia</h4>
-        <span class="bg-primary text-white text-xs px-3 py-1 rounded-full font-bold tracking-widest">Q.S. IBRAHIM [14]: 32</span>
-    </div>
-    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-        اللَّهُ الَّذِي خَلَقَ السَّمَوَاتِ وَالْأَرْضَ وَأَنْزَلَ مِنَ السَّمَاءِ مَاءً فَأَخْرَجَ بِهِ مِنَ الثَّمَرَاتِ رِزْقًا لَّكُمْ وَسَخَّرَ لَكُمُ الْفُلْكَ لِتَجْرِيَ فِي الْبَحْرِ بِأَمْرِهِ وَسَخَّرَ لَكُمُ الْأَنْهَرَ وَسَخَّرَ لَكُمُ الشَّمْسَ وَالْقَمَرَ دَائِبَيْنِ وَسَخَّرَ لَكُمُ اللَّيْلَ وَالنَّهَارَ.
-    </div>
-    <div class="font-body italic text-on-surface-variant text-sm pt-4 border-t border-primary/20">
-        "Allah-lah yang telah menciptakan langit dan bumi dan menurunkan air (hujan) dari langit... menundukkan kapal... sungai... matahari dan bulan... malam dan siang bagimu."
-    </div>
-    <p class="text-xs text-on-surface-variant mt-2 border-t border-white border-dashed pt-2">Ayat ini adalah rekapitulasi anugerah fisika alam semesta (orbit, cuaca, hidrologi) yang di-<em>setting</em> sempurna untuk menyokong hidup manusia.</p>
-</div>
-
-<!-- Q.S. Az-Zukhruf & Hadits -->
-<div class="grid md:grid-cols-2 gap-6 mb-16">
-    <div class="bg-surface-container-high p-6 rounded-[2rem]">
-        <h4 class="font-bold text-sm mb-3 text-secondary border-b border-outline-variant/20 pb-2">Doa Syukur Kendaraan (Q.S. Az-Zukhruf: 13)</h4>
-        <div class="text-right font-quran text-xl mb-3" dir="rtl">... سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ </div>
-        <p class="text-xs text-on-surface-variant italic">Maha Suci (Allah) yang telah menundukkan semua ini bagi kami padahal kami sebelumnya tidak mampu menguasainya.</p>
-        <p class="text-[10px] text-on-surface-variant mt-2">Dianjurkan dibaca saat naik motor/mobil/pesawat sebagai adab pada alam tunggangan manusia.</p>
-    </div>
-    
-    <div class="bg-tertiary-container/30 p-6 rounded-[2rem]">
-        <h4 class="font-bold text-sm mb-3 text-tertiary border-b border-outline-variant/20 pb-2">Hadis Menanam (H.R. Bukhari 2152)</h4>
-        <p class="text-sm font-semibold text-on-surface-variant italic mb-2">
-            "Tidaklah seorang Muslim bercocok tanam... melainkan (apa yang) dimakan burung, atau manusia, atau hewan, menjadi sedekah baginya."
+<div class="flex flex-col md:flex-row gap-6 mb-12">
+    <!-- Lam Jalalah -->
+    <div class="bg-surface-container-low p-8 rounded-3xl flex-1 border-l-8 border-primary relative overflow-hidden">
+        <h4 class="font-bold text-xl mb-3 text-primary">Lam Jalalah (لَام جَلَالَة) 🤲</h4>
+        <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
+            Lam Jalalah adalah huruf lam yang terdapat pada lafal Allah Swt. (<span class="font-quran" dir="rtl">اللَّه</span>). Cara membacanya dibagi menjadi dua jenis:
         </p>
-        <p class="text-[11px] text-on-surface-variant mt-2 pt-2 border-t border-outline-variant/20">Investasi pahala otomatis paling genial: Tanamlah pohon sedini mungkin!</p>
+        <div class="space-y-4">
+            <div>
+                <h5 class="text-sm font-bold text-on-surface">A. Tafkhim (Tebal)</h5>
+                <p class="text-sm text-on-surface-variant mb-2">Didahului harakat <strong>fathah</strong> atau <strong>dhammah</strong>. Posisi bibir agak menjorok ke depan.</p>
+                <ul class="text-sm text-on-surface-variant list-disc list-inside ml-2">
+                    <li><span class="font-quran text-lg mx-1" dir="rtl">وَاللَّهُ</span> <em>(wallāhu)</em> — Didahului huruf wawu berharakat fathah.</li>
+                    <li><span class="font-quran text-lg mx-1" dir="rtl">صَلَاةُ اللَّهِ</span> <em>(ṣalātullāhi)</em> — Didahului huruf ta berharakat dhammah.</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-sm font-bold text-on-surface">B. Tarqiq (Tipis)</h5>
+                <p class="text-sm text-on-surface-variant mb-2">Didahului harakat <strong>kasrah</strong>. Posisi bibir agak mundur (meringis).</p>
+                <ul class="text-sm text-on-surface-variant list-disc list-inside ml-2">
+                    <li><span class="font-quran text-lg mx-1" dir="rtl">بِاللَّهِ</span> <em>(billāhi)</em> — Didahului huruf ba berharakat kasrah.</li>
+                    <li><span class="font-quran text-lg mx-1" dir="rtl">بِسْمِ اللَّهِ</span> <em>(bismillāhi)</em> — Didahului huruf mim berharakat kasrah.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hukum Ra' -->
+    <div class="bg-surface-container-low p-8 rounded-3xl flex-1 border-l-8 border-secondary relative overflow-hidden">
+        <h4 class="font-bold text-xl mb-3 text-secondary">Hukum Bacaan Ra' (ر) 🗣️</h4>
+        <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
+            Huruf Ra' juga memiliki ketentuan tebal dan tipis berdasarkan harakatnya:
+        </p>
+        <div class="space-y-4">
+            <div>
+                <h5 class="text-sm font-bold text-on-surface">A. Ra' Tafkhim (Tebal)</h5>
+                <p class="text-sm text-on-surface-variant mb-2">Bila Ra' berharakat <strong>fathah / dhammah</strong>, atau sukun didahului fathah / dhammah.</p>
+                <ul class="text-sm text-on-surface-variant list-disc list-inside ml-2">
+                    <li><span class="font-quran text-lg mx-1" dir="rtl">الرُّشْدُ</span> <em>(ar-rusydu)</em> — Ra' berharakat dhammah.</li>
+                    <li><span class="font-quran text-lg mx-1" dir="rtl">إِكْرَاهَ</span> <em>(ikrāha)</em> — Ra' berharakat fathah.</li>
+                    <li><span class="font-quran text-lg mx-1" dir="rtl">الْأَرْضَ</span> <em>(al-arḍa)</em> — Ra' sukun didahului fathah.</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-sm font-bold text-on-surface">B. Ra' Tarqiq (Tipis)</h5>
+                <p class="text-sm text-on-surface-variant mb-2">Bila Ra' berharakat <strong>kasrah</strong>, atau sukun didahului kasrah.</p>
+                <ul class="text-sm text-on-surface-variant list-disc list-inside ml-2">
+                    <li><span class="font-quran text-lg mx-1" dir="rtl">رِزْقًا</span> <em>(rizqan)</em> — Ra' berharakat kasrah.</li>
+                    <li><span class="font-quran text-lg mx-1" dir="rtl">فِرْعَوْنَ</span> <em>(fir'auna)</em> — Ra' sukun didahului kasrah.</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 
-<!-- Akhlak Ekologis -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 rounded-[3rem] text-white shadow-xl flex flex-col items-center text-center">
-    <span class="material-symbols-outlined text-6xl text-white/50 mb-4">nature_people</span>
-    <h4 class="text-2xl font-headline font-bold mb-6 text-white">Misi Pelajar Bumi (Akhlak Ekologis)</h4>
-    <p class="text-sm opacity-90 mb-8 max-w-2xl mx-auto">Menjaga alam adalah wujud ibadah logis paling riil. Langkah apa yang wajib dieksekusi?</p>
-
-    <div class="flex flex-wrap justify-center gap-3">
-        <span class="px-5 py-2.5 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium border border-white/30 flex items-center gap-2"><span class="material-symbols-outlined text-lg">delete</span> Anti Nyampah Sembarangan</span>
-        <span class="px-5 py-2.5 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium border border-white/30 flex items-center gap-2"><span class="material-symbols-outlined text-lg">water_drop</span> Hemat Debit Air Bersih</span>
-        <span class="px-5 py-2.5 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium border border-white/30 flex items-center gap-2"><span class="material-symbols-outlined text-lg">bolt</span> Matikan Listrik & AC Jika Tdk Perlu</span>
-        <span class="px-5 py-2.5 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium border border-white/30 flex items-center gap-2"><span class="material-symbols-outlined text-lg">forest</span> Rutin Merawat Pohon / Tanaman</span>
-    </div>
+<!-- Rangkuman Tabel -->
+<div class="overflow-x-auto mb-8">
+    <table class="min-w-full text-left text-sm whitespace-nowrap bg-white rounded-2xl overflow-hidden border border-outline-variant/20">
+        <thead class="bg-surface-container-low text-on-surface">
+            <tr>
+                <th scope="col" class="px-6 py-4 font-bold">Jenis Tajwid</th>
+                <th scope="col" class="px-6 py-4 font-bold">Cara Membaca</th>
+                <th scope="col" class="px-6 py-4 font-bold">Syarat Utama</th>
+                <th scope="col" class="px-6 py-4 font-bold">Contoh Utama</th>
+            </tr>
+        </thead>
+        <tbody class="divide-y divide-outline-variant/20">
+            <tr class="hover:bg-surface-container-lowest transition-colors">
+                <td class="px-6 py-4 font-bold text-primary">Lam Jalalah Tafkhim</td>
+                <td class="px-6 py-4">Tebal</td>
+                <td class="px-6 py-4">Didahului Fathah / Dhammah</td>
+                <td class="px-6 py-4"><span class="font-quran text-lg" dir="rtl">وَاللَّهُ</span> <em>(wallāhu)</em></td>
+            </tr>
+            <tr class="hover:bg-surface-container-lowest transition-colors">
+                <td class="px-6 py-4 font-bold text-primary">Lam Jalalah Tarqiq</td>
+                <td class="px-6 py-4">Tipis</td>
+                <td class="px-6 py-4">Didahului Kasrah</td>
+                <td class="px-6 py-4"><span class="font-quran text-lg" dir="rtl">بِاللَّهِ</span> <em>(billāhi)</em></td>
+            </tr>
+            <tr class="hover:bg-surface-container-lowest transition-colors">
+                <td class="px-6 py-4 font-bold text-secondary">Ra' Tafkhim</td>
+                <td class="px-6 py-4">Tebal</td>
+                <td class="px-6 py-4">Berharakat Fathah / Dhammah</td>
+                <td class="px-6 py-4"><span class="font-quran text-lg" dir="rtl">الرُّشْدُ</span> <em>(ar-rusydu)</em></td>
+            </tr>
+            <tr class="hover:bg-surface-container-lowest transition-colors">
+                <td class="px-6 py-4 font-bold text-secondary">Ra' Tarqiq</td>
+                <td class="px-6 py-4">Tipis</td>
+                <td class="px-6 py-4">Berharakat Kasrah</td>
+                <td class="px-6 py-4"><span class="font-quran text-lg" dir="rtl">رِزْقًا</span> <em>(rizqan)</em></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
         `
@@ -1717,157 +1740,73 @@ const materiData = [
         "kelas": 8,
         "semester": "Genap",
         "bab": "Bab 1",
-        "judul": "Toleransi & Larangan Pemaksaan (Q.S. Al-Baqarah: 256)",
-        "waktuBumper": "12 Menit Baca",
+        "judul": "Inspirasi Al-Qur\'an: Indahnya Beragama Secara Moderat",
+        "waktuBumper": "14 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
 
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Berikut adalah materi pembelajaran lengkap mengenai <strong>Toleransi</strong> dan <strong>Larangan Pemaksaan dalam Beragama</strong> berdasarkan <strong>Q.S. Al-Baqarah/2: 256</strong>, Hadis tentang toleransi, serta panduan hukum tajwid <strong>Lam Jalalah</strong> dan <strong>Ra'</strong>.
+    Bab ini merupakan kompas akhlak bertetangga sosial, menuntun kita menyelami ajaran <strong>Islam Moderat (Ummatan Wasatan)</strong>, yaitu pertengahan, tidak pro-radikal, dan tidak terlalu liberal meremehkan syariat.
 </p>
 
-<!-- Bagian 1: Q.S. Al-Baqarah Ayat 256 -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Q.S. Al-Baqarah Ayat 256 (Larangan Pemaksaan dan Toleransi Sejati)</h3>
-<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
-    <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-BAQARAH: 256</span>
-    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-لَا إِكْرَاهَ فِي الدِّينِ قَدْ تَبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ فَمَنْ يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِنْ بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَى لَا انْفِصَامَ لَهَا وَاللَّهُ سَمِيعٌ عَلِيمٌ
-    </div>
-    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
-        "Tidak ada paksaan dalam (menganut) agama (Islam). Sungguh, telah jelas jalan yang benar dari jalan yang sesat. Siapa yang ingkar kepada tagut dan beriman kepada Allah sungguh telah berpegang teguh pada tali yang sangat kuat yang tidak akan putus. Allah Maha Mendengar lagi Maha Mengetahui."
-    </p>
-</div>
-<div class="bg-surface-container-low p-6 rounded-2xl border-l-4 border-primary mb-12">
-    <h4 class="font-bold text-lg mb-2 text-primary">Analisis & Isi Kandungan (Asbabun Nuzul)</h4>
-    <ul class="text-sm text-on-surface-variant leading-relaxed list-disc list-inside space-y-2">
-        <li><strong>Sebab Turunnya Ayat (<em>Asbabun Nuzul</em>):</strong> Ayat ini turun berkaitan dengan seorang sahabat Ansar dari Bani Salim bin Auf bernama Husain. Ia memiliki dua anak laki-laki yang masih beragama Nasrani, sedangkan ia sendiri sudah memeluk Islam. Husain kemudian bertanya kepada Rasulullah saw. apakah ia harus memaksa kedua anaknya agar masuk Islam. Maka Allah Swt. menurunkan ayat ini sebagai <strong>koreksi dan ketegasan bahwa tidak dibenarkan adanya pemaksaan dalam urusan agama, bahkan terhadap anak kandung sendiri</strong>.</li>
-        <li><strong>Kebebasan Berkeyakinan:</strong> Keimanan harus didasarkan pada pilihan sadar, hidayah, dan kesadaran batin, bukan tekanan dari manusia ataupun kekuasaan.</li>
-        <li><strong>Makna <em>Al-'Urwah Al-Wuthqa</em>:</strong> Orang yang ingkar kepada tagut (setan, berhala, atau segala hal yang disembah selain Allah) dan beriman kepada Allah diumpamakan seperti <strong>berpegang erat pada buhul tali yang sangat kuat dan tidak akan putus</strong>.</li>
-    </ul>
-</div>
-
-<!-- Bagian 2: Hadis Terkait Toleransi -->
-<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6 flex items-center">
-    <span class="material-symbols-outlined mr-2">menu_book</span> Hadis Terkait Toleransi
-</h3>
-<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
-    <span class="bg-tertiary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">H.R. AHMAD</span>
-    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-عَنِ ابْنِ عَبَّاسٍ قَالَ : قِيلَ لِرَسُولِ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: أَيُّ الْأَدْيَانِ أَحَبُّ إِلَى اللَّهِ قَالَ : الْحَنِيفِيَّةُ السَّمْحَةُ
-    </div>
-    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
-        "Dari Ibnu Abbas r.a. ia berkata: Ditanyakan kepada Rasulullah saw., 'Agama apakah yang paling dicintai oleh Allah?' Beliau menjawab: 'Al-Hanifiyyah as-Samhah (agama yang lurus lagi penuh toleransi/kemudahan).'"
-    </p>
-</div>
-<div class="bg-surface-container-low p-6 rounded-2xl border-l-4 border-tertiary mb-12">
-    <h4 class="font-bold text-lg mb-2 text-tertiary">Penjelasan Hadis</h4>
-    <ul class="text-sm text-on-surface-variant leading-relaxed list-disc list-inside space-y-2">
-        <li><strong>Arti <em>Al-Hanifiyyah as-Samhah</em>:</strong> Ajaran yang lurus, menjauhi kebatilan, dibangun di atas prinsip kemudahan, serta <strong>tidak memberatkan atau menyempitkan umatnya</strong>.</li>
-        <li><strong>Cerminan Kuatnya Iman:</strong> Rasulullah saw. mengajarkan bahwa keteguhan iman tidak ditunjukkan dengan sikap angkuh, melainkan tercermin lewat <strong>tawadu, rasa hormat, tasamuh (toleran), dan sikap terbuka</strong> terhadap orang yang berbeda keyakinan.</li>
-    </ul>
-</div>
-
-<!-- Bagian 3: Materi Tajwid -->
+<!-- 1. Tajwid -->
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 flex items-center">
     <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
         <span class="material-symbols-outlined text-[24px]">spellcheck</span>
     </span>
-    Materi Tajwid — Hukum Bacaan Lam Jalalah dan Ra'
+    1. Tajwid Paling Fundamental (Nun & Mim Sukun)
 </h3>
 
-<div class="flex flex-col md:flex-row gap-6 mb-12">
-    <!-- Lam Jalalah -->
-    <div class="bg-surface-container-low p-8 rounded-3xl flex-1 border-l-8 border-primary relative overflow-hidden">
-        <h4 class="font-bold text-xl mb-3 text-primary">Lam Jalalah (لَام جَلَالَة) 🤲</h4>
-        <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
-            Lam Jalalah adalah huruf lam yang terdapat pada lafal Allah Swt. (<span class="font-quran" dir="rtl">اللَّه</span>). Cara membacanya dibagi menjadi dua jenis:
-        </p>
-        <div class="space-y-4">
-            <div>
-                <h5 class="text-sm font-bold text-on-surface">A. Tafkhim (Tebal)</h5>
-                <p class="text-sm text-on-surface-variant mb-2">Didahului harakat <strong>fathah</strong> atau <strong>dhammah</strong>. Posisi bibir agak menjorok ke depan.</p>
-                <ul class="text-sm text-on-surface-variant list-disc list-inside ml-2">
-                    <li><span class="font-quran text-lg mx-1" dir="rtl">وَاللَّهُ</span> <em>(wallāhu)</em> — Didahului huruf wawu berharakat fathah.</li>
-                    <li><span class="font-quran text-lg mx-1" dir="rtl">صَلَاةُ اللَّهِ</span> <em>(ṣalātullāhi)</em> — Didahului huruf ta berharakat dhammah.</li>
-                </ul>
-            </div>
-            <div>
-                <h5 class="text-sm font-bold text-on-surface">B. Tarqiq (Tipis)</h5>
-                <p class="text-sm text-on-surface-variant mb-2">Didahului harakat <strong>kasrah</strong>. Posisi bibir agak mundur (meringis).</p>
-                <ul class="text-sm text-on-surface-variant list-disc list-inside ml-2">
-                    <li><span class="font-quran text-lg mx-1" dir="rtl">بِاللَّهِ</span> <em>(billāhi)</em> — Didahului huruf ba berharakat kasrah.</li>
-                    <li><span class="font-quran text-lg mx-1" dir="rtl">بِسْمِ اللَّهِ</span> <em>(bismillāhi)</em> — Didahului huruf mim berharakat kasrah.</li>
-                </ul>
-            </div>
+<div class="grid md:grid-cols-2 gap-6 mb-16">
+    <div class="bg-surface-container-low p-6 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
+        <span class="font-quran absolute -top-4 -right-2 text-9xl text-primary/5">ن</span>
+        <h4 class="font-bold text-lg mb-4 text-primary border-b border-outline-variant/20 pb-2">Hukum Nun Sukun (نْ) / Tanwin</h4>
+        <div class="space-y-3 text-sm text-on-surface-variant relative z-10">
+            <div class="flex items-start gap-2"><span class="bg-primary/10 text-primary px-2 rounded font-bold shrink-0">Izhar</span> <p>Jelas tegas. Bertemu huruf tenggorokan (ء ه ح خ ع غ).</p></div>
+            <div class="flex items-start gap-2"><span class="bg-secondary/10 text-secondary px-2 rounded font-bold shrink-0">Idgham</span> <p>Peleburan Suara. Bighunnah (dengan dengung, ي ن م و) dan Bilaghunnah (tanpa dengung, ل ر).</p></div>
+            <div class="flex items-start gap-2"><span class="bg-tertiary/10 text-tertiary px-2 rounded font-bold shrink-0">Iqlab</span> <p>Sulap suara ke Mim mutlak. (Hanya di huruf ب).</p></div>
+            <div class="flex items-start gap-2"><span class="bg-error/10 text-error px-2 rounded font-bold shrink-0">Ikhfa</span> <p>Dengung samar. (Terjadi di 15 huruf sisanya tertunda).</p></div>
         </div>
     </div>
-
-    <!-- Hukum Ra' -->
-    <div class="bg-surface-container-low p-8 rounded-3xl flex-1 border-l-8 border-secondary relative overflow-hidden">
-        <h4 class="font-bold text-xl mb-3 text-secondary">Hukum Bacaan Ra' (ر) 🗣️</h4>
-        <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
-            Huruf Ra' juga memiliki ketentuan tebal dan tipis berdasarkan harakatnya:
-        </p>
-        <div class="space-y-4">
-            <div>
-                <h5 class="text-sm font-bold text-on-surface">A. Ra' Tafkhim (Tebal)</h5>
-                <p class="text-sm text-on-surface-variant mb-2">Bila Ra' berharakat <strong>fathah / dhammah</strong>, atau sukun didahului fathah / dhammah.</p>
-                <ul class="text-sm text-on-surface-variant list-disc list-inside ml-2">
-                    <li><span class="font-quran text-lg mx-1" dir="rtl">الرُّشْدُ</span> <em>(ar-rusydu)</em> — Ra' berharakat dhammah.</li>
-                    <li><span class="font-quran text-lg mx-1" dir="rtl">إِكْرَاهَ</span> <em>(ikrāha)</em> — Ra' berharakat fathah.</li>
-                    <li><span class="font-quran text-lg mx-1" dir="rtl">الْأَرْضَ</span> <em>(al-arḍa)</em> — Ra' sukun didahului fathah.</li>
-                </ul>
-            </div>
-            <div>
-                <h5 class="text-sm font-bold text-on-surface">B. Ra' Tarqiq (Tipis)</h5>
-                <p class="text-sm text-on-surface-variant mb-2">Bila Ra' berharakat <strong>kasrah</strong>, atau sukun didahului kasrah.</p>
-                <ul class="text-sm text-on-surface-variant list-disc list-inside ml-2">
-                    <li><span class="font-quran text-lg mx-1" dir="rtl">رِزْقًا</span> <em>(rizqan)</em> — Ra' berharakat kasrah.</li>
-                    <li><span class="font-quran text-lg mx-1" dir="rtl">فِرْعَوْنَ</span> <em>(fir'auna)</em> — Ra' sukun didahului kasrah.</li>
-                </ul>
-            </div>
+    
+    <div class="bg-surface-container-low p-6 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
+        <span class="font-quran absolute -top-4 -right-2 text-9xl text-secondary/5">م</span>
+        <h4 class="font-bold text-lg mb-4 text-secondary border-b border-outline-variant/20 pb-2">Hukum Mim Sukun (مْ)</h4>
+        <div class="space-y-3 text-sm text-on-surface-variant relative z-10">
+            <div class="flex items-start gap-2"><span class="bg-primary/10 text-primary px-2 rounded font-bold shrink-0 mt-1">Ikhfa Syafawi</span> <p>Disamarkan dalam tabrakan dengung bibir. (Khusus jika berhadapan dengan ب).</p></div>
+            <div class="flex items-start gap-2"><span class="bg-secondary/10 text-secondary px-2 rounded font-bold shrink-0 mt-1">Idgham Mimi</span> <p>Mim nabrak Mim! Didegungkan secara syahdu. (Khusus berhadapan dengan م).</p></div>
+            <div class="flex items-start gap-2"><span class="bg-tertiary/10 text-tertiary px-2 rounded font-bold shrink-0 mt-1">Izhar Syafawi</span> <p>Kasus tersering terjadi. Mulut nutup dan diucapkan jelas! (Bertemu selain Ba' dan Mim).</p></div>
         </div>
     </div>
 </div>
 
-<!-- Rangkuman Tabel -->
-<div class="overflow-x-auto mb-8">
-    <table class="min-w-full text-left text-sm whitespace-nowrap bg-white rounded-2xl overflow-hidden border border-outline-variant/20">
-        <thead class="bg-surface-container-low text-on-surface">
-            <tr>
-                <th scope="col" class="px-6 py-4 font-bold">Jenis Tajwid</th>
-                <th scope="col" class="px-6 py-4 font-bold">Cara Membaca</th>
-                <th scope="col" class="px-6 py-4 font-bold">Syarat Utama</th>
-                <th scope="col" class="px-6 py-4 font-bold">Contoh Utama</th>
-            </tr>
-        </thead>
-        <tbody class="divide-y divide-outline-variant/20">
-            <tr class="hover:bg-surface-container-lowest transition-colors">
-                <td class="px-6 py-4 font-bold text-primary">Lam Jalalah Tafkhim</td>
-                <td class="px-6 py-4">Tebal</td>
-                <td class="px-6 py-4">Didahului Fathah / Dhammah</td>
-                <td class="px-6 py-4"><span class="font-quran text-lg" dir="rtl">وَاللَّهُ</span> <em>(wallāhu)</em></td>
-            </tr>
-            <tr class="hover:bg-surface-container-lowest transition-colors">
-                <td class="px-6 py-4 font-bold text-primary">Lam Jalalah Tarqiq</td>
-                <td class="px-6 py-4">Tipis</td>
-                <td class="px-6 py-4">Didahului Kasrah</td>
-                <td class="px-6 py-4"><span class="font-quran text-lg" dir="rtl">بِاللَّهِ</span> <em>(billāhi)</em></td>
-            </tr>
-            <tr class="hover:bg-surface-container-lowest transition-colors">
-                <td class="px-6 py-4 font-bold text-secondary">Ra' Tafkhim</td>
-                <td class="px-6 py-4">Tebal</td>
-                <td class="px-6 py-4">Berharakat Fathah / Dhammah</td>
-                <td class="px-6 py-4"><span class="font-quran text-lg" dir="rtl">الرُّشْدُ</span> <em>(ar-rusydu)</em></td>
-            </tr>
-            <tr class="hover:bg-surface-container-lowest transition-colors">
-                <td class="px-6 py-4 font-bold text-secondary">Ra' Tarqiq</td>
-                <td class="px-6 py-4">Tipis</td>
-                <td class="px-6 py-4">Berharakat Kasrah</td>
-                <td class="px-6 py-4"><span class="font-quran text-lg" dir="rtl">رِزْقًا</span> <em>(rizqan)</em></td>
-            </tr>
-        </tbody>
-    </table>
+<!-- 2. Ayat Moderat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 text-center">Konsep Emas Moderasi Beragama</h3>
+
+<div class="grid md:grid-cols-2 gap-6 mb-12">
+    <div class="bg-primary/5 p-6 rounded-3xl border-l-8 border-primary relative overflow-hidden flex flex-col justify-center">
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-4 text-on-surface" dir="rtl">وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا ...</div>
+        <p class="font-body text-sm italic text-on-surface-variant border-t border-outline-variant/20 pt-3">
+            "Kami (Tuhan) telah menjadikan kamu (umat Islam) <strong>'ummatan wasatan' (umat moderat / jalan tengah)</strong> agar kalian menjadi wasit adil atas manusia..." <br><strong>(Q.S. al-Baqarah: 143)</strong>
+        </p>
+    </div>
+    <div class="bg-secondary/5 p-6 rounded-3xl border-l-8 border-secondary relative overflow-hidden flex flex-col justify-center">
+        <div class="text-right font-quran text-lg mb-3" dir="rtl">إِنَّ الدِّينَ يُسْرٌ ... فَسَدِّدُوا وَقَارِبُوا وَأَبْشِرُوا</div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/20 pt-3">"Islam adalah entitas yang ringan dan fleksibel. Maka carilah jalan pertengahan, proporsional, serta gembirakanlah." <br><strong>(HR. Bukhari dari Jabir)</strong></p>
+    </div>
+</div>
+
+<!-- 4. Kisah Teladan Hudaibiyah -->
+<div class="bg-gradient-to-br from-primary to-primary-container p-10 rounded-[3rem] text-white shadow-xl flex flex-col items-center text-center">
+    <h3 class="font-headline text-2xl font-bold mb-4 text-white">Hikmah Puncak Moderasi: Tragedi Hudaibiyah</h3>
+    <p class="text-sm opacity-90 leading-relaxed max-w-3xl mb-6">
+        Pada 628 M, kafir Quraisy menyabotase blokade jalur kedatangan Nabi dan rombongan umrah di Mekkah. Lewat diplomasi super panas, lahirlah gencatan dokumen pakta *"Perjanjian Hudaibiyah"*. Secara tertulis isi dokumennya merugikan gengsi umat Islam, hingga mayoritas sahabat murka.
+    </p>
+    <div class="w-full bg-white/10 rounded-2xl p-6 border border-white/20">
+        <span class="material-symbols-outlined text-[40px] text-secondary-fixed mb-2">gavel</span>
+        <p class="text-[15px] font-bold text-white mb-2">Namun, Nabi memilih jalur Kelapangan Dada Moderat!</p>
+        <p class="text-xs text-white/80">Beliau menyetujui penghapusan diksi "Rasulullah" pada naskah demi menjaga genjatan senjata fisik. Nyatanya, pengalah strategis tersebut terbukti brilian karena kelak berujung menangnya dakwah masif tanpa jatuhnya darah satupun (Fathu Makkah).</p>
+    </div>
 </div>
 
         `
