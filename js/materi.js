@@ -4176,140 +4176,245 @@ const materiData = [
         "kelas": 9,
         "semester": "Ganjil",
         "bab": "Bab 5",
-        "judul": "Mengapresiasi Peradaban Daulah Usmani",
-        "waktuBumper": "14 Menit Baca",
+        "judul": "Sejarah Peradaban Islam pada Masa Daulah Syafawi di Persia",
+        "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
-<p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Daulah Turki Usmani adalah salah satu kerajaan Islam yang sangat besar dan berkuasa selama kurang lebih enam abad, meliputi wilayah luas di tiga benua (Eropa, Asia, dan Afrika). Belajar tentang Daulah Usmani penting untuk memahami sejarah kejayaan peradaban Islam.
+﻿<p class="text-on-surface-variant leading-relaxed text-lg mb-8">
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Sejarah Peradaban Islam pada Masa Daulah Syafawi di Persia</strong>, yang mencakup sejarah singkat, garis waktu, tokoh-tokoh penting, hingga hikmah yang dapat diambil.
 </p>
 
-<!-- Sejarah Lahirnya -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 flex items-center">
-    <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
-        <span class="material-symbols-outlined text-[24px]">history_edu</span>
-    </span>
-    Sejarah Lahirnya Daulah Usmani
-</h3>
-<p class="text-on-surface-variant leading-relaxed text-md mb-12">
-    Daulah Usmani berasal dari suku <strong>Kayi</strong>, yang melarikan diri dari serangan pasukan Mongol di bawah pimpinan Jenghis Khan. Mereka kemudian menetap di Asia Kecil (sekarang Turki). Ibu kota Daulah Usmani berpindah-pindah, dari Sogut, Bursa, Adrianopel (Edirne), dan akhirnya bermuara di Konstantinopel (Istanbul).
-</p>
-
-<!-- Masa Awal Berdiri -->
-<div class="bg-surface-container-low p-8 rounded-[2rem] mb-12 border border-outline-variant/20">
-    <h4 class="font-bold text-xl mb-6 text-on-surface">Masa Awal Berdiri</h4>
-    <div class="space-y-6">
-        <div class="flex items-start gap-4">
-            <div class="min-w-32 font-bold text-primary">Usman I <br/><span class="text-xs text-on-surface-variant font-normal">(1299-1326 M)</span></div>
-            <div class="text-sm text-on-surface-variant">Mendirikan Kerajaan Usmani dan memperluas wilayah hingga ke Kekaisaran Byzantium. Beliau dijuluki <strong>"al-Ghozi"</strong> (Ksatria) karena mempersatukan suku Turki atas dasar agama.</div>
-        </div>
-        <div class="flex items-start gap-4">
-            <div class="min-w-32 font-bold text-primary">Orkhan <br/><span class="text-xs text-on-surface-variant font-normal">(1326-1361 M)</span></div>
-            <div class="text-sm text-on-surface-variant">Menjadikan Bursa sebagai ibu kota, dan membentuk pasukan khusus bernama <strong>Inkisyariyah/Jenissari</strong>. Berhasil menaklukkan beberapa wilayah penting.</div>
-        </div>
-        <div class="flex items-start gap-4">
-            <div class="min-w-32 font-bold text-primary">Murad I <br/><span class="text-xs text-on-surface-variant font-normal">(1360-1388 M)</span></div>
-            <div class="text-sm text-on-surface-variant">Adrianopel ditaklukkan dan dijadikan ibu kota baru. Beliau seorang pemimpin yang berani dan rajin beribadah, wafat sebagai syuhada.</div>
-        </div>
-        <div class="flex items-start gap-4">
-            <div class="min-w-32 font-bold text-primary">Bayazid I <br/><span class="text-xs text-on-surface-variant font-normal">(1389-1402 M)</span></div>
-            <div class="text-sm text-on-surface-variant">Dijuluki <strong>"Yaldrum"</strong> (kilat) karena kecepatan penaklukannya. Ingin menaklukkan Konstantinopel, namun dikalahkan oleh Timur Lenk.</div>
-        </div>
-    </div>
-</div>
-
-<!-- Masa Kebangkitan -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-16 mb-8 text-center">Masa Kebangkitan & Puncak Kejayaan</h3>
-<div class="grid md:grid-cols-2 gap-6 mb-12">
-    <!-- Al Fatih -->
-    <div class="bg-gradient-to-br from-primary/10 to-transparent p-6 rounded-3xl border border-primary/20">
-        <h4 class="font-bold text-lg mb-2">Muhammad II / Al-Fatih <span class="text-xs font-normal opacity-70">(1451-1481 M)</span></h4>
-        <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
-            Menaklukkan Konstantinopel pada usia 21 tahun, mewujudkan kabar gembira dari Rasulullah saw. Konstantinopel diubah menjadi Islambul (Istanbul) dan Hagia Sofia diubah menjadi masjid. Beliau sangat cerdas dan menguasai banyak bahasa.
-        </p>
-    </div>
-    <!-- Al Qanuni -->
-    <div class="bg-gradient-to-br from-secondary/10 to-transparent p-6 rounded-3xl border border-secondary/20">
-        <h4 class="font-bold text-lg mb-2">Sulaiman I / Al-Qanuni <span class="text-xs font-normal opacity-70">(1520-1566 M)</span></h4>
-        <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
-            Masa puncak kejayaan Daulah Usmani. Beliau adalah pembuat undang-undang ulung. Mengalami kemajuan pesat di bidang sains, teknologi, arsitektur (membangun banyak masjid), dan memperluas wilayah di tiga benua.
-        </p>
-    </div>
-</div>
-
-<p class="text-on-surface-variant text-sm mb-12 text-center bg-surface-container-highest p-4 rounded-xl">
-    Sultan kebangkitan lainnya: <strong>Muhammad I</strong> (menyatukan kekaisaran yang sempat pecah), <strong>Murad II</strong> (melanjutkan perluasan wilayah), <strong>Bayazid II</strong>, dan <strong>Salim I</strong>.
-</p>
-
-<!-- Masa Kemunduran -->
-<h3 class="font-headline text-2xl font-bold text-error mt-12 mb-6 flex items-center">
-    <span class="w-10 h-10 rounded-xl bg-error/10 flex items-center justify-center mr-4 shrink-0 text-error">
-        <span class="material-symbols-outlined text-[24px]">trending_down</span>
-    </span>
-    Masa Kemunduran Daulah Usmani
-</h3>
-<p class="text-on-surface-variant leading-relaxed text-md mb-6">
-    Setelah Sulaiman Al-Qanuni, Daulah Usmani perlahan melemah hingga akhirnya runtuh pada tahun 1924 M dan menjadi Republik Turki. Faktor utama kemundurannya antara lain:
-</p>
-<ul class="grid grid-cols-2 gap-4 text-sm text-on-surface-variant mb-16">
-    <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-error mr-2"></span> Kemerosotan akhlak sebagian pemimpin</li>
-    <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-error mr-2"></span> Kurang meratanya tingkat pendidikan</li>
-    <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-error mr-2"></span> Kelemahan dan pemberontakan militer</li>
-    <li class="flex items-center"><span class="w-2 h-2 rounded-full bg-error mr-2"></span> Biaya perang yang terlalu besar</li>
-</ul>
-
-<!-- Keteladanan -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-8">Keteladanan yang Bisa Diterapkan</h3>
-<div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mb-16">
-    <div class="p-5 bg-white border border-outline-variant/20 rounded-2xl shadow-sm hover:-translate-y-1 transition-transform">
-        <span class="material-symbols-outlined text-primary mb-2">gavel</span>
-        <div class="font-bold mb-1 text-sm">Menetapkan Sistem Hukum</div>
-        <div class="text-xs text-on-surface-variant">Mematuhi ajaran agama dan peraturan yang berlaku (Al-Qanun).</div>
-    </div>
-    <div class="p-5 bg-white border border-outline-variant/20 rounded-2xl shadow-sm hover:-translate-y-1 transition-transform">
-        <span class="material-symbols-outlined text-primary mb-2">trending_up</span>
-        <div class="font-bold mb-1 text-sm">Membangun Ekonomi</div>
-        <div class="text-xs text-on-surface-variant">Kreatif, inovatif, dengan konsep dasar mensejahterakan rakyat.</div>
-    </div>
-    <div class="p-5 bg-white border border-outline-variant/20 rounded-2xl shadow-sm hover:-translate-y-1 transition-transform">
-        <span class="material-symbols-outlined text-primary mb-2">diversity_3</span>
-        <div class="font-bold mb-1 text-sm">Mewujudkan Toleransi</div>
-        <div class="text-xs text-on-surface-variant">Memberikan kebebasan beragama dan menebarkan kasih sayang.</div>
-    </div>
-    <div class="p-5 bg-white border border-outline-variant/20 rounded-2xl shadow-sm hover:-translate-y-1 transition-transform">
-        <span class="material-symbols-outlined text-primary mb-2">science</span>
-        <div class="font-bold mb-1 text-sm">Sains & Teknologi</div>
-        <div class="text-xs text-on-surface-variant">Berpikir kritis dalam mencari ilmu dan inovasi.</div>
-    </div>
-    <div class="p-5 bg-white border border-outline-variant/20 rounded-2xl shadow-sm hover:-translate-y-1 transition-transform">
-        <span class="material-symbols-outlined text-primary mb-2">language</span>
-        <div class="font-bold mb-1 text-sm">Bahasa & Budaya</div>
-        <div class="text-xs text-on-surface-variant">Menghargai kekayaan budaya dan bahasa yang beragam.</div>
-    </div>
-    <div class="p-5 bg-white border border-outline-variant/20 rounded-2xl shadow-sm hover:-translate-y-1 transition-transform">
-        <span class="material-symbols-outlined text-primary mb-2">castle</span>
-        <div class="font-bold mb-1 text-sm">Arsitektur</div>
-        <div class="text-xs text-on-surface-variant">Memelihara monumen peninggalan bersejarah seperti masjid.</div>
-    </div>
-</div>
-
-<!-- Dalil Ali Imran -->
-<div class="bg-primary/5 border-l-4 border-primary rounded-r-3xl p-8 mb-12 relative overflow-hidden">
-    <div class="text-right font-quran text-4xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-        قُلِ اللَّهُمَّ مَالِكِ الْمُلْكِ تُؤْتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّنْ تَشَاءُ وَتُعِزُّ مَنْ تَشَاءُ وَتُذِلُّ مَنْ تَشَاءُۖ بِيَدِكَ الْخَيْرُۖ إِنَّكَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ
-    </div>
-    <div class="font-body italic text-on-surface-variant text-md pt-4 border-t border-outline-variant/20">
-        Katakanlah (Muhammad), “Wahai Tuhan pemilik kekuasaan, Engkau berikan kekuasaan kepada siapa pun yang Engkau kehendaki, dan Engkau cabut kekuasaan dari siapa pun yang Engkau kehendaki. Engkau muliakan siapa pun yang Engkau kehendaki dan Engkau hinakan siapa pun yang Engkau kehendaki. Di tangan Engkaulah segala kebajikan. Sungguh, Engkau Mahakuasa atas segala sesuatu." <br/><strong>(Q.S. Ali Imran [3]: 26)</strong>
-    </div>
-</div>
-
-<div class="p-8 bg-gradient-to-br from-primary to-primary-container text-white rounded-[2rem] shadow-xl text-center">
-    <p class="text-lg opacity-90 leading-relaxed italic">
-        "Kesuksesan sejarah Daulah Usmani mengajarkan kerja keras dan keimanan. Pelajari kejayaannya, jadikan pelajaran dari kemundurannya, dan terus berkarya untuk Islam."
+<!-- Bagian 1: Konteks Singkat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Konteks Singkat</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        Daulah Syafawi (1501&#x2013;1736 M) merupakan salah satu dari tiga kerajaan besar Islam di era abad pertengahan yang berpusat di wilayah Persia (sekarang Iran). Berbeda dengan Daulah Turki Usmani dan Daulah Mughal di India, Daulah Syafawi menetapkan <strong>ajaran Syiah sebagai mazhab resmi negaranya</strong>. Dinasti ini berhasil mengembalikan kejayaan kebudayaan Persia kuno dan melahirkan <strong>Kota Isfahan</strong> yang keindahan arsitekturnya dikagumi dunia hingga dijuluki <em>&#34;Nisf-e-Jahan&#34;</em> (Separuh Dunia).
     </p>
 </div>
 
+<!-- Bagian 2: Garis Waktu -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Garis Waktu (Timeline)</h3>
+<div class="relative border-l-4 border-secondary/20 ml-4 mb-12 space-y-8">
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1501 M / 1502 M</p>
+        <p class="text-sm text-on-surface-variant">Proklamasi berdirinya Daulah Syafawi oleh <strong>Ismail I</strong> (Abu Al-Muzafar Ismail) yang menjabat sebagai raja pertama.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1525&#x2013;1576 M</p>
+        <p class="text-sm text-on-surface-variant">Kepemimpinan raja kedua, <strong>Tahmasp I</strong>, yang naik takhta di usia 14 tahun di bawah bimbingan pasukan khusus <em>Qizilbash</em>.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1576&#x2013;1577 M</p>
+        <p class="text-sm text-on-surface-variant">Masa pemerintahan singkat <strong>Ismail II</strong> yang hanya berlangsung selama satu tahun.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1577&#x2013;1587 M</p>
+        <p class="text-sm text-on-surface-variant">Pemerintahan <strong>Muhammad I</strong> (Mohammad Khodabandeh), raja keempat yang juga seorang penyair ulung bergelar <em>&#34;Fahmi&#34;</em>.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1587&#x2013;1629 M</p>
+        <p class="text-sm text-on-surface-variant">Era keemasan Daulah Syafawi di bawah <strong>Shah Abbas I</strong> (Abbas bin Mohammad).</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1629 M</p>
+        <p class="text-sm text-on-surface-variant">Wafatnya Shah Abbas I menjadi titik awal kemunduran dinasti di bawah kepemimpinan cucunya, <strong>Safi</strong>, yang berwatak kejam.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1642&#x2013;1666 M</p>
+        <p class="text-sm text-on-surface-variant">Kepemimpinan <strong>Abbas II</strong> yang cerdas dan tegas meskipun dilantik saat masih berusia 9 tahun.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1666&#x2013;1694 M</p>
+        <p class="text-sm text-on-surface-variant">Era kejam <strong>Suleiman I</strong> yang memicu berbagai pemberontakan rakyat di daerah perbatasan.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1694&#x2013;1722 M</p>
+        <p class="text-sm text-on-surface-variant">Pemerintahan <strong>Sultan Husein</strong> yang diwarnai serangan dari pasukan Afghanistan hingga membuatnya turun takhta.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1706 M</p>
+        <p class="text-sm text-on-surface-variant">Pembangunan gedung pendidikan <strong>Chahar Bagh Isfahan</strong> oleh Sultan Husein.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1722&#x2013;1729 M</p>
+        <p class="text-sm text-on-surface-variant">Wilayah Syafawi dan Iran dikuasai secara politik oleh Daulah Hotak dari Afghanistan.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1729&#x2013;1732 M</p>
+        <p class="text-sm text-on-surface-variant"><strong>Tahmasp II</strong> berhasil merebut kembali ibu kota Isfahan di bawah pengaruh kekuatan militer Nader Shah.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1732&#x2013;1736 M</p>
+        <p class="text-sm text-on-surface-variant">Kepemimpinan raja terakhir <strong>Abbas III</strong> yang masih bayi sebelum akhirnya digulingkan oleh Nader Khan (Nader Shah) pada 1736 M, menandai runtuhnya Daulah Syafawi secara total.</p>
+    </div>
+</div>
+
+<!-- Bagian 3: Tokoh -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Tokoh-Tokoh Terkait</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Tokoh</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Peran dalam Sejarah</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Fakta Menarik</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Syafi Al-Din</td><td class="p-3">Pendiri gerakan tarekat keagamaan Syafawiyah di Ardabil, Azerbaijan.</td><td class="p-3">Namanya diabadikan menjadi nama dinasti, dengan tujuan awal membersihkan Islam dari bid&#39;ah dan kemungkaran.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Ismail I</td><td class="p-3">Pendiri sekaligus raja pertama Daulah Syafawi.</td><td class="p-3">Berhasil menyatukan wilayah Iran, Azerbaijan, Irak, Kuwait, hingga sebagian Afghanistan dan Pakistan dalam waktu singkat.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Shah Abbas I</td><td class="p-3">Raja kelima yang membawa dinasti ke puncak kejayaan politik dan peradaban.</td><td class="p-3">Membentuk pasukan militer elit <strong>Ghulam</strong> serta merancang Isfahan menjadi pusat perdagangan dan seni dunia.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Sultan Husein</td><td class="p-3">Raja kesembilan Daulah Syafawi.</td><td class="p-3">Berjasa besar membangun kompleks madrasah dan asrama <strong>Chahar Bagh</strong> untuk memajukan pendidikan sains di Isfahan.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Abbas III</td><td class="p-3">Raja kesebelas sekaligus pemimpin terakhir Daulah Syafawi.</td><td class="p-3">Diangkat saat masih bayi pada 1732 M, dimasukkan ke penjara bersama ayahnya oleh Nader Shah pada 1736 M.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 4: Kronologi -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Kronologi Peristiwa (Narasi)</h3>
+<div class="space-y-6 mb-12">
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Latar Belakang (Asal-usul Gerakan Tarekat)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">Daulah Syafawi tidak berdiri langsung sebagai sebuah dinasti politik, melainkan berakar dari sebuah <strong>gerakan tarekat keagamaan Syafawiyah</strong> yang didirikan oleh <strong>Syafi Al-Din</strong> di Ardabil, Azerbaijan. Tujuan awal gerakan ini adalah memurnikan ajaran Islam dari kemungkaran dan bid&#39;ah. Lambat laun, pengikut tarekat ini semakin besar dan solid, hingga kelompok ini mulai terjun ke dalam kancah perpolitikan regional dan berhasil memproklamirkan berdirinya Daulah Syafawi pada tahun 1501 M di bawah kepemimpinan raja pertamanya, <strong>Ismail I</strong>.</p>
+    </div>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Jalannya Peristiwa (Era Keemasan &amp; Toleransi di Isfahan)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">Puncak kejayaan Daulah Syafawi diraih di bawah kepemimpinan raja kelima, <strong>Shah Abbas I (1587&#x2013;1629 M)</strong>. Ia mereformasi militer dengan membentuk pasukan khusus <strong>Ghulam</strong>, mengamankan jalur perdagangan internasional, dan membangun pelabuhan <strong>Bandar Abbas</strong> yang menghubungkan jalur dagang dunia antara Timur dan Barat.</p>
+        <p class="text-sm text-on-surface-variant leading-relaxed mt-2">Shah Abbas I memindahkan ibu kota ke <strong>Isfahan</strong>, sebuah kota di tepi Sungai Zandah yang kemudian tumbuh menjadi kota paling menawan dan tertata rapi di dunia hingga dijuluki <em>&#34;Nisf-e-Jahan&#34;</em> (Separuh Dunia). Di kota ini berdiri ratusan masjid megah (seperti Masjid Syah dan Masjid Syeikh Lutfiyah), puluhan sekolah tinggi, dan ribuan penginapan dagang. Shah Abbas I menerapkan <strong>sistem toleransi yang sangat tinggi</strong>, di mana penganut Islam Sunni, Syiah, Nasrani, dan Yahudi diberikan kebebasan penuh untuk memeluk dan menjalankan ajaran agama mereka masing-masing secara damai.</p>
+    </div>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Akhir Peristiwa (Kemunduran dan Kehancuran Dinasti)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">Kemunduran Daulah Syafawi mulai terasa sesaat setelah Shah Abbas I turun takhta. Enam raja penerusnya dinilai kurang kompeten dalam mengelola negara, tidak memiliki jiwa kepemimpinan yang andal, dan sebagian bersikap kejam. Kelemahan kepemimpinan ini memicu terjadinya pemberontakan, terutama dari wilayah Afghanistan yang akhirnya menyerbu Isfahan pada masa Sultan Husein.</p>
+        <p class="text-sm text-on-surface-variant leading-relaxed mt-2">Meskipun sempat ada upaya pemulihan kekuasaan oleh Tahmasp II, namun dominasi militer panglima perang Nader Khan tidak terbendung. Pada tahun 1736 M, raja terakhir yang masih bayi, Abbas III, digulingkan oleh Nader Khan yang menobatkan dirinya menjadi Nader Shah, secara resmi mengakhiri riwayat kekuasaan Daulah Syafawi di Persia.</p>
+    </div>
+</div>
+
+<!-- Bagian 5: Hikmah -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">5. Hikmah dan Pelajaran</h3>
+<div class="bg-surface-container-low p-6 rounded-[2rem] border-l-8 border-secondary shadow-sm mb-12">
+    <ul class="text-sm text-on-surface-variant list-none space-y-4">
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">security</span>
+            <div><strong>Pentingnya Membangun Angkatan Perang yang Solid:</strong> Pembentukan pasukan elit <em>Ghulam</em> oleh Shah Abbas I membuktikan bahwa kestabilan ekonomi dan politik suatu negara sangat bergantung pada kekuatan pertahanan keamanan yang kuat dan disiplin.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">handshake</span>
+            <div><strong>Toleransi Beragama Melahirkan Kedamaian:</strong> Sikap inklusif dan jaminan kebebasan berkeyakinan di Isfahan terbukti mampu menciptakan kehidupan masyarakat yang rukun berdampingan dan mencegah disintegrasi sosial.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">menu_book</span>
+            <div><strong>Investasi Ilmu Pengetahuan dan Seni:</strong> Pembangunan sarana pendidikan (seperti Chahar Bagh Isfahan) dan pelestarian seni (karpet, permadani, seni lukis) menunjukkan bahwa peradaban yang agung dinilai dari warisan keilmuan dan estetikanya yang bertahan melintasi zaman.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">balance</span>
+            <div><strong>Kualitas Pemimpin Menentukan Nasib Bangsa:</strong> Jatuh bangunnya Syafawi menjadi cerminan bahwa pemimpin yang kompeten, cerdas, dan bermoral baik akan membawa kemakmuran, sedangkan pemimpin yang lemah dan amoral akan mempercepat kehancuran.</div>
+        </li>
+    </ul>
+</div>
+
+<!-- Bagian 6: Fakta Cepat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">6. Fakta Cepat (Quick Facts)</h3>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <p class="text-xs text-on-surface-variant">Rentang Kekuasaan</p>
+        <p class="font-bold text-lg text-primary">&#xB1;235 tahun</p>
+        <p class="text-[10px] text-on-surface-variant">1501&#x2013;1736 M</p>
+    </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <p class="text-xs text-on-surface-variant">Mazhab Resmi Negara</p>
+        <p class="font-bold text-lg text-secondary">Syiah</p>
+        <p class="text-[10px] text-on-surface-variant">Fondasi Iran modern</p>
+    </div>
+    <div class="bg-tertiary/5 p-4 rounded-2xl text-center border border-tertiary/20">
+        <p class="text-xs text-on-surface-variant">Ibu Kota Kejayaan</p>
+        <p class="font-bold text-lg text-tertiary">Isfahan, Iran</p>
+        <p class="text-[10px] text-on-surface-variant">Puncak peradaban Syafawi</p>
+    </div>
+    <div class="bg-error/5 p-4 rounded-2xl text-center border border-error/20">
+        <p class="text-xs text-on-surface-variant">Julukan Kota Isfahan</p>
+        <p class="font-bold text-lg text-error">Nisf-e-Jahan</p>
+        <p class="text-[10px] text-on-surface-variant">&#34;Separuh Dunia&#34;</p>
+    </div>
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <p class="text-xs text-on-surface-variant">Raja Puncak Kejayaan</p>
+        <p class="font-bold text-lg text-primary">Shah Abbas I</p>
+        <p class="text-[10px] text-on-surface-variant">1587&#x2013;1629 M</p>
+    </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <p class="text-xs text-on-surface-variant">Upacara Khas</p>
+        <p class="font-bold text-lg text-secondary">Rawdi Khani</p>
+        <p class="text-[10px] text-on-surface-variant">Peringatan wafat Imam Husein</p>
+    </div>
+</div>
+
+<!-- Bagian 7: Istilah Kunci -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Makna Singkat</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Qizilbash</td><td class="p-3">Pasukan militer pendukung awal tarekat Syafawiyah yang memiliki ciri khas memakai baret merah.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Ghulam</td><td class="p-3">Pasukan militer elit budak bentukan Shah Abbas I untuk mengimbangi dominasi Qizilbash.</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Nisf-e-Jahan</td><td class="p-3">Ungkapan populer berbahasa Persia yang berarti <em>&#34;separuh dunia&#34;</em> untuk menggambarkan keindahan Isfahan.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Rawdi Khani</td><td class="p-3">Upacara ritual peringatan berkabung atas wafatnya cucu Nabi, Husein bin Ali.</td></tr>
+            <tr><td class="p-3 font-semibold">Chahar Bagh</td><td class="p-3">Kompleks gedung pendidikan dan asrama di Isfahan yang dibangun untuk mencetak para cendekiawan.</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 8: Daftar Cendekiawan -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">8. Daftar Cendekiawan &amp; Ilmuwan Masa Daulah Syafawi</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-primary/10">
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">No</th>
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Nama Cendekiawan</th>
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Bidang Keahlian</th>
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Kontribusi / Karya Monumental</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3">1</td><td class="p-3 font-semibold">Baha Al-Din Al-Syaerazi</td><td class="p-3">Filsafat, Sejarah, &amp; Teologi</td><td class="p-3">Merumuskan berbagai karya pemikiran teologi dan sejarah di Persia.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3">2</td><td class="p-3 font-semibold">Mir Damad</td><td class="p-3">Filsafat &amp; Metafisika</td><td class="p-3">Tokoh kunci Mazhab Filsafat Isfahan (<em>School of Isfahan</em>) pada masa keemasan Shah Abbas I.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3">3</td><td class="p-3 font-semibold">Mulla Sadra</td><td class="p-3">Filsafat (Teosofi Transenden)</td><td class="p-3">Kitab <em>Asfar al-Arba&#39;ah</em> (Empat Perjalanan Ruhani), salah satu rujukan filsafat Islam terbesar pasca-Ibnu Sina.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
         `
     }, {
         "id": "kls9-smtgenap-bab1",
@@ -5035,5 +5140,248 @@ const materiData = [
 </div>
 
         `
+    },
+    {
+        "id": "kls9-smtgenap-bab5",
+        "kelas": 9,
+        "semester": "Genap",
+        "bab": "Bab 5",
+        "judul": "Sejarah Peradaban Islam pada Masa Daulah Mughal di India",
+        "waktuBumper": "15 Menit Baca",
+        "gambar": "images/islamic_calligraphy.png",
+        "konten": `
+﻿<p class="text-on-surface-variant leading-relaxed text-lg mb-8">
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Sejarah Peradaban Islam pada Masa Daulah Mughal di India</strong>, yang mencakup sejarah singkat, garis waktu, tokoh-tokoh penting, hingga hikmah yang dapat diambil.
+</p>
+
+<!-- Bagian 1: Konteks Singkat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Konteks Singkat</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        Daulah Mughal (1526&#x2013;1857 M) merupakan salah satu kerajaan besar Islam di era abad pertengahan yang berpusat di benua India. Didirikan oleh Zahiruddin Muhammad Babur, dinasti ini bangkit menjadi kekuatan adidaya dunia yang mencapai puncak kejayaan luar biasa di bidang kemakmuran ekonomi, kekuatan militer, toleransi sosial yang inklusif, serta kemegahan arsitektur legendaris seperti <strong>Taj Mahal</strong> yang dikagumi dunia hingga saat ini.
+    </p>
+</div>
+
+<!-- Bagian 2: Garis Waktu -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Garis Waktu (Timeline)</h3>
+<div class="relative border-l-4 border-secondary/20 ml-4 mb-12 space-y-8">
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1526 M</p>
+        <p class="text-sm text-on-surface-variant">Kemenangan ekspansi militer <strong>Zahiruddin Muhammad Babur</strong> di India utara dan memproklamasikan berdirinya Daulah Mughal yang beribu kota di Delhi.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1530 M / 1539 M</p>
+        <p class="text-sm text-on-surface-variant">Sultan Babur wafat; kekuasaan diteruskan oleh putranya, <strong>Nashiruddin Humayun</strong>.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1540 M</p>
+        <p class="text-sm text-on-surface-variant">Humayun terpaksa melarikan diri ke Persia (mencari perlindungan kepada Tahmasp I dari Daulah Syafawi) akibat pemberontakan Sher Khan.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1555 M</p>
+        <p class="text-sm text-on-surface-variant">Dengan bantuan pasukan Syafawi, Humayun sukses merebut kembali wilayah Delhi dan memulihkan kekuasaan Mughal.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1556&#x2013;1605 M</p>
+        <p class="text-sm text-on-surface-variant">Masa keemasan pertama di bawah <strong>Jalaluddin Muhammad Akbar</strong> yang membawa Mughal menjadi kerajaan besar dengan kemajuan militer dan penyatuan etnis India.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1605&#x2013;1628 M</p>
+        <p class="text-sm text-on-surface-variant">Era Sultan <strong>Jahangir</strong>, perluasan wilayah terus berjalan kondusif dengan dukungan kekuatan pertahanan militer yang sangat besar.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1628&#x2013;1658 M</p>
+        <p class="text-sm text-on-surface-variant">Puncak kemakmuran ekonomi dan kejayaan arsitektur di bawah <strong>Sultan Shah Jahan</strong>, ditandai dengan pembangunan Taj Mahal.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1659&#x2013;1707 M</p>
+        <p class="text-sm text-on-surface-variant">Masa kepemimpinan <strong>Sultan Aurangzeb Alamgir</strong> yang sederhana, memegang teguh syariat Islam, dan memperluas wilayah hingga ke seluruh semenanjung India.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1707&#x2013;1712 M</p>
+        <p class="text-sm text-on-surface-variant">Era Bahadur Syah I; mulainya perang saudara perebutan takhta di kalangan keluarga istana.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1712&#x2013;1837 M</p>
+        <p class="text-sm text-on-surface-variant">Masa kemerosotan panjang di mana 10 kaisar yang memimpin secara bergantian dinilai lemah.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1857 M</p>
+        <p class="text-sm text-on-surface-variant">Daulah Mughal runtuh secara total setelah kaisar terakhir, <strong>Bahadur Syah II</strong>, diasingkan ke Burma oleh kongsi dagang Inggris.</p>
+    </div>
+</div>
+
+<!-- Bagian 3: Tokoh -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Tokoh-Tokoh Terkait</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Tokoh</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Peran dalam Sejarah</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Fakta Menarik</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Zahiruddin Muhammad Babur</td><td class="p-3">Pendiri sekaligus sultan pertama Daulah Mughal (1526&#x2013;1530/1539 M).</td><td class="p-3">Merupakan keturunan langsung dari penakluk legendaris Asia Tengah, <strong>Timur Lenk</strong>.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Nashiruddin Humayun</td><td class="p-3">Sultan kedua yang berwatak sangat pemaaf.</td><td class="p-3">Membagi kantor layanan masyarakat menjadi beberapa departemen khusus untuk menertibkan tata kelola negara.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Jalaluddin Muhammad Akbar</td><td class="p-3">Sultan ketiga yang membawa kemajuan multidimensi (militer, politik, sosial, seni).</td><td class="p-3">Sangat fokus pada penyatuan berbagai suku, ras, dan etnis di India melalui kebijakan nasionalis.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Shah Jahan</td><td class="p-3">Sultan kelima yang berjiwa terpelajar dan intelektual tinggi.</td><td class="p-3">Memiliki minat besar terhadap seni lukis dan sastra, serta mendirikan <strong>Taj Mahal</strong> untuk mengenang permaisurinya, <strong>Mumtaz Mahal</strong>.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Sultan Aurangzeb Alamgir</td><td class="p-3">Sultan keenam yang memimpin dengan sangat sederhana dan hafal Al-Qur&#39;an.</td><td class="p-3">Berhasil menyusun kodifikasi hukum Islam pertama di India dan memperluas wilayah kekaisaran hingga batas terluasnya.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Bahadur Syah II</td><td class="p-3">Sultan kesebelas sekaligus kaisar terakhir Daulah Mughal.</td><td class="p-3">Diasingkan secara paksa oleh pasukan kolonial Inggris karena menolak konsensus yang merugikan rakyat India.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 4: Kronologi -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Kronologi Peristiwa (Narasi)</h3>
+<div class="space-y-6 mb-12">
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Latar Belakang (Lahirnya Kekaisaran Baru di India)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">Lahirnya Daulah Mughal tidak terlepas dari kegigihan dan ambisi militer <strong>Zahiruddin Muhammad Babur</strong>. Setelah melakukan misi perluasan wilayah dari Samarkand hingga menguasai Kabul (Afghanistan), Babur memimpin pasukannya menyeberang ke India utara. Melalui pertempuran taktis yang cerdas, Babur berhasil menaklukkan wilayah Delhi pada tahun <strong>1526 M</strong>, yang menjadi tonggak awal berdirinya Daulah Mughal.</p>
+    </div>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Jalannya Peristiwa (Puncak Kemakmuran dan Toleransi Sosial)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">Pasca-meninggalnya Babur, sang putra, Nashiruddin Humayun, sempat menghadapi masa sulit akibat pemberontakan dalam negeri hingga terpaksa mengasingkan diri ke Persia. Namun, dengan semangat gigih pantang menyerah, ia berhasil mengonsolidasikan kembali pasukannya untuk merebut kembali takhta Delhi pada tahun 1555 M.</p>
+        <p class="text-sm text-on-surface-variant leading-relaxed mt-2">Puncak kejayaan diraih berkat reformasi yang dijalankan oleh <strong>Jalaluddin Muhammad Akbar</strong>. Akbar menerapkan kebijakan politik yang sangat adil dan universal, di mana setiap warga negara diberikan hak yang setara tanpa membeda-bedakan latar belakang agama, ras, maupun golongan suku. Kemakmuran ekonomi melimpah ruah pada era <strong>Sultan Shah Jahan</strong>, di mana kekayaan negara dialokasikan untuk pembangunan fisik karya arsitektur spektakuler dunia. Di samping itu, <strong>Sultan Aurangzeb</strong> mengembalikan penerapan syariat Islam secara murni melalui kodifikasi hukum demi menjaga keadilan sosial di tengah-tengah masyarakat.</p>
+    </div>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Akhir Peristiwa (Kemunduran dan Penaklukan Asing)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">Sesaat setelah Sultan Aurangzeb wafat pada tahun 1707 M, Daulah Mughal perlahan-lahan mulai memasuki masa kemunduran. Perebutan takhta di antara anak-anak kaisar memicu terjadinya perang saudara dan kekisruhan politik internal yang berkepanjangan. Lemahnya kemampuan dan kompetensi kaisar-kaisar pengganti menyebabkan banyak wilayah bagian melepaskan diri dan mendeklarasikan kemerdekaannya.</p>
+        <p class="text-sm text-on-surface-variant leading-relaxed mt-2">Kondisi ketahanan dalam negeri yang rapuh ini dimanfaatkan secara cerdik oleh kongsi dagang <strong>Inggris</strong> yang ingin menguasai tanah India. Puncaknya pada tahun <strong>1857 M</strong>, Inggris secara sepihak menggulingkan dan mengasingkan kaisar terakhir Bahadur Syah II ke Burma, yang secara resmi menyudahi riwayat kebesaran Daulah Mughal di India.</p>
+    </div>
+</div>
+
+<!-- Bagian 5: Hikmah -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">5. Hikmah dan Pelajaran</h3>
+<div class="bg-surface-container-low p-6 rounded-[2rem] border-l-8 border-secondary shadow-sm mb-12">
+    <ul class="text-sm text-on-surface-variant list-none space-y-4">
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">account_balance</span>
+            <div><strong>Pentingnya Manajemen Pemerintahan yang Disiplin:</strong> Daulah Mughal menerapkan konsep birokrasi semi-militer, di mana para pejabat daerah dirotasi secara berkala untuk mencegah penyelewengan kekuasaan dan melatih kedisiplinan yang tinggi.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">handshake</span>
+            <div><strong>Keadilan Sosial Tanpa Diskriminasi SARA:</strong> Sikap toleransi dan pengakuan hak yang sama bagi seluruh pemeluk agama di India (Islam, Hindu, Sikh) terbukti melahirkan harmoni sosial yang kokoh.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">menu_book</span>
+            <div><strong>Sinergi antara Ilmu Pengetahuan dan Dukungan Negara:</strong> Dukungan finansial penuh dari para sultan terhadap pembangunan perpustakaan, masjid, dan lembaga pendidikan tinggi (madrasah) berhasil menarik minat para penuntut ilmu internasional untuk belajar di India.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">hiking</span>
+            <div><strong>Mengubah Kegagalan Menjadi Harapan:</strong> Kisah perjuangan Humayun mengajarkan generasi muda untuk tidak mudah putus asa saat menghadapi kegagalan, melainkan segera bangkit, mencari solusi yang kreatif, dan terus berdoa.</div>
+        </li>
+    </ul>
+</div>
+
+<!-- Bagian 6: Fakta Cepat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">6. Fakta Cepat (Quick Facts)</h3>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <p class="text-xs text-on-surface-variant">Rentang Kekuasaan</p>
+        <p class="font-bold text-lg text-primary">&#xB1;331 tahun</p>
+        <p class="text-[10px] text-on-surface-variant">1526&#x2013;1857 M</p>
+    </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <p class="text-xs text-on-surface-variant">Ibu Kota Pemerintahan</p>
+        <p class="font-bold text-lg text-secondary">Delhi, India</p>
+        <p class="text-[10px] text-on-surface-variant">Pusat kekuasaan Mughal</p>
+    </div>
+    <div class="bg-tertiary/5 p-4 rounded-2xl text-center border border-tertiary/20">
+        <p class="text-xs text-on-surface-variant">Mahakarya Terbesar</p>
+        <p class="font-bold text-lg text-tertiary">Taj Mahal</p>
+        <p class="text-[10px] text-on-surface-variant">Karya Shah Jahan</p>
+    </div>
+    <div class="bg-error/5 p-4 rounded-2xl text-center border border-error/20">
+        <p class="text-xs text-on-surface-variant">Kodifikasi Hukum</p>
+        <p class="font-bold text-lg text-error">Fatwa Alamgiri</p>
+        <p class="text-[10px] text-on-surface-variant">Era Aurangzeb</p>
+    </div>
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <p class="text-xs text-on-surface-variant">Pendiri Dinasti</p>
+        <p class="font-bold text-lg text-primary">Babur</p>
+        <p class="text-[10px] text-on-surface-variant">Keturunan Timur Lenk</p>
+    </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <p class="text-xs text-on-surface-variant">Penyebab Keruntuhan</p>
+        <p class="font-bold text-lg text-secondary">Kolonial Inggris</p>
+        <p class="text-[10px] text-on-surface-variant">1857 M</p>
+    </div>
+</div>
+
+<!-- Bagian 7: Istilah Kunci -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Makna Singkat</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Taj Mahal</td><td class="p-3">Monumen makam indah di Agra yang menjadi simbol keabadian cinta sekaligus puncak kejayaan seni arsitektur Mughal.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Fatwa Alamgiri</td><td class="p-3">Kitab kodifikasi risalah hukum Islam terlengkap yang dijadikan rujukan peradilan pada masa Aurangzeb.</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Moghul</td><td class="p-3">Sebutan bahasa India untuk bangsa Mongol, yang merujuk pada asal-usul nasab keturunan pendiri dinasti.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Tzuk-i-Jahangiri</td><td class="p-3">Kitab karya sastra biografi resmi yang ditulis langsung oleh Sultan Jahangir.</td></tr>
+            <tr><td class="p-3 font-semibold">Patchah Nama</td><td class="p-3">Karya sastra biografi resmi yang menceritakan sejarah kehidupan dan kepemimpinan Sultan Shah Jahan.</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 8: Daftar Cendekiawan -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">8. Daftar Cendekiawan &amp; Karya Sastra Masa Daulah Mughal</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-primary/10">
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">No</th>
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Nama Ilmuwan / Cendekiawan</th>
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Bidang Kontribusi</th>
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Bukti Karya / Jasa Monumental</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3">1</td><td class="p-3 font-semibold">Sultan Jahangir</td><td class="p-3">Sastra &amp; Otobiografi</td><td class="p-3"><em>Tzuk-i-Jahangiri</em> (Buku catatan biografi pribadinya).</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3">2</td><td class="p-3 font-semibold">Abdul Hamid Lahori</td><td class="p-3">Sejarah &amp; Biografi</td><td class="p-3"><em>Patchah Nama</em> (Kitab sejarah biografi resmi era Sultan Shah Jahan).</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3">3</td><td class="p-3 font-semibold">Abu&#39;l-Fazl ibn Mubarak</td><td class="p-3">Sejarah &amp; Politik</td><td class="p-3"><em>Akbarnama</em> (Kitab sejarah tiga volume tentang pemerintahan Sultan Akbar).</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3">4</td><td class="p-3 font-semibold">Syeikh Ahmad Sirhindi</td><td class="p-3">Teologi &amp; Pembaruan Islam</td><td class="p-3">Menulis berbagai risalah pemikiran untuk memurnikan akidah Islam dari pengaruh sinkretisme di India.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+        `
     }
+
 ];
