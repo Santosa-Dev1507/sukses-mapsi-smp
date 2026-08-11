@@ -12,113 +12,148 @@ const materiData = [
         "konten": `
 
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Teman-teman, dalam hidup ini kita butuh banget yang namanya panduan agar tidak salah arah. Nah, sebagai seorang muslim, Allah Swt. sudah memberikan kita dua "Buku Panduan" utama, yaitu <strong>Al-Qur'an</strong> dan <strong>Sunah (Hadis)</strong>.
+    Berikut adalah materi pembelajaran lengkap dan terstruktur mengenai <strong>Keimanan</strong> berdasarkan <strong>Q.S. Al-Baqarah/2: 285</strong> dan <strong>Q.S. An-Nisa/4: 150-151</strong>, Hadis terkait, serta panduan hukum tajwid <strong>Al-Qamariyah</strong> dan <strong>Al-Syamsiyah</strong>.
 </p>
 
-<!-- 1. Definisi -->
-<div class="grid md:grid-cols-2 gap-6 mb-12">
-    <div class="bg-surface-container-low p-8 rounded-[2rem] border-t-4 border-primary shadow-sm hover:shadow-lg transition-all">
-        <h4 class="font-bold text-xl mb-4 text-primary flex items-center"><span class="material-symbols-outlined mr-2">menu_book</span> Al-Qur'an</h4>
-        <p class="text-sm text-on-surface-variant leading-relaxed">
-            Wahyu mutlak riwayat malaikat Jibril kepada Nabi Muhammad saw. Berisi petunjuk universal, penjelas, dan pembeda yang benar dan yang salah. Membacanya saja bernilai ibadah yang membuahkan pahala. Ini adalah pedoman #1 kita.
-        </p>
+<!-- Bagian 1: Q.S. Al-Baqarah Ayat 285 -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Q.S. Al-Baqarah Ayat 285 (Keimanan yang Menyeluruh)</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
+    <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-BAQARAH: 285</span>
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+آمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ ۚ وَقَالُوا سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ
     </div>
-    <div class="bg-surface-container-low p-8 rounded-[2rem] border-t-4 border-secondary shadow-sm hover:shadow-lg transition-all">
-        <h4 class="font-bold text-xl mb-4 text-secondary flex items-center"><span class="material-symbols-outlined mr-2">record_voice_over</span> Sunah (Hadis)</h4>
-        <p class="text-sm text-on-surface-variant leading-relaxed">
-            Segala perilaku otentik dari Nabi Muhammad saw., baik berupa perkataan (Qaul), perbuatan (Fi'il), maupun ketetapan persetujuannya (Taqrir). Ini adalah sumber hukum #2 setelah Al-Qur'an.
-        </p>
-    </div>
+    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+        "Rasul (Muhammad) telah beriman kepada apa yang diturunkan kepadanya (Al-Qur'an) dari Tuhannya, demikian pula orang-orang yang beriman. Semua beriman kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya, dan rasul-rasul-Nya. (Mereka berkata), 'Kami tidak membeda-bedakan seorang pun dari rasul-rasul-Nya.' Dan mereka berkata, 'Kami dengar dan kami taat.' (Mereka berdoa), 'Ampunilah kami, ya Tuhan kami, dan kepada-Mu tempat kembali.'"
+    </p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-2xl border-l-4 border-primary mb-12">
+    <h4 class="font-bold text-lg mb-2 text-primary">Analisis & Isi Kandungan</h4>
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        Ayat ini menegaskan karakteristik utama keimanan seorang mukmin sejati, yaitu meyakini semua rukun iman tanpa memilah-milah. Mukmin tidak boleh membeda-bedakan antara satu rasul dengan rasul lainnya. Sikap patuh mutlak ditunjukkan dengan ikrar <em>"Sami'na wa atha'na"</em> (Kami dengar dan kami taat) serta diiringi permohonan ampunan kepada Allah Swt..
+    </p>
 </div>
 
-<!-- 2. Fungsi Hadis terhadap Al-Qur'an -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4 Fungsi Penjelasan Hadis</h3>
-<p class="text-sm text-on-surface-variant mb-8 max-w-3xl">Al-Qur'an berisi pesan yang sangat universal (umum). Maka, Hadislah yang datang sebagai "Buku Manual Detail"-nya dengan 4 kegunaan utama:</p>
-
-<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
-    <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
-        <span class="bg-primary/10 text-primary text-xs font-bold px-3 py-1.5 rounded-lg inline-block mb-3">Bayan at-Taqrir</span>
-        <h5 class="font-bold text-md mb-2">Memperkuat</h5>
-        <p class="text-xs text-on-surface-variant leading-relaxed">Menegaskan kembali suatu hukum yang sebenarnya sudah ada sangat jelas di dalam Al-Qur'an.</p>
+<!-- Bagian 2: Q.S. An-Nisa Ayat 150-151 -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Q.S. An-Nisa Ayat 150-151 (Kecaman terhadap Kafir Sejati)</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
+    <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AN-NISA: 150-151</span>
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+إِنَّ الَّذِينَ يَكْفُرُونَ بِاللَّهِ وَرُسُلِهِ وَيُرِيدُونَ أَنْ يُفَرِّقُوا بَيْنَ اللَّهِ وَرُسُلِهِ وَيَقُولُونَ نُؤْمِنُ بِبَعْضٍ وَنَكْفُرُ بِبَعْضٍ وَيُرِيدُونَ أَنْ يَتَّخِذُوا بَيْنَ ذَٰلِكَ سَبِيلًا (١٥٠) أُولَٰئِكَ هُمُ الْكَافِرُونَ حَقًّا ۚ وَأَعْتَدْنَا لِلْكَافِرِينَ عَذَابًا مُهِينًا (١٥١)
     </div>
-    <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
-        <span class="bg-secondary/10 text-secondary text-xs font-bold px-3 py-1.5 rounded-lg inline-block mb-3">Bayan at-Tafsir</span>
-        <h5 class="font-bold text-md mb-2">Menjelaskan Detail</h5>
-        <p class="text-xs text-on-surface-variant leading-relaxed">Memberikan rincian teknis pada ayat yang masih umum. (Contoh: Al-Qur'an menyuruh salat, sementara Hadis mengajarkan teknis gerakannya).</p>
-    </div>
-    <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
-        <span class="bg-tertiary/10 text-tertiary text-xs font-bold px-3 py-1.5 rounded-lg inline-block mb-3">Bayan at-Tasyri'</span>
-        <h5 class="font-bold text-md mb-2">Menetapkan Hukum Baru</h5>
-        <p class="text-xs text-on-surface-variant leading-relaxed">Menyusun regulasi hukum baru yang belum dibahas spesifik sama sekali di Al-Qur'an. (Contoh: wajibnya Zakat Fitrah).</p>
-    </div>
-    <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
-        <span class="bg-error/10 text-error text-xs font-bold px-3 py-1.5 rounded-lg inline-block mb-3">Bayan an-Nasakh</span>
-        <h5 class="font-bold text-md mb-2">Merevisi / Menghapus</h5>
-        <p class="text-xs text-on-surface-variant leading-relaxed">Mengganti atau membatalkan ketentuan syariat lama dengan syariat baru yang terbukti lebih relevan dan membawa kebaikan.</p>
-    </div>
+    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+        (150) "Sesungguhnya orang-orang yang kafir kepada Allah dan rasul-rasul-Nya, dan bermaksud membedakan antara Allah dan rasul-rasul-Nya (dalam hal keimanan), dengan mengatakan, 'Kami beriman kepada sebagian dan kami kafir terhadap sebagian (yang lain),' serta bermaksud mengambil jalan tengah di antara itu (iman atau kafir),"<br><br>
+        (151) "merekalah orang-orang kafir yang sebenarnya. Dan Kami telah menyediakan untuk orang-orang kafir itu azab yang menghinakan."
+    </p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-2xl border-l-4 border-secondary mb-12">
+    <h4 class="font-bold text-lg mb-2 text-secondary">Analisis & Isi Kandungan (Asbabun Nuzul)</h4>
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        Ayat ini turun untuk membantah perilaku Ahli Kitab (Yahudi dan Nasrani) yang bersikap diskriminatif dalam beriman. Kaum Yahudi mengimani Nabi Musa tetapi menolak Nabi Isa dan Nabi Muhammad saw., sedangkan kaum Nasrani mengimani Nabi Isa tetapi menolak Nabi Muhammad saw.. Allah Swt. menegaskan bahwa memercayai sebagian rasul dan menolak sebagian lainnya dikategorikan sebagai <strong>"Kafir Sejati" (Al-Kafirun Haqqa)</strong> karena keimanan kepada rasul harus bersifat satu kesatuan utuh.
+    </p>
 </div>
 
-<!-- 3. Tajwid -->
+<!-- Bagian 3: Hadis Terkait Keimanan -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6 flex items-center">
+    <span class="material-symbols-outlined mr-2">menu_book</span> Hadis Terkait Keimanan
+</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-12">
+    <span class="bg-tertiary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">H.R. BUKHARI & MUSLIM</span>
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: الْإِيمَانُ بِضْعٌ وَسِتُّونَ شُعْبَةً، فَأَفْضَلُهَا قَوْلُ لَا إِلَهَ إِلَّا اللَّهُ، وَأَدْنَاهَا إِمَاطَةُ الْأَذَى عَنِ الطَّرِيقِ، وَالْحَيَاءُ شُعْبَةٌ مِنَ الْإِيمَانِ
+    </div>
+    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+        "Dari Abu Hurairah r.a. ia berkata, Rasulullah saw. bersabda: 'Iman itu memiliki enam puluh lebih cabang. Yang paling utama adalah ucapan Laa ilaha illallah (Tiada Tuhan selain Allah), dan yang paling rendah adalah menyingkirkan gangguan dari jalan. Dan sifat malu adalah bagian dari cabang keimanan.'"
+    </p>
+</div>
+
+<!-- Bagian 4: Materi Tajwid -->
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 flex items-center">
     <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
         <span class="material-symbols-outlined text-[24px]">spellcheck</span>
     </span>
-    Ilmu Tajwid: Alif Lam (ال)
+    Materi Tajwid — Al-Qamariyah dan Al-Syamsiyah
 </h3>
-<div class="flex flex-col md:flex-row gap-6 mb-16">
-    <div class="bg-surface-container-low p-8 rounded-3xl flex-1 border-l-8 border-primary relative overflow-hidden">
-        <span class="material-symbols-outlined absolute -top-4 -right-4 text-9xl text-primary/5">light_mode</span>
-        <h4 class="font-bold text-xl mb-3 text-primary">Alif Lam Syamsiyyah ☀️</h4>
-        <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
-            Huruf "Al"-nya <strong>TIDAK DIBACA</strong>, suaranya di-Idgham-kan atau dilebur masuk menabrak tajam huruf setelahnya. Ciri utamanya: huruf persis setelah "Al" memiliki tanda tasydid (ّ).
-        </p>
-        <div class="text-xs font-quran bg-white p-3 rounded-lg max-w-max border border-outline-variant/20 shadow-sm relative z-10">
-            Ada 14 Huruf: ت ث د ذ ر ز س ش ص ض ط ظ ل ن
-        </div>
-    </div>
+<p class="text-sm text-on-surface-variant mb-6">Kedua hukum tajwid ini terjadi apabila <strong>Alif Lam (ال)</strong> masuk ke dalam kata benda (isim) dalam bahasa Arab.</p>
+
+<div class="flex flex-col md:flex-row gap-6 mb-8">
+    <!-- Al-Qamariyah -->
     <div class="bg-surface-container-low p-8 rounded-3xl flex-1 border-l-8 border-secondary relative overflow-hidden">
         <span class="material-symbols-outlined absolute -top-4 -right-4 text-9xl text-secondary/5">dark_mode</span>
-        <h4 class="font-bold text-xl mb-3 text-secondary">Alif Lam Qamariyyah 🌑</h4>
+        <h4 class="font-bold text-xl mb-3 text-secondary">Alif Lam Qamariyah (إِظْهَار قَمَرِيَّه) 🌑</h4>
         <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
-            Huruf "Al"-nya <strong>DIBACA JELAS</strong> (Izhar) alias mati, tidak melebur sama sekali ke dalam huruf setelahnya. Bunyi "L" terdengar nyaring.
+            Dibaca secara <strong>jelas</strong> (izhār), suara huruf lam (L) terdengar terang dan tidak melebur ke huruf berikutnya. Biasanya ditandai dengan harakat <strong>sukun (ْ)</strong> di atas huruf lam.
         </p>
-        <div class="text-xs font-quran bg-white p-3 rounded-lg max-w-max border border-outline-variant/20 shadow-sm relative z-10">
-            Ada 14 Huruf: ا ب غ ح ج ك و خ ف ع ق ي م ه
+        <div class="mb-4">
+            <h5 class="text-xs font-bold text-on-surface uppercase tracking-wider mb-2">Huruf-Huruf (14 Huruf):</h5>
+            <div class="text-lg font-quran bg-white p-3 rounded-lg border border-outline-variant/20 shadow-sm relative z-10 text-right" dir="rtl">
+                ا - ب - غ - ح - ج - ك - و - خ - ف - ع - ق - ي - م - هـ
+            </div>
+            <p class="text-xs text-on-surface-variant mt-2 italic">(Cara mudah menghafalnya: اَبْغِ حَجَّكَ وَخَفْ عَقِيْمَةَ)</p>
+        </div>
+        <div>
+            <h5 class="text-xs font-bold text-on-surface uppercase tracking-wider mb-2">Contoh di Q.S. Al-Baqarah 285 & An-Nisa 151:</h5>
+            <ul class="text-sm text-on-surface-variant space-y-2">
+                <li><span class="font-quran text-lg mr-2" dir="rtl">وَالْمُؤْمِنُونَ</span> <em>(wal-mu'minūna)</em>: Alif lam bertemu <strong>Mim (م)</strong>.</li>
+                <li><span class="font-quran text-lg mr-2" dir="rtl">الْمَصِيرُ</span> <em>(al-maṣīru)</em>: Alif lam bertemu <strong>Mim (م)</strong>.</li>
+                <li><span class="font-quran text-lg mr-2" dir="rtl">الْكَافِرُونَ</span> <em>(al-kāfirūna)</em>: Alif lam bertemu <strong>Kaf (ك)</strong>.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Al-Syamsiyah -->
+    <div class="bg-surface-container-low p-8 rounded-3xl flex-1 border-l-8 border-primary relative overflow-hidden">
+        <span class="material-symbols-outlined absolute -top-4 -right-4 text-9xl text-primary/5">light_mode</span>
+        <h4 class="font-bold text-xl mb-3 text-primary">Alif Lam Syamsiyah (إِدْغَام شَمْسِيَّه) ☀️</h4>
+        <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
+            Dibaca secara <strong>samar/melebur</strong> (idghām), suara huruf lam dileburkan langsung masuk ke huruf berikutnya. Ditandai dengan <strong>tanpa sukun</strong> pada lam, dan huruf setelahnya memiliki harakat <strong>tasydid (ّ)</strong>.
+        </p>
+        <div class="mb-4">
+            <h5 class="text-xs font-bold text-on-surface uppercase tracking-wider mb-2">Huruf-Huruf (14 Huruf):</h5>
+            <div class="text-lg font-quran bg-white p-3 rounded-lg border border-outline-variant/20 shadow-sm relative z-10 text-right" dir="rtl">
+                ت - ث - د - ذ - ر - ز - س - ش - ص - ض - ط - ظ - ل - ن
+            </div>
+            <p class="text-xs text-on-surface-variant mt-2 italic">(Dapat diingat awal bait: طِبْ ثُمَّ صِلْ رَحْمًا تَفُزْ ضِفْ ذَا نِعَمْ...)</p>
+        </div>
+        <div>
+            <h5 class="text-xs font-bold text-on-surface uppercase tracking-wider mb-2">Contoh di Q.S. Al-Baqarah 285 & An-Nisa 150:</h5>
+            <ul class="text-sm text-on-surface-variant space-y-2">
+                <li><span class="font-quran text-lg mr-2" dir="rtl">الرَّسُولُ</span> <em>(ar-rasūlu)</em>: Alif lam bertemu <strong>Ra (ر)</strong>.</li>
+                <li><span class="font-quran text-lg mr-2" dir="rtl">الَّذِينَ</span> <em>(al-lażīna)</em>: Alif lam bertemu <strong>Lam (ل)</strong>.</li>
+                <li><span class="font-quran text-lg mr-2" dir="rtl">بِاللَّهِ</span> <em>(billāhi)</em>: Alif lam bertemu <strong>Lam (ل)</strong>.</li>
+            </ul>
         </div>
     </div>
 </div>
 
-<!-- 4. Dalil -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 text-center">Dalil Induk Sikap Taat Mutlak</h3>
-<div class="grid md:grid-cols-2 gap-8 mb-16">
-    <!-- Nisa 59 -->
-    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
-        <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AN-NISA: 59</span>
-        <div class="text-right font-quran text-2xl leading-loose mb-6 text-on-surface" dir="rtl">يَأَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُوْلَ وَأُولِي الْأَمْرِ مِنْكُمْ...</div>
-        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4">
-            "Wahai orang-orang yang beriman! Taatilah Allah dan taatilah Rasul, dan Ulil Amri (Pemimpin) di antara kamu. Jika ada beda pendapat, kembalikan pada Al-Qur'an & Sunah..."
-        </p>
-    </div>
-    <!-- Nahl 64 -->
-    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
-        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AN-NAHL: 64</span>
-        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">وَمَا أَنْزَلْنَا عَلَيْكَ الْكِتَبَ إِلَّا لِتُبَيِّنَ لَهُمُ الَّذِي اخْتَلَفُوْا فِيْهِ وَهُدًى وَرَحْمَةً...</div>
-        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4">
-            "Dan Kami tidak menurunkan Kitab ini kepadamu (Muhammad), melainkan agar engkau dapat menjelaskan kepada mereka apa yang mereka perselisihkan, serta jadi petunjuk & rahmat..."
-        </p>
-    </div>
-</div>
-
-<!-- 5. Resolusi -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 rounded-[3rem] text-white shadow-xl text-center">
-    <h4 class="text-2xl font-headline font-bold mb-4">Aksi Nyata Anak SMP Keren!</h4>
-    <p class="text-[15px] opacity-90 max-w-2xl mx-auto mb-8 font-medium">Buktikan bahwa kita bisa memegang kemudi era digital dengan mematuhi hal-hal ini:</p>
-    <div class="flex flex-wrap justify-center gap-3">
-        <span class="px-5 py-2.5 bg-white/10 backdrop-blur-sm border border-white/30 rounded-xl text-sm font-bold flex items-center shadow-sm"><span class="material-symbols-outlined text-[18px] mr-2">auto_stories</span> Rutin Tilawah & Pahami Arti</span>
-        <span class="px-5 py-2.5 bg-white/10 backdrop-blur-sm border border-white/30 rounded-xl text-sm font-bold flex items-center shadow-sm"><span class="material-symbols-outlined text-[18px] mr-2">menu_book</span> Sempatkan Baca Buku Hadis</span>
-        <span class="px-5 py-2.5 bg-white/10 backdrop-blur-sm border border-white/30 rounded-xl text-sm font-bold flex items-center shadow-sm"><span class="material-symbols-outlined text-[18px] mr-2">help_center</span> Bertanya Aktif ke Guru Agama</span>
-        <span class="px-5 py-2.5 bg-white/10 backdrop-blur-sm border border-white/30 rounded-xl text-sm font-bold flex items-center shadow-sm"><span class="material-symbols-outlined text-[18px] mr-2">diversity_1</span> Taati Pemimpin yang Adil Mutlak</span>
-    </div>
+<!-- Rangkuman Perbedaan -->
+<h4 class="font-bold text-lg mb-4 text-on-surface mt-8">Rangkuman Perbedaan Singkat</h4>
+<div class="overflow-x-auto rounded-xl border border-outline-variant/20 mb-8">
+    <table class="w-full text-left border-collapse text-sm">
+        <thead>
+            <tr class="bg-surface-container-low text-on-surface">
+                <th class="p-4 font-bold border-b border-outline-variant/20">Karakteristik</th>
+                <th class="p-4 font-bold border-b border-outline-variant/20 text-secondary">Al-Qamariyah</th>
+                <th class="p-4 font-bold border-b border-outline-variant/20 text-primary">Al-Syamsiyah</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-4 font-medium">Cara Baca Lam</td>
+                <td class="p-4">Jelas (Izhār)</td>
+                <td class="p-4">Lebur (Idghām)</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-4 font-medium">Tanda Baca</td>
+                <td class="p-4">Ada sukun di atas Lam</td>
+                <td class="p-4">Tasydid setelah Alif Lam</td>
+            </tr>
+            <tr>
+                <td class="p-4 font-medium">Contoh Suara</td>
+                <td class="p-4 italic">Al-Qamar</td>
+                <td class="p-4 italic">Asy-Syams</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
         `
