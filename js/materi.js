@@ -794,6 +794,7 @@ const materiData = [
 </div>
 
         `
+    }, {
         "id": "kls7-smtgenap-bab2",
         "kelas": 7,
         "semester": "Genap",
