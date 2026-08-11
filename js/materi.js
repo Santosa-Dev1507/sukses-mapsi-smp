@@ -853,7 +853,115 @@ const materiData = [
     </table>
 </div>
 
-        `
+        
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">8. Daftar Cendekiawan & Ilmuwan Masa Daulah Bani Umayyah</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-left border-collapse">
+        <thead>
+            <tr class="bg-primary text-on-primary">
+                <th class="p-4 border-b border-primary/20">No</th>
+                <th class="p-4 border-b border-primary/20">Nama Ilmuwan</th>
+                <th class="p-4 border-b border-primary/20">Bidang Keahlian</th>
+                <th class="p-4 border-b border-primary/20">Karya / Jasa Monumental</th>
+                <th class="p-4 border-b border-primary/20">Inspirasi / Fakta Menarik</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">1</td>
+                <td class="p-4 border-b border-outline-variant/30">**Khālid bin Yazīd**</td>
+                <td class="p-4 border-b border-outline-variant/30">Astrologi, Kimia, & Kedokteran</td>
+                <td class="p-4 border-b border-outline-variant/30">Menerjemahkan buku sains kuno dari bahasa Yunani dan Koptik.</td>
+                <td class="p-4 border-b border-outline-variant/30">**Pionir gerakan penerjemahan sains** pertama di dunia Islam.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">2</td>
+                <td class="p-4 border-b border-outline-variant/30">**Abu al-Qāsim al-Zahrawi**</td>
+                <td class="p-4 border-b border-outline-variant/30">Kedokteran & Bedah</td>
+                <td class="p-4 border-b border-outline-variant/30">*Al-Tasrif* (peletak dasar-dasar ilmu bedah modern).</td>
+                <td class="p-4 border-b border-outline-variant/30">Ahli bedah terkemuka, perintis ilmu penyakit telinga dan kulit.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">3</td>
+                <td class="p-4 border-b border-outline-variant/30">**‘Abbās ibn Farnās**</td>
+                <td class="p-4 border-b border-outline-variant/30">Sains, Kimia, & Penerbangan</td>
+                <td class="p-4 border-b border-outline-variant/30">Menemukan formula **pembuatan kaca dari batu**.</td>
+                <td class="p-4 border-b border-outline-variant/30">**Manusia pertama di dunia** yang melakukan eksperimen terbang manual.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">4</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ibn Bājah**</td>
+                <td class="p-4 border-b border-outline-variant/30">Filsafat Arab-Spanyol</td>
+                <td class="p-4 border-b border-outline-variant/30">*Tadbīr al-Mutawahhidīn*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Tokoh utama filsafat Islam di Spanyol Barat.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">5</td>
+                <td class="p-4 border-b border-outline-variant/30">**Abu Bakr ibn Tufail**</td>
+                <td class="p-4 border-b border-outline-variant/30">Filsafat, Astronomi, & Kedokteran</td>
+                <td class="p-4 border-b border-outline-variant/30">*Hayy ibn Yaqzān*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Menulis novel filsafat alegoris yang sangat terkenal di dunia Barat.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">6</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ibnu Rusyd (Averroes)**</td>
+                <td class="p-4 border-b border-outline-variant/30">Filsafat, Kedokteran, & Hukum</td>
+                <td class="p-4 border-b border-outline-variant/30">*Kulliyat fi al-Tibb* dan *Tahafut al-Tahafut*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Ahli filsafat agung pengikut mazhab Aristoteles.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">7</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ibrāhîm ibn Yahyā al-Naqqās (Al-Zarqali)**</td>
+                <td class="p-4 border-b border-outline-variant/30">Astronomi</td>
+                <td class="p-4 border-b border-outline-variant/30">Merancang tabel astronomi Toledan.</td>
+                <td class="p-4 border-b border-outline-variant/30">Mampu menentukan waktu **gerhana matahari** dan membuat teropong bintang.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">8</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ahmad ibn Ibas**</td>
+                <td class="p-4 border-b border-outline-variant/30">Farmasi & Obat-obatan</td>
+                <td class="p-4 border-b border-outline-variant/30">Menemukan berbagai obat herba dari Cordova.</td>
+                <td class="p-4 border-b border-outline-variant/30">Ilmuwan perintis obat-obatan di Andalusia.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">9</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ibn Jubair**</td>
+                <td class="p-4 border-b border-outline-variant/30">Geografi & Catatan Sejarah</td>
+                <td class="p-4 border-b border-outline-variant/30">Buku catatan perjalanan negeri Mediterania dan Sicilia.</td>
+                <td class="p-4 border-b border-outline-variant/30">Penjelajah tangguh dari wilayah Valencia.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">10</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ibn Batūtah**</td>
+                <td class="p-4 border-b border-outline-variant/30">Sejarah & Geografi</td>
+                <td class="p-4 border-b border-outline-variant/30">Catatan perjalanan dunia Islam.</td>
+                <td class="p-4 border-b border-outline-variant/30">Melakukan pengembaraan legendaris hingga mencapai **Samudera Pasai dan Cina**.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">11</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ibn Khaldūn**</td>
+                <td class="p-4 border-b border-outline-variant/30">Sejarah & Sosiologi</td>
+                <td class="p-4 border-b border-outline-variant/30">*Muqaddimah* (peletak dasar filsafat sejarah & sosiologi).</td>
+                <td class="p-4 border-b border-outline-variant/30">Dikenal luas di seluruh dunia sebagai **Bapak Sosiologi Modern**.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">12</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ibn Mālik**</td>
+                <td class="p-4 border-b border-outline-variant/30">Sastra & Bahasa Arab</td>
+                <td class="p-4 border-b border-outline-variant/30">*Kitab Alfiyyah Ibn Mālik*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Kitab nahwu-sharaf terpopuler berbentuk 1.000 bait syair.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">13</td>
+                <td class="p-4 border-b border-outline-variant/30">**Al-Hasan ibn Nāfî (Ziryāb)**</td>
+                <td class="p-4 border-b border-outline-variant/30">Seni Musik</td>
+                <td class="p-4 border-b border-outline-variant/30">Memperkenalkan teori vokal dan alat musik kecapi.</td>
+                <td class="p-4 border-b border-outline-variant/30">Maestro musik legendaris istana Cordova.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+`
     }, {
         "id": "kls7-smtgenap-bab1",
         "kelas": 7,
@@ -1835,7 +1943,122 @@ const materiData = [
     </table>
 </div>
 
-        `
+        
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">8. Daftar Cendekiawan & Ilmuwan Masa Daulah Bani Abbasiyah</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-left border-collapse">
+        <thead>
+            <tr class="bg-primary text-on-primary">
+                <th class="p-4 border-b border-primary/20">No</th>
+                <th class="p-4 border-b border-primary/20">Nama Ilmuwan</th>
+                <th class="p-4 border-b border-primary/20">Bidang Keahlian</th>
+                <th class="p-4 border-b border-primary/20">Karya / Jasa Monumental</th>
+                <th class="p-4 border-b border-primary/20">Inspirasi / Fakta Menarik</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">1</td>
+                <td class="p-4 border-b border-outline-variant/30">**Al-Khawarizmi**</td>
+                <td class="p-4 border-b border-outline-variant/30">Matematika & Astronomi</td>
+                <td class="p-4 border-b border-outline-variant/30">*Al-Kitab al-mukhtasar fi hisab al-jabr wa'l-muqabala*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Penemu konsep **Aljabar dan Algoritma** yang menjadi motor komputasi modern.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">2</td>
+                <td class="p-4 border-b border-outline-variant/30">**Jabir Ibnu Hayyan**</td>
+                <td class="p-4 border-b border-outline-variant/30">Kimia, Fisika, & Farmasi</td>
+                <td class="p-4 border-b border-outline-variant/30">*Al-Kimya*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Dikenal di dunia Barat sebagai **Bapak Kimia Modern**.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">3</td>
+                <td class="p-4 border-b border-outline-variant/30">**Al-Kindi**</td>
+                <td class="p-4 border-b border-outline-variant/30">Filsafat, Musik, & Optik</td>
+                <td class="p-4 border-b border-outline-variant/30">Menulis lebih dari 270 buku kajian ilmiah.</td>
+                <td class="p-4 border-b border-outline-variant/30">**Filosof muslim pertama** yang mengenalkan filsafat Yunani ke dunia Islam.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">4</td>
+                <td class="p-4 border-b border-outline-variant/30">**Al-Farabi**</td>
+                <td class="p-4 border-b border-outline-variant/30">Logika & Filsafat</td>
+                <td class="p-4 border-b border-outline-variant/30">Menulis lebih dari 100 buku ulasan logika.</td>
+                <td class="p-4 border-b border-outline-variant/30">Dijuluki sebagai **"Guru Kedua" (*Al-Mu'allim al-Tsani*)** setelah Aristoteles.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">5</td>
+                <td class="p-4 border-b border-outline-variant/30">**Al-Biruni**</td>
+                <td class="p-4 border-b border-outline-variant/30">Astronomi, Fisika, & Geodesi</td>
+                <td class="p-4 border-b border-outline-variant/30">*Al-Qānūn al-Mas'ūdi fi al-Hay'ah w-al-Nujūm*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Perintis metode ilmiah modern dan dijuluki **Bapak Geodesi Dunia**.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">6</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ibnu Sina (Avicenna)**</td>
+                <td class="p-4 border-b border-outline-variant/30">Kedokteran & Filsafat</td>
+                <td class="p-4 border-b border-outline-variant/30">*Al-Qānūn fi al-Tibb* (The Canon of Medicine).</td>
+                <td class="p-4 border-b border-outline-variant/30">**Bapak Kedokteran Modern**; bukunya menjadi kitab wajib universitas Eropa selama berabad-abad.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">7</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ali al-Tabari**</td>
+                <td class="p-4 border-b border-outline-variant/30">Kedokteran & Pediatri</td>
+                <td class="p-4 border-b border-outline-variant/30">*Firdaus al-Hikmah*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Peletak dasar pertama sistem **ilmu kesehatan dan pertumbuhan anak**.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">8</td>
+                <td class="p-4 border-b border-outline-variant/30">**Al-Razi**</td>
+                <td class="p-4 border-b border-outline-variant/30">Kedokteran Klinis</td>
+                <td class="p-4 border-b border-outline-variant/30">*Al-Hawi* (ensiklopedia kedokteran raksasa).</td>
+                <td class="p-4 border-b border-outline-variant/30">Dokter klinis terbesar; potretnya menghiasi aula Fakultas Kedokteran Universitas Paris.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">9</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ali ibn al-Abbas Al-Majusi**</td>
+                <td class="p-4 border-b border-outline-variant/30">Kedokteran</td>
+                <td class="p-4 border-b border-outline-variant/30">*Kamil al-Şināʻah al-Tibbīyah*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Penemu teori konsepsi sistem kapiler darah dan mekanisme kontraksi rahim.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">10</td>
+                <td class="p-4 border-b border-outline-variant/30">**Al-Battani**</td>
+                <td class="p-4 border-b border-outline-variant/30">Astronomi</td>
+                <td class="p-4 border-b border-outline-variant/30">*Kitab al-Zīj*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Penemu perhitungan presisi **jumlah hari dalam setahun** (365 hari, 5 jam, 46 menit, 24 detik).</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">11</td>
+                <td class="p-4 border-b border-outline-variant/30">**Al-Ghazali**</td>
+                <td class="p-4 border-b border-outline-variant/30">Teologi, Tasawuf, & Akhlak</td>
+                <td class="p-4 border-b border-outline-variant/30">*Ihyā' ulūm al-dīn*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Dijuluki *Hujjatul Islam*; peletak dasar-dasar ilmu jiwa/psikologi agama Islam.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">12</td>
+                <td class="p-4 border-b border-outline-variant/30">**Al-Mawardi**</td>
+                <td class="p-4 border-b border-outline-variant/30">Tata Negara & Politik</td>
+                <td class="p-4 border-b border-outline-variant/30">*Al-Ahkam al-Sultāniyyah*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Peletak prinsip-prinsip dasar administrasi negara dan ilmu politik Islam.</td>
+            </tr>
+            <tr class="bg-surface-container-lowest">
+                <td class="p-4 border-b border-outline-variant/30">13</td>
+                <td class="p-4 border-b border-outline-variant/30">**Ibnu Miskawayh**</td>
+                <td class="p-4 border-b border-outline-variant/30">Filsafat Akhlak</td>
+                <td class="p-4 border-b border-outline-variant/30">*Tahzīb al-Akhlaq*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Perumus etika Islam yang dikenal dengan julukan **"Guru Ketiga"**.</td>
+            </tr>
+            <tr class="bg-surface-container-low">
+                <td class="p-4 border-b border-outline-variant/30">14</td>
+                <td class="p-4 border-b border-outline-variant/30">**At-Tabari (Ibnu Jarir)**</td>
+                <td class="p-4 border-b border-outline-variant/30">Tafsir Al-Qur'an & Sejarah</td>
+                <td class="p-4 border-b border-outline-variant/30">*Jami' al-Bayān fī Ta'wil al-Qur'ān*.</td>
+                <td class="p-4 border-b border-outline-variant/30">Pelopor penulisan kitab tafsir Al-Qur'an yang sistematis dan lengkap.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+`
     }, {
         "id": "kls8-smtganjil-bab1",
         "kelas": 8,
