@@ -2949,125 +2949,158 @@ const materiData = [
         "kelas": 9,
         "semester": "Genap",
         "bab": "Bab 1",
-        "judul": "Al-Qur'an Menginspirasi: Menjadi Khalifatullah Fil 'Ard Penebar Kasih Sayang",
-        "waktuBumper": "13 Menit Baca",
+        "judul": "Sabar Menghadapi Musibah dan Ujian",
+        "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab ini mengajarkan tentang peran penting manusia sebagai khalifah Allah di bumi dan bagaimana menjadi penebar kasih sayang sesuai tuntunan mulia dari Al-Qur'an dan Hadis.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Sabar Menghadapi Musibah dan Ujian</strong> berdasarkan <strong>Q.S. al-Baqarah/2: 155-156</strong> dan <strong>Q.S. Ali 'Imran/3: 200</strong>, Hadis terkait, serta panduan hukum tajwid <strong>Mad</strong>.
 </p>
 
-<!-- 1. Hukum Bacaan Mad -->
-<div class="bg-surface-container-low p-8 rounded-[2rem] mb-12 border border-outline-variant/20 shadow-sm relative overflow-hidden">
-    <span class="material-symbols-outlined absolute -bottom-6 -right-6 text-[150px] text-primary/5">menu_book</span>
-    <h3 class="font-headline text-2xl font-bold text-primary mb-6 relative z-10">1. Memahami Hukum Bacaan Mad</h3>
-    <p class="text-on-surface-variant leading-relaxed text-md mb-6 relative z-10">
-        Saat membaca Al-Qur'an, kita diwajibkan untuk membacanya secara tartil sesuai ilmu tajwid. Salah satu pilar tajwid adalah <strong>Mad</strong>, yang secara bahasa berarti memanjangkan bunyi.
+<!-- Bagian 1: Q.S. al-Baqarah -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Q.S. al-Baqarah Ayat 155-156 (Ujian Hidup dan Kalimat Istirja')</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
+    <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-BAQARAH: 155-156</span>
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+وَلَنَبْلُوَنَّكُمْ بِشَيْءٍ مِنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِنَ الْأَمْوَالِ وَالْأَنْفُسِ وَالثَّمَرَاتِ ۗ وَبَشِّرِ الصَّابِرِينَ ١٥٥ الَّذِينَ إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ ١٥٦
+    </div>
+    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+        (155) "Kami pasti akan mengujimu dengan sedikit ketakutan, kelaparan, kekurangan harta, jiwa, dan buah-buahan. Sampaikanlah (wahai Nabi Muhammad) kabar gembira kepada orang-orang yang sabar."<br>
+        (156) "(yaitu) orang-orang yang apabila ditimpa musibah, mereka mengucapkan 'Inna lillāhi wa innā ilaihi rāji'ūn' (sesungguhnya kami adalah milik Allah dan sesungguhnya hanya kepada-Nya kami akan kembali)."
     </p>
-
-    <div class="grid md:grid-cols-2 gap-6 relative z-10">
-        <!-- Mad Tabi'i -->
-        <div class="bg-white p-6 rounded-2xl border border-outline-variant/10 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
-            <h4 class="font-bold text-lg mb-2 text-primary flex items-center">
-                <span class="material-symbols-outlined mr-2">looks_one</span> Mad Tabi'i (Asli)
-            </h4>
-            <p class="text-sm text-on-surface-variant leading-relaxed">
-                Dipanjangkan <strong>dua harakat</strong>. Terjadi jika: <br>
-                • Alif sukun jatuh setelah fathah <br>
-                • Wau sukun jatuh setelah dammah <br>
-                • Ya sukun jatuh setelah kasrah.
-            </p>
-        </div>
-        <!-- Mad Far'i -->
-        <div class="bg-white p-6 rounded-2xl border border-outline-variant/10 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
-            <h4 class="font-bold text-lg mb-2 text-secondary flex items-center">
-                <span class="material-symbols-outlined mr-2">looks_two</span> Mad Far'i (Cabang)
-            </h4>
-            <p class="text-sm text-on-surface-variant leading-relaxed">
-                Adalah Mad Tabi'i yang mendapat tambahan bacaan (seperti bertemu hamzah atau sukun). Contohnya: <em>Mad Wajib Muttasil, Mad Jaiz Munfasil, Mad 'Aridlissukun</em>, dll.
-            </p>
-        </div>
+    <div class="bg-surface-container p-4 rounded-xl">
+        <h4 class="font-bold text-sm text-primary mb-2">Analisis & Isi Kandungan</h4>
+        <ul class="text-sm text-on-surface-variant leading-relaxed list-disc list-inside space-y-2">
+            <li><strong>Keniscayaan Ujian:</strong> Allah Swt. menegaskan bahwa Dia pasti akan menguji setiap hamba-Nya untuk melatih dan menguji kualitas keimanan mereka.</li>
+            <li><strong>Macam-macam Ujian:</strong> Ujian tersebut diklasifikasikan dalam lima hal: ketakutan (<em>al-khauf</em>), kelaparan (<em>al-ju'</em>), kekurangan harta (<em>naqshin minal amwal</em>), kematian/jiwa (<em>al-anfus</em>), dan kegagalan panen/buah-buahan (<em>ats-tsamarat</em>).</li>
+            <li><strong>Sikap Terbaik Menghadapi Musibah:</strong> Seorang muslim sejati harus menyadari bahwa segala sesuatu yang ada di dunia adalah milik Allah Swt. dan pasti kembali kepada-Nya. Ketika ditimpa musibah, mereka segera berpasrah diri dan melafalkan kalimat istirja' (<em>Inna lillāhi wa innā ilaihi rāji'ūn</em>) dengan penuh keikhlasan.</li>
+        </ul>
     </div>
 </div>
 
-<!-- 2. Kandungan Q.S. Al-Baqarah: 30 -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-16 mb-6">2. Menjadi Khalifah di Bumi (Q.S. Al-Baqarah: 30)</h3>
-<p class="text-on-surface-variant leading-relaxed text-md mb-6">
-    Allah menciptakan manusia sebagai <strong>Khalifatullah fil 'ard</strong> (pengganti atau wakil di bumi) yang diberi akal dan pikiran untuk mengemban amanah mengelola bumi dan isinya.
-</p>
-
-<!-- Dalil Al-Baqarah 30 -->
-<div class="bg-primary/5 border-l-4 border-primary rounded-r-3xl p-8 mb-8 relative overflow-hidden">
-    <div class="text-right font-quran text-3xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-        وَإِذْ قَالَ رَبُّكَ لِلْمَلَئِكَةِ إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً قَالُوا أَتَجْعَلُ فِيهَا مَنْ يُفْسِدُ فِيهَا وَيَسْفِكُ الدِّمَاءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ قَالَ إِنِّي أَعْلَمُ مَا لَا تَعْلَمُوْنَ
+<!-- Bagian 2: Q.S. Ali 'Imran -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Q.S. Ali 'Imran Ayat 200 (Perintah Memperkuat Kesabaran)</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
+    <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. ALI 'IMRAN: 200</span>
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+يَا أَيُّهَا الَّذِينَ آمَنُوا اصْبِرُوا وَصَابِرُوا وَرَابِطُوا وَاتَّقُوا اللَّهَ لَعَلَّكُمْ تُفْلِحُونَ
     </div>
-    <div class="font-body italic text-on-surface-variant text-md pt-4 border-t border-outline-variant/20">
-        "Ingatlah ketika Tuhanmu berfirman kepada para Malaikat: 'Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi'. Mereka berkata: 'Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan mensucikan Engkau?' Tuhan berfirman: 'Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui'." <strong>(Q.S. Al-Baqarah: 30)</strong>
-    </div>
-</div>
-
-<div class="space-y-4 mb-14 pl-2 border-l-2 border-outline-variant/30 text-on-surface-variant">
-    <p class="flex items-start"><span class="material-symbols-outlined text-primary mr-3 shrink-0">check_circle</span> <strong>Memanfaatkan Alam:</strong> Secara bijak untuk kebutuhan hidup ("Maka bertebaranlah kamu di muka bumi dan carilah karunia Allah...").</p>
-    <p class="flex items-start"><span class="material-symbols-outlined text-primary mr-3 shrink-0">eco</span> <strong>Menjaga Lingkungan:</strong> Jangan merusak bumi setelah diciptakannya keseimbangan oleh Allah.</p>
-</div>
-
-
-<!-- 3. Keseimbangan Dunia Akhirat: Q.S. Al-Qasas: 77 -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">3. Keseimbangan Hidup (Q.S. Al-Qaşaş: 77)</h3>
-
-<div class="bg-surface-container-high border border-outline-variant/30 rounded-[2rem] p-8 mb-8 relative overflow-hidden">
-    <div class="text-right font-quran text-3xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-        وَا بْتَغِ فِيمَا آتَاكَ اللهُ الدَّارَ الْآخِرَةَ وَلَا تَنْسَ نَصِيبَكَ مِنَ الدُّنْيَا وَأَحْسِنْ كَمَا أَحْسَنَ اللهُ إِلَيْكَ وَلَا تَبْغِ الْفَسَادَ فِي الْأَرْضِ إِنَّ اللَّهَ لَا يُحِبُّ الْمُفْسِدِينَ
-    </div>
-    <div class="font-body italic text-on-surface-variant text-md pt-4 border-t border-outline-variant/20">
-        "Dan carilah pada apa yang telah dianugerahkan Allah kepadamu (kebahagiaan) negeri akhirat, dan janganlah kamu melupakan bahagianmu dari (kenikmatan) duniawi dan berbuat baiklah (kepada orang lain) sebagaimana Allah telah berbuat baik kepadamu, dan janganlah kamu berbuat kerusakan di (muka) bumi. Sesungguhnya Allah tidak menyukai orang-orang yang berbuat kerusakan." <strong>(Q.S. Al-Qaşaş: 77)</strong>
+    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+        "Wahai orang-orang yang beriman, bersabarlah kamu, kuatkanlah kesabaranmu, tetaplah bersiap siaga (di perbatasan negerimu), dan bertakwalah kepada Allah agar kamu beruntung."
+    </p>
+    <div class="bg-surface-container p-4 rounded-xl">
+        <h4 class="font-bold text-sm text-secondary mb-2">Analisis & Isi Kandungan</h4>
+        <ul class="text-sm text-on-surface-variant leading-relaxed list-disc list-inside space-y-2">
+            <li><strong>Tingkatan Sabar:</strong> Ayat ini menggunakan dua kata perintah sabar yang berurutan, yaitu <em>isbirū</em> (bersabarlah) dan <em>sābirū</em> (kuatkanlah/lipatgandakanlah kesabaranmu). Ini menunjukkan bahwa kesabaran membutuhkan proses penguatan mental yang terus-menerus.</li>
+            <li><strong>Penerapan Sabar yang Luas:</strong> Menurut Prof. Quraish Shihab, sifat sabar harus dimiliki setiap muslim dalam segala kondisi, baik dalam menjalankan ibadah, bermasyarakat, bersiap siaga mempertahankan kedaulatan, maupun ketika ditimpa musibah.</li>
+            <li><strong>Kunci Keberuntungan:</strong> Allah menjanjikan bahwa kombinasi antara kesabaran yang kuat, kesiapsiagaan, dan ketakwaan adalah kunci utama untuk meraih keberuntungan/keberhasilan (<em>tuflihūn</em>).</li>
+        </ul>
     </div>
 </div>
 
-<p class="text-sm font-bold text-on-surface mb-4">Pesan Hikmah dari Ayat di atas:</p>
-<ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-on-surface-variant mb-14">
-    <li class="bg-white p-4 rounded-xl shadow-sm">Hidup harus seimbang antara mengejar bekal akhirat dan tidak melupakan fitrah dunia.</li>
-    <li class="bg-white p-4 rounded-xl shadow-sm">Hindari sifat rakus dan <em>flexing</em> (pamer harta) dunia hingga melalaikan akhirat.</li>
-    <li class="bg-white p-4 rounded-xl shadow-sm">Tebarkanlah kasih sayang (Rahmatan lil 'Alamin) sebagai balas budi atas nikmat Allah.</li>
-    <li class="bg-white p-4 rounded-xl shadow-sm">Jangan menjadi <em>mufsidin</em> (orang yang merusak alam dan menghancurkan kedamaian).</li>
-</ul>
-
-
-<!-- 4. Hadits Penebar Kasih Sayang -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 text-center">4. Hadis Tentang Kasih Sayang</h3>
-<div class="grid md:grid-cols-2 gap-6 mb-16">
-    <div class="bg-secondary-container/20 p-6 rounded-3xl border border-secondary/10">
-        <div class="text-right font-quran text-2xl mb-4 leading-loose" dir="rtl">الرَّاحِمُوْنَ يَرْحَمُهُمُ الرَّحْمَنُ ارْحَمُوا مَنْ فِي الْأَرْضِ يَرْحَمْكُمْ مَنْ فِي السَّمَاءِ</div>
-        <p class="text-xs text-on-surface-variant italic border-t border-outline-variant/20 pt-3">"Orang-orang yang penyayang itu akan disayang oleh Dzat yang Maha penyayang. Hendaklah kalian sayangi orang yang berada di bumi, maka kalian akan disayangi oleh Dzat (Malaikat dan rahmat Allah) yang di atas langit."</p>
+<!-- Bagian 3: Hadis -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Hadis Terkait Sabar Menghadapi Musibah</h3>
+<div class="bg-gradient-to-br from-tertiary to-tertiary-container p-8 rounded-3xl text-white shadow-xl mb-12">
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6" dir="rtl">
+عَجَبًا لِأَمْرِ الْمُؤْمِنِ، إِنَّ أَمْرَهُ كُلَّهُ خَيْرٌ، وَلَيْسَ ذَاكَ لِأَحَدٍ إِلَّا لِلْمُؤْمِنِ، إِنْ أَصَابَتْهُ سَرَّاءُ شَكَرَ فَكَانَ خَيْرًا لَهُ، وَإِنْ أَصَابَتْهُ ضَرَّاءُ صَبَرَ فَكَانَ خَيْرًا لَهُ
     </div>
-    <div class="bg-secondary-container/20 p-6 rounded-3xl border border-secondary/10">
-        <div class="text-right font-quran text-2xl mb-4 leading-loose" dir="rtl">مَنْ لَا يَرْحَمُ النَّاسَ لَا يَرْحَمْهُ اللَّهُ عَزَّ وَجَلَ</div>
-        <p class="text-xs text-on-surface-variant italic border-t border-outline-variant/20 pt-3">"Barangsiapa yang tidak menyayangi manusia yang lain, maka ia tidak akan disayangi Allah Azza wa Jalla." <br><strong>(H.R. Bukhari/Muslim dari Jabir)</strong></p>
+    <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 mb-6">
+        "Sungguh mengagumkan keadaan orang mukmin. Keadaan mereka senantiasa mengandung kebaikan. Dan, tidak terjadi yang demikian itu kecuali pada orang mukmin. Jika mendapatkan kesenangan, ia bersyukur. Hal itu merupakan kebaikan baginya. Jika tertimpa kesusahan ia bersabar. Hal itu juga merupakan kebaikan baginya." <br><strong>(H.R. Muslim)</strong>
+    </p>
+    <div class="bg-white/10 rounded-2xl p-5 border border-white/20">
+        <h4 class="font-bold text-lg mb-2">Hubungan dengan Materi</h4>
+        <p class="text-[15px] opacity-90 leading-relaxed">
+            Hadis ini mengajarkan bahwa senjata terbaik seorang mukmin dalam mengarungi kehidupan di dunia adalah <strong>syukur dan sabar</strong>. Syukur menjaga mukmin agar tidak sombong saat sukses, sementara sabar menjaga mereka dari keputusasaan saat tertimpa cobaan. Sayidina Ali bin Abi Thalib mempertegas pentingnya sabar dengan mengatakan: <em>"Sabar adalah bagian dari iman, sebagaimana kepala bagian dari tubuh."</em>
+        </p>
     </div>
 </div>
 
+<!-- Bagian 4: Tajwid -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 flex items-center">
+    <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
+        <span class="material-symbols-outlined text-[24px]">spellcheck</span>
+    </span>
+    4. Materi Tajwid — Hukum Bacaan Mad (مَدّ)
+</h3>
+<div class="bg-surface-container-low p-8 rounded-3xl border-l-8 border-primary mb-8 relative overflow-hidden">
+    <h4 class="font-bold text-xl mb-3 text-primary">Pengertian Mad</h4>
+    <ul class="text-sm text-on-surface-variant leading-relaxed list-disc list-inside space-y-2 mb-4">
+        <li><strong>Secara Bahasa:</strong> Panjang.</li>
+        <li><strong>Secara Istilah:</strong> Memanjangkan bunyi huruf hijaiyah karena adanya pertemuan antara huruf berharakat dengan huruf-huruf mad (Alif sukun setelah fathah, Wau sukun setelah dhammah, dan Ya sukun setelah kasrah).</li>
+    </ul>
+    <p class="text-sm text-on-surface-variant">Secara garis besar, hukum Mad dibagi menjadi dua: <strong>Mad Thabi'i (Asli)</strong> dan <strong>Mad Far'i (Cabang)</strong>.</p>
+</div>
 
-<!-- 5. Peran Pelajar Muslim -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 rounded-[3rem] text-white shadow-xl">
-    <h4 class="text-2xl font-headline font-bold mb-8 text-center text-white">Bagaimana Penerapan Khalifah Sehari-hari?</h4>
-    <div class="grid sm:grid-cols-3 gap-6">
-        <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 hover:-translate-y-1 transition-transform">
-            <span class="material-symbols-outlined text-4xl mb-4 text-white">compost</span>
-            <div class="font-bold mb-2">Peduli Lingkungan</div>
-            <p class="text-sm opacity-90 leading-relaxed">Merawat tanaman, mengurangi plastik, dan membuang sampah pada tempatnya untuk menjaga bumi titipan Allah.</p>
-        </div>
-        <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 hover:-translate-y-1 transition-transform">
-            <span class="material-symbols-outlined text-4xl mb-4 text-white">diversity_1</span>
-            <div class="font-bold mb-2">Menebar Kasih Sayang</div>
-            <p class="text-sm opacity-90 leading-relaxed">Menghindari perundungan (bullying), saling membantu, belajar bersama kelompok, dan memuliakan guru serta teman.</p>
-        </div>
-         <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 hover:-translate-y-1 transition-transform">
-            <span class="material-symbols-outlined text-4xl mb-4 text-white">app_registration</span>
-            <div class="font-bold mb-2">Memperbanyak Amal</div>
-            <p class="text-sm opacity-90 leading-relaxed">Setiap aktivitas (sekolah/bermain) jika diniatkan karena Allah akan dinilai ibadah. Lakukan segala hal dengan ikhlas!</p>
-        </div>
-    </div>
+<!-- Tabel Mad -->
+<div class="overflow-x-auto mb-12">
+    <table class="min-w-full text-left text-sm whitespace-nowrap bg-white rounded-2xl overflow-hidden border border-outline-variant/20 shadow-sm">
+        <thead class="bg-surface-container-low text-on-surface">
+            <tr>
+                <th scope="col" class="px-6 py-4 font-bold">Nama Mad</th>
+                <th scope="col" class="px-6 py-4 font-bold">Penjelasan Hukum</th>
+                <th scope="col" class="px-6 py-4 font-bold">Huruf Mad</th>
+                <th scope="col" class="px-6 py-4 font-bold">Contoh Potongan Ayat</th>
+            </tr>
+        </thead>
+        <tbody class="divide-y divide-outline-variant/20 whitespace-normal">
+            <tr class="hover:bg-surface-container-lowest transition-colors">
+                <td class="px-6 py-4 font-bold text-primary">Mad Thabi'i (Asli)</td>
+                <td class="px-6 py-4">Dibaca panjang 2 harakat (1 alif) karena tidak bertemu hamzah, sukun, atau tasydid.</td>
+                <td class="px-6 py-4 font-quran text-lg" dir="rtl">ا , و , ي</td>
+                <td class="px-6 py-4">
+                    <span class="font-quran text-lg" dir="rtl">قَالُوا</span> <em>(qālū)</em><br>
+                    <span class="font-quran text-lg" dir="rtl">الَّذِينَ</span> <em>(allażīna)</em>
+                </td>
+            </tr>
+            <tr class="hover:bg-surface-container-lowest transition-colors">
+                <td class="px-6 py-4 font-bold text-secondary">Mad Jaiz Munfashil</td>
+                <td class="px-6 py-4">Mad Thabi'i bertemu hamzah (ء) di <strong>lain kata/kalimat</strong>. Dibaca 2, 4, atau 5 harakat.</td>
+                <td class="px-6 py-4">Huruf mad bertemu alif/hamzah beda kata</td>
+                <td class="px-6 py-4">
+                    <span class="font-quran text-lg" dir="rtl">يَا أَيُّهَا</span> <em>(yā ayyuhā)</em><br>
+                    <span class="font-quran text-lg" dir="rtl">إِنَّا إِلَيْهِ</span> <em>(innā ilaihi)</em>
+                </td>
+            </tr>
+            <tr class="hover:bg-surface-container-lowest transition-colors">
+                <td class="px-6 py-4 font-bold text-tertiary">Mad Wajib Muttashil</td>
+                <td class="px-6 py-4">Mad Thabi'i bertemu hamzah (ء) dalam <strong>satu kata/lafaz</strong>. Dibaca wajib panjang 5 sampai 6 harakat.</td>
+                <td class="px-6 py-4">Huruf mad bertemu hamzah satu kata</td>
+                <td class="px-6 py-4">
+                    <span class="font-quran text-lg" dir="rtl">سَوَاءٌ</span> <em>(sawā'un)</em><br>
+                    <span class="font-quran text-lg" dir="rtl">جَاءَ</span> <em>(jā'a)</em>
+                </td>
+            </tr>
+            <tr class="hover:bg-surface-container-lowest transition-colors">
+                <td class="px-6 py-4 font-bold text-primary">Mad 'Aridh Lis Sukun</td>
+                <td class="px-6 py-4">Mad Thabi'i yang berada sebelum huruf hidup di akhir ayat/kalimat yang dibaca waqaf (berhenti). Dibaca 2, 4, atau 6 harakat.</td>
+                <td class="px-6 py-4">Mad Thabi'i sebelum waqaf</td>
+                <td class="px-6 py-4">
+                    <span class="font-quran text-lg" dir="rtl">الصَّابِرِينَ</span> <em>(aṣ-ṣābirīn)</em><br>
+                    <span class="font-quran text-lg" dir="rtl">رَاجِعُونَ</span> <em>(rāji‘ūn)</em><br>
+                    <span class="font-quran text-lg" dir="rtl">تُفْلِحُونَ</span> <em>(tufliḥūn)</em>
+                </td>
+            </tr>
+            <tr class="hover:bg-surface-container-lowest transition-colors">
+                <td class="px-6 py-4 font-bold text-secondary">Mad 'Iwadl</td>
+                <td class="px-6 py-4">Fathatain ( ً ) yang terletak pada waqaf di akhir kalimat. Tanwinnya diganti menjadi mad sepanjang 2 harakat.</td>
+                <td class="px-6 py-4">Fathatain di akhir waqaf</td>
+                <td class="px-6 py-4">
+                    <span class="font-quran text-lg" dir="rtl">شَيْئًا</span> <em>(syai'ā)</em> jika waqaf
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 5: Penerapan -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">5. Penerapan Perilaku Sabar dalam Keseharian</h3>
+<div class="bg-primary/5 p-8 rounded-3xl border-l-8 border-primary relative overflow-hidden mb-8">
+    <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">Untuk melengkapi pemahaman, sabar dalam kehidupan sehari-hari dibagi menjadi tiga:</p>
+    <ul class="text-sm text-on-surface-variant leading-relaxed list-disc list-inside space-y-3">
+        <li><strong>Sabar dalam menjalankan perintah Allah:</strong> Contohnya ketika mendengar azan langsung bersiap salat berjamaah, dan tetap fokus belajar saat bel masuk kelas berbunyi.</li>
+        <li><strong>Sabar dalam menjauhi kemaksiatan:</strong> Menolak tegas ajakan membolos, tawuran, atau tidak mudah terhasut emosi di sekolah.</li>
+        <li><strong>Sabar dalam menghadapi musibah:</strong> Tidak mengeluh berlebihan atau menyalahkan takdir saat sakit atau kehilangan sesuatu yang berharga.</li>
+    </ul>
 </div>
 
         `
