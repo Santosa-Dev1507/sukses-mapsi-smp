@@ -57,15 +57,21 @@ document.addEventListener('DOMContentLoaded', () => {
         if (elTopikJudul) elTopikJudul.textContent = info.judul;
         if (elTopikSub)   elTopikSub.textContent   = `${info.kelas} · ${info.semester} · ${info.bab} — ${info.subjudul}`;
 
-        // Load soal dari variabel global (sudah di-load via script tag di HTML)
-        if (typeof latihanData !== 'undefined' && latihanData.length > 0) {
-            soalList     = acakArray([...latihanData]);
-            jawabanSiswa = new Array(soalList.length).fill(null);
-            if (elJumlahSoal) elJumlahSoal.textContent = soalList.length;
-            cekIdentitas();
-        } else {
-            tampilTidakAda(today);
-        }
+        // Load soal DINAMIS — cukup tambah file di js/latihan/ dan update jadwal-latihan.js
+        const script    = document.createElement('script');
+        script.src      = `js/latihan/${setId}.js`;
+        script.onload   = () => {
+            if (typeof latihanData !== 'undefined' && latihanData.length > 0) {
+                soalList     = acakArray([...latihanData]);
+                jawabanSiswa = new Array(soalList.length).fill(null);
+                if (elJumlahSoal) elJumlahSoal.textContent = soalList.length;
+                cekIdentitas();
+            } else {
+                tampilTidakAda(today);
+            }
+        };
+        script.onerror = () => tampilTidakAda(today);
+        document.head.appendChild(script);
     }
 
     // ══════════════════════════════════════════════
