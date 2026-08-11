@@ -1100,81 +1100,341 @@ const materiData = [
         "kelas": 7,
         "semester": "Genap",
         "bab": "Bab 4",
-        "judul": "Rukhsah: Bypass Kemudahan Logis Beribadah Kepada-Nya",
-        "waktuBumper": "18 Menit Baca",
+        "judul": "Shalat Jumat",
+        "waktuBumper": "20 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Banyak orang merasa syariat Islam itu kaku horor dan memberatkan. Padahal, Allah SWT sangat fleksibel penuh pengertian logis. Bab ini membedah fitur <strong>Rukhsah (Diskon/Keringanan Beban Ibadah)</strong>! Membuktikan konstitusi kita adalah agama super rasional yang terbiasa memanusiakan batas energi manusia merespons ancaman kondisi *Darurat!*
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Shalat Jumat</strong>, yang mencakup definisi, dasar hukum, syarat & rukun, tata cara pelaksanaan, hal yang membatalkan, hingga istilah kunci dalam fiqih.
 </p>
 
-<!-- 1. Makna Rukhsah -->
-<h3 class="font-headline text-2xl font-bold text-primary mb-6 flex items-center bg-primary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-primary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">local_offer</span> 1. Apa itu Rukhsah (Voucher Keringanan)?</h3>
-<div class="bg-surface-container-low p-8 rounded-[2.5rem] border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] mb-14 relative overflow-hidden">
-    <div class="grid md:grid-cols-2 gap-10 items-stretch relative z-10">
-        <div class="flex flex-col justify-center">
-            <p class="text-[14.5px] text-on-surface-variant mb-6 text-justify leading-relaxed font-medium bg-white p-5 rounded-2xl shadow-sm border border-outline-variant/20">
-                <strong>Rukhsah</strong> secara akar harfiah linguistik bermakna <em>"Pelonggaran Diskon Keringanan"</em>. Secara yuridis Fiqih, maknanya adalah: Dispensasi Surat Izin resmi rilis dari Tuhan kepada para <em>Mukalaf</em> (Muslim dewasa berakal sehat) untuk menyeleweng menyimpang me-skip hukum wajib awal akibat dicepit himpitan kondisi Darurat yang mustahil ditembus logis.
-            </p>
-            <div class="bg-primary/10 p-5 rounded-2xl border-l-[6px] border-primary">
-                <span class="font-bold text-[11px] uppercase tracking-widest text-primary mb-2 block font-headline border-b border-primary/20 pb-2">Surat Edaran Q.S. al-Baqarah: 185</span>
-                <p class="text-[13.5px] font-medium leading-relaxed italic text-primary-on mt-2 text-justify">"...Karena sejatinya Allah itu mutlak hanya menghendaki <strong>rute Kemudahan</strong> yang instan bagi kaummu, dan absolut haram Dia menghendaki <strong>rute Kesukaran Bencana</strong> membebankan punggung umat kawan..."</p>
+<!-- Bagian 1: Definisi -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Pengertian Shalat Jumat</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        <strong>Shalat Jumat</strong> adalah shalat wajib dua rakaat yang dilaksanakan secara berjamaah pada waktu Zuhur di hari Jumat, yang didahului dengan dua khutbah sebagai pengganti shalat Zuhur. Hukum melaksanakan shalat Jumat adalah <strong>fardhu 'ain</strong> (wajib bagi setiap individu) bagi setiap muslim laki-laki yang telah memenuhi syarat.
+    </p>
+</div>
+
+<!-- Bagian 2: Dasar Hukum -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Dasar Hukum (Dalil)</h3>
+<div class="space-y-8 mb-12">
+    <!-- Dalil Al-Qur'an -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-JUMU'AH: 9</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Dalil Al-Qur'an</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا نُودِيَ لِلصَّلَاةِ مِنْ يَوْمِ الْجُمُعَةِ فَاسْعَوْا إِلَىٰ ذِكْرِ اللَّهِ وَذَرُوا الْبَيْعَ ۚ ذٰلِكُمْ خَيْرٌ لَّكُمْ إِنْ كُنْتُمْ تَعْلَمُونَ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+            "Wahai orang-orang yang beriman! Apabila telah diseru untuk melaksanakan shalat pada hari Jumat, maka segeralah kamu mengingat Allah dan tinggalkanlah jual beli. Yang demikian itu lebih baik bagimu, jika kamu mengetahui."
+        </p>
+    </div>
+
+    <!-- Dalil Hadis -->
+    <div class="bg-gradient-to-br from-secondary to-secondary-container p-8 rounded-[2rem] shadow-sm relative text-white">
+        <span class="bg-white/20 text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest border border-white/30">H.R. ABU DAWUD</span>
+        <h4 class="font-bold text-lg text-white mb-4">Dalil Hadis</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6" dir="rtl">
+الْجُمُعَةُ حَقٌّ وَاجِبٌ عَلَى كُلِّ مُسْلِمٍ فِي جَمَاعَةٍ إِلَّا أَرْبَعَةً: عَبْدٌ مَمْلُوكٌ، أَوِ امْرَأَةٌ، أَوْ صَبِيٌّ، أَوْ مَرِيضٌ
+        </div>
+        <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 leading-relaxed">
+            "Jumat itu adalah hak yang wajib dikerjakan oleh setiap orang Islam dengan berjamaah, kecuali empat golongan manusia, yaitu: hamba sahaya (budak), perempuan, anak-anak, dan orang sakit."
+        </p>
+    </div>
+</div>
+
+<!-- Bagian 3: Syarat & Rukun -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Syarat & Rukun Shalat Jumat</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-8">
+    <!-- Syarat Wajib -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mr-3">
+                <span class="material-symbols-outlined">person_check</span>
+            </div>
+            <h4 class="font-bold text-lg text-tertiary">Syarat Wajib</h4>
+        </div>
+        <p class="text-xs text-on-surface-variant mb-3 italic">Siapa yang dikenai kewajiban:</p>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Islam</li>
+            <li>Baligh (dewasa)</li>
+            <li>Berakal sehat</li>
+            <li>Laki-laki (tidak wajib bagi perempuan)</li>
+            <li>Sehat badan (tidak wajib bagi orang sakit keras)</li>
+            <li>Bermukim/Menetap (bukan musafir)</li>
+        </ol>
+    </div>
+
+    <!-- Syarat Sah -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mr-3">
+                <span class="material-symbols-outlined">verified</span>
+            </div>
+            <h4 class="font-bold text-lg text-tertiary">Syarat Sah</h4>
+        </div>
+        <p class="text-xs text-on-surface-variant mb-3 italic">Kondisi agar shalatnya sah:</p>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Dilaksanakan di tempat yang tetap (masjid/pemukiman)</li>
+            <li>Dilaksanakan secara berjamaah</li>
+            <li>Dilaksanakan pada waktu Zuhur</li>
+            <li>Didahului dengan dua khutbah</li>
+        </ol>
+    </div>
+</div>
+
+<div class="grid md:grid-cols-2 gap-6 mb-12">
+    <!-- Rukun Khutbah -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-primary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-primary/10 text-primary rounded-full flex items-center justify-center mr-3">
+                <span class="material-symbols-outlined">record_voice_over</span>
+            </div>
+            <h4 class="font-bold text-lg text-primary">Rukun Khutbah Jumat</h4>
+        </div>
+        <p class="text-xs text-on-surface-variant mb-3 italic">Unsur pokok yang wajib dibaca khatib:</p>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Membaca tahmid (puji-pujian kepada Allah Swt.)</li>
+            <li>Mengucapkan dua kalimat syahadat</li>
+            <li>Mengucapkan salawat atas Nabi Muhammad saw.</li>
+            <li>Berwasiat tentang takwa</li>
+            <li>Membaca ayat Al-Qur'an pada salah satu khutbah</li>
+            <li>Berdoa untuk kaum muslimin pada khutbah kedua</li>
+        </ol>
+    </div>
+
+    <!-- Sunah Sebelum Jumat -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-primary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-primary/10 text-primary rounded-full flex items-center justify-center mr-3">
+                <span class="material-symbols-outlined">star</span>
+            </div>
+            <h4 class="font-bold text-lg text-primary">Sunah Sebelum Shalat Jumat</h4>
+        </div>
+        <p class="text-xs text-on-surface-variant mb-3 italic">Amalan yang sangat dianjurkan:</p>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Mandi sebelum berangkat ke masjid</li>
+            <li>Memotong kuku, merapikan kumis, menggosok gigi</li>
+            <li>Memakai pakaian paling bagus dan bersih</li>
+            <li>Memakai harum-haruman (kecuali bagi wanita)</li>
+            <li>Menyegerakan berangkat ke masjid lebih awal</li>
+            <li>Shalat sunah Tahiyyatul Masjid setiba di masjid</li>
+            <li>Mengisi shaf terdepan yang masih kosong</li>
+            <li>Memperbanyak zikir, membaca Al-Qur'an, atau salawat</li>
+        </ol>
+    </div>
+</div>
+
+<!-- Bagian 4: Tata Cara -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">4. Tata Cara / Urutan Pelaksanaan</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm mb-12">
+    <div class="space-y-4">
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">1</div>
+            <div>
+                <h5 class="font-bold text-sm text-on-surface">Adzan Pertama Dikumandangkan</h5>
+                <p class="text-sm text-on-surface-variant">Ketika masuk waktu Zuhur, muadzin mengumandangkan adzan.</p>
             </div>
         </div>
-        <div class="bg-white p-7 rounded-[2rem] border border-outline-variant/30 shadow-sm relative overflow-hidden group hover:border-primary transition-colors">
-            <span class="material-symbols-outlined absolute -right-6 -bottom-6 text-[130px] text-primary/5 group-hover:scale-110 transition-transform">health_and_safety</span>
-            <h4 class="font-bold text-[14px] uppercase tracking-wider text-primary border-b border-outline-variant/20 pb-3 mb-5">4 Kunci Parameter Aktivasi Klaim Rukhsah:</h4>
-            <div class="space-y-3.5 relative z-10 text-[13.5px] font-medium text-on-surface-variant">
-                <div class="flex items-center gap-4 bg-surface-container hover:bg-error/10 transition-colors px-4 py-3 rounded-xl cursor-default"><span class="material-symbols-outlined text-error text-[22px]">sick</span> <span class="leading-relaxed"><strong>Sakit Fisik Ekstrem</strong> (Resiko mati/parah jika menabrak ibadah normal).</span></div>
-                <div class="flex items-center gap-4 bg-surface-container hover:bg-tertiary/10 transition-colors px-4 py-3 rounded-xl cursor-default"><span class="material-symbols-outlined text-tertiary text-[22px]">flight_takeoff</span> <span class="leading-relaxed"><strong>Batas Navigasi Musafir</strong> (Perjalanan darat lelah minimal tembus 80-90 KM).</span></div>
-                <div class="flex items-center gap-4 bg-surface-container hover:bg-secondary/10 transition-colors px-4 py-3 rounded-xl cursor-default"><span class="material-symbols-outlined text-secondary text-[22px]">warning</span> <span class="leading-relaxed"><strong>Ancaman Darurat Terpaksa</strong> (Disandera penculik / Ancaman pisau pembunuhan).</span></div>
-                <div class="flex items-center gap-4 bg-surface-container hover:bg-primary/10 transition-colors px-4 py-3 rounded-xl cursor-default"><span class="material-symbols-outlined text-primary text-[22px]">not_listed_location</span> <span class="leading-relaxed"><strong>Lupa Pikun Absolut</strong> (Blank ketidaktahuan amnesia murni tak disengajain pura-pura).</span></div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">2</div>
+            <div>
+                <h5 class="font-bold text-sm text-on-surface">Khatib Naik Mimbar</h5>
+                <p class="text-sm text-on-surface-variant">Khatib naik ke atas mimbar, mengucapkan salam kepada jamaah, lalu duduk.</p>
+            </div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">3</div>
+            <div>
+                <h5 class="font-bold text-sm text-on-surface">Adzan Kedua</h5>
+                <p class="text-sm text-on-surface-variant">Muadzin mengumandangkan adzan kedua di hadapan khatib.</p>
+            </div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">4</div>
+            <div>
+                <h5 class="font-bold text-sm text-on-surface">Khutbah Pertama</h5>
+                <p class="text-sm text-on-surface-variant">Khatib berdiri dan menyampaikan khutbah pertama yang memuat rukun-rukun khutbah (tahmid, syahadat, salawat, wasiat takwa, dan membaca ayat Al-Qur'an).</p>
+            </div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">5</div>
+            <div>
+                <h5 class="font-bold text-sm text-on-surface">Duduk di Antara Dua Khutbah</h5>
+                <p class="text-sm text-on-surface-variant">Khatib duduk sejenak. Jamaah dianjurkan memanfaatkan waktu ijabah untuk berdoa dan membaca istighfar secara pelan.</p>
+            </div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">6</div>
+            <div>
+                <h5 class="font-bold text-sm text-on-surface">Khutbah Kedua</h5>
+                <p class="text-sm text-on-surface-variant">Khatib berdiri kembali menyampaikan khutbah kedua yang diakhiri dengan doa memohon ampunan untuk kaum muslimin.</p>
+            </div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">7</div>
+            <div>
+                <h5 class="font-bold text-sm text-on-surface">Iqamah</h5>
+                <p class="text-sm text-on-surface-variant">Khatib turun dari mimbar, lalu muadzin mengumandangkan iqamah.</p>
+            </div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">8</div>
+            <div>
+                <h5 class="font-bold text-sm text-on-surface">Shalat Berjamaah</h5>
+                <p class="text-sm text-on-surface-variant">Imam memimpin shalat Jumat berjamaah sebanyak dua rakaat dengan mengeraskan suara bacaan (<em>jahar</em>).</p>
             </div>
         </div>
     </div>
 </div>
 
-<!-- 2. Bentuk Keringanan -->
-<h3 class="font-headline text-2xl font-bold text-secondary mb-6 flex items-center bg-secondary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-secondary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">apps</span> 2. Katalog Dispensasi Eksekutif Ibadah</h3>
-<div class="grid md:grid-cols-2 gap-6 mb-16">
-    <!-- Salat -->
-    <div class="bg-white p-7 rounded-[2rem] border-t-[6px] border-t-primary shadow-[0_4px_15px_rgba(0,0,0,0.02)] hover:shadow-md transition-shadow relative overflow-hidden">
-        <div class="flex items-center gap-4 mb-5 border-b border-outline-variant/20 pb-4">
-            <span class="bg-primary/10 text-primary w-14 h-14 rounded-2xl flex items-center justify-center border border-primary/20"><span class="material-symbols-outlined text-[28px]">man</span></span>
-            <h4 class="font-bold text-[18px] text-on-surface">Paket Bypass Salat *(Qasar / Jamak)*</h4>
+<!-- Bagian 5: Yang Membatalkan -->
+<h3 class="font-headline text-2xl font-bold text-error mt-12 mb-6">5. Hal-Hal yang Membatalkan</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-12">
+    <div class="bg-error/5 p-6 rounded-3xl border border-error/20">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-error text-3xl mr-3">block</span>
+            <h4 class="font-bold text-lg text-error">Membatalkan Shalat</h4>
         </div>
-        <ul class="text-[13.5px] text-on-surface-variant leading-relaxed space-y-4 font-medium px-2 text-justify">
-            <li class="flex items-start gap-3"><span class="bg-primary text-white w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 text-[10px]">1</span> <strong>Qasar (Diskon Rakaat 50%):</strong> Terik kepanasan *traveling* antar provinsi? Niat Salat Zuhur, Asar, Isya (yang berat 4 rakaat) boleh diringkas tajam sisa 2 rakaat saja. Cash lunas!</li>
-            <li class="flex items-start gap-3"><span class="bg-primary text-white w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 text-[10px]">2</span> <strong>Jamak (Gabung Shift):</strong> Sibuk nyetir *stuck* jalan toll? Pindah paket jamak narik waktu Zuhur gabung dieksekusi numpang di ring Asar (Takhir), dan viceversa (Takdim).</li>
-            <li class="flex items-start gap-3"><span class="bg-primary text-white w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 text-[10px]">3</span> <strong>Lumpuh Sakit:</strong> Gak kuat kaki berdiri? Turun kasta sah salat sambil duduk kursi. Makin Kritis di ranjang UGD? Sambil baring rebahan muka natap atap. Lumpuh stroke koma ICU? Kedipan nafas isyarat kode gerak mata udah Sah Gugur lunas!</li>
-        </ul>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Segala hal yang membatalkan shalat fardhu biasa (seperti terkena najis, berhadas, berbicara sengaja, atau banyak melakukan gerakan di luar shalat).
+        </p>
     </div>
-    
-    <!-- Puasa -->
-    <div class="bg-white p-7 rounded-[2rem] border-t-[6px] border-t-error shadow-[0_4px_15px_rgba(0,0,0,0.02)] hover:shadow-md transition-shadow relative overflow-hidden">
-        <div class="flex items-center gap-4 mb-5 border-b border-outline-variant/20 pb-4">
-            <span class="bg-error/10 text-error w-14 h-14 rounded-2xl flex items-center justify-center border border-error/20"><span class="material-symbols-outlined text-[28px]">restaurant</span></span>
-            <h4 class="font-bold text-[18px] text-on-surface">Paket Cuti Puasa Ekstrem Ramadan</h4>
+
+    <div class="bg-error/5 p-6 rounded-3xl border border-error/20">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-error text-3xl mr-3">warning</span>
+            <h4 class="font-bold text-lg text-error">Membatalkan Pahala (Lagha)</h4>
         </div>
-        <ul class="text-[13.5px] text-on-surface-variant leading-relaxed space-y-4 font-medium px-2 text-justify">
-            <li class="flex items-start gap-3"><span class="bg-error text-white w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 text-[10px]">1</span> <strong>Fitur Haid/Nifas Pendarahan:</strong> HARAM DOSA lanjut tempur puasa! (Diwajibkan buka batal instan, gak boleh maksa nekat, cukup diganti hutangnya (*Qada*) santai di luar bulan suci puasa).</li>
-            <li class="flex items-start gap-3"><span class="bg-error text-white w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 text-[10px]">2</span> <strong>Ibu Hamil / Menyusui Kritis:</strong> Boleh buka putus puasa demi nge-<em>save</em> nyawa janin resiko cacat dehidrasi lambung, bayar tebus hutang *Qada* ATAU opsi traktir Denda *Fidyah* (Beli makan beras santunan fakir).</li>
-            <li class="flex items-start gap-3"><span class="bg-error text-white w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 text-[10px]">3</span> <strong>Lansia Renta Permanen:</strong> Kakek pikun kritis lemah? Silakan buka batal permanen seumur sisa hidup, tak perlu mumet utang ganti *Qada*, pure jatah bayar *Fidyah* murah saja!</li>
-        </ul>
-    </div>
-    
-    <!-- Haji & Zakat -->
-    <div class="bg-white p-7 rounded-[2rem] border-t-[6px] border-t-tertiary shadow-[0_2px_15px_rgba(0,0,0,0.02)] col-span-1 md:col-span-2 group hover:border-l-primary transition-all flex flex-col md:flex-row items-center gap-8">
-        <div class="shrink-0 w-24 h-24 bg-tertiary/10 rounded-full flex items-center justify-center border-[4px] border-tertiary/20">
-            <span class="material-symbols-outlined text-[50px] text-tertiary">request_quote</span>
-        </div>
-        <div>
-            <h4 class="font-bold text-[18px] text-on-surface mb-3 border-b border-outline-variant/20 pb-2 w-max">Limit Harta Zakat & Avatar Joki Haji</h4>
-            <p class="text-[13.5px] text-on-surface-variant leading-relaxed font-medium text-justify">
-                Tuhan tidak memalak uang buruh miskin! Tabungan emas bank kamu tak akan ditaruh pisau leher buat dirampas rasio wajib zakatnya 2.5%, kecuali jika tandon dompetmu nembus radar ambang batas <strong>Nisab</strong> (Misal: Limit harta mati setara minimal genggaman 85 gram emas antam murni) dan tabungannya numpuk diemin nganggur mengendap durasi 1 tahun Masehi (<strong>Haul</strong>). <br><br>Gimana dengan status Rukun Islam Haji? Haji itu eksklusif tajam disasarkan bagi kaum <em>Berkemampuan Finansial & Vaksin Sehat Fisik (<strong>Istita'ah Kuota</strong>)</em>. Kalau kamu konglomerat tapi takdir stroke koma cuci darah? Islam melegalkan sistem Avatar sewa proxy perwakilan via <strong>Haji Badal (Diwakilkan Joki)</strong>. *Super Fair!*
+        <p class="text-xs text-on-surface-variant mb-3 italic">Saat khatib berkhutbah, dilarang keras:</p>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Bercakap-cakap atau mengobrol dengan jamaah lain</li>
+            <li>Menegur orang lain yang sedang mengobrol</li>
+            <li>Mengantuk atau tidur saat khutbah berlangsung</li>
+            <li>Mempermainkan barang (gawai, sajadah, kerikil)</li>
+        </ol>
+        <div class="bg-error/10 p-3 rounded-xl mt-4 border border-error/20">
+            <p class="text-xs text-on-surface-variant italic leading-relaxed">
+                <strong>Sabda Rasulullah saw. (H.R. Bukhari dan Muslim):</strong> "Apabila engkau berkata kepada kawanmu pada hari Jumat 'diamlah', sedangkan saat itu imam sedang menyampaikan khutbahnya, maka sungguh Jumatmu sia-sia."
             </p>
         </div>
+    </div>
+</div>
+
+<!-- Bagian 6: Uzur Shalat Jumat -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">6. Uzur (Halangan) Shalat Jumat</h3>
+<p class="text-sm text-on-surface-variant leading-relaxed mb-4">Seseorang diberikan keringanan (<em>rukhshah</em>) untuk tidak melaksanakan shalat Jumat dan wajib menggantinya dengan shalat Zuhur 4 rakaat di rumah jika mengalami uzur berikut:</p>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Jenis Uzur</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Keterangan</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Kewajiban Pengganti</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Sakit Keras</td>
+                <td class="p-3">Tidak mampu berjalan ke masjid atau sakitnya bertambah parah</td>
+                <td class="p-3">Wajib Shalat Zuhur</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Cuaca Ekstrem</td>
+                <td class="p-3">Hujan lebat, badai, banjir, atau bencana alam</td>
+                <td class="p-3">Wajib Shalat Zuhur</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Musafir</td>
+                <td class="p-3">Perjalanan jauh (safar) untuk tujuan kebaikan</td>
+                <td class="p-3">Wajib Shalat Zuhur</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Perempuan</td>
+                <td class="p-3">Tidak dibebani kewajiban shalat Jumat</td>
+                <td class="p-3">Wajib Shalat Zuhur</td>
+            </tr>
+            <tr>
+                <td class="p-3 font-semibold">Anak-Anak</td>
+                <td class="p-3">Anak kecil yang belum baligh</td>
+                <td class="p-3">Dididik Shalat Zuhur</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 7: Istilah Kunci -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">7. Istilah Kunci (Kosakata Fiqih)</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-primary/10">
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Istilah</th>
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Makna Singkat</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Khatib</td>
+                <td class="p-3">Orang yang menyampaikan khutbah Jumat di atas mimbar</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Lagha</td>
+                <td class="p-3">Perbuatan sia-sia yang merusak/membatalkan pahala shalat Jumat</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Bermukim (Mustauthin)</td>
+                <td class="p-3">Penduduk yang tinggal menetap di suatu daerah</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Rukhshah</td>
+                <td class="p-3">Keringanan yang diberikan Allah dalam menjalankan ibadah</td>
+            </tr>
+            <tr>
+                <td class="p-3 font-semibold">I'tikaf</td>
+                <td class="p-3">Berdiam diri di dalam masjid dengan niat beribadah kepada Allah</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 8: Perbedaan Pendapat Ulama -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">8. Perbedaan Pendapat Ulama</h3>
+<div class="bg-surface-container-low p-6 rounded-[2rem] border-l-8 border-secondary shadow-sm mb-12">
+    <h4 class="font-bold text-sm text-on-surface mb-3">Jumlah Minimal Jamaah Shalat Jumat:</h4>
+    <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+        <li><strong>Mazhab Syafi'i:</strong> Minimal <strong>40 orang jamaah laki-laki</strong> yang telah baligh, berakal sehat, dan menetap. Ini adalah pendapat yang paling umum diajarkan di Indonesia.</li>
+        <li><strong>Mazhab Lain:</strong> Beberapa mazhab memberikan batasan jumlah yang lebih longgar. Ada yang berpendapat sah dengan minimal 12 orang jamaah (Mazhab Maliki), bahkan ada yang menyatakan sah cukup dengan 3 orang jamaah di luar imam (Mazhab Hanafi).</li>
+    </ul>
+</div>
+
+<!-- Bagian 9: Fakta Cepat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">9. Fakta Cepat (Quick Facts)</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <span class="material-symbols-outlined text-primary text-3xl mb-2">looks_two</span>
+        <p class="text-xs text-on-surface-variant">Rakaat Shalat</p>
+        <p class="font-bold text-lg text-primary">2 Rakaat</p>
+        <p class="text-[10px] text-on-surface-variant">Bacaan dikeraskan (jahar)</p>
+    </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <span class="material-symbols-outlined text-secondary text-3xl mb-2">campaign</span>
+        <p class="text-xs text-on-surface-variant">Jumlah Khutbah</p>
+        <p class="font-bold text-lg text-secondary">2 Khutbah</p>
+        <p class="text-[10px] text-on-surface-variant">Wajib sebelum shalat</p>
+    </div>
+    <div class="bg-tertiary/5 p-4 rounded-2xl text-center border border-tertiary/20">
+        <span class="material-symbols-outlined text-tertiary text-3xl mb-2">swap_vert</span>
+        <p class="text-xs text-on-surface-variant">Posisi Khutbah</p>
+        <p class="font-bold text-lg text-tertiary">Sebelum</p>
+        <p class="text-[10px] text-on-surface-variant">Berbeda dengan Shalat Ied</p>
+    </div>
+    <div class="bg-error/5 p-4 rounded-2xl text-center border border-error/20">
+        <span class="material-symbols-outlined text-error text-3xl mb-2">dangerous</span>
+        <p class="text-xs text-on-surface-variant">Ancaman</p>
+        <p class="font-bold text-lg text-error">3x Berturut</p>
+        <p class="text-[10px] text-on-surface-variant">Dicap munafik (H.R. Abu Ya'la)</p>
     </div>
 </div>
 
