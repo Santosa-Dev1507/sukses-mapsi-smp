@@ -1740,72 +1740,199 @@ const materiData = [
         "kelas": 8,
         "semester": "Genap",
         "bab": "Bab 1",
-        "judul": "Inspirasi Al-Qur\'an: Indahnya Beragama Secara Moderat",
-        "waktuBumper": "14 Menit Baca",
+        "judul": "Cinta Tanah Air dalam Al-Qur'an",
+        "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab ini merupakan kompas akhlak bertetangga sosial, menuntun kita menyelami ajaran <strong>Islam Moderat (Ummatan Wasatan)</strong>, yaitu pertengahan, tidak pro-radikal, dan tidak terlalu liberal meremehkan syariat.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Cinta Tanah Air</strong> berdasarkan <strong>Q.S. Al-Qashash/28: 85</strong>, <strong>Q.S. An-Nisa/4: 66</strong>, dan <strong>Q.S. At-Taubah/9: 122</strong>, Hadis terkait, serta panduan hukum tajwid <strong>Nun Mati/Tanwin</strong> dan <strong>Mim Mati</strong>.
 </p>
 
-<!-- 1. Tajwid -->
+<!-- Bagian 1: Cinta Tanah Air dalam Al-Qur'an -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Cinta Tanah Air dalam Al-Qur'an (Dalil Naqli)</h3>
+
+<div class="space-y-8 mb-12">
+    <!-- Q.S. Al-Qashash 85 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-QASHASH: 85</span>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+اِنَّ الَّذِيْ فَرَضَ عَلَيْكَ الْقُرْاٰنَ لَرَاۤدُّكَ اِلٰى مَعَادٍ ۗقُلْ رَّبِّيْٓ اَعْلَمُ مَنْ جَاۤءَ بِالْهُدٰى وَمَنْ هُوَ فِيْ ضَلٰلٍ مُّبِيْنٍ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Sesungguhnya (Allah) yang mewajibkan engkau (Muhammad) untuk (melaksanakan hukum-hukum) Al-Qur'an, benar-benar akan mengembalikanmu ke tempat kembali. Katakanlah (Muhammad), 'Tuhanku mengetahui orang yang membawa petunjuk dan orang yang berada dalam kesesatan yang nyata.'"
+        </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h4 class="font-bold text-sm text-primary mb-2">Isi Kandungan & Tafsir</h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Ulama tafsir terkemuka, Ismail Haqqi dalam tafsirnya <em>Ruh al-Bayan</em>, secara tegas menyatakan bahwa <strong>tafsir ayat ini memberikan isyarat bahwa sesungguhnya cinta tanah air adalah bagian dari iman</strong> (<em>hubbul wathan minal iman</em>). Ayat ini menceritakan kisah perjalanan hijrah Rasulullah saw. dari Makkah ke Madinah. Saat itu, beliau berkali-kali menyebut kata "tanah air" karena merasakan kerinduan yang sangat mendalam terhadap Makkah, tempat kelahirannya. Allah Swt. kemudian mengabulkan harapan beliau dengan menurunkan janji bahwa kelak beliau akan dikembalikan lagi ke Makkah. Hal ini membuktikan bahwa mencintai dan merindukan tanah kelahiran adalah watak fitrah manusia yang diakui di dalam Islam.
+            </p>
+        </div>
+    </div>
+
+    <!-- Q.S. An-Nisa 66 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AN-NISA: 66</span>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+وَلَوْ أَنَّا كَتَبْنَا عَلَيْهِمْ أَنِ اقْتُلُوا أَنْفُسَكُمْ أَوِ اخْرُجُوا مِنْ دِيَارِكُمْ مَا فَعَلُوهُ إِلَّا قَلِيلٌ مِنْهُمْ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Seandainya Kami perintahkan kepada mereka (orang-orang munafik), 'Bunuhlah dirimu atau keluarlah kamu dari kampung halamanmu,' niscaya mereka tidak akan melakukannya, kecuali sebagian kecil dari mereka."
+        </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h4 class="font-bold text-sm text-secondary mb-2">Isi Kandungan & Tafsir</h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Menurut Dr. Wahbah al-Zuhaily, ayat ini mengandung isyarat yang kuat untuk mencintai tanah air. Allah Swt. <strong>menjadikan perintah keluar dari kampung halaman (<em>al-khuruj min ad-diyar</em>) sebagai hal yang setara beratnya dengan perintah bunuh diri (<em>qatl al-anfus</em>)</strong>. Persamaan dalam tingkat kesulitan ketaatan ini menunjukkan bahwa hati manusia memiliki keterikatan batin yang sangat kuat dan bergantung secara psikologis dengan tanah airnya sendiri.
+            </p>
+        </div>
+    </div>
+
+    <!-- Q.S. At-Taubah 122 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-tertiary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AT-TAUBAH: 122</span>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+وَمَا كَانَ الْمُؤْمِنُونَ لِيَنْفِرُوا كَافَّةً ۚ فَلَوْلَا نَفَرَ مِنْ كُلِّ فِرْقَةٍ مِنْهُمْ طَائِفَةٌ لِيَتَفَقَّهُوا فِي الدِّينِ وَلِيُنْذِرُوا قَوْمَهُمْ إِذَا رَجَعُوا إِلَيْهِمْ لَعَلَّهُمْ يَحْذَرُونَ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Tidak sepatutnya orang-orang mukmin pergi semuanya (ke medan perang). Mengapa sebagian dari setiap golongan di antara mereka tidak pergi (tinggal bersama Rasulullah) untuk memperdalam pengetahuan agama mereka dan memberi peringatan kepada kaumnya apabila mereka telah kembali, agar mereka dapat menjaga dirinya?"
+        </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h4 class="font-bold text-sm text-tertiary mb-2">Isi Kandungan & Tafsir</h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Syekh Muhammad Mahmud al-Hijazy dalam <em>Tafsir al-Wadih</em> memaparkan bahwa ayat ini memberikan isyarat bahwa <strong>jihad mempertahankan kedaulatan tanah air secara fisik adalah kewajiban, namun memperdalam ilmu pengetahuan (<em>tafaqquh fid-din</em>) juga merupakan kewajiban suci</strong> yang sangat penting bagi sebuah negara. Suatu negara membutuhkan dua kekuatan pertahanan yang seimbang: perjuangan fisik menggunakan senjata untuk stabilitas nasional, serta perjuangan intelektual lewat pendidikan untuk mencerdaskan kehidupan bangsa. Keduanya merupakan bentuk nyata perwujudan cinta tanah air demi kesejahteraan negara.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Bagian 2: Hadis Terkait -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">2. Hadis Terkait & Keteladanan Ulama</h3>
+
+<div class="bg-gradient-to-br from-primary to-primary-container p-8 rounded-3xl text-white shadow-xl mb-12">
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6" dir="rtl">
+عَنْ أَبِي بَكْرَةَ رَضِيَ اللَّهُ عَنْهُ عَنِ النَّبِيِّ ﷺ قَالَ: كُنْ عَالِمًا أَوْ مُتَعَلِّمًا أَوْ مُسْتَمِعًا أَوْ مُحِبًّا لَا تَكُنِ الْخَامِسَ فَتَهْلِكَ
+    </div>
+    <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 mb-6">
+        "Dari Abu Bakrah r.a. dari Nabi saw. beliau bersabda: 'Jadilah kamu orang yang pandai (berilmu), atau orang yang belajar, atau orang yang mendengarkan, atau orang yang senang (cinta kepada ilmu/orang berilmu), janganlah kamu menjadi orang yang kelima, maka kamu akan celaka.'" <br><strong>(H.R. al-Baihaqi)</strong>
+    </p>
+    
+    <div class="bg-white/10 rounded-2xl p-5 border border-white/20">
+        <h4 class="font-bold text-lg mb-2">Hubungan dengan Cinta Tanah Air</h4>
+        <p class="text-[15px] opacity-90 leading-relaxed">
+            Hadis ini menekankan pentingnya membangun sumber daya manusia yang cerdas, beradab, dan berwawasan luas. Upaya mencerdaskan bangsa merupakan salah satu pilar utama pengisi kemerdekaan dan wujud cinta tanah air yang nyata.
+            <br><br>
+            Semangat kebangsaan berbalut spiritualitas ini digelorakan oleh para ulama Nusantara, seperti <strong>K.H. Hasyim Asy'ari</strong> dan <strong>K.H. A. Wahab Hasbullah</strong>. Beliau berdua merupakan pencetus jargon legendaris <strong>"Hubb al-Waṭan Min al-Iman" (Cinta Tanah Air adalah Sebagian dari Iman)</strong> yang membakar semangat para santri dan rakyat Indonesia untuk bersatu berjuang mengusir penjajah.
+        </p>
+    </div>
+</div>
+
+<!-- Bagian 3: Tajwid -->
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 flex items-center">
     <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
         <span class="material-symbols-outlined text-[24px]">spellcheck</span>
     </span>
-    1. Tajwid Paling Fundamental (Nun & Mim Sukun)
+    3. Materi Tajwid
 </h3>
 
-<div class="grid md:grid-cols-2 gap-6 mb-16">
-    <div class="bg-surface-container-low p-6 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
-        <span class="font-quran absolute -top-4 -right-2 text-9xl text-primary/5">ن</span>
-        <h4 class="font-bold text-lg mb-4 text-primary border-b border-outline-variant/20 pb-2">Hukum Nun Sukun (نْ) / Tanwin</h4>
-        <div class="space-y-3 text-sm text-on-surface-variant relative z-10">
-            <div class="flex items-start gap-2"><span class="bg-primary/10 text-primary px-2 rounded font-bold shrink-0">Izhar</span> <p>Jelas tegas. Bertemu huruf tenggorokan (ء ه ح خ ع غ).</p></div>
-            <div class="flex items-start gap-2"><span class="bg-secondary/10 text-secondary px-2 rounded font-bold shrink-0">Idgham</span> <p>Peleburan Suara. Bighunnah (dengan dengung, ي ن م و) dan Bilaghunnah (tanpa dengung, ل ر).</p></div>
-            <div class="flex items-start gap-2"><span class="bg-tertiary/10 text-tertiary px-2 rounded font-bold shrink-0">Iqlab</span> <p>Sulap suara ke Mim mutlak. (Hanya di huruf ب).</p></div>
-            <div class="flex items-start gap-2"><span class="bg-error/10 text-error px-2 rounded font-bold shrink-0">Ikhfa</span> <p>Dengung samar. (Terjadi di 15 huruf sisanya tertunda).</p></div>
-        </div>
-    </div>
+<!-- Tabel Nun Mati -->
+<div class="mb-10">
+    <h4 class="font-bold text-xl mb-4 text-primary">A. Hukum Bacaan Nun Mati (نْ) atau Tanwin</h4>
+    <p class="text-sm text-on-surface-variant mb-4">Terjadi apabila ada nun sukun atau tanwin bertemu dengan huruf hijaiyah. Hukum bacaannya dibagi menjadi 5 jenis:</p>
     
-    <div class="bg-surface-container-low p-6 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
-        <span class="font-quran absolute -top-4 -right-2 text-9xl text-secondary/5">م</span>
-        <h4 class="font-bold text-lg mb-4 text-secondary border-b border-outline-variant/20 pb-2">Hukum Mim Sukun (مْ)</h4>
-        <div class="space-y-3 text-sm text-on-surface-variant relative z-10">
-            <div class="flex items-start gap-2"><span class="bg-primary/10 text-primary px-2 rounded font-bold shrink-0 mt-1">Ikhfa Syafawi</span> <p>Disamarkan dalam tabrakan dengung bibir. (Khusus jika berhadapan dengan ب).</p></div>
-            <div class="flex items-start gap-2"><span class="bg-secondary/10 text-secondary px-2 rounded font-bold shrink-0 mt-1">Idgham Mimi</span> <p>Mim nabrak Mim! Didegungkan secara syahdu. (Khusus berhadapan dengan م).</p></div>
-            <div class="flex items-start gap-2"><span class="bg-tertiary/10 text-tertiary px-2 rounded font-bold shrink-0 mt-1">Izhar Syafawi</span> <p>Kasus tersering terjadi. Mulut nutup dan diucapkan jelas! (Bertemu selain Ba' dan Mim).</p></div>
+    <div class="overflow-x-auto">
+        <table class="min-w-full text-left text-sm whitespace-nowrap bg-white rounded-2xl overflow-hidden border border-outline-variant/20 shadow-sm">
+            <thead class="bg-surface-container-low text-on-surface">
+                <tr>
+                    <th scope="col" class="px-6 py-4 font-bold">Hukum Bacaan</th>
+                    <th scope="col" class="px-6 py-4 font-bold">Penjelasan</th>
+                    <th scope="col" class="px-6 py-4 font-bold">Huruf-Hurufnya</th>
+                    <th scope="col" class="px-6 py-4 font-bold">Contoh dari Ayat</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-outline-variant/20 whitespace-normal">
+                <tr class="hover:bg-surface-container-lowest transition-colors">
+                    <td class="px-6 py-4 font-bold text-primary">Izh-har Halqi</td>
+                    <td class="px-6 py-4">Dibaca secara <strong>jelas</strong> dan terang tanpa mendengung.</td>
+                    <td class="px-6 py-4 font-quran text-lg" dir="rtl">أ , هـ , ع , ح , غ , خ</td>
+                    <td class="px-6 py-4">
+                        <span class="font-quran text-lg" dir="rtl">مَنْ جَاۤءَ</span> <em>(man jaa'a)</em><br>
+                        <span class="font-quran text-lg" dir="rtl">مِنْهُمْ</span> <em>(minhum)</em>
+                    </td>
+                </tr>
+                <tr class="hover:bg-surface-container-lowest transition-colors">
+                    <td class="px-6 py-4 font-bold text-secondary">Idgham Bighunnah</td>
+                    <td class="px-6 py-4">Dibaca <strong>melebur</strong> dengan suara <strong>mendengung</strong> (ditahan 2 harakat).</td>
+                    <td class="px-6 py-4 font-quran text-lg" dir="rtl">ي , ن , م , و</td>
+                    <td class="px-6 py-4">
+                        <span class="font-quran text-lg" dir="rtl">مَنْ يُّؤْمِنْ</span> <em>(may yu'min)</em><br>
+                        <span class="font-quran text-lg" dir="rtl">ضَلٰلٍ مُّبِيْنٍ</span> <em>(ḍalālim mubīnin)</em>
+                    </td>
+                </tr>
+                <tr class="hover:bg-surface-container-lowest transition-colors">
+                    <td class="px-6 py-4 font-bold text-tertiary">Idgham Bilaghunnah</td>
+                    <td class="px-6 py-4">Dibaca <strong>melebur</strong> ke huruf berikutnya <strong>tanpa mendengung</strong>.</td>
+                    <td class="px-6 py-4 font-quran text-lg" dir="rtl">ل , ر</td>
+                    <td class="px-6 py-4">
+                        <span class="font-quran text-lg" dir="rtl">مِنْ رَّبِكُمْ</span> <em>(mir rabbikum)</em><br>
+                        <span class="font-quran text-lg" dir="rtl">مِنْ لَدُنْكَ</span> <em>(mil ladunka)</em>
+                    </td>
+                </tr>
+                <tr class="hover:bg-surface-container-lowest transition-colors">
+                    <td class="px-6 py-4 font-bold text-primary">Iqlab</td>
+                    <td class="px-6 py-4">Suara nun mati/tanwin <strong>dibalik</strong> menjadi suara mim mati (م) dengan dengung.</td>
+                    <td class="px-6 py-4 font-quran text-lg" dir="rtl">ب</td>
+                    <td class="px-6 py-4">
+                        <span class="font-quran text-lg" dir="rtl">مِنْ بَعْدِ</span> <em>(mim ba'di)</em>
+                    </td>
+                </tr>
+                <tr class="hover:bg-surface-container-lowest transition-colors">
+                    <td class="px-6 py-4 font-bold text-secondary">Ikhfa' Haqiqi</td>
+                    <td class="px-6 py-4">Dibaca secara <strong>samar-samar</strong> dengan dengung yang ditahan.</td>
+                    <td class="px-6 py-4 font-quran text-lg" dir="rtl">ت, ث, ج, د, ذ, ز, س, ش, ص, ض, ط, ظ, ف, ق, ك</td>
+                    <td class="px-6 py-4">
+                        <span class="font-quran text-lg" dir="rtl">أَنْفُسَكُمْ</span> <em>(anfusakum)</em><br>
+                        <span class="font-quran text-lg" dir="rtl">وَلِيُنْذِرُوا</span> <em>(wa liyunżirū)</em>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Tabel Mim Mati -->
+<div>
+    <h4 class="font-bold text-xl mb-4 text-secondary">B. Hukum Bacaan Mim Mati/Sukun (مْ)</h4>
+    <p class="text-sm text-on-surface-variant mb-4">Terjadi apabila ada huruf mim sukun bertemu dengan huruf hijaiyah. Hukum bacaannya dibagi menjadi 3 jenis:</p>
+    
+    <div class="grid md:grid-cols-3 gap-6 mb-12">
+        <div class="bg-surface-container-low p-6 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
+            <span class="font-quran absolute -top-4 -right-2 text-9xl text-primary/5">ب</span>
+            <h5 class="font-bold text-lg mb-3 text-primary">Ikhfa' Syafawi</h5>
+            <p class="text-sm text-on-surface-variant mb-3">Dibaca secara <strong>samar-samar</strong> di bibir dan wajib didengungkan. Terjadi jika bertemu huruf <strong>Ba' (ب)</strong>.</p>
+            <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-1 relative z-10">
+                <li><span class="font-quran text-lg mx-1" dir="rtl">تَرْمِيهِمْ بِحِجَارَةٍ</span></li>
+                <li><span class="font-quran text-lg mx-1" dir="rtl">وَمَا لَهُمْ بِذٰلِكَ</span></li>
+            </ul>
         </div>
-    </div>
-</div>
-
-<!-- 2. Ayat Moderat -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 text-center">Konsep Emas Moderasi Beragama</h3>
-
-<div class="grid md:grid-cols-2 gap-6 mb-12">
-    <div class="bg-primary/5 p-6 rounded-3xl border-l-8 border-primary relative overflow-hidden flex flex-col justify-center">
-        <div class="text-right font-quran text-2xl leading-[2.5] mb-4 text-on-surface" dir="rtl">وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا ...</div>
-        <p class="font-body text-sm italic text-on-surface-variant border-t border-outline-variant/20 pt-3">
-            "Kami (Tuhan) telah menjadikan kamu (umat Islam) <strong>'ummatan wasatan' (umat moderat / jalan tengah)</strong> agar kalian menjadi wasit adil atas manusia..." <br><strong>(Q.S. al-Baqarah: 143)</strong>
-        </p>
-    </div>
-    <div class="bg-secondary/5 p-6 rounded-3xl border-l-8 border-secondary relative overflow-hidden flex flex-col justify-center">
-        <div class="text-right font-quran text-lg mb-3" dir="rtl">إِنَّ الدِّينَ يُسْرٌ ... فَسَدِّدُوا وَقَارِبُوا وَأَبْشِرُوا</div>
-        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/20 pt-3">"Islam adalah entitas yang ringan dan fleksibel. Maka carilah jalan pertengahan, proporsional, serta gembirakanlah." <br><strong>(HR. Bukhari dari Jabir)</strong></p>
-    </div>
-</div>
-
-<!-- 4. Kisah Teladan Hudaibiyah -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 rounded-[3rem] text-white shadow-xl flex flex-col items-center text-center">
-    <h3 class="font-headline text-2xl font-bold mb-4 text-white">Hikmah Puncak Moderasi: Tragedi Hudaibiyah</h3>
-    <p class="text-sm opacity-90 leading-relaxed max-w-3xl mb-6">
-        Pada 628 M, kafir Quraisy menyabotase blokade jalur kedatangan Nabi dan rombongan umrah di Mekkah. Lewat diplomasi super panas, lahirlah gencatan dokumen pakta *"Perjanjian Hudaibiyah"*. Secara tertulis isi dokumennya merugikan gengsi umat Islam, hingga mayoritas sahabat murka.
-    </p>
-    <div class="w-full bg-white/10 rounded-2xl p-6 border border-white/20">
-        <span class="material-symbols-outlined text-[40px] text-secondary-fixed mb-2">gavel</span>
-        <p class="text-[15px] font-bold text-white mb-2">Namun, Nabi memilih jalur Kelapangan Dada Moderat!</p>
-        <p class="text-xs text-white/80">Beliau menyetujui penghapusan diksi "Rasulullah" pada naskah demi menjaga genjatan senjata fisik. Nyatanya, pengalah strategis tersebut terbukti brilian karena kelak berujung menangnya dakwah masif tanpa jatuhnya darah satupun (Fathu Makkah).</p>
+        
+        <div class="bg-surface-container-low p-6 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
+            <span class="font-quran absolute -top-4 -right-2 text-9xl text-secondary/5">م</span>
+            <h5 class="font-bold text-lg mb-3 text-secondary">Idgham Mimi</h5>
+            <p class="text-sm text-on-surface-variant mb-3">Dibaca dengan <strong>memasukkan mim pertama</strong> ke mim kedua dan wajib didengungkan. Terjadi jika bertemu huruf <strong>Mim (م)</strong>.</p>
+            <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-1 relative z-10">
+                <li><span class="font-quran text-lg mx-1" dir="rtl">وَلَكُمْ مَّا كَسَبْتُمْ</span></li>
+                <li><span class="font-quran text-lg mx-1" dir="rtl">وَمِنْهُمْ مَّنْ</span></li>
+            </ul>
+        </div>
+        
+        <div class="bg-surface-container-low p-6 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
+            <span class="font-quran absolute -top-4 -right-2 text-9xl text-tertiary/5">و</span>
+            <h5 class="font-bold text-lg mb-3 text-tertiary">Izh-har Syafawi</h5>
+            <p class="text-sm text-on-surface-variant mb-3">Dibaca <strong>jelas</strong> di bibir tanpa dengung. Terjadi jika bertemu semua huruf selain Ba' & Mim. Perlu lebih jelas pada <strong>Wawu & Fa</strong>.</p>
+            <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-1 relative z-10">
+                <li><span class="font-quran text-lg mx-1" dir="rtl">أَنْفُسَكُمْ أَوْ</span></li>
+                <li><span class="font-quran text-lg mx-1" dir="rtl">إِلَيْهِمْ لَعَلَّهُمْ</span></li>
+            </ul>
+        </div>
     </div>
 </div>
 
