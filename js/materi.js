@@ -1959,91 +1959,244 @@ const materiData = [
         "kelas": 8,
         "semester": "Ganjil",
         "bab": "Bab 4",
-        "judul": "Menjadi Pribadi Berintegritas dengan Sifat Amanah dan Jujur",
-        "waktuBumper": "12 Menit Baca",
+        "judul": "Ibadah Haji dan Umrah",
+        "waktuBumper": "25 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab ini membahas tentang dua sifat mutiara akhlak dalam Islam yang sangat penting untuk membentuk pribadi berintegritas dan memiliki prinsip kuat, yaitu <strong>Amanah</strong> dan <strong>Jujur</strong>.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Ibadah Haji dan Umrah</strong>, yang mencakup definisi, dasar hukum, syarat & rukun, tata cara pelaksanaan, larangan ihram, metode pelaksanaan, hingga istilah kunci dalam fiqih.
 </p>
 
-<!-- 1. Pengertian -->
+<!-- Bagian 1: Definisi -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Pengertian Haji dan Umrah</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        <strong>Haji</strong> adalah menyengaja mengunjungi Baitullah (Ka'bah) di Makkah untuk melaksanakan rangkaian ibadah yang telah diatur ketentuan dan tata caranya oleh syariat Islam. Hukum melaksanakan ibadah haji adalah <strong>wajib (fardhu 'ain)</strong> sekali seumur hidup bagi setiap muslim yang telah memenuhi syarat mampu (<em>istitha'ah</em>). Sementara itu, <strong>umrah</strong> secara bahasa berarti ziarah atau berkunjung, dan hukum melaksanakannya adalah sama seperti haji yaitu <strong>wajib</strong> sekali seumur hidup menurut pendapat yang kuat.
+    </p>
+</div>
+
+<!-- Bagian 2: Dasar Hukum -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Dasar Hukum (Dalil)</h3>
+<div class="space-y-8 mb-12">
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. ALI 'IMRAN: 97</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Dalil Al-Qur'an</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+فِيهِ آيَاتٌ بَيِّنَاتٌ مَقَامُ إِبْرَاهِيمَ ۖ وَمَنْ دَخَلَهُ كَانَ آمِنًا ۗ وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَنْ كَفَرَ فَإِنَّ اللَّهَ غَنِيٌّ عَنِ الْعَالَمِينَ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+            "Di sana terdapat tanda-tanda yang jelas, (di antaranya) maqam Ibrahim. Barangsiapa memasukinya (Baitullah) amanlah dia. Dan (di antara) kewajiban manusia terhadap Allah adalah melaksanakan ibadah haji ke Baitullah, yaitu bagi orang-orang yang mampu mengadakan perjalanan ke sana. Barangsiapa mengingkari (kewajiban) haji, maka ketahuilah bahwa Allah Maha Kaya (tidak memerlukan sesuatu) dari seluruh alam."
+        </p>
+    </div>
+    <div class="bg-gradient-to-br from-secondary to-secondary-container p-8 rounded-[2rem] shadow-sm relative text-white">
+        <span class="bg-white/20 text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest border border-white/30">HADIS RASULULLAH SAW.</span>
+        <h4 class="font-bold text-lg text-white mb-4">Dalil Hadis</h4>
+        <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 leading-relaxed">
+            "Ibadah haji itu diwajibkan hanya sekali dalam seumur hidup. Apabila ada yang melaksanakan ibadah haji lebih dari sekali, maka hukumnya adalah sunnah."
+        </p>
+    </div>
+</div>
+
+<!-- Bagian 3: Syarat & Rukun -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Syarat & Rukun</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-8">
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mr-3"><span class="material-symbols-outlined">person_check</span></div>
+            <h4 class="font-bold text-lg text-tertiary">Syarat Wajib Haji & Umrah</h4>
+        </div>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Islam</li>
+            <li>Baligh (dewasa)</li>
+            <li>Berakal sehat</li>
+            <li>Merdeka (bukan hamba sahaya)</li>
+            <li>Mampu (<em>istitha'ah</em>): finansial, fisik, dan keamanan</li>
+        </ol>
+    </div>
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mr-3"><span class="material-symbols-outlined">verified</span></div>
+            <h4 class="font-bold text-lg text-tertiary">Rukun Haji</h4>
+        </div>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li><strong>Ihram:</strong> Berniat haji dengan memakai pakaian ihram</li>
+            <li><strong>Wukuf di Arafah:</strong> Berdiam diri pada 9 Dzulhijjah</li>
+            <li><strong>Thawaf Ifadah:</strong> Mengelilingi Ka'bah 7 kali</li>
+            <li><strong>Sa'i:</strong> Safa ke Marwah 7 kali</li>
+            <li><strong>Tahallul:</strong> Menggunting rambut minimal 3 helai</li>
+            <li><strong>Tertib:</strong> Berurutan</li>
+        </ol>
+    </div>
+</div>
 <div class="grid md:grid-cols-2 gap-6 mb-12">
-    <div class="bg-surface-container-low p-8 rounded-[2rem] border-t-4 border-primary shadow-sm hover:shadow-lg transition-all">
-        <h4 class="font-bold text-xl mb-4 text-primary flex items-center"><span class="material-symbols-outlined mr-2">verified_user</span> Amanah (Terpercaya)</h4>
-        <p class="text-sm text-on-surface-variant leading-relaxed">Sesuatu yang dipercayakan kepada seseorang, baik berupa barang titipan, rahasia, janji, maupun tugas tanggung jawab. Menjaganya berarti melaksanakan titipan itu dengan usaha dan integritas sebaik-baiknya.</p>
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-primary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-primary/10 text-primary rounded-full flex items-center justify-center mr-3"><span class="material-symbols-outlined">checklist</span></div>
+            <h4 class="font-bold text-lg text-primary">Rukun Umrah</h4>
+        </div>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Ihram disertai niat umrah</li>
+            <li>Thawaf umrah</li>
+            <li>Sa'i</li>
+            <li>Tahallul</li>
+            <li>Tertib</li>
+        </ol>
+        <div class="bg-primary/10 p-3 rounded-xl mt-3 border border-primary/20">
+            <p class="text-xs text-on-surface-variant italic"><strong>Catatan:</strong> Umrah <strong>tidak</strong> memiliki rukun Wukuf di Arafah.</p>
+        </div>
     </div>
-    <div class="bg-surface-container-low p-8 rounded-[2rem] border-t-4 border-secondary shadow-sm hover:shadow-lg transition-all">
-        <h4 class="font-bold text-xl mb-4 text-secondary flex items-center"><span class="material-symbols-outlined mr-2">straight</span> Jujur (Lurus/Benar)</h4>
-        <p class="text-sm text-on-surface-variant leading-relaxed">Kesesuaian mutlak antara apa yang diucapkan, diperbuat, dan yang diyakini dalam hati. Serta kesesuaian antara berita dan fakta yang sebenarnya tanpa ada kebohongan sama sekali.</p>
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-primary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-primary/10 text-primary rounded-full flex items-center justify-center mr-3"><span class="material-symbols-outlined">assignment</span></div>
+            <h4 class="font-bold text-lg text-primary">Wajib Haji</h4>
+        </div>
+        <p class="text-xs text-on-surface-variant mb-2 italic">Jika ditinggalkan, haji sah tetapi wajib bayar dam:</p>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Niat ihram dari <em>miqat</em></li>
+            <li>Mabit di Muzdalifah walau sebentar</li>
+            <li>Melempar tiga jumrah</li>
+            <li>Mabit di Mina</li>
+            <li>Menghindari larangan selama ihram</li>
+            <li>Thawaf Wada' sebelum meninggalkan Mekah</li>
+        </ol>
     </div>
 </div>
 
-<!-- 2 & 3. Penerapan & Contoh -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-16 mb-6 text-center">Cara & Contoh Penerapan Sehari-hari</h3>
-<div class="grid md:grid-cols-3 gap-6 mb-16">
-    <!-- Di Rumah -->
-    <div class="group">
-        <div class="bg-primary/10 text-primary font-bold text-center py-3 rounded-t-2xl font-headline group-hover:bg-primary group-hover:text-white transition-colors">🏡 Di Rumah</div>
-        <div class="bg-surface-container-lowest p-6 rounded-b-2xl border border-outline-variant/10 shadow-sm space-y-4 text-sm h-[200px]">
-            <p class="flex gap-3 items-start"><span class="material-symbols-outlined text-primary text-lg shrink-0">check_circle</span> Mengerjakan tugas dari orang tua dengan baik.</p>
-            <p class="flex gap-3 items-start"><span class="material-symbols-outlined text-primary text-lg shrink-0">check_circle</span> Tidak sekali-kali berbohong kepada Ayah & Ibu.</p>
-            <p class="flex gap-3 items-start"><span class="material-symbols-outlined text-primary text-lg shrink-0">check_circle</span> Mengembalikan sisa uang belanja secara jujur mutlak.</p>
-        </div>
-    </div>
-    <!-- Di Sekolah -->
-    <div class="group">
-        <div class="bg-secondary/10 text-secondary font-bold text-center py-3 rounded-t-2xl font-headline group-hover:bg-secondary group-hover:text-white transition-colors">🏫 Di Sekolah</div>
-        <div class="bg-surface-container-lowest p-6 rounded-b-2xl border border-outline-variant/10 shadow-sm space-y-4 text-sm h-[200px]">
-            <p class="flex gap-3 items-start"><span class="material-symbols-outlined text-secondary text-lg shrink-0">check_circle</span> Mengerjakan PR murni jerih payah sendiri (anti nyontek).</p>
-            <p class="flex gap-3 items-start"><span class="material-symbols-outlined text-secondary text-lg shrink-0">check_circle</span> Mengembalikan buku perpus tidak lewat tenggat waktu.</p>
-            <p class="flex gap-3 items-start"><span class="material-symbols-outlined text-secondary text-lg shrink-0">check_circle</span> Bertanggung jawab sebagai struktur pengurus.</p>
-        </div>
-    </div>
-    <!-- Di Masyarakat -->
-    <div class="group">
-        <div class="bg-tertiary/10 text-tertiary font-bold text-center py-3 rounded-t-2xl font-headline group-hover:bg-tertiary group-hover:text-white transition-colors">🌍 Di Masyarakat</div>
-        <div class="bg-surface-container-lowest p-6 rounded-b-2xl border border-outline-variant/10 shadow-sm space-y-4 text-sm h-[200px]">
-            <p class="flex gap-3 items-start"><span class="material-symbols-outlined text-tertiary text-lg shrink-0">check_circle</span> Menjadi ketua OSIS atau panitia RT yang anti korupsi.</p>
-            <p class="flex gap-3 items-start"><span class="material-symbols-outlined text-tertiary text-lg shrink-0">check_circle</span> Saring sebelum 'Sharing' (Anti menyebar kabar Hoaks).</p>
-            <p class="flex gap-3 items-start"><span class="material-symbols-outlined text-tertiary text-lg shrink-0">check_circle</span> Menjaga lisan dalam interaksi pergaulan tetangga.</p>
-        </div>
+<!-- Bagian 4: Tata Cara -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">4. Tata Cara / Urutan Pelaksanaan</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm mb-12">
+    <div class="space-y-4">
+        <div class="flex items-start"><div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">1</div><div><h5 class="font-bold text-sm text-on-surface">Ihram dari Miqat</h5><p class="text-sm text-on-surface-variant">Memakai pakaian ihram dan mengucapkan niat haji di batas tempat (<em>miqat makani</em>) yang telah ditentukan.</p></div></div>
+        <div class="flex items-start"><div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">2</div><div><h5 class="font-bold text-sm text-on-surface">Wukuf di Arafah</h5><p class="text-sm text-on-surface-variant">Berada di padang Arafah pada tanggal 9 Dzulhijjah, mulai tergelincir matahari hingga terbit fajar tanggal 10 Dzulhijjah.</p></div></div>
+        <div class="flex items-start"><div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">3</div><div><h5 class="font-bold text-sm text-on-surface">Mabit di Muzdalifah</h5><p class="text-sm text-on-surface-variant">Berhenti/menginap sebentar di Muzdalifah selepas tengah malam untuk mengumpulkan batu kerikil.</p></div></div>
+        <div class="flex items-start"><div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">4</div><div><h5 class="font-bold text-sm text-on-surface">Melempar Jumrah Aqabah & Tahallul Awal</h5><p class="text-sm text-on-surface-variant">Melontar batu kerikil pada tanggal 10 Dzulhijjah, dilanjutkan memotong rambut (Tahallul Awal).</p></div></div>
+        <div class="flex items-start"><div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">5</div><div><h5 class="font-bold text-sm text-on-surface">Mabit di Mina</h5><p class="text-sm text-on-surface-variant">Menginap di Mina selama hari Tasyrik (11, 12, 13 Dzulhijjah) untuk melempar tiga jumrah setiap harinya.</p></div></div>
+        <div class="flex items-start"><div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">6</div><div><h5 class="font-bold text-sm text-on-surface">Thawaf Ifadah dan Sa'i</h5><p class="text-sm text-on-surface-variant">Mengelilingi Ka'bah 7 kali dan melakukan Sa'i antara Safa dan Marwah di Masjidil Haram.</p></div></div>
+        <div class="flex items-start"><div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">7</div><div><h5 class="font-bold text-sm text-on-surface">Tahallul Akhir</h5><p class="text-sm text-on-surface-variant">Setelah selesai Thawaf dan Sa'i, seluruh larangan ihram menjadi halal kembali.</p></div></div>
+        <div class="flex items-start"><div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">8</div><div><h5 class="font-bold text-sm text-on-surface">Thawaf Wada'</h5><p class="text-sm text-on-surface-variant">Thawaf perpisahan sebelum jamaah haji meninggalkan kota suci Mekah untuk pulang ke tanah air.</p></div></div>
     </div>
 </div>
 
-<!-- 4. Hikmah -->
-<div class="bg-surface-container-high p-8 rounded-[2rem] border-l-8 border-primary mb-16 flex flex-col md:flex-row gap-6 items-center shadow-sm">
-    <div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
-        <span class="material-symbols-outlined text-primary text-4xl">emoji_events</span>
-    </div>
-    <div>
-        <h4 class="font-bold text-xl mb-4 text-on-surface">Manfaat Emas Bersikap Jujur & Amanah</h4>
-        <ul class="text-sm text-on-surface-variant space-y-2 opacity-90">
-            <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">arrow_forward_ios</span> <strong>Memanen Kepercayaan:</strong> Modal terbaik investasi sosial.</li>
-            <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">arrow_forward_ios</span> <strong>Ketenangan Jiwa Hakiki:</strong> 100% bebas dari was-was takut ketahuan dosa penipuan.</li>
-            <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">arrow_forward_ios</span> <strong>Surga sebagai Balasannya:</strong> Dijanjikan cinta dari Sang Khalik.</li>
-        </ul>
-    </div>
+<!-- Bagian 5: Larangan Ihram -->
+<h3 class="font-headline text-2xl font-bold text-error mt-12 mb-6">5. Larangan selama Ihram</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-error/10">
+                <th class="text-left p-3 font-bold text-error border-b border-outline-variant/20">Kategori</th>
+                <th class="text-left p-3 font-bold text-error border-b border-outline-variant/20">Khusus Laki-Laki</th>
+                <th class="text-left p-3 font-bold text-error border-b border-outline-variant/20">Khusus Perempuan</th>
+                <th class="text-left p-3 font-bold text-error border-b border-outline-variant/20">Keduanya</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Pakaian</td>
+                <td class="p-3">Memakai pakaian berjahit, tutup kepala</td>
+                <td class="p-3">Memakai tutup muka/cadar, sarung tangan</td>
+                <td class="p-3">—</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Wewangian</td>
+                <td class="p-3">—</td>
+                <td class="p-3">—</td>
+                <td class="p-3">Memakai wangi-wangian, memotong kuku/mencukur rambut</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Perilaku</td>
+                <td class="p-3">—</td>
+                <td class="p-3">—</td>
+                <td class="p-3">Melangsungkan pernikahan, memburu binatang liar</td>
+            </tr>
+            <tr class="bg-error/5">
+                <td class="p-3 font-semibold text-error">Larangan Berat</td>
+                <td class="p-3">—</td>
+                <td class="p-3">—</td>
+                <td class="p-3 font-semibold text-error">Hubungan suami istri sebelum tahallul awal (membatalkan haji)</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
-<!-- 5. Kisah Teladan -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 md:p-14 rounded-[3rem] text-white shadow-xl relative overflow-hidden">
-    <span class="material-symbols-outlined absolute -bottom-10 -right-10 text-[200px] text-white/5 rotate-12">pets</span>
-    <h3 class="font-headline text-3xl font-bold mb-8 text-white text-center border-b border-white/20 pb-6 relative z-10">Kisah Teladan: Khalifah Umar & Anak Gembala</h3>
-    
-    <div class="text-white/90 text-[15px] leading-relaxed space-y-6 relative z-10 text-justify font-medium">
-        <p>Suatu hari Khalifah Umar bin Khattab r.a. pergi keluar perbatasan rute kafilah dan menjumpai seorang anak gembala budak yang menggembalakan ribuan domba gemuk. Umar berniat mengujinya dengan menawar untuk membeli seekor dan menyuruh sang anak berbohong kepada tuannya bahwa *"dombanya mati telah dimakan serigala"*.</p>
-        
-        <div class="bg-white/10 p-6 rounded-2xl italic border-l-4 border-secondary my-8 backdrop-blur-sm text-lg font-bold text-center">
-            "Jika Tuan menyuruh demikian, lalu di manakah Allah?" <br><span class="text-sm font-normal text-white/70 block mt-2">(Jawab sang pengembala remaja mematahkan argumen suap Khalifah Umar)</span>
-        </div>
-        
-        <p>Mendengar kalimat sakti tersebut, badan Umar gemetar dan menangis. Sang pemuda itu sadar betul; meskipun tuannya tidak berjaga, tetapi kamera Allah Azza Wa Jalla tak akan pernah berkedip mencatat semua kelakuan manusia di balik layar pertanggungjawaban. Umar lalu membeli budak tersebut dan memerdekakannya sebagai balasan atas kejujurannya.</p>
-        
-        <div class="bg-secondary p-4 mt-8 rounded-xl font-bold font-headline text-center text-secondary-on shadow-lg text-lg text-on-secondary-container">
-            "Integritas adalah tentang satu kejujuran yang menetap kokoh; saat bahkan tidak ada satupun mata manusia yang bisa melihat."
-        </div>
+<!-- Bagian 6: Metode Pelaksanaan -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">6. Metode Pelaksanaan Haji & Umrah</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Nama Metode</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Urutan Pelaksanaan</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Denda (Dam)</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Haji Tamattu'</td>
+                <td class="p-3"><strong>Umrah</strong> terlebih dahulu, baru kemudian <strong>Haji</strong></td>
+                <td class="p-3">Wajib dam (kambing atau puasa 10 hari)</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Haji Ifrad</td>
+                <td class="p-3"><strong>Haji</strong> terlebih dahulu, baru kemudian <strong>Umrah</strong></td>
+                <td class="p-3">Tidak dikenakan dam</td>
+            </tr>
+            <tr>
+                <td class="p-3 font-semibold">Haji Qiran</td>
+                <td class="p-3"><strong>Haji dan Umrah bersamaan</strong> dalam satu niat ihram</td>
+                <td class="p-3">Wajib dam</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 7: Istilah Kunci -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">7. Istilah Kunci (Kosakata Fiqih)</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead><tr class="bg-primary/10"><th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Istilah</th><th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Makna Singkat</th></tr></thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Miqat</td><td class="p-3">Batas ketentuan tempat/waktu untuk memulai niat ihram</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Dam</td><td class="p-3">Denda berupa penyembelihan hewan akibat melanggar ketentuan haji</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Istitha'ah</td><td class="p-3">Kemampuan fisik, finansial, dan keamanan perjalanan</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Mabrur</td><td class="p-3">Haji yang diterima Allah dan berdampak perubahan tingkah laku baik</td></tr>
+            <tr><td class="p-3 font-semibold">Badal Haji</td><td class="p-3">Pelaksanaan haji yang diwakilkan oleh orang lain</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 8: Perbedaan Pendapat Ulama -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">8. Perbedaan Pendapat Ulama</h3>
+<div class="bg-surface-container-low p-6 rounded-[2rem] border-l-8 border-secondary shadow-sm mb-12">
+    <h4 class="font-bold text-sm text-on-surface mb-3">Hukum Kewajiban Haji bagi Orang yang Baru Mampu:</h4>
+    <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+        <li><strong>Pendapat Pertama (<em>Al-Faur</em>):</strong> Haji wajib dilaksanakan <strong>segera</strong> pada tahun ia mampu tanpa boleh ditunda-tunda.</li>
+        <li><strong>Pendapat Kedua (<em>At-Tarakhi</em>):</strong> Kewajiban haji boleh <strong>ditunda</strong> ke tahun-tahun berikutnya, asalkan ia memiliki azam (tekad kuat) untuk berangkat sebelum akhir hayatnya.</li>
+    </ul>
+</div>
+
+<!-- Bagian 9: Fakta Cepat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">9. Fakta Cepat (Quick Facts)</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <span class="material-symbols-outlined text-primary text-3xl mb-2">calendar_month</span>
+        <p class="text-xs text-on-surface-variant">Tanggal Wukuf</p>
+        <p class="font-bold text-lg text-primary">9 Dzulhijjah</p>
+    </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <span class="material-symbols-outlined text-secondary text-3xl mb-2">restart_alt</span>
+        <p class="text-xs text-on-surface-variant">Putaran Thawaf</p>
+        <p class="font-bold text-lg text-secondary">7 Kali</p>
+    </div>
+    <div class="bg-tertiary/5 p-4 rounded-2xl text-center border border-tertiary/20">
+        <span class="material-symbols-outlined text-tertiary text-3xl mb-2">event_repeat</span>
+        <p class="text-xs text-on-surface-variant">Haji Wajib</p>
+        <p class="font-bold text-lg text-tertiary">1x Seumur Hidup</p>
+    </div>
+    <div class="bg-error/5 p-4 rounded-2xl text-center border border-error/20">
+        <span class="material-symbols-outlined text-error text-3xl mb-2">fasting</span>
+        <p class="text-xs text-on-surface-variant">Puasa Pengganti Dam</p>
+        <p class="font-bold text-lg text-error">10 Hari</p>
+        <p class="text-[10px] text-on-surface-variant">3 di tanah suci, 7 setelah pulang</p>
     </div>
 </div>
 
@@ -2582,134 +2735,276 @@ const materiData = [
         "kelas": 8,
         "semester": "Genap",
         "bab": "Bab 4",
-        "judul": "Inspirasi Cendekiawan Muslim Abbasiyah untuk Peradaban",
-        "waktuBumper": "18 Menit Baca",
+        "judul": "Penyelenggaraan (Pengurusan) Jenazah",
+        "waktuBumper": "25 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab ini adalah puncak selebrasi peradaban rasional Islam. Kita akan melihat bagaimana doktrin "Wajib Menuntut Ilmu" melahirkan ratusan polimatik jenius di era Abbasiyah yang meletakkan fondasi sains dan teknologi modern dunia hari ini.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Penyelenggaraan (Pengurusan) Jenazah</strong>, yang mencakup definisi, dasar hukum, syarat & rukun, tata cara pelaksanaan (memandikan, mengkafani, menyalatkan, menguburkan), hingga istilah kunci dalam fiqih.
 </p>
 
-<!-- 1. Semangat Ilmu -->
-<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12 flex flex-col md:flex-row items-center gap-8">
-    <div class="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
-        <span class="material-symbols-outlined text-[48px] text-primary">local_library</span>
+<!-- Bagian 1: Definisi -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Pengertian Penyelenggaraan Jenazah</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        <strong>Penyelenggaraan jenazah</strong> adalah rangkaian pengurusan terhadap jenazah seorang muslim atau muslimah sejak ia dinyatakan wafat hingga dikuburkan. Hukum melaksanakan penyelenggaraan jenazah adalah <strong>fardhu kifayah</strong> bagi masyarakat muslim setempat, yang artinya jika sebagian kaum muslimin sudah melaksanakannya, maka kewajiban tersebut gugur bagi yang lainnya. Sebaliknya, jika tidak ada satu pun yang mengurusnya, maka seluruh umat Islam di wilayah terdekat tersebut berdosa.
+    </p>
+</div>
+
+<!-- Bagian 2: Dasar Hukum -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Dasar Hukum (Dalil)</h3>
+<div class="space-y-8 mb-12">
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. ALI 'IMRAN: 185</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Keniscayaan Kematian</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ ۗ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ الْقِيَامَةِ ۖ فَمَنْ زُحْزِحَ عَنِ النَّارِ وَأُدْخِلَ الْجَنَّةَ فَقَدْ فَازَ ۗ وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+            "Setiap yang bernyawa akan merasakan mati. Dan hanya pada hari Kiamat sajalah diberikan dengan sempurna balasanmu. Barangsiapa dijauhkan dari neraka dan dimasukkan ke dalam surga, sungguh, dia telah memperoleh kemenangan. Kehidupan dunia hanyalah kesenangan yang memperdayakan."
+        </p>
     </div>
-    <div>
-        <h3 class="font-headline text-2xl font-bold text-primary mb-3">Doktrin Gila Ilmu</h3>
-        <p class="text-sm text-on-surface-variant leading-relaxed text-justify">
-            Al-Qur'an dan Hadis berulang kali memacu umat untuk meneliti alam semesta. Di era Abbasiyah, berburu ilmu tidak hanya sekadar hobi, melainkan <strong>ibadah vertikal</strong> yang dimodali besar-besaran oleh negara melalui lembaga *Bayt al-Hikmah*.
+    <div class="bg-gradient-to-br from-secondary to-secondary-container p-8 rounded-[2rem] shadow-sm relative text-white">
+        <span class="bg-white/20 text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest border border-white/30">H.R. BUKHARI</span>
+        <h4 class="font-bold text-lg text-white mb-4">Perintah Memandikan Jenazah</h4>
+        <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 leading-relaxed">
+            "Mandikanlah dengan mengguyurkan air yang dicampur dengan daun bidara tiga kali, lima kali, atau lebih dari itu, jika kalian anggap perlu, dan jadikanlah yang terakhirnya dengan kapur barus..." (H.R. Bukhari dari Ummu 'Athiyyah r.a.)
         </p>
     </div>
 </div>
 
-<!-- 2. Galeri Ilmuwan Muslim -->
-<h3 class="font-headline text-2xl font-bold text-center mt-12 mb-4">Galeri Cendekiawan Muslim Abbasiyah</h3>
-<p class="text-center text-sm text-on-surface-variant max-w-3xl mx-auto mb-10">Berikut adalah *"Avengers"* peradaban Islam yang mengubah dunia. Kami membaginya ke dalam 3 fakultas utama:</p>
-
-<!-- Fakultas Sains & Teknologi -->
-<h4 class="font-bold text-lg text-secondary bg-secondary/10 px-4 py-2 rounded-xl inline-block mb-6"><span class="material-symbols-outlined align-middle mr-2 text-sm">science</span> Fakultas Sains & Kedokteran</h4>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
-    <div class="p-5 border border-outline-variant/30 rounded-2xl bg-white shadow-sm hover:border-secondary transition-colors">
-        <h5 class="font-bold text-on-surface text-md">Al-Khawarizmi</h5>
-        <div class="text-[10px] text-secondary font-bold mb-2">Matematika & Geografi</div>
-        <p class="text-xs text-on-surface-variant">Bapak <strong>Aljabar</strong>. Memperkenalkan angka <strong>nol</strong> dan sistem desimal, perumuskan trigonometri dasar.</p>
+<!-- Bagian 3: Syarat & Rukun -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Syarat & Rukun</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-8">
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mr-3"><span class="material-symbols-outlined">water_drop</span></div>
+            <h4 class="font-bold text-lg text-tertiary">Syarat Jenazah Dimandikan</h4>
+        </div>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Beragama Islam</li>
+            <li>Didapati tubuhnya atau sebagian anggota tubuhnya</li>
+            <li>Bukan mati syahid (gugur di medan perang)</li>
+        </ol>
     </div>
-    <div class="p-5 border border-outline-variant/30 rounded-2xl bg-white shadow-sm hover:border-secondary transition-colors">
-        <h5 class="font-bold text-on-surface text-md">Ibnu Sina (Avicenna)</h5>
-        <div class="text-[10px] text-secondary font-bold mb-2">Kedokteran</div>
-        <p class="text-xs text-on-surface-variant">Penulis kitab legendaris <em>"Al-Qanun fi at-Tibb"</em>, rujukan emas medis dunia selama berabad-abad lamanya.</p>
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mr-3"><span class="material-symbols-outlined">person</span></div>
+            <h4 class="font-bold text-lg text-tertiary">Syarat Orang yang Memandikan</h4>
+        </div>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Islam, berakal sehat, telah baligh</li>
+            <li>Memiliki niat memandikan jenazah</li>
+            <li>Jujur, shaleh, terpercaya, mampu menjaga rahasia</li>
+            <li>Berjenis kelamin sama (kecuali suami/istri atau mahram)</li>
+        </ol>
     </div>
-    <div class="p-5 border border-outline-variant/30 rounded-2xl bg-white shadow-sm hover:border-secondary transition-colors">
-        <h5 class="font-bold text-on-surface text-md">Ibnu al-Haytham (Alhazen)</h5>
-        <div class="text-[10px] text-secondary font-bold mb-2">Optik & Fisika</div>
-        <p class="text-xs text-on-surface-variant">Bapak Optik Modern. Membedah cara kerja mata & cahaya lewat eksperimen <em>Camera Obscura</em> terawal.</p>
+</div>
+<div class="grid md:grid-cols-2 gap-6 mb-12">
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-primary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-primary/10 text-primary rounded-full flex items-center justify-center mr-3"><span class="material-symbols-outlined">verified</span></div>
+            <h4 class="font-bold text-lg text-primary">Syarat Sah Shalat Jenazah</h4>
+        </div>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Suci dari hadas, menutup aurat, menghadap kiblat</li>
+            <li>Jenazah sudah dimandikan dan dikafani</li>
+            <li>Jenazah diletakkan di arah kiblat (di depan)</li>
+        </ol>
     </div>
-    <div class="p-5 border border-outline-variant/30 rounded-2xl bg-white shadow-sm hover:border-secondary transition-colors">
-        <h5 class="font-bold text-on-surface text-md">Jabir ibn Hayyan (Geber)</h5>
-        <div class="text-[10px] text-secondary font-bold mb-2">Kimia</div>
-        <p class="text-xs text-on-surface-variant">Bapak Kimia Klasik. Menemukan berbagai senyawa dan teknik distilasi, kristalisasi lab pertama.</p>
-    </div>
-    <div class="p-5 border border-outline-variant/30 rounded-2xl bg-white shadow-sm hover:border-secondary transition-colors">
-        <h5 class="font-bold text-on-surface text-md">Abbas ibn Firnas</h5>
-        <div class="text-[10px] text-secondary font-bold mb-2">Teknik & Penerbangan</div>
-        <p class="text-xs text-on-surface-variant">Penemu ide sayap <em>Glider</em> pertama, ratusan tahun sebelum Wright Bersaudara.</p>
-    </div>
-    <div class="p-5 border border-outline-variant/30 rounded-2xl bg-white shadow-sm hover:border-secondary transition-colors">
-        <h5 class="font-bold text-on-surface text-md">Al-Biruni, Ar-Razi, Dll</h5>
-        <div class="text-[10px] text-secondary font-bold mb-2">Astronomi & Dokter</div>
-        <p class="text-xs text-on-surface-variant">Al-Biruni ukur keliling bumi. Ar Razi bedah Cacar & Campak. Al Battani hitung akurat lama tahun matahari. Al Kasyi kuasai aritmatika desimal.</p>
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-primary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-primary/10 text-primary rounded-full flex items-center justify-center mr-3"><span class="material-symbols-outlined">mosque</span></div>
+            <h4 class="font-bold text-lg text-primary">Rukun Shalat Jenazah</h4>
+        </div>
+        <p class="text-xs text-on-surface-variant mb-2 italic">4 Takbir, tanpa Rukuk dan Sujud:</p>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+            <li>Niat</li>
+            <li>Berdiri bagi yang mampu</li>
+            <li>Melakukan 4 kali takbir</li>
+            <li>Membaca Al-Fatihah setelah takbir pertama</li>
+            <li>Membaca salawat setelah takbir kedua</li>
+            <li>Mendoakan jenazah setelah takbir ketiga</li>
+            <li>Mengucapkan salam setelah takbir keempat</li>
+        </ol>
     </div>
 </div>
 
-<!-- Fakultas Dinul Islam -->
-<h4 class="font-bold text-lg text-primary bg-primary/10 px-4 py-2 rounded-xl inline-block mb-6"><span class="material-symbols-outlined align-middle mr-2 text-sm">menu_book</span> Fakultas Syariat Islam (Fikih & Hadis)</h4>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
-    <div class="p-4 border border-outline-variant/30 rounded-xl bg-surface-container-lowest text-center">
-        <h5 class="font-bold text-sm">Imam Abu Hanifah</h5>
-        <p class="text-[11px] text-on-surface-variant mt-1">Founding Father Mazhab Hanafi (Sangat logis dan analitis).</p>
+<!-- Bagian 4: Tata Cara -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">4. Tata Cara / Urutan Pelaksanaan</h3>
+
+<!-- Langkah 1: Memandikan -->
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm mb-6 relative">
+    <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 left-8 tracking-widest">LANGKAH 1</span>
+    <h4 class="font-bold text-lg text-secondary mb-4 flex items-center"><span class="material-symbols-outlined mr-2">water_drop</span> Memandikan Jenazah</h4>
+    <div class="space-y-3">
+        <div class="flex items-start"><div class="w-7 h-7 bg-secondary/10 text-secondary rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">1</div><p class="text-sm text-on-surface-variant">Letakkan jenazah di tempat yang tertutup dan terlindung dari pandangan orang banyak.</p></div>
+        <div class="flex items-start"><div class="w-7 h-7 bg-secondary/10 text-secondary rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">2</div><p class="text-sm text-on-surface-variant">Tutupi bagian aurat jenazah dengan kain basahan.</p></div>
+        <div class="flex items-start"><div class="w-7 h-7 bg-secondary/10 text-secondary rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">3</div><p class="text-sm text-on-surface-variant">Bersihkan kotoran dari dalam perutnya secara perlahan.</p></div>
+        <div class="flex items-start"><div class="w-7 h-7 bg-secondary/10 text-secondary rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">4</div><p class="text-sm text-on-surface-variant">Bersihkan gigi, hidung, ketiak, rambut, sela-sela jari tangan dan kaki.</p></div>
+        <div class="flex items-start"><div class="w-7 h-7 bg-secondary/10 text-secondary rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">5</div><p class="text-sm text-on-surface-variant">Siramkan air suci merata ke seluruh tubuh (dimulai dari kanan) sebanyak 3 kali atau ganjil.</p></div>
+        <div class="flex items-start"><div class="w-7 h-7 bg-secondary/10 text-secondary rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">6</div><p class="text-sm text-on-surface-variant">Wudhukan jenazah sebagaimana wudhu untuk shalat.</p></div>
+        <div class="flex items-start"><div class="w-7 h-7 bg-secondary/10 text-secondary rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">7</div><p class="text-sm text-on-surface-variant">Bilas tubuh jenazah dengan air larutan kapur barus sebagai siraman terakhir.</p></div>
     </div>
-    <div class="p-4 border border-outline-variant/30 rounded-xl bg-surface-container-lowest text-center">
-        <h5 class="font-bold text-sm">Imam Malik</h5>
-        <p class="text-[11px] text-on-surface-variant mt-1">Founder Mazhab Maliki, Penulis kompilasi hadis awal <em>'Al-Muwatta'</em>.</p>
-    </div>
-    <div class="p-4 border border-outline-variant/30 rounded-xl bg-surface-container-lowest text-center">
-        <h5 class="font-bold text-sm">Imam Syafi'i</h5>
-        <p class="text-[11px] text-on-surface-variant mt-1">Founder Mazhab Syafi'i, Arsitek pertama disiplin *"Ushul Fikih"*.</p>
-    </div>
-    <div class="p-4 border border-outline-variant/30 rounded-xl bg-surface-container-lowest text-center">
-        <h5 class="font-bold text-sm">Imam Ahmad bin Hambal</h5>
-        <p class="text-[11px] text-on-surface-variant mt-1">Founder Mazhab Hambali, penghafal & penulis <em>Musnad Ahmad</em>.</p>
-    </div>
-    
-    <div class="p-4 border border-outline-variant/30 rounded-xl bg-white col-span-1 lg:col-span-2 flex items-center gap-3">
-        <span class="material-symbols-outlined text-primary">verified_user</span>
-        <div>
-            <h5 class="font-bold text-sm">Maestro Hadis</h5>
-            <p class="text-[11px] text-on-surface-variant"><strong>Imam Bukhari</strong> (Shahih Bukhari) dan <strong>Imam Muslim</strong> (Shahih Muslim). Keduanya memfilter ratusan ribu riwayat palsu demi menjaga orisinalitas sabda Nabi.</p>
+</div>
+
+<!-- Langkah 2: Mengkafani -->
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm mb-6 relative">
+    <span class="bg-tertiary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 left-8 tracking-widest">LANGKAH 2</span>
+    <h4 class="font-bold text-lg text-tertiary mb-4 flex items-center"><span class="material-symbols-outlined mr-2">dry_cleaning</span> Mengkafani Jenazah</h4>
+    <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-tertiary/5 p-4 rounded-xl border border-tertiary/20">
+            <h5 class="font-bold text-sm text-tertiary mb-2">Jenazah Laki-Laki (3 Lapis)</h5>
+            <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-1">
+                <li>Bentangkan tali pengikat (3–5 ikatan)</li>
+                <li>Susun kain kafan putih, taburi kapur barus</li>
+                <li>Letakkan jenazah, tutup lubang tubuh dengan kapas</li>
+                <li>Selimuti (kanan di atas kiri), ikat tali</li>
+            </ol>
         </div>
-    </div>
-    <div class="p-4 border border-outline-variant/30 rounded-xl bg-white col-span-1 lg:col-span-2 flex items-center gap-3">
-        <span class="material-symbols-outlined text-primary">menu_book</span>
-        <div>
-            <h5 class="font-bold text-sm">Ibnu Jarir at-Tabari</h5>
-            <p class="text-[11px] text-on-surface-variant">Sejarawan & mufassir mutlak. Karyanya <em>"Jami' al-Bayan" (Tafsir Tabari)</em> menjadi rujukan tafsir standar hingga kiamat tiba.</p>
+        <div class="bg-tertiary/5 p-4 rounded-xl border border-tertiary/20">
+            <h5 class="font-bold text-sm text-tertiary mb-2">Jenazah Perempuan (5 Lapis)</h5>
+            <p class="text-sm text-on-surface-variant">Terdiri dari: 2 lapis kain pembungkus utama, kerudung kepala, baju kurung, dan kain basahan (sarung) penutup paha. Prosesnya: pakaikan sarung → baju kurung → rapikan rambut → kerudung → bungkus kain kafan terluar.</p>
         </div>
     </div>
 </div>
 
-<!-- Fakultas Filsafat -->
-<h4 class="font-bold text-lg text-tertiary bg-tertiary/10 px-4 py-2 rounded-xl inline-block mb-6"><span class="material-symbols-outlined align-middle mr-2 text-sm">psychology</span> Fakultas Etika & Filsafat</h4>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-16">
-    <div class="p-5 border border-outline-variant/30 rounded-2xl bg-white shadow-sm flex items-start gap-4">
-        <div class="w-12 h-12 bg-tertiary/10 rounded-full flex items-center justify-center shrink-0 font-bold text-tertiary text-xl">F</div>
-        <div>
-            <h5 class="font-bold text-on-surface mb-1">Al-Farabi (Alfarabius)</h5>
-            <p class="text-xs text-on-surface-variant">Pakar Logika, Musik, & Ilmu kenegaraan. Dunia mengenalnya sebagai <strong>"Guru Kedua"</strong> filsafat mendampingi Aristoteles sang Guru Pertama.</p>
+<!-- Langkah 3: Menyalatkan -->
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm mb-6 relative">
+    <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 left-8 tracking-widest">LANGKAH 3</span>
+    <h4 class="font-bold text-lg text-primary mb-2 flex items-center"><span class="material-symbols-outlined mr-2">mosque</span> Menyalatkan Jenazah</h4>
+    <p class="text-xs text-on-surface-variant mb-4 italic">Imam sejajar <strong>kepala</strong> (laki-laki) atau <strong>perut</strong> (perempuan).</p>
+    <div class="space-y-4">
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">1</div>
+            <div><h5 class="font-bold text-sm text-on-surface">Takbir Pertama (Takbiratul Ihram)</h5><p class="text-sm text-on-surface-variant">Membaca niat dalam hati bersamaan takbir, lalu membaca surah <strong>Al-Fatihah</strong>.</p></div>
         </div>
-    </div>
-    <div class="p-5 border border-outline-variant/30 rounded-2xl bg-white shadow-sm flex items-start gap-4">
-        <div class="w-12 h-12 bg-tertiary/10 rounded-full flex items-center justify-center shrink-0 font-bold text-tertiary text-xl">K</div>
-        <div>
-            <h5 class="font-bold text-on-surface mb-1">Al-Kindi</h5>
-            <p class="text-xs text-on-surface-variant">Filsuf ras murni Arab pertama. Ia berhasil membuktikan bahwa mendedah pemikiran Yunani sama sekali tidak menciderai akidah fundamental Islam.</p>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">2</div>
+            <div><h5 class="font-bold text-sm text-on-surface">Takbir Kedua</h5><p class="text-sm text-on-surface-variant">Membaca <strong>Salawat Nabi</strong>.</p></div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">3</div>
+            <div>
+                <h5 class="font-bold text-sm text-on-surface">Takbir Ketiga</h5>
+                <p class="text-sm text-on-surface-variant mb-2">Membaca <strong>Doa untuk Jenazah</strong>:</p>
+                <div class="text-right font-quran text-xl leading-[2.5] text-on-surface mb-2" dir="rtl">اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ</div>
+                <p class="text-xs text-on-surface-variant italic">"Ya Allah ampunilah dia, rahmatilah dia, selamatkanlah dia, dan maafkanlah dia." (Ubah "lahu" menjadi "laha" jika perempuan)</p>
+            </div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">4</div>
+            <div>
+                <h5 class="font-bold text-sm text-on-surface">Takbir Keempat</h5>
+                <p class="text-sm text-on-surface-variant mb-2">Membaca doa:</p>
+                <div class="text-right font-quran text-xl leading-[2.5] text-on-surface mb-2" dir="rtl">اللَّهُمَّ لَا تَحْرِمْنَا أَجْرَهُ وَلَا تَفْتِنَا بَعْدَهُ وَاغْفِرْ لَنَا وَلَهُ</div>
+                <p class="text-xs text-on-surface-variant italic">"Ya Allah, janganlah Engkau halangi kami dari pahalanya, janganlah Engkau berikan fitnah kepada kami sepeninggalnya, dan ampunilah kami serta dirinya."</p>
+            </div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">☞</div>
+            <div><h5 class="font-bold text-sm text-on-surface">Salam</h5><p class="text-sm text-on-surface-variant">Menoleh ke kanan dan ke kiri sambil berdiri.</p></div>
         </div>
     </div>
 </div>
 
-<!-- Resolusi Akhir -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 rounded-[3rem] text-white shadow-xl relative overflow-hidden text-center">
-    <span class="material-symbols-outlined text-5xl mb-4">school</span>
-    <h4 class="text-2xl font-headline font-bold mb-6">Warisan Genetik Intelektual untuk Kita</h4>
-    <p class="text-sm opacity-90 max-w-3xl mx-auto leading-relaxed mb-8">
-        Ratusan buku tebal tertulis, eksperimen yang gagal hingga berhasil, dan perjalanan beribu kilometer menyeberangi benua mereka lakukan demi sekelumit ilmu. Ini adalah tugas bagi pemuda hari ini: 
-    </p>
-    <div class="flex flex-wrap justify-center gap-3">
-        <span class="px-5 py-2 bg-white/20 border border-white/30 rounded-full text-xs font-bold">1. Belajar Tanpa Akhir (Lifelong Learning)</span>
-        <span class="px-5 py-2 bg-white/20 border border-white/30 rounded-full text-xs font-bold">2. Bertahan Menderita Susahnya Belajar</span>
-        <span class="px-5 py-2 bg-white/20 border border-white/30 rounded-full text-xs font-bold">3. Inovasi & Produksi</span>
-        <span class="px-5 py-2 bg-white/20 border border-white/30 rounded-full text-xs font-bold">4. Mengajarkannya Kembali</span>
+<!-- Langkah 4: Menguburkan -->
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm mb-12 relative">
+    <span class="bg-on-surface text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 left-8 tracking-widest">LANGKAH 4</span>
+    <h4 class="font-bold text-lg text-on-surface mb-4 flex items-center"><span class="material-symbols-outlined mr-2">landscape</span> Menguburkan Jenazah</h4>
+    <div class="space-y-3">
+        <div class="flex items-start"><div class="w-7 h-7 bg-surface-container text-on-surface rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">1</div><p class="text-sm text-on-surface-variant">Masukkan jenazah ke dalam liang lahat secara perlahan melalui arah kaki kuburan.</p></div>
+        <div class="flex items-start"><div class="w-7 h-7 bg-surface-container text-on-surface rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">2</div><p class="text-sm text-on-surface-variant">Letakkan jenazah miring di atas lambung kanan dengan wajah menghadap kiblat.</p></div>
+        <div class="flex items-start"><div class="w-7 h-7 bg-surface-container text-on-surface rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">3</div><p class="text-sm text-on-surface-variant">Tempelkan pipi kanan dan kaki ke tanah, buka sebagian kain kafan, lepaskan tali pengikat.</p></div>
+        <div class="flex items-start"><div class="w-7 h-7 bg-surface-container text-on-surface rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">4</div><p class="text-sm text-on-surface-variant">Tutup rongga liang lahat dengan papan kayu/bambu secara miring.</p></div>
+        <div class="flex items-start"><div class="w-7 h-7 bg-surface-container text-on-surface rounded-full flex items-center justify-center text-xs font-bold mr-3 mt-0.5 shrink-0">5</div><p class="text-sm text-on-surface-variant">Timbun kuburan dengan tanah, tinggikan makam sejengkal, taburi bunga, lalu doakan keteguhan jenazah menghadapi pertanyaan malaikat Munkar dan Nakir.</p></div>
+    </div>
+</div>
+
+<!-- Bagian 5: Hal yang Dilarang -->
+<h3 class="font-headline text-2xl font-bold text-error mt-12 mb-6">5. Hal-Hal yang Dilarang (Adab Kehilangan)</h3>
+<div class="grid md:grid-cols-2 gap-4 mb-12">
+    <div class="bg-error/5 p-4 rounded-2xl border border-error/20 flex items-start"><span class="material-symbols-outlined text-error mr-3 mt-0.5">block</span><div><h5 class="font-bold text-sm text-error">Membuka Aib Mayat</h5><p class="text-xs text-on-surface-variant">Dilarang menceritakan cacat fisik atau keburukan jenazah.</p></div></div>
+    <div class="bg-error/5 p-4 rounded-2xl border border-error/20 flex items-start"><span class="material-symbols-outlined text-error mr-3 mt-0.5">warning</span><div><h5 class="font-bold text-sm text-error">Meratap (<em>Niyahah</em>)</h5><p class="text-xs text-on-surface-variant">Menangis histeris, menyiksa diri, atau berteriak tidak rida.</p></div></div>
+    <div class="bg-error/5 p-4 rounded-2xl border border-error/20 flex items-start"><span class="material-symbols-outlined text-error mr-3 mt-0.5">event_seat</span><div><h5 class="font-bold text-sm text-error">Duduk Sebelum Jenazah Diletakkan</h5><p class="text-xs text-on-surface-variant">Pengiring dilarang duduk sebelum usungan jenazah diturunkan.</p></div></div>
+    <div class="bg-error/5 p-4 rounded-2xl border border-error/20 flex items-start"><span class="material-symbols-outlined text-error mr-3 mt-0.5">sentiment_very_dissatisfied</span><div><h5 class="font-bold text-sm text-error">Bercanda di Pemakaman</h5><p class="text-xs text-on-surface-variant">Dilarang tertawa atau membicarakan hal duniawi saat takziah.</p></div></div>
+</div>
+
+<!-- Bagian 6: Klasifikasi -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">6. Penanganan Jenazah Khusus</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead><tr class="bg-tertiary/10"><th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Jenis Jenazah</th><th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Ketentuan</th><th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Hukum</th></tr></thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Muslim Biasa</td><td class="p-3">4 tahapan lengkap</td><td class="p-3">Fardhu Kifayah</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Mati Syahid</td><td class="p-3">Tidak dimandikan, tidak dishalatkan. Dikuburkan bersama pakaian dan darahnya.</td><td class="p-3">Darah menjadi saksi kemuliaan di akhirat</td></tr>
+            <tr><td class="p-3 font-semibold">Bayi Keguguran</td><td class="p-3">Sudah bernyawa → urus lengkap. Belum bernyawa → bungkus kain dan kubur.</td><td class="p-3">Berdasarkan usia kandungan</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 7: Istilah Kunci -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">7. Istilah Kunci (Kosakata Fiqih)</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead><tr class="bg-primary/10"><th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Istilah</th><th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Makna Singkat</th></tr></thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Fardhu Kifayah</td><td class="p-3">Kewajiban kolektif yang jika dikerjakan sebagian, yang lain terbebas</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Daurah Jenazah</td><td class="p-3">Rangkaian tata cara lengkap pengurusan jenazah</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Takziah</td><td class="p-3">Kunjungan melayat untuk menghibur keluarga (max 3 hari)</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Ziarah Kubur</td><td class="p-3">Berkunjung ke makam untuk mendoakan dan mengingat kematian</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Liang Lahat</td><td class="p-3">Rongga di dasar kuburan pada sisi sebelah kiblat</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Syaq</td><td class="p-3">Lubang berbentuk parit di tengah dasar kuburan</td></tr>
+            <tr><td class="p-3 font-semibold">Talqin</td><td class="p-3">Membimbing orang sakaratul maut melafalkan kalimat tauhid</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 8: Perbedaan Pendapat Ulama -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">8. Perbedaan Pendapat Ulama</h3>
+<div class="bg-surface-container-low p-6 rounded-[2rem] border-l-8 border-secondary shadow-sm mb-12 space-y-4">
+    <div>
+        <h4 class="font-bold text-sm text-on-surface mb-2">Doa setelah Takbir Keempat:</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-1">
+            <li><strong>Mayoritas (Mazhab Syafi'i):</strong> Disunahkan membaca doa sebelum salam.</li>
+            <li><strong>Sebagian Ulama:</strong> Cukup diam sejenak lalu langsung salam.</li>
+        </ul>
+    </div>
+    <div>
+        <h4 class="font-bold text-sm text-on-surface mb-2">Mengangkat Tangan pada Setiap Takbir:</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-1">
+            <li><strong>Pendapat 1:</strong> Disunahkan mengangkat tangan setiap takbir (1–4).</li>
+            <li><strong>Pendapat 2:</strong> Hanya pada takbiratul ihram (takbir pertama).</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Bagian 9: Fakta Cepat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">9. Fakta Cepat (Quick Facts)</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <span class="material-symbols-outlined text-primary text-3xl mb-2">front_hand</span>
+        <p class="text-xs text-on-surface-variant">Shalat Jenazah</p>
+        <p class="font-bold text-lg text-primary">4 Takbir</p>
+        <p class="text-[10px] text-on-surface-variant">Tanpa rukuk & sujud</p>
+    </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <span class="material-symbols-outlined text-secondary text-3xl mb-2">do_not_disturb</span>
+        <p class="text-xs text-on-surface-variant">Dilarang Mengubur</p>
+        <p class="font-bold text-lg text-secondary">3 Waktu</p>
+        <p class="text-[10px] text-on-surface-variant">Terbit, tengah hari, terbenam</p>
+    </div>
+    <div class="bg-tertiary/5 p-4 rounded-2xl text-center border border-tertiary/20">
+        <span class="material-symbols-outlined text-tertiary text-3xl mb-2">dry_cleaning</span>
+        <p class="text-xs text-on-surface-variant">Kafan Minimal</p>
+        <p class="font-bold text-lg text-tertiary">1 Lembar</p>
+        <p class="text-[10px] text-on-surface-variant">Kain putih menutupi tubuh</p>
+    </div>
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <span class="material-symbols-outlined text-primary text-3xl mb-2">person_pin_circle</span>
+        <p class="text-xs text-on-surface-variant">Posisi Imam</p>
+        <p class="font-bold text-lg text-primary">Kepala / Perut</p>
+        <p class="text-[10px] text-on-surface-variant">Laki-laki / Perempuan</p>
     </div>
 </div>
 
