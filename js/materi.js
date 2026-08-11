@@ -350,104 +350,163 @@ const materiData = [
         "kelas": 7,
         "semester": "Ganjil",
         "bab": "Bab 3",
-        "judul": "Menghadirkan Salat dan Zikir dalam Kehidupan",
+        "judul": "Hidup Bahagia Tanpa Batas dengan Kekuatan Ikhlas",
         "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab ini mengupas rahasia besar di balik ritus ibadah harian kita. Bagaimana Salat dan Zikir bukan sekadar gerakan rutinitas fisik hampa, melainkan sistem keamanan spiritual tercanggih untuk mencegah manusia dari perilaku brutal.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Hidup Bahagia Tanpa Batas dengan Kekuatan Ikhlas</strong>, yang mencakup pengertian, dalil naqli, contoh perilaku sehari-hari, beserta hikmah membiasakan perilaku ikhlas.
 </p>
 
-<!-- 1. Makna -->
-<div class="grid md:grid-cols-2 gap-6 mb-12">
-    <div class="bg-surface-container-low p-8 rounded-[2rem] border-t-8 border-primary shadow-sm hover:-translate-y-1 transition-transform">
-        <h4 class="font-bold text-2xl mb-4 text-primary flex items-center font-headline"><span class="material-symbols-outlined mr-3 text-3xl">mosque</span> Esensi Salat</h4>
-        <p class="text-sm text-on-surface-variant leading-relaxed text-justify">Lebih dari sekadar memacu otot dan keringat fisik. Ini adalah audiensi (pertemuan) batin tertinggi kasta seorang hamba yang berdialog rindu, melayangkan pujian, dan negosiasi permohonan kepada Sang Pencipta secara <strong>Khusyuk</strong> (fokus penuh) dan <strong>Tumakninah</strong> (jeda gerakan rileks tenang).</p>
-    </div>
-    <div class="bg-surface-container-low p-8 rounded-[2rem] border-t-8 border-secondary shadow-sm hover:-translate-y-1 transition-transform">
-        <h4 class="font-bold text-2xl mb-4 text-secondary flex items-center font-headline"><span class="material-symbols-outlined mr-3 text-3xl">wifi_tethering</span> Esensi Zikir</h4>
-        <p class="text-sm text-on-surface-variant leading-relaxed text-justify">Radar pendeteksi spiritual yang menjaga hatimu tetap <strong>Online</strong> mengingat Allah. Melalui resonansi <em>tasbih lisan</em>, <em>tasbih batin</em>, maupun rem panik <em>(aksi)</em> membatalkan niat maksiat. Pemicu utama diri sadar sedang terawasi kamera CCTV Ilahi mutlak.</p>
-    </div>
-</div>
-
-<!-- 2. Benteng Fahsya & Mungkar -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 text-center">Benteng Anti-Maksiat Bawah Sadar</h3>
-<div class="bg-primary/5 p-8 rounded-[3rem] border border-primary/20 mb-12 relative overflow-hidden shadow-sm">
-    <span class="material-symbols-outlined absolute -top-8 -left-8 text-[180px] text-primary/5 -rotate-12">shield_locked</span>
-    <div class="text-right font-quran text-[26px] leading-loose mb-6 text-on-surface relative z-10" dir="rtl">...اِنَّ الصَّلٰوةَ تَنۡهٰى عَنِ الۡفَحۡشَآءِ وَالۡمُنۡكَرِؕ وَلَذِكۡرُ اللّٰهِ اَكۡبَرُ ؕ</div>
-    <div class="font-body text-[15px] pt-6 border-t border-outline-variant/20 relative z-10">
-        <span class="font-bold block mb-2 italic">Terjemahan Firman Q.S. al-'Ankabut: 45:</span>
-        "...Sesungguhnya salat itu mendobrak dan mencegah dari <strong>(perbuatan) keji</strong> <span class="bg-error/10 text-error px-1.5 py-0.5 text-[10px] rounded-lg border border-error/20 inline-block align-middle mx-1 font-bold">Misal: Zina/Suap</span> dan melarang keras kemungkaran bebas. Dan sungguh mengingat Allah (zikir salat) itu bobotnya jauh lebih besar..."
-    </div>
-</div>
-
-<h4 class="font-bold text-xl mb-6 text-center font-headline"><span class="bg-surface-container px-4 py-2 rounded-xl">7 Cetakan Produk Salat yang Sah:</span></h4>
-<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-16 px-2">
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] flex items-start gap-4">
-        <div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-            <span class="material-symbols-outlined text-primary">schedule</span>
+<!-- Bagian 1: Pengertian -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Pengertian Ikhlas</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <div class="grid md:grid-cols-2 gap-8">
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">translate</span> Secara Bahasa
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Kata ikhlas berasal dari bahasa Arab yang merupakan bentuk <em>masdar</em> (kata benda asal) dari kata <em>khalaṣa</em> (<span class="font-quran" dir="rtl">خَلَصَ</span>) yang berarti <strong>bersih, murni, jernih, atau suci dari campuran dan kotoran</strong>.
+            </p>
         </div>
         <div>
-            <strong class="block text-[15px] text-on-surface mb-1">Disiplin Waktu</strong>
-            <span class="text-[13px] text-on-surface-variant leading-relaxed block">Manajemen 5 zona alarm absen presisi.</span>
-        </div>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] flex items-start gap-4">
-        <div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-            <span class="material-symbols-outlined text-primary">clean_hands</span>
-        </div>
-        <div>
-            <strong class="block text-[15px] text-on-surface mb-1">Higienis Suci</strong>
-            <span class="text-[13px] text-on-surface-variant leading-relaxed block">Wudu membasmi bakteri kotoran fisik pikiran.</span>
-        </div>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] flex items-start gap-4">
-        <div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-            <span class="material-symbols-outlined text-primary">accessibility_new</span>
-        </div>
-        <div>
-            <strong class="block text-[15px] text-on-surface mb-1">Penghancur Ego</strong>
-            <span class="text-[13px] text-on-surface-variant leading-relaxed block">Meruntuhkan sombong cium ubin sajadah.</span>
-        </div>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] flex items-start gap-4">
-        <div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-            <span class="material-symbols-outlined text-primary">groups</span>
-        </div>
-        <div>
-            <strong class="block text-[15px] text-on-surface mb-1">Solidaritas Tim</strong>
-            <span class="text-[13px] text-on-surface-variant leading-relaxed block">Luruskan shaf buktikan kita manusia rata.</span>
-        </div>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] flex items-start gap-4 col-span-1 sm:col-span-2 lg:col-span-2 bg-gradient-to-r from-white to-surface-container-low">
-        <div class="w-10 h-10 rounded-xl bg-error/10 flex items-center justify-center shrink-0">
-            <span class="material-symbols-outlined text-error">gpp_good</span>
-        </div>
-        <div class="pr-2">
-            <strong class="block text-[15px] text-on-surface mb-1">Benteng Korup Transparan</strong>
-            <span class="text-[13px] text-on-surface-variant leading-relaxed block">Malu berbuat bohong/curang ujian (nyontek) karena radar dada kananmu selalu mendeteksi tarikan napas Zikir dari Sang Khalik.</span>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">menu_book</span> Secara Istilah
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Secara istilah (makna luas), ikhlas adalah <strong>memurnikan niat dalam melakukan suatu amal saleh atau perbuatan semata-mata hanya karena Allah Swt. dan demi mengharap rida-Nya</strong>, tanpa adanya campuran motif duniawi seperti keinginan untuk dipuji manusia (riya'), ingin didengar kebaikannya oleh orang lain (sum'ah), ataupun mengharapkan keuntungan materi belaka.
+            </p>
         </div>
     </div>
 </div>
 
-<!-- 3. Hikmah -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 md:px-14 rounded-[3rem] text-white shadow-xl relative overflow-hidden">
-    <span class="material-symbols-outlined absolute -bottom-10 -right-4 text-[180px] text-white/5 rotate-12">self_improvement</span>
-    <h4 class="text-2xl font-headline font-bold mb-8 border-b border-white/20 pb-4 relative z-10 flex items-center"><span class="material-symbols-outlined mr-3 text-3xl text-secondary-fixed">stars</span> Hikmah Investasi Akhirat</h4>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 relative z-10">
-        <div class="bg-white/10 p-5 rounded-2xl backdrop-blur-md border border-white/20 shadow-sm hover:bg-white/20 transition-colors">
-            <p class="text-sm font-medium leading-relaxed">🌊 Hatimu dipenuhi relaksasi valium ketenangan anti-stres.</p>
+<!-- Bagian 2: Dalil Naqli -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Dalil Naqli (Al-Qur'an dan Hadis)</h3>
+
+<div class="space-y-8 mb-12">
+    <!-- Dalil 1: Q.S. An-Nisa Ayat 146 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AN-NISA: 146</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Keikhlasan Beragama</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+إِلَّا الَّذِينَ تَابُوا وَأَصْلَحُوا وَاعْتَصَمُوا بِاللَّهِ وَأَخْلَصُوا دِينَهُمْ لِلَّهِ فَأُولَٰئِكَ مَعَ الْمُؤْمِنِينَ ۖ وَسَوْفَ يُؤْتِ اللَّهُ الْمُؤْمِنِينَ أَجْرًا عَظِيمًا
         </div>
-        <div class="bg-white/10 p-5 rounded-2xl backdrop-blur-md border border-white/20 shadow-sm hover:bg-white/20 transition-colors">
-            <p class="text-sm font-medium leading-relaxed">🛡️ Diselamatkan Tuhan mendadak dari krisis ancaman mati.</p>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Kecuali orang-orang yang tobat, mengadakan perbaikan, berpegang teguh pada (agama) Allah, dan tulus ikhlas (mengerjakan) agama mereka karena Allah. Maka mereka itu bersama-sama orang yang beriman dan kelak Allah akan memberikan pahala yang besar kepada orang-orang yang beriman."
+        </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Tafsir Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Ayat ini menerangkan bahwa keikhlasan merupakan jalan keluar yang suci bagi manusia untuk memperbaiki kualitas dirinya. Keikhlasan beragama menuntut penyatuan antara tobat, perbaikan tingkah laku, serta pemurnian niat hanya untuk Allah Swt.. Seseorang yang beramal dengan tulus akan disejajarkan derajatnya bersama orang-orang beriman sejati.
+            </p>
         </div>
-        <div class="bg-white/10 p-5 rounded-2xl backdrop-blur-md border border-white/20 shadow-sm hover:bg-white/20 transition-colors">
-            <p class="text-sm font-medium leading-relaxed">🚿 Rekening list dosamu dirombak <em>Reset</em> putih kembali.</p>
+    </div>
+
+    <!-- Dalil 2: Q.S. Al-Bayyinah Ayat 5 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-BAYYINAH: 5</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Tujuan Utama Beribadah</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ ۚ وَذَٰلِكَ دِينُ الْقَيِّمَةِ
         </div>
-        <div class="bg-white/10 p-5 rounded-2xl backdrop-blur-md border border-white/20 shadow-sm hover:bg-white/20 transition-colors">
-            <p class="text-sm font-medium leading-relaxed">🌟 Diangkatnya tiket VIP VVIP kemenangan di hari pembalasan.</p>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Padahal mereka tidak disuruh kecuali supaya menyembah Allah dengan memurnikan ketaatan kepada-Nya dalam (menjalankan) agama yang lurus, dan supaya mereka mendirikan salat dan menunaikan zakat; dan yang demikian itulah agama yang lurus."
+        </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Tafsir Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Ayat ini mempertegas bahwa memurnikan ketaatan (ikhlas) adalah <strong>syarat mutlak</strong> dalam beribadah kepada Allah Swt.. Segala bentuk ibadah jasmani maupun sosial—seperti salat dan zakat—tidak akan bernilai dan tegak sebagai "agama yang lurus" tanpa dilandasi oleh niat yang tulus ikhlas semata-mata karena Allah Swt..
+            </p>
         </div>
+    </div>
+
+    <!-- Dalil 3: Hadis Riwayat Ahmad -->
+    <div class="bg-gradient-to-br from-secondary to-secondary-container p-8 rounded-[2rem] shadow-sm relative text-white">
+        <span class="bg-white/20 text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest border border-white/30">H.R. AHMAD</span>
+        <h4 class="font-bold text-lg text-white mb-4">Ketenangan Hati dari Rasa Dengki</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6" dir="rtl">
+ثَلَاثٌ لَا يَغِلُّ عَلَيْهِنَّ قَلْبُ مُسْلِمٍ: إِخْلَاصُ الْعَمَلِ لِلَّهِ، وَمُنَاصَحَةُ وُلَاةِ الْأَمْرِ، وَلُزُومُ جَمَاعَةِ الْمُسْلِمِينَ
+        </div>
+        <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 leading-relaxed mb-4">
+            "Dari Ibnu Mas’ud r.a, Rasulullah saw. bersabda: 'Tiga hal yang tidak boleh hati seorang mukmin merasa dengki/iri terhadapnya: ikhlas dalam beramal karena Allah, memberi nasihat kepada pemimpin, dan melanggengkan kebersamaan dengan jamaah.'"
+        </p>
+        <div class="bg-white/10 p-4 rounded-xl border border-white/20">
+            <h5 class="font-bold text-sm text-white mb-2">Catatan & Penjelasan:</h5>
+            <p class="text-sm opacity-90 leading-relaxed">
+                Hadis ini mengajarkan bahwa menjaga keikhlasan dalam setiap amal perbuatan adalah pelindung utama yang membersihkan hati seorang muslim dari segala bentuk penyakit hati, kebencian, dan kedengkian sosial.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Bagian 3: Contoh Perilaku -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Contoh Perilaku Ikhlas dalam Kehidupan Sehari-hari</h3>
+<div class="grid md:grid-cols-3 gap-6 mb-12">
+    <!-- Keluarga -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">family_restroom</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Keluarga</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Membantu orang tua menyapu, mencuci piring, atau menjaga adik dengan tulus tanpa pernah mengungkit-ungkit kebaikan tersebut atau sekadar mengharapkan tambahan uang jajan.</li>
+            <li>Berbakti dan patuh kepada ayah dan ibu semata-mata demi menjalankan kewajiban dari Allah Swt..</li>
+        </ul>
+    </div>
+    
+    <!-- Sekolah -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">school</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Sekolah</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Belajar dengan tekun dan sungguh-sungguh saat ujian berlangsung demi mendapatkan ilmu yang berkah, bukan karena ingin dipuji pintar oleh teman atau guru.</li>
+            <li>Membantu menjelaskan materi pelajaran kepada teman sekelas yang belum paham tanpa mengharapkan imbalan dan tanpa merasa diri lebih hebat.</li>
+        </ul>
+    </div>
+    
+    <!-- Masyarakat -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">group</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Masyarakat</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Gemar bersedekah atau membantu pembangunan fasilitas umum secara sembunyi-sembunyi tanpa dipamerkan di media sosial.</li>
+            <li>Ikut serta dalam kegiatan kerja bakti lingkungan tanpa menghitung-hitung jasa atau mengharapkan sanjungan dari tetangga.</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Bagian 4: Hikmah / Dampak Positif -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Hikmah & Dampak Positif Perilaku Ikhlas</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-8">
+    <!-- Manfaat di Dunia -->
+    <div class="bg-primary/5 p-6 rounded-3xl border border-primary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-primary text-3xl mr-3">public</span>
+            <h4 class="font-bold text-lg text-primary">Manfaat di Dunia</h4>
+        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Ketenangan Jiwa:</strong> Hati menjadi tenteram, damai, dan lapang karena tidak memiliki beban psikologis untuk memikirkan penilaian, pujian, ataupun celaan dari sesama manusia.</li>
+            <li><strong>Terhindar dari Penyakit Hati:</strong> Keikhlasan secara otomatis mengikis sifat-sifat buruk seperti riya (pamer), takabur (sombong), dan hasad (dengki).</li>
+            <li><strong>Hubungan Sosial yang Harmonis:</strong> Melahirkan ukhuwah (persaudaraan) yang murni di masyarakat karena perbuatan baik dilakukan tanpa pamrih.</li>
+        </ul>
+    </div>
+
+    <!-- Manfaat di Akhirat -->
+    <div class="bg-secondary/5 p-6 rounded-3xl border border-secondary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-secondary text-3xl mr-3">auto_awesome</span>
+            <h4 class="font-bold text-lg text-secondary">Manfaat di Akhirat</h4>
+        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Diterimanya Amal Ibadah:</strong> Ikhlas merupakan kunci utama penentu diterima atau tidaknya seluruh amal ibadah kita di hadapan Allah Swt..</li>
+            <li><strong>Mendapatkan Pahala yang Agung:</strong> Allah menjanjikan balasan pahala yang sangat besar (<em>ajran 'azhima</em>) bagi hamba-hamba-Nya yang mukhlis (orang-orang yang ikhlas).</li>
+            <li><strong>Meraih Rida Allah Swt.:</strong> Menjadikan seluruh aktivitas hidup hingga kematian bernilai ibadah yang mengantarkan kita ke dalam surga-Nya.</li>
+        </ul>
     </div>
 </div>
 
