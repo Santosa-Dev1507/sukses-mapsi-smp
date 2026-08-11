@@ -2674,167 +2674,166 @@ const materiData = [
         "kelas": 9,
         "semester": "Ganjil",
         "bab": "Bab 3",
-        "judul": "Indahnya Etika Pergaulan Dan Komunikasi Islami",
-        "waktuBumper": "12 Menit Baca",
+        "judul": "Makna Kasih Sayang kepada Sesama",
+        "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Kesempurnaan iman seseorang terlihat dari akhlaknya. Akhlak yang baik sangat penting dalam kehidupan sehari-hari dan menentukan kemajuan suatu bangsa. Dalam pergaulan dan komunikasi, penting untuk menerapkan etika yang baik agar terhindar dari kesalahpahaman, pertengkaran, atau hal negatif lainnya. Orang yang berakhlak mulia disukai oleh teman, masyarakat, Allah Swt., dan Rasul-Nya.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Makna Kasih Sayang kepada Sesama</strong>, yang mencakup pengertian, dalil naqli, contoh perilaku sehari-hari, beserta hikmah membiasakan perilaku kasih sayang.
 </p>
 
-<!-- Hadith: Innallaha jamil -->
-<div class="bg-primary/5 rounded-[2rem] p-8 mb-12 border border-outline-variant/10 shadow-sm text-center">
-    <div class="font-quran text-4xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-        إِنَّ اللَّهَ جَمِيلٌ وَيُحِبُّ الْجَمَالَ
-    </div>
-    <div class="font-body italic text-on-surface-variant text-lg">
-        "Sesungguhnya Allah Maha indah dan mencintai keindahan" <br/> <strong class="text-primary text-sm">(HR. Muslim dari Ibnu Mas'ûd)</strong>
+<!-- Bagian 1: Pengertian -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Pengertian Kasih Sayang kepada Sesama</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <div class="grid md:grid-cols-2 gap-8">
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">translate</span> Secara Bahasa
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Kata kasih sayang dalam bahasa Arab diterjemahkan dari kata <strong>Ar-Rahmah</strong> (<span class="font-quran" dir="rtl">رَحْمَةٌ</span>) yang berarti kelembutan hati, belas kasih, rasa haru, atau kepekaan nurani yang mendorong seseorang untuk berbuat baik, memberikan kemudahan, serta mendatangkan manfaat kepada pihak lain.
+            </p>
+        </div>
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">menu_book</span> Secara Istilah
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Secara istilah (makna luas), <strong>kasih sayang kepada sesama adalah sikap mental, perasaan empati, dan perilaku tulus yang didasari oleh ketulusan iman untuk senantiasa menyayangi, menghargai, membantu, dan membawa kedamaian bagi seluruh makhluk hidup di bumi (<em>rahmatan lil 'alamin</em>), tanpa membedakan latar belakang suku, ras, bangsa, maupun agama</strong>. Kasih sayang ini merupakan wujud nyata manusia dalam meneladani sifat utama Allah Swt., yaitu <em>Ar-Rahman</em> (Maha Pengasih) dan <em>Ar-Rahim</em> (Maha Penyayang).
+            </p>
+        </div>
     </div>
 </div>
 
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">Etika Pergaulan dalam Ajaran Islam</h3>
-<p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Manusia adalah makhluk sosial yang perlu saling mengenal dan bergaul.
-</p>
+<!-- Bagian 2: Dalil Naqli -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Dalil Naqli (Al-Qur'an dan Hadis)</h3>
 
-<!-- Q.S. Al-Hujurat 13 -->
-<div class="bg-surface-container-low border border-outline-variant/30 rounded-[2rem] p-8 mb-12 relative overflow-hidden">
-    <span class="material-symbols-outlined absolute -top-4 -right-4 text-9xl text-primary/5 rotate-12">groups</span>
-    <h4 class="font-bold text-xl text-on-surface mb-6">Q.S. Al-Hujurat [49] ayat 13</h4>
-    <div class="text-right font-quran text-4xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-        يَأَيُّهَا النَّاسُ إِنَّا خَلَقْنَكُمْ مِنْ ذَكَرٍ وَأُنثَى وَجَعَلْنَكُمْ شُعُوبًا وَقَبَابِلَ لِتَعَارَفُوا إِنَّ أَكْرَمَكُمْ عِنْدَ اللَّهِ أَتْقَكُمْ إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ
+<div class="space-y-8 mb-12">
+    <!-- Dalil 1: H.R. At-Tirmidzi -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">H.R. AT-TIRMIDZI</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Prinsip Kasih Sayang Universal</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+الرَّاحِمُونَ يَرْحَمُهُمُ الرَّحْمَنُ ارْحَمُوا مَنْ فِي الْأَرْضِ يَرْحَمْكُمْ مَنْ فِي السَّمَاءِ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Orang-orang yang penyayang itu akan disayang oleh Zat yang Maha Penyayang. Sayangilah orang-orang yang berada di bumi, maka kalian akan disayangi oleh Zat yang di atas langit."
+        </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Penjelasan Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Hadis ini meletakkan prinsip dasar kasih sayang yang bersifat universal dan lintas makhluk. Rasulullah saw. menegaskan adanya hukum timbal balik spiritual: <strong>jika seorang manusia ingin mendapatkan curahan kasih sayang, ampunan, dan rahmat dari Allah Swt., ia wajib terlebih dahulu menanamkan rasa cinta dan kasih sayang kepada semua makhluk yang ada di bumi</strong>—baik itu sesama manusia, hewan, tumbuhan, maupun ekosistem alam sekitar.
+            </p>
+        </div>
     </div>
-    <div class="font-body italic text-on-surface-variant text-lg pt-4 border-t border-outline-variant/20">
-        "Hai manusia, sesungguhnya Kami menciptakan kamu dari seorang laki-laki dan seorang perempuan dan menjadikan kamu berbangsa-bangsa dan bersuku-suku supaya kamu saling kenal-mengenal. Sesungguhnya orang yang paling mulia di antara kamu di sisi Allah ialah orang yang paling takwa di antara kamu. Sesungguhnya Allah Maha Mengetahui lagi Maha Mengenal."
+
+    <!-- Dalil 2: H.R. Muslim -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">H.R. MUSLIM</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Larangan Bersikap Keras</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+مَنْ لَا يَرْحَمِ النَّاسَ لَا يَرْحَمْهُ اللَّهُ عَزَّ وَجَلَّ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Orang yang tidak menyayangi manusia yang lain, tidak akan disayangi Allah Azza wa Jalla."
+        </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Penjelasan Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Melalui hadis ini, Rasulullah saw. memberikan peringatan tegas bahwa sikap keras kepala, ketidakpedulian, kekejaman, serta keengganan berbuat baik kepada sesama manusia dapat menutup pintu rahmat Allah Swt. bagi diri orang tersebut. Kasih sayang sosial adalah cerminan langsung dari hubungan spiritual seorang hamba dengan Penciptanya.
+            </p>
+        </div>
+    </div>
+
+    <!-- Dalil 3: H.R. Bukhari -->
+    <div class="bg-gradient-to-br from-secondary to-secondary-container p-8 rounded-[2rem] shadow-sm relative text-white">
+        <span class="bg-white/20 text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest border border-white/30">H.R. BUKHARI</span>
+        <h4 class="font-bold text-lg text-white mb-4">Solidaritas Satu Tubuh</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6" dir="rtl">
+مَثَلُ الْمُؤْمِنِينَ فِي تَوَادِّهِمْ وَتَرَاحُمِهِمْ وَتَعَاطُفِهِمْ مَثَلُ الْجَسَدِ إِذَا اشْتَكَى مِنْهُ عُضْوٌ تَدَاعَى لَهُ سَائِرُ الْجَسَدِ بِالسَّهَرِ وَالْحُمَّى
+        </div>
+        <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 leading-relaxed mb-4">
+            "Perumpamaan orang-orang mukmin dalam hal saling mencintai, menyayangi, dan mengasihi adalah bagaikan satu tubuh. Jika salah satu anggota tubuh mengeluh sakit, maka seluruh tubuh akan merasakan demam dan tidak bisa tidur."
+        </p>
+        <div class="bg-white/10 p-4 rounded-xl border border-white/20">
+            <h5 class="font-bold text-sm text-white mb-2">Catatan & Penjelasan Ringkas:</h5>
+            <p class="text-sm opacity-90 leading-relaxed">
+                Hadis ini menggambarkan tingkat kepekaan sosial (<em>social empathy</em>) yang sangat tinggi yang wajib dimiliki oleh umat Islam. Sifat kasih sayang antar-sesama mukmin harus melahirkan rasa kebersamaan dan persaudaraan yang erat, di mana beban dan kesulitan yang dihadapi oleh satu orang dirasakan sebagai tanggung jawab bersama untuk saling meringankan secara gotong royong.
+            </p>
+        </div>
     </div>
 </div>
 
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-8 text-center">Etika Berdasarkan Usia & Kondisi</h3>
-<div class="space-y-8 mb-16">
+<!-- Bagian 3: Contoh Perilaku -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Contoh Perilaku Kasih Sayang dalam Kehidupan Sehari-hari</h3>
+<div class="grid md:grid-cols-3 gap-6 mb-12">
+    <!-- Keluarga -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">family_restroom</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Keluarga</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Berbakti kepada kedua orang tua (<em>birrul walidain</em>) dengan bersikap sopan santun, mematuhi nasihat mereka, serta merawat mereka dengan sabar saat mereka lanjut usia atau sakit.</li>
+            <li>Menyayangi adik dengan membantu membimbing belajarnya, serta menghormati kakak dengan cara mendengarkan nasihat baiknya.</li>
+            <li>Saling berbagi peran membantu pekerjaan rumah tangga demi menciptakan suasana rumah yang rukun dan harmonis.</li>
+        </ul>
+    </div>
     
-    <!-- 1. Orang yang Lebih Tua -->
-    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-outline-variant/10 hover:shadow-xl transition-all">
-        <div class="flex items-center gap-4 mb-6">
-            <div class="w-14 h-14 bg-secondary-container rounded-2xl flex items-center justify-center shrink-0">
-                <span class="material-symbols-outlined text-on-secondary-container text-3xl">elderly</span>
-            </div>
-            <h4 class="font-bold text-xl">1. Orang yang Lebih Tua</h4>
+    <!-- Sekolah -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">school</span>
         </div>
-        <p class="text-on-surface-variant leading-relaxed text-md mb-6">
-            Kita harus bersikap sopan santun, menghormati, dan menyayangi orang tua, kakek, nenek, paman, bibi, kakak, dan guru. Berbicara dengan baik dan menghindari menyakiti hati mereka. Rida Allah Swt. bergantung pada rida orang tua.
-        </p>
-        <div class="bg-primary/5 p-6 rounded-2xl">
-            <div class="text-right font-quran text-2xl mb-4" dir="rtl">مَنْ لَمْ يَرْحَمْ صَغِيْرَنَا وَيَعْرِفْ حَقَّ كَبِيرَنَا فَلَيْسَ مِنَّا</div>
-            <p class="text-sm italic text-on-surface-variant">"Siapa yang tidak menyayangi orang yang kecil di antara kami, dan tidak mengerti hak orang yang lebih besar di antara kami, maka ia bukan dari golongan kami." (H.R. Abu Daud)</p>
-        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Sekolah</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Mengembangkan budaya belajar bersama, saling memperhatikan, serta menolong teman sekelas yang mengalami kesulitan dalam memahami pelajaran tanpa merasa sombong.</li>
+            <li>Menolak tegas segala bentuk perundungan (<em>bullying</em>), ejekan, maupun kekerasan fisik, serta menghargai perbedaan karakter dan latar belakang antarteman.</li>
+            <li>Menunjukkan rasa empati dengan menjenguk, mendoakan, atau menggalang donasi ketika ada teman sekelas yang sedang sakit atau terkena musibah.</li>
+        </ul>
     </div>
-
-    <!-- 2. Teman Sebaya -->
-    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-outline-variant/10 hover:shadow-xl transition-all">
-        <div class="flex items-center gap-4 mb-6">
-            <div class="w-14 h-14 bg-secondary-container rounded-2xl flex items-center justify-center shrink-0">
-                <span class="material-symbols-outlined text-on-secondary-container text-3xl">handshake</span>
-            </div>
-            <h4 class="font-bold text-xl">2. Teman Sebaya</h4>
+    
+    <!-- Masyarakat -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">group</span>
         </div>
-        <p class="text-on-surface-variant leading-relaxed text-md">
-            Teman sebaya adalah tempat kita mencurahkan isi hati. Kita harus menghormati dan menghargai mereka. Beberapa etika dengan teman sebaya antara lain mengucapkan salam, saling menasihati dalam kebaikan, saling mendoakan, dan menjauhi pertengkaran atau perundungan (bullying).
-        </p>
-    </div>
-
-    <!-- 3. Yang Lebih Muda -->
-    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-outline-variant/10 hover:shadow-xl transition-all">
-        <div class="flex items-center gap-4 mb-6">
-            <div class="w-14 h-14 bg-secondary-container rounded-2xl flex items-center justify-center shrink-0">
-                <span class="material-symbols-outlined text-on-secondary-container text-3xl">child_care</span>
-            </div>
-            <h4 class="font-bold text-xl">3. Yang Lebih Muda</h4>
-        </div>
-        <p class="text-on-surface-variant leading-relaxed text-md">
-            Islam menganjurkan bersikap santun kepada yang lebih muda. Tidak boleh sombong, justru harus membantu dengan penuh kasih sayang. Termasuk kepada mereka yang keadaan ekonomi atau pengetahuannya di bawah kita (seperti anak yatim/fakir miskin).
-        </p>
-    </div>
-
-    <!-- 4. Lawan Jenis -->
-    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-outline-variant/10 hover:shadow-xl transition-all">
-        <div class="flex items-center gap-4 mb-6">
-            <div class="w-14 h-14 bg-secondary-container rounded-2xl flex items-center justify-center shrink-0">
-                <span class="material-symbols-outlined text-on-secondary-container text-3xl">wc</span>
-            </div>
-            <h4 class="font-bold text-xl">4. Lawan Jenis</h4>
-        </div>
-        <p class="text-on-surface-variant leading-relaxed text-md mb-6">
-            Islam membolehkan bergaul dengan lawan jenis dengan rambu-rambu: <strong>menghindari khalwat (berduaan di tempat sepi)</strong>, <strong>menutup aurat (Q.S. Al-Ahzab: 59)</strong>, <strong>menjaga pandangan</strong>, dan membatasi intensitas komunikasi.
-        </p>
-        <div class="bg-error/5 p-6 rounded-2xl border-l-4 border-error/50">
-            <div class="text-right font-quran text-2xl mb-4 text-on-surface" dir="rtl">لَا يَخْلُوَنَّ رَجُلٌ بِامْرَأَةٍ إِلَّا وَمَعَهَا ذُو مَحْرَمٍ</div>
-            <p class="text-sm italic text-on-surface-variant">"Janganlah seorang laki-laki itu berkhalwat (menyendiri) dengan seorang wanita, kecuali ada mahram yang menyertai wanita tersebut." (H.R. Bukhari Muslim)</p>
-        </div>
-    </div>
-
-</div>
-
-<h3 class="font-headline text-2xl font-bold text-primary mt-16 mb-8 text-center">Etika Komunikasi Islami</h3>
-<div class="grid md:grid-cols-2 gap-8 mb-16">
-    <!-- Validasi Berita -->
-    <div class="bg-surface-container-low p-6 rounded-[2rem]">
-        <h4 class="font-bold text-lg mb-3 flex items-center"><span class="material-symbols-outlined mr-2 text-primary">fact_check</span> Berkata Benar & Teliti</h4>
-        <p class="text-sm text-on-surface-variant mb-4">Menjauhi perkataan dusta (hoaks) dan selalu meneliti informasi (Tabayyun).</p>
-        <div class="p-4 bg-white rounded-xl text-xs text-on-surface italic">
-            "... dan jauhilah perkataan-perkataan dusta" <br/><strong>(Q.S. Al-Hajj: 30)</strong>
-        </div>
-        <div class="p-4 bg-white rounded-xl text-xs text-on-surface italic mt-3">
-            "... telitilah kebenarannya agar kamu tidak mencelakakan suatu kaum..." <br/><strong>(Q.S. Al-Hujurat: 6)</strong>
-        </div>
-    </div>
-
-    <!-- Bahasa Santun -->
-    <div class="bg-surface-container-low p-6 rounded-[2rem]">
-        <h4 class="font-bold text-lg mb-3 flex items-center"><span class="material-symbols-outlined mr-2 text-primary">record_voice_over</span> Bahasa Santun</h4>
-        <p class="text-sm text-on-surface-variant mb-4">Menggunakan kata-kata yang baik sebagai cara menghormati orang lain ( Qaulan Ma'rufan / Layyinan ).</p>
-        <div class="p-4 bg-white rounded-xl text-xs text-on-surface italic">
-            "... serta ucapkanlah kata-kata yang baik kepada manusia..." <br/><strong>(Q.S. Al-Baqarah: 83)</strong>
-        </div>
-        <div class="p-4 bg-white rounded-xl text-xs text-on-surface italic mt-3">
-            "... Barang siapa yang beriman kepada Allah dan Hari Akhir maka hendaklah ia berkata yang baik atau ia diam." <br/><strong>(H.R. Bukhari & Muslim)</strong>
-        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Masyarakat</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Menghormati orang yang lebih tua, menyayangi orang yang lebih muda, serta aktif menyantuni anak yatim, fakir miskin, dan dhuafa.</li>
+            <li>Membiasakan diri menebarkan perdamaian melalui komunikasi yang santun, mengucapkan salam ketika bertemu, serta membantu tetangga yang membutuhkan tanpa membeda-bedakan keyakinan.</li>
+            <li>Menjaga kelestarian lingkungan dengan ikut serta dalam kerja bakti, merawat tanaman, tidak menyiksa hewan, serta mengurangi limbah plastik sekali pakai demi kesejahteraan bersama.</li>
+        </ul>
     </div>
 </div>
 
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">Kalimah Thayyibah</h3>
-<div class="bg-primary/5 border-l-4 border-primary rounded-r-3xl p-8 mb-12 relative overflow-hidden">
-    <p class="text-on-surface-variant leading-relaxed text-md mb-6">
-        Saat heran, takjub, marah, terkejut, hendaknya merespons dengan kata-kata baik (<em>kalimah thayyibah</em>). Kata ini indah, mendatangkan pahala dan ridha Allah.
-    </p>
-    <div class="text-right font-quran text-4xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-        أَلَمْ تَرَ كَيْفَ ضَرَبَ اللَّهُ مَثَلًا كَلِمَةً طَيِّبَةً كَشَجَرَةٍ طَيِّبَةٍ أَصْلُهَا ثَابِتٌ وَفَرْعُهَا فِي السَّمَاءِ
+<!-- Bagian 4: Hikmah / Dampak Positif -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Hikmah & Dampak Positif Kasih Sayang kepada Sesama</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-8">
+    <!-- Manfaat di Dunia -->
+    <div class="bg-primary/5 p-6 rounded-3xl border border-primary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-primary text-3xl mr-3">public</span>
+            <h4 class="font-bold text-lg text-primary">Manfaat di Dunia</h4>
+        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Terciptanya Harmoni Sosial:</strong> Sikap saling mengasihi akan meredam segala potensi pertikaian, kebencian, perundungan, serta menciptakan ketenteraman dan persatuan di tengah kemajemukan masyarakat.</li>
+            <li><strong>Ketenangan dan Kesehatan Jiwa:</strong> Memberi dan menerima kasih sayang mendatangkan rasa damai yang mendalam pada kesehatan mental, serta mengurangi stres, depresi, dan rasa terasing.</li>
+            <li><strong>Membangun Budaya Gotong Royong:</strong> Kepekaan sosial melahirkan kebiasaan saling tolong-menolong yang memperkokoh tatanan sosial masyarakat yang beradab.</li>
+        </ul>
     </div>
-    <div class="font-body italic text-on-surface-variant text-md">
-        "Tidakkah kamu perhatikan bagaimana Allah telah membuat perumpamaan kalimat yang baik seperti pohon yang baik, akarnya teguh dan cabangnya (menjulang) ke langit." <strong class="text-primary">(Q.S. Ibrahim: 24-25)</strong>
-    </div>
-</div>
 
-<!-- Bertanggung Jawab -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">Tanggung Jawab di Dunia Nyata & Maya</h3>
-<div class="bg-surface-container-highest p-8 rounded-[2rem] mb-12">
-    <p class="text-on-surface-variant leading-relaxed text-md mb-6">
-        Komunikasi, terutama di media sosial, harus dilakukan dengan penuh tanggung jawab atas apa yang diposting.
-    </p>
-    <div class="p-6 bg-white rounded-2xl italic text-sm">
-        "Aku mendengar Rasulullah saw. bersabda: 'Kami semua adalah pemelihara (pemimpin) dan bertanggung jawab atas pemeliharaannya…'" <strong class="not-italic text-primary block mt-2">(H.R. Bukhari)</strong>
-    </div>
-</div>
-
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 rounded-[3rem] text-white shadow-xl flex flex-col md:flex-row items-center gap-8">
-    <div class="w-24 h-24 bg-white/30 rounded-full flex items-center justify-center shrink-0">
-        <span class="material-symbols-outlined text-5xl">volunteer_activism</span>
-    </div>
-    <div>
-        <h4 class="text-2xl font-headline font-bold mb-3">Hikmah Pergaulan Islami</h4>
-        <p class="text-lg opacity-90 leading-relaxed">
-            Setiap larangan-Nya akan menghindarkan dari keburukan. Menerapkan etika pergaulan dan komunikasi akan membawa kedamaian dan <strong>kemuliaan akhlak</strong> yang membuahkan pahala melimpah di akhirat.
-        </p>
+    <!-- Manfaat di Akhirat -->
+    <div class="bg-secondary/5 p-6 rounded-3xl border border-secondary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-secondary text-3xl mr-3">auto_awesome</span>
+            <h4 class="font-bold text-lg text-secondary">Manfaat di Akhirat</h4>
+        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Mendapatkan Rahmat Allah Swt.:</strong> Menjadi hamba pilihan yang diistimewakan untuk memperoleh rahmat, pertolongan, dan kasih sayang-Nya di hari akhirat kelak.</li>
+            <li><strong>Bukti Kesempurnaan Iman:</strong> Sifat kasih sayang kepada sesama makhluk adalah bukti nyata dari sempurnanya kualitas iman seorang hamba di mata Allah Swt..</li>
+            <li><strong>Memperoleh Syafaat dan Pahala Sedekah:</strong> Setiap butir kebaikan dan kepedulian yang ditebarkan kepada makhluk bumi dicatat sebagai pahala sedekah melimpah yang akan memberatkan timbangan kebaikan menuju surga.</li>
+        </ul>
     </div>
 </div>
 
@@ -3419,150 +3418,166 @@ const materiData = [
         "kelas": 9,
         "semester": "Genap",
         "bab": "Bab 3",
-        "judul": "Mengembangkan Ekspresi Seni Islami",
-        "waktuBumper": "12 Menit Baca",
+        "judul": "Makna Kasih Sayang kepada Lingkungan Alam",
+        "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Mencintai keindahan dan berkarya seni adalah bagian dari ekspresi keimanan, selama tidak melanggar syariat. Bab ini menjelaskan tentang bagaimana Islam memberikan wadah bagi manusia untuk mengekspresikan seninya secara indah dan bermartabat.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Makna Kasih Sayang kepada Lingkungan Alam</strong>, yang mencakup pengertian, dalil naqli, contoh perilaku sehari-hari, beserta hikmah menjaga kelestarian alam.
 </p>
 
-<!-- 1. Pengertian Seni Islami -->
-<div class="bg-surface-container-low p-8 rounded-[2rem] mb-12 border border-outline-variant/20 shadow-sm relative overflow-hidden flex flex-col md:flex-row gap-8 items-center">
-    <div class="flex-grow z-10">
-        <h3 class="font-headline text-2xl font-bold text-primary mb-4 flex items-center">
-            <span class="material-symbols-outlined mr-3 text-[28px]">palette</span> Pengertian Seni Islami
-        </h3>
-        <p class="text-on-surface-variant leading-relaxed text-md mb-4">
-            <strong>Seni</strong> adalah ungkapan rasa indah dalam jiwa manusia yang disampaikan melalui suara (musik/nyanyian), penglihatan (lukisan/arsitektur), atau gerakan (tari).
-        </p>
-        <p class="text-on-surface-variant leading-relaxed text-md">
-            <strong>Seni Islami</strong> adalah seni yang menunjukkan keindahan dan nilai <em>ketauhidan</em> (keesaan Allah) sebagai inti dari ajaran. Islam sangat menyukai keindahan asalkan sesuai nilai-nilai Islam.
-        </p>
-    </div>
-    
-    <div class="w-full md:w-1/3 shrink-0 bg-primary/10 p-6 rounded-2xl border border-primary/20 relative z-10">
-        <div class="text-center font-quran text-2xl leading-loose mb-3 text-primary" dir="rtl">
-            إِنَّ اللَّهَ جَمِيلٌ يُحِبُّ الْجَمَالَ
+<!-- Bagian 1: Pengertian -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Pengertian Kasih Sayang kepada Lingkungan Alam</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <div class="grid md:grid-cols-2 gap-8">
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">translate</span> Secara Bahasa
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Secara bahasa, "kasih sayang" diterjemahkan dari kata <em>ar-rahmah</em> (<span class="font-quran" dir="rtl">رَحْمَةٌ</span>) yang berarti kelembutan hati, belas kasih, atau kepekaan nurani. Sedangkan "lingkungan alam" adalah segala komponen biotik (makhluk hidup) dan abiotik (benda mati) yang ada di sekitar manusia. Maka, kasih sayang kepada lingkungan alam secara bahasa berarti memiliki kepekaan batin, kelembutan, dan kepedulian untuk menjaga keasrian serta kelestarian unsur-unsur alam di sekitar kita.
+            </p>
         </div>
-        <p class="text-xs text-on-surface-variant italic text-center">
-            "Sesungguhnya Allah Maha indah dan mencintai keindahan." <strong>(HR. Muslim)</strong>
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">menu_book</span> Secara Istilah
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Secara istilah (makna luas), <strong>kasih sayang kepada lingkungan alam adalah sikap peduli, tanggung jawab, dan tindakan nyata yang tulus dari seorang mukmin untuk menjaga, merawat, melestarikan, dan memakmurkan bumi beserta seluruh isinya (tumbuhan, hewan, air, udara, dan tanah)</strong>. Sikap ini merupakan wujud nyata pelaksanaan amanah manusia sebagai khalifah di bumi (<em>khalifatullah fil 'ard</em>) sekaligus bentuk implementasi ajaran Islam yang ramah, moderat, dan menjadi rahmat bagi semesta alam (<em>rahmatan lil 'alamin</em>).
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Bagian 2: Dalil Naqli -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Dalil Naqli (Al-Qur'an dan Hadis)</h3>
+
+<div class="space-y-8 mb-12">
+    <!-- Dalil 1: Q.S. Ar-Rum Ayat 41 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AR-RUM: 41</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Larangan Merusak Alam</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+ظَهَرَ الْفَسَادُ فِي الْبَرِّ وَالْبَحْرِ بِمَا كَسَبَتْ أَيْدِي النَّاسِ لِيُذِيقَهُمْ بَعْضَ الَّذِي عَمِلُوا لَعَلَّهُمْ يَرْجِعُونَ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Telah tampak kerusakan di darat dan di laut disebabkan karena perbuatan tangan manusia; Allah menghendaki agar mereka merasakan sebagian dari (akibat) perbuatan mereka, agar mereka kembali (ke jalan yang benar)."
         </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Tafsir Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Ayat ini memperingatkan bahwa segala bentuk pencemaran, eksploitasi berlebihan, dan kerusakan lingkungan (<em>al-fasad</em>) terjadi akibat ulah keserakahan manusia itu sendiri. Allah Swt. sengaja memberikan dampak negatif secara langsung (seperti banjir, polusi udara, pemanasan global, dan wabah penyakit) agar manusia menyadari kesalahannya. Ayat ini mengajak manusia untuk segera bertobat dan memperbaiki perilakunya terhadap alam.
+            </p>
+        </div>
     </div>
-    <span class="material-symbols-outlined absolute -bottom-10 -left-10 text-[200px] text-surface-variant/30 rotate-12">brush</span>
-</div>
 
-<!-- 2. Batasan-Batasan dalam Berseni Menurut Islam -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 text-center">8 Batasan Seni Menurut Syariat</h3>
-<p class="text-center text-on-surface-variant mb-10 max-w-2xl mx-auto">
-    Islam memberikan kebebasan berekspresi, namun kebebasan tersebut dipagari agar seni membawa kebaikan dan tidak membangkitkan keburukan.
-</p>
+    <!-- Dalil 2: H.R. Al-Bukhari -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">H.R. AL-BUKHARI</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Menanam Pohon Bernilai Sedekah</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+مَا مِنْ مُسْلِمٍ يَغْرِسُ غَرْسًا، أَوْ يَزْرَعُ زَرْعًا فَيَأْكُلَ مِنْهُ طَيْرٌ أَوْ إِنْسَانٌ أَوْ بَهِيمَةٌ إِلَّا كَانَ لَهُ بِهِ صَدَقَةٌ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Tidaklah seorang muslim menanam pohon, tidak pula menanam tanaman kemudian pohon/tanaman tersebut dimakan oleh burung, manusia, atau binatang melainkan menjadi sedekah baginya."
+        </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Penjelasan Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Hadis ini menunjukkan betapa besarnya perhatian Islam terhadap penghijauan dan kelestarian alam. Rasulullah saw. memberikan motivasi spiritual yang luar biasa: <strong>aktivitas menanam pohon atau menjaga tumbuh-tumbuhan tidak sekadar melestarikan lingkungan, tetapi juga bernilai ibadah sosial (sedekah jariyah) yang pahalanya terus mengalir</strong> selama tanaman tersebut memberikan manfaat bagi makhluk lain.
+            </p>
+        </div>
+    </div>
 
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:border-primary/50 transition-colors">
-        <span class="material-symbols-outlined text-primary mb-2 text-3xl">gavel</span>
-        <h4 class="font-bold text-sm mb-1">Menjaga Norma</h4>
-        <p class="text-xs text-on-surface-variant">Tidak boleh menampilkan hal diharamkan atau merusak moral masyarakat.</p>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:border-primary/50 transition-colors">
-        <span class="material-symbols-outlined text-primary mb-2 text-3xl">front_hand</span>
-        <h4 class="font-bold text-sm mb-1">Tidak Takabur</h4>
-        <p class="text-xs text-on-surface-variant">Seniman dilarang sombong sebab kemampuannya murni titipan dari Allah.</p>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:border-primary/50 transition-colors">
-        <span class="material-symbols-outlined text-primary mb-2 text-3xl">diversity_1</span>
-        <h4 class="font-bold text-sm mb-1">Nilai Susila</h4>
-        <p class="text-xs text-on-surface-variant">Karya seni harus santun, beradab, dan jauh dari unsur vulgar.</p>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:border-primary/50 transition-colors">
-        <span class="material-symbols-outlined text-primary mb-2 text-3xl">checkroom</span>
-        <h4 class="font-bold text-sm mb-1">Menutup Aurat</h4>
-        <p class="text-xs text-on-surface-variant">Khususnya pada seni pertunjukan/tari, batasan aurat muslim/muslimah wajib dijaga.</p>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:border-error/50 transition-colors">
-        <span class="material-symbols-outlined text-error mb-2 text-3xl">brightness_empty</span>
-        <h4 class="font-bold text-sm mb-1 text-error">Tidak Syirik</h4>
-        <p class="text-xs text-on-surface-variant">Bebas dari patung berhala atau hal yang menyekutukan keesaan Allah.</p>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:border-error/50 transition-colors">
-        <span class="material-symbols-outlined text-error mb-2 text-3xl">visibility_off</span>
-        <h4 class="font-bold text-sm mb-1 text-error">Tidak Syahwat</h4>
-        <p class="text-xs text-on-surface-variant">Karya tidak boleh merangsang syahwat kebinatangan/dosa.</p>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:border-error/50 transition-colors">
-        <span class="material-symbols-outlined text-error mb-2 text-3xl">warning</span>
-        <h4 class="font-bold text-sm mb-1 text-error">Anti Merusak Moral</h4>
-        <p class="text-xs text-on-surface-variant">Seni seharusnya mendidik dan membangun akhlak, bukan merusaknya.</p>
-    </div>
-    <div class="bg-white p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:border-error/50 transition-colors">
-        <span class="material-symbols-outlined text-error mb-2 text-3xl">gpp_bad</span>
-        <h4 class="font-bold text-sm mb-1 text-error">Anti Kebohongan</h4>
-        <p class="text-xs text-on-surface-variant">Seni harus berisi pesan kebenaran, bukan fitnah atau disinformasi.</p>
+    <!-- Dalil 3: H.R. At-Tirmidzi -->
+    <div class="bg-gradient-to-br from-secondary to-secondary-container p-8 rounded-[2rem] shadow-sm relative text-white">
+        <span class="bg-white/20 text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest border border-white/30">H.R. AT-TIRMIDZI</span>
+        <h4 class="font-bold text-lg text-white mb-4">Perintah Menjaga Kebersihan Lingkungan</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6" dir="rtl">
+إِنَّ اللَّهَ طَيِّبٌ يُحِبُّ الطَّيِّبَ، نَظِيفٌ يُحِبُّ النَّظَافَةَ، كَرِيمٌ يُحِبُّ الْكَرَمَ، جَوَادٌ يُحِبُّ الْجُودَ، فَنَظِّفُوا أَفْنِيَتَكُمْ
+        </div>
+        <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 leading-relaxed mb-4">
+            "Sesungguhnya Allah itu Maha Baik dan mencintai kebaikan, Maha Bersih dan mencintai kebersihan, Maha Mulia dan mencintai kemuliaan, Maha Pemurah dan mencintai kemurahan, maka bersihkanlah halaman rumahmu."
+        </p>
+        <div class="bg-white/10 p-4 rounded-xl border border-white/20">
+            <h5 class="font-bold text-sm text-white mb-2">Catatan & Penjelasan Ringkas:</h5>
+            <p class="text-sm opacity-90 leading-relaxed">
+                Hadis ini menegaskan bahwa kebersihan fisik dan kebersihan lingkungan adalah bagian tak terpisahkan dari keimanan. Rasulullah saw. memerintahkan kita untuk senantiasa memelihara kebersihan area tempat tinggal, sekolah, dan halaman rumah kita sebagai cerminan meneladani sifat Allah Swt. yang Maha Bersih.
+            </p>
+        </div>
     </div>
 </div>
 
-<!-- 3. Bentuk Ekspresi Seni -->
-<div class="flex flex-col md:flex-row gap-8 items-start mb-16">
-    <div class="md:w-1/3">
-        <h3 class="font-headline text-2xl font-bold text-primary mb-4">Ragam Ekspresi</h3>
-        <ul class="space-y-3">
-            <li class="flex items-center gap-3 p-3 bg-surface-container-low rounded-xl">
-                <span class="material-symbols-outlined text-secondary">music_note</span> <strong>Seni Suara:</strong> Qasidah, Nasyid
-            </li>
-            <li class="flex items-center gap-3 p-3 bg-surface-container-low rounded-xl">
-                <span class="material-symbols-outlined text-secondary">architecture</span> <strong>Seni Rupa:</strong> Kaligrafi, Arsitektur
-            </li>
-            <li class="flex items-center gap-3 p-3 bg-surface-container-low rounded-xl">
-                <span class="material-symbols-outlined text-secondary">import_contacts</span> <strong>Seni Sastra:</strong> Syair Islami
-            </li>
-            <li class="flex items-center gap-3 p-3 bg-surface-container-low rounded-xl">
-                <span class="material-symbols-outlined text-secondary">accessibility_new</span> <strong>Seni Gerak:</strong> Tari Zapin (sesuai syariat)
-            </li>
+<!-- Bagian 3: Contoh Perilaku -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Contoh Perilaku Menjaga Lingkungan Alam dalam Kehidupan Sehari-hari</h3>
+<div class="grid md:grid-cols-3 gap-6 mb-12">
+    <!-- Keluarga -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">family_restroom</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Keluarga</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Menerapkan budaya hemat energi dengan mematikan keran air setelah digunakan dan mematikan lampu yang tidak terpakai.</li>
+            <li>Membantu orang tua merawat dan menyiram tanaman hias atau sayur-sayuran di pekarangan rumah secara rutin.</li>
+            <li>Mengurangi penggunaan plastik sekali pakai serta membiasakan memilah sampah rumah tangga antara sampah organik dan anorganik.</li>
         </ul>
     </div>
     
-    <div class="md:w-2/3 bg-surface-container-highest p-8 rounded-[2rem] border-l-8 border-primary">
-        <h4 class="font-bold text-xl mb-4 text-on-surface">Panduan Berkarya</h4>
-        <p class="text-sm text-on-surface-variant mb-4">Saat berkarya seni, seorang muslim wajib memperhatikan agar seninya:</p>
-        <ul class="space-y-2 text-sm text-on-surface-variant opacity-90 list-disc ml-5 pl-2">
-            <li>Mengarah pada budi pekerti dan nilai luhur Islam.</li>
-            <li>Mengarahkan penikmatnya untuk mengagungkan kebesaran Allah Swt.</li>
-            <li>Sukses menjadi katalis peningkatan keimanan.</li>
-            <li>Sejalan dengan konsep kebaikan umum (Al-Ma'ruf) dan nilai kearifan lokal yang tidak menabrak agama.</li>
-            <li>Menghindari pembangkitan selera rendah yang dibenci oleh Allah.</li>
+    <!-- Sekolah -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">school</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Sekolah</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Membuang sampah pada tempatnya, menjaga kebersihan ruang kelas, serta aktif melaksanakan piket dan kerja bakti sekolah.</li>
+            <li>Berpartisipasi aktif dalam kegiatan menanam pohon atau tanaman hijau di taman sekolah (program pohon asuh) demi keasrian sekolah.</li>
+            <li>Membawa botol minum (<em>tumbler</em>) dan wadah makan sendiri dari rumah untuk meminimalkan timbulan sampah plastik di kantin sekolah.</li>
+        </ul>
+    </div>
+    
+    <!-- Masyarakat -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">group</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Masyarakat</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Ikut serta secara bergotong royong dalam program penghijauan desa/kelurahan serta kerja bakti membersihkan saluran air untuk mencegah banjir bandang.</li>
+            <li>Tidak melakukan perusakan terhadap fasilitas umum, tidak mencorat-coret pohon di taman kota, serta tidak membuang sampah sembarangan di jalan raya atau ke dalam sungai.</li>
+            <li>Menyayangi hewan sekitar dengan tidak menyiksa mereka, menjaga kelestarian terumbu karang, dan tidak membuang sampah plastik yang dapat mengancam biota laut.</li>
         </ul>
     </div>
 </div>
 
-<!-- 4. Hikmah Mengembangkan Seni Islami -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 rounded-[3rem] text-white shadow-xl">
-    <h4 class="text-2xl font-headline font-bold mb-4 text-center text-white">Hikmah Mengembangkan Seni Islami</h4>
-    <p class="text-center text-sm opacity-90 mb-8 max-w-2xl mx-auto">
-        Melalui seni, kita dapat membuka mata dunia atas keindahan ajaran Islam dan mengajak pada kebaikan tanpa terkesan menggurui.
-    </p>
+<!-- Bagian 4: Hikmah / Dampak Positif -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Hikmah & Dampak Positif Menjaga Lingkungan Alam</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-8">
+    <!-- Manfaat di Dunia -->
+    <div class="bg-primary/5 p-6 rounded-3xl border border-primary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-primary text-3xl mr-3">public</span>
+            <h4 class="font-bold text-lg text-primary">Manfaat di Dunia</h4>
+        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Udara yang Sehat dan Segar:</strong> Menanam banyak pohon meningkatkan produksi oksigen dan menyerap emisi karbon, sehingga kualitas udara yang kita hirup sehari-hari menjadi lebih bersih.</li>
+            <li><strong>Mencegah Bencana Alam:</strong> Penjagaan kelestarian hutan dan pengelolaan lingkungan yang berkelanjutan meminimalkan risiko terjadinya banjir, tanah longsor, kekeringan, dan polusi udara.</li>
+            <li><strong>Keseimbangan Kehidupan:</strong> Menjaga kebersihan dan kelestarian ekosistem darat maupun laut menjamin ketersediaan makanan sehat jangka panjang bagi seluruh umat manusia.</li>
+        </ul>
+    </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        <div class="flex items-start gap-3 bg-white/10 p-4 rounded-xl">
-            <span class="material-symbols-outlined text-secondary-fixed">favorite</span>
-            <span class="text-sm font-medium">Meningkatkan rasa cinta kepada Allah dan Rasul.</span>
+    <!-- Manfaat di Akhirat -->
+    <div class="bg-secondary/5 p-6 rounded-3xl border border-secondary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-secondary text-3xl mr-3">auto_awesome</span>
+            <h4 class="font-bold text-lg text-secondary">Manfaat di Akhirat</h4>
         </div>
-        <div class="flex items-start gap-3 bg-white/10 p-4 rounded-xl">
-            <span class="material-symbols-outlined text-secondary-fixed">campaign</span>
-            <span class="text-sm font-medium">Berdakwah dengan cara yang indah & asyik.</span>
-        </div>
-        <div class="flex items-start gap-3 bg-white/10 p-4 rounded-xl">
-            <span class="material-symbols-outlined text-secondary-fixed">school</span>
-            <span class="text-sm font-medium">Menghasilkan mahakarya yang mendidik.</span>
-        </div>
-        <div class="flex items-start gap-3 bg-white/10 p-4 rounded-xl">
-            <span class="material-symbols-outlined text-secondary-fixed">verified_user</span>
-            <span class="text-sm font-medium">Menyalurkan bakat secara positif & halal.</span>
-        </div>
-        <div class="flex items-start gap-3 bg-white/10 p-4 rounded-xl">
-            <span class="material-symbols-outlined text-secondary-fixed">public</span>
-            <span class="text-sm font-medium">Memperkaya panggung kebudayaan Islam dunia.</span>
-        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Meraih Pahala Sedekah Jariyah:</strong> Upaya menanam pohon yang hasilnya dimakan oleh burung, manusia, atau hewan akan terus dicatat sebagai pahala sedekah jariyah di akhirat.</li>
+            <li><strong>Bukti Ketakwaan yang Sempurna:</strong> Menjaga keindahan bumi dan menjauhi perbuatan merusak lingkungan (<em>la tabghil fasada fil 'ard</em>) dicatat sebagai ibadah yang mencerminkan ketakwaan sesungguhnya.</li>
+            <li><strong>Meraih Rahmat dan Kasih Sayang Allah Swt.:</strong> Menyayangi seluruh makhluk di bumi (termasuk hewan dan tumbuhan) adalah kunci utama untuk mendapatkan kasih sayang dan ampunan dari Allah Swt..</li>
+        </ul>
     </div>
 </div>
 
