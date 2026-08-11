@@ -658,134 +658,142 @@ const materiData = [
         "kelas": 7,
         "semester": "Genap",
         "bab": "Bab 1",
-        "judul": "Alam Semesta Sebagai Tanda Kekuasaan Allah",
-        "waktuBumper": "20 Menit Baca",
+        "judul": "Ketakwaan (Q.S. Ali 'Imran: 102 & Q.S. Luqman: 33)",
+        "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
 
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Materi ini membuka cakrawala kita bahwa Al-Qur'an bukan sekadar kitab suci agama rutinitas, melainkan <strong>Ensiklopedia Sains Tertinggi</strong>. Kita akan mengupas pembenaran rahasia awal mula penciptaan alam semesta dan peran air sebagai pondasi kehidupan kosmos yang sesungguhnya sudah di-<em>spoiler</em> Al-Qur'an 1400 tahun silam!
+    Berikut adalah materi pembelajaran lengkap dan terstruktur mengenai <strong>Keimanan</strong> berdasarkan <strong>Q.S. Ali 'Imran/3: 102</strong> dan <strong>Q.S. Luqman/31: 33</strong>, Hadis terkait, serta panduan hukum tajwid <strong>Qalqalah</strong> dan <strong>Ghunnah</strong>.
 </p>
 
-<!-- 1. Dalil Utama -->
-<h3 class="font-headline text-2xl font-bold text-primary mb-6 flex items-center bg-primary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-primary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">auto_stories</span> 1. Dua Dalil Kosmologi Al-Qur'an</h3>
-<div class="grid md:grid-cols-2 gap-8 mb-12">
-    <!-- Anbiya 30 -->
-    <div class="bg-white p-8 rounded-[2.5rem] border border-outline-variant/20 shadow-[0_4px_15px_rgba(0,0,0,0.03)] relative overflow-hidden group hover:shadow-md transition-shadow">
-        <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest shadow-sm z-10">Q.S. AL-ANBIYA: 30</span>
-        <span class="material-symbols-outlined absolute -left-6 -bottom-6 text-primary/5 text-[150px] rotate-12 pointer-events-none group-hover:scale-110 transition-transform">explosion</span>
-        <div class="relative z-10">
-            <div class="text-right font-quran text-[26px] leading-loose mb-6 text-on-surface mt-2" dir="rtl">...اَنَّ السَّمٰوٰتِ وَالۡاَرۡضَ كَانَتَا رَتۡقًا فَفَتَقۡنٰهُمَا‌ ؕ وَجَعَلۡنَا مِنَ الۡمَآءِ كُلَّ شَىۡءٍ حَىٍّ‌ ؕ اَفَلَا يُؤۡمِنُوۡنَ</div>
-            <p class="text-[13.5px] italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed text-justify font-medium">
-                "Apakah orang-orang kafir tak mengetahui bahwa langit & bumi dahulu itu adalah suatu yang <strong>padu (bulat satu gumpalan)</strong>, kemudian Kami pisahkan (ledakan) antara keduanya. Dan dari <strong>air</strong> Kami jadikan segala sesuatu yang hidup..."
-            </p>
-        </div>
+<!-- Bagian 1: Q.S. Ali 'Imran Ayat 102 -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Q.S. Ali 'Imran Ayat 102 (Puncak Ketakwaan)</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
+    <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. ALI 'IMRAN: 102</span>
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ حَقَّ تُقَاتِهِ وَلَا تَمُوتُنَّ إِلَّا وَأَنْتُمْ مُسْلِمُونَ
     </div>
-    <!-- A'raf 54 -->
-    <div class="bg-white p-8 rounded-[2.5rem] border border-outline-variant/20 shadow-[0_4px_15px_rgba(0,0,0,0.03)] relative overflow-hidden group hover:shadow-md transition-shadow">
-        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest shadow-sm z-10">Q.S. AL-A'RAF: 54</span>
-        <span class="material-symbols-outlined absolute -left-6 -bottom-6 text-secondary/5 text-[150px] -rotate-12 pointer-events-none group-hover:scale-110 transition-transform">clear_night</span>
-        <div class="relative z-10">
-            <div class="text-right font-quran text-[26px] leading-loose mb-6 text-on-surface mt-2" dir="rtl">اِنَّ رَبَّكُمُ اللّٰهُ الَّذِىۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ فِىۡ سِتَّةِ اَيَّامٍ ثُمَّ اسۡتَوٰى عَلَى الۡعَرۡشِ ...</div>
-            <p class="text-[13.5px] italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed text-justify font-medium">
-                "Sungguh, Tuhanmu (adalah) Allah yang menciptakan langit dan bumi dalam waktu <strong>enam masa</strong>, lalu Dia bersemayam di atas 'Arsy. Dia ciptakan matahari, bulan, & bintang tunduk pada perintah-Nya..."
-            </p>
-        </div>
-    </div>
-</div>
-
-<!-- 2. Tafsir Sains -->
-<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6 flex items-center bg-secondary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-secondary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">science</span> 2. Fisika Kosmik & Biologi Anatomi</h3>
-<div class="bg-surface-container-low p-8 rounded-[2.5rem] border border-outline-variant/20 shadow-sm mb-16 relative overflow-hidden">
-    <div class="grid md:grid-cols-2 gap-8 relative z-10">
-        <!-- Big Bang -->
-        <div class="space-y-4 bg-white p-6 rounded-[2rem] shadow-[0_2px_15px_rgba(0,0,0,0.02)] border border-outline-variant/30 transition-shadow hover:border-primary">
-            <h4 class="font-bold text-lg text-primary flex items-center border-b border-outline-variant/20 pb-3"><span class="material-symbols-outlined mr-2 text-primary">explosion</span> Teori <em>Big Bang</em> (Ledakan Kosmik)</h4>
-            <p class="text-[13.5px] text-on-surface-variant leading-relaxed text-justify font-medium">
-                Surah al-Anbiya' 30 membedah rahasia bahwa materil langit-bumi dulunya menyatu <em>(Ratqan)</em>, lalu diledakkan pisah <em>(Fataqnahuma)</em>. Ribuan tahun sesudah ayat turun, barulah <strong>Teori Big Bang Fisika Modern</strong> membenarkannya; mengukuhkan semua alam semesta berawal titik padat tunggal yang berhamburan dengan kecepatan gila melahirkan debu asap bintang!
-            </p>
-        </div>
-        <!-- Keajaiban Air -->
-        <div class="space-y-4 bg-white p-6 rounded-[2rem] shadow-[0_2px_15px_rgba(0,0,0,0.02)] border border-outline-variant/30 transition-shadow hover:border-tertiary">
-            <h4 class="font-bold text-lg text-tertiary flex items-center border-b border-outline-variant/20 pb-3"><span class="material-symbols-outlined mr-2 text-tertiary">water_drop</span> Air Membawa Rantai Kehidupan</h4>
-            <p class="text-[13.5px] text-on-surface-variant leading-relaxed text-justify font-medium">
-                "Segala yang hidup terbuat dari Air." Ilmu sel membuktikan nyaris <strong>70% anatomi mamalia (termasuk kita) diisi genangan cairan</strong>. Tanpa makan gandum, kita sanggup menahan nyawa 60 hari. Tapi puasa minum? Manusia mati 100% gagal ginjal internal dalam durasi 10 hari telak! Biologi sepakat pemicu gen awal terangkai dari lautan air bumi purba.
-            </p>
-        </div>
-    </div>
-</div>
-
-<!-- 3. Hadis Belajar -->
-<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6 flex items-center bg-tertiary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-tertiary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">school</span> 3. Maklumat Nabi: Wajibnya Eksplorasi Pintar</h3>
-<div class="bg-surface-container p-8 rounded-[2.5rem] border border-outline-variant/20 mb-16 shadow-[0_4px_15px_rgba(0,0,0,0.02)]">
-    <p class="text-[14.5px] mb-8 text-on-surface-variant text-justify font-medium leading-relaxed">
-        Untuk bisa membongkar semua rahasia Big Bang di atas, manusia diinstalasi organ pendobrak batas yakni <strong>Akal (Kecerdasan Otak)</strong>. Nabi SAW berpesan keras bahwa status <em>Orang Berilmu</em> adalah syarat mutlak tidak punah jadi pecundang.
+    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+        "Hai orang-orang yang beriman, bertakwalah kepada Allah sebenar-benar takwa kepada-Nya; dan janganlah sekali-kali kamu mati melainkan dalam keadaan beragama Islam."
     </p>
-    <div class="grid md:grid-cols-2 gap-5">
-        <div class="bg-white p-6 rounded-2xl border-l-[6px] border-tertiary shadow-sm">
-            <h5 class="text-[11px] font-bold text-tertiary mb-3 tracking-widest uppercase bg-tertiary/10 inline-block px-2 py-0.5 rounded">H.R. Ibnu Majah (Status: Kewajiban Absolut)</h5>
-            <div class="font-quran text-3xl text-right mb-4" dir="rtl">طَلَبُ الْعِلْمِ فَرِيْضَةٌ عَلَى كُلِّ مُسْلِمٍ</div>
-            <p class="text-[13px] text-on-surface italic leading-relaxed">"Menuntut ilmu pengetauan itu hukumnya <strong>Kewajiban Fardu</strong> buat leher setiap muslim di muka bumi."</p>
-        </div>
-        <div class="bg-white p-6 rounded-2xl border-l-[6px] border-secondary shadow-sm">
-            <h5 class="text-[11px] font-bold text-secondary mb-3 tracking-widest uppercase bg-secondary/10 inline-block px-2 py-0.5 rounded">H.R. Muslim (Status: Jalan Pintas Surga)</h5>
-            <div class="font-quran text-[25px] text-right mb-4 leading-loose" dir="rtl">مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ طَرِيقًا إِلَى الْجَنَّةِ</div>
-            <p class="text-[13px] text-on-surface italic leading-relaxed">"Barangsiapa pusing blusukan cari jalan demi sebongkah ilmu wawasan, <strong>Allah gampangkan lurus tanpa macet</strong> rutenya menuju Surga."</p>
-        </div>
-        <div class="bg-white p-6 rounded-[2rem] border-l-[6px] border-error shadow-sm col-span-1 md:col-span-2 relative overflow-hidden flex flex-col md:flex-row gap-6 items-center">
-            <div class="flex-1">
-                <h5 class="text-[11px] font-bold text-error mb-3 tracking-widest uppercase bg-error/10 inline-block px-2 py-0.5 rounded">H.R. Al-Baihaqi (Tragedi Golongan ke-5)</h5>
-                <div class="font-quran text-2xl text-right mb-4 leading-loose text-error" dir="rtl">كُنْ عَالِمًا أَوْ مُتَعَلِّمًا أَوْ مُسْتَمِعًا أَوْ مُحِبًّا لَا تَكُنِ الْخَامِسَ فَتَهْلِكَ</div>
-                <p class="text-[13px] text-on-surface leading-relaxed text-justify mt-3 font-medium">
-                    Jadilah kamu tim prioritas keselamatan ini:<br>
-                    1. <strong>Sang Pakar</strong> (Orang Pinter / Gurunya), ATAU <br>
-                    2. <strong>Sang Murid Belajar</strong> (Meskipun gak pinter-pinter amat), ATAU <br>
-                    3. <strong>Sang Pendengar</strong> (Rajin ikut seminar/tanya jawab ustadz), ATAU <br>
-                    4. <strong>Sang Pecinta/Donatur</strong> (Penyedia fasilitas ilmu).<br><br>
-                    Dan <strong class="text-error">HARAM JADILAH ORANG KELIMA</strong> (Udah bodoh, ogah belajar, gak mau dinasehatin, benci pula liat anak rajin). Auto Binasa Celaka!
-                </p>
-            </div>
-        </div>
-    </div>
+</div>
+<div class="bg-surface-container-low p-6 rounded-2xl border-l-4 border-primary mb-12">
+    <h4 class="font-bold text-lg mb-2 text-primary">Analisis & Isi Kandungan</h4>
+    <ul class="text-sm text-on-surface-variant leading-relaxed list-disc list-inside space-y-2">
+        <li><strong>Definisi Takwa yang Sebenarnya:</strong> Menurut sahabat Abdullah bin Mas'ud r.a., takwa yang sebenar-benarnya (<em>haqqa tuqatih</em>) adalah menaati Allah tanpa bermaksiat, senantiasa mengingat-Nya tanpa melupakan, serta bersyukur tanpa mengingkari nikmat-Nya.</li>
+        <li><strong>Konsistensi Keimanan:</strong> Allah memerintahkan agar kita menjaga konsistensi iman dan berserah diri (Islam) hingga akhir hayat, karena kematian datang secara tiba-tiba.</li>
+        <li><strong>Tafsir & Keringanan:</strong> Ketika perintah bertakwa dengan "sebenar-benar takwa" dirasa sangat berat oleh para sahabat, Allah menurunkan kelonggaran dalam Q.S. At-Taghabun ayat 16, yaitu perintah untuk bertakwa sesuai dengan batas kemampuan maksimal yang kita miliki.</li>
+    </ul>
 </div>
 
-<!-- 4. Tajwid -->
-<h3 class="font-headline text-2xl font-bold text-error mt-12 mb-6 flex items-center bg-error/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-error text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">campaign</span> 4. Tajwid: Hukum Bacaan Gunnah</h3>
-<div class="flex flex-col md:flex-row gap-6 mb-16">
-    <div class="bg-error/10 p-8 rounded-[2.5rem] flex-1 border-l-[8px] border-error relative overflow-hidden shadow-sm flex flex-col justify-center">
-        <span class="material-symbols-outlined absolute -bottom-6 -right-6 text-[150px] text-error/10">graphic_eq</span>
-        <div class="relative z-10">
-            <h4 class="font-bold text-[22px] mb-3 text-error">Apa itu Aturan Gunnah?</h4>
-            <p class="text-[14px] text-error-on mb-6 leading-relaxed font-medium">
-                Secara praktis, <strong>Gunnah</strong> berarti mendengung atau mendemung hidung secara sensual. Ciri visualnya tebal menonjol: Setiap Anda berjumpa dengan huruf <strong>Nun (نّ)</strong> ataupun <strong>Mim (مّ)</strong> yang kepalanya ditindih tanda W kecil <strong>TASYDID ( ّ )</strong>, rem ritmemu, tahan bibirmu, dan wajib didengungkan sengau di hidung!
-            </p>
-            <div class="text-[14px] font-bold bg-white text-error px-4 py-2.5 rounded-xl border border-error/20 shadow-[0_2px_10px_rgba(255,0,0,0.1)] inline-flex items-center gap-2">
-                <span class="material-symbols-outlined text-[20px]">timer</span> Lampu Merah Durasi Dengungan: 2 Harakat Ketukan!
+<!-- Bagian 2: Q.S. Luqman Ayat 33 -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Q.S. Luqman Ayat 33 (Ketakwaan dan Peringatan Hari Akhir)</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
+    <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. LUQMAN: 33</span>
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمْ وَاخْشَوْا يَوْمًا لَا يَجْزِي وَالِدٌ عَنْ وَلَدِهِ وَلَا مَوْلُودٌ هُوَ جَازٍ عَنْ وَلَدِهِ شَيْئًا ۚ إِنَّ وَعْدَ اللَّهِ حَقٌّ ۖ فَلَا تَغُرَّنَّكُمُ الْحَيَاةُ الدُّنْيَا وَلَا يَغُرَّنَّكُمْ بِاللَّهِ الْغَرُورُ
+    </div>
+    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+        "Wahai manusia! Bertakwalah kepada Tuhanmu dan takutlah pada hari yang (ketika itu) seorang bapak tidak dapat menolong anaknya, dan seorang anak tidak dapat (pula) menolong bapaknya sedikit pun. Sungguh, janji Allah pasti benar, maka janganlah sekali-kali kamu teperdaya oleh kehidupan dunia, dan jangan sampai kamu teperdaya oleh penipu dalam (menaati) Allah."
+    </p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-2xl border-l-4 border-secondary mb-12">
+    <h4 class="font-bold text-lg mb-2 text-secondary">Analisis & Isi Kandungan</h4>
+    <ul class="text-sm text-on-surface-variant leading-relaxed list-disc list-inside space-y-2">
+        <li><strong>Pertanggungjawaban Individu:</strong> Ayat ini menegaskan kedahsyatan hari Kiamat di mana hubungan keluarga sedarah sekalipun (antara orang tua dan anak) tidak dapat saling menolong. Setiap manusia akan menanggung hasil perbuatannya masing-masing.</li>
+        <li><strong>Larangan Terperdaya Dunia:</strong> Allah memperingatkan manusia agar tidak tertipu oleh kesenangan dunia yang fana.</li>
+        <li><strong>Waspada Terhadap Penipu (<em>Al-Ghurur</em>):</strong> Kita dilarang keras teperdaya oleh godaan setan yang selalu membisikkan angan-angan kosong dan membuat kita lalai dari ketaatan kepada Allah.</li>
+    </ul>
+</div>
+
+<!-- Bagian 3: Hadis Terkait Ketakwaan -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6 flex items-center">
+    <span class="material-symbols-outlined mr-2">menu_book</span> Hadis Terkait Ketakwaan
+</h3>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative mb-8">
+    <span class="bg-tertiary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">H.R. TIRMIDZI</span>
+    <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا، وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ
+    </div>
+    <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+        "Bertakwalah kepada Allah di mana pun engkau berada; iringilah perbuatan buruk dengan perbuatan baik, maka kebaikan akan menghapuskan keburukan itu; dan pergaulilah manusia dengan akhlak yang baik."
+    </p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-2xl border-l-4 border-tertiary mb-12">
+    <h4 class="font-bold text-lg mb-2 text-tertiary">Kandungan Hadis</h4>
+    <p class="text-sm text-on-surface-variant mb-2">Hadis ini memuat tiga pilar penting kehidupan seorang muslim:</p>
+    <ul class="text-sm text-on-surface-variant leading-relaxed list-decimal list-inside space-y-2">
+        <li><strong>Hablum minallah (Hubungan dengan Allah):</strong> Menjaga ketakwaan secara konsisten di mana pun dan kapan pun, baik saat ramai maupun sunyi.</li>
+        <li><strong>Mekanisme Taubat:</strong> Segera mengiringi kesalahan atau dosa kecil dengan amal saleh agar kebaikan tersebut menghapus dosa yang telah lalu.</li>
+        <li><strong>Hablum minannas (Hubungan dengan manusia):</strong> Bergaul di tengah masyarakat dengan menampilkan akhlak mulia dan budi pekerti luhur.</li>
+    </ul>
+</div>
+
+<!-- Bagian 4: Materi Tajwid -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 flex items-center">
+    <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
+        <span class="material-symbols-outlined text-[24px]">spellcheck</span>
+    </span>
+    Materi Tajwid — Qalqalah dan Ghunnah
+</h3>
+
+<div class="flex flex-col md:flex-row gap-6 mb-12">
+    <!-- Qalqalah -->
+    <div class="bg-surface-container-low p-8 rounded-3xl flex-1 border-l-8 border-primary relative overflow-hidden">
+        <h4 class="font-bold text-xl mb-3 text-primary">Qalqalah (قَلْقَلَة) 🔊</h4>
+        <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
+            Secara bahasa artinya getaran atau pantulan suara. Secara istilah, membunyikan huruf-huruf qalqalah dengan pantulan suara yang jelas ketika huruf tersebut berharakat sukun (mati) atau sukun karena diwaqafkan.
+        </p>
+        <div class="mb-4">
+            <h5 class="text-xs font-bold text-on-surface uppercase tracking-wider mb-2">Huruf Qalqalah (5 Huruf):</h5>
+            <div class="text-lg font-quran bg-white p-3 rounded-lg border border-outline-variant/20 shadow-sm relative z-10 text-right" dir="rtl">
+                ق - ط - ب - ج - د
             </div>
+            <p class="text-xs text-on-surface-variant mt-2 italic">(Biasa disingkat "Baju Di Toko" atau "Qutbu Jadin")</p>
+        </div>
+        <div>
+            <h5 class="text-xs font-bold text-on-surface uppercase tracking-wider mb-2">Macam-Macam Qalqalah:</h5>
+            <ol class="text-sm text-on-surface-variant space-y-4 list-decimal list-inside">
+                <li>
+                    <strong>Qalqalah Sugra (Kecil):</strong> Terjadi jika huruf qalqalah berharakat sukun asli dan terletak di <strong>tengah kata/kalimat</strong>. Cara membacanya dipantulkan secara ringan.
+                    <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
+                        <li><span class="font-quran text-lg mx-1" dir="rtl">لَا يَجْزِي</span> <em>(laa yajzī)</em> — Huruf <strong>Jim (ج)</strong> sukun di tengah kata.</li>
+                        <li><span class="font-quran text-lg mx-1" dir="rtl">اتَّقِ</span> <em>(ittaqi)</em> — Huruf <strong>Qaf (ق)</strong> bertasydid kasrah (ketika dibaca sukun, ia memantul halus).</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Qalqalah Kubra (Besar):</strong> Terjadi jika huruf qalqalah berada di <strong>akhir kata/kalimat</strong> yang mati karena dihentikan (waqaf). Cara membacanya dipantulkan dengan kuat dan mantap.
+                    <ul class="list-disc list-inside ml-4 mt-2 space-y-1">
+                        <li><span class="font-quran text-lg mx-1" dir="rtl">حَقٌّ</span> ketika dibaca waqaf menjadi <span class="font-quran text-lg mx-1" dir="rtl">حَقْ</span> <em>(haqq)</em> — Huruf <strong>Qaf (ق)</strong> bertasydid yang diwaqafkan di akhir kata.</li>
+                    </ul>
+                </li>
+            </ol>
         </div>
     </div>
-    
-    <div class="bg-white p-6 rounded-[2.5rem] flex-1 border border-outline-variant/30 shadow-sm flex flex-col justify-center">
-        <h4 class="font-bold text-[13px] text-on-surface-variant uppercase tracking-wider mb-5 border-b border-outline-variant/20 pb-3 text-center">Praktik Deteksi M/N Bertasydid:</h4>
-        <div class="space-y-4 px-2">
-            <div class="flex items-center justify-between p-4 bg-surface-container rounded-2xl hover:border-error border border-transparent transition-colors cursor-default shadow-[0_2px_5px_rgba(0,0,0,0.02)]">
-                <span class="font-quran text-3xl text-primary font-bold tracking-wide" dir="rtl">اِنَّ رَبَّهُمۡ</span>
-                <span class="text-[11px] font-bold text-white bg-error px-3 py-1.5 rounded-lg shadow-sm border border-error/20 uppercase">Karena NUN Tasydid</span>
-            </div>
-            <div class="flex items-center justify-between p-4 bg-surface-container rounded-2xl hover:border-error border border-transparent transition-colors cursor-default shadow-[0_2px_5px_rgba(0,0,0,0.02)]">
-                <span class="font-quran text-3xl text-primary font-bold tracking-wide" dir="rtl">وَاَمَّا مَنۡ خَفَّتۡ</span>
-                <span class="text-[11px] font-bold text-white bg-error px-3 py-1.5 rounded-lg shadow-sm border border-error/20 uppercase">Karena MIM Tasydid</span>
-            </div>
-            <div class="flex items-center justify-between p-4 bg-surface-container rounded-2xl hover:border-error border border-transparent transition-colors cursor-default shadow-[0_2px_5px_rgba(0,0,0,0.02)]">
-                <span class="font-quran text-3xl text-primary font-bold tracking-wide" dir="rtl">فَاُمُّهٗ هَاوِيَةٌ</span>
-                <span class="text-[11px] font-bold text-white bg-error px-3 py-1.5 rounded-lg shadow-sm border border-error/20 uppercase">Karena MIM Tasydid</span>
-            </div>
+
+    <!-- Ghunnah -->
+    <div class="bg-surface-container-low p-8 rounded-3xl flex-1 border-l-8 border-secondary relative overflow-hidden">
+        <h4 class="font-bold text-xl mb-3 text-secondary">Ghunnah (غُنَّة) 👃</h4>
+        <p class="text-sm text-on-surface-variant mb-4 leading-relaxed">
+            Secara bahasa artinya dengung. Secara istilah, hukum bacaan yang wajib dibaca mendengung secara sempurna ketika ada huruf <strong>Nun bertasydid (نّ)</strong> atau <strong>Mim bertasydid (مّ)</strong>.
+        </p>
+        <div class="mb-4">
+            <h5 class="text-xs font-bold text-on-surface uppercase tracking-wider mb-2">Cara Membaca:</h5>
+            <p class="text-sm text-on-surface-variant">Suara ditahan di pangkal hidung (khaisyum) selama <strong>2 harakat/ketukan</strong> sebelum masuk ke huruf berikutnya.</p>
+        </div>
+        <div>
+            <h5 class="text-xs font-bold text-on-surface uppercase tracking-wider mb-2">Contoh di Ayat Q.S. Ali 'Imran: 102 & Q.S. Luqman: 33:</h5>
+            <ul class="text-sm text-on-surface-variant space-y-2 list-disc list-inside">
+                <li><span class="font-quran text-lg mx-1" dir="rtl">وَلَا تَمُوتُنَّ</span> <em>(wa laa tamūtunna)</em> — Terdapat huruf <strong>Nun bertasydid (نّ)</strong>.</li>
+                <li><span class="font-quran text-lg mx-1" dir="rtl">إِنَّ</span> <em>(inna)</em> — Terdapat huruf <strong>Nun bertasydid (نّ)</strong>.</li>
+                <li><span class="font-quran text-lg mx-1" dir="rtl">فَلَا تَغُرَّنَّكُمُ</span> <em>(fa laa tagurrannakumu)</em> — Terdapat huruf <strong>Nun bertasydid (نّ)</strong>.</li>
+            </ul>
         </div>
     </div>
 </div>
 
         `
-    }, {
         "id": "kls7-smtgenap-bab2",
         "kelas": 7,
         "semester": "Genap",
