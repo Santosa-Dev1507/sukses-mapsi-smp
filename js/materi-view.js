@@ -48,16 +48,16 @@ document.addEventListener("DOMContentLoaded", () => {
             card.className = "group block bg-surface-container-lowest p-4 rounded-2xl border border-transparent hover:border-primary/20 hover:shadow-md transition-all cursor-pointer";
             
             card.innerHTML = `
-                <div class="flex items-center space-x-4 relative">
-                    <div class="w-20 h-20 rounded-xl overflow-hidden shrink-0 relative">
+                <div class="flex items-center gap-3 relative">
+                    <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden shrink-0 relative">
                         <img alt="${rel.judul}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="${rel.gambar || 'images/islamic_mosque.png'}" onerror="this.src='images/islamic_mosque.png'"/>
-                        ${isRead ? `<div class="absolute inset-0 bg-primary/20 backdrop-blur-[2px] flex items-center justify-center"><span class="material-symbols-outlined text-white text-3xl drop-shadow-md">check_circle</span></div>` : ''}
+                        ${isRead ? `<div class="absolute inset-0 bg-primary/20 backdrop-blur-[2px] flex items-center justify-center"><span class="material-symbols-outlined text-white text-xl drop-shadow-md">check_circle</span></div>` : ''}
                     </div>
                     <div class="flex-1 min-w-0">
-                        <span class="text-[10px] font-bold text-secondary uppercase tracking-widest">Kelas ${rel.kelas} ${rel.semester}</span>
-                        <h4 class="font-bold text-on-surface truncate group-hover:text-primary transition-colors text-base mt-1">${rel.bab}</h4>
-                        <div class="flex items-center text-[12px] text-on-surface-variant mt-1">
-                            <span class="material-symbols-outlined text-[14px] mr-1">schedule</span>
+                        <span class="text-[10px] font-bold text-secondary uppercase tracking-widest leading-none">Kelas ${rel.kelas} ${rel.semester}</span>
+                        <h4 class="font-bold text-on-surface truncate group-hover:text-primary transition-colors text-sm sm:text-base mt-0.5 sm:mt-1">${rel.bab}</h4>
+                        <div class="flex items-center text-[11px] sm:text-[12px] text-on-surface-variant mt-0.5 sm:mt-1">
+                            <span class="material-symbols-outlined text-[13px] mr-1">schedule</span>
                             ${rel.waktuBumper}
                         </div>
                     </div>

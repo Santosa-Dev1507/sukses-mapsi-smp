@@ -75,16 +75,16 @@
         .sidebar-scroll::-webkit-scrollbar-thumb { background-color: #e3e2df; border-radius: 4px; }
     </style>
 </head>
-<body class="bg-surface text-on-surface font-body overflow-hidden flex h-screen">
+<body class="bg-surface text-on-surface font-body flex h-screen overflow-hidden">
 
     <!-- Mobile Topbar -->
-    <div class="lg:hidden fixed top-0 w-full h-16 bg-surface-container-lowest border-b border-outline-variant/20 z-40 flex items-center px-4 gap-4">
-        <button id="mobile-menu-btn" class="w-10 h-10 shrink-0 rounded-xl bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors">
+    <div class="lg:hidden fixed top-0 w-full h-14 bg-surface-container-lowest border-b border-outline-variant/20 z-40 flex items-center px-4 gap-3">
+        <button id="mobile-menu-btn" class="w-10 h-10 shrink-0 rounded-xl bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors" aria-label="Buka Menu">
             <span class="material-symbols-outlined">menu</span>
         </button>
-        <div class="flex items-center gap-2">
-            <span class="material-symbols-outlined text-primary text-2xl" data-icon="school">school</span>
-            <span class="font-headline font-bold text-primary-container truncate">SUKSES MAPSI ESPEMA</span>
+        <div class="flex items-center gap-2 min-w-0">
+            <span class="material-symbols-outlined text-primary text-xl shrink-0" data-icon="school">school</span>
+            <span class="font-headline font-bold text-primary-container truncate text-sm">SUKSES MAPSI ESPEMA</span>
         </div>
     </div>
 
@@ -92,15 +92,15 @@
     <div id="sidebar-overlay" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 hidden lg:hidden transition-opacity opacity-0"></div>
 
     <!-- Sidebar -->
-    <aside id="sidebar" class="fixed lg:static top-0 left-0 h-full w-[280px] bg-surface-container-lowest border-r border-outline-variant/20 z-50 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 flex flex-col">
+    <aside id="sidebar" class="fixed lg:static top-0 left-0 h-full w-[280px] bg-surface-container-lowest border-r border-outline-variant/20 z-50 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 flex flex-col shrink-0">
         <!-- Logo Area -->
-        <div class="h-20 lg:h-24 flex flex-col justify-center px-8 border-b border-outline-variant/10 shrink-0 relative">
-            <h1 class="text-xl font-headline font-extrabold text-emerald-800 flex items-center gap-2">
+        <div class="h-20 lg:h-24 flex flex-col justify-center px-6 border-b border-outline-variant/10 shrink-0 relative">
+            <h1 class="text-lg font-headline font-extrabold text-emerald-800 flex items-center gap-2">
                 <span class="material-symbols-outlined text-primary" data-icon="school">school</span>
                 SUKSES MAPSI ESPEMA
             </h1>
             <p class="text-xs text-on-surface-variant font-medium mt-1">SMPN 5 Klaten</p>
-            <button id="close-sidebar-btn" class="lg:hidden absolute right-4 top-6 w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant">
+            <button id="close-sidebar-btn" class="lg:hidden absolute right-4 top-6 w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant" aria-label="Tutup Sidebar">
                 <span class="material-symbols-outlined text-sm">close</span>
             </button>
         </div>
@@ -144,7 +144,7 @@
                 </nav>
             </div>
             <div>
-                <h3 class="px-4 text-xs font-bold text-on-surface-variant/70 uppercase tracking-widest mb-3">Sistem & Jadwal</h3>
+                <h3 class="px-4 text-xs font-bold text-on-surface-variant/70 uppercase tracking-widest mb-3">Sistem &amp; Jadwal</h3>
                 <nav class="space-y-1">
                     <a href="jadwal.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
                         <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">event_available</span> Jadwal Siswa
@@ -158,73 +158,71 @@
     </aside>
 
     <!-- Main Content Area -->
-    <div class="flex-1 flex flex-col h-full overflow-hidden relative">
-        <main class="flex-1 overflow-y-auto pt-20 lg:pt-8 px-6 lg:px-12 pb-24">
+    <div class="flex-1 flex flex-col min-w-0 overflow-hidden">
+        <main class="flex-1 overflow-y-auto pt-14 lg:pt-0">
+            <div class="px-4 sm:px-6 lg:px-10 py-6 lg:py-8 pb-24 max-w-screen-xl mx-auto">
 
+                <!-- Breadcrumbs -->
+                <nav class="flex items-center gap-1 mb-6 sm:mb-10 text-xs sm:text-sm font-medium text-on-surface-variant">
+                    <a class="hover:text-primary transition-colors shrink-0" href="index.html">Beranda</a>
+                    <span class="material-symbols-outlined text-[14px] shrink-0">chevron_right</span>
+                    <span class="text-primary font-bold">Daftar Materi</span>
+                </nav>
 
-
-
-<!-- Breadcrumbs -->
-<nav class="flex items-center gap-2 mb-10 text-sm font-medium text-on-surface-variant">
-<a class="hover:text-primary transition-colors" href="index.html">Beranda</a>
-<span class="material-symbols-outlined text-[16px]">chevron_right</span>
-<span class="text-primary font-bold">Daftar Materi</span>
-</nav>
-<!-- Hero / Summary Section -->
-<section class="relative overflow-hidden rounded-[2.5rem] bg-surface-container-low p-12 md:p-16 mb-16 shadow-sm">
-<div class="relative z-10 max-w-3xl">
-<h1 class="font-headline font-extrabold text-5xl md:text-6xl text-on-background tracking-tight mb-6 leading-tight">
-                    Kumpulan <span class="text-primary">Materi Lengkap</span> CCAI MAPSI
-                </h1>
-<p class="text-xl text-on-surface-variant leading-relaxed mb-8">
-                    Berikut adalah rangkuman dari seluruh bab materi PAI kelas 7, 8, dan 9 yang akan melengkapi persiapan Lomba CCAI MAPSI Anda.
-                </p>
-<div class="flex flex-wrap gap-4">
-<div class="flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-sm font-semibold text-primary border border-outline-variant/15 shadow-sm">
-<span class="material-symbols-outlined text-[20px]">verified</span>
-                        Standar Nasional
+                <!-- Hero / Summary Section -->
+                <section class="relative overflow-hidden rounded-2xl sm:rounded-[2.5rem] bg-surface-container-low p-6 sm:p-10 md:p-14 mb-10 sm:mb-16 shadow-sm">
+                    <div class="relative z-10 max-w-3xl">
+                        <h1 class="font-headline font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-on-background tracking-tight mb-4 sm:mb-6 leading-tight">
+                            Kumpulan <span class="text-primary">Materi Lengkap</span> CCAI MAPSI
+                        </h1>
+                        <p class="text-base sm:text-lg text-on-surface-variant leading-relaxed mb-6 sm:mb-8">
+                            Berikut adalah rangkuman dari seluruh bab materi PAI kelas 7, 8, dan 9 yang akan melengkapi persiapan Lomba CCAI MAPSI Anda.
+                        </p>
+                        <div class="flex flex-wrap gap-3">
+                            <div class="flex items-center gap-2 px-4 py-2 bg-white rounded-full text-xs sm:text-sm font-semibold text-primary border border-outline-variant/15 shadow-sm">
+                                <span class="material-symbols-outlined text-[18px] sm:text-[20px]">verified</span>
+                                Standar Nasional
+                            </div>
+                            <div class="flex items-center gap-2 px-4 py-2 bg-white rounded-full text-xs sm:text-sm font-semibold text-secondary border border-outline-variant/15 shadow-sm">
+                                <span class="material-symbols-outlined text-[18px] sm:text-[20px]">schedule</span>
+                                Update Tahun Ajaran 2026
+                            </div>
+                        </div>
                     </div>
-<div class="flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-sm font-semibold text-secondary border border-outline-variant/15 shadow-sm">
-<span class="material-symbols-outlined text-[20px]">schedule</span>
-                        Update Tahun Ajaran 2026
+                    <!-- Asymmetric Illustration Background -->
+                    <div class="absolute -top-24 -right-24 w-72 sm:w-96 h-72 sm:h-96 bg-primary-fixed/20 rounded-full blur-3xl"></div>
+                    <div class="absolute -bottom-24 right-24 w-48 sm:w-72 h-48 sm:h-72 bg-secondary-container/20 rounded-full blur-2xl"></div>
+                </section>
+
+                <!-- Kisi-kisi Cards Grid (DINAMIS via js/kisi-kisi.js) -->
+                <div id="daftar-materi-container" class="space-y-4 sm:space-y-6">
+                    <!-- Konten di-generate oleh daftar-materi.js bergantung pada js/materi.js -->
+                </div>
+
+                <!-- Call to Action -->
+                <div class="mt-16 sm:mt-24 text-center">
+                    <div class="inline-flex flex-col items-center w-full sm:w-auto">
+                        <p class="text-on-surface-variant font-semibold text-base sm:text-lg mb-6 sm:mb-8">Sudah menguasai semua materi kisi-kisi?</p>
+                        <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full sm:w-auto">
+                            <a href="detail-materi.html" class="bg-primary text-white font-headline font-bold px-8 sm:px-12 py-4 sm:py-5 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3 min-h-[52px]">
+                                <span class="material-symbols-outlined">menu_book</span>
+                                Cari Materi Detil
+                            </a>
+                            <a href="latihan-soal.html" class="bg-secondary-container text-on-secondary-container font-headline font-bold px-8 sm:px-12 py-4 sm:py-5 rounded-2xl shadow-sm hover:shadow-md hover:bg-secondary-container/80 active:scale-95 transition-all flex items-center justify-center gap-3 border border-secondary/10 min-h-[52px]">
+                                <span class="material-symbols-outlined">assignment</span>
+                                Mulai Latihan Ujian
+                            </a>
+                        </div>
                     </div>
-</div>
-</div>
-<!-- Asymmetric Illustration Background -->
-<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary-fixed/20 rounded-full blur-3xl"></div>
-<div class="absolute -bottom-24 right-24 w-72 h-72 bg-secondary-container/20 rounded-full blur-2xl"></div>
-</section>
+                </div>
 
-<!-- Kisi-kisi Cards Grid (DINAMIS via js/kisi-kisi.js) -->
-<div id="daftar-materi-container" class="space-y-6">
-    <!-- Konten di-generate oleh daftar-materi.js bergantung pada js/materi.js -->
-</div>
+            </div>
+        </main>
+    </div>
 
-<!-- Call to Action -->
-<div class="mt-24 text-center">
-<div class="inline-flex flex-col items-center">
-<p class="text-on-surface-variant font-semibold text-lg mb-8">Sudah menguasai semua materi kisi-kisi?</p>
-<div class="flex flex-col sm:flex-row gap-6">
-<a href="detail-materi.html" class="primary-gradient text-white font-headline font-bold px-12 py-5 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3">
-<span class="material-symbols-outlined">menu_book</span>
-                        Cari Materi Detil
-                    </a>
-<a href="latihan-soal.html" class="bg-secondary-container text-on-secondary-container font-headline font-bold px-12 py-5 rounded-2xl shadow-sm hover:shadow-md hover:bg-secondary-container/80 active:scale-95 transition-all flex items-center justify-center gap-3 border border-secondary/10">
-<span class="material-symbols-outlined">assignment</span>
-                        Mulai Latihan Ujian
-                    </a>
-</div>
-</div>
-</div>
-
-        
-        
-        
 <script src="js/data.js"></script>
 <script src="js/materi.js"></script>
 <script src="js/daftar-materi.js"></script>
-        </main>
-    </div>
 
 <script>
     const mobileBtn = document.getElementById('mobile-menu-btn');
@@ -250,4 +248,3 @@
     }
 </script>
 </body></html>
-
