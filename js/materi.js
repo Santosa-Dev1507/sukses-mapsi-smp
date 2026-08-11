@@ -2742,68 +2742,165 @@ const materiData = [
         "kelas": 8,
         "semester": "Ganjil",
         "bab": "Bab 5",
-        "judul": "Meneladani Semangat Literasi Masa Keemasan Islam Era Daulah Abbasiyah",
-        "waktuBumper": "14 Menit Baca",
+        "judul": "Sejarah Peradaban Islam pada Masa Daulah Fatimiyah",
+        "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab ini mengajak kita menyusuri lorong waktu menuju salah satu periode paling gemilang dalam peradaban pemikiran umat manusia: Masa Keemasan Daulah Abbasiyah (The Golden Age of Islam).
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Sejarah Peradaban Islam pada Masa Daulah Fatimiyah</strong>, yang mencakup sejarah singkat, garis waktu, tokoh-tokoh penting, hingga hikmah yang dapat diambil.
 </p>
 
-<!-- 1 & 2. Sejarah & Era Emas -->
-<div class="grid md:grid-cols-2 gap-6 mb-12">
-    <div class="bg-surface-container-low p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
-        <h3 class="font-headline text-xl font-bold text-primary mb-4 flex items-center"><span class="material-symbols-outlined mr-2">stars</span> Awal Berdiri (750 M)</h3>
+<!-- Bagian 1: Konteks Singkat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Konteks Singkat</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        Daulah Fatimiyah adalah kekhalifahan Islam bermazhab Syiah yang berdiri dan berpusat di Kairo, Mesir, selama kurang lebih dua abad (969–1171 M). Kekhalifahan ini memegang peran sangat penting dalam sejarah peradaban Islam karena memprakarsai berdirinya pusat pendidikan legendaris dunia yang masih eksis hingga saat ini, yaitu Masjid dan Universitas Al-Azhar.
+    </p>
+</div>
+
+<!-- Bagian 2: Garis Waktu -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Garis Waktu (Timeline)</h3>
+<div class="relative border-l-4 border-secondary/20 ml-4 mb-12 space-y-8">
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">953–975 M</p>
+        <p class="text-sm text-on-surface-variant">Masa keemasan administrasi dan perluasan kekuasaan di bawah kepemimpinan Khalifah Al-Mu'idz Lidinillah.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">17 Sya'ban 358 H / 969 M</p>
+        <p class="text-sm text-on-surface-variant">Kota Kairo resmi dibangun oleh Panglima Jawhar al-Siqili atas perintah Khalifah Al-Mu'idz.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">17 Ramadhan 359 H / 970 M</p>
+        <p class="text-sm text-on-surface-variant">Pembangunan Masjid Al-Azhar resmi dimulai setelah pembangunan fisik Kota Kairo rampung.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">969–1171 M</p>
+        <p class="text-sm text-on-surface-variant">Periode kekuasaan Daulah Fatimiyah yang berhasil menguasai wilayah Afrika Utara, Sisilia, dan Suriah.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">567 H / 1171 M</p>
+        <p class="text-sm text-on-surface-variant">Daulah Fatimiyah resmi runtuh dan kekuasaan di Kairo dialihkan ke tangan Dinasti Ayyubiyah.</p>
+    </div>
+</div>
+
+<!-- Bagian 3: Tokoh dan Ilmuwan -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Tokoh-Tokoh Terkait</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Tokoh</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Peran dalam Sejarah</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Fakta Menarik</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Khalifah Al-Mu'idz Lidinillah</td><td class="p-3">Pemimpin utama Daulah Fatimiyah (953–975 M) yang menginisiasi pembangunan Kairo.</td><td class="p-3">Terkenal dengan tiga kebijakan agung: pembaruan administrasi, penguatan ekonomi, dan toleransi beragama.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Panglima al-Siqili (Jawhar al-Siqili)</td><td class="p-3">Panglima perang kepercayaan Dinasti Fatimiyah.</td><td class="p-3">Menjadi arsitek utama yang memimpin pembangunan fisik Kota Kairo serta Masjid Al-Azhar.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Fatimah Az-Zahra</td><td class="p-3">Putri Rasulullah Muhammad saw..</td><td class="p-3">Gelar mulianya (*Az-Zahra*) diabadikan menjadi nama Masjid Al-Azhar, dan nama pribadinya menjadi dasar penamaan Daulah Fatimiyah.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 4: Kronologi Peristiwa -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Kronologi Peristiwa (Narasi)</h3>
+<div class="space-y-6 mb-12">
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Latar Belakang</h4>
         <p class="text-sm text-on-surface-variant leading-relaxed">
-            Didirikan oleh Abul Abbas As-Saffah melalui kejatuhan dinasti Umayyah. Sentra administrasi kemudian dipindahkan dari Damaskus menuju benteng kosmopolitan baru, <strong>Baghdad</strong> (tepi Sungai Tigris), menandai era akulturasi Arab-Persia.
+            Berdirinya Daulah Fatimiyah bermula dari kebangkitan gerakan kalangan Syiah di tengah-tengah kekuasaan Daulah Abbasiyah yang berfaham Sunni. Gerakan ini mendirikan pemerintahan tandingan dengan menyandang nama putri Rasulullah saw., Fatimah, demi memperkuat legitimasi kepemimpinan mereka. Kekhalifahan ini segera tumbuh menjadi dinasti yang kuat dan berhasil membentangkan kedaulatannya meliputi wilayah Afrika Utara, Sisilia, hingga Suriah.
         </p>
     </div>
-    <div class="bg-surface-container-low p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
-        <h3 class="font-headline text-xl font-bold text-secondary mb-4 flex items-center"><span class="material-symbols-outlined mr-2">account_balance</span> Bayt al-Hikmah</h3>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Jalannya Peristiwa (Pembangunan Kairo dan Al-Azhar)</h4>
         <p class="text-sm text-on-surface-variant leading-relaxed">
-            Rumah Kebijaksanaan (Lambang puncak toleransi murni). Perpustakaan raksasa yang menjadi jantung penerjemahan karya-karya langka peradaban Yunani, Persia, dan India tanpa melihat SARA.
+            Puncak pencapaian peradaban Daulah Fatimiyah ditandai dengan pemindahan pusat kekuasaan ke Mesir. Atas perintah Khalifah Al-Mu'idz Lidinillah, Panglima Jawhar al-Siqili membangun sebuah kota metropolitan baru bernama Kairo di tepi Sungai Nil pada 17 Sya'ban 358 H (969 M). Pembangunan kota ini dirancang secara khusus untuk menyaingi keagungan Kota Baghdad sebagai pusat superpower dunia saat itu.</p>
+        <p class="text-sm text-on-surface-variant leading-relaxed mt-2">
+            Setelah kota rampung berdiri, al-Siqili mendirikan Masjid Al-Azhar pada 17 Ramadhan 359 H (970 M). Masjid ini segera berkembang melampaui fungsinya menjadi lembaga pendidikan tinggi atau universitas besar yang diakui dunia. Selama masa kejayaan ini, roda sosial kemasyarakatan berjalan dengan tingkat toleransi yang sangat tinggi. Walaupun Fatimiyah berfaham Syiah, mayoritas penduduk Mesir dibiarkan tetap menganut faham Sunni secara damai, dan penganut agama Nasrani serta Yahudi dijamin kebebasannya untuk beribadah.
+        </p>
+    </div>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Akhir Peristiwa</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Setelah berkuasa selama sekitar dua abad, stabilitas kekhalifahan Fatimiyah perlahan-lahan meredup akibat krisis politik internal. Akhirnya, Daulah Fatimiyah resmi runtuh pada tahun 567 H / 1171 M. Pasca-keruntuhan ini, sejarah Kairo berbalik arah dan memasuki babak baru di bawah kepemimpinan pahlawan besar Islam, Shalahuddin al-Ayyubi, dari Dinasti Ayyubiyah.
         </p>
     </div>
 </div>
 
-<!-- 3. Tokoh & Ilmu -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 text-center">Megabintang Ilmu Pengetahuan</h3>
-<div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-16">
-    <div class="bg-white p-6 rounded-2xl shadow-sm border border-outline-variant/10 text-center hover:-translate-y-1 transition-transform group">
-        <span class="material-symbols-outlined text-5xl text-primary mb-3 bg-primary/10 p-3 rounded-full group-hover:bg-primary group-hover:text-white transition-colors">calculate</span>
-        <h4 class="font-bold text-lg mb-2">Al-Khawarizmi</h4>
-        <p class="text-xs text-on-surface-variant">Penemu akar kata *Algoritma* dan Bapak Aljabar dunia. Perumus sistem desimal yang menaklukkan Eropa via terjemahan Latin.</p>
+<!-- Bagian 5: Hikmah -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">5. Hikmah dan Pelajaran</h3>
+<div class="bg-surface-container-low p-6 rounded-[2rem] border-l-8 border-secondary shadow-sm mb-12">
+    <ul class="text-sm text-on-surface-variant list-none space-y-4">
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">menu_book</span>
+            <div><strong>Pentingnya Toleransi Sosial:</strong> Sikap Daulah Fatimiyah yang tidak memaksakan mazhabnya kepada mayoritas penduduk Sunni serta menghormati hak umat Kristen dan Yahudi menjadi bukti nyata bahwa toleransi adalah pilar perdamaian.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">balance</span>
+            <div><strong>Investasi Abadi Melalui Pendidikan:</strong> Fokus pembangunan institusi ilmu seperti Al-Azhar terbukti mampu menghasilkan warisan peradaban yang terus memberikan manfaat bagi umat manusia lintas generasi.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">handshake</span>
+            <div><strong>Visi Kepemimpinan yang Adil:</strong> Tiga pilar kebijakan Khalifah Al-Mu'idz (reformasi administrasi, stabilitas ekonomi, dan kerukunan beragama) membuktikan bahwa kesuksesan sebuah bangsa dipimpin oleh kepala negara yang inklusif.</div>
+        </li>
+    </ul>
+</div>
+
+<!-- Bagian 6: Fakta Cepat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">6. Fakta Cepat (Quick Facts)</h3>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
+    <div class="p-4 rounded-2xl text-center border bg-primary/5 border-primary/20">
+        <p class="text-xs text-on-surface-variant">Rentang Masa Kekuasaan</p>
+        <p class="font-bold text-lg text-primary">±2 abad</p>
+        <p class="text-[10px] text-on-surface-variant">(969–1171 M).</p>
     </div>
-    <div class="bg-white p-6 rounded-2xl shadow-sm border border-outline-variant/10 text-center hover:-translate-y-1 transition-transform group">
-        <span class="material-symbols-outlined text-5xl text-primary mb-3 bg-primary/10 p-3 rounded-full group-hover:bg-primary group-hover:text-white transition-colors">monitor_heart</span>
-        <h4 class="font-bold text-lg mb-2">Ibnu Sina</h4>
-        <p class="text-xs text-on-surface-variant">Lahirnya mahakarya kedokteran lintas masa *"The Canon of Medicine"* (Al-Qanun fi at-Tibb) yang jadi rujukan medis global selama 6 abad.</p>
+    <div class="p-4 rounded-2xl text-center border bg-secondary/5 border-secondary/20">
+        <p class="text-xs text-on-surface-variant">Pendiri & Arsitek Kairo</p>
+        <p class="font-bold text-lg text-secondary">Panglima Jawhar al-Siqili atas titah Khalifah Al-Mu'idz Lidinillah.</p>
+        <p class="text-[10px] text-on-surface-variant"></p>
     </div>
-    <div class="bg-white p-6 rounded-2xl shadow-sm border border-outline-variant/10 text-center hover:-translate-y-1 transition-transform group">
-        <span class="material-symbols-outlined text-5xl text-primary mb-3 bg-primary/10 p-3 rounded-full group-hover:bg-primary group-hover:text-white transition-colors">auto_awesome</span>
-        <h4 class="font-bold text-lg mb-2">Astronomi & Seni Intrik</h4>
-        <p class="text-xs text-on-surface-variant">Lahir kalender presisi, instrumen astrolabe untuk navigasi rasi, hingga peninggalan kemegahan artistik masjid agung dengan kaligrafi.</p>
+    <div class="p-4 rounded-2xl text-center border bg-tertiary/5 border-tertiary/20">
+        <p class="text-xs text-on-surface-variant">Asal Nama Al-Azhar</p>
+        <p class="font-bold text-lg text-tertiary">Diambil dari gelar putri Nabi</p>
+        <p class="text-[10px] text-on-surface-variant"> Fatimah Az-Zahra.</p>
+    </div>
+    <div class="p-4 rounded-2xl text-center border bg-error/5 border-error/20">
+        <p class="text-xs text-on-surface-variant">Wilayah Kedaulatan</p>
+        <p class="font-bold text-lg text-error">Afrika Utara</p>
+        <p class="text-[10px] text-on-surface-variant"> Sisilia, dan Suriah.</p>
+    </div>
+    <div class="p-4 rounded-2xl text-center border bg-primary/5 border-primary/20">
+        <p class="text-xs text-on-surface-variant">Ibu Kota Pemerintahan</p>
+        <p class="font-bold text-lg text-primary">Kairo</p>
+        <p class="text-[10px] text-on-surface-variant"> Mesir.</p>
     </div>
 </div>
 
-<!-- 4 & 5. Runtuh & Hikmah -->
-<h3 class="font-headline text-2xl font-bold text-error mt-12 mb-4">Runtuhnya Baghdad & Nilai Hikmahnya</h3>
-<div class="flex flex-col md:flex-row gap-6 mb-12">
-    <div class="md:w-1/3 bg-error/10 p-6 rounded-[2rem] border border-error/20 flex flex-col justify-center">
-        <span class="font-bold text-error mb-2">1258 Masehi</span>
-        <p class="text-sm text-on-surface-variant">Sikap korup, perpecahan intern, serta infiltrasi militer tentara biadab Mongol di bawah Hulagu Khan membuat Bayt al-Hikmah rata dengan tanah.</p>
-    </div>
-    <div class="md:w-2/3 bg-surface-container p-8 rounded-[2rem]">
-        <h4 class="font-bold text-lg mb-4">Resolusi Pelajar Muslim Masa Kini:</h4>
-        <ul class="text-sm text-on-surface-variant opacity-90 space-y-3">
-            <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[18px]">verified</span> <strong>Cintai Literasi:</strong> Kewajiban utama memburu ilmu seperti halnya kewajiban rukun beragama.</li>
-            <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[18px]">verified</span> <strong>Toleransi Terbuka:</strong> Meniru Baitul Hikmah yang kolaboratif anti rasis.</li>
-            <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[18px]">verified</span> <strong>Anti Konflik Internal:</strong> Keangkuhan pemimpin cuma bikin hancur dari dalam.</li>
-        </ul>
-    </div>
+<!-- Bagian 7: Istilah Kunci -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Arti / Makna Singkat</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+        </tbody>
+    </table>
 </div>
-
         `
     }, {
         "id": "kls8-smtgenap-bab1",
@@ -3550,215 +3647,220 @@ const materiData = [
         "kelas": 8,
         "semester": "Genap",
         "bab": "Bab 5",
-        "judul": "Materi PAI Kelas 7-9-9 - Genap - Bab 5 [Menengah]",
-        "waktuBumper": "7 Menit Baca",
-        "gambar": "images/islamic_calligraphy.png",
-        "konten": "\n                    <h2 class=\"font-headline text-2xl font-bold text-primary mb-6 flex items-center\">\n                        <span class=\"w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4\">\n                            <span class=\"material-symbols-outlined text-[24px]\">menu_book</span>\n                        </span>\n                        Pengantar Bab 5\n                    </h2>\n                    <p class=\"text-on-surface-variant leading-relaxed text-lg mb-8\">\n                        Ini adalah wadah sementara. Menunggu naskah asli untuk Kelas 7-9-9 Semester Genap Bab 5.\n                    </p>\n                    <div class=\"bg-primary/5 border-l-4 border-primary rounded-r-3xl p-8 my-12 relative overflow-hidden\">\n                        <span class=\"material-symbols-outlined absolute -top-4 -right-4 text-9xl text-primary/5 rotate-12\">format_quote</span>\n                        <div class=\"text-right font-quran text-4xl leading-loose mb-6 text-on-surface\" dir=\"rtl\">\n                            اَللّٰهُمَّ زِدْنَا عِلْمًا وَارْزُقْنَا فَهْمًا\n                        </div>\n                        <div class=\"font-body italic text-on-surface-variant text-lg\">\n                            \"Ya Allah, tambahkanlah ilmu kepada kami dan berikanlah pemahaman.\"\n                        </div>\n                    </div>\n                    <ul class=\"space-y-6 mb-12\">\n                        <li class=\"flex items-start\">\n                            <span class=\"material-symbols-outlined text-primary mr-4 mt-0.5 text-2xl\">check_circle</span>\n                            <span class=\"text-on-surface-variant text-lg\"><strong class=\"text-on-surface\">Poin Hafalan 1</strong> – Anda dapat mengetik poin-poin materi Anda di sini.</span>\n                        </li>\n                    </ul>\n                "
-    },
-    {
-        "id": "kls9-smtganjil-bab1",
-        "kelas": 9,
-        "semester": "Ganjil",
-        "bab": "Bab 1",
-        "judul": "Semangat Mencari Ilmu dalam Islam",
-        "waktuBumper": "7 Menit Baca",
-        "gambar": "images/islamic_calligraphy.png",
-        "konten": "\n<p class=\"text-on-surface-variant leading-relaxed text-lg mb-8\">\n    Dalam Islam, mencari ilmu itu hukumnya <strong>wajib</strong> bagi setiap Muslim, laki-laki maupun perempuan. Dengan ilmu, kita bisa lebih mengenal Allah Swt., memahami ajaran agama dengan benar, dan meraih kesuksesan di dunia dan akhirat. Allah Swt. sangat menghargai orang yang beriman dan berilmu.\n</p>\n\n<div class=\"bg-primary/5 border-l-4 border-primary rounded-r-3xl p-8 my-10 relative overflow-hidden\">\n    <div class=\"flex items-center gap-4 mb-4\">\n        <span class=\"material-symbols-outlined text-primary text-3xl\">psychology</span>\n        <h3 class=\"font-headline text-xl font-bold text-on-surface\">Mengapa Mencari Ilmu itu Penting?</h3>\n    </div>\n    <p class=\"text-on-surface-variant text-lg leading-relaxed\">\n        Ilmu adalah cahaya kehidupan. Tanpa ilmu, kita akan tersesat dalam kegelapan ketidaktahuan. Islam memposisikan ilmu sebagai kunci utama untuk menjalankan ibadah dengan benar dan mengelola bumi sebagai khalifah.\n    </p>\n</div>\n\n<h3 class=\"font-headline text-2xl font-bold text-primary mt-12 mb-6\">Ayat Al-Qur'an tentang Keutamaan Ilmu</h3>\n\n<!-- Q.S. al-Mujadilah [58] ayat 11 -->\n<div class=\"mb-12\">\n    <h4 class=\"font-bold text-lg text-on-surface mb-4\">1. Q.S. al-Mujadilah [58] ayat 11</h4>\n    <div class=\"bg-surface-container-low border border-outline-variant/30 rounded-[2rem] p-8 mb-6 relative\">\n        <div class=\"text-right font-quran text-4xl leading-[2.5] mb-8 text-on-surface\" dir=\"rtl\">\n            يٰٓاَيُّهَا الَّذِيْنَ اٰمَنُوْٓا اِذَا قِيْلَ لَكُمْ تَفَسَّحُوْا فِى الْمَجٰلِسِ فَافْسَحُوْا يَفْسَحِ اللّٰهُ لَكُمْۚ وَاِذَا قِيْلَ انْشُزُوْا فَانْشُزُوْا يَرْفَعِ اللّٰهُ الَّذِيْنَ اٰمَنُوْا مِنْكُمْۙ وَالَّذِيْنَ اُوْتُوا الْعِلْمَ دَرَجٰتٍۗ وَاللّٰهُ بِمَا تَعْمَلُوْنَ خَبِيْرٌࣖ\n        </div>\n        <div class=\"font-body italic text-on-surface-variant text-lg border-t border-outline-variant/20 pt-6\">\n            \"Wahai orang-orang beriman! Kalau ada yang bilang 'beri kelapangan dong di tempat duduk,' maka lapangkanlah, nanti Allah akan beri kelapangan untukmu. Kalau disuruh 'berdiri,' ya berdirilah. Allah akan mengangkat derajat orang-orang yang beriman dan orang-orang yang diberi ilmu beberapa tingkat lebih tinggi. Allah Maha Teliti dengan apa yang kamu kerjakan.\"\n        </div>\n    </div>\n    <div class=\"flex items-start gap-3 bg-secondary-container/20 p-5 rounded-2xl\">\n        <span class=\"material-symbols-outlined text-secondary\">info</span>\n        <p class=\"text-on-surface-variant text-sm\"><strong>Pesan Penting:</strong> Ayat ini menunjukkan bahwa orang yang beriman dan berilmu akan ditinggikan derajatnya oleh Allah Swt. Selain itu, kita juga diajarkan adab dalam majelis (tempat berkumpul) seperti memberi tempat kepada orang lain.</p>\n    </div>\n</div>\n\n<!-- Q.S. az-Zumar [39] ayat 9 -->\n<div class=\"mb-12\">\n    <h4 class=\"font-bold text-lg text-on-surface mb-4\">2. Q.S. az-Zumar [39] ayat 9</h4>\n    <div class=\"bg-surface-container-low border border-outline-variant/30 rounded-[2rem] p-8 mb-6 relative\">\n        <div class=\"text-right font-quran text-4xl leading-[2.5] mb-8 text-on-surface\" dir=\"rtl\">\n            اَمَّنْ هُوَ قَانِتٌ اٰنَاۤءَ الَّيْلِ سَاجِدًا وَّقَاۤىِٕمًا يَّحْذَرُ الْاٰخِرَةَ وَيَرْجُوْا رَحْمَةَ رَبِّهٖۗ قُلْ هَلْ يَسْتَوِى الَّذِيْنَ يَعْلَمُوْنَ وَالَّذِيْنَ لَا يَعْلَمُوْنَ ۗ اِنَّمَا يَتَذَكَّرُ اُولُوا الْاَلْبَابِࣖ\n        </div>\n        <div class=\"font-body italic text-on-surface-variant text-lg border-t border-outline-variant/20 pt-6\">\n            \"Katakanlah (Nabi Muhammad), 'Apakah sama orang-orang yang mengetahui (berilmu) dengan orang-orang yang tidak mengetahui (tidak berilmu)?' Hanya orang yang berakal sehat (Ulul Albab) yang dapat mengambil pelajaran.\"\n        </div>\n    </div>\n    <div class=\"flex items-start gap-3 bg-secondary-container/20 p-5 rounded-2xl\">\n        <span class=\"material-symbols-outlined text-secondary\">info</span>\n        <p class=\"text-on-surface-variant text-sm\"><strong>Pesan Penting:</strong> Ayat ini jelas membedakan antara orang yang berilmu dan yang tidak. Orang berilmu memiliki kedudukan yang lebih baik. Hanya orang yang mau menggunakan akalnya yang bisa memahami pelajaran ini.</p>\n    </div>\n</div>\n\n<h3 class=\"font-headline text-2xl font-bold text-primary mt-12 mb-6\">Hadis tentang Mencari Ilmu</h3>\n<div class=\"bg-primary/5 rounded-[2rem] p-8 mb-12\">\n    <div class=\"text-right font-quran text-3xl leading-loose mb-6 text-on-surface\" dir=\"rtl\">\n        مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ طَرِيقًا إِلَى الْجَنَّةِ\n    </div>\n    <p class=\"font-body italic text-on-surface-variant text-lg text-center bg-white/50 p-4 rounded-xl\">\n        \"Barangsiapa menempuh suatu jalan untuk mencari ilmu, maka Allah akan mudahkan baginya jalan menuju surga.\" (HR. Muslim)\n    </p>\n</div>\n\n<h3 class=\"font-headline text-2xl font-bold text-primary mt-12 mb-6\">Pentingnya Tajwid: Mengenal Tanda Waqaf</h3>\n<p class=\"text-on-surface-variant leading-relaxed text-lg mb-8\">\n    Waqaf artinya berhenti sejenak saat membaca Al-Qur'an, biasanya untuk mengambil nafas, lalu melanjutkan bacaan lagi. Mari kita kenali tanda-tandanya:\n</p>\n\n<div class=\"grid grid-cols-2 md:grid-cols-4 gap-4 mb-12\">\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">م</span>\n        <span class=\"text-sm font-bold\">Waqaf Lazim</span>\n        <span class=\"text-xs text-on-surface-variant\">Harus Berhenti</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">ط</span>\n        <span class=\"text-sm font-bold\">Waqaf Mutlaq</span>\n        <span class=\"text-xs text-on-surface-variant\">Harus Berhenti</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">ج</span>\n        <span class=\"text-sm font-bold\">Waqaf Jaiz</span>\n        <span class=\"text-xs text-on-surface-variant\">Boleh Berhenti/Lanjut</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">لا</span>\n        <span class=\"text-sm font-bold\">La Waqfu Fih</span>\n        <span class=\"text-xs text-on-surface-variant\">Jangan Berhenti</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">صلى</span>\n        <span class=\"text-sm font-bold\">Washal Aula</span>\n        <span class=\"text-xs text-on-surface-variant\">Lebih Baik Lanjut</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">قلى</span>\n        <span class=\"text-sm font-bold\">Waqaf Aula</span>\n        <span class=\"text-xs text-on-surface-variant\">Lebih Baik Berhenti</span>\n    </div>\n     <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">سكتة</span>\n        <span class=\"text-sm font-bold\">Saktah</span>\n        <span class=\"text-xs text-on-surface-variant\">Berhenti Tanpa Nafas</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">∴ ∴</span>\n        <span class=\"text-sm font-bold\">Mu'anaqah</span>\n        <span class=\"text-xs text-on-surface-variant\">Berhenti di Salah Satu</span>\n    </div>\n</div>\n\n<h3 class=\"font-headline text-2xl font-bold text-primary mt-12 mb-8\">Bagaimana Menunjukkan Semangat Mencari Ilmu?</h3>\n<div class=\"space-y-4 mb-12\">\n    <div class=\"flex items-center gap-6 p-6 bg-surface-container-low rounded-3xl hover:bg-white transition-colors border border-outline-variant/10\">\n        <div class=\"w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center shrink-0\">\n             <span class=\"material-symbols-outlined text-primary\">volunteer_activism</span>\n        </div>\n        <div>\n            <h4 class=\"font-bold text-lg\">Niat Ikhlas & Berdoa</h4>\n            <p class=\"text-on-surface-variant\">Belajar karena Allah Swt. dan selalu meminta ilmu yang bermanfaat.</p>\n        </div>\n    </div>\n    <div class=\"flex items-center gap-6 p-6 bg-surface-container-low rounded-3xl hover:bg-white transition-colors border border-outline-variant/10\">\n        <div class=\"w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center shrink-0\">\n             <span class=\"material-symbols-outlined text-primary\">model_training</span>\n        </div>\n        <div>\n            <h4 class=\"font-bold text-lg\">Sungguh-sungguh & Antusias</h4>\n            <p class=\"text-on-surface-variant\">Rajin belajar, tidak menyerah, dan aktif bertanya kepada guru.</p>\n        </div>\n    </div>\n    <div class=\"flex items-center gap-6 p-6 bg-surface-container-low rounded-3xl hover:bg-white transition-colors border border-outline-variant/10\">\n        <div class=\"w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center shrink-0\">\n             <span class=\"material-symbols-outlined text-primary\">groups</span>\n        </div>\n        <div>\n            <h4 class=\"font-bold text-lg\">Hormat & Rendah Hati</h4>\n            <p class=\"text-on-surface-variant\">Sopan kepada guru dan tetap tawadhu dengan ilmu yang dimiliki.</p>\n        </div>\n    </div>\n</div>\n\n<div class=\"p-10 bg-gradient-to-br from-primary to-primary-container text-white rounded-[3rem] shadow-xl text-center\">\n    <h4 class=\"text-2xl font-headline font-bold mb-4\">Ingatlah!</h4>\n    <p class=\"text-lg opacity-90 leading-relaxed\">\n        Dengan ilmu, Allah akan mengangkat derajat kita, memudahkan jalan ke surga, dan membantu kita menyelesaikan masalah dalam hidup. Jadilah generasi Muslim yang cerdas, berakhlak mulia, dan bermanfaat bagi sesama!\n    </p>\n</div>\n"
-    },
-    {
-        "id": "kls9-smtganjil-bab2",
-        "kelas": 9,
-        "semester": "Ganjil",
-        "bab": "Bab 2",
-        "judul": "Meyakini Hari Akhir dengan Mawas Diri",
-        "waktuBumper": "14 Menit Baca",
+        "judul": "Sejarah Peradaban Islam pada Masa Daulah Turki Usmani (Ottoman)",
+        "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Mengimani Hari Akhir adalah rukun iman yang kelima. Hari Akhir disebut juga hari kiamat, di mana tidak ada hari lagi setelahnya. Mempercayai Hari Akhir membuat kita lebih berhati-hati dan mawas diri dalam menjalani hidup serta mendorong seseorang untuk beramal saleh karena mengharapkan kenikmatan di akhirat kelak.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Sejarah Peradaban Islam pada Masa Daulah Turki Usmani (Ottoman)</strong>, yang mencakup sejarah singkat, garis waktu, tokoh-tokoh penting, hingga hikmah yang dapat diambil.
 </p>
 
-<!-- Pengertian dan Dalil -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 flex items-center">
-    <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
-        <span class="material-symbols-outlined text-[24px]">menu_book</span>
-    </span>
-    Pengertian dan Dalil Iman Kepada Hari Akhir
-</h3>
-<p class="text-on-surface-variant leading-relaxed text-md mb-6">
-    Iman kepada Hari Akhir berarti meyakini bahwa hari akhir pasti akan terjadi atas kehendak Allah Swt.
-</p>
+<!-- Bagian 1: Konteks Singkat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Konteks Singkat</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        Daulah Turki Usmani (1299–1924 M) merupakan salah satu kekhalifahan Islam terpanjang, terbesar, dan paling berpengaruh di dunia yang wilayah kekuasaannya membentang di tiga benua: Asia, Afrika, dan Eropa. Didirikan oleh Usman I, dinasti ini bertransformasi dari sekadar kabilah kecil menjadi kekuatan militer adidaya dunia yang mencapai puncak kejayaannya setelah berhasil meruntuhkan dominasi Kekaisaran Romawi Timur melalui penaklukan legendaris Kota Konstantinopel.
+    </p>
+</div>
 
-<!-- Dalil Al-Hajj 7 -->
-<div class="bg-primary/5 border-l-4 border-primary rounded-r-3xl p-8 mb-12 relative overflow-hidden">
-    <div class="text-right font-quran text-4xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
-        وَأَنَّ السَّاعَةَ أَتِيَةٌ لَّا رَيْبَ فِيهَا وَأَنَّ اللَّهَ يَبْعَثُ مَنْ فِي الْقُبُوْرِ
+<!-- Bagian 2: Garis Waktu -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Garis Waktu (Timeline)</h3>
+<div class="relative border-l-4 border-secondary/20 ml-4 mb-12 space-y-8">
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">27 Juli 1299 M</p>
+        <p class="text-sm text-on-surface-variant">Deklarasi berdirinya Daulah Usmaniyah oleh Usman I (Usman Bey) dengan Qurah Hisyar sebagai ibu kota pertama.</p>
     </div>
-    <div class="font-body italic text-on-surface-variant text-md pt-4 border-t border-outline-variant/20">
-        "Sesungguhnya kiamat itu pasti datang, tidak ada keraguan padanya dan sesungguhnya Allah akan membangkitkan siapa pun yang di dalam kubur." <br/><strong>(Q.S. al-Hajj [22]: 7)</strong>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1326 M</p>
+        <p class="text-sm text-on-surface-variant">Orkhan naik takhta, memindahkan ibu kota ke Bursa, dan membentuk pasukan elit khusus *Inkisyariyah* (Janissary).</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1361 M</p>
+        <p class="text-sm text-on-surface-variant">Penaklukan kota Adrianopel oleh Murad I yang kemudian diubah namanya menjadi Edirne dan dijadikan ibu kota baru.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1402 M</p>
+        <p class="text-sm text-on-surface-variant">Kekalahan Sultan Bayazid I oleh Timur Lenk dalam Pertempuran Ankara, yang menyebabkan terjadinya perpecahan internal kekuasaan.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1413 M</p>
+        <p class="text-sm text-on-surface-variant">Sultan Muhammad I berhasil mempersatukan kembali Daulah Usmaniyah pasca-perang saudara dan memulihkan stabilitas negara.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">29 Mei 1453 M</p>
+        <p class="text-sm text-on-surface-variant">Penaklukan Konstantinopel oleh Sultan Muhammad al-Fatih, sekaligus mengakhiri riwayat Kekaisaran Romawi Timur.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1520–1566 M</p>
+        <p class="text-sm text-on-surface-variant">Masa kepemimpinan Sultan Sulaiman I (Al-Qanuni) yang menandai puncak kejayaan politik, militer, hukum, dan kebudayaan.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1603–1617 M</p>
+        <p class="text-sm text-on-surface-variant">Era Sultan Ahmet I, ditandai dengan pembangunan warisan arsitektur megah *Sultan Ahmet I Camii* (*Blue Mosque*).</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">November 1922 M</p>
+        <p class="text-sm text-on-surface-variant">Sistem pemerintahan kesultanan resmi dihapuskan dengan Sultan Mehmed VI sebagai sultan terakhir.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">29 Oktober 1923 M</p>
+        <p class="text-sm text-on-surface-variant">Turki secara resmi mendeklarasikan dirinya menjadi sebuah negara Republik.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">3 Maret 1924 M</p>
+        <p class="text-sm text-on-surface-variant">Sistem kekhalifahan resmi dibubarkan secara total di bawah kepemimpinan gerakan sekuler Mustafa Kemal Ataturk.</p>
     </div>
 </div>
 
-<!-- Jenis Kiamat -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-16 mb-8 text-center">Dua Jenis Kiamat</h3>
-<div class="space-y-8 mb-16">
-    
-    <!-- Kiamat Sugra -->
-    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-outline-variant/10 hover:shadow-xl transition-all">
-        <div class="flex items-center gap-4 mb-6">
-            <div class="w-14 h-14 bg-secondary-container rounded-2xl flex items-center justify-center shrink-0">
-                <span class="material-symbols-outlined text-on-secondary-container text-3xl">hourglass_bottom</span>
-            </div>
-            <h4 class="font-bold text-xl">1. Kiamat Sugra (Kiamat Kecil)</h4>
-        </div>
-        <p class="text-on-surface-variant leading-relaxed text-md mb-6">
-            Adalah berakhirnya kehidupan sebagian makhluk di dunia ini. Contoh kiamat sugra meliputi <strong>kematian</strong> setiap makhluk bernyawa dan <strong>bencana alam</strong> (banjir, gempa bumi, gunung meletus).
-        </p>
-        
-        <div class="grid md:grid-cols-2 gap-4">
-            <div class="bg-surface-container-low p-6 rounded-2xl">
-                <h5 class="font-bold mb-2">Tentang Kematian</h5>
-                <div class="text-right font-quran text-xl mb-3 text-on-surface" dir="rtl">أَيْنَ مَا تَكُونُوا يُدْرِكُكُمُ الْمَوْتُ...</div>
-                <div class="text-sm italic text-on-surface-variant mb-2">"Dimana pun kamu berada, kematian akan mendapatkan kamu, kendatipun kamu berada di dalam benteng yang tinggi dan kukuh." <strong>(Q.S. an-Nisa': 78)</strong></div>
-                <div class="text-xs text-on-surface-variant mt-2 border-t border-outline-variant/20 pt-2">Amal terputus kecuali: sedekah jariyah, ilmu bermanfaat, anak saleh yang mendoakan.</div>
-            </div>
-            <div class="bg-surface-container-low p-6 rounded-2xl">
-                <h5 class="font-bold mb-2">Tentang Musibah</h5>
-                <div class="text-right font-quran text-xl mb-3 text-on-surface" dir="rtl">...وَبَشِّرِ الصَّبِرِينَ الَّذِينَ إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُوْنَ</div>
-                <div class="text-sm italic text-on-surface-variant">Sikap terbaik saat tertimpa musibah adalah bersabar dan mengucapkan kalimat istirja' (Inna lillahi wa inna ilaihi raji'un). <strong>(Q.S. Al-Baqarah: 155-156)</strong></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Kiamat Kubra -->
-    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-error/20 hover:shadow-xl transition-all">
-        <div class="flex items-center gap-4 mb-6">
-            <div class="w-14 h-14 bg-error-container rounded-2xl flex items-center justify-center shrink-0">
-                <span class="material-symbols-outlined text-on-error-container text-3xl">public_off</span>
-            </div>
-            <h4 class="font-bold text-xl text-error">2. Kiamat Kubra (Kiamat Besar)</h4>
-        </div>
-        <p class="text-on-surface-variant leading-relaxed text-md mb-6">
-            Adalah kehancuran alam semesta dan seluruh isinya. Kiamat kubra belum terjadi dan hanya Allah Swt. yang tahu kapan terjadinya. Digambarkan dengan ditiupnya sangkakala, langit terpecah, gunung dihamburkan, dan bumi berguncang hebat.
-        </p>
-        <div class="bg-error/5 p-6 rounded-2xl mb-6">
-            <div class="text-right font-quran text-2xl mb-4 text-on-surface" dir="rtl">إِنَّ مَا تُوْعَدُونَ لَأْتٌ وَمَا أَنْتُمْ بِمُعْجِزِينَ</div>
-            <div class="text-sm italic text-on-surface-variant">"Sesungguhnya apa pun yang dijanjikan kepadamu pasti datang dan kamu tidak mampu menolaknya." <strong>(Q.S. al-An'am [6]: 134)</strong></div>
-        </div>
-        <div class="flex items-start gap-4">
-            <span class="material-symbols-outlined text-error">warning</span>
-            <div class="text-sm text-on-surface-variant">
-                <strong>Tanda-tanda Kiamat Kubra:</strong> Keluarnya Dajal, turunnya Imam Mahdi dan Nabi Isa a.s., munculnya Yakjuj dan Makjuj, awan hitam (dukhan), terbitnya matahari dari barat, dan munculnya binatang melata.
-            </div>
-        </div>
-    </div>
+<!-- Bagian 3: Tokoh dan Ilmuwan -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Tokoh-Tokoh Terkait</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Tokoh</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Peran dalam Sejarah</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Fakta Menarik</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Usman I (Usman Bey)</td><td class="p-3">Pendiri sekaligus pemimpin pertama Daulah Usmaniyah (1299-1326 M).</td><td class="p-3">Memiliki julukan *Al-Ghozi* (Ksatria) karena keberhasilannya menyatukan suku-suku Turki atas dasar ketaatan kepada Allah.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Orkhan</td><td class="p-3">Sultan kedua yang mengonsolidasikan kekuatan militer.</td><td class="p-3">Peletak dasar kekuatan pertahanan militer dengan membentuk infanteri khusus legendaris bernama **Janissary**.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Bayazid I</td><td class="p-3">Sultan keempat yang memperluas ekspansi kekuasaan di Anatolia.</td><td class="p-3">Dijuluki **"Yaldrum" (Kilat)** karena kecepatannya dalam memimpin serangan tempur di medan perang.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Muhammad I</td><td class="p-3">Sultan kelima yang berhasil menyatukan kerajaan pasca-perang saudara.</td><td class="p-3">Sangat mencintai para ahli hukum Islam (*Fuqoha*) sehingga memindahkan ibu kota ke Bursa sebagai kota ilmu.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Muhammad al-Fatih</td><td class="p-3">Sultan ketujuh yang berhasil menaklukkan benteng tak tertembus Konstantinopel.</td><td class="p-3">Menguasai matematika, sains, strategi perang, serta mampu berkomunikasi fasih dalam enam bahasa asing.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Sulaiman I (Al-Qanuni)</td><td class="p-3">Sultan tersukses yang memimpin Turki Usmani di puncak keemasan.</td><td class="p-3">Diberi gelar **Al-Qonuni** karena jasanya dalam menyusun kodifikasi sistem undang-undang hukum (*Qanun Osmani*).</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Mimar Sinan</td><td class="p-3">Arsitek ulung kesultanan pada masa keemasan.</td><td class="p-3">Merancang pembangunan Universitas As-Sulaimaniyah dan berbagai masjid jami megah di seantero negeri.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Mustafa Kemal Pasha</td><td class="p-3">Pemimpin militer nasionalis pasca-Perang Dunia I.</td><td class="p-3">Menghapuskan kekhalifahan Islam dan mendeklarasikan berdirinya Republik Turki sekuler.</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
-<!-- Rangkaian Peristiwa Di Akhirat -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-16 mb-8 text-center">Rangkaian Peristiwa di Akhirat</h3>
-<div class="relative overflow-hidden p-10 bg-surface-container-highest rounded-[3rem] mb-16">
-    <div class="space-y-6">
-        
-        <div class="flex gap-6">
-            <div class="flex flex-col items-center">
-                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">1</div>
-                <div class="w-1 bg-primary/20 h-full -my-2"></div>
-            </div>
-            <div class="pb-8">
-                <h4 class="font-bold text-xl mb-2">Yaumul Barzakh (Alam Kubur)</h4>
-                <p class="text-sm text-on-surface-variant">Batas antara alam dunia dan akhirat tempat menunggu hari kebangkitan. Manusia ditanyai malaikat Munkar dan Nakir. Perbanyak amal agar terhindar dari siksa kubur.</p>
-            </div>
-        </div>
-
-        <div class="flex gap-6">
-            <div class="flex flex-col items-center">
-                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">2</div>
-                <div class="w-1 bg-primary/20 h-full -my-2"></div>
-            </div>
-            <div class="pb-8">
-                <h4 class="font-bold text-xl mb-2">Yaumul Ba'ats</h4>
-                <p class="text-sm text-on-surface-variant">Hari dibangkitkannya semua manusia dari alam kubur menuju Padang Mahsyar setelah tiupan sangkakala kedua oleh Malaikat Israfil.</p>
-            </div>
-        </div>
-
-        <div class="flex gap-6">
-            <div class="flex flex-col items-center">
-                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">3</div>
-                <div class="w-1 bg-primary/20 h-full -my-2"></div>
-            </div>
-            <div class="pb-8">
-                <h4 class="font-bold text-xl mb-2">Yaumul Mahsyar (Yaumul Hasyr)</h4>
-                <p class="text-sm text-on-surface-variant">Hari dikumpulkannya seluruh manusia di Padang Mahsyar untuk menerima catatan amal perbuatan. Setiap orang sibuk dengan dirinya sendiri.</p>
-            </div>
-        </div>
-
-        <div class="flex gap-6">
-            <div class="flex flex-col items-center">
-                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">4</div>
-                <div class="w-1 bg-primary/20 h-full -my-2"></div>
-            </div>
-            <div class="pb-8">
-                <h4 class="font-bold text-xl mb-2">Yaumul Hisab</h4>
-                <p class="text-sm text-on-surface-variant">Hari perhitungan amal perbuatan manusia. Anggota tubuh akan bersaksi. Amal yang pertama dihisab adalah ibadah salat.</p>
-            </div>
-        </div>
-
-        <div class="flex gap-6">
-            <div class="flex flex-col items-center">
-                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">5</div>
-                <div class="w-1 bg-primary/20 h-full -my-2"></div>
-            </div>
-            <div class="pb-8">
-                <h4 class="font-bold text-xl mb-2">Yaumul Mizan</h4>
-                <p class="text-sm text-on-surface-variant mb-4">Hari ditimbangnya amal perbuatan manusia. Sekecil apapun perbuatan akan ditimbang secara presisi dan maha adil.</p>
-                <div class="p-4 bg-white/50 rounded-xl italic text-xs text-on-surface-variant border border-outline-variant/10">
-                    "Dan Kami akan memasang timbangan yang tepat pada hari Kiamat, maka tidak seorang pun dirugikan walau sedikit; sekalipun hanya seberat biji sawi..." <strong>(Q.S. al-Anbiya' [21]: 47)</strong>
-                </div>
-            </div>
-        </div>
-
-        <div class="flex gap-6">
-            <div class="flex flex-col items-center">
-                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">6</div>
-                <div class="w-1 bg-primary/20 h-full -my-2"></div>
-            </div>
-            <div class="pb-8">
-                <h4 class="font-bold text-xl mb-2">Yaumul Jaza</h4>
-                <p class="text-sm text-on-surface-variant">Hari pembalasan. Jika timbangan amal baik lebih berat, surga balasannya. Jika lebih ringan, neraka adalah tempatnya.</p>
-            </div>
-        </div>
-
-        <div class="flex gap-6">
-            <div class="flex flex-col items-center">
-                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">7</div>
-            </div>
-            <div>
-                <h4 class="font-bold text-xl mb-2">Surga dan Neraka</h4>
-                <p class="text-sm text-on-surface-variant">Tempat terakhir penuh kenikmatan abadi (Surga) bagi yang beramal saleh, dan tempat penyiksaan amat pedih (Neraka) bagi yang membangkang.</p>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<!-- Hikmah Mawas Diri -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">Mawas Diri Sebagai Hikmah</h3>
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 rounded-[3rem] text-white shadow-xl flex flex-col md:flex-row items-center gap-8 mb-12">
-    <div class="w-24 h-24 bg-white/30 rounded-full flex items-center justify-center shrink-0">
-        <span class="material-symbols-outlined text-5xl">psychology_alt</span>
-    </div>
-    <div>
-        <h4 class="text-2xl font-headline font-bold mb-3">Sikap Hati-hati</h4>
-        <p class="text-lg opacity-90 leading-relaxed mb-4">
-            Mengimani Hari Akhir membuat kita selalu mawas diri (hati-hati dan waspada) terhadap hal negatif, karena sadar bahwa setiap perbuatan di dunia adalah bekal untuk pengadilan Allah di akhirat kelak.
+<!-- Bagian 4: Kronologi Peristiwa -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Kronologi Peristiwa (Narasi)</h3>
+<div class="space-y-6 mb-12">
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Latar Belakang (Asal-usul Suku & Pendirian)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Nenek moyang pendiri Daulah Usmaniyah berasal dari **Suku Kayi**, salah satu kabilah Turki yang melarikan diri dari wilayah Asia Tengah guna menghindari agresi kejam pasukan Mongol pimpinan Jenghis Khan. Di bawah kepemimpinan Sulaiman, mereka bermigrasi melintasi Kurdistan hingga menetap di Asia Kecil. </p>
+        <p class="text-sm text-on-surface-variant leading-relaxed mt-2">
+            Sepeninggal Sultan Alaudin I dari Dinasti Seljuk, **Usman Bey** mendapat dukungan penuh dari rakyat untuk mendeklarasikan kemerdekaan wilayahnya pada tanggal **27 Juli 1299 M**. Peristiwa inilah yang menandai lahirnya Daulah Usmaniyah dengan Qurah Hisyar sebagai ibu kota pertamanya.
         </p>
-        <p class="text-md opacity-90">
-            Gunakan kekuatan masa muda, fisik yang sehat, dan waktu luang untuk memperbanyak ibadah wajib dan sunah, menuntut ilmu, dan berbuat kebaikan kepada sesama secara adil dan bertanggung jawab!
+    </div>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Jalannya Peristiwa (Ekspansi & Puncak Kejayaan)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Daulah Usmaniyah segera berkembang menjadi kekuatan militer yang sangat disegani melalui serangkaian ekspansi strategis. Setelah beberapa kali memindahkan ibu kota (mulai dari Sogut, Bursa, hingga Adrianopel) untuk mendekati jalur ekspansi, kejayaan besar diraih pada masa **Sultan Muhammad al-Fatih**. Pada tanggal **29 Mei 1453 M**, setelah melakukan pengepungan taktis selama sembilan bulan, Al-Fatih berhasil merebut Konstantinopel dari Kekaisaran Romawi Timur dan mengubah namanya menjadi Islambul (Istanbul).</p>
+        <p class="text-sm text-on-surface-variant leading-relaxed mt-2">
+            Puncak keemasan (*The Golden Age*) dicapai pada era **Sultan Sulaiman Al-Qanuni** (1520–1566 M). Di bawah titahnya, wilayah kekuasaan mencakup tiga benua dan berhasil menguasai kota-kota besar dunia seperti Madinah, Yerusalem, Damaskus, dan Baghdad. </p>
+        <p class="text-sm text-on-surface-variant leading-relaxed mt-2">
+            Sultan Sulaiman menata birokrasi dengan sangat rapi, mendirikan Universitas As-Sulaimaniyah, serta menyusun kitab hukum monumental *Multaqaul Abhar* (*Qanun Osmani*). Pada era ini, toleransi berjalan sangat indah; komunitas Kristen dan Yahudi diberikan kebebasan beribadah secara penuh melalui sistem komunitas otonom bernama **millet**.
+        </p>
+    </div>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">Akhir Peristiwa (Kemunduran & Keruntuhan)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Kemunduran Daulah Usmaniyah mulai tampak secara perlahan pasca-wafatnya Sultan Sulaiman Al-Qanuni. Para sultan penggantinya, seperti Sultan Salim II, dinilai memiliki perangai yang kurang baik, tidak amanah, dan kerap menyalahgunakan keuangan negara demi kepentingan pribadi. Kelemahan internal ini diperparah oleh korupsi, melemahnya disiplin militer, beban biaya peperangan yang sangat besar, serta terjadinya perpecahan politik di dalam wilayah kesultanan. </p>
+        <p class="text-sm text-on-surface-variant leading-relaxed mt-2">
+            Memasuki abad ke-20, krisis ekonomi dan politik memuncak hingga pada bulan November 1922 M kesultanan resmi dihapuskan dengan Sultan Mehmed VI sebagai sultan terakhirnya. Akhirnya, pada tanggal **3 Maret 1924 M**, sistem kekhalifahan resmi dibubarkan secara total dan diubah menjadi Republik Turki yang berhaluan sekuler.
         </p>
     </div>
 </div>
 
+<!-- Bagian 5: Hikmah -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">5. Hikmah dan Pelajaran</h3>
+<div class="bg-surface-container-low p-6 rounded-[2rem] border-l-8 border-secondary shadow-sm mb-12">
+    <ul class="text-sm text-on-surface-variant list-none space-y-4">
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">menu_book</span>
+            <div><strong>Kegigihan dan Kerja Keras Menghasilkan Kesuksesan:</strong> Kemenangan fenomenal Al-Fatih merebut Konstantinopel membuktikan bahwa cita-cita besar hanya bisa dicapai dengan kerja keras, perencanaan matang, dan pantang menyerah.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">balance</span>
+            <div><strong>Keadilan Hukum Adalah Pilar Kekuasaan:</strong> Kesuksesan Sultan Sulaiman memimpin imperium yang luas didorong oleh komitmennya dalam menegakkan sistem hukum yang adil bagi semua golongan tanpa pandang bulu.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">handshake</span>
+            <div><strong>Indahnya Nilai-Nilai Toleransi:</strong> Keberhasilan Turki Usmani menjaga kerukunan antarumat beragama (Islam, Kristen, Yahudi) melalui jaminan perlindungan kebebasan berkeyakinan membuktikan bahwa Islam senantiasa menebarkan kasih sayang bagi semesta alam.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">hiking</span>
+            <div><strong>Pentingnya Memelihara Akhlak Pemimpin:</strong> Keruntuhan dinasti ini menjadi cermin berharga bahwa kemerosotan moral, korupsi, gaya hidup mewah, serta hilangnya sikap amanah di kalangan pemimpin adalah jalan pintas runtuhnya suatu bangsa.</div>
+        </li>
+    </ul>
+</div>
+
+<!-- Bagian 6: Fakta Cepat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">6. Fakta Cepat (Quick Facts)</h3>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
+    <div class="p-4 rounded-2xl text-center border bg-primary/5 border-primary/20">
+        <p class="text-xs text-on-surface-variant">Rentang Kekuasaan</p>
+        <p class="font-bold text-lg text-primary">±6 abad</p>
+        <p class="text-[10px] text-on-surface-variant">(600 tahun lamanya) dari 1299 hingga 1922 M.</p>
+    </div>
+    <div class="p-4 rounded-2xl text-center border bg-secondary/5 border-secondary/20">
+        <p class="text-xs text-on-surface-variant">Perpindahan Ibu Kota</p>
+        <p class="font-bold text-lg text-secondary">Sogut ➔ Bursa ➔ Adrianopel</p>
+        <p class="text-[10px] text-on-surface-variant">(Edirne) ➔ Konstantinopel (Istanbul).</p>
+    </div>
+    <div class="p-4 rounded-2xl text-center border bg-tertiary/5 border-tertiary/20">
+        <p class="text-xs text-on-surface-variant">Julukan Terbesar Sultan Sulaiman I</p>
+        <p class="font-bold text-lg text-tertiary">*The Magnificent*</p>
+        <p class="text-[10px] text-on-surface-variant">(di Barat) dan *Al-Qanuni* (di Timur).</p>
+    </div>
+    <div class="p-4 rounded-2xl text-center border bg-error/5 border-error/20">
+        <p class="text-xs text-on-surface-variant">Saksi Sejarah Toleransi Terbesar</p>
+        <p class="font-bold text-lg text-error">Pengalihan fungsi Hagia Sophia menjadi masjid tanpa merusak gambar rahib</p>
+        <p class="text-[10px] text-on-surface-variant"> serta jaminan keselamatan jemaat di dalamnya oleh Al-Fatih.</p>
+    </div>
+    <div class="p-4 rounded-2xl text-center border bg-primary/5 border-primary/20">
+        <p class="text-xs text-on-surface-variant">Sebab Utama Keruntuhan</p>
+        <p class="font-bold text-lg text-primary">Kemerosotan akhlak sebagian pemimpin</p>
+        <p class="text-[10px] text-on-surface-variant"> militer yang melemah, serta perpecahan wilayah internal.</p>
+    </div>
+</div>
+
+<!-- Bagian 7: Istilah Kunci -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Arti / Makna Singkat</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+        </tbody>
+    </table>
+</div>
         `
     }, {
         "id": "kls9-smtganjil-bab3",
