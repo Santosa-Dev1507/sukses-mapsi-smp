@@ -4142,132 +4142,257 @@ const materiData = [
         "kelas": 9,
         "semester": "Genap",
         "bab": "Bab 4",
-        "judul": "Mengaplikasikan Mazhab dalam Fikih",
-        "waktuBumper": "14 Menit Baca",
+        "judul": "Rukhsah dalam Perspektif Mazhab Fiqh",
+        "waktuBumper": "20 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab ini menjelaskan tentang fondasi krusial dalam memahami hukum Islam: apa itu mazhab, mengapa kita butuh guru untuk memandu ibadah, siapa saja para Imam raksasa di baliknya, dan inspirasi akhlak mereka.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Rukhsah dalam Perspektif Mazhab Fiqh</strong>, yang mencakup definisi, dasar hukum, syarat dan sebab diberikannya rukhsah, tata cara, hingga perbedaan pendapat para ulama mazhab.
 </p>
 
-<!-- 1. Pengertian Mazhab & Pentingnya Bermazhab -->
-<div class="grid md:grid-cols-2 gap-8 mb-16">
-    <div class="bg-surface-container-low p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
-        <span class="material-symbols-outlined absolute -top-8 -right-8 text-9xl text-primary/5">account_tree</span>
-        <h3 class="font-headline text-2xl font-bold text-primary mb-6"><span class="bg-primary text-white w-8 h-8 inline-flex items-center justify-center rounded-lg text-sm mr-2">1</span> Apa itu Mazhab?</h3>
-        <p class="text-on-surface-variant leading-relaxed text-sm mb-4">
-            Secara <strong>bahasa</strong> artinya jalan, pendapat, atau aliran. 
-        </p>
-        <p class="text-on-surface-variant leading-relaxed text-sm mb-4">
-            Secara <strong>istilah</strong>, mazhab adalah fatwa / pendapat ulama besar (Imam Mujtahid) tentang hukum yang bersumber dari Al-Qur'an dan Hadis. Mazhab juga merujuk pada "metode" penggalian hukum itu sendiri.
+<!-- Bagian 1: Definisi -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Pengertian Rukhsah</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        Secara bahasa, <strong>rukhsah</strong> memiliki arti keringanan atau kelonggaran. Secara istilah, rukhsah adalah <strong>perubahan hukum dari hukum asalnya karena sebab atau kondisi tertentu dengan tujuan untuk memberikan kemudahan dan meringankan beban umat Islam dalam beribadah</strong>. Hukum asal mengambil rukhsah adalah <em>al-ibahah</em> (dibolehkan), dan ditujukan agar umat Islam dapat menjalankan ibadah dengan mudah tanpa rasa berat.
+    </p>
+</div>
+
+<!-- Bagian 2: Dasar Hukum -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Dasar Hukum (Dalil)</h3>
+<div class="space-y-8 mb-12">
+    <!-- Dalil 1 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-BAQARAH: 286</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Kemampuan Beban Manusia</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+            "Allah tidak membebani seseorang melainkan sesuai dengan kesanggupannya."
         </p>
     </div>
 
-    <div class="bg-surface-container-low p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative overflow-hidden">
-        <span class="material-symbols-outlined absolute -top-8 -right-8 text-9xl text-secondary/5">verified_user</span>
-        <h3 class="font-headline text-2xl font-bold text-secondary mb-6"><span class="bg-secondary text-white w-8 h-8 inline-flex items-center justify-center rounded-lg text-sm mr-2">2</span> Kenapa Penting?</h3>
-        <ul class="space-y-3 text-sm text-on-surface-variant">
-            <li class="flex items-start"><span class="material-symbols-outlined text-secondary mr-2 shrink-0 text-lg">check_circle</span> <strong>Memandu Awam:</strong> Bagi orang biasa yang belum mampu menggali sendiri hukum dari teks asli bahasa Arab.</li>
-            <li class="flex items-start"><span class="material-symbols-outlined text-secondary mr-2 shrink-0 text-lg">check_circle</span> <strong>Standar Tuntunan:</strong> Beribadah jadi terarah karena mencontoh metode ulama mumpuni.</li>
-            <li class="flex items-start"><span class="material-symbols-outlined text-secondary mr-2 shrink-0 text-lg">check_circle</span> <strong>Pagar Keamanan:</strong> Menjaga umat dari tafsir agama yang salah atau menyimpang.</li>
+    <!-- Dalil 2 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AN-NISA: 101</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Salat Musafir</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+وَإِذَا ضَرَبْتُمْ فِي الْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَنْ تَقْصُرُوا مِنَ الصَّلَاةِ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed">
+            "Dan apabila kamu bepergian di muka bumi, maka tidaklah mengapa kamu mengqasar salat(mu)..."
+        </p>
+    </div>
+
+    <!-- Dalil 3 -->
+    <div class="bg-gradient-to-br from-secondary to-secondary-container p-8 rounded-[2rem] shadow-sm relative text-white">
+        <span class="bg-white/20 text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest border border-white/30">H.R. AHMAD & IBNU HIBBAN</span>
+        <h4 class="font-bold text-lg text-white mb-4">Allah Menyukai Rukhsah Diambil</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6" dir="rtl">
+إِنَّ اللَّهَ يُحِبُّ أَنْ تُؤْتَى رُخَصُهُ كَمَا يَكْرَهُ أَنْ تُؤْتَى مَعْصِيَتُهُ
+        </div>
+        <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 leading-relaxed">
+            "Sesungguhnya Allah Swt. menyukai keringanan-keringanan-Nya diambil, sebagaimana Dia membenci maksiat kepada-Nya."
+        </p>
+    </div>
+</div>
+
+<!-- Bagian 3: Syarat & Sebab -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Syarat & Sebab Diberikannya Rukhsah</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-12">
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mr-3">
+                <span class="material-symbols-outlined">help_center</span>
+            </div>
+            <h4 class="font-bold text-lg text-tertiary">Sebab Diperbolehkannya Rukhsah</h4>
+        </div>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-2">
+            <li><strong>Safar (Perjalanan Jauh):</strong> Bepergian jauh dengan tujuan yang baik.</li>
+            <li><strong>Sakit:</strong> Kondisi fisik yang tidak memungkinkan beribadah normal.</li>
+            <li><strong>Keterpaksaan (Darurat):</strong> Kondisi mengancam keselamatan jiwa.</li>
+            <li><strong>Kesulitan Meluas (<em>'Usr wa Umum al-Balwa</em>):</strong> Keadaan sulit yang sukar dihindari masyarakat umum.</li>
+        </ol>
+    </div>
+
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm">
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mr-3">
+                <span class="material-symbols-outlined">verified</span>
+            </div>
+            <h4 class="font-bold text-lg text-tertiary">Syarat Sah Pengambilan</h4>
+        </div>
+        <ol class="text-sm text-on-surface-variant list-decimal list-inside space-y-2">
+            <li><strong>Bukan untuk Maksiat:</strong> Tujuan safar/aktivitas harus bernilai mubah atau ibadah.</li>
+            <li><strong>Ada Kesulitan Nyata (<em>Masyaqqah</em>):</strong> Di luar batas kemampuan wajar, bisa membahayakan jiwa/kesehatan.</li>
+            <li><strong>Memenuhi Batas Jarak Safar:</strong> Khusus rukhsah safar (jamak/qasar) harus memenuhi standar minimal jarak fukaha.</li>
+        </ol>
+    </div>
+</div>
+
+<!-- Bagian 4: Tata Cara -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">4. Tata Cara / Urutan Pelaksanaan (Contoh Salat Orang Sakit)</h3>
+<p class="text-sm text-on-surface-variant mb-6">Penerapan rukhsah mengikuti kaidah fikih <strong>"Al-Masyaqqatu tajlibut taisir"</strong> (Kesulitan mendatangkan kemudahan).</p>
+<div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm mb-12">
+    <div class="space-y-4">
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">1</div>
+            <div><h5 class="font-bold text-sm text-on-surface">Berdiri</h5><p class="text-sm text-on-surface-variant">Ini adalah hukum asal (Azimah).</p></div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">2</div>
+            <div><h5 class="font-bold text-sm text-on-surface">Duduk</h5><p class="text-sm text-on-surface-variant">Jika tidak mampu berdiri, diperbolehkan shalat sambil duduk.</p></div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">3</div>
+            <div><h5 class="font-bold text-sm text-on-surface">Berbaring Miring</h5><p class="text-sm text-on-surface-variant">Jika tidak mampu duduk, diperbolehkan berbaring di atas lambung kanan menghadap kiblat.</p></div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">4</div>
+            <div><h5 class="font-bold text-sm text-on-surface">Telentang</h5><p class="text-sm text-on-surface-variant">Jika tidak mampu miring, telentang dengan kaki menghadap kiblat dan kepala agak ditinggikan.</p></div>
+        </div>
+        <div class="flex items-start">
+            <div class="w-8 h-8 bg-secondary text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-0.5 shrink-0">5</div>
+            <div><h5 class="font-bold text-sm text-on-surface">Isyarat</h5><p class="text-sm text-on-surface-variant">Jika sama sekali fisik tak bisa digerakkan, gunakan isyarat kelopak mata atau lintasan hati.</p></div>
+        </div>
+    </div>
+</div>
+
+<!-- Bagian 5: Menghalangi/Membatalkan -->
+<h3 class="font-headline text-2xl font-bold text-error mt-12 mb-6">5. Hal yang Menghalangi / Membatalkan Rukhsah</h3>
+<p class="text-sm text-on-surface-variant mb-6">Hak rukhsah seseorang menjadi gugur atau tidak boleh dipakai lagi apabila:</p>
+<div class="grid md:grid-cols-2 gap-4 mb-12">
+    <div class="bg-error/5 p-4 rounded-2xl border border-error/20 flex items-start">
+        <span class="material-symbols-outlined text-error mr-3 mt-0.5">do_not_disturb_on</span>
+        <div><h5 class="font-bold text-sm text-error">Tujuan Safar Menjadi Maksiat</h5><p class="text-xs text-on-surface-variant">Musafir berniat melakukan tindakan kriminal di tengah jalan.</p></div>
+    </div>
+    <div class="bg-error/5 p-4 rounded-2xl border border-error/20 flex items-start">
+        <span class="material-symbols-outlined text-error mr-3 mt-0.5">health_and_safety</span>
+        <div><h5 class="font-bold text-sm text-error">Udzur Syar'i Hilang</h5><p class="text-xs text-on-surface-variant">Orang sakit mendadak sembuh, atau musafir tiba di wilayah mukim.</p></div>
+    </div>
+    <div class="bg-error/5 p-4 rounded-2xl border border-error/20 flex items-start">
+        <span class="material-symbols-outlined text-error mr-3 mt-0.5">water_drop</span>
+        <div><h5 class="font-bold text-sm text-error">Menemukan Air (Bagi Tayamum)</h5><p class="text-xs text-on-surface-variant">Melihat/mendapatkan air suci sebelum salat dimulai.</p></div>
+    </div>
+    <div class="bg-error/5 p-4 rounded-2xl border border-error/20 flex items-start">
+        <span class="material-symbols-outlined text-error mr-3 mt-0.5">hourglass_bottom</span>
+        <div><h5 class="font-bold text-sm text-error">Melewati Batas Hari Mukim</h5><p class="text-xs text-on-surface-variant">Menetap melebihi batas musafir sementara (misal: >4 hari Mazhab Syafi'i).</p></div>
+    </div>
+</div>
+
+<!-- Bagian 6: Klasifikasi Rukhsah -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">6. Macam-Macam Bentuk Rukhsah</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-primary/10">
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Bidang</th>
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Bentuk Rukhsah</th>
+                <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Contoh Pelaksanaan</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Salat</td><td class="p-3">Jamak dan Qasar</td><td class="p-3">Meringkas (4 jadi 2) dan menggabung waktu salat bagi musafir.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Salat</td><td class="p-3">Kemudahan Orang Sakit</td><td class="p-3">Salat dengan posisi duduk, berbaring, atau telentang.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Puasa</td><td class="p-3">Mengqadha Puasa</td><td class="p-3">Boleh berbuka Ramadan bagi musafir/sakit, wajib diganti di hari lain.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Puasa</td><td class="p-3">Membayar Fidyah</td><td class="p-3">Lansia renta/sakit berat tak ada harapan sembuh boleh ganti dengan fidyah.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Zakat</td><td class="p-3">Membayar dengan Uang</td><td class="p-3">Membolehkan zakat fitrah dengan uang tunai senilai makanan pokok.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Zakat</td><td class="p-3">Zakat Diwakilkan</td><td class="p-3">Keringanan mewakilkan ke lembaga amil zakat.</td>
+            </tr>
+            <tr>
+                <td class="p-3 font-semibold">Haji</td><td class="p-3">Badal Haji</td><td class="p-3">Haji diwakilkan orang lain jika sakit berat/wafat.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 7: Istilah Kunci -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata Fiqih)</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Makna Singkat</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">'Azimah</td><td class="p-3">Hukum asal yang wajib dilaksanakan tanpa udzur (kebalikan rukhsah).</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Musafir</td><td class="p-3">Orang yang melakukan perjalanan jauh untuk tujuan baik.</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Masyaqqah</td><td class="p-3">Kesulitan ekstrem yang menyebabkan beratnya ibadah normal.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Fidyah</td><td class="p-3">Denda makanan pokok untuk fakir miskin sebagai ganti puasa.</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Qasar</td><td class="p-3">Meringkas rakaat salat wajib dari 4 menjadi 2.</td></tr>
+            <tr><td class="p-3 font-semibold">Jamak</td><td class="p-3">Mengumpulkan dua salat fardhu dalam satu waktu.</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 8: Perbedaan Pendapat Ulama -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">8. Perbedaan Pendapat Mazhab</h3>
+<div class="space-y-6 mb-12">
+    <div class="bg-surface-container-low p-6 rounded-3xl border-l-8 border-secondary shadow-sm">
+        <h4 class="font-bold text-lg text-secondary mb-3">A. Hukum Qasar Salat bagi Musafir</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li><strong>Mazhab Syafi'i, Maliki, Hambali:</strong> Hukumnya <strong>sunah muakkad</strong> (sangat dianjurkan) atau mubah. Musafir boleh memilih qasar atau sempurna (itmam).</li>
+            <li><strong>Mazhab Hanafi:</strong> Hukumnya <strong>wajib (fardhu)</strong>. Sengaja salat 4 rakaat penuh hukumnya makruh.</li>
+        </ul>
+    </div>
+    
+    <div class="bg-surface-container-low p-6 rounded-3xl border-l-8 border-secondary shadow-sm">
+        <h4 class="font-bold text-lg text-secondary mb-3">B. Jarak Minimal Safar</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li><strong>Mazhab Syafi'i, Maliki, Hambali:</strong> Minimal <strong>16 farsakh (2 marhalah)</strong>, atau sekitar <strong>80–89 km</strong>.</li>
+            <li><strong>Mazhab Hanafi:</strong> Setara jarak perjalanan kaki/unta selama <strong>3 hari 3 malam</strong> (sekitar <strong>96 km</strong>).</li>
+        </ul>
+    </div>
+
+    <div class="bg-surface-container-low p-6 rounded-3xl border-l-8 border-secondary shadow-sm">
+        <h4 class="font-bold text-lg text-secondary mb-3">C. Zakat Fitrah dengan Uang</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li><strong>Mazhab Syafi'i, Maliki, Hambali:</strong> Secara asal <strong>tidak memperbolehkan</strong> (harus makanan pokok daerah setempat).</li>
+            <li><strong>Mazhab Hanafi:</strong> <strong>Memperbolehkan</strong> membayar dengan uang tunai senilai harga makanan pokok demi kemaslahatan fakir miskin.</li>
         </ul>
     </div>
 </div>
 
-<!-- 3. Empat Imam Raksasa Penjaga Tatanan -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-8 mb-6 text-center">4 Imam Besar Mazhab Fikih</h3>
-<p class="text-center text-on-surface-variant mb-10 text-sm max-w-2xl mx-auto">Meski terdapat ratusan mujtahid cemerlang di awal sejarah Islam, hanya madzhab dari empat imam inilah yang dokumentasinya paling lengkap, teruji, dan dianut mayoritas umat Islam dunia hingga detik ini.</p>
-
-<div class="grid sm:grid-cols-2 gap-6 mb-16">
-    <!-- Hanafi -->
-    <div class="p-6 bg-white border border-outline-variant/20 rounded-[2rem] shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:-translate-y-1 transition-transform group">
-        <div class="flex items-center gap-4 mb-4">
-            <div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center text-primary font-bold text-xl group-hover:scale-110 transition-transform">H</div>
-            <div>
-                <h4 class="font-bold text-lg text-on-surface">Imam Hanafi</h4>
-                <p class="text-xs text-on-surface-variant">Abu Hanifah (Nu'man bin Tsabit)</p>
-            </div>
-        </div>
-        <p class="text-sm text-on-surface-variant border-l-2 border-primary/20 pl-3">Mazhab paling tua. Cenderung kritis memanfaatkan <strong>Logika (Ra'yu)</strong> dan Istihsan. Dianut secara sporadis di Asia Selatan, Turki, dan Mesir.</p>
+<!-- Bagian 9: Fakta Cepat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">9. Fakta Cepat (Quick Facts)</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <span class="material-symbols-outlined text-primary text-3xl mb-2">straighten</span>
+        <p class="text-xs text-on-surface-variant">Jarak Minimal Qasar</p>
+        <p class="font-bold text-lg text-primary">±80 km</p>
+        <p class="text-[10px] text-on-surface-variant">Atau 16 farsakh</p>
     </div>
-
-    <!-- Maliki -->
-    <div class="p-6 bg-white border border-outline-variant/20 rounded-[2rem] shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:-translate-y-1 transition-transform group">
-        <div class="flex items-center gap-4 mb-4">
-            <div class="w-14 h-14 bg-secondary/10 rounded-full flex items-center justify-center text-secondary font-bold text-xl group-hover:scale-110 transition-transform">M</div>
-            <div>
-                <h4 class="font-bold text-lg text-on-surface">Imam Maliki</h4>
-                <p class="text-xs text-on-surface-variant">Malik bin Anas (Ksatria Madinah)</p>
-            </div>
-        </div>
-        <p class="text-sm text-on-surface-variant border-l-2 border-secondary/20 pl-3">Sangat keras memegang pijakan Hadis dan juga memasukkan <strong>'Amalan Penduduk Madinah'</strong> sebagai dasar penetapan hukum. Banyak dianut di Afrika Utara (Maroko).</p>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <span class="material-symbols-outlined text-secondary text-3xl mb-2">filter_2</span>
+        <p class="text-xs text-on-surface-variant">Salat Boleh Diqasar</p>
+        <p class="font-bold text-lg text-secondary">Zuhur, Asar, Isya</p>
+        <p class="text-[10px] text-on-surface-variant">Hanya yang 4 rakaat</p>
     </div>
-    
-    <!-- Syafi'i -->
-    <div class="p-6 bg-white border border-outline-variant/20 rounded-[2rem] shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:-translate-y-1 transition-transform group">
-        <div class="flex items-center gap-4 mb-4">
-            <div class="w-14 h-14 bg-tertiary/10 rounded-full flex items-center justify-center text-tertiary font-bold text-xl group-hover:scale-110 transition-transform">S</div>
-            <div>
-                <h4 class="font-bold text-lg text-on-surface">Imam Syafi'i</h4>
-                <p class="text-xs text-on-surface-variant">Muhammad bin Idris asy-Syafi'i</p>
-            </div>
-        </div>
-        <p class="text-sm text-on-surface-variant border-l-2 border-tertiary/20 pl-3">Sang Pendamai (titik temu rasionalis & tekstualis). Sangat memperhatikan hadis dipadu rumusan cerdas via Analogi/Qiyas. <strong>Mayoritas mutlak di Indonesia</strong>, Malaysia, Suriah.</p>
+    <div class="bg-tertiary/5 p-4 rounded-2xl text-center border border-tertiary/20">
+        <span class="material-symbols-outlined text-tertiary text-3xl mb-2">gavel</span>
+        <p class="text-xs text-on-surface-variant">Hukum Asal Rukhsah</p>
+        <p class="font-bold text-lg text-tertiary">Mubah</p>
+        <p class="text-[10px] text-on-surface-variant">Dibolehkan</p>
     </div>
-
-    <!-- Hambali -->
-    <div class="p-6 bg-white border border-outline-variant/20 rounded-[2rem] shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:-translate-y-1 transition-transform group">
-        <div class="flex items-center gap-4 mb-4">
-            <div class="w-14 h-14 bg-error/10 rounded-full flex items-center justify-center text-error font-bold text-xl group-hover:scale-110 transition-transform">Hb</div>
-            <div>
-                <h4 class="font-bold text-lg text-on-surface">Imam Hambali</h4>
-                <p class="text-xs text-on-surface-variant">Ahmad bin Hambal</p>
-            </div>
-        </div>
-        <p class="text-sm text-on-surface-variant border-l-2 border-error/20 pl-3">Seorang pakar kumpulan hadis jutaan. Sangat tekstual & kaku menghindari ruang logika pribadi jika ada indikasi dalil nabi. Dominan dan menjadi rujukan eksklusif kerajaan di Arab Saudi.</p>
-    </div>
-</div>
-
-<!-- 4. Level Umat Bermazhab -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-8 items-center"><span class="bg-primary/10 text-primary p-2 rounded-xl mr-3"><span class="material-symbols-outlined">stairs</span></span> 3 Klasifikasi "Penumpang" Mazhab</h3>
-<div class="flex flex-col gap-4 mb-16">
-    <div class="bg-gradient-to-r from-surface-container-high to-transparent p-6 rounded-2xl flex items-center gap-6">
-        <div class="w-16 h-16 bg-surface-container-lowest rounded-full shrink-0 flex items-center justify-center shadow-sm font-bold text-outline">1</div>
-        <div>
-            <h4 class="font-bold text-lg">Taklid (Rakyat Jelata Hukum)</h4>
-            <p class="text-sm text-on-surface-variant">Murni menirukan dan ikut pendapat guru tanpa paham detail dalil. <strong>Hukumnya: Boleh / Wajib bagi orang awam.</strong></p>
-        </div>
-    </div>
-    
-    <div class="bg-gradient-to-r from-secondary/10 to-transparent p-6 rounded-2xl flex items-center gap-6">
-        <div class="w-16 h-16 bg-white rounded-full shrink-0 flex items-center justify-center shadow-sm font-bold text-secondary">2</div>
-        <div>
-            <h4 class="font-bold text-lg">Ittiba' (Murid Kritis)</h4>
-            <p class="text-sm text-on-surface-variant">Mengikuti fatwa Imam sambil <strong>mengetahui sandaran dalil / cara penetapannya</strong>. Ini zona untuk santri / da'i / pelajar hukum syariah.</p>
-        </div>
-    </div>
-    
-    <div class="bg-gradient-to-r from-primary/10 to-transparent p-6 rounded-2xl flex items-center gap-6">
-        <div class="w-16 h-16 bg-white rounded-full shrink-0 flex items-center justify-center shadow-sm font-bold text-primary">3</div>
-        <div>
-            <h4 class="font-bold text-lg">Ijtihad (Level Mujtahid Master)</h4>
-            <p class="text-sm text-on-surface-variant">Menggali & menetapkan hukum <strong>langsung membongkar teks Al-Qur'an dan Hadis</strong>. Hanya boleh dieksekusi oleh jenius ulama yang memenuhi syarat kualifikasi rumit. Saat ber-ijtihad, <em>"Bila sukses / benar dapat 2 pahala. Bila salah (karena unsur tidak sengaja), ia tak di nerakakan, bahkan tetap mendapat 1 pahala murni proses."</em> (Kisah Muadz bin Jabal di Yaman).</p>
-        </div>
-    </div>
-</div>
-
-<!-- 5. Keteladanan -->
-<div class="bg-primary/5 p-10 rounded-[3rem] border border-primary/20 text-center relative overflow-hidden">
-    <div class="absolute inset-0 bg-[linear-gradient(to_right,#006b4710_1px,transparent_1px),linear-gradient(to_bottom,#006b4710_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-    
-    <h4 class="text-2xl font-headline font-bold mb-8 relative z-10 text-primary">Teladan Akhlak dari Sang Imam</h4>
-    <div class="flex flex-wrap justify-center gap-4 relative z-10">
-        <span class="px-6 py-3 bg-white rounded-full shadow-sm text-sm font-bold text-primary flex items-center gap-2"><span class="material-symbols-outlined">favorite</span> Ikhlas</span>
-        <span class="px-6 py-3 bg-white rounded-full shadow-sm text-sm font-bold text-secondary flex items-center gap-2"><span class="material-symbols-outlined">fitness_center</span> Tekun & Super Keras</span>
-        <span class="px-6 py-3 bg-white rounded-full shadow-sm text-sm font-bold text-tertiary flex items-center gap-2"><span class="material-symbols-outlined">psychology</span> Cerdas / Analitis Tajam</span>
-        <span class="px-6 py-3 bg-white rounded-full shadow-sm text-sm font-bold text-on-surface flex items-center gap-2"><span class="material-symbols-outlined">auto_awesome</span> Zuhud (Anti Tamak Duniawi)</span>
-        <span class="px-6 py-3 bg-white rounded-full shadow-sm text-sm font-bold text-error flex items-center gap-2"><span class="material-symbols-outlined">wb_twilight</span> Gemar Ibadah Malam</span>
+    <div class="bg-error/5 p-4 rounded-2xl text-center border border-error/20">
+        <span class="material-symbols-outlined text-error text-3xl mb-2">public</span>
+        <p class="text-xs text-on-surface-variant">Mazhab di Indonesia</p>
+        <p class="font-bold text-lg text-error">Syafi'i</p>
+        <p class="text-[10px] text-on-surface-variant">Terpopuler di Nusantara</p>
     </div>
 </div>
 
