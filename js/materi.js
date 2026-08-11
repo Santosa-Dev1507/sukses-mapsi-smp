@@ -1530,195 +1530,166 @@ const materiData = [
         "kelas": 8,
         "semester": "Ganjil",
         "bab": "Bab 3",
-        "judul": "Ketentuan Salat Sunah Berjamaah: Gerhana, Istiska, dan Jenazah",
+        "judul": "Menguatkan Rasa Cinta kepada Rasulullah Muhammad Saw.",
         "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Materi kali ini khusus mengkaji tiga macam salat sunah berjamaah yang memiliki nilai sosial dan kepedulian tingkat tinggi: Salat Gerhana, Istiska (Minta Hujan), dan Jenazah.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Menguatkan Rasa Cinta kepada Rasulullah Muhammad Saw.</strong>, yang mencakup pengertian, dalil naqli, contoh perilaku sehari-hari, beserta hikmah membiasakan perilaku cinta Rasul.
 </p>
 
-<!-- 1. SALAT GERHANA -->
-<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 flex items-center">
-    <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
-        <span class="material-symbols-outlined text-[24px]">dark_mode</span>
-    </span>
-    1. Salat Gerhana (Kusufain)
-</h3>
-<div class="bg-surface-container-low p-8 rounded-[2rem] mb-12 border border-outline-variant/20 shadow-sm relative">
-    <p class="text-on-surface-variant text-sm mb-4 leading-relaxed">
-        Salat gerhana dikenal dengan istilah <em>Kusufain</em>. Secara khusus:
-        <br>• <strong>Kusuf:</strong> Salat untuk gerhana matahari.
-        <br>• <strong>Khusuf:</strong> Salat untuk gerhana bulan.
-    </p>
-    
-    <div class="flex flex-wrap gap-4 mb-6">
-        <div class="bg-white px-4 py-2 border border-outline-variant/20 rounded-xl text-sm"><strong class="text-primary">Hukum:</strong> Sunah Muakkad</div>
-        <div class="bg-white px-4 py-2 border border-outline-variant/20 rounded-xl text-sm"><strong class="text-primary">Format:</strong> 2 Rakaat dengan <strong>4 kali Ruku'</strong></div>
-        <div class="bg-white px-4 py-2 border border-outline-variant/20 rounded-xl text-sm"><strong class="text-primary">Waktu:</strong> Terjadi gerhana hingga usai</div>
-    </div>
-
-    <!-- Niat & Tata Cara -->
-    <div class="bg-primary/5 p-6 rounded-2xl border border-primary/20 mb-6">
-        <h4 class="font-bold text-primary mb-4 text-sm">Contoh Lafal Niat Salat Gerhana Matahari (Makmum)</h4>
-        <div class="text-right font-quran text-2xl text-on-surface mb-3 leading-loose" dir="rtl">
-            أُصَلِّيْ سُنَّةَ الْكُسُوْفِ رَكْعَتَيْنِ مَأْمُوْمًا لِلَّهِ تَعَالَى
+<!-- Bagian 1: Pengertian -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Pengertian Cinta kepada Rasulullah Saw.</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <div class="grid md:grid-cols-2 gap-8">
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">translate</span> Secara Bahasa
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Secara bahasa, kata "cinta" diterjemahkan dari kata bahasa Arab <em>mahabbah</em> (<span class="font-quran" dir="rtl">مَحَبَّةٌ</span>) yang berarti <strong>kecenderungan hati yang kuat, kesetiaan, ketulusan, atau kasih sayang yang mendalam</strong>. Cinta kepada Rasulullah saw. berarti adanya ketertarikan jiwa yang kuat yang membuat seseorang mengutamakan Rasulullah saw. di atas dirinya sendiri dan makhluk lainnya.
+            </p>
         </div>
-        <p class="text-xs italic text-on-surface-variant">"Aku salat sunah gerhana matahari dua rekaat sebagai makmum karena Allah taala"</p>
-    </div>
-
-    <div class="text-sm text-on-surface-variant">
-        <p class="font-bold text-on-surface mb-2">Panduan Rakaat (Sangat Unik):</p>
-        <ul class="list-decimal ml-5 space-y-1">
-            <li>Niat & Takbiratul Ihram</li>
-            <li>Membaca Al-Fatihah & Surah panjang secara nyaring</li>
-            <li><strong>Ruku' pertama</strong></li>
-            <li>Bangkit (I'tidal), tapi <strong>tidak sujud</strong>, melainkan baca Al-Fatihah & Surah lagi!</li>
-            <li><strong>Ruku' kedua</strong></li>
-            <li>I'tidal sesungguhnya</li>
-            <li>Sujud dua kali</li>
-            <li>Bangkit ke Rakaat 2 (lakukan hal yang sama persis: 2 kali ruku')</li>
-            <li>Salam, dilanjutkan mendengarkan Khutbah Gerhana.</li>
-        </ul>
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">menu_book</span> Secara Istilah
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Secara istilah (makna luas), <strong>mencintai Rasulullah Muhammad saw. adalah keyakinan kuat di dalam hati yang diwujudkan melalui kepatuhan yang tulus untuk mengikuti (<em>ittiba'</em>) seluruh ajaran, perkataan, perbuatan, dan sunah beliau, serta meneladani akhlak mulia (<em>uswatun hasanah</em>) beliau dalam setiap aspek kehidupan</strong>.
+            </p>
+        </div>
     </div>
 </div>
 
-<!-- 2. SALAT ISTISKA -->
-<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6 flex items-center">
-    <span class="w-10 h-10 rounded-xl bg-secondary/10 flex items-center justify-center mr-4 shrink-0">
-        <span class="material-symbols-outlined text-[24px]">rainy</span>
-    </span>
-    2. Salat Istiska (Meminta Hujan)
-</h3>
-<div class="bg-surface-container-low p-8 rounded-[2rem] mb-12 border border-outline-variant/20 shadow-sm">
-    <p class="text-on-surface-variant text-sm mb-4 leading-relaxed">
-        Berasal dari kata <em>Al-Istisqa</em>. Digelar ketika krisis kekeringan, kemarau panjang, kebakaran hutan, hingga polusi asap akibat kemarau. Hukumnya <strong>Sunah Muakkad</strong>.
-    </p>
+<!-- Bagian 2: Dalil Naqli -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Dalil Naqli (Al-Qur'an dan Hadis)</h3>
 
-    <div class="bg-white p-5 rounded-2xl shadow-sm border border-outline-variant/10 mb-6">
-        <h4 class="font-bold text-sm text-secondary mb-3"><span class="material-symbols-outlined text-[16px] align-middle mr-1">history_edu</span> Ritual Pra-Salat:</h4>
-        <ul class="text-xs text-on-surface-variant space-y-2">
-            <li>💧 Memperbanyak bertaubat dan ampunan dosa (istigfar) karena bencana berkaitan dengan dosa eksploitasi alam.</li>
-            <li>💧 Memperbanyak sedekah.</li>
-            <li>💧 <strong>Puasa sunah 4 hari berturut-turut</strong> (3 hari sebelum pelaksaan, dan 1 hari pas hari H).</li>
-            <li>💧 Datang ke lapangan mengenakan pakaian bersahaja/sederhana, bukan pakaian mewah seperti salat Id.</li>
-        </ul>
-    </div>
-
-    <div class="text-sm text-on-surface-variant">
-        <p class="font-bold text-on-surface mb-2">Panduan Tata Cara:</p>
-        <ul class="list-decimal ml-5 space-y-1">
-            <li>Imam menyeru tanpa azan/iqamah: <em>"as-salatu jami'ah"</em></li>
-            <li>Salat 2 Rakaat biasa di lapangan terbuka.</li>
-            <li>Pasca salat, dilanjut Khutbah Istiska. Dibuka dengan istigfar (9x di awal khutbah pertama, 7x di awal khutbah kedua).</li>
-        </ul>
-    </div>
-</div>
-
-<!-- 3. SALAT JENAZAH -->
-<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6 flex items-center border-t border-outline-variant/20 pt-10">
-    <span class="w-10 h-10 rounded-xl bg-tertiary/10 flex items-center justify-center mr-4 shrink-0">
-        <span class="material-symbols-outlined text-[24px]">church</span>
-    </span>
-    3. Salat Jenazah
-</h3>
-<div class="grid md:grid-cols-2 gap-8 mb-10">
-    <div>
-        <p class="text-sm text-on-surface-variant leading-relaxed mb-4">
-            Ini adalah bentuk dedikasi umat Islam terhadap saudaranya yang wafat. Hukum mengurus jenazah adalah <strong>Fardu Kifayah</strong> (kewajiban komunal, gugur dosanya jika sudah ada sebagian orang yang mengerjakan).
+<div class="space-y-8 mb-12">
+    <!-- Dalil 1: Q.S. Ali 'Imran Ayat 31 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. ALI 'IMRAN: 31</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Bukti Cinta Melalui Ittiba'</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+قُلْ إِنْ كُنْتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَاللَّهُ غَفُورٌ رَّحِيمٌ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Katakanlah (Nabi Muhammad), 'Jika kamu mencintai Allah, ikutilah aku, niscaya Allah akan mencintaimu dan mengampuni dosa-dosamu.' Allah Maha Pengampun lagi Maha Penyayang."
         </p>
-        <div class="bg-tertiary/10 p-5 rounded-2xl border border-tertiary/20">
-            <h4 class="font-bold text-tertiary text-sm mb-3">4 Paket Kewajiban Utama:</h4>
-            <div class="flex flex-wrap gap-2 text-xs font-bold">
-                <span class="bg-white px-3 py-1.5 rounded-lg shadow-sm">1. Memandikan</span>
-                <span class="bg-white px-3 py-1.5 rounded-lg shadow-sm">2. Mengafani</span>
-                <span class="bg-white px-3 py-1.5 rounded-lg shadow-sm text-tertiary">3. Menyalatkan</span>
-                <span class="bg-white px-3 py-1.5 rounded-lg shadow-sm">4. Menguburkan</span>
-            </div>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Tafsir Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Ayat ini menegaskan bahwa <strong>ukuran kebenaran klaim cinta seseorang kepada Allah adalah kesediaannya untuk mengikuti (<em>ittiba'</em>) Rasulullah saw.</strong>. Barang siapa yang mengikuti jalan hidup dan sunah Nabi Muhammad saw., maka Allah akan menganugerahkan kepadanya cinta-Nya serta ampunan atas segala dosa.
+            </p>
         </div>
     </div>
-    
-    <div class="bg-surface-container p-6 rounded-[2rem] border border-outline-variant/10">
-        <h4 class="font-bold text-sm mb-3 text-on-surface">Format Niat Fleksibel</h4>
-        <p class="text-xs text-on-surface-variant leading-relaxed text-justify">
-            Niat salat jenazah dilafalkan tanpa ruku' maupun sujud. Bacaan niatnya harus memperhatikan detail secara ketat: Apakah jenazahnya laki-laki/perempuan? Jamaak/Tunggal? Hadir di depan mata atau Gaib (salat jarak jauh)? Serta berposisi sebagai Imam/Makmum. Salat dilakukan khusus berdiri dengan 4 kali takbir.
+
+    <!-- Dalil 2: Q.S. Al-Ahzab Ayat 21 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-AHZAB: 21</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Rasulullah Sebagai Uswatun Hasanah</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ لِمَنْ كَانَ يَرْجُو اللَّهَ وَالْيَوْمَ الْآخِرَ وَذَكَرَ اللَّهَ كَثِيرًا
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Sungguh, telah ada pada (diri) Rasulullah itu suri teladan yang baik bagimu (yaitu) bagi orang yang mengharap (rahmat) Allah dan (kedatangan) hari Kiamat dan yang banyak mengingat Allah."
         </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Tafsir Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Ayat ini menetapkan kedudukan luhur Rasulullah saw. sebagai <strong>satu-satunya barometer keteladanan mutlak</strong> (<em>uswatun hasanah</em>) bagi umat Islam. Segala aspek kepribadian beliau—baik dalam hal ibadah, berkeluarga, kepemimpinan, hingga hubungan sosial—merupakan panduan terbaik yang harus ditiru oleh orang yang menginginkan keselamatan di hari akhir.
+            </p>
+        </div>
+    </div>
+
+    <!-- Dalil 3: Hadis Riwayat Bukhari dan Muslim -->
+    <div class="bg-gradient-to-br from-secondary to-secondary-container p-8 rounded-[2rem] shadow-sm relative text-white">
+        <span class="bg-white/20 text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest border border-white/30">H.R. BUKHARI & MUSLIM</span>
+        <h4 class="font-bold text-lg text-white mb-4">Syarat Kesempurnaan Iman</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6" dir="rtl">
+لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى أَكُونَ أَحَبَّ إِلَيْهِ مِنْ وَالِدِهِ وَوَلَدِهِ وَالنَّاسِ أَجْمَعِينَ
+        </div>
+        <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 leading-relaxed mb-4">
+            "Tidak sempurna iman salah seorang di antara kalian sampai aku (Rasulullah) lebih ia cintai daripada orang tuanya, anaknya, dan seluruh manusia."
+        </p>
+        <div class="bg-white/10 p-4 rounded-xl border border-white/20">
+            <h5 class="font-bold text-sm text-white mb-2">Catatan & Penjelasan:</h5>
+            <p class="text-sm opacity-90 leading-relaxed">
+                Hadis ini menjelaskan bahwa <strong>cinta kepada Rasulullah saw. harus ditempatkan di puncak tertinggi hubungan emosional manusia</strong>. Kecintaan ini wajib melebihi cinta kita kepada keluarga, anak-anak, bahkan diri kita sendiri demi mencapai kesempurnaan iman.
+            </p>
+        </div>
     </div>
 </div>
 
-        
-
-<!-- Detail Tata Cara Salat Jenazah -->
-<div class="bg-surface-container-low p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm mt-6 mb-12">
-    <h4 class="font-bold text-lg text-tertiary mb-6 border-b border-outline-variant/20 pb-3 flex items-center"><span class="material-symbols-outlined mr-2">format_list_numbered</span> Tata Cara Lengkap Pelaksanaan 4 Takbir</h4>
+<!-- Bagian 3: Contoh Perilaku -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Contoh Perilaku Cinta Rasul dalam Kehidupan Sehari-hari</h3>
+<div class="grid md:grid-cols-3 gap-6 mb-12">
+    <!-- Keluarga -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">family_restroom</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Keluarga</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Membiasakan diri mengucapkan salam, bersikap sopan santun, serta berkata lemah lembut kepada orang tua dan saudara di rumah sesuai contoh kepribadian Rasulullah saw..</li>
+            <li>Rutin bershalawat atas Nabi Muhammad saw. bersama keluarga setelah melaksanakan salat berjamaah di rumah.</li>
+            <li>Menerapkan pola hidup sederhana dan gemar bersedekah dalam rumah tangga sebagaimana kesederhanaan yang dipraktikkan keluarga Nabi.</li>
+        </ul>
+    </div>
     
-    <div class="space-y-6">
-        <!-- Niat & Berdiri -->
-        <div class="flex gap-4">
-            <div class="w-8 h-8 rounded-full bg-tertiary text-white flex items-center justify-center font-bold shrink-0 mt-1">1</div>
-            <div class="flex-grow">
-                <h5 class="font-bold text-on-surface">Niat & Berdiri</h5>
-                <p class="text-sm text-on-surface-variant mb-3 leading-relaxed">Salat jenazah diwajibkan <strong>berdiri</strong>. <br>Posisi Imam: sejajar <strong>kepala</strong> (jika jenazah laki-laki) atau di <strong>tengah/perut</strong> (jika jenazah perempuan).</p>
-                <div class="bg-white p-4 rounded-xl border border-outline-variant/10 shadow-sm">
-                    <div class="text-right font-quran text-2xl text-on-surface mb-3 leading-loose" dir="rtl">أُصَلِّيْ عَلَى مَنْ صَلَّى عَلَيْهِ الْإِمَامُ مَأْمُوْمًا فَرْضًا لِلَّهِ تَعَالَى</div>
-                    <p class="text-xs italic text-on-surface-variant border-t border-outline-variant/10 pt-2">"Aku niat salat atas jenazah yang disalati imam fardu karena Allah taala." (Contoh niat makmum)</p>
-                </div>
-            </div>
+    <!-- Sekolah -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">school</span>
         </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Sekolah</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Menghormati, takzim, dan patuh kepada bapak serta ibu guru di sekolah sebagai pewaris ilmu para nabi.</li>
+            <li>Saling menyayangi antarteman sekelas dan menghargai perbedaan pendapat dengan kepala dingin tanpa melakukan perundungan (<em>bullying</em>).</li>
+            <li>Belajar dengan tekun dan disiplin karena menuntut ilmu adalah bagian dari kewajiban suci yang sangat ditekankan oleh Rasulullah saw..</li>
+        </ul>
+    </div>
+    
+    <!-- Masyarakat -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">group</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Masyarakat</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Mengutamakan akhlak yang santun dalam bergaul serta senantiasa memaafkan kesalahan orang lain tanpa rasa dendam.</li>
+            <li>Menebar perdamaian, bertoleransi (<em>tasamuh</em>) dalam hubungan sosial antarumat beragama, dan aktif membantu tetangga yang sedang kesusahan.</li>
+            <li>Menjaga kelestarian alam sekitar sebagai bentuk kepedulian sosial demi menebar kasih sayang kepada semesta alam (<em>rahmatan lil 'alamin</em>).</li>
+        </ul>
+    </div>
+</div>
 
-        <!-- Takbir 1 -->
-        <div class="flex gap-4">
-            <div class="w-8 h-8 rounded-full bg-tertiary/20 text-tertiary flex items-center justify-center font-bold shrink-0 mt-1">2</div>
-            <div>
-                <h5 class="font-bold text-on-surface mb-1">Takbir Pertama (Takbiratul Ihram)</h5>
-                <p class="text-sm text-on-surface-variant bg-surface-container p-3 rounded-lg">Setelah takbir pertama, diwajibkan membaca surat <strong>Al-Fatihah</strong>.</p>
-            </div>
+<!-- Bagian 4: Hikmah / Dampak Positif -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Hikmah & Dampak Positif Cinta kepada Rasulullah Saw.</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-8">
+    <!-- Manfaat di Dunia -->
+    <div class="bg-primary/5 p-6 rounded-3xl border border-primary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-primary text-3xl mr-3">public</span>
+            <h4 class="font-bold text-lg text-primary">Manfaat di Dunia</h4>
         </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Kemuliaan Akhlak:</strong> Meneladani Nabi akan membentuk kepribadian yang luhur, jujur, dan dipercaya (<em>al-Amin</em>) di masyarakat.</li>
+            <li><strong>Ketenangan dan Kestabilan Jiwa:</strong> Menjadikan kehidupan lebih tenang, terarah, dan bermakna karena memiliki teladan hidup paling sempurna dalam menghadapi berbagai ujian.</li>
+            <li><strong>Terciptanya Harmoni Sosial:</strong> Mengikuti sifat Nabi yang penuh kasih sayang akan meredam segala pertikaian, perundungan, serta perpecahan di tengah masyarakat.</li>
+        </ul>
+    </div>
 
-        <!-- Takbir 2 -->
-        <div class="flex gap-4">
-            <div class="w-8 h-8 rounded-full bg-tertiary/20 text-tertiary flex items-center justify-center font-bold shrink-0 mt-1">3</div>
-            <div>
-                <h5 class="font-bold text-on-surface mb-1">Takbir Kedua</h5>
-                <p class="text-sm text-on-surface-variant bg-surface-container p-3 rounded-lg">Setelah takbir kedua, membaca <strong>Salawat</strong> atas Nabi Muhammad saw.</p>
-            </div>
+    <!-- Manfaat di Akhirat -->
+    <div class="bg-secondary/5 p-6 rounded-3xl border border-secondary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-secondary text-3xl mr-3">auto_awesome</span>
+            <h4 class="font-bold text-lg text-secondary">Manfaat di Akhirat</h4>
         </div>
-
-        <!-- Takbir 3 -->
-        <div class="flex gap-4">
-            <div class="w-8 h-8 rounded-full bg-tertiary/20 text-tertiary flex items-center justify-center font-bold shrink-0 mt-1">4</div>
-            <div class="flex-grow">
-                <h5 class="font-bold text-on-surface mb-2">Takbir Ketiga</h5>
-                <p class="text-sm text-on-surface-variant mb-2">Membaca doa untuk pengampunan jenazah. Jika jenazah perempuan, kata ganti *"hu"* diganti menjadi *"ha"*.</p>
-                <div class="bg-white p-4 rounded-xl border border-outline-variant/10 shadow-sm">
-                    <div class="text-right font-quran text-2xl mb-3" dir="rtl">اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ</div>
-                    <p class="text-xs italic text-on-surface-variant border-t border-outline-variant/10 pt-2">"Ya Allah, ampunilah dia, rahmatilah dia, bebaskanlah dia, dan maafkanlah dia."</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Takbir 4 -->
-        <div class="flex gap-4">
-            <div class="w-8 h-8 rounded-full bg-tertiary/20 text-tertiary flex items-center justify-center font-bold shrink-0 mt-1">5</div>
-            <div class="flex-grow">
-                <h5 class="font-bold text-on-surface mb-2">Takbir Keempat</h5>
-                <p class="text-sm text-on-surface-variant mb-2">Membaca doa penutup keselamatan (menurut pandangan ghalib/masyhur). Sebagian ulama juga membolehkan diam saja setelah takbir keempat.</p>
-                <div class="bg-white p-4 rounded-xl border border-outline-variant/10 shadow-sm">
-                    <div class="text-right font-quran text-2xl mb-3 leading-loose" dir="rtl">اللَّهُمَّ لَا تَحْرِمْنَا أَجْرَهُ وَلَاتَفْتِنَّا بَعْدَهُ وَاغْفِرْ لَنَا وَلَهُ</div>
-                    <p class="text-xs italic text-on-surface-variant border-t border-outline-variant/10 pt-2">"Ya Allah, jangan haramkan kami dari pahalanya dan jangan beri fitnah (cobaan) bagi kami sepeninggalnya. Ampunilah kami dan ampunilah dia."</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Salam -->
-        <div class="flex gap-4">
-            <div class="w-8 h-8 rounded-full bg-tertiary text-white flex items-center justify-center font-bold shrink-0 mt-1">6</div>
-            <div>
-                <h5 class="font-bold text-on-surface mb-1">Salam Penutup</h5>
-                <p class="text-sm text-on-surface-variant bg-surface-container p-3 rounded-lg">Mengucapkan salam dengan menoleh wajah ke kanan dan ke kiri untuk mengakhiri ibadah salat.</p>
-            </div>
-        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Bersama Rasulullah di Surga:</strong> Meraih kesempatan berharga untuk dikumpulkan bersama Nabi Muhammad saw. di surga kelak.</li>
+            <li><strong>Mendapatkan Syafaat:</strong> Orang yang konsisten menghidupkan sunah beliau berhak mendapatkan syafaat (pertolongan) di hari kiamat.</li>
+            <li><strong>Meraih Rida dan Cinta Allah:</strong> Mengikuti rasul adalah satu-satunya jalan mutlak untuk mendapatkan rida, cinta, dan ampunan dosa dari Allah Swt..</li>
+        </ul>
     </div>
 </div>
 
@@ -2200,95 +2171,149 @@ const materiData = [
         "kelas": 8,
         "semester": "Genap",
         "bab": "Bab 3",
-        "judul": "Menjadi Pribadi yang Dapat Dipercaya: Terhindar Riba",
-        "waktuBumper": "16 Menit Baca",
+        "judul": "Makna Husnuzan dan Penerapannya dalam Kehidupan Sehari-hari",
+        "waktuBumper": "15 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab ini menyelamatkan kita dari dosa gelap ekonomi: Fikih Muamalah. Mengajarkan anatomi perniagaan yang sah (Jual Beli), sistem pinjaman (Hutang), dan musuh finansial terbesar Islam (Riba).
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Makna Husnuzan dan Penerapannya dalam Kehidupan Sehari-hari</strong>, yang mencakup pengertian, dalil naqli, contoh perilaku sehari-hari, beserta hikmah membiasakan perilaku husnuzan.
 </p>
 
-<!-- 1. Jual Beli & Khiyar -->
-<div class="bg-surface-container-low p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm mb-12">
-    <h3 class="font-headline text-2xl font-bold text-primary mb-6 flex items-center">
-        <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
-            <span class="material-symbols-outlined text-[24px]">storefront</span>
-        </span>
-        1. Jual Beli (Ba'i)
-    </h3>
+<!-- Bagian 1: Pengertian -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Pengertian Husnuzan</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <div class="grid md:grid-cols-2 gap-8">
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">translate</span> Secara Bahasa
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Secara bahasa, kata husnuzan berasal dari bahasa Arab, yaitu <em>husnu</em> (<span class="font-quran" dir="rtl">حُسْنُ</span>) yang berarti <strong>baik</strong>, dan <em>al-zhan</em> (<span class="font-quran" dir="rtl">الظَّنُّ</span>) yang berarti <strong>prasangka atau dugaan</strong>. Jadi, secara bahasa, husnuzan memiliki arti <strong>prasangka baik atau berbaik sangka</strong>.
+            </p>
+        </div>
+        <div>
+            <h4 class="font-bold text-lg text-primary flex items-center mb-3">
+                <span class="material-symbols-outlined mr-2">menu_book</span> Secara Istilah
+            </h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Secara istilah (makna luas), husnuzan adalah <strong>sikap mental, pikiran, dan cara pandang positif yang senantiasa melihat segala sesuatu—baik ketetapan Allah Swt. maupun perilaku orang lain—dari sisi kebaikan, keindahan, dan hikmahnya</strong>, serta berusaha menjauhi prasangka buruk (<em>suuzan</em>) yang tidak disertai dengan bukti yang nyata.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Bagian 2: Dalil Naqli -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Dalil Naqli (Al-Qur'an dan Hadis)</h3>
+
+<div class="space-y-8 mb-12">
+    <!-- Dalil 1: Q.S. Al-Hujurat Ayat 12 -->
+    <div class="bg-white p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm relative">
+        <span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest">Q.S. AL-HUJURAT: 12</span>
+        <h4 class="font-bold text-lg text-secondary mb-4">Larangan Suuzan dan Perintah Berprasangka Baik</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ ۖ وَلَا تَجَسَّسُوا وَلَا يَغْتَبْ بَعْضُكُمْ بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَنْ يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا فَكَرِهْتُمُوهُ ۚ وَاتَّقُوا اللَّهَ ۚ إِنَّ اللَّهَ تَوَّابٌ رَحِيمٌ
+        </div>
+        <p class="text-sm italic text-on-surface-variant border-t border-outline-variant/10 pt-4 leading-relaxed mb-4">
+            "Wahai orang-orang yang beriman! Jauhilah banyak dari prasangka, sesungguhnya sebagian prasangka itu dosa dan janganlah kamu mencari-cari kesalahan orang lain dan janganlah ada di antara kamu yang menggunjing sebagian yang lain. Apakah ada di antara kamu yang suka memakan daging saudaranya yang sudah mati? Tentu kamu merasa jijik. Dan bertakwalah kepada Allah, sesungguhnya Allah Maha Penerima tobat, Maha Penyayang."
+        </p>
+        <div class="bg-surface-container p-4 rounded-xl">
+            <h5 class="font-bold text-sm text-on-surface mb-2">Catatan & Tafsir Ringkas:</h5>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+                Ayat ini memerintahkan orang-orang yang beriman untuk menjauhi sebagian besar prasangka buruk (<em>suuzan</em>), karena menuduh tanpa dasar bukti adalah tindakan yang mendatangkan dosa. Menghindari <em>suuzan</em> merupakan benteng utama agar kita tidak terjerumus pada perilaku tercela berikutnya, yaitu mencari-cari kesalahan orang lain (<em>tajassus</em>) serta membicarakan aib sesama (<em>gibah</em>).
+            </p>
+        </div>
+    </div>
+
+    <!-- Dalil 2: Hadis Riwayat Bukhari dan Muslim -->
+    <div class="bg-gradient-to-br from-secondary to-secondary-container p-8 rounded-[2rem] shadow-sm relative text-white">
+        <span class="bg-white/20 text-white text-[10px] font-bold px-3 py-1 rounded-full absolute -top-3 right-8 tracking-widest border border-white/30">H.R. BUKHARI & MUSLIM</span>
+        <h4 class="font-bold text-lg text-white mb-4">Husnuzan kepada Ketentuan Allah Swt.</h4>
+        <div class="text-right font-quran text-2xl leading-[2.5] mb-6" dir="rtl">
+يَقُولُ اللَّهُ تَعَالَى: أَنَا عِنْدَ ظَنِّ عَبْدِي بِي
+        </div>
+        <p class="text-sm italic opacity-90 border-t border-white/20 pt-4 leading-relaxed mb-4">
+            "Allah Ta'ala berfirman: 'Aku berada dalam prasangka hamba-Ku kepada-Ku.'"
+        </p>
+        <div class="bg-white/10 p-4 rounded-xl border border-white/20">
+            <h5 class="font-bold text-sm text-white mb-2">Catatan & Penjelasan:</h5>
+            <p class="text-sm opacity-90 leading-relaxed">
+                Hadis Qudsi ini mengajarkan kita untuk selalu memelihara rasa optimis dan <em>husnuzan</em> kepada Allah Swt. dalam segala kondisi. Ketika kita berbaik sangka bahwa setiap cobaan, ujian, maupun takdir yang Allah tetapkan adalah hal terbaik bagi kita, maka Allah Swt. akan mengaruniakan kedamaian, jalan keluar, serta ketenangan jiwa.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Bagian 3: Contoh Perilaku -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Contoh Perilaku Husnuzan dalam Kehidupan Sehari-hari</h3>
+<div class="grid md:grid-cols-3 gap-6 mb-12">
+    <!-- Keluarga -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">family_restroom</span>
+        </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Keluarga</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Berprasangka baik saat orang tua memberikan batasan tertentu (seperti membatasi waktu bermain <em>game</em> atau gawai), dengan meyakini bahwa itu adalah bentuk kasih sayang agar masa depan kita tetap terjaga.</li>
+            <li>Menerima dengan ikhlas, rida, dan penuh rasa syukur atas keadaan ekonomi atau fasilitas yang diberikan orang tua di rumah tanpa mengeluh.</li>
+            <li>Selalu berbaik sangka terhadap setiap nasihat dan teguran dari saudara kandung sebagai masukan untuk memperbaiki diri.</li>
+        </ul>
+    </div>
     
-    <div class="grid md:grid-cols-2 gap-8 mb-6">
-        <div>
-            <h4 class="font-bold text-sm text-on-surface bg-surface-container px-3 py-1 inline-block rounded-lg mb-3">Rukun Jual Beli (Wajib Ada)</h4>
-            <ul class="text-sm text-on-surface-variant list-disc ml-5 space-y-1">
-                <li>Adanya Penjual & Pembeli (akal sehat, baligh).</li>
-                <li>Barang Jasa Jelas Halal Milik Sah.</li>
-                <li>Alat Tukar (Harga) jelas nominalnya.</li>
-                <li>Ijab Qabul (Transaksi lisan/tulisan serah terima).</li>
-            </ul>
+    <!-- Sekolah -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">school</span>
         </div>
-        <div>
-            <h4 class="font-bold text-sm text-on-surface bg-surface-container px-3 py-1 inline-block rounded-lg mb-3">Macam-Macam Khiyar (Hak Batal Beli)</h4>
-            <ul class="text-sm text-on-surface-variant space-y-2">
-                <li><strong class="text-primary">Majlis:</strong> Hak batal selama kaki pembeli/penjual masih di dalam toko/lokasi.</li>
-                <li><strong class="text-primary">Syarat:</strong> Hak batal karena MoU garansi di awal perjanjian.</li>
-                <li><strong class="text-primary">Aib:</strong> Hak komplain retur karena terdeteksi barangnya cacat pabrik.</li>
-                <li><strong class="text-primary">Ru'yah:</strong> Hak batal spesifik pesanan Blind-Buy (barang belum diliat aslinya).</li>
-            </ul>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Sekolah</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Berprasangka baik kepada guru yang memberikan nilai atau teguran disiplin, dengan meyakini bahwa guru ingin melihat kita tumbuh menjadi pribadi yang lebih pintar dan disiplin.</li>
+            <li>Apabila kehilangan barang di kelas, kita tidak terburu-buru mencurigai teman, melainkan mengutamakan tabayyun (klarifikasi) terlebih dahulu secara sopan.</li>
+            <li>Memahami perbedaan karakter teman kelompok dan berbaik sangka bahwa kelebihan serta kekurangan masing-masing ada untuk saling melengkapi.</li>
+        </ul>
+    </div>
+    
+    <!-- Masyarakat -->
+    <div class="bg-surface-container-low p-6 rounded-3xl border-t-8 border-tertiary shadow-sm relative">
+        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-full flex items-center justify-center mb-4">
+            <span class="material-symbols-outlined">group</span>
         </div>
+        <h4 class="font-bold text-lg text-tertiary mb-3">Lingkungan Masyarakat</h4>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-2">
+            <li>Ikut merasa gembira dan berbaik sangka saat tetangga mendapatkan rezeki atau barang baru, tanpa menyimpan rasa iri dan dengki.</li>
+            <li>Tidak mudah mempercayai desas-desus, gosip, atau berita negatif tentang tetangga di lingkungan sekitar maupun di media sosial.</li>
+            <li>Mengubah setiap pikiran buruk menjadi pikiran yang positif (<em>positive thinking</em>) dan ramah dalam menjalin komunikasi antarwarga.</li>
+        </ul>
     </div>
 </div>
 
-<!-- 2. Hutang Piutang (Qardh vs Dayn) -->
-<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Anatomi Hutang Piutang</h3>
-<div class="flex flex-col md:flex-row gap-6 mb-16">
-    <div class="bg-white p-6 border-l-4 border-secondary rounded-2xl shadow-sm flex-1">
-        <h4 class="font-bold text-lg mb-2 flex items-center"><span class="material-symbols-outlined text-secondary mr-2">handshake</span> Qardh (Pinjaman Murni)</h4>
-        <p class="text-sm text-on-surface-variant">Transaksi heroik tolong-menolong. Meminjamkan uang dengan janji dkembalikan nominal yang <strong>SAMA PERSIS</strong>. Tidak boleh ada biaya *admin* atau bunga.</p>
+<!-- Bagian 4: Hikmah / Dampak Positif -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Hikmah & Dampak Positif Perilaku Husnuzan</h3>
+<div class="grid md:grid-cols-2 gap-6 mb-8">
+    <!-- Manfaat di Dunia -->
+    <div class="bg-primary/5 p-6 rounded-3xl border border-primary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-primary text-3xl mr-3">public</span>
+            <h4 class="font-bold text-lg text-primary">Manfaat di Dunia</h4>
+        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Mewujudkan Kerukunan:</strong> Berprasangka baik melahirkan rasa saling menghargai, mempererat persatuan, serta mencegah konflik dan perpecahan di masyarakat.</li>
+            <li><strong>Mendatangkan Ketenangan Hati:</strong> Jiwa menjadi lebih tenang, tenteram, damai, dan terhindar dari rasa lelah akibat terus-menerus menyimpan kecurigaan.</li>
+            <li><strong>Pribadi yang Tangguh dan Optimis:</strong> Menjadikan diri kita tidak mudah terhasut provokasi atau berita palsu (<em>hoaks</em>), serta selalu optimis dalam menatap masa depan.</li>
+        </ul>
     </div>
-    <div class="bg-white p-6 border-l-4 border-error rounded-2xl shadow-sm flex-1">
-        <h4 class="font-bold text-lg mb-2 flex items-center"><span class="material-symbols-outlined text-error mr-2">account_balance_wallet</span> Dayn (Hutang Beban)</h4>
-        <p class="text-sm text-on-surface-variant">Konsep payung besar. Beban di leher (finansial) akibat meminjam atau akibat belanja dengan kredit cicilan (belum lunas tunai). <br><em>Semua Qardh adalah Dayn, namun tak semua Dayn itu Qardh.</em></p>
+
+    <!-- Manfaat di Akhirat -->
+    <div class="bg-secondary/5 p-6 rounded-3xl border border-secondary/20 relative">
+        <div class="flex items-center mb-4">
+            <span class="material-symbols-outlined text-secondary text-3xl mr-3">auto_awesome</span>
+            <h4 class="font-bold text-lg text-secondary">Manfaat di Akhirat</h4>
+        </div>
+        <ul class="text-sm text-on-surface-variant list-disc list-inside space-y-3">
+            <li><strong>Meraih Rida Allah Swt.:</strong> Keikhlasan menerima ketentuan takdir-Nya dengan berprasangka baik (<em>husnuzan</em>) akan diganjar dengan pahala melimpah dan rida-Nya.</li>
+            <li><strong>Terhindar dari Dosa:</strong> Menyelamatkan catatan amal kita dari dosa prasangka buruk yang dilarang di dalam Q.S. Al-Hujurat ayat 12.</li>
+            <li><strong>Menuju Kebahagiaan Surga:</strong> Menjaga kebersihan hati dan keimanan di dunia adalah jalan utama untuk meraih keselamatan di akhirat.</li>
+        </ul>
     </div>
-</div>
-
-<!-- 3. RIBA -->
-<div class="bg-error/10 p-10 rounded-[3rem] border border-error/20 mb-16 relative overflow-hidden">
-    <span class="material-symbols-outlined absolute -bottom-10 -right-10 text-[180px] text-error/20 rotate-12">trending_down</span>
-    <h3 class="font-headline text-3xl font-bold text-error mb-4 relative z-10 flex items-center"><span class="material-symbols-outlined mr-3 text-4xl">block</span> Sisi Hitam: Bahaya Riba</h3>
-    <p class="text-sm text-on-surface-variant mb-6 font-medium relative z-10">
-        Riba adalah lintah darat: pengambilan ekstra dari modal uang pokok (Qardh) atau manipulasi pertukaran. <strong>Hukumnya HARAM TOTAL!</strong>
-    </p>
-
-    <div class="grid sm:grid-cols-2 gap-4 relative z-10 text-sm">
-        <div class="bg-white p-4 rounded-xl shadow-sm border border-error/10">
-            <strong class="text-error mb-1 block">1. Riba Nasiah (Bunga Waktu)</strong>
-            Bunga progresif karena menunda / mengulur tanggal pembayaran kredit cicilan. Modus rentenir bank konvensional.
-        </div>
-        <div class="bg-white p-4 rounded-xl shadow-sm border border-error/10">
-            <strong class="text-error mb-1 block">2. Riba Fadhl (Tukar Timbang)</strong>
-            Culas dalam menukar barang komoditi fisik sejenis (Emas 5 gram kotor ditukar dengan Emas 4 gram murni padahal nilainya jomplang).
-        </div>
-        <div class="bg-white p-4 rounded-xl shadow-sm border border-error/10">
-            <strong class="text-error mb-1 block">3. Riba Qardh (Syarat Bunga Awal)</strong>
-            Menetapkan keuntungan 15% sejak awal meminjamkan modal kas bon. (Misal: Aku pinjami Rp100rb, kembalikan 115rb!).
-        </div>
-        <div class="bg-white p-4 rounded-xl shadow-sm border border-error/10">
-            <strong class="text-error mb-1 block">4. Riba Yad (Hutang Gelap Alasan)</strong>
-            Uang belum serah terima di majelis kasir, tapi sudah dikenakan bunga tarif siluman.
-        </div>
-    </div>
-</div>
-
-<!-- 5. Kisah Teladan Umar -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-8 rounded-[2rem] text-white shadow-lg text-center">
-    <h4 class="font-bold text-xl mb-4 font-headline border-b border-white/20 pb-3 inline-block">Kisah Umar bin Khattab & Baitul Mal</h4>
-    <p class="text-sm leading-relaxed max-w-3xl mx-auto opacity-90 text-justify">
-        Suatu saat Sang Presiden raksasa, Khalifah Umar menembus kasir Baitul Mal (Kas Negara) meminta toleransi *"Bon/Meminjam Uang"* uang negara di muka, karena anaknya tercekik kebutuhan finansial pelik dan jatah gajinya telah habis.<br><br>
-        Sang Penjaga Kas Bendahara justru menatap Umar dan berkata sinis: <em>"Wahai Umar! Bisakah Engkau menjamin kepada kami semua bahwa Engkau masih bertahan HIDUP sampai bulan depan untuk menjamin hutang negara tersebut terlunasi?"</em><br><br>
-        Umar tidak marah dihina rakyanya, beliau langsung menjatuhkan kepalanya menangis gemetar menyadari betapa sakral dan ngerinya tanggung jawab hutang dunia! Beliau balik kanan tanpa meminjam sepeserpun dari instrumen umat.
-    </p>
 </div>
 
         `
