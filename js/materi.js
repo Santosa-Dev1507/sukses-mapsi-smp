@@ -617,98 +617,240 @@ const materiData = [
         "kelas": 7,
         "semester": "Ganjil",
         "bab": "Bab 5",
-        "judul": "Damaskus: Pusat Peradaban Timur Islam (661-750 M)",
-        "waktuBumper": "16 Menit Baca",
+        "judul": "Sejarah Perkembangan Ilmu Pengetahuan pada Masa Bani Umayyah",
+        "waktuBumper": "25 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bab ini mengajak kita napak tilas kemegahan <strong>Dinasti Umayyah di Damaskus</strong>. Menilik masa lalu adalah jendela referensi *high-level* untuk melihat bagaimana umat Islam menyetir kemajuan sistem negara di dunia, serta belajar dari pola konflik kudeta agar bangsa kita tidak mudah tergelincir masuk jurang di masa depan.
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Sejarah Perkembangan Ilmu Pengetahuan pada Masa Bani Umayyah</strong>, yang mencakup sejarah singkat, garis waktu, tokoh-tokoh penting, hingga hikmah yang dapat diambil.
 </p>
 
-<!-- 1. Sejarah Berdiri -->
-<h3 class="font-headline text-2xl font-bold text-primary mb-6 flex items-center bg-primary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-primary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">history_edu</span> 1. Kilas Sejarah Bani Umayyah</h3>
-<div class="grid md:grid-cols-3 gap-6 mb-16">
-    <div class="md:col-span-1 bg-surface-container-low p-6 rounded-3xl border border-outline-variant/20 shadow-sm relative overflow-hidden">
-        <span class="material-symbols-outlined absolute -bottom-4 -left-4 text-primary/5 text-9xl">crown</span>
-        <h4 class="font-bold text-primary mb-3">Awal Konfigurasi (661 M)</h4>
-        <p class="text-[13px] text-on-surface-variant leading-relaxed mt-2 text-justify">
-            Didirikan oleh negosiator politik tangguh, <strong>Mu'awiyah bin Abu Sufyan</strong> meruntuhkan supremasi masa Khulafaur Rasyidin. Ibukota komando pemerintahan langsung diderek dari pasir Madinah menuju kemegahan metropolis <strong>Damaskus</strong> (Suriah). Ia juga mengubah total tatanan konstitusi <em>syura</em> (musyawarah pemilu) menjadi trah monarki absolut turun-temurun.
-        </p>
+<!-- Bagian 1: Konteks Singkat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Konteks Singkat</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        Daulah Bani Umayyah, baik pada periode Damaskus (661–750 M) maupun periode Andalusia/Spanyol (756–1031 M), merupakan salah satu pilar emas peradaban Islam yang berhasil menghubungkan keilmuan dunia Timur dan Barat. Melalui kepemimpinan para khalifah agung, dinasti ini meletakkan fondasi sains modern dengan melahirkan para cendekiawan legendaris di bidang kedokteran, kimia, filsafat, hingga sejarah yang pengaruhnya diakui dunia hingga saat ini.
+    </p>
+</div>
+
+<!-- Bagian 2: Garis Waktu -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Garis Waktu (Timeline)</h3>
+<div class="relative border-l-4 border-secondary/20 ml-4 mb-12 space-y-8">
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">41 H / 661 M</p>
+        <p class="text-sm text-on-surface-variant">Berdirinya Daulah Bani Umayyah di Damaskus oleh Khalifah Mu’awiyah bin Abu Sufyan.</p>
     </div>
-    
-    <div class="md:col-span-2">
-        <h4 class="font-bold text-on-surface mb-3 flex items-center"><span class="material-symbols-outlined mr-2 text-secondary">star</span> Khalifah Bintang Sejarah</h4>
-        <div class="space-y-3">
-            <div class="bg-white p-4 rounded-xl border-l-[4px] border-primary shadow-[0_2px_10px_rgba(0,0,0,0.03)] flex flex-col sm:flex-row gap-4 items-start transition-transform hover:translate-x-2">
-                <span class="bg-primary/10 text-primary font-bold px-3 py-1 rounded-lg text-xs shrink-0 mt-0.5">Al-Walid bin 'Abd al-Malik</span>
-                <p class="text-[13px] text-on-surface-variant leading-relaxed">Panglima arsitek ekspansi gila-gilaan. Peta taklukan wilayah meluas bak virus menembus padang benua Afrika Utara merambat hingga ke gerbang <strong>Andalusia, Spanyol</strong> (Datanan Eropa).</p>
-            </div>
-            <div class="bg-white p-4 rounded-xl border-l-[4px] border-secondary shadow-[0_2px_10px_rgba(0,0,0,0.03)] flex flex-col sm:flex-row gap-4 items-start transition-transform hover:translate-x-2">
-                <span class="bg-secondary/10 text-secondary font-bold px-3 py-1 rounded-lg text-xs shrink-0 mt-0.5">'Umar bin 'Abd al-'Aziz</span>
-                <p class="text-[13px] text-on-surface-variant leading-relaxed">Sang Khalifah Avatar Keadilan yang teramat <em>Zuhud</em> miskin. Anggaran pajak dipangkas drastis 0%, mencabut <em>Jizyah</em> bagi parat mualaf, dan merupakan inisiator penyusunan proyek Hadis resmi negara.</p>
-            </div>
-            <div class="bg-white p-4 rounded-xl border-l-[4px] border-error shadow-[0_2px_10px_rgba(0,0,0,0.03)] flex flex-col sm:flex-row gap-4 items-start transition-transform hover:translate-x-2">
-                <span class="bg-error/10 text-error font-bold px-3 py-1 rounded-lg text-xs shrink-0 mt-0.5">Marwan bin Muhammad</span>
-                <p class="text-[13px] text-on-surface-variant leading-relaxed">Raja pamungkas yang tenggelam dihakimi pedang invasi gelombang Abbasiyah (750 M). Satu-satunya pangeran lolos yakni <em>'Abd al-Rahman</em>, sukses kabur mengarungi semenanjung dan mendirikan kemaharajaan ke-2 di Spanyol!</p>
-            </div>
-        </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">65–86 H / 685–705 M</p>
+        <p class="text-sm text-on-surface-variant">Masa keemasan politik di bawah Khalifah 'Abd al-Malik bin Marwan, keadaan dalam negeri aman sehingga peradaban mulai berkembang.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">86–96 H / 705–715 M</p>
+        <p class="text-sm text-on-surface-variant">Masa keemasan di bawah Al-Walid bin 'Abd al-Malik, ditandai dengan pembangunan infrastruktur megah dan perluasan wilayah ke Spanyol.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">92 H / 711 M</p>
+        <p class="text-sm text-on-surface-variant">Panglima Tariq bin Ziyad mendarat di Gibraltar (<em>Jabal Tariq</em>), menandai awal masuknya peradaban Islam ke Andalusia.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">99–101 H / 717–720 M</p>
+        <p class="text-sm text-on-surface-variant">Kepemimpinan Umar bin 'Abd al-'Aziz yang sangat zuhud dan memelopori pengumpulan (kodifikasi) hadis secara resmi pertama kali.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">132 H / 750 M</p>
+        <p class="text-sm text-on-surface-variant">Revolusi Bani Abbas menumbangkan kekuasaan Bani Umayyah di Damaskus.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">15 Mei 756 M</p>
+        <p class="text-sm text-on-surface-variant">Proklamasi berdirinya Imarah Umayyah II di Andalusia (Spanyol) oleh 'Abd al-Rahman al-Dakhil.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">912–961 M</p>
+        <p class="text-sm text-on-surface-variant">Masa kejayaan Andalusia di bawah Abdurrahman III, menjadikan Cordova sebagai kota paling gemilang di Eropa.</p>
     </div>
 </div>
 
-<!-- 2. Kemajuan Peradaban -->
-<h3 class="font-headline text-2xl font-bold text-secondary mb-6 flex items-center bg-secondary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-secondary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">receipt_long</span> 2. Mesin Birokrasi Raksasa</h3>
-<div class="bg-surface-container-low p-8 rounded-[2rem] border border-outline-variant/20 shadow-sm mb-16 relative overflow-hidden">
-    <span class="material-symbols-outlined absolute -right-4 -bottom-4 text-[120px] text-secondary/5 rotate-12">account_balance</span>
-    
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
-        <!-- Departemen -->
-        <div class="bg-white p-5 rounded-2xl border border-outline-variant/30 shadow-sm">
-            <h4 class="font-bold text-[13px] text-secondary bg-secondary/10 px-3 py-1.5 rounded-lg inline-block mb-4">Mekanisme Kabinet (Diwan)</h4>
-            <ul class="text-[13px] text-on-surface-variant space-y-3">
-                <li><strong class="text-on-surface text-sm block">Diwan al-Rasail & Barid</strong> Sekretariat negara intelijen & Kementerian Pos data kilat.</li>
-                <li><strong class="text-on-surface text-sm block">Diwan al-Kharaj</strong> Badan otoritas pengatur devisa Pendapatan & Pajak Negara.</li>
-            </ul>
-        </div>
-        <!-- Hukum -->
-        <div class="bg-white p-5 rounded-2xl border border-outline-variant/30 shadow-sm">
-            <h4 class="font-bold text-[13px] text-secondary bg-secondary/10 px-3 py-1.5 rounded-lg inline-block mb-4">Badan Yudikatif Penegak</h4>
-            <ul class="text-[13px] text-on-surface-variant space-y-3">
-                <li><strong class="text-on-surface text-sm block">Al-qada & Al-Hisbah</strong> Mahkamah hakim Qadi dan Pengadilan Tinggi penyelesaian kasus sengketa / kriminal sipil.</li>
-            </ul>
-        </div>
-        <!-- Infrastruktur -->
-        <div class="bg-white p-5 rounded-2xl border border-outline-variant/30 shadow-sm">
-            <h4 class="font-bold text-[13px] text-secondary bg-secondary/10 px-3 py-1.5 rounded-lg inline-block mb-4">Seni Monumen Fisik</h4>
-            <ul class="text-[13px] text-on-surface-variant space-y-3">
-                <li><strong class="text-on-surface text-sm block">Dome of The Rock</strong> Karya <em>masterpiece</em> arsitektur kubah batu megah di jantung al-Quds Yerusalem.</li>
-            </ul>
-        </div>
+<!-- Bagian 3: Tokoh dan Ilmuwan -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Daftar Ilmuwan & Cendekiawan Masa Bani Umayyah</h3>
+<p class="text-sm text-on-surface-variant mb-4">Masa perkembangan keilmuan Bani Umayyah terbagi menjadi dua fase besar, yaitu <strong>Periode Damaskus</strong> (fase rintisan awal) dan <strong>Periode Andalusia/Spanyol</strong> (fase puncak keemasan di Barat).</p>
+
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Nama Ilmuwan</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Bidang Keahlian</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Karya / Jasa Monumental</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Fakta Menarik</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <!-- Political Figures -->
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Mu'awiyah bin Abu Sufyan</td><td class="p-3">Politik & Pemerintahan</td><td class="p-3">Pendiri Bani Umayyah di Damaskus & khalifah pertama.</td><td class="p-3">Memindahkan pusat pemerintahan dari Madinah ke Damaskus.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Umar bin 'Abd al-'Aziz</td><td class="p-3">Agama & Pemerintahan</td><td class="p-3">Memelopori kodifikasi hadis secara resmi.</td><td class="p-3">Sangat zuhud dan mengembalikan kekayaannya ke Baitul Maal.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Tariq bin Ziyad</td><td class="p-3">Militer</td><td class="p-3">Panglima perang pembebas Andalusia.</td><td class="p-3">Namanya diabadikan menjadi Selat Gibraltar (<em>Jabal Tariq</em>).</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">'Abd al-Rahman al-Dakhil</td><td class="p-3">Politik & Pemerintahan</td><td class="p-3">Pendiri Daulah Umayyah II di Andalusia.</td><td class="p-3">Satu-satunya pangeran Umayyah yang lolos dari Bani Abbas (julukan: <em>sang pendatang baru</em>).</td>
+            </tr>
+            <!-- Scientists -->
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Khālid bin Yazīd</td><td class="p-3">Astrologi, Kimia, Kedokteran</td><td class="p-3">Menerjemahkan buku sains kuno dari Yunani dan Koptik.</td><td class="p-3"><strong>Pionir gerakan penerjemahan sains</strong> pertama di dunia Islam.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Abu al-Qāsim al-Zahrawi</td><td class="p-3">Kedokteran & Bedah</td><td class="p-3"><em>Al-Tasrif</em> (peletak dasar ilmu bedah modern).</td><td class="p-3">Ahli bedah terkemuka, perintis ilmu penyakit telinga dan kulit.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">‘Abbās ibn Farnās</td><td class="p-3">Sains, Kimia, Penerbangan</td><td class="p-3">Formula pembuatan kaca dari batu.</td><td class="p-3"><strong>Manusia pertama</strong> yang melakukan eksperimen terbang manual.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Ibn Bājah</td><td class="p-3">Filsafat Arab-Spanyol</td><td class="p-3"><em>Tadbīr al-Mutawahhidīn</em>.</td><td class="p-3">Tokoh utama filsafat Islam di Spanyol Barat.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Abu Bakr ibn Tufail</td><td class="p-3">Filsafat, Astronomi</td><td class="p-3"><em>Hayy ibn Yaqzān</em>.</td><td class="p-3">Menulis novel filsafat alegoris yang sangat terkenal di Barat.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Ibnu Rusyd (Averroes)</td><td class="p-3">Filsafat, Kedokteran</td><td class="p-3"><em>Kulliyat fi al-Tibb</em>, <em>Tahafut al-Tahafut</em>.</td><td class="p-3">Ahli filsafat agung yang mensinergikan Islam dengan Aristoteles.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Al-Zarqali</td><td class="p-3">Astronomi</td><td class="p-3">Merancang tabel astronomi Toledan.</td><td class="p-3">Mampu menentukan waktu gerhana matahari & membuat teropong.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Ahmad ibn Ibas</td><td class="p-3">Farmasi & Obat-obatan</td><td class="p-3">Menemukan berbagai obat herba dari Cordova.</td><td class="p-3">Ilmuwan perintis obat-obatan di Andalusia.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Ibn Jubair</td><td class="p-3">Geografi & Sejarah</td><td class="p-3">Catatan perjalanan Mediterania & Sicilia.</td><td class="p-3">Penjelajah tangguh dari wilayah Valencia.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Ibn Batūtah</td><td class="p-3">Sejarah & Geografi</td><td class="p-3">Catatan perjalanan dunia Islam.</td><td class="p-3">Melakukan pengembaraan legendaris hingga Samudera Pasai & Cina.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Ibn Khaldūn</td><td class="p-3">Sejarah & Sosiologi</td><td class="p-3"><em>Muqaddimah</em>.</td><td class="p-3">Dikenal luas sebagai <strong>Bapak Sosiologi Modern</strong>.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Ibn Mālik</td><td class="p-3">Sastra & Bahasa Arab</td><td class="p-3"><em>Kitab Alfiyyah Ibn Mālik</em>.</td><td class="p-3">Kitab nahwu-sharaf terpopuler (1.000 bait syair).</td>
+            </tr>
+            <tr>
+                <td class="p-3 font-semibold">Ziryāb</td><td class="p-3">Seni Musik</td><td class="p-3">Memperkenalkan teori vokal dan kecapi.</td><td class="p-3">Maestro musik legendaris istana Cordova.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 4: Kronologi Peristiwa -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Kronologi Peristiwa (Narasi)</h3>
+<div class="space-y-6 mb-12">
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">A. Latar Belakang Berdirinya Bani Umayyah</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Setelah berakhirnya masa kepemimpinan Khulafaur Rasyidin, kepemimpinan Islam beralih ke tangan dinasti baru, yaitu Bani Umayyah (41–132 H / 661–750 M). Mu'awiyah bin Abu Sufyan bertindak sebagai pendiri sekaligus khalifah pertama yang memindahkan pusat pemerintahan dari Madinah ke kota Damaskus. Di kota ini, sistem suksesi kepemimpinan Islam berubah dari musyawarah mufakat menjadi sistem dinasti atau turun-temurun.
+        </p>
+    </div>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">B. Rintisan Perkembangan Sains di Damaskus</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Pada periode awal di Damaskus, khalifah banyak disibukkan oleh penataan administrasi negara dan perluasan wilayah. Namun, Bani Umayyah tetap meletakkan dasar pendidikan dengan menjadikan masjid-masjid besar (seperti Masjidil Haram dan Masjid Nabawi) sebagai pusat aktivitas ilmiah, diskusi, dan kajian akidah. Pada masa ini, disiplin ilmu yang pertama kali dikembangkan secara ilmiah adalah ilmu kimia dan pengobatan melalui aksi penerjemahan buku-buku kuno Yunani oleh pangeran Khalid bin Yazid.
+        </p>
+    </div>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">C. Masa Keemasan di Andalusia</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Kekuasaan di Damaskus runtuh pada tahun 750 M akibat revolusi Bani Abbas. Salah seorang pangeran Umayyah bernama 'Abd al-Rahman al-Dakhil berhasil meloloskan diri dan berkelana sejauh ribuan kilometer ke Spanyol, hingga mendirikan Daulah Umayyah II di Andalusia pada tahun 756 M. Di bawah naungan pemerintahan Andalusia yang berpusat di Cordova, ilmu pengetahuan berkembang luar biasa pesat melahirkan kemajuan besar di bidang kedokteran, filsafat, astronomi, matematika, dan arsitektur yang sejajar dengan keagungan Kota Baghdad di Timur.
+        </p>
     </div>
 </div>
 
-<!-- 3. Inspirasi Cintaku Pada Negeriku -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-10 md:p-14 rounded-[3.5rem] text-white shadow-2xl relative overflow-hidden flex flex-col items-center text-center">
-    <!-- Dekorasi -->
-    <span class="material-symbols-outlined absolute -left-10 top-10 text-[100px] text-white/5 rotate-[30deg]">public</span>
-    <span class="material-symbols-outlined absolute -right-10 bottom-10 text-[100px] text-white/5 -rotate-12">flag</span>
-    
-    <div class="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center mb-6 shadow-inner ring-4 ring-white/10 backdrop-blur-sm">
-        <span class="material-symbols-outlined text-[50px] text-white drop-shadow-md">favorite</span>
+<!-- Bagian 5: Hikmah -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">5. Hikmah dan Pelajaran</h3>
+<div class="bg-surface-container-low p-6 rounded-[2rem] border-l-8 border-secondary shadow-sm mb-12">
+    <ul class="text-sm text-on-surface-variant list-none space-y-4">
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">menu_book</span>
+            <div><strong>Pentingnya Tradisi Literasi:</strong> Kemajuan peradaban Bani Umayyah tercapai berkat adanya gerakan penerjemahan buku-buku ilmiah dari berbagai bahasa kuno (Yunani dan Koptik).</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">balance</span>
+            <div><strong>Keseimbangan Ilmu Agama dan Sains:</strong> Mengajarkan pentingnya mengembangkan ilmu umum secara beriringan dengan penguatan ilmu agama (tafsir, fikih, hadis).</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">handshake</span>
+            <div><strong>Sikap Toleransi Antarumat Beragama:</strong> Di Andalusia, kerja sama harmonis antara ilmuwan muslim, Kristen, dan Yahudi menjadi kunci lahirnya penemuan besar.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">hiking</span>
+            <div><strong>Semangat Pantang Menyerah:</strong> Kisah hidup 'Abd al-Rahman al-Dakhil yang kehilangan kerajaan namun gigih mendirikan kerajaan baru menjadi motivasi luar biasa.</div>
+        </li>
+    </ul>
+</div>
+
+<!-- Bagian 6: Fakta Cepat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">6. Fakta Cepat (Quick Facts)</h3>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <p class="text-xs text-on-surface-variant">Lama Kekuasaan Damaskus</p>
+        <p class="font-bold text-lg text-primary">±90 tahun</p>
+        <p class="text-[10px] text-on-surface-variant">661–750 M</p>
     </div>
-    
-    <div class="z-10 relative">
-        <h3 class="font-headline text-3xl font-bold mb-5 text-white border-b border-white/20 pb-4 inline-block">Ḥubbul Waṭhan Minal Iman</h3>
-        <p class="text-[15px] opacity-90 leading-relaxed max-w-4xl mb-8 font-medium">
-            Sejarah agung berdirinya imperium masa lalu mengajarkan mutiara kesatuan identitas kebangsaan: <strong>"Cinta Tanah Air Adalah Sebagian Utama Dari Iman"</strong>. Secara fitrah, Rasulullah SAW pernah menangis berderai memendam rindu akan sejuknya lembah Mekkah kala ia berada di perantauan jauh.
-        </p>
-        <div class="bg-white/10 p-6 md:p-8 rounded-3xl border border-white/20 backdrop-blur-md max-w-4xl mx-auto shadow-lg text-left md:text-center">
-            <span class="material-symbols-outlined text-secondary-fixed mb-2 text-3xl hidden md:block">music_note</span>
-            <p class="text-sm md:text-[15px] font-medium text-white/95 leading-relaxed">
-                Di benteng maritim Nusantara, kakek moyang keilmuan kita yakni Mahaguru <strong>KH. Hasyim Asy'ari</strong> meledakkan daya ledak "Fatwa Resolusi Jihad Murni" untuk menggasak agresor militer kolonial...<br><br>Sementara ulama jenius <strong>KH. A. Wahab Hasbullah</strong> menyuntikkan mental patriot dengan menggubah lagu kebangsaan magis <em>"Syubbanul Wathan"</em>. Mereka bukan cuma melek Dzikir, namun 100% Darah Jiwa Patriotik NKRI tak terbantahkan!
-            </p>
-        </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <p class="text-xs text-on-surface-variant">Superpower Dunia Saat Itu</p>
+        <p class="font-bold text-lg text-secondary">Baghdad & Cordova</p>
+        <p class="text-[10px] text-on-surface-variant">Timur dan Barat</p>
     </div>
+    <div class="bg-tertiary/5 p-4 rounded-2xl text-center border border-tertiary/20">
+        <p class="text-xs text-on-surface-variant">Sains Pertama Dikembangkan</p>
+        <p class="font-bold text-lg text-tertiary">Kimia & Pengobatan</p>
+        <p class="text-[10px] text-on-surface-variant">Oleh Khalid bin Yazid</p>
+    </div>
+    <div class="bg-error/5 p-4 rounded-2xl text-center border border-error/20">
+        <p class="text-xs text-on-surface-variant">Penakluk Spanyol</p>
+        <p class="font-bold text-lg text-error">Tariq bin Ziyad</p>
+        <p class="text-[10px] text-on-surface-variant">Tahun 711 M</p>
+    </div>
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <p class="text-xs text-on-surface-variant">Karya Sejarah Terbesar</p>
+        <p class="font-bold text-lg text-primary">Kitab Muqaddimah</p>
+        <p class="text-[10px] text-on-surface-variant">Karya Ibnu Khaldun</p>
+    </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <p class="text-xs text-on-surface-variant">Pusat Kajian Sains Terbuka</p>
+        <p class="font-bold text-lg text-secondary">Masjid Jami'</p>
+        <p class="text-[10px] text-on-surface-variant">Tempat aktivitas ilmiah awal</p>
+    </div>
+</div>
+
+<!-- Bagian 7: Istilah Kunci -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Makna Singkat</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Al-Dakhil</td><td class="p-3">Gelar untuk 'Abd al-Rahman I yang artinya <em>"sang pendatang baru"</em>.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Andalusia</td><td class="p-3">Sebutan wilayah Spanyol pada masa kepemimpinan Islam.</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Jabal Tariq</td><td class="p-3">Bukit/Selat Gibraltar, dinamakan dari Panglima Tariq bin Ziyad.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Kuttaab</td><td class="p-3">Lembaga pendidikan dasar klasik tempat anak belajar menulis & Al-Qur'an.</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Majelis Sastra</td><td class="p-3">Wadah ilmiah di istana/umum untuk mendiskusikan syair dan sains.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Katib</td><td class="p-3">Jabatan sekretaris administrasi negara masa Bani Umayyah.</td></tr>
+            <tr><td class="p-3 font-semibold">Hajib</td><td class="p-3">Pengawal pribadi sekaligus kepala rumah tangga istana khalifah.</td></tr>
+        </tbody>
+    </table>
 </div>
 
         `
@@ -1444,82 +1586,253 @@ const materiData = [
         "kelas": 7,
         "semester": "Genap",
         "bab": "Bab 5",
-        "judul": "Andalusia: Metropolis Sains Peradaban Islam di Barat Eropa",
+        "judul": "Sejarah Perkembangan Ilmu Pengetahuan pada Masa Bani Abbasiyah",
         "waktuBumper": "25 Menit Baca",
         "gambar": "images/islamic_calligraphy.png",
         "konten": `
-
 <p class="text-on-surface-variant leading-relaxed text-lg mb-8">
-    Bosan mengkaji teritori padang pasir arab timur terus (Damaskus/Baghdad)? Ini saat nya portal putaran <em>Time Machine</em> menembakkan jangkarnya ke gerbang Benua Barat Eropa elit (semenanjung Spanyol & Portugal)! Mari menjelajah metropolis gemerlap <strong>Cordova / Andalusia</strong>, sebuah mercusuar sumbu silikon *Super-Engine* peradaban ilmiah medis islam yg mendobrak kelak era kemundian masa kegelapan otak benua eropa barat abad pertengahan!
+    Berikut adalah materi pembelajaran lengkap mengenai <strong>Sejarah Perkembangan Ilmu Pengetahuan pada Masa Bani Abbasiyah</strong>, yang mencakup sejarah singkat, garis waktu, tokoh-tokoh penting, hingga hikmah yang dapat diambil dari masa <em>The Golden Age</em>.
 </p>
 
-<!-- 1. The Great Escape -->
-<h3 class="font-headline text-2xl font-bold text-primary mb-6 flex items-center bg-primary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-primary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">sailing</span> 1. *The Great Escape:* Invasi Elang Bani Umayyah</h3>
-<div class="bg-gradient-to-br from-[#1B3B5A] to-[#2B567D] p-8 md:p-12 rounded-[3.5rem] shadow-[0_10px_30px_rgba(0,0,0,0.1)] relative overflow-hidden mb-16 flex flex-col md:flex-row gap-10 items-center justify-between text-white">
-    <span class="material-symbols-outlined absolute -right-5 top-10 text-[280px] text-white/5 rotate-[15deg] pointer-events-none drop-shadow-2xl">castle</span>
-    
-    <div class="md:w-2/3 relative z-10">
-        <div class="inline-flex items-center gap-3 mb-6 bg-white/10 p-2 pr-6 rounded-full border border-white/20 backdrop-blur-md">
-            <span class="bg-tertiary text-white w-10 h-10 flex flex-col justify-center items-center rounded-full font-bold shadow-inner">
-                <span class="text-[10px] uppercase leading-none">TAHUN</span>
-                <span class="text-[14px]">756 M</span>
-            </span>
-            <span class="text-[14px] font-bold uppercase tracking-widest text-[#FFD700]">Republik Kordoba Berdiri</span>
-        </div>
-        
-        <p class="text-[14.5px] leading-relaxed text-justify mb-8 font-medium text-white/90">
-            Plot cerita sinema *blockbuster survival*: Saat tsunami badai pedang revolusi Abbasiyah menggulingkan merudal runtuh kastil ibukota keluarga Daulah Umayyah Timur (Damaskus) pada puncaknya thn 750 M, memuntahkan eksekusi massal berantai...<br><br>Di sinilah keajaiban terjadi. Salah satu pewaris *Blueprint* pangeran jenius muda Umayyah, membanting pelarian buronan keji menyelinap lolos lari dari maut! Namanya sang legenda <strong>Abdurrahman ad-Dakhil</strong>. <br><br>Nekat bermanuver melintasi rawa, membelah ganas arungan lautan ombak Samudera Mediterania lintas afrika utara, sukses menyelundup terdampar ke pesisir eropa. Berkat karisma retorikanya, ia memediasi menyatukan seluruh suku pangeran fraksi muslim barbar liar cordoba yang tadinya perang proksi antar suku pecah belah, bersatu diproklamirkan membangun monarki imperium baru bertajuk <strong>Kekhalifahan Muslim Spanyol Andalusia</strong> yang megah independen lepas kongsi dari sisa kendali komando Baghdad!
-        </p>
-        
-        <div class="inline-flex flex-wrap gap-3">
-            <span class="bg-primary/30 text-white text-[11px] uppercase font-bold tracking-widest px-4 py-2.5 rounded-xl border border-white/20 shadow-sm backdrop-blur-sm flex items-center shadow-[0_2px_10px_rgba(0,0,0,0.5)]"><span class="material-symbols-outlined text-[16px] mr-2">supervised_user_circle</span> Fase Emir Gubernuran (Cabang)</span>
-            <span class="bg-error/30 text-white text-[11px] uppercase font-bold tracking-widest px-4 py-2.5 rounded-xl border border-white/20 shadow-sm backdrop-blur-sm flex items-center shadow-[0_2px_10px_rgba(0,0,0,0.5)]"><span class="material-symbols-outlined text-[16px] mr-2">crown</span> Fase Khalifah Otonomi Absolut</span>
-        </div>
+<!-- Bagian 1: Konteks Singkat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">1. Konteks Singkat</h3>
+<div class="bg-surface-container-low p-8 rounded-[2rem] border-l-8 border-primary shadow-sm mb-12">
+    <p class="text-sm text-on-surface-variant leading-relaxed">
+        Daulah Bani Abbasiyah yang memerintah selama kurang lebih lima abad (750–1258 M) diakui dalam sejarah dunia sebagai masa keemasan Islam (<em>The Golden Age</em>). Berpusat di kota metropolitan Baghdad, dinasti ini memimpin peradaban global melalui tradisi literasi yang kuat serta pembentukan <strong>Baitul Hikmah</strong>, perpustakaan sekaligus universitas riset internasional pertama di dunia Islam.
+    </p>
+</div>
+
+<!-- Bagian 2: Garis Waktu -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">2. Garis Waktu (Timeline)</h3>
+<div class="relative border-l-4 border-secondary/20 ml-4 mb-12 space-y-8">
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">750 M</p>
+        <p class="text-sm text-on-surface-variant">Abu al-Abbas dikukuhkan sebagai khalifah pertama Daulah Abbasiyah setelah menumbangkan kekuasaan Bani Umayyah.</p>
     </div>
-    
-    <div class="md:w-1/3 flex justify-center pb-4 md:pb-0 relative z-10 shrink-0">
-        <div class="w-40 h-40 md:w-52 md:h-52 rounded-full border-[6px] border-white/20 shadow-[0_0_40px_rgba(255,255,255,0.15)] overflow-hidden bg-black/50 p-2">
-            <img src="images/islamic_calligraphy.png" class="w-full h-full object-cover rounded-full opacity-80 mix-blend-screen hover:scale-110 transition-transform duration-700">
-        </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">754 M</p>
+        <p class="text-sm text-on-surface-variant">Abu al-Abbas wafat karena cacar; digantikan oleh saudaranya, Al-Mansur, yang memantapkan sistem birokrasi pemerintahan.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">762 M</p>
+        <p class="text-sm text-on-surface-variant">Khalifah Al-Mansur membangun Kota Baghdad di tepian Sungai Tigris, yang segera menjadi pusat perdagangan dan intelektual dunia.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">786–809 M</p>
+        <p class="text-sm text-on-surface-variant">Era Khalifah Harun al-Rasyid; masa kemakmuran ekonomi di mana Baitul Hikmah pertama kali didirikan sebagai perpustakaan pribadi.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">813–833 M</p>
+        <p class="text-sm text-on-surface-variant">Kepemimpinan Khalifah al-Ma'mun; Baitul Hikmah secara resmi diubah menjadi lembaga pendidikan tinggi, biro penerjemahan massal, dan observatorium bintang.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">847–861 M</p>
+        <p class="text-sm text-on-surface-variant">Era Al-Mutawakil; kebijakan mulai bergeser dengan membatasi penerjemahan buku-buku asing.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">Abad ke-13 M</p>
+        <p class="text-sm text-on-surface-variant">Konflik perebutan takhta, korupsi, dan nepotisme melemahkan ketahanan internal kekhalifahan.</p>
+    </div>
+    <div class="relative pl-6">
+        <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-secondary"></div>
+        <p class="text-sm font-bold text-secondary mb-1">1258 M</p>
+        <p class="text-sm text-on-surface-variant">Pasukan Mongol pimpinan Hulagu Khan merebut Baghdad dan menghancurkan seluruh kota beserta warisan ilmiah di Baitul Hikmah.</p>
     </div>
 </div>
 
-<!-- 2. Science Capital -->
-<h3 class="font-headline text-2xl font-bold text-secondary mb-6 flex items-center bg-secondary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-secondary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">memory</span> 2. Universitas <em>Silicon Valley-nya</em> Eropa</h3>
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-    <!-- Kedokteran Filsafat -->
-    <div class="bg-white p-7 rounded-[2rem] border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] group hover:-translate-y-1 transition-all">
-        <div class="w-12 h-12 bg-secondary/10 text-secondary rounded-xl flex items-center justify-center mb-4 border border-secondary/20">
-            <span class="material-symbols-outlined text-[24px]">lightbulb</span>
-        </div>
-        <h4 class="text-[17px] font-bold border-b border-outline-variant/20 pb-3 mb-4 text-on-surface">Pilar Kedokteran & Otak Filsafat</h4>
-        <ul class="text-[13px] leading-relaxed text-on-surface-variant font-medium space-y-4">
-            <li><strong>Ibn Rusyd (Averroes):</strong> Mastermind bedah Aristoteles dan doktriner kedokteran syaraf. Buah pikiran buku org ini kelak diretas dikopi dijiplak bangsa eropa sampe bikin merinding terpicu zaman pencerahan benua eropa *Renaissance*.</li>
-            <li><strong>Ibn Tufail:</strong> Menulis naskah skrip novel ekstrim filosofis evolusi *Sci-Fi* bertajuk lakon *"Hayy bin Yaqzan"*.</li>
-        </ul>
+<!-- Bagian 3: Tokoh dan Ilmuwan -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Daftar Ilmuwan & Cendekiawan Masa Bani Abbasiyah</h3>
+<p class="text-sm text-on-surface-variant mb-4">Masa keemasan (<em>The Golden Age</em>) di bawah naungan <strong>Baitul Hikmah</strong> di Baghdad melahirkan jajaran ilmuwan raksasa yang menjadi fondasi sains modern dunia.</p>
+
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Nama Ilmuwan</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Bidang Keahlian</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Karya / Jasa Monumental</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Fakta Menarik</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <!-- Political Figures -->
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Abu al-Abbas (As-Saffah)</td><td class="p-3">Politik & Pemerintahan</td><td class="p-3">Pendiri & khalifah pertama Daulah Abbasiyah (750–754 M).</td><td class="p-3">Membuka peluang kalangan non-Arab (<em>Mawali</em>) di pemerintahan.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Al-Mansur</td><td class="p-3">Politik & Tata Kota</td><td class="p-3">Perancang tata kota dan birokrasi Abbasiyah.</td><td class="p-3">Mendirikan Kota Baghdad yang berarti <em>"Taman Keadilan"</em>.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Harun al-Rasyid</td><td class="p-3">Pemerintahan & Ekonomi</td><td class="p-3">Membawa dinasti ke puncak kemakmuran & merintis Baitul Hikmah.</td><td class="p-3">Mendirikan rumah sakit pertama di Baghdad.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Al-Ma'mun</td><td class="p-3">Sains & Pendidikan</td><td class="p-3">Pendukung riset, penerjemahan, dan sains di Baitul Hikmah.</td><td class="p-3">Menghargai terjemahan dengan emas seberat buku yang diterjemahkan.</td>
+            </tr>
+            <!-- Scientists -->
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Al-Khawarizmi</td><td class="p-3">Matematika, Astronomi</td><td class="p-3"><em>Al-Jabr wal Muqabalah</em>.</td><td class="p-3">Penemu konsep <strong>Aljabar dan Algoritma</strong> untuk komputasi modern.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Jabir Ibnu Hayyan</td><td class="p-3">Kimia, Fisika, Farmasi</td><td class="p-3"><em>Al-Kimya</em>.</td><td class="p-3">Dikenal di dunia Barat sebagai <strong>Bapak Kimia Modern</strong>.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Al-Kindi</td><td class="p-3">Filsafat, Musik, Optik</td><td class="p-3">Menulis > 270 buku kajian ilmiah.</td><td class="p-3"><strong>Filosof muslim pertama</strong> mengenalkan filsafat Yunani.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Ibnu Sina (Avicenna)</td><td class="p-3">Kedokteran & Filsafat</td><td class="p-3"><em>Al-Qānūn fi al-Tibb</em> (The Canon of Medicine).</td><td class="p-3"><strong>Bapak Kedokteran Modern</strong>; kitab wajib universitas Eropa berabad-abad.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Al-Farabi</td><td class="p-3">Logika & Filsafat</td><td class="p-3">Menulis > 100 buku ulasan logika.</td><td class="p-3">Dijuluki <strong>"Guru Kedua" (Al-Mu'allim al-Tsani)</strong>.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Al-Biruni</td><td class="p-3">Astronomi, Fisika, Geodesi</td><td class="p-3"><em>Al-Qānūn al-Mas'ūdi</em>.</td><td class="p-3">Perintis metode ilmiah & dijuluki <strong>Bapak Geodesi Dunia</strong>.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Al-Razi</td><td class="p-3">Kedokteran Klinis</td><td class="p-3"><em>Al-Hawi</em>.</td><td class="p-3">Dokter klinis terbesar; lukisannya dipajang di Univ. Paris.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Hunayn bin Ishaq</td><td class="p-3">Penerjemahan Medis</td><td class="p-3">Penerjemah ulung Yunani ke Syria/Arab.</td><td class="p-3">Ilmuwan Kristen yang dihormati dan digaji 500 dinar/bulan.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Ali al-Tabari</td><td class="p-3">Kedokteran & Pediatri</td><td class="p-3"><em>Firdaus al-Hikmah</em>.</td><td class="p-3">Peletak dasar ilmu kesehatan dan pertumbuhan anak.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Ali ibn al-Abbas Al-Majusi</td><td class="p-3">Kedokteran</td><td class="p-3"><em>Kamil al-Şināʻah al-Tibbīyah</em>.</td><td class="p-3">Penemu teori kapiler darah dan kontraksi rahim.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Al-Battani</td><td class="p-3">Astronomi</td><td class="p-3"><em>Kitab al-Zīj</em>.</td><td class="p-3">Penemu jumlah hari setahun yang presisi.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Al-Ghazali</td><td class="p-3">Teologi, Tasawuf, Akhlak</td><td class="p-3"><em>Ihyā' ulūm al-dīn</em>.</td><td class="p-3">Dijuluki <em>Hujjatul Islam</em>, peletak ilmu psikologi agama.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10">
+                <td class="p-3 font-semibold">Al-Mawardi</td><td class="p-3">Tata Negara & Politik</td><td class="p-3"><em>Al-Ahkam al-Sultāniyyah</em>.</td><td class="p-3">Peletak prinsip dasar ilmu politik Islam.</td>
+            </tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low">
+                <td class="p-3 font-semibold">Ibnu Miskawayh</td><td class="p-3">Filsafat Akhlak</td><td class="p-3"><em>Tahzīb al-Akhlaq</em>.</td><td class="p-3">Perumus etika Islam berjuluk <strong>"Guru Ketiga"</strong>.</td>
+            </tr>
+            <tr>
+                <td class="p-3 font-semibold">At-Tabari (Ibnu Jarir)</td><td class="p-3">Tafsir & Sejarah</td><td class="p-3"><em>Jami' al-Bayān</em>.</td><td class="p-3">Pelopor kodifikasi kitab tafsir Al-Qur'an sistematis.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Bagian 4: Kronologi Peristiwa -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">4. Kronologi Peristiwa (Narasi)</h3>
+<div class="space-y-6 mb-12">
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">A. Latar Belakang (Sebab Lahirnya Dinasti)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Berdirinya Daulah Abbasiyah berakar dari ketidakpuasan oposisi terhadap penguasa Bani Umayyah di masa akhir kekuasaannya. Kelompok Bani Abbas memimpin perlawanan karena merasa memiliki hak memimpin berdasarkan kedekatan nasab dengan paman Rasulullah saw., Abbas bin Abdul Muthalib. Setelah menang, Abu al-Abbas dikukuhkan sebagai khalifah pertama tahun 750 M. Penggantinya, Al-Mansur, memindahkan ibu kota ke Kota Baghdad di tepi Sungai Tigris.
+        </p>
     </div>
-    
-    <!-- Aviation / Science -->
-    <div class="bg-white p-7 rounded-[2rem] border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] group hover:-translate-y-1 transition-all">
-        <div class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-xl flex items-center justify-center mb-4 border border-tertiary/20">
-            <span class="material-symbols-outlined text-[24px]">rocket_launch</span>
-        </div>
-        <h4 class="text-[17px] font-bold border-b border-outline-variant/20 pb-3 mb-4 text-on-surface">Prototipe Penerbangan Udara</h4>
-        <ul class="text-[13px] leading-relaxed text-on-surface-variant font-medium space-y-4">
-            <li><strong>Mbah Abbas Ibn Farnas:</strong> Ratusan tahun jauuuh sebelum *Wright Brothers* kepikir narik mesin pesawat barat. Eyang ini udah loncat prototipe eksperimen merekatkan mesin simulasi luncur sayap burung raksasa dari lereng kota *Cordoba Aviator Project*. Dialah cikal bakal pakar pelebur kaca pasir bening.</li>
-        </ul>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">B. Jalannya Peristiwa (Puncak Kejayaan Sains & Toleransi)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed mb-3">
+            Kemajuan pesat ilmu pengetahuan di era Abbasiyah didorong oleh stabilitas politik dan kemakmuran ekonomi merata. Pemerintah meluncurkan "Revolusi Hijau" dengan mempercanggih sistem irigasi kanal. Tercukupinya kebutuhan dasar membuat masyarakat memiliki kesempatan mengembangkan diri melalui budaya literasi.
+        </p>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Khalifah al-Ma'mun memformalkan Baitul Hikmah di Baghdad sebagai pusat riset, sekolah tinggi, biro penerjemahan kuno, serta observatorium. Iklim ilmiah sangat inklusif; ilmuwan non-Muslim (Kristen Nestorian, Yahudi, kaum Sabian) dijamin haknya untuk bekerja bersama memajukan sains tanpa diskriminasi.
+        </p>
     </div>
-    
-    <!-- Hukum -->
-    <div class="bg-white p-7 rounded-[2rem] border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] group hover:-translate-y-1 transition-all sm:col-span-2 lg:col-span-1 flex flex-col">
-        <div class="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-4 border border-primary/20">
-            <span class="material-symbols-outlined text-[24px]">gavel</span>
-        </div>
-        <h4 class="text-[17px] font-bold border-b border-outline-variant/20 pb-3 mb-4 text-on-surface">Konsep Konstitusi Toleran</h4>
-        <ul class="text-[13px] leading-relaxed text-on-surface-variant font-medium space-y-4 flex-1 text-justify">
-            <li><strong>Supremasi Mazhab Maliki:</strong> Kenapa Andalusia damai harmonis? Karena pemerintah spanyol memproteksi sistem Hukum Perdata Hakim dari corak fleksibilitas *Mazhab Imam Malik*. Hasilnya ajaib? Kristen katolik minor, ras imigrasi yahudi sekuler, serta mayoritas Islam lokal sanggup kongko bisnis ngopi semeja tanpa ngeributin cekcok diskriminasi *ras identitas* setetes darah pun. Saking majunya!</li>
-        </ul>
+    <div class="bg-white p-6 rounded-3xl border border-outline-variant/20 shadow-sm">
+        <h4 class="font-bold text-lg text-primary mb-2">C. Akhir Peristiwa (Kemunduran Tragis)</h4>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+            Kekuatan dinasti yang bertahan lima abad merosot akibat konflik internal dan krisis moral. Perang saudara (misal: Al-Amin dan Al-Ma'mun), korupsi, serta nepotisme melemahkan negara. Puncaknya tahun 1258 M, pasukan Mongol pimpinan Hulagu Khan membumihanguskan Baghdad. Keindahan kota dan jutaan manuskrip di Baitul Hikmah dibakar dan dihanyutkan ke Sungai Tigris, menandai akhir tragis era keemasan Islam.
+        </p>
     </div>
+</div>
+
+<!-- Bagian 5: Hikmah -->
+<h3 class="font-headline text-2xl font-bold text-secondary mt-12 mb-6">5. Hikmah dan Pelajaran</h3>
+<div class="bg-surface-container-low p-6 rounded-[2rem] border-l-8 border-secondary shadow-sm mb-12">
+    <ul class="text-sm text-on-surface-variant list-none space-y-4">
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">menu_book</span>
+            <div><strong>Budaya Literasi Adalah Napas Kemajuan:</strong> Lompatan peradaban Abbasiyah tercapai karena membaca, menerjemahkan, dan koleksi pustaka mengakar sebagai gaya hidup.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">group</span>
+            <div><strong>Kebebasan Berpikir dan Toleransi:</strong> Keterbukaan terhadap ilmuwan non-Muslim menunjukkan sikap inklusif sebagai penggerak inovasi peradaban.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">account_balance</span>
+            <div><strong>Sinergi Umara dan Ulama:</strong> Inovasi berkembang maksimal jika penguasa mencintai ilmu, memberi dana, dan menjamin fasilitas riset.</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">balance</span>
+            <div><strong>Keseimbangan Ilmu Umum & Agama:</strong> Meletakkan fondasi sains alam & sains syariat beriringan, menghasilkan produk ilmiah abadi (fikih Syafi'i, hadis Bukhari).</div>
+        </li>
+        <li class="flex items-start">
+            <span class="material-symbols-outlined text-secondary mr-3 mt-0.5">gavel</span>
+            <div><strong>Waspada Keretakan dari Dalam:</strong> Musuh terbesar bangsa bukan kekuatan luar, melainkan korupsi, nepotisme, dan perebutan kekuasaan.</div>
+        </li>
+    </ul>
+</div>
+
+<!-- Bagian 6: Fakta Cepat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">6. Fakta Cepat (Quick Facts)</h3>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <p class="text-xs text-on-surface-variant">Rentang Kekuasaan</p>
+        <p class="font-bold text-lg text-primary">±5 Abad</p>
+        <p class="text-[10px] text-on-surface-variant">750–1258 M</p>
+    </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <p class="text-xs text-on-surface-variant">Kota Superpower</p>
+        <p class="font-bold text-lg text-secondary">Baghdad</p>
+        <p class="text-[10px] text-on-surface-variant">Pusat Baitul Hikmah</p>
+    </div>
+    <div class="bg-tertiary/5 p-4 rounded-2xl text-center border border-tertiary/20">
+        <p class="text-xs text-on-surface-variant">Penemu Aljabar</p>
+        <p class="font-bold text-lg text-tertiary">Al-Khawarizmi</p>
+        <p class="text-[10px] text-on-surface-variant">Kitab Al-Jabr</p>
+    </div>
+    <div class="bg-primary/5 p-4 rounded-2xl text-center border border-primary/20">
+        <p class="text-xs text-on-surface-variant">Kitab Kedokteran Terbesar</p>
+        <p class="font-bold text-lg text-primary">Al-Qanun fi al-Tibb</p>
+        <p class="text-[10px] text-on-surface-variant">Karya Ibnu Sina</p>
+    </div>
+    <div class="bg-secondary/5 p-4 rounded-2xl text-center border border-secondary/20">
+        <p class="text-xs text-on-surface-variant">Gaji Penerjemah</p>
+        <p class="font-bold text-lg text-secondary">500 Dinar/Bulan</p>
+        <p class="text-[10px] text-on-surface-variant">Plus emas seberat buku</p>
+    </div>
+    <div class="bg-error/5 p-4 rounded-2xl text-center border border-error/20">
+        <p class="text-xs text-on-surface-variant">Penghancur Dinasti</p>
+        <p class="font-bold text-lg text-error">Hulagu Khan</p>
+        <p class="text-[10px] text-on-surface-variant">Tentara Mongol (1258 M)</p>
+    </div>
+</div>
+
+<!-- Bagian 7: Istilah Kunci -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
+<div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm border-collapse">
+        <thead>
+            <tr class="bg-tertiary/10">
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah SKI</th>
+                <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Makna Singkat</th>
+            </tr>
+        </thead>
+        <tbody class="text-on-surface-variant">
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Baitul Hikmah</td><td class="p-3">Lembaga pendidikan tinggi, penerjemahan massal & perpustakaan riset Baghdad.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Mawali</td><td class="p-3">Kaum muslimin dari bangsa non-Arab (Persia, Yunani, Turki).</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">The Golden Age</td><td class="p-3">Era keemasan peradaban Islam di bawah Abbasiyah di mana sains pesat.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Ushuluddin</td><td class="p-3">Pokok ajaran agama; istilah lain ilmu kalam/akidah.</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Mufassirin</td><td class="p-3">Sebutan kehormatan ulama ahli tafsir Al-Qur'an.</td></tr>
+            <tr class="border-b border-outline-variant/10 bg-surface-container-low"><td class="p-3 font-semibold">Fuqaha'</td><td class="p-3">Ulama ahli fikih merumuskan hukum ibadah & muamalah.</td></tr>
+            <tr><td class="p-3 font-semibold">Revolusi Hijau</td><td class="p-3">Pembaharuan teknologi irigasi kanal pertanian di era Abbasiyah.</td></tr>
+        </tbody>
+    </table>
 </div>
 
         `
