@@ -513,12 +513,13 @@
 
     // Daftar set soal yang tersedia — tambah baris setiap ada file baru di js/latihan/
     const DAFTAR_SOAL = [
-        { id: 'quran-cinta-tanah-air',        label: "Al-Qur'an — Cinta Tanah Air (Q.S. Al-Qashash/28:85)" },
-        { id: 'aqidah-keimanan-kitab-rasul',  label: "Aqidah — Keimanan kepada Kitab & Rasul (Q.S. al-Baqarah:285)" },
-        { id: 'akhlak-sabar-musibah',         label: "Akhlak — Sabar Menghadapi Musibah (Q.S. al-Baqarah:155-156)" },
+        { id: 'quran-cinta-tanah-air',        label: "Cinta Tanah Air (Q.S. Al-Qashash/28:85)" },
+        { id: 'aqidah-keimanan-kitab-rasul',  label: "Keimanan kepada Kitab & Rasul (Q.S. al-Baqarah/2:285)" },
+        { id: 'aqidah-iman-kepada-rasul',     label: "Iman kepada Rasul-Rasul Allah" },
+        { id: 'akhlak-sabar-musibah',         label: "Sabar Menghadapi Musibah (Q.S. al-Baqarah/2:155-156)" },
         // Tambah baris berikutnya saat ada file soal baru:
-        // { id: 'fikih-shalat-jamak',         label: "Fikih — Shalat Jamak & Qashar" },
-        // { id: 'ski-daulah-abbasiyah',       label: "SKI — Daulah Abbasiyah" },
+        // { id: 'fikih-shalat-jamak',         label: "Shalat Jamak & Qashar" },
+        // { id: 'ski-daulah-abbasiyah',       label: "Sejarah Daulah Abbasiyah" },
     ];
 
     let jadwalLatihan = JSON.parse(localStorage.getItem(LATIHAN_KEY) || '{}');
