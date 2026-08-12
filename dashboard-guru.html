@@ -676,6 +676,7 @@
         errEl.classList.add('hidden');
 
         jadwalLatihan[tgl] = topiks;
+        localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
         renderTableLatihan();
         gasPost({ action: 'setJadwalLatihan', tanggal: tgl, setId: topiks });
 
