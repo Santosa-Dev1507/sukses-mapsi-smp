@@ -44,6 +44,12 @@ const infoLatihan = {
         ikon: "self_improvement",
         warna: "tertiary"
     },
+    "fikih-penyelenggaraan-jenazah": {
+        judul: "Fikih",
+        subjudul: "Pengurusan Jenazah, Takziyah, dan Ziarah Kubur",
+        ikon: "mosque",
+        warna: "primary"
+    },
     // Tambah set soal baru di sini (ID = nama file js/latihan/xxx.js):
     // "fikih-shalat-jamak":    { judul: "Fikih", subjudul: "Shalat Jamak & Qashar", ikon: "mosque", warna: "primary" },
     // "ski-daulah-abbasiyah":  { judul: "SKI",   subjudul: "Daulah Abbasiyah",       ikon: "history_edu", warna: "secondary" },
