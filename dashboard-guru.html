@@ -263,34 +263,26 @@
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-stone-200 mb-10">
             <h2 class="text-xl font-bold font-headline mb-2">Jadwalkan Latihan Harian</h2>
             <p class="text-stone-500 text-sm mb-6">Pilih tanggal dan set soal. Siswa akan melihat soal sesuai tanggal hari ini secara otomatis.</p>
-            <form id="form-latihan" class="grid grid-cols-1 md:grid-cols-3 gap-5">
-                <div>
-                    <label class="block text-sm font-bold text-stone-600 mb-2">Tanggal</label>
-                    <input type="date" id="input-tgl-latihan" class="w-full rounded-xl border-stone-300 shadow-sm focus:border-primary focus:ring focus:ring-primary/20" required>
-                </div>
-                <div class="md:col-span-2">
-                    <label class="block text-sm font-bold text-stone-600 mb-3">Pilih Set Soal (boleh lebih dari 1)</label>
-                    <div id="checklist-soal" class="grid grid-cols-1 gap-2">
-                        <label class="flex items-center gap-3 p-3 rounded-xl border border-stone-200 hover:bg-stone-50 cursor-pointer transition-colors">
-                            <input type="checkbox" name="set-soal" value="kls9-smtgenap-bab1" class="rounded text-green-700 focus:ring-green-700">
-                            <div>
-                                <p class="font-bold text-sm text-stone-800">Bab 1 — Cinta Tanah Air</p>
-                                <p class="text-xs text-stone-500">Kelas 9 · Semester Genap · Q.S. Al-Qashash, An-Nisa & Tajwid Nun Mati</p>
-                            </div>
-                        </label>
-                        <label class="flex items-center gap-3 p-3 rounded-xl border border-stone-200 hover:bg-stone-50 cursor-pointer transition-colors">
-                            <input type="checkbox" name="set-soal" value="kls9-smtgenap-bab2" class="rounded text-green-700 focus:ring-green-700">
-                            <div>
-                                <p class="font-bold text-sm text-stone-800">Bab 2 — Keimanan</p>
-                                <p class="text-xs text-stone-500">Kelas 9 · Semester Genap · Q.S. al-Baqarah/2:285, an-Nisa & Tajwid Al-Qamariyah</p>
-                            </div>
-                        </label>
+            <form id="form-latihan" class="space-y-5">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-5 items-end">
+                    <div>
+                        <label class="block text-sm font-bold text-stone-600 mb-2">Tanggal</label>
+                        <input type="date" id="input-tgl-latihan" class="w-full rounded-xl border-stone-300 shadow-sm focus:border-primary focus:ring focus:ring-primary/20" required>
                     </div>
-                    <p id="checklist-error" class="text-red-500 text-xs mt-2 hidden">Pilih minimal 1 set soal!</p>
+                    <div class="md:col-span-2">
+                        <div class="flex items-center justify-between mb-2">
+                            <label class="text-sm font-bold text-stone-600">Topik Soal <span class="text-stone-400 font-normal">(isi label &amp; ID file bebas)</span></label>
+                            <button type="button" onclick="tambahBarisTopik()" class="text-xs text-primary font-bold flex items-center gap-1 hover:underline">
+                                <span class="material-symbols-outlined text-sm">add_circle</span> Tambah Topik
+                            </button>
+                        </div>
+                        <div id="rows-topik" class="space-y-2"></div>
+                        <p id="checklist-error" class="text-red-500 text-xs mt-2 hidden">Isi minimal 1 topik!</p>
+                    </div>
                 </div>
-                <div class="md:col-span-3 flex justify-end">
+                <div class="flex justify-end">
                     <button type="submit" id="btn-simpan-latihan" class="px-8 py-3 bg-primary text-white font-bold rounded-xl shadow hover:bg-primary-container transition-colors flex items-center gap-2">
-                        <span class="material-symbols-outlined text-sm">add_circle</span> Tambah Jadwal
+                        <span class="material-symbols-outlined text-sm">save</span> Simpan Jadwal
                     </button>
                 </div>
             </form>
@@ -514,17 +506,31 @@
     // JADWAL LATIHAN HARIAN — Google Sheets Sync
     // ══════════════════════════════════════════════
     const LATIHAN_KEY = 'mapsi_jadwal_latihan';
-    const SET_LABELS = {
-        'kls9-smtgenap-bab1': { judul: "Al-Qur'an & Hadis",  sub: 'Cinta Tanah Air — Q.S. Al-Qashash: 85',          ikon: 'menu_book',   warna: 'text-emerald-700 bg-emerald-50' },
-        'kls9-smtgenap-bab2': { judul: 'Aqidah / Keimanan',  sub: 'Q.S. al-Baqarah/2:285 & an-Nisa/4:150-151',      ikon: 'star',        warna: 'text-blue-700 bg-blue-50' },
-        // Tambah baris setiap kali ada set soal baru:
-        // 'kls9-smtgenap-bab3': { judul: 'Fikih',           sub: 'Shalat Jamak & Qashar',                           ikon: 'mosque',      warna: 'text-amber-700 bg-amber-50' },
-        // 'kls9-smtgenap-bab4': { judul: 'SKI',             sub: 'Daulah Abbasiyah',                                ikon: 'history_edu', warna: 'text-rose-700 bg-rose-50'   },
-        // 'kls9-smtgenap-bab5': { judul: 'Akhlak',          sub: 'Husnuzan & Tawadu',                               ikon: 'favorite',    warna: 'text-purple-700 bg-purple-50'},
-    };
     const HARI = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
 
     let jadwalLatihan = JSON.parse(localStorage.getItem(LATIHAN_KEY) || '{}');
+
+    // ── Tambah baris input topik ──
+    window.tambahBarisTopik = function() {
+        const container = document.getElementById('rows-topik');
+        const row = document.createElement('div');
+        row.className = 'flex gap-2 items-center';
+        row.innerHTML = `
+            <input type="text" placeholder="Label (misal: Al-Qur'an & Hadis)"
+                name="topik-label"
+                class="flex-1 rounded-xl border-stone-300 text-sm shadow-sm focus:border-primary focus:ring focus:ring-primary/20 px-3 py-2">
+            <input type="text" placeholder="ID file soal (misal: kls9-smtgenap-bab1)"
+                name="topik-id"
+                class="flex-1 rounded-xl border-stone-300 text-sm shadow-sm focus:border-primary focus:ring focus:ring-primary/20 px-3 py-2">
+            <button type="button" onclick="this.parentElement.remove()"
+                class="shrink-0 w-8 h-8 rounded-lg bg-red-50 text-red-400 hover:bg-red-100 flex items-center justify-center transition-colors">
+                <span class="material-symbols-outlined text-sm">close</span>
+            </button>`;
+        container.appendChild(row);
+    };
+
+    // Tambah 1 baris otomatis saat halaman dimuat
+    setTimeout(() => { if (document.getElementById('rows-topik')) tambahBarisTopik(); }, 100);
 
     // ── Kirim POST ke GAS (fire & forget, no-cors) ──
     function gasPost(payload) {
@@ -539,7 +545,6 @@
     // ── Ambil jadwal dari GAS saat login ──
     async function fetchJadwalDariSheet() {
         const badge = document.getElementById('badge-jml-latihan');
-        const lama  = badge ? badge.textContent : '';
         if (badge) badge.textContent = '⏳ Memuat...';
         try {
             const res  = await fetch(SHEET_URL + '?action=getJadwalLatihan', { cache: 'no-store' });
@@ -549,7 +554,6 @@
             localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
         } catch (err) {
             console.warn('Gagal fetch jadwal dari GAS, pakai lokal:', err);
-            if (badge) badge.textContent = lama;
         }
         renderTableLatihan();
     }
@@ -568,17 +572,18 @@
             empty.classList.remove('hidden');
         } else {
             empty.classList.add('hidden');
-            entries.forEach(([tgl, setId]) => {
+            entries.forEach(([tgl, val]) => {
                 const d       = new Date(tgl + 'T00:00:00');
                 const hari    = HARI[d.getDay()];
-                const setIds = Array.isArray(setId) ? setId : [setId];  // backward-compatible
-                const labels = setIds.map(id => {
-                    const info = SET_LABELS[id];
-                    return info ? `<span class="inline-flex items-center gap-1 text-xs font-bold px-2 py-0.5 rounded-full ${info.warna}"><span class="material-symbols-outlined text-xs">${info.ikon}</span>${info.judul}</span>` : `<span class="text-xs">${id}</span>`;
-                }).join(' ');
-                const label   = labels;
                 const today   = new Date().toISOString().slice(0,10);
                 const isToday = tgl === today;
+
+                // Normalisasi ke array objek {id, label}
+                const topiks = normalisasiVal(val);
+                const labelHtml = topiks.map(t =>
+                    `<span class="inline-block text-xs font-bold px-2 py-0.5 rounded-full bg-primary/10 text-primary mr-1">${t.label || t.id}</span>`
+                ).join('');
+
                 const tr = document.createElement('tr');
                 tr.className = 'border-b border-stone-100 hover:bg-stone-50 transition-colors' + (isToday ? ' bg-primary/5' : '');
                 tr.innerHTML = `
@@ -586,7 +591,7 @@
                         ${tgl} ${isToday ? '<span class="ml-1 text-[10px] bg-primary text-white px-1.5 py-0.5 rounded-full">HARI INI</span>' : ''}
                     </td>
                     <td class="py-3 px-4 text-stone-500 text-sm">${hari}</td>
-                    <td class="py-3 px-4 text-sm">${label}</td>
+                    <td class="py-3 px-4 text-sm">${labelHtml}</td>
                     <td class="py-3 px-4 text-center">
                         <button onclick="deleteLatihan('${tgl}')" class="text-red-400 hover:text-red-600 bg-red-50 hover:bg-red-100 p-2 rounded-lg transition-colors">
                             <span class="material-symbols-outlined text-sm">delete</span>
@@ -595,33 +600,48 @@
                 tbody.appendChild(tr);
             });
         }
-        // Simpan ke localStorage agar latihan-harian.html bisa baca secara offline
+        // Simpan ke localStorage
         localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
+    }
+
+    // Normalisasi berbagai format lama ke [{id, label}]
+    function normalisasiVal(val) {
+        if (!val) return [];
+        // Format baru: [{id, label}]
+        if (Array.isArray(val) && val.length && typeof val[0] === 'object') return val;
+        // Format lama: ["id1", "id2"]
+        if (Array.isArray(val)) return val.map(id => ({ id: String(id), label: String(id) }));
+        // Format paling lama: "id"
+        return [{ id: String(val), label: String(val) }];
     }
 
     // ── Form submit ──
     document.getElementById('form-latihan').addEventListener('submit', (e) => {
         e.preventDefault();
         const tgl    = document.getElementById('input-tgl-latihan').value;
-        const checks = [...document.querySelectorAll('input[name="set-soal"]:checked')].map(c => c.value);
         const errEl  = document.getElementById('checklist-error');
 
+        const labels = [...document.querySelectorAll('#rows-topik input[name="topik-label"]')].map(i => i.value.trim());
+        const ids    = [...document.querySelectorAll('#rows-topik input[name="topik-id"]')].map(i => i.value.trim());
+
+        const topiks = ids.map((id, i) => ({ id, label: labels[i] || id })).filter(t => t.id);
+
         if (!tgl) return;
-        if (checks.length === 0) { errEl.classList.remove('hidden'); return; }
+        if (topiks.length === 0) { errEl.classList.remove('hidden'); return; }
         errEl.classList.add('hidden');
 
-        // Simpan sebagai array
-        jadwalLatihan[tgl] = checks;
+        jadwalLatihan[tgl] = topiks;
         renderTableLatihan();
-        gasPost({ action: 'setJadwalLatihan', tanggal: tgl, setId: checks });
+        gasPost({ action: 'setJadwalLatihan', tanggal: tgl, setId: topiks });
 
         const st = document.getElementById('status-latihan');
-        st.innerHTML = `✅ Jadwal <strong>${tgl}</strong> (${checks.length} topik) disimpan & disinkronkan ke Google Sheets.`;
+        st.innerHTML = `✅ Jadwal <strong>${tgl}</strong> (${topiks.length} topik) disimpan.`;
         st.className = 'mt-4 text-sm font-bold text-green-600 block';
         setTimeout(() => st.classList.add('hidden'), 4000);
 
         document.getElementById('form-latihan').reset();
-        document.querySelectorAll('input[name="set-soal"]').forEach(c => c.checked = false);
+        document.getElementById('rows-topik').innerHTML = '';
+        tambahBarisTopik();
     });
 
     // ── Hapus jadwal ──

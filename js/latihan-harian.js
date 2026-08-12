@@ -75,17 +75,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const val = jadwalGabung[today];
         if (!val) { tampilTidakAda(today, jadwalGabung); return; }
 
-        // Normalisasi: bisa string lama atau array baru
-        setIdsHariIni = Array.isArray(val) ? val : [val];
+        // Normalisasi ke [{id, label}] — mendukung semua format lama/baru
+        setIdsHariIni = normalisasiTopik(val);
+
+        if (setIdsHariIni.length === 0) { tampilTidakAda(today, jadwalGabung); return; }
 
         if (setIdsHariIni.length === 1) {
-            // Langsung load satu soal
-            setIdDipilih = setIdsHariIni[0];
-            loadSoal(setIdDipilih, today, jadwalGabung);
+            setIdDipilih = setIdsHariIni[0].id;
+            loadSoal(setIdsHariIni[0], today, jadwalGabung);
         } else {
-            // Tampilkan pilihan topik
             tampilPilihTopik(today, jadwalGabung);
         }
+    }
+
+    // Normalisasi berbagai format ke [{id, label}]
+    function normalisasiTopik(val) {
+        if (!val) return [];
+        // Format baru dari dashboard: [{id, label}]
+        if (Array.isArray(val) && val.length && typeof val[0] === 'object') return val;
+        // Format lama: ["id1", "id2"]  atau  "id"
+        const arr = Array.isArray(val) ? val : [val];
+        return arr.map(id => {
+            const info = INFO_SET[id] || {};
+            return { id: String(id), label: info.judul || String(id) };
+        });
     }
 
     // ── Tampilkan kartu pilih topik ──
@@ -104,14 +117,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const IKON = ['menu_book', 'mosque', 'history_edu', 'translate', 'star'];
 
         elKartu.innerHTML = '';
-        setIdsHariIni.forEach((id, idx) => {
-            const info = INFO_SET[id] || { judul: id, subjudul: '', kelas: '', semester: '', bab: '' };
-            // Cek apakah sudah dikerjakan hari ini
-            const doneKey  = `latihan_done_${today}_${id}`;
+        setIdsHariIni.forEach((topik, idx) => {
+            const id        = topik.id;
+            const label     = topik.label || id;   // ← label dari guru langsung
+            const info      = INFO_SET[id] || {};
+            const doneKey   = `latihan_done_${today}_${id}`;
             const sudahDone = !!localStorage.getItem(doneKey);
-            const grad  = WARNA[idx % WARNA.length];
-            const ikon  = info.ikon || IKON[idx % IKON.length];
-            const label = info.subjudul || '';
+            const grad      = WARNA[idx % WARNA.length];
+            const ikon      = info.ikon || IKON[idx % IKON.length];
 
             const card = document.createElement('button');
             card.className = `w-full text-left rounded-2xl p-5 bg-gradient-to-r ${grad} text-white shadow-lg hover:scale-[1.01] active:scale-[0.99] transition-all fade-up flex items-center gap-5`;
@@ -121,36 +134,38 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span class="material-symbols-outlined text-3xl" style="font-variation-settings:'FILL' 1;">${ikon}</span>
                 </div>
                 <div class="flex-1 min-w-0">
-                    <p class="font-headline font-extrabold text-lg leading-tight">${info.judul}</p>
-                    <p class="text-white/80 text-xs mt-0.5">${label || info.subjudul || ''}</p>
+                    <p class="font-headline font-extrabold text-lg leading-tight">${label}</p>
+                    <p class="text-white/70 text-xs mt-0.5">${info.subjudul || ''}</p>
                 </div>
                 <div class="shrink-0">
                     ${sudahDone
-                        ? '<span class="inline-flex items-center gap-1 bg-white/25 text-white text-xs font-bold px-3 py-1 rounded-full"><span class="material-symbols-outlined text-sm" style="font-variation-settings:&apos;FILL&apos; 1;">check_circle</span>Selesai</span>'
+                        ? '<span class="inline-flex items-center gap-1 bg-white/25 text-white text-xs font-bold px-3 py-1 rounded-full"><span class="material-symbols-outlined text-sm" style="font-variation-settings:\'FILL\' 1;">check_circle</span>Selesai</span>'
                         : '<span class="material-symbols-outlined text-3xl opacity-70">arrow_forward</span>'
                     }
                 </div>`;
-            card.addEventListener('click', () => pilihTopik(id, today, jadwalGabung));
+            card.addEventListener('click', () => pilihTopik(topik, today, jadwalGabung));
             elKartu.appendChild(card);
         });
 
         hide(elTidakAda); hide(elWelcome); hide(elArena); hide(elHasil);
-        const elPilihTopik = document.getElementById('pilih-topik');
-        if (elPilihTopik) elPilihTopik.classList.remove('hidden');
+        elPilih.classList.remove('hidden');
     }
 
     // ── Siswa memilih satu topik ──
-    function pilihTopik(id, today, jadwalGabung) {
-        setIdDipilih = id;
+    function pilihTopik(topik, today, jadwalGabung) {
+        setIdDipilih = topik.id;
         const elPilihTopik = document.getElementById('pilih-topik');
         if (elPilihTopik) elPilihTopik.classList.add('hidden');
-        loadSoal(id, today, jadwalGabung);
+        loadSoal(topik, today, jadwalGabung);
     }
 
-    // ── Load file soal dinamis lalu tampil welcome ──
-    function loadSoal(id, today, jadwalGabung) {
-        const info = INFO_SET[id] || { judul: id, subjudul: '', kelas: '', semester: '', bab: '' };
-        if (elTopikJudul) elTopikJudul.textContent = info.judul;
+    // ── Load file soal dinamis ──
+    function loadSoal(topik, today, jadwalGabung) {
+        const id    = typeof topik === 'string' ? topik : topik.id;
+        const label = typeof topik === 'string' ? (INFO_SET[topik]?.judul || topik) : (topik.label || id);
+        const info  = INFO_SET[id] || {};
+
+        if (elTopikJudul) elTopikJudul.textContent = label;
         if (elTopikSub)   elTopikSub.textContent   = info.subjudul || '';
 
         // Reset latihanData global sebelum load
