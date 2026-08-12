@@ -43,22 +43,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // ══════════════════════════════════════════════
     // INISIALISASI: ambil jadwal dari GAS lalu mulai
     // ══════════════════════════════════════════════
+    // INFO SET SOAL (untuk label di kartu topik)
     const GAS_URL = 'https://script.google.com/macros/s/AKfycbwQfgDcTK5fzkphsdawmcGpZjbOSwHAh_WadAie3UwCRLflSeFTLpFRIq4XGO81ykA1Iw/exec';
+    const INFO_SET = (typeof infoLatihan !== 'undefined') ? infoLatihan : {};
+    let setIdsHariIni = []; // array setId yang aktif hari ini
+    let setIdDipilih  = null;
 
     async function fetchJadwalSheet() {
         try {
             const ctrl = new AbortController();
-            const tid  = setTimeout(() => ctrl.abort(), 4000); // 4 detik timeout
+            const tid  = setTimeout(() => ctrl.abort(), 4000);
             const res  = await fetch(GAS_URL + '?action=getJadwalLatihan', { cache: 'no-store', signal: ctrl.signal });
             clearTimeout(tid);
             const data = await res.json();
-            // Merge: sheet lebih diutamakan; simpan ke localStorage untuk offline
-            const lokal = JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
+            const lokal  = JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
             const gabung = Object.assign({}, lokal, data);
             localStorage.setItem('mapsi_jadwal_latihan', JSON.stringify(gabung));
             return gabung;
         } catch (_) {
-            // Offline atau timeout — pakai localStorage
             return JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
         }
     }
@@ -66,28 +68,97 @@ document.addEventListener('DOMContentLoaded', () => {
     async function init() {
         const today = getTodayStr();
 
-        // Jadwal dari GAS (dengan fallback offline)
         const jadwalLS = await fetchJadwalSheet();
         const jadwalJS = (typeof jadwalLatihan !== 'undefined') ? jadwalLatihan : {};
-        const infoJS   = (typeof infoLatihan   !== 'undefined') ? infoLatihan   : {};
-
-        // localStorage (dari dashboard guru) lebih diutamakan atas jadwal-latihan.js statis
         const jadwalGabung = Object.assign({}, jadwalJS, jadwalLS);
-        const setId = jadwalGabung[today] || null;
-        const info  = setId ? (infoJS[setId] || { judul: setId, subjudul: '', kelas: '', semester: '', bab: '' }) : null;
 
-        if (!setId) {
-            tampilTidakAda(today, jadwalGabung);
-            return;
+        const val = jadwalGabung[today];
+        if (!val) { tampilTidakAda(today, jadwalGabung); return; }
+
+        // Normalisasi: bisa string lama atau array baru
+        setIdsHariIni = Array.isArray(val) ? val : [val];
+
+        if (setIdsHariIni.length === 1) {
+            // Langsung load satu soal
+            setIdDipilih = setIdsHariIni[0];
+            loadSoal(setIdDipilih, today, jadwalGabung);
+        } else {
+            // Tampilkan pilihan topik
+            tampilPilihTopik(today, jadwalGabung);
         }
+    }
 
+    // ── Tampilkan kartu pilih topik ──
+    function tampilPilihTopik(today, jadwalGabung) {
+        const elPilih = document.getElementById('pilih-topik');
+        const elKartu = document.getElementById('kartu-topik');
+        if (!elPilih || !elKartu) { tampilTidakAda(today, jadwalGabung); return; }
+
+        const WARNA = [
+            'from-emerald-500 to-teal-600',
+            'from-blue-500 to-indigo-600',
+            'from-amber-500 to-orange-600',
+            'from-rose-500 to-pink-600',
+            'from-purple-500 to-violet-600',
+        ];
+        const IKON = ['menu_book', 'mosque', 'history_edu', 'translate', 'star'];
+
+        elKartu.innerHTML = '';
+        setIdsHariIni.forEach((id, idx) => {
+            const info = INFO_SET[id] || { judul: id, subjudul: '', kelas: '', semester: '', bab: '' };
+            // Cek apakah sudah dikerjakan hari ini
+            const doneKey  = `latihan_done_${today}_${id}`;
+            const sudahDone = !!localStorage.getItem(doneKey);
+            const grad  = WARNA[idx % WARNA.length];
+            const ikon  = info.ikon || IKON[idx % IKON.length];
+            const label = [info.kelas, info.semester, info.bab].filter(Boolean).join(' · ');
+
+            const card = document.createElement('button');
+            card.className = `w-full text-left rounded-2xl p-5 bg-gradient-to-r ${grad} text-white shadow-lg hover:scale-[1.01] active:scale-[0.99] transition-all fade-up flex items-center gap-5`;
+            card.style.animationDelay = `${idx * 80}ms`;
+            card.innerHTML = `
+                <div class="w-14 h-14 shrink-0 rounded-xl bg-white/20 flex items-center justify-center">
+                    <span class="material-symbols-outlined text-3xl" style="font-variation-settings:'FILL' 1;">${ikon}</span>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <p class="font-headline font-extrabold text-lg leading-tight">${info.judul}</p>
+                    <p class="text-white/80 text-xs mt-0.5">${label || info.subjudul || ''}</p>
+                </div>
+                <div class="shrink-0">
+                    ${sudahDone
+                        ? '<span class="inline-flex items-center gap-1 bg-white/25 text-white text-xs font-bold px-3 py-1 rounded-full"><span class="material-symbols-outlined text-sm" style="font-variation-settings:&apos;FILL&apos; 1;">check_circle</span>Selesai</span>'
+                        : '<span class="material-symbols-outlined text-3xl opacity-70">arrow_forward</span>'
+                    }
+                </div>`;
+            card.addEventListener('click', () => pilihTopik(id, today, jadwalGabung));
+            elKartu.appendChild(card);
+        });
+
+        hide(elTidakAda); hide(elWelcome); hide(elArena); hide(elHasil);
+        const elPilihTopik = document.getElementById('pilih-topik');
+        if (elPilihTopik) elPilihTopik.classList.remove('hidden');
+    }
+
+    // ── Siswa memilih satu topik ──
+    function pilihTopik(id, today, jadwalGabung) {
+        setIdDipilih = id;
+        const elPilihTopik = document.getElementById('pilih-topik');
+        if (elPilihTopik) elPilihTopik.classList.add('hidden');
+        loadSoal(id, today, jadwalGabung);
+    }
+
+    // ── Load file soal dinamis lalu tampil welcome ──
+    function loadSoal(id, today, jadwalGabung) {
+        const info = INFO_SET[id] || { judul: id, subjudul: '', kelas: '', semester: '', bab: '' };
         if (elTopikJudul) elTopikJudul.textContent = info.judul;
         if (elTopikSub)   elTopikSub.textContent   = [info.kelas, info.semester, info.bab, info.subjudul].filter(Boolean).join(' · ');
 
-        // Load file soal secara dinamis
-        const script    = document.createElement('script');
-        script.src      = `js/latihan/${setId}.js`;
-        script.onload   = () => {
+        // Reset latihanData global sebelum load
+        if (typeof window !== 'undefined') window.latihanData = undefined;
+
+        const script   = document.createElement('script');
+        script.src     = `js/latihan/${id}.js?v=${Date.now()}`;
+        script.onload  = () => {
             if (typeof latihanData !== 'undefined' && latihanData.length > 0) {
                 soalList     = acakArray([...latihanData]);
                 jawabanSiswa = new Array(soalList.length).fill(null);
@@ -407,6 +478,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         tampilHasil(benar, soalList.length, salahNomor, durasi);
         kirimLaporan(benar, soalList.length, salahNomor, durasi);
+
+        // Tandai set ini sudah dikerjakan hari ini (untuk badge "Selesai" di kartu topik)
+        if (setIdDipilih) {
+            localStorage.setItem(`latihan_done_${getTodayStr()}_${setIdDipilih}`, '1');
+        }
     }
 
     // ══════════════════════════════════════════════
@@ -446,6 +522,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
         hide(elBtnSubmit);
         show(elBtnUlang);
+
+        // Jika ada >1 topik hari ini, tampilkan tombol "Pilih Topik Lain"
+        if (setIdsHariIni.length > 1) {
+            const sisakanTopik = setIdsHariIni.filter(id => id !== setIdDipilih);
+            const adaYgBelum   = sisakanTopik.some(id => !localStorage.getItem(`latihan_done_${getTodayStr()}_${id}`));
+            if (adaYgBelum) {
+                const btnKembali = document.createElement('button');
+                btnKembali.id        = 'btn-pilih-topik-lain';
+                btnKembali.className = 'flex-1 py-4 bg-surface-container text-on-surface font-bold text-base rounded-2xl hover:bg-surface-container-high active:scale-[0.98] transition-all flex items-center justify-center gap-3 border border-outline-variant/20';
+                btnKembali.innerHTML = '<span class="material-symbols-outlined">apps</span> Pilih Topik Lain';
+                btnKembali.addEventListener('click', () => {
+                    hide(elArena);
+                    init(); // re-init untuk refresh badge selesai
+                });
+                elBtnUlang.parentElement.appendChild(btnKembali);
+            }
+        }
     }
 
     // ══════════════════════════════════════════════
