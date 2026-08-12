@@ -498,8 +498,7 @@
     }
 
     // ══════════════════════════════════════════════
-    // JADWAL LATIHAN HARIAN
-    // Data disimpan di localStorage → dibaca oleh latihan-harian.html
+    // JADWAL LATIHAN HARIAN — Google Sheets Sync
     // ══════════════════════════════════════════════
     const LATIHAN_KEY = 'mapsi_jadwal_latihan';
     const SET_LABELS = {
@@ -510,85 +509,118 @@
 
     let jadwalLatihan = JSON.parse(localStorage.getItem(LATIHAN_KEY) || '{}');
 
-    // Render tabel jadwal latihan
+    // ── Kirim POST ke GAS (fire & forget, no-cors) ──
+    function gasPost(payload) {
+        fetch(SHEET_URL, {
+            method : 'POST',
+            mode   : 'no-cors',
+            body   : JSON.stringify(payload),
+            headers: { 'Content-Type': 'text/plain' }
+        }).catch(() => {});
+    }
+
+    // ── Ambil jadwal dari GAS saat login ──
+    async function fetchJadwalDariSheet() {
+        const badge = document.getElementById('badge-jml-latihan');
+        const lama  = badge ? badge.textContent : '';
+        if (badge) badge.textContent = '⏳ Memuat...';
+        try {
+            const res  = await fetch(SHEET_URL + '?action=getJadwalLatihan', { cache: 'no-store' });
+            const data = await res.json();
+            // Merge: sheet lebih diutamakan dari localStorage
+            jadwalLatihan = Object.assign({}, jadwalLatihan, data);
+            localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
+        } catch (err) {
+            console.warn('Gagal fetch jadwal dari GAS, pakai lokal:', err);
+            if (badge) badge.textContent = lama;
+        }
+        renderTableLatihan();
+    }
+
+    // ── Render tabel ──
     function renderTableLatihan() {
         const tbody   = document.getElementById('table-latihan');
         const empty   = document.getElementById('empty-latihan');
         const badge   = document.getElementById('badge-jml-latihan');
         const entries = Object.entries(jadwalLatihan).sort((a,b) => a[0].localeCompare(b[0]));
 
-        badge.textContent = entries.length + ' jadwal';
-        tbody.innerHTML   = '';
+        if (badge) badge.textContent = entries.length + ' jadwal';
+        tbody.innerHTML = '';
 
         if (entries.length === 0) {
             empty.classList.remove('hidden');
         } else {
             empty.classList.add('hidden');
             entries.forEach(([tgl, setId]) => {
-                const d    = new Date(tgl + 'T00:00:00');
-                const hari = HARI[d.getDay()];
-                const label = SET_LABELS[setId] || setId;
-                const today = new Date().toISOString().slice(0,10);
+                const d       = new Date(tgl + 'T00:00:00');
+                const hari    = HARI[d.getDay()];
+                const label   = SET_LABELS[setId] || setId;
+                const today   = new Date().toISOString().slice(0,10);
                 const isToday = tgl === today;
-
                 const tr = document.createElement('tr');
                 tr.className = 'border-b border-stone-100 hover:bg-stone-50 transition-colors' + (isToday ? ' bg-primary/5' : '');
                 tr.innerHTML = `
-                    <td class="py-3 px-4 font-mono text-sm font-bold ${isToday ? 'text-primary' : ''}">${tgl} ${isToday ? '<span class="ml-1 text-[10px] bg-primary text-white px-1.5 py-0.5 rounded-full">HARI INI</span>' : ''}</td>
+                    <td class="py-3 px-4 font-mono text-sm font-bold ${isToday ? 'text-primary' : ''}">
+                        ${tgl} ${isToday ? '<span class="ml-1 text-[10px] bg-primary text-white px-1.5 py-0.5 rounded-full">HARI INI</span>' : ''}
+                    </td>
                     <td class="py-3 px-4 text-stone-500 text-sm">${hari}</td>
                     <td class="py-3 px-4 text-sm">${label}</td>
                     <td class="py-3 px-4 text-center">
                         <button onclick="deleteLatihan('${tgl}')" class="text-red-400 hover:text-red-600 bg-red-50 hover:bg-red-100 p-2 rounded-lg transition-colors">
                             <span class="material-symbols-outlined text-sm">delete</span>
                         </button>
-                    </td>
-                `;
+                    </td>`;
                 tbody.appendChild(tr);
             });
         }
-
-        // Sinkronisasi ke jadwalLatihan global (dibaca latihan-harian.html)
-        syncToGlobal();
+        // Simpan ke localStorage agar latihan-harian.html bisa baca secara offline
+        localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
     }
 
-    // Tulis ke localStorage agar latihan-harian.html bisa membaca
-    function syncToGlobal() {
-        localStorage.setItem('mapsi_jadwal_latihan', JSON.stringify(jadwalLatihan));
-    }
-
-    // Form submit
+    // ── Form submit ──
     document.getElementById('form-latihan').addEventListener('submit', (e) => {
         e.preventDefault();
         const tgl   = document.getElementById('input-tgl-latihan').value;
         const setId = document.getElementById('input-set-soal').value;
-
         if (!tgl || !setId) return;
 
+        // Optimistic update
         jadwalLatihan[tgl] = setId;
-        localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
         renderTableLatihan();
 
+        // Sinkron ke Google Sheets
+        gasPost({ action: 'setJadwalLatihan', tanggal: tgl, setId: setId });
+
         const st = document.getElementById('status-latihan');
-        st.textContent = `✅ Jadwal ${tgl} berhasil ditambahkan!`;
-        st.className   = 'mt-4 text-sm font-bold text-green-600 block';
-        setTimeout(() => st.classList.add('hidden'), 3000);
+        st.innerHTML = `✅ Jadwal <strong>${tgl}</strong> disimpan & disinkronkan ke Google Sheets.`;
+        st.className = 'mt-4 text-sm font-bold text-green-600 block';
+        setTimeout(() => st.classList.add('hidden'), 4000);
 
         document.getElementById('form-latihan').reset();
     });
 
-    // Hapus satu jadwal latihan
+    // ── Hapus jadwal ──
     window.deleteLatihan = function(tgl) {
-        if (confirm(`Hapus jadwal latihan tanggal ${tgl}?`)) {
-            delete jadwalLatihan[tgl];
-            localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
-            renderTableLatihan();
-        }
+        if (!confirm(`Hapus jadwal latihan tanggal ${tgl}?`)) return;
+        delete jadwalLatihan[tgl];
+        renderTableLatihan();
+        gasPost({ action: 'deleteJadwalLatihan', tanggal: tgl });
     }
 
-    // Inisialisasi render tabel latihan
+    // ── Inisialisasi ──
     document.addEventListener('DOMContentLoaded', () => {
         checkAuth();
         renderTable();
-        renderTableLatihan();
+        renderTableLatihan();  // tampil dulu dari lokal (instant)
     });
+
+    // Setelah login, fetch dari GAS
+    formLogin.addEventListener('submit', () => {
+        setTimeout(() => { if (localStorage.getItem('guru_logged_in') === 'true') fetchJadwalDariSheet(); }, 300);
+    });
+
+    // Jika sudah login saat buka halaman
+    if (localStorage.getItem('guru_logged_in') === 'true') {
+        fetchJadwalDariSheet();
+    }
 </script>

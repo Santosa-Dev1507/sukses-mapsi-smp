@@ -41,18 +41,37 @@ document.addEventListener('DOMContentLoaded', () => {
     const elBtnMulai    = document.getElementById('btn-mulai-latihan');
 
     // ══════════════════════════════════════════════
-    // INISIALISASI: cek jadwal hari ini
+    // INISIALISASI: ambil jadwal dari GAS lalu mulai
     // ══════════════════════════════════════════════
-    function init() {
+    const GAS_URL = 'https://script.google.com/macros/s/AKfycbwQfgDcTK5fzkphsdawmcGpZjbOSwHAh_WadAie3UwCRLflSeFTLpFRIq4XGO81ykA1Iw/exec';
+
+    async function fetchJadwalSheet() {
+        try {
+            const ctrl = new AbortController();
+            const tid  = setTimeout(() => ctrl.abort(), 4000); // 4 detik timeout
+            const res  = await fetch(GAS_URL + '?action=getJadwalLatihan', { cache: 'no-store', signal: ctrl.signal });
+            clearTimeout(tid);
+            const data = await res.json();
+            // Merge: sheet lebih diutamakan; simpan ke localStorage untuk offline
+            const lokal = JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
+            const gabung = Object.assign({}, lokal, data);
+            localStorage.setItem('mapsi_jadwal_latihan', JSON.stringify(gabung));
+            return gabung;
+        } catch (_) {
+            // Offline atau timeout — pakai localStorage
+            return JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
+        }
+    }
+
+    async function init() {
         const today = getTodayStr();
 
-        // Prioritas 1: localStorage (diisi dari Dashboard Guru)
-        // Prioritas 2: jadwal-latihan.js (file statis)
-        const jadwalLS  = JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
-        const jadwalJS  = (typeof jadwalLatihan  !== 'undefined') ? jadwalLatihan  : {};
-        const infoJS    = (typeof infoLatihan    !== 'undefined') ? infoLatihan    : {};
+        // Jadwal dari GAS (dengan fallback offline)
+        const jadwalLS = await fetchJadwalSheet();
+        const jadwalJS = (typeof jadwalLatihan !== 'undefined') ? jadwalLatihan : {};
+        const infoJS   = (typeof infoLatihan   !== 'undefined') ? infoLatihan   : {};
 
-        // Gabungkan: localStorage lebih diutamakan
+        // localStorage (dari dashboard guru) lebih diutamakan atas jadwal-latihan.js statis
         const jadwalGabung = Object.assign({}, jadwalJS, jadwalLS);
         const setId = jadwalGabung[today] || null;
         const info  = setId ? (infoJS[setId] || { judul: setId, subjudul: '', kelas: '', semester: '', bab: '' }) : null;
@@ -62,11 +81,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Tampilkan info topik
         if (elTopikJudul) elTopikJudul.textContent = info.judul;
         if (elTopikSub)   elTopikSub.textContent   = [info.kelas, info.semester, info.bab, info.subjudul].filter(Boolean).join(' · ');
 
-        // Load soal DINAMIS — cukup tambah file di js/latihan/ dan update jadwal
+        // Load file soal secara dinamis
         const script    = document.createElement('script');
         script.src      = `js/latihan/${setId}.js`;
         script.onload   = () => {
