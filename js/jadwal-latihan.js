@@ -19,6 +19,8 @@ const jadwalLatihan = {
     "2026-08-28": "aqidah-keimanan-kitab-rasul",
     // September 2026 — Sabar
     // "2026-09-01": "akhlak-sabar-musibah",
+    // September 2026 — Rukhsah
+    "2026-09-05": "fikih-rukhsah",
 };
 
 // ═══════════════════════════════════════════════════════════
@@ -56,7 +58,12 @@ const infoLatihan = {
         ikon: "mosque",
         warna: "secondary"
     },
+    "fikih-rukhsah": {
+        judul: "Fikih",
+        subjudul: "Rukhsah dalam Perspektif Mazhab Fiqh",
+        ikon: "mosque",
+        warna: "tertiary"
+    },
     // Tambah set soal baru di sini (ID = nama file js/latihan/xxx.js):
-    // "fikih-shalat-jamak":    { judul: "Fikih", subjudul: "Shalat Jamak & Qashar", ikon: "mosque", warna: "primary" },
     // "ski-daulah-abbasiyah":  { judul: "SKI",   subjudul: "Daulah Abbasiyah",       ikon: "history_edu", warna: "secondary" },
 };
