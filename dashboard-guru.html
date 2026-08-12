@@ -292,7 +292,10 @@
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-stone-200">
             <div class="flex items-center justify-between mb-6">
                 <h2 class="text-xl font-bold font-headline">Jadwal Latihan Tersimpan</h2>
-                <span id="badge-jml-latihan" class="text-xs font-bold bg-primary/10 text-primary px-3 py-1 rounded-full">0 jadwal</span>
+                <div class="flex items-center gap-3">
+                    <button onclick="bersihkanDataRusak()" class="text-xs text-red-500 hover:underline font-bold">🗑 Hapus data rusak</button>
+                    <span id="badge-jml-latihan" class="text-xs font-bold bg-primary/10 text-primary px-3 py-1 rounded-full">0 jadwal</span>
+                </div>
             </div>
             <div class="overflow-x-auto">
                 <table class="w-full text-left border-collapse">
@@ -575,6 +578,14 @@
         const tbody   = document.getElementById('table-latihan');
         const empty   = document.getElementById('empty-latihan');
         const badge   = document.getElementById('badge-jml-latihan');
+
+        // Bersihkan kunci yang bukan format YYYY-MM-DD (data rusak dari bug lama)
+        const validKey = /^\d{4}-\d{2}-\d{2}$/;
+        Object.keys(jadwalLatihan).forEach(k => {
+            if (!validKey.test(k)) delete jadwalLatihan[k];
+        });
+        localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
+
         const entries = Object.entries(jadwalLatihan).sort((a,b) => a[0].localeCompare(b[0]));
 
         if (badge) badge.textContent = entries.length + ' jadwal';
@@ -612,7 +623,6 @@
                 tbody.appendChild(tr);
             });
         }
-        // Simpan ke localStorage
         localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
     }
 
@@ -663,11 +673,23 @@
 
     // ── Hapus jadwal ──
     window.deleteLatihan = function(tgl) {
-        if (!confirm(`Hapus jadwal latihan tanggal ${tgl}?`)) return;
+        if (!confirm(`Hapus jadwal ${tgl}?`)) return;
         delete jadwalLatihan[tgl];
         renderTableLatihan();
         gasPost({ action: 'deleteJadwalLatihan', tanggal: tgl });
-    }
+    };
+
+    // Hapus semua entri dengan kunci tanggal yang tidak valid (data rusak)
+    window.bersihkanDataRusak = function() {
+        const validKey = /^\d{4}-\d{2}-\d{2}$/;
+        let hapus = 0;
+        Object.keys(jadwalLatihan).forEach(k => {
+            if (!validKey.test(k)) { delete jadwalLatihan[k]; hapus++; }
+        });
+        localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
+        renderTableLatihan();
+        alert(hapus > 0 ? `${hapus} data rusak berhasil dihapus.` : 'Tidak ada data rusak.');
+    };
 
     // ── Inisialisasi ──
     document.addEventListener('DOMContentLoaded', () => {
