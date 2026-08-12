@@ -40,9 +40,14 @@ const infoLatihan = {
         ikon: "star",
         warna: "secondary"
     },
+    "kls9-smtgenap-bab3": {
+        judul: "Akhlak / Sabar",
+        subjudul: "Q.S. al-Baqarah/2: 155-156 & Ali 'Imran/3: 200",
+        ikon: "self_improvement",
+        warna: "tertiary"
+    },
     // Tambah info untuk set soal lain di sini:
-    // "kls9-smtgenap-bab3": { judul: "Fikih", subjudul: "Shalat Jamak & Qashar", ikon: "mosque", warna: "tertiary" },
-    // "kls9-smtgenap-bab4": { judul: "SKI", subjudul: "Daulah Abbasiyah", ikon: "history_edu", warna: "primary" },
-    // "kls9-smtgenap-bab5": { judul: "Akhlak", subjudul: "Husnuzan & Tawadu", ikon: "favorite", warna: "secondary" },
+    // "kls9-smtgenap-bab4": { judul: "Fikih", subjudul: "Shalat Jamak & Qashar", ikon: "mosque", warna: "primary" },
+    // "kls9-smtgenap-bab5": { judul: "SKI", subjudul: "Daulah Abbasiyah", ikon: "history_edu", warna: "secondary" },
 };
 
