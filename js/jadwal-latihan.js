@@ -24,27 +24,25 @@ const jadwalLatihan = {
 
 // ═══════════════════════════════════════════════════════════
 // METADATA SET SOAL
-// Untuk ditampilkan ke siswa di halaman latihan harian
+// Cukup isi: judul (nama mata pelajaran/topik), subjudul ringkas, ikon
+// Tidak perlu cantumkan kelas/semester/bab
 // ═══════════════════════════════════════════════════════════
 const infoLatihan = {
     "kls9-smtgenap-bab1": {
-        judul: "Cinta Tanah Air",
-        subjudul: "Q.S. Al-Qashash: 85, An-Nisa: 66, At-Taubah: 122 & Tajwid Nun Mati",
-        kelas: "Kelas 9",
-        semester: "Semester Genap",
-        bab: "Bab 1",
-        ikon: "favorite",
+        judul: "Al-Qur'an & Hadis",
+        subjudul: "Cinta Tanah Air — Q.S. Al-Qashash: 85",
+        ikon: "menu_book",
         warna: "primary"
     },
     "kls9-smtgenap-bab2": {
-        judul: "Keimanan kepada Kitab & Rasul",
-        subjudul: "Q.S. al-Baqarah/2: 285, Q.S. an-Nisā'/4: 150-151 & Tajwid Al-Qamariyah/Al-Syamsiyah",
-        kelas: "Kelas 9",
-        semester: "Semester Genap",
-        bab: "Bab 2",
-        ikon: "menu_book",
+        judul: "Aqidah / Keimanan",
+        subjudul: "Q.S. al-Baqarah/2: 285 & an-Nisa/4: 150-151",
+        ikon: "star",
         warna: "secondary"
     },
-    // Tambah info untuk set soal lain di sini
+    // Tambah info untuk set soal lain di sini:
+    // "kls9-smtgenap-bab3": { judul: "Fikih", subjudul: "Shalat Jamak & Qashar", ikon: "mosque", warna: "tertiary" },
+    // "kls9-smtgenap-bab4": { judul: "SKI", subjudul: "Daulah Abbasiyah", ikon: "history_edu", warna: "primary" },
+    // "kls9-smtgenap-bab5": { judul: "Akhlak", subjudul: "Husnuzan & Tawadu", ikon: "favorite", warna: "secondary" },
 };
 

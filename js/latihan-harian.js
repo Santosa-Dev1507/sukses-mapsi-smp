@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const sudahDone = !!localStorage.getItem(doneKey);
             const grad  = WARNA[idx % WARNA.length];
             const ikon  = info.ikon || IKON[idx % IKON.length];
-            const label = [info.kelas, info.semester, info.bab].filter(Boolean).join(' · ');
+            const label = info.subjudul || '';
 
             const card = document.createElement('button');
             card.className = `w-full text-left rounded-2xl p-5 bg-gradient-to-r ${grad} text-white shadow-lg hover:scale-[1.01] active:scale-[0.99] transition-all fade-up flex items-center gap-5`;
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadSoal(id, today, jadwalGabung) {
         const info = INFO_SET[id] || { judul: id, subjudul: '', kelas: '', semester: '', bab: '' };
         if (elTopikJudul) elTopikJudul.textContent = info.judul;
-        if (elTopikSub)   elTopikSub.textContent   = [info.kelas, info.semester, info.bab, info.subjudul].filter(Boolean).join(' · ');
+        if (elTopikSub)   elTopikSub.textContent   = info.subjudul || '';
 
         // Reset latihanData global sebelum load
         if (typeof window !== 'undefined') window.latihanData = undefined;
