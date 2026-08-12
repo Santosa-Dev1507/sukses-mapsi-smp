@@ -83,11 +83,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const jadwalJS = (typeof jadwalLatihan !== 'undefined') ? jadwalLatihan : {};
         const jadwalGabung = Object.assign({}, jadwalJS, jadwalLS);
 
-        const val = jadwalGabung[today];
-        if (!val) { tampilTidakAda(today, jadwalGabung); return; }
+        let allTopics = [];
+        let addedIds = new Set();
+        
+        // Kumpulkan semua topik dari tanggal yang lalu hingga hari ini (<= today)
+        for (const tgl in jadwalGabung) {
+            if (tgl <= today) {
+                const val = jadwalGabung[tgl];
+                const topiks = normalisasiTopik(val);
+                for (const top of topiks) {
+                    if (!addedIds.has(top.id)) {
+                        addedIds.add(top.id);
+                        allTopics.push(top);
+                    }
+                }
+            }
+        }
 
-        // Normalisasi ke [{id, label}] — mendukung semua format lama/baru
-        setIdsHariIni = normalisasiTopik(val);
+        setIdsHariIni = allTopics;
 
         if (setIdsHariIni.length === 0) { tampilTidakAda(today, jadwalGabung); return; }
 
