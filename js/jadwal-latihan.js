@@ -22,6 +22,7 @@ const jadwalLatihan = {
     // September 2026 — SKI
     "2026-09-06": "ski-turki-usmani",
     "2026-09-07": "ski-syafawi",
+    "2026-09-08": "ski-mughal",
 };
 
 // ═══════════════════════════════════════════════════════════
@@ -76,6 +77,12 @@ const infoLatihan = {
         subjudul: "Sejarah Peradaban Islam pada Masa Daulah Syafawi di Persia",
         ikon: "history_edu",
         warna: "secondary"
+    },
+    "ski-mughal": {
+        judul: "SKI",
+        subjudul: "Sejarah Peradaban Islam pada Masa Daulah Mughal di India",
+        ikon: "history_edu",
+        warna: "tertiary"
     },
     // Tambah set soal baru di sini (ID = nama file js/latihan/xxx.js):
     // "ski-daulah-abbasiyah":  { judul: "SKI",   subjudul: "Daulah Abbasiyah",       ikon: "history_edu", warna: "secondary" },
