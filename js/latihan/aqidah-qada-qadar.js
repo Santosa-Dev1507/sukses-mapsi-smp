@@ -5,7 +5,7 @@
 // Dalil: Q.S. al-Qamar/54:49, Q.S. al-Hadid/57:22, Q.S. ar-Ra'd/13:11
 //        H.R. At-Tirmidzi (unta & doa)
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
     {
         no: 1,
         topik: "Konsep Qada & Qadar",

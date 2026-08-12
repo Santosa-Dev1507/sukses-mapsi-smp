@@ -4,7 +4,7 @@
 // Q.S. al-Baqarah/2: 285 & Q.S. an-Nisā'/4: 150-151
 // 20 Soal PG Standar Kompetensi Tinggi (L1, L2, L3)
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
     {
         no: 1,
         topik: "Q.S. al-Baqarah/2: 285",

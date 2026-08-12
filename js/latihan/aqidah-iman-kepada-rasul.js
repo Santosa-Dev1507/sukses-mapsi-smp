@@ -4,7 +4,7 @@
 // 10 Soal PG Standar Kompetensi Tinggi (L1, L2, L3)
 // Dalil: Q.S. al-Nisa'/4:136, Q.S. al-Kahf/18:56, Q.S. al-Ahzab/33:45
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
     {
         no: 1,
         topik: "Konsep Kenabian & Kerasulan",

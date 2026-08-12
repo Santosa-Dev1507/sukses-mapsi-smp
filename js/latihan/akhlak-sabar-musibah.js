@@ -6,7 +6,7 @@
 //        Hadis Riwayat Muslim & Al-Baihaqi
 //        Tajwid: Nun Mati/Tanwin dan Mim Mati
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
     {
         no: 1,
         topik: "Q.S. al-Baqarah/2: 155",

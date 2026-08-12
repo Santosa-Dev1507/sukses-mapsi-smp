@@ -3,7 +3,7 @@
 // Kelas 9 Semester Genap Bab 1 — Cinta Tanah Air
 // 20 Soal PG Standar Kompetensi Tinggi (L1, L2, L3)
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
     {
         no: 1,
         topik: "Q.S. Al-Qashash/28: 85",

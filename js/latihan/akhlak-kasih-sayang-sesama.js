@@ -5,7 +5,7 @@
 // Dalil: H.R. At-Tirmidzi 1924, Q.S. Al-Baqarah/2:30,
 //        H.R. Bukhari-Muslim, Q.S. Al-Isra/17:23, Q.S. Al-Qasas/28:77
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
     {
         no: 1,
         topik: "H.R. At-Tirmidzi No. 1924",

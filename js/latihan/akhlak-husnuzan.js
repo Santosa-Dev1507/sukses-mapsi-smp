@@ -4,7 +4,7 @@
 // 10 Soal PG Standar Kompetensi Tinggi (L1, L2, L3)
 // Dalil: Q.S. al-Hujurat/49:12, Q.S. al-Hujurat/49:6
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
     {
         no: 1,
         topik: "Q.S. al-Hujurat/49: 12",

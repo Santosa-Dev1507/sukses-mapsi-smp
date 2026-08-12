@@ -4,7 +4,7 @@
 // 10 Soal PG Standar Kompetensi Tinggi (L1, L2, L3)
 // Dalil: Q.S. ar-Rum/30: 41, Q.S. Ibrahim/14: 32, H.R. Bukhari, Q.S. Al-Baqarah/2: 60
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
     {
         no: 1,
         topik: "Q.S. ar-Rum/30: 41 - Kandungan",

@@ -55,7 +55,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const tid  = setTimeout(() => ctrl.abort(), 4000);
             const res  = await fetch(GAS_URL + '?action=getJadwalLatihan', { cache: 'no-store', signal: ctrl.signal });
             clearTimeout(tid);
-            const data = await res.json();
+            const rawData = await res.json();
+            const data = {};
+            for (let k in rawData) {
+                let newKey = k;
+                if (!/^\d{4}-\d{2}-\d{2}$/.test(k)) {
+                    const d = new Date(k);
+                    if (!isNaN(d.getTime())) {
+                        newKey = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+                    }
+                }
+                data[newKey] = rawData[k];
+            }
             const lokal  = JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
             const gabung = Object.assign({}, lokal, data);
             localStorage.setItem('mapsi_jadwal_latihan', JSON.stringify(gabung));

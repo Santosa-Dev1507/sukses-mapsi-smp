@@ -570,7 +570,18 @@
         if (badge) badge.textContent = '⏳ Memuat...';
         try {
             const res  = await fetch(SHEET_URL + '?action=getJadwalLatihan', { cache: 'no-store' });
-            const data = await res.json();
+            const rawData = await res.json();
+            const data = {};
+            for (let k in rawData) {
+                let newKey = k;
+                if (!/^\d{4}-\d{2}-\d{2}$/.test(k)) {
+                    const d = new Date(k);
+                    if (!isNaN(d.getTime())) {
+                        newKey = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+                    }
+                }
+                data[newKey] = rawData[k];
+            }
             // Merge: sheet lebih diutamakan dari localStorage
             jadwalLatihan = Object.assign({}, jadwalLatihan, data);
             localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));

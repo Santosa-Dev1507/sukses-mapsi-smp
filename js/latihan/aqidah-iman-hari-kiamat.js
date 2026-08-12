@@ -5,7 +5,7 @@
 // Dalil: Q.S. al-Hajj/22:7, Q.S. an-Nisa'/4:78, Q.S. al-Anbiya'/21:47
 //        Q.S. az-Zalzalah:1-2
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
     {
         no: 1,
         topik: "Q.S. al-Hajj/22: 7",
