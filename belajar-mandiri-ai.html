@@ -2,7 +2,7 @@
 <html class="light" lang="id"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Dashboard - MAPSI SMPN 5 Klaten</title>
+<title>Belajar Bersama AI - MAPSI SMPN 5 Klaten</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
@@ -133,8 +133,8 @@
                     <a href="latihan-harian.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
                         <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">assignment</span> Latihan Harian
                     </a>
-                    <a href="belajar-mandiri-ai.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
-                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">smart_toy</span> Belajar Bersama AI
+                    <a href="belajar-mandiri-ai.html" class="flex items-center gap-3 px-4 py-3 rounded-xl bg-primary-container/10 text-primary-container font-bold transition-all">
+                        <span class="material-symbols-outlined text-primary-container">smart_toy</span> Belajar Bersama AI
                     </a>
                 </nav>
             </div>
@@ -167,96 +167,79 @@
     <div class="flex-1 flex flex-col h-full overflow-hidden relative">
         <main class="flex-1 overflow-y-auto pt-20 lg:pt-8 px-6 lg:px-12 pb-24">
 
-
-            
-            <div class="max-w-5xl mx-auto space-y-8">
-                
-                <!-- Hero Dashboard -->
-                <div class="relative bg-primary text-white rounded-[2rem] p-8 md:p-12 overflow-hidden shadow-2xl">
-                    <div class="absolute top-0 right-0 w-[400px] h-[400px] bg-white/5 rounded-full blur-[80px] -mr-32 -mt-32"></div>
-                    <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-                        <div>
-                            <span class="inline-block px-3 py-1 bg-white/20 backdrop-blur-sm rounded-lg text-xs font-bold uppercase tracking-wider mb-4 border border-white/10">T.A 2026</span>
-                            <h2 class="text-3xl md:text-5xl font-headline font-bold mb-4 leading-tight">Berprestasi dengan Iman,<br/>Berkarakter Al-Qur'an</h2>
-                            <p class="text-primary-fixed/90 text-lg max-w-xl leading-relaxed">Selamat datang di portal persiapan Lomba MAPSI SMPN 5 Klaten. Lanjutkan progres e-learning CCAI atau periksa jadwal latihan hari ini.</p>
-                        </div>
-                    </div>
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-8">
+                <div class="flex items-center gap-3 mb-2">
+                    <span class="material-symbols-outlined text-primary text-3xl">smart_toy</span>
+                    <h1 class="text-3xl font-bold font-headline">Belajar Mandiri bersama AI</h1>
                 </div>
-
-                <!-- Quick Actions Grid -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <a href="ccai.html" class="bg-surface-container-lowest rounded-3xl p-6 border border-outline-variant/20 hover:border-primary hover:shadow-lg transition-all group flex flex-col items-center text-center">
-                        <div class="w-14 h-14 bg-primary-fixed/20 rounded-2xl flex items-center justify-center text-primary mb-4 group-hover:scale-110 transition-transform">
-                            <span class="material-symbols-outlined text-3xl">menu_book</span>
-                        </div>
-                        <h3 class="font-bold text-on-surface">Mulai Belajar CCAI</h3>
-                    </a>
-                    <a href="jadwal.html" class="bg-surface-container-lowest rounded-3xl p-6 border border-outline-variant/20 hover:border-primary hover:shadow-lg transition-all group flex flex-col items-center text-center">
-                        <div class="w-14 h-14 bg-secondary-container/30 rounded-2xl flex items-center justify-center text-secondary mb-4 group-hover:scale-110 transition-transform">
-                            <span class="material-symbols-outlined text-3xl">event</span>
-                        </div>
-                        <h3 class="font-bold text-on-surface">Lihat Jadwal Latihan</h3>
-                    </a>
-                    <a href="kaligrafi.html" class="bg-surface-container-lowest rounded-3xl p-6 border border-outline-variant/20 hover:border-primary hover:shadow-lg transition-all group flex flex-col items-center text-center">
-                        <div class="w-14 h-14 bg-surface-container-high rounded-2xl flex items-center justify-center text-on-surface-variant mb-4 group-hover:scale-110 transition-transform">
-                            <span class="material-symbols-outlined text-3xl">draw</span>
-                        </div>
-                        <h3 class="font-bold text-on-surface">Juknis Kaligrafi</h3>
-                    </a>
-                    <a href="pidato.html" class="bg-surface-container-lowest rounded-3xl p-6 border border-outline-variant/20 hover:border-primary hover:shadow-lg transition-all group flex flex-col items-center text-center">
-                        <div class="w-14 h-14 bg-surface-container-high rounded-2xl flex items-center justify-center text-on-surface-variant mb-4 group-hover:scale-110 transition-transform">
-                            <span class="material-symbols-outlined text-3xl">record_voice_over</span>
-                        </div>
-                        <h3 class="font-bold text-on-surface">Juknis Pidato</h3>
-                    </a>
-                </div>
-
-                <!-- Dashboard Widgets -->
-                <div class="grid lg:grid-cols-3 gap-8">
-                    <!-- Widget: Jadwal Terdekat -->
-                    <div class="lg:col-span-2 bg-surface-container-lowest rounded-[2rem] border border-outline-variant/20 shadow-sm overflow-hidden flex flex-col">
-                        <div class="p-6 border-b border-outline-variant/10 flex justify-between items-center bg-surface-container-low/50">
-                            <h3 class="font-headline font-bold text-xl flex items-center gap-2">
-                                <span class="material-symbols-outlined text-primary">schedule</span> Jadwal Terdekat
-                            </h3>
-                            <a href="jadwal.html" class="text-sm font-bold text-primary hover:underline">Lihat Semua</a>
-                        </div>
-                        <div class="p-6 flex-1 flex flex-col justify-center" id="dashboard-jadwal">
-                            <!-- Injected via JS -->
-                            <div class="text-center text-stone-400 py-8">
-                                <span class="material-symbols-outlined text-4xl mb-2">hourglass_empty</span>
-                                <p>Memuat jadwal...</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Widget: Progres CCAI (Placeholder) -->
-                    <div class="bg-surface-container-lowest rounded-[2rem] border border-outline-variant/20 shadow-sm overflow-hidden">
-                        <div class="p-6 border-b border-outline-variant/10 bg-surface-container-low/50">
-                            <h3 class="font-headline font-bold text-xl flex items-center gap-2">
-                                <span class="material-symbols-outlined text-primary">trending_up</span> Progres CCAI
-                            </h3>
-                        </div>
-                        <div class="p-6 text-center">
-                            <div class="relative inline-flex items-center justify-center w-32 h-32 mb-6">
-                                <svg class="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
-                                    <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" class="text-surface-container-high"></circle>
-                                    <circle id="progress-circle" cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" stroke-dasharray="251.2" stroke-dashoffset="251.2" class="text-primary transition-all duration-1000 ease-out"></circle>
-                                </svg>
-                                <div class="absolute inset-0 flex flex-col items-center justify-center">
-                                    <span id="progress-text" class="text-2xl font-bold font-headline">0%</span>
-                                </div>
-                            </div>
-                            <p id="progress-desc" class="text-sm text-on-surface-variant font-medium mb-6">Lanjutkan pembelajaran dan persiapan materi lomba CCAI Anda.</p>
-                            <a href="ccai.html" class="block w-full py-3 bg-primary-fixed/30 text-on-primary-fixed-variant font-bold rounded-xl hover:bg-primary-fixed transition-colors">Lanjutkan Belajar</a>
-                        </div>
-                    </div>
-                </div>
-
+                <p class="text-stone-500">Gunakan kecerdasan buatan Gemini dari Google (NotebookLM) untuk menguji dan memperdalam pemahaman materimu secara interaktif.</p>
             </div>
-        
-        
-        </main>
+
+            <div class="bg-white rounded-3xl p-8 shadow-sm border border-stone-200 mb-8">
+                <h2 class="text-xl font-bold font-headline mb-4 text-primary-container">Langkah 1: Buka Tautan NotebookLM</h2>
+                <p class="text-stone-600 mb-6 leading-relaxed">
+                    Kami telah menyiapkan sebuah buku catatan pintar (NotebookLM) yang berisi seluruh materi PAI & Budi Pekerti. Silakan klik tombol di bawah ini untuk membuka halaman tersebut di tab baru.
+                </p>
+                <a href="https://notebook.google.com/notebook/58c0573d-d606-41d8-b4f0-4a6d525bed4c" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-xl shadow hover:bg-primary-container transition-colors">
+                    <span class="material-symbols-outlined text-sm">open_in_new</span> Buka NotebookLM MAPSI
+                </a>
+            </div>
+
+            <div class="bg-primary-container/5 rounded-3xl p-8 border border-primary-container/20 mb-8">
+                <h2 class="text-xl font-bold font-headline mb-4 text-primary-container">Langkah 2: Salin Prompt Instruksi</h2>
+                <p class="text-stone-600 mb-6 leading-relaxed">
+                    Setelah halaman NotebookLM terbuka, salin (copy) salah satu teks perintah (prompt) di bawah ini, lalu tempelkan (paste) ke dalam kolom chat AI Gemini di sana.
+                </p>
+
+                <div class="space-y-6">
+                    <!-- Prompt 1 -->
+                    <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200 relative">
+                        <h3 class="font-bold text-stone-800 mb-2 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-secondary text-lg">quiz</span> Latihan Uji Pemahaman (Tanya Jawab)
+                        </h3>
+                        <p class="text-sm text-stone-500 mb-4">Gunakan prompt ini jika kamu ingin AI memberikan pertanyaan-pertanyaan untuk menguji ingatanmu.</p>
+                        
+                        <div class="bg-stone-50 p-4 rounded-xl border border-stone-200 font-mono text-sm text-stone-700 whitespace-pre-wrap select-all">Halo Gemini, saya sedang belajar materi PAI & Budi Pekerti untuk persiapan lomba MAPSI. Tolong berikan saya 3 pertanyaan pilihan ganda yang menantang dari materi yang ada di dokumen ini. Jangan berikan kunci jawabannya dulu, biarkan saya menjawabnya satu per satu. Jika saya salah, tolong koreksi dan jelaskan alasannya berdasarkan sumber dokumen.</div>
+                        
+                        <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText); this.innerHTML='<span class=\'material-symbols-outlined text-sm\'>check</span> Tersalin!'; setTimeout(()=>this.innerHTML='<span class=\'material-symbols-outlined text-sm\'>content_copy</span> Salin', 2000)" class="absolute top-6 right-6 px-4 py-2 bg-stone-100 text-stone-600 font-bold rounded-lg hover:bg-stone-200 transition-colors flex items-center gap-2 text-xs">
+                            <span class="material-symbols-outlined text-sm">content_copy</span> Salin
+                        </button>
+                    </div>
+
+                    <!-- Prompt 2 -->
+                    <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200 relative">
+                        <h3 class="font-bold text-stone-800 mb-2 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-tertiary text-lg">psychology</span> Penjelasan Konsep Sulit
+                        </h3>
+                        <p class="text-sm text-stone-500 mb-4">Gunakan prompt ini jika ada materi yang sulit kamu pahami dan butuh penjelasan yang lebih sederhana.</p>
+                        
+                        <div class="bg-stone-50 p-4 rounded-xl border border-stone-200 font-mono text-sm text-stone-700 whitespace-pre-wrap select-all">Halo Gemini, saya kurang paham tentang materi [SEBUTKAN MATERI, misal: Sujud Sahwi / Qada dan Qadar / Peradaban Abbasiyah]. Tolong jelaskan kembali materi tersebut dengan bahasa yang sangat sederhana dan mudah dimengerti oleh siswa SMP. Berikan juga contoh dalam kehidupan sehari-hari agar lebih jelas.</div>
+                        
+                        <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText); this.innerHTML='<span class=\'material-symbols-outlined text-sm\'>check</span> Tersalin!'; setTimeout(()=>this.innerHTML='<span class=\'material-symbols-outlined text-sm\'>content_copy</span> Salin', 2000)" class="absolute top-6 right-6 px-4 py-2 bg-stone-100 text-stone-600 font-bold rounded-lg hover:bg-stone-200 transition-colors flex items-center gap-2 text-xs">
+                            <span class="material-symbols-outlined text-sm">content_copy</span> Salin
+                        </button>
+                    </div>
+
+                    <!-- Prompt 3 -->
+                    <div class="bg-white rounded-2xl p-6 shadow-sm border border-stone-200 relative">
+                        <h3 class="font-bold text-stone-800 mb-2 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-primary text-lg">summarize</span> Ringkasan & Poin Penting
+                        </h3>
+                        <p class="text-sm text-stone-500 mb-4">Gunakan prompt ini untuk meminta ringkasan cepat dari sebuah bab.</p>
+                        
+                        <div class="bg-stone-50 p-4 rounded-xl border border-stone-200 font-mono text-sm text-stone-700 whitespace-pre-wrap select-all">Tolong buatkan rangkuman poin-poin paling penting yang wajib saya hafal dari materi [SEBUTKAN NAMA BAB]. Formatkan dalam bentuk tabel atau bullet points (poin-poin) agar mudah dibaca cepat sebelum saya mulai latihan soal.</div>
+                        
+                        <button onclick="navigator.clipboard.writeText(this.previousElementSibling.innerText); this.innerHTML='<span class=\'material-symbols-outlined text-sm\'>check</span> Tersalin!'; setTimeout(()=>this.innerHTML='<span class=\'material-symbols-outlined text-sm\'>content_copy</span> Salin', 2000)" class="absolute top-6 right-6 px-4 py-2 bg-stone-100 text-stone-600 font-bold rounded-lg hover:bg-stone-200 transition-colors flex items-center gap-2 text-xs">
+                            <span class="material-symbols-outlined text-sm">content_copy</span> Salin
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+</main>
     </div>
 
 <script src="js/data-materi.js"></script>
