@@ -44,20 +44,29 @@ document.addEventListener('DOMContentLoaded', () => {
     // INISIALISASI: cek jadwal hari ini
     // ══════════════════════════════════════════════
     function init() {
-        const today  = getTodayStr();
-        const setId  = (typeof jadwalLatihan !== 'undefined') ? jadwalLatihan[today] : null;
-        const info   = (setId && typeof infoLatihan !== 'undefined') ? infoLatihan[setId] : null;
+        const today = getTodayStr();
 
-        if (!setId || !info) {
-            tampilTidakAda(today);
+        // Prioritas 1: localStorage (diisi dari Dashboard Guru)
+        // Prioritas 2: jadwal-latihan.js (file statis)
+        const jadwalLS  = JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
+        const jadwalJS  = (typeof jadwalLatihan  !== 'undefined') ? jadwalLatihan  : {};
+        const infoJS    = (typeof infoLatihan    !== 'undefined') ? infoLatihan    : {};
+
+        // Gabungkan: localStorage lebih diutamakan
+        const jadwalGabung = Object.assign({}, jadwalJS, jadwalLS);
+        const setId = jadwalGabung[today] || null;
+        const info  = setId ? (infoJS[setId] || { judul: setId, subjudul: '', kelas: '', semester: '', bab: '' }) : null;
+
+        if (!setId) {
+            tampilTidakAda(today, jadwalGabung);
             return;
         }
 
         // Tampilkan info topik
         if (elTopikJudul) elTopikJudul.textContent = info.judul;
-        if (elTopikSub)   elTopikSub.textContent   = `${info.kelas} · ${info.semester} · ${info.bab} — ${info.subjudul}`;
+        if (elTopikSub)   elTopikSub.textContent   = [info.kelas, info.semester, info.bab, info.subjudul].filter(Boolean).join(' · ');
 
-        // Load soal DINAMIS — cukup tambah file di js/latihan/ dan update jadwal-latihan.js
+        // Load soal DINAMIS — cukup tambah file di js/latihan/ dan update jadwal
         const script    = document.createElement('script');
         script.src      = `js/latihan/${setId}.js`;
         script.onload   = () => {
@@ -67,10 +76,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (elJumlahSoal) elJumlahSoal.textContent = soalList.length;
                 cekIdentitas();
             } else {
-                tampilTidakAda(today);
+                tampilTidakAda(today, jadwalGabung);
             }
         };
-        script.onerror = () => tampilTidakAda(today);
+        script.onerror = () => tampilTidakAda(today, jadwalGabung);
         document.head.appendChild(script);
     }
 
@@ -141,12 +150,13 @@ document.addEventListener('DOMContentLoaded', () => {
         hide(elTidakAda);
     }
 
-    function tampilTidakAda(today) {
-        // Cari jadwal berikutnya
-        const berikutnya = getJadwalBerikutnya(today);
+    function tampilTidakAda(today, jadwalObj) {
+        const berikutnya = getJadwalBerikutnya(today, jadwalObj || {});
         const elPesan = document.getElementById('pesan-tidak-ada');
         if (elPesan && berikutnya) {
-            elPesan.innerHTML = `Tidak ada latihan hari ini.<br><span class="text-sm font-normal">Jadwal berikutnya: <strong>${formatTanggal(berikutnya.tgl)}</strong> — ${berikutnya.info?.judul || berikutnya.id}</span>`;
+            elPesan.innerHTML = `Tidak ada latihan hari ini.<br><span class="text-sm font-normal">Jadwal berikutnya: <strong>${formatTanggal(berikutnya.tgl)}</strong></span>`;
+        } else if (elPesan) {
+            elPesan.innerHTML = `Tidak ada latihan hari ini.`;
         }
         show(elTidakAda);
         hide(elWelcome);
@@ -477,14 +487,12 @@ document.addEventListener('DOMContentLoaded', () => {
         return `${y}-${m}-${t}`;
     }
 
-    function getJadwalBerikutnya(today) {
-        if (typeof jadwalLatihan === 'undefined') return null;
-        const keys = Object.keys(jadwalLatihan).sort();
+    function getJadwalBerikutnya(today, jadwalObj) {
+        const obj  = jadwalObj || {};
+        const keys = Object.keys(obj).sort();
         const next = keys.find(k => k > today);
         if (!next) return null;
-        const id   = jadwalLatihan[next];
-        const info = (typeof infoLatihan !== 'undefined') ? infoLatihan[id] : null;
-        return { tgl: next, id, info };
+        return { tgl: next, id: obj[next] };
     }
 
     function formatTanggal(str) {

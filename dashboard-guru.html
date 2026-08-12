@@ -180,17 +180,29 @@
         </div>
 
 <div id="dashboard-content" class="max-w-5xl mx-auto hidden">
-        <div class="mb-10 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+        <div class="mb-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
             <div>
-                <h1 class="text-3xl font-bold font-headline mb-2">Manajemen Jadwal & Tugas</h1>
-                <p class="text-stone-500">Tambahkan jadwal latihan atau tugas untuk setiap cabang lomba.</p>
+                <h1 class="text-3xl font-bold font-headline mb-2">Dashboard Guru</h1>
+                <p class="text-stone-500">Kelola jadwal lomba dan jadwal latihan harian siswa.</p>
             </div>
             <button id="btn-logout" class="px-4 py-2 bg-stone-100 text-stone-600 font-bold rounded-xl hover:bg-stone-200 transition-colors flex items-center gap-2">
                 <span class="material-symbols-outlined text-sm">logout</span> Keluar
             </button>
         </div>
 
+        <!-- Tab Bar -->
+        <div class="flex gap-2 mb-8 bg-stone-100 p-1.5 rounded-2xl w-fit">
+            <button id="tab-btn-jadwal" onclick="switchTab('jadwal')" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm transition-all bg-white text-primary shadow-sm">
+                <span class="material-symbols-outlined text-sm align-middle mr-1">event_available</span>Jadwal Lomba
+            </button>
+            <button id="tab-btn-latihan" onclick="switchTab('latihan')" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm transition-all text-stone-500 hover:text-stone-700">
+                <span class="material-symbols-outlined text-sm align-middle mr-1">assignment</span>Jadwal Latihan
+            </button>
+        </div>
 
+
+        <!-- ═══ TAB: JADWAL LOMBA ═══ -->
+        <div id="tab-jadwal">
         <div class="bg-white rounded-3xl p-8 shadow-sm border border-stone-200 mb-10">
             <h2 class="text-xl font-bold font-headline mb-6">Tambah Jadwal Baru</h2>
             <form id="form-jadwal" class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -244,7 +256,55 @@
                 <p id="empty-state" class="text-center text-stone-400 mt-6 hidden">Belum ada jadwal. Silakan tambah di atas.</p>
             </div>
         </div>
-    </div>
+        </div><!-- end tab-jadwal -->
+
+        <!-- ═══ TAB: JADWAL LATIHAN ═══ -->
+        <div id="tab-latihan" class="hidden">
+        <div class="bg-white rounded-3xl p-8 shadow-sm border border-stone-200 mb-10">
+            <h2 class="text-xl font-bold font-headline mb-2">Jadwalkan Latihan Harian</h2>
+            <p class="text-stone-500 text-sm mb-6">Pilih tanggal dan set soal. Siswa akan melihat soal sesuai tanggal hari ini secara otomatis.</p>
+            <form id="form-latihan" class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <div>
+                    <label class="block text-sm font-bold text-stone-600 mb-2">Tanggal</label>
+                    <input type="date" id="input-tgl-latihan" class="w-full rounded-xl border-stone-300 shadow-sm focus:border-primary focus:ring focus:ring-primary/20" required>
+                </div>
+                <div class="md:col-span-2">
+                    <label class="block text-sm font-bold text-stone-600 mb-2">Set Soal</label>
+                    <select id="input-set-soal" class="w-full rounded-xl border-stone-300 shadow-sm focus:border-primary focus:ring focus:ring-primary/20" required>
+                        <option value="kls9-smtgenap-bab1">Kelas 9 · Smt Genap · Bab 1 — Cinta Tanah Air</option>
+                        <option value="kls9-smtgenap-bab2">Kelas 9 · Smt Genap · Bab 2 — Keimanan (al-Baqarah & an-Nisa)</option>
+                    </select>
+                </div>
+                <div class="md:col-span-3 flex justify-end">
+                    <button type="submit" id="btn-simpan-latihan" class="px-8 py-3 bg-primary text-white font-bold rounded-xl shadow hover:bg-primary-container transition-colors flex items-center gap-2">
+                        <span class="material-symbols-outlined text-sm">add_circle</span> Tambah Jadwal
+                    </button>
+                </div>
+            </form>
+            <div id="status-latihan" class="mt-4 text-sm font-bold hidden"></div>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 shadow-sm border border-stone-200">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-xl font-bold font-headline">Jadwal Latihan Tersimpan</h2>
+                <span id="badge-jml-latihan" class="text-xs font-bold bg-primary/10 text-primary px-3 py-1 rounded-full">0 jadwal</span>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b border-stone-200 text-stone-500 text-sm">
+                            <th class="pb-3 px-4 font-bold">Tanggal</th>
+                            <th class="pb-3 px-4 font-bold">Hari</th>
+                            <th class="pb-3 px-4 font-bold">Set Soal</th>
+                            <th class="pb-3 px-4 font-bold text-center">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-latihan" class="text-stone-700"></tbody>
+                </table>
+                <p id="empty-latihan" class="text-center text-stone-400 mt-6">Belum ada jadwal latihan.</p>
+            </div>
+        </div>
+        </div><!-- end tab-latihan -->
 
         
         
@@ -422,4 +482,113 @@
             }
         }
     }
+
+    // ══════════════════════════════════════════════
+    // TAB SWITCHING
+    // ══════════════════════════════════════════════
+    window.switchTab = function(tab) {
+        document.getElementById('tab-jadwal').classList.toggle('hidden', tab !== 'jadwal');
+        document.getElementById('tab-latihan').classList.toggle('hidden', tab !== 'latihan');
+        document.getElementById('tab-btn-jadwal').className = tab === 'jadwal'
+            ? 'tab-btn px-5 py-2.5 rounded-xl font-bold text-sm transition-all bg-white text-primary shadow-sm'
+            : 'tab-btn px-5 py-2.5 rounded-xl font-bold text-sm transition-all text-stone-500 hover:text-stone-700';
+        document.getElementById('tab-btn-latihan').className = tab === 'latihan'
+            ? 'tab-btn px-5 py-2.5 rounded-xl font-bold text-sm transition-all bg-white text-primary shadow-sm'
+            : 'tab-btn px-5 py-2.5 rounded-xl font-bold text-sm transition-all text-stone-500 hover:text-stone-700';
+    }
+
+    // ══════════════════════════════════════════════
+    // JADWAL LATIHAN HARIAN
+    // Data disimpan di localStorage → dibaca oleh latihan-harian.html
+    // ══════════════════════════════════════════════
+    const LATIHAN_KEY = 'mapsi_jadwal_latihan';
+    const SET_LABELS = {
+        'kls9-smtgenap-bab1': 'Kelas 9 · Smt Genap · Bab 1 — Cinta Tanah Air',
+        'kls9-smtgenap-bab2': 'Kelas 9 · Smt Genap · Bab 2 — Keimanan (al-Baqarah & an-Nisa)',
+    };
+    const HARI = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
+
+    let jadwalLatihan = JSON.parse(localStorage.getItem(LATIHAN_KEY) || '{}');
+
+    // Render tabel jadwal latihan
+    function renderTableLatihan() {
+        const tbody   = document.getElementById('table-latihan');
+        const empty   = document.getElementById('empty-latihan');
+        const badge   = document.getElementById('badge-jml-latihan');
+        const entries = Object.entries(jadwalLatihan).sort((a,b) => a[0].localeCompare(b[0]));
+
+        badge.textContent = entries.length + ' jadwal';
+        tbody.innerHTML   = '';
+
+        if (entries.length === 0) {
+            empty.classList.remove('hidden');
+        } else {
+            empty.classList.add('hidden');
+            entries.forEach(([tgl, setId]) => {
+                const d    = new Date(tgl + 'T00:00:00');
+                const hari = HARI[d.getDay()];
+                const label = SET_LABELS[setId] || setId;
+                const today = new Date().toISOString().slice(0,10);
+                const isToday = tgl === today;
+
+                const tr = document.createElement('tr');
+                tr.className = 'border-b border-stone-100 hover:bg-stone-50 transition-colors' + (isToday ? ' bg-primary/5' : '');
+                tr.innerHTML = `
+                    <td class="py-3 px-4 font-mono text-sm font-bold ${isToday ? 'text-primary' : ''}">${tgl} ${isToday ? '<span class="ml-1 text-[10px] bg-primary text-white px-1.5 py-0.5 rounded-full">HARI INI</span>' : ''}</td>
+                    <td class="py-3 px-4 text-stone-500 text-sm">${hari}</td>
+                    <td class="py-3 px-4 text-sm">${label}</td>
+                    <td class="py-3 px-4 text-center">
+                        <button onclick="deleteLatihan('${tgl}')" class="text-red-400 hover:text-red-600 bg-red-50 hover:bg-red-100 p-2 rounded-lg transition-colors">
+                            <span class="material-symbols-outlined text-sm">delete</span>
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Sinkronisasi ke jadwalLatihan global (dibaca latihan-harian.html)
+        syncToGlobal();
+    }
+
+    // Tulis ke localStorage agar latihan-harian.html bisa membaca
+    function syncToGlobal() {
+        localStorage.setItem('mapsi_jadwal_latihan', JSON.stringify(jadwalLatihan));
+    }
+
+    // Form submit
+    document.getElementById('form-latihan').addEventListener('submit', (e) => {
+        e.preventDefault();
+        const tgl   = document.getElementById('input-tgl-latihan').value;
+        const setId = document.getElementById('input-set-soal').value;
+
+        if (!tgl || !setId) return;
+
+        jadwalLatihan[tgl] = setId;
+        localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
+        renderTableLatihan();
+
+        const st = document.getElementById('status-latihan');
+        st.textContent = `✅ Jadwal ${tgl} berhasil ditambahkan!`;
+        st.className   = 'mt-4 text-sm font-bold text-green-600 block';
+        setTimeout(() => st.classList.add('hidden'), 3000);
+
+        document.getElementById('form-latihan').reset();
+    });
+
+    // Hapus satu jadwal latihan
+    window.deleteLatihan = function(tgl) {
+        if (confirm(`Hapus jadwal latihan tanggal ${tgl}?`)) {
+            delete jadwalLatihan[tgl];
+            localStorage.setItem(LATIHAN_KEY, JSON.stringify(jadwalLatihan));
+            renderTableLatihan();
+        }
+    }
+
+    // Inisialisasi render tabel latihan
+    document.addEventListener('DOMContentLoaded', () => {
+        checkAuth();
+        renderTable();
+        renderTableLatihan();
+    });
 </script>
