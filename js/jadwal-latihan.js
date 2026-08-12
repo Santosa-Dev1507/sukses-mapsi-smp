@@ -50,6 +50,12 @@ const infoLatihan = {
         ikon: "mosque",
         warna: "primary"
     },
+    "fikih-penyembelihan-kurban-akikah": {
+        judul: "Fikih",
+        subjudul: "Penyembelihan Hewan, Kurban, dan Akikah",
+        ikon: "mosque",
+        warna: "secondary"
+    },
     // Tambah set soal baru di sini (ID = nama file js/latihan/xxx.js):
     // "fikih-shalat-jamak":    { judul: "Fikih", subjudul: "Shalat Jamak & Qashar", ikon: "mosque", warna: "primary" },
     // "ski-daulah-abbasiyah":  { judul: "SKI",   subjudul: "Daulah Abbasiyah",       ikon: "history_edu", warna: "secondary" },
