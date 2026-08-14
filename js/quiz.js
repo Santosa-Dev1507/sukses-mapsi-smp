@@ -371,6 +371,7 @@ document.addEventListener("DOMContentLoaded", () => {
             action      : 'hasil',
             nama        : studentName,
             kelas       : studentClass,
+            paket       : year === '100' ? 'Simulasi 100 Soal PG' : `Soal Seleksi ${year}`,
             nilai,
             benar       : score,
             total       : totalPG,
