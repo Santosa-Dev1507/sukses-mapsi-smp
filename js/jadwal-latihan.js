@@ -4,12 +4,12 @@
 // Jadwal ini sebagai FALLBACK offline — jadwal utama dari Google Sheets
 // ═══════════════════════════════════════════════════════════
 const jadwalLatihan = {
-    // Agustus 2026 — Tim CCI SMPN 5 Klaten
+    // Agustus 2026 — Latihan Soal Lintas Bidang SMPN 5 Klaten
     "2026-08-14": "bab1-keimanan-cci",
     "2026-08-15": "bab2-ketakwaan-cci",
-    "2026-08-16": "paket-variasi-15",
-    "2026-08-17": "bab1-keimanan-cci",
-    "2026-08-18": "bab2-ketakwaan-cci",
+    "2026-08-16": "bab1-keimanan-cci",
+    "2026-08-17": "bab2-ketakwaan-cci",
+    "2026-08-18": "quran-cinta-tanah-air",
     "2026-08-19": "quran-cinta-tanah-air",
     // Agustus 2026 — Minggu 3-4: Keimanan
     "2026-08-20": "aqidah-keimanan-kitab-rasul",
@@ -42,12 +42,6 @@ const infoLatihan = {
         subjudul: "QS. Ali Imran/3:102 & QS. Luqman/31:33 — SMP Negeri 5 Klaten",
         ikon: "self_improvement",
         warna: "secondary"
-    },
-    "paket-variasi-15": {
-        judul: "Paket Variasi 15 Soal",
-        subjudul: "6 PG Standar + 2 Menjodohkan + 2 PG Kompleks + 5 Lintas Bidang",
-        ikon: "assignment_turned_in",
-        warna: "tertiary"
     },
     "quran-cinta-tanah-air": {
         judul: "Al-Qur'an & Hadis",
