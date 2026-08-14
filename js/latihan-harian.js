@@ -602,11 +602,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // ══════════════════════════════════════════════
     function kirimLaporan(benar, total, salahNomor, durasi) {
         const today   = getTodayStr();
-        const setId   = (typeof jadwalLatihan !== 'undefined') ? jadwalLatihan[today] : 'unknown';
-        const info    = (setId && typeof infoLatihan !== 'undefined') ? infoLatihan[setId] : null;
-        const topik   = info ? `${info.kelas} ${info.semester} ${info.bab} — ${info.judul}` : setId;
+        const id      = setIdDipilih || ((typeof jadwalLatihan !== 'undefined' && jadwalLatihan[today]) ? (Array.isArray(jadwalLatihan[today]) ? jadwalLatihan[today][0] : jadwalLatihan[today]) : 'latihan-harian');
+        const info    = (id && typeof infoLatihan !== 'undefined') ? infoLatihan[id] : null;
+        const topik   = info ? `${info.kelas || ''} ${info.semester || ''} ${info.bab || ''} — ${info.judul || id}`.trim() : (id || 'Latihan Harian');
 
-        const payload = new URLSearchParams({
+        const payload = {
             action    : 'latihan_harian',
             nama      : namaKini,
             kelas     : kelasKini,
@@ -617,13 +617,14 @@ document.addEventListener('DOMContentLoaded', () => {
             durasi    : durasi,
             salahNomor: salahNomor.join(','),
             timestamp : new Date().toISOString()
-        });
+        };
 
         fetch(SHEET_URL, {
-            method: 'POST',
-            body  : payload,
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
-        }).catch(() => {}); // silent fail — tidak ganggu UX siswa
+            method : 'POST',
+            mode   : 'no-cors',
+            headers: { 'Content-Type': 'application/json' },
+            body   : JSON.stringify(payload)
+        }).catch(err => console.error('Gagal kirim laporan harian:', err));
     }
 
     // ══════════════════════════════════════════════
