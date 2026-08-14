@@ -1,6 +1,7 @@
 // ═══════════════════════════════════════════════════════════
-// BAB 2 (SELASA) — KETAKWAAN
-// Tim CCI SMPN 5 Klaten — KISI-KISI MAPSI 2026
+// SMP NEGERI 5 KLATEN — BAB 2 (SELASA): KETAKWAAN
+// Latihan Soal Lintas Bidang — MAPSI 2026
+// Ayat Rujukan: QS. Ali Imran/3: 102 & QS. Luqman/31: 33
 // Format: 6 PG Standar + 2 Menjodohkan + 3 PG Kompleks + 5 Lintas Bidang
 // ═══════════════════════════════════════════════════════════
 const latihanData = [
