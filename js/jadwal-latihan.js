@@ -32,14 +32,14 @@ const jadwalLatihan = {
 // ═══════════════════════════════════════════════════════════
 const infoLatihan = {
     "bab1-keimanan-cci": {
-        judul: "Bab 1 (Senin): Keimanan",
-        subjudul: "QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 — SMP Negeri 5 Klaten",
+        judul: "BAB 1 Quran Hadis (SENIN)",
+        subjudul: "QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 - KEIMANAN",
         ikon: "verified_user",
         warna: "primary"
     },
     "bab2-ketakwaan-cci": {
-        judul: "Bab 2 (Selasa): Ketakwaan",
-        subjudul: "QS. Ali Imran/3:102 & QS. Luqman/31:33 — SMP Negeri 5 Klaten",
+        judul: "BAB 2 Quran Hadis (SELASA)",
+        subjudul: "QS. Ali Imran/3:102 & QS. Luqman/31:33 - KETAKWAAN",
         ikon: "self_improvement",
         warna: "secondary"
     },
