@@ -177,7 +177,7 @@
 
     <div class="grid md:grid-cols-1 gap-8">
         <!-- Simulasi 100 Soal PG -->
-        <a href="ruang-ujian.html?year=100" onclick="localStorage.setItem('quizYear', '100');" class="relative group block bg-surface-container-lowest rounded-[2.5rem] p-10 border border-outline-variant/15 shadow-xl hover:shadow-secondary/20 hover:border-secondary transition-all duration-300">
+        <a href="ruang-ujian.html?year=100" onclick="localStorage.setItem('quizYear', '100');" style="display: none;" class="simulasi-100-item relative group block bg-surface-container-lowest rounded-[2.5rem] p-10 border border-outline-variant/15 shadow-xl hover:shadow-secondary/20 hover:border-secondary transition-all duration-300">
             <div class="absolute top-0 right-8 -translate-y-1/2">
                 <span class="bg-secondary text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest shadow-sm">Simulasi Lomba</span>
             </div>
@@ -247,6 +247,25 @@
             setTimeout(() => overlay.classList.add('hidden'), 300);
         }
     }
+</script>
+
+<script>
+    // Timer Penampil Simulasi 100 Soal
+    (function() {
+        var targetDate = new Date("2026-08-14T23:59:00+07:00").getTime();
+        var now = new Date().getTime();
+        
+        function showSimulasiElements() {
+            var els = document.querySelectorAll('.simulasi-100-item');
+            els.forEach(function(el) { el.style.display = ''; });
+        }
+
+        if (now >= targetDate) {
+            showSimulasiElements();
+        } else {
+            setTimeout(showSimulasiElements, targetDate - now);
+        }
+    })();
 </script>
 </body></html>
 

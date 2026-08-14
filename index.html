@@ -130,7 +130,7 @@
                     <a href="latihan-soal.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
                         <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">quiz</span> Bank Soal
                     </a>
-                    <a href="ruang-ujian.html?year=100" onclick="localStorage.setItem('quizYear','100')" class="flex items-center gap-3 px-4 py-3 rounded-xl bg-secondary/10 text-secondary font-bold transition-all group hover:bg-secondary/20">
+                    <a href="ruang-ujian.html?year=100" onclick="localStorage.setItem('quizYear','100')" style="display: none;" class="simulasi-100-item flex items-center gap-3 px-4 py-3 rounded-xl bg-secondary/10 text-secondary font-bold transition-all group hover:bg-secondary/20">
                         <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">emoji_events</span> Simulasi 100 Soal
                     </a>
                     <a href="latihan-harian.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
@@ -215,7 +215,7 @@
                 </div>
 
                 <!-- Simulasi Lomba Banner -->
-                <a href="ruang-ujian.html?year=100" onclick="localStorage.setItem('quizYear','100')" class="relative group flex flex-col sm:flex-row items-center gap-6 bg-secondary rounded-[2rem] p-8 shadow-xl hover:shadow-secondary/30 hover:scale-[1.01] transition-all duration-300 overflow-hidden">
+                <a href="ruang-ujian.html?year=100" onclick="localStorage.setItem('quizYear','100')" style="display: none;" class="simulasi-100-item relative group flex flex-col sm:flex-row items-center gap-6 bg-secondary rounded-[2rem] p-8 shadow-xl hover:shadow-secondary/30 hover:scale-[1.01] transition-all duration-300 overflow-hidden">
                     <div class="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-[60px] -mr-20 -mt-20 pointer-events-none"></div>
                     <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center shrink-0">
                         <span class="material-symbols-outlined text-white text-4xl" style="font-variation-settings:'FILL' 1">emoji_events</span>
@@ -427,6 +427,25 @@
             }
         }
     });
+</script>
+
+<script>
+    // Timer Penampil Simulasi 100 Soal
+    (function() {
+        var targetDate = new Date("2026-08-14T23:59:00+07:00").getTime();
+        var now = new Date().getTime();
+        
+        function showSimulasiElements() {
+            var els = document.querySelectorAll('.simulasi-100-item');
+            els.forEach(function(el) { el.style.display = ''; });
+        }
+
+        if (now >= targetDate) {
+            showSimulasiElements();
+        } else {
+            setTimeout(showSimulasiElements, targetDate - now);
+        }
+    })();
 </script>
 </body></html>
 
