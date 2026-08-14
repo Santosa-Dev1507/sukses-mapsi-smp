@@ -4,18 +4,18 @@
 // Jadwal ini sebagai FALLBACK offline — jadwal utama dari Google Sheets
 // ═══════════════════════════════════════════════════════════
 const jadwalLatihan = {
-    // Agustus 2026 — Latihan Soal Lintas Bidang SMPN 5 Klaten
+    // Agustus 2026 — Paket Bab 1 - Bab 5 Lintas Bidang MAPSI
     "2026-08-14": "bab1-keimanan-cci",
     "2026-08-15": "bab2-ketakwaan-cci",
-    "2026-08-16": "bab1-keimanan-cci",
-    "2026-08-17": "bab2-ketakwaan-cci",
-    "2026-08-18": "quran-cinta-tanah-air",
-    "2026-08-19": "quran-cinta-tanah-air",
+    "2026-08-16": "bab3-toleransi-cci",
+    "2026-08-17": "bab4-cinta-tanah-air-cci",
+    "2026-08-18": "bab5-menuntut-ilmu-cci",
+    "2026-08-19": "bab1-keimanan-cci",
     // Agustus 2026 — Minggu 3-4: Keimanan
-    "2026-08-20": "aqidah-keimanan-kitab-rasul",
-    "2026-08-21": "aqidah-keimanan-kitab-rasul",
-    "2026-08-25": "aqidah-keimanan-kitab-rasul",
-    "2026-08-26": "aqidah-keimanan-kitab-rasul",
+    "2026-08-20": "bab2-ketakwaan-cci",
+    "2026-08-21": "bab3-toleransi-cci",
+    "2026-08-25": "bab4-cinta-tanah-air-cci",
+    "2026-08-26": "bab5-menuntut-ilmu-cci",
     "2026-08-27": "aqidah-keimanan-kitab-rasul",
     "2026-08-28": "aqidah-keimanan-kitab-rasul",
     // September 2026 — Rukhsah
@@ -42,6 +42,24 @@ const infoLatihan = {
         subjudul: "QS. Ali Imran/3:102 & QS. Luqman/31:33 - KETAKWAAN",
         ikon: "self_improvement",
         warna: "secondary"
+    },
+    "bab3-toleransi-cci": {
+        judul: "BAB 3 Quran Hadis (RABU)",
+        subjudul: "QS. Al-Baqarah/2:256 - TOLERANSI",
+        ikon: "handshake",
+        warna: "tertiary"
+    },
+    "bab4-cinta-tanah-air-cci": {
+        judul: "BAB 4 Quran Hadis (KAMIS)",
+        subjudul: "QS. Al-Qashas/28:85 & QS. An-Nisa/4:66 - CINTA TANAH AIR",
+        ikon: "flag",
+        warna: "error"
+    },
+    "bab5-menuntut-ilmu-cci": {
+        judul: "BAB 5 Quran Hadis (JUMAT)",
+        subjudul: "QS. Al-Mujadalah/58:11 & QS. Az-Zumar/39:9 - SEMANGAT MENUNTUT ILMU",
+        ikon: "school",
+        warna: "primary"
     },
     "quran-cinta-tanah-air": {
         judul: "Al-Qur'an & Hadis",
