@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // ══════════════════════════════════════════════════════════
     const SHEET_URL      = 'https://script.google.com/macros/s/AKfycbwQfgDcTK5fzkphsdawmcGpZjbOSwHAh_WadAie3UwCRLflSeFTLpFRIq4XGO81ykA1Iw/exec';
     const MAX_VIOLATIONS = 3;
-    const EXAM_DURATION  = 60 * 60; // detik
 
     // ══════════════════════════════════════════════════════════
     // STATE
@@ -18,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentIndex   = 0;
     let userAnswers    = [];
     let timerInterval  = null;
-    let timeLeft       = EXAM_DURATION;
+    let timeLeft       = 0; // diset setelah EXAM_DURATION ditentukan
     let examStarted    = false;
 
     // ══════════════════════════════════════════════════════════
@@ -27,7 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     let year = urlParams.get('year') || localStorage.getItem('quizYear');
 
-    if (year === '2026' && typeof quizData2026 !== 'undefined') {
+    // Durasi ujian: 40 menit untuk simulasi 100 soal, 60 menit untuk lainnya
+    const EXAM_DURATION = (year === '100') ? 40 * 60 : 60 * 60;
+    timeLeft = EXAM_DURATION; // inisialisasi setelah durasi diketahui
+
+    if (year === '100' && typeof quizDataSimulasi100 !== 'undefined') {
+        quizData = quizDataSimulasi100;
+    } else if (year === '2026' && typeof quizData2026 !== 'undefined') {
         quizData = quizData2026;
     } else if (year === '2025' && typeof quizData2025 !== 'undefined') {
         quizData = quizData2025;
@@ -287,6 +292,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // ══════════════════════════════════════════════════════════
     function startTimer() {
         if (!dom.timerDisplay) return;
+
+        // Tampilkan label durasi ujian di atas timer
+        const totalMenit = Math.floor(EXAM_DURATION / 60);
+        if (dom.timerDisplay.parentElement) {
+            const existingLabel = dom.timerDisplay.parentElement.querySelector('.timer-label');
+            if (!existingLabel) {
+                const label = document.createElement('div');
+                label.className = 'timer-label text-xs text-on-surface-variant/70 text-center mb-1';
+                label.textContent = `Durasi: ${totalMenit} Menit`;
+                dom.timerDisplay.parentElement.insertBefore(label, dom.timerDisplay);
+            }
+        }
+
+        // Ambang peringatan merah: 5 menit untuk 100 soal, 10 menit untuk lainnya
+        const WARNING_THRESHOLD = (year === '100') ? 5 * 60 : 10 * 60;
+
         timerInterval = setInterval(() => {
             if (timeLeft <= 0) {
                 clearInterval(timerInterval);
@@ -299,8 +320,8 @@ document.addEventListener("DOMContentLoaded", () => {
             const s = String(timeLeft % 60).padStart(2, '0');
             dom.timerDisplay.textContent = `${m}:${s}`;
 
-            // Peringatan merah saat < 10 menit
-            if (timeLeft === 10 * 60) {
+            // Peringatan merah saat mendekati waktu habis
+            if (timeLeft === WARNING_THRESHOLD) {
                 dom.timerDisplay.classList.remove('text-secondary');
                 dom.timerDisplay.classList.add('text-error', 'animate-pulse');
             }
