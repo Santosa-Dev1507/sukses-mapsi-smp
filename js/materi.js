@@ -128,7 +128,7 @@ const materiData = [
 <!-- Rangkuman Perbedaan -->
 <h4 class="font-bold text-lg mb-4 text-on-surface mt-8">Rangkuman Perbedaan Singkat</h4>
 <div class="overflow-x-auto rounded-xl border border-outline-variant/20 mb-8">
-    <table class="w-full text-left border-collapse text-sm">
+    <table class="w-full text-left border-collapse text-sm min-w-[600px]">
         <thead>
             <tr class="bg-surface-container-low text-on-surface">
                 <th class="p-4 font-bold border-b border-outline-variant/20">Karakteristik</th>
@@ -683,7 +683,7 @@ const materiData = [
 <p class="text-sm text-on-surface-variant mb-4">Masa perkembangan keilmuan Bani Umayyah terbagi menjadi dua fase besar, yaitu <strong>Periode Damaskus</strong> (fase rintisan awal) dan <strong>Periode Andalusia/Spanyol</strong> (fase puncak keemasan di Barat).</p>
 
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Nama Ilmuwan</th>
@@ -834,7 +834,7 @@ const materiData = [
 <!-- Bagian 7: Istilah Kunci -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
@@ -856,7 +856,7 @@ const materiData = [
         
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">8. Daftar Cendekiawan & Ilmuwan Masa Daulah Bani Umayyah</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-left border-collapse">
+    <table class="w-full text-left border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-primary text-on-primary">
                 <th class="p-4 border-b border-primary/20">No</th>
@@ -1576,7 +1576,7 @@ const materiData = [
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">6. Uzur (Halangan) Shalat Jumat</h3>
 <p class="text-sm text-on-surface-variant leading-relaxed mb-4">Seseorang diberikan keringanan (<em>rukhshah</em>) untuk tidak melaksanakan shalat Jumat dan wajib menggantinya dengan shalat Zuhur 4 rakaat di rumah jika mengalami uzur berikut:</p>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Jenis Uzur</th>
@@ -1617,7 +1617,7 @@ const materiData = [
 <!-- Bagian 7: Istilah Kunci -->
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">7. Istilah Kunci (Kosakata Fiqih)</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-primary/10">
                 <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Istilah</th>
@@ -1760,7 +1760,7 @@ const materiData = [
 <p class="text-sm text-on-surface-variant mb-4">Masa keemasan (<em>The Golden Age</em>) di bawah naungan <strong>Baitul Hikmah</strong> di Baghdad melahirkan jajaran ilmuwan raksasa yang menjadi fondasi sains modern dunia.</p>
 
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Nama Ilmuwan</th>
@@ -1924,7 +1924,7 @@ const materiData = [
 <!-- Bagian 7: Istilah Kunci -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah SKI</th>
@@ -1946,7 +1946,7 @@ const materiData = [
         
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">8. Daftar Cendekiawan & Ilmuwan Masa Daulah Bani Abbasiyah</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-left border-collapse">
+    <table class="w-full text-left border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-primary text-on-primary">
                 <th class="p-4 border-b border-primary/20">No</th>
@@ -2179,7 +2179,7 @@ const materiData = [
 
 <!-- Rangkuman Tabel -->
 <div class="overflow-x-auto mb-8">
-    <table class="min-w-full text-left text-sm whitespace-nowrap bg-white rounded-2xl overflow-hidden border border-outline-variant/20">
+    <table class="min-w-full text-left text-sm  bg-white rounded-2xl overflow-hidden border border-outline-variant/20">
         <thead class="bg-surface-container-low text-on-surface">
             <tr>
                 <th scope="col" class="px-6 py-4 font-bold">Jenis Tajwid</th>
@@ -2616,7 +2616,7 @@ const materiData = [
 <!-- Bagian 5: Larangan Ihram -->
 <h3 class="font-headline text-2xl font-bold text-error mt-12 mb-6">5. Larangan selama Ihram</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-error/10">
                 <th class="text-left p-3 font-bold text-error border-b border-outline-variant/20">Kategori</th>
@@ -2657,7 +2657,7 @@ const materiData = [
 <!-- Bagian 6: Metode Pelaksanaan -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">6. Metode Pelaksanaan Haji & Umrah</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Nama Metode</th>
@@ -2688,7 +2688,7 @@ const materiData = [
 <!-- Bagian 7: Istilah Kunci -->
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">7. Istilah Kunci (Kosakata Fiqih)</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead><tr class="bg-primary/10"><th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Istilah</th><th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Makna Singkat</th></tr></thead>
         <tbody class="text-on-surface-variant">
             <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Miqat</td><td class="p-3">Batas ketentuan tempat/waktu untuk memulai niat ihram</td></tr>
@@ -2791,7 +2791,7 @@ const materiData = [
 <!-- Bagian 3: Tokoh dan Ilmuwan -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Tokoh-Tokoh Terkait</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Tokoh</th>
@@ -2890,7 +2890,7 @@ const materiData = [
 <!-- Bagian 7: Istilah Kunci -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
@@ -3006,7 +3006,7 @@ const materiData = [
     <p class="text-sm text-on-surface-variant mb-4">Terjadi apabila ada nun sukun atau tanwin bertemu dengan huruf hijaiyah. Hukum bacaannya dibagi menjadi 5 jenis:</p>
     
     <div class="overflow-x-auto">
-        <table class="min-w-full text-left text-sm whitespace-nowrap bg-white rounded-2xl overflow-hidden border border-outline-variant/20 shadow-sm">
+        <table class="min-w-full text-left text-sm  bg-white rounded-2xl overflow-hidden border border-outline-variant/20 shadow-sm">
             <thead class="bg-surface-container-low text-on-surface">
                 <tr>
                     <th scope="col" class="px-6 py-4 font-bold">Hukum Bacaan</th>
@@ -3566,7 +3566,7 @@ const materiData = [
 <!-- Bagian 6: Klasifikasi -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">6. Penanganan Jenazah Khusus</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead><tr class="bg-tertiary/10"><th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Jenis Jenazah</th><th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Ketentuan</th><th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Hukum</th></tr></thead>
         <tbody class="text-on-surface-variant">
             <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Muslim Biasa</td><td class="p-3">4 tahapan lengkap</td><td class="p-3">Fardhu Kifayah</td></tr>
@@ -3579,7 +3579,7 @@ const materiData = [
 <!-- Bagian 7: Istilah Kunci -->
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">7. Istilah Kunci (Kosakata Fiqih)</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead><tr class="bg-primary/10"><th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Istilah</th><th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Makna Singkat</th></tr></thead>
         <tbody class="text-on-surface-variant">
             <tr class="border-b border-outline-variant/10"><td class="p-3 font-semibold">Fardhu Kifayah</td><td class="p-3">Kewajiban kolektif yang jika dikerjakan sebagian, yang lain terbebas</td></tr>
@@ -3726,7 +3726,7 @@ const materiData = [
 <!-- Bagian 3: Tokoh dan Ilmuwan -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Tokoh-Tokoh Terkait</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Tokoh</th>
@@ -3850,7 +3850,7 @@ const materiData = [
 <!-- Bagian 7: Istilah Kunci -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
@@ -3863,6 +3863,212 @@ const materiData = [
 </div>
         `
     }, {
+        "id": "kls9-smtganjil-bab1",
+        "kelas": 9,
+        "semester": "Ganjil",
+        "bab": "Bab 1",
+        "judul": "Semangat Mencari Ilmu dalam Islam",
+        "waktuBumper": "7 Menit Baca",
+        "gambar": "images/islamic_calligraphy.png",
+        "konten": "\n<p class=\"text-on-surface-variant leading-relaxed text-lg mb-8\">\n    Dalam Islam, mencari ilmu itu hukumnya <strong>wajib</strong> bagi setiap Muslim, laki-laki maupun perempuan. Dengan ilmu, kita bisa lebih mengenal Allah Swt., memahami ajaran agama dengan benar, dan meraih kesuksesan di dunia dan akhirat. Allah Swt. sangat menghargai orang yang beriman dan berilmu.\n</p>\n\n<div class=\"bg-primary/5 border-l-4 border-primary rounded-r-3xl p-8 my-10 relative overflow-hidden\">\n    <div class=\"flex items-center gap-4 mb-4\">\n        <span class=\"material-symbols-outlined text-primary text-3xl\">psychology</span>\n        <h3 class=\"font-headline text-xl font-bold text-on-surface\">Mengapa Mencari Ilmu itu Penting?</h3>\n    </div>\n    <p class=\"text-on-surface-variant text-lg leading-relaxed\">\n        Ilmu adalah cahaya kehidupan. Tanpa ilmu, kita akan tersesat dalam kegelapan ketidaktahuan. Islam memposisikan ilmu sebagai kunci utama untuk menjalankan ibadah dengan benar dan mengelola bumi sebagai khalifah.\n    </p>\n</div>\n\n<h3 class=\"font-headline text-2xl font-bold text-primary mt-12 mb-6\">Ayat Al-Qur'an tentang Keutamaan Ilmu</h3>\n\n<!-- Q.S. al-Mujadilah [58] ayat 11 -->\n<div class=\"mb-12\">\n    <h4 class=\"font-bold text-lg text-on-surface mb-4\">1. Q.S. al-Mujadilah [58] ayat 11</h4>\n    <div class=\"bg-surface-container-low border border-outline-variant/30 rounded-[2rem] p-8 mb-6 relative\">\n        <div class=\"text-right font-quran text-4xl leading-[2.5] mb-8 text-on-surface\" dir=\"rtl\">\n            يٰٓاَيُّهَا الَّذِيْنَ اٰمَنُوْٓا اِذَا قِيْلَ لَكُمْ تَفَسَّحُوْا فِى الْمَجٰلِسِ فَافْسَحُوْا يَفْسَحِ اللّٰهُ لَكُمْۚ وَاِذَا قِيْلَ انْشُزُوْا فَانْشُزُوْا يَرْفَعِ اللّٰهُ الَّذِيْنَ اٰمَنُوْا مِنْكُمْۙ وَالَّذِيْنَ اُوْتُوا الْعِلْمَ دَرَجٰتٍۗ وَاللّٰهُ بِمَا تَعْمَلُوْنَ خَبِيْرٌࣖ\n        </div>\n        <div class=\"font-body italic text-on-surface-variant text-lg border-t border-outline-variant/20 pt-6\">\n            \"Wahai orang-orang beriman! Kalau ada yang bilang 'beri kelapangan dong di tempat duduk,' maka lapangkanlah, nanti Allah akan beri kelapangan untukmu. Kalau disuruh 'berdiri,' ya berdirilah. Allah akan mengangkat derajat orang-orang yang beriman dan orang-orang yang diberi ilmu beberapa tingkat lebih tinggi. Allah Maha Teliti dengan apa yang kamu kerjakan.\"\n        </div>\n    </div>\n    <div class=\"flex items-start gap-3 bg-secondary-container/20 p-5 rounded-2xl\">\n        <span class=\"material-symbols-outlined text-secondary\">info</span>\n        <p class=\"text-on-surface-variant text-sm\"><strong>Pesan Penting:</strong> Ayat ini menunjukkan bahwa orang yang beriman dan berilmu akan ditinggikan derajatnya oleh Allah Swt. Selain itu, kita juga diajarkan adab dalam majelis (tempat berkumpul) seperti memberi tempat kepada orang lain.</p>\n    </div>\n</div>\n\n<!-- Q.S. az-Zumar [39] ayat 9 -->\n<div class=\"mb-12\">\n    <h4 class=\"font-bold text-lg text-on-surface mb-4\">2. Q.S. az-Zumar [39] ayat 9</h4>\n    <div class=\"bg-surface-container-low border border-outline-variant/30 rounded-[2rem] p-8 mb-6 relative\">\n        <div class=\"text-right font-quran text-4xl leading-[2.5] mb-8 text-on-surface\" dir=\"rtl\">\n            اَمَّنْ هُوَ قَانِتٌ اٰنَاۤءَ الَّيْلِ سَاجِدًا وَّقَاۤىِٕمًا يَّحْذَرُ الْاٰخِرَةَ وَيَرْجُوْا رَحْمَةَ رَبِّهٖۗ قُلْ هَلْ يَسْتَوِى الَّذِيْنَ يَعْلَمُوْنَ وَالَّذِيْنَ لَا يَعْلَمُوْنَ ۗ اِنَّمَا يَتَذَكَّرُ اُولُوا الْاَلْبَابِࣖ\n        </div>\n        <div class=\"font-body italic text-on-surface-variant text-lg border-t border-outline-variant/20 pt-6\">\n            \"Katakanlah (Nabi Muhammad), 'Apakah sama orang-orang yang mengetahui (berilmu) dengan orang-orang yang tidak mengetahui (tidak berilmu)?' Hanya orang yang berakal sehat (Ulul Albab) yang dapat mengambil pelajaran.\"\n        </div>\n    </div>\n    <div class=\"flex items-start gap-3 bg-secondary-container/20 p-5 rounded-2xl\">\n        <span class=\"material-symbols-outlined text-secondary\">info</span>\n        <p class=\"text-on-surface-variant text-sm\"><strong>Pesan Penting:</strong> Ayat ini jelas membedakan antara orang yang berilmu dan yang tidak. Orang berilmu memiliki kedudukan yang lebih baik. Hanya orang yang mau menggunakan akalnya yang bisa memahami pelajaran ini.</p>\n    </div>\n</div>\n\n<h3 class=\"font-headline text-2xl font-bold text-primary mt-12 mb-6\">Hadis tentang Mencari Ilmu</h3>\n<div class=\"bg-primary/5 rounded-[2rem] p-8 mb-12\">\n    <div class=\"text-right font-quran text-3xl leading-loose mb-6 text-on-surface\" dir=\"rtl\">\n        مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ طَرِيقًا إِلَى الْجَنَّةِ\n    </div>\n    <p class=\"font-body italic text-on-surface-variant text-lg text-center bg-white/50 p-4 rounded-xl\">\n        \"Barangsiapa menempuh suatu jalan untuk mencari ilmu, maka Allah akan mudahkan baginya jalan menuju surga.\" (HR. Muslim)\n    </p>\n</div>\n\n<h3 class=\"font-headline text-2xl font-bold text-primary mt-12 mb-6\">Pentingnya Tajwid: Mengenal Tanda Waqaf</h3>\n<p class=\"text-on-surface-variant leading-relaxed text-lg mb-8\">\n    Waqaf artinya berhenti sejenak saat membaca Al-Qur'an, biasanya untuk mengambil nafas, lalu melanjutkan bacaan lagi. Mari kita kenali tanda-tandanya:\n</p>\n\n<div class=\"grid grid-cols-2 md:grid-cols-4 gap-4 mb-12\">\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">م</span>\n        <span class=\"text-sm font-bold\">Waqaf Lazim</span>\n        <span class=\"text-xs text-on-surface-variant\">Harus Berhenti</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">ط</span>\n        <span class=\"text-sm font-bold\">Waqaf Mutlaq</span>\n        <span class=\"text-xs text-on-surface-variant\">Harus Berhenti</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">ج</span>\n        <span class=\"text-sm font-bold\">Waqaf Jaiz</span>\n        <span class=\"text-xs text-on-surface-variant\">Boleh Berhenti/Lanjut</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">لا</span>\n        <span class=\"text-sm font-bold\">La Waqfu Fih</span>\n        <span class=\"text-xs text-on-surface-variant\">Jangan Berhenti</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">صلى</span>\n        <span class=\"text-sm font-bold\">Washal Aula</span>\n        <span class=\"text-xs text-on-surface-variant\">Lebih Baik Lanjut</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">قلى</span>\n        <span class=\"text-sm font-bold\">Waqaf Aula</span>\n        <span class=\"text-xs text-on-surface-variant\">Lebih Baik Berhenti</span>\n    </div>\n     <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">سكتة</span>\n        <span class=\"text-sm font-bold\">Saktah</span>\n        <span class=\"text-xs text-on-surface-variant\">Berhenti Tanpa Nafas</span>\n    </div>\n    <div class=\"p-4 bg-white rounded-2xl border-2 border-primary/10 flex flex-col items-center text-center\">\n        <span class=\"text-4xl font-quran font-bold text-primary mb-2\">∴ ∴</span>\n        <span class=\"text-sm font-bold\">Mu'anaqah</span>\n        <span class=\"text-xs text-on-surface-variant\">Berhenti di Salah Satu</span>\n    </div>\n</div>\n\n<h3 class=\"font-headline text-2xl font-bold text-primary mt-12 mb-8\">Bagaimana Menunjukkan Semangat Mencari Ilmu?</h3>\n<div class=\"space-y-4 mb-12\">\n    <div class=\"flex items-center gap-6 p-6 bg-surface-container-low rounded-3xl hover:bg-white transition-colors border border-outline-variant/10\">\n        <div class=\"w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center shrink-0\">\n             <span class=\"material-symbols-outlined text-primary\">volunteer_activism</span>\n        </div>\n        <div>\n            <h4 class=\"font-bold text-lg\">Niat Ikhlas & Berdoa</h4>\n            <p class=\"text-on-surface-variant\">Belajar karena Allah Swt. dan selalu meminta ilmu yang bermanfaat.</p>\n        </div>\n    </div>\n    <div class=\"flex items-center gap-6 p-6 bg-surface-container-low rounded-3xl hover:bg-white transition-colors border border-outline-variant/10\">\n        <div class=\"w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center shrink-0\">\n             <span class=\"material-symbols-outlined text-primary\">model_training</span>\n        </div>\n        <div>\n            <h4 class=\"font-bold text-lg\">Sungguh-sungguh & Antusias</h4>\n            <p class=\"text-on-surface-variant\">Rajin belajar, tidak menyerah, dan aktif bertanya kepada guru.</p>\n        </div>\n    </div>\n    <div class=\"flex items-center gap-6 p-6 bg-surface-container-low rounded-3xl hover:bg-white transition-colors border border-outline-variant/10\">\n        <div class=\"w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center shrink-0\">\n             <span class=\"material-symbols-outlined text-primary\">groups</span>\n        </div>\n        <div>\n            <h4 class=\"font-bold text-lg\">Hormat & Rendah Hati</h4>\n            <p class=\"text-on-surface-variant\">Sopan kepada guru dan tetap tawadhu dengan ilmu yang dimiliki.</p>\n        </div>\n    </div>\n</div>\n\n<div class=\"p-10 bg-gradient-to-br from-primary to-primary-container text-white rounded-[3rem] shadow-xl text-center\">\n    <h4 class=\"text-2xl font-headline font-bold mb-4\">Ingatlah!</h4>\n    <p class=\"text-lg opacity-90 leading-relaxed\">\n        Dengan ilmu, Allah akan mengangkat derajat kita, memudahkan jalan ke surga, dan membantu kita menyelesaikan masalah dalam hidup. Jadilah generasi Muslim yang cerdas, berakhlak mulia, dan bermanfaat bagi sesama!\n    </p>\n</div>\n"
+    },
+    {
+        "id": "kls9-smtganjil-bab2",
+        "kelas": 9,
+        "semester": "Ganjil",
+        "bab": "Bab 2",
+        "judul": "Meyakini Hari Akhir dengan Mawas Diri",
+        "waktuBumper": "14 Menit Baca",
+        "gambar": "images/islamic_calligraphy.png",
+        "konten": `
+
+<p class="text-on-surface-variant leading-relaxed text-lg mb-8">
+    Mengimani Hari Akhir adalah rukun iman yang kelima. Hari Akhir disebut juga hari kiamat, di mana tidak ada hari lagi setelahnya. Mempercayai Hari Akhir membuat kita lebih berhati-hati dan mawas diri dalam menjalani hidup serta mendorong seseorang untuk beramal saleh karena mengharapkan kenikmatan di akhirat kelak.
+</p>
+
+<!-- Pengertian dan Dalil -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6 flex items-center">
+    <span class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mr-4 shrink-0">
+        <span class="material-symbols-outlined text-[24px]">menu_book</span>
+    </span>
+    Pengertian dan Dalil Iman Kepada Hari Akhir
+</h3>
+<p class="text-on-surface-variant leading-relaxed text-md mb-6">
+    Iman kepada Hari Akhir berarti meyakini bahwa hari akhir pasti akan terjadi atas kehendak Allah Swt.
+</p>
+
+<!-- Dalil Al-Hajj 7 -->
+<div class="bg-primary/5 border-l-4 border-primary rounded-r-3xl p-8 mb-12 relative overflow-hidden">
+    <div class="text-right font-quran text-4xl leading-[2.5] mb-6 text-on-surface" dir="rtl">
+        وَأَنَّ السَّاعَةَ أَتِيَةٌ لَّا رَيْبَ فِيهَا وَأَنَّ اللَّهَ يَبْعَثُ مَنْ فِي الْقُبُوْرِ
+    </div>
+    <div class="font-body italic text-on-surface-variant text-md pt-4 border-t border-outline-variant/20">
+        "Sesungguhnya kiamat itu pasti datang, tidak ada keraguan padanya dan sesungguhnya Allah akan membangkitkan siapa pun yang di dalam kubur." <br/><strong>(Q.S. al-Hajj [22]: 7)</strong>
+    </div>
+</div>
+
+<!-- Jenis Kiamat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-16 mb-8 text-center">Dua Jenis Kiamat</h3>
+<div class="space-y-8 mb-16">
+    
+    <!-- Kiamat Sugra -->
+    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-outline-variant/10 hover:shadow-xl transition-all">
+        <div class="flex items-center gap-4 mb-6">
+            <div class="w-14 h-14 bg-secondary-container rounded-2xl flex items-center justify-center shrink-0">
+                <span class="material-symbols-outlined text-on-secondary-container text-3xl">hourglass_bottom</span>
+            </div>
+            <h4 class="font-bold text-xl">1. Kiamat Sugra (Kiamat Kecil)</h4>
+        </div>
+        <p class="text-on-surface-variant leading-relaxed text-md mb-6">
+            Adalah berakhirnya kehidupan sebagian makhluk di dunia ini. Contoh kiamat sugra meliputi <strong>kematian</strong> setiap makhluk bernyawa dan <strong>bencana alam</strong> (banjir, gempa bumi, gunung meletus).
+        </p>
+        
+        <div class="grid md:grid-cols-2 gap-4">
+            <div class="bg-surface-container-low p-6 rounded-2xl">
+                <h5 class="font-bold mb-2">Tentang Kematian</h5>
+                <div class="text-right font-quran text-xl mb-3 text-on-surface" dir="rtl">أَيْنَ مَا تَكُونُوا يُدْرِكُكُمُ الْمَوْتُ...</div>
+                <div class="text-sm italic text-on-surface-variant mb-2">"Dimana pun kamu berada, kematian akan mendapatkan kamu, kendatipun kamu berada di dalam benteng yang tinggi dan kukuh." <strong>(Q.S. an-Nisa': 78)</strong></div>
+                <div class="text-xs text-on-surface-variant mt-2 border-t border-outline-variant/20 pt-2">Amal terputus kecuali: sedekah jariyah, ilmu bermanfaat, anak saleh yang mendoakan.</div>
+            </div>
+            <div class="bg-surface-container-low p-6 rounded-2xl">
+                <h5 class="font-bold mb-2">Tentang Musibah</h5>
+                <div class="text-right font-quran text-xl mb-3 text-on-surface" dir="rtl">...وَبَشِّرِ الصَّبِرِينَ الَّذِينَ إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُوْنَ</div>
+                <div class="text-sm italic text-on-surface-variant">Sikap terbaik saat tertimpa musibah adalah bersabar dan mengucapkan kalimat istirja' (Inna lillahi wa inna ilaihi raji'un). <strong>(Q.S. Al-Baqarah: 155-156)</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kiamat Kubra -->
+    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-error/20 hover:shadow-xl transition-all">
+        <div class="flex items-center gap-4 mb-6">
+            <div class="w-14 h-14 bg-error-container rounded-2xl flex items-center justify-center shrink-0">
+                <span class="material-symbols-outlined text-on-error-container text-3xl">public_off</span>
+            </div>
+            <h4 class="font-bold text-xl text-error">2. Kiamat Kubra (Kiamat Besar)</h4>
+        </div>
+        <p class="text-on-surface-variant leading-relaxed text-md mb-6">
+            Adalah kehancuran alam semesta dan seluruh isinya. Kiamat kubra belum terjadi dan hanya Allah Swt. yang tahu kapan terjadinya. Digambarkan dengan ditiupnya sangkakala, langit terpecah, gunung dihamburkan, dan bumi berguncang hebat.
+        </p>
+        <div class="bg-error/5 p-6 rounded-2xl mb-6">
+            <div class="text-right font-quran text-2xl mb-4 text-on-surface" dir="rtl">إِنَّ مَا تُوْعَدُونَ لَأْتٌ وَمَا أَنْتُمْ بِمُعْجِزِينَ</div>
+            <div class="text-sm italic text-on-surface-variant">"Sesungguhnya apa pun yang dijanjikan kepadamu pasti datang dan kamu tidak mampu menolaknya." <strong>(Q.S. al-An'am [6]: 134)</strong></div>
+        </div>
+        <div class="flex items-start gap-4">
+            <span class="material-symbols-outlined text-error">warning</span>
+            <div class="text-sm text-on-surface-variant">
+                <strong>Tanda-tanda Kiamat Kubra:</strong> Keluarnya Dajal, turunnya Imam Mahdi dan Nabi Isa a.s., munculnya Yakjuj dan Makjuj, awan hitam (dukhan), terbitnya matahari dari barat, dan munculnya binatang melata.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Rangkaian Peristiwa Di Akhirat -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-16 mb-8 text-center">Rangkaian Peristiwa di Akhirat</h3>
+<div class="relative overflow-hidden p-10 bg-surface-container-highest rounded-[3rem] mb-16">
+    <div class="space-y-6">
+        
+        <div class="flex gap-6">
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">1</div>
+                <div class="w-1 bg-primary/20 h-full -my-2"></div>
+            </div>
+            <div class="pb-8">
+                <h4 class="font-bold text-xl mb-2">Yaumul Barzakh (Alam Kubur)</h4>
+                <p class="text-sm text-on-surface-variant">Batas antara alam dunia dan akhirat tempat menunggu hari kebangkitan. Manusia ditanyai malaikat Munkar dan Nakir. Perbanyak amal agar terhindar dari siksa kubur.</p>
+            </div>
+        </div>
+
+        <div class="flex gap-6">
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">2</div>
+                <div class="w-1 bg-primary/20 h-full -my-2"></div>
+            </div>
+            <div class="pb-8">
+                <h4 class="font-bold text-xl mb-2">Yaumul Ba'ats</h4>
+                <p class="text-sm text-on-surface-variant">Hari dibangkitkannya semua manusia dari alam kubur menuju Padang Mahsyar setelah tiupan sangkakala kedua oleh Malaikat Israfil.</p>
+            </div>
+        </div>
+
+        <div class="flex gap-6">
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">3</div>
+                <div class="w-1 bg-primary/20 h-full -my-2"></div>
+            </div>
+            <div class="pb-8">
+                <h4 class="font-bold text-xl mb-2">Yaumul Mahsyar (Yaumul Hasyr)</h4>
+                <p class="text-sm text-on-surface-variant">Hari dikumpulkannya seluruh manusia di Padang Mahsyar untuk menerima catatan amal perbuatan. Setiap orang sibuk dengan dirinya sendiri.</p>
+            </div>
+        </div>
+
+        <div class="flex gap-6">
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">4</div>
+                <div class="w-1 bg-primary/20 h-full -my-2"></div>
+            </div>
+            <div class="pb-8">
+                <h4 class="font-bold text-xl mb-2">Yaumul Hisab</h4>
+                <p class="text-sm text-on-surface-variant">Hari perhitungan amal perbuatan manusia. Anggota tubuh akan bersaksi. Amal yang pertama dihisab adalah ibadah salat.</p>
+            </div>
+        </div>
+
+        <div class="flex gap-6">
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">5</div>
+                <div class="w-1 bg-primary/20 h-full -my-2"></div>
+            </div>
+            <div class="pb-8">
+                <h4 class="font-bold text-xl mb-2">Yaumul Mizan</h4>
+                <p class="text-sm text-on-surface-variant mb-4">Hari ditimbangnya amal perbuatan manusia. Sekecil apapun perbuatan akan ditimbang secara presisi dan maha adil.</p>
+                <div class="p-4 bg-white/50 rounded-xl italic text-xs text-on-surface-variant border border-outline-variant/10">
+                    "Dan Kami akan memasang timbangan yang tepat pada hari Kiamat, maka tidak seorang pun dirugikan walau sedikit; sekalipun hanya seberat biji sawi..." <strong>(Q.S. al-Anbiya' [21]: 47)</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex gap-6">
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">6</div>
+                <div class="w-1 bg-primary/20 h-full -my-2"></div>
+            </div>
+            <div class="pb-8">
+                <h4 class="font-bold text-xl mb-2">Yaumul Jaza</h4>
+                <p class="text-sm text-on-surface-variant">Hari pembalasan. Jika timbangan amal baik lebih berat, surga balasannya. Jika lebih ringan, neraka adalah tempatnya.</p>
+            </div>
+        </div>
+
+        <div class="flex gap-6">
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl z-10 shadow-lg">7</div>
+            </div>
+            <div>
+                <h4 class="font-bold text-xl mb-2">Surga dan Neraka</h4>
+                <p class="text-sm text-on-surface-variant">Tempat terakhir penuh kenikmatan abadi (Surga) bagi yang beramal saleh, dan tempat penyiksaan amat pedih (Neraka) bagi yang membangkang.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Hikmah Mawas Diri -->
+<h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">Mawas Diri Sebagai Hikmah</h3>
+<div class="bg-gradient-to-br from-primary to-primary-container p-10 rounded-[3rem] text-white shadow-xl flex flex-col md:flex-row items-center gap-8 mb-12">
+    <div class="w-24 h-24 bg-white/30 rounded-full flex items-center justify-center shrink-0">
+        <span class="material-symbols-outlined text-5xl">psychology_alt</span>
+    </div>
+    <div>
+        <h4 class="text-2xl font-headline font-bold mb-3">Sikap Hati-hati</h4>
+        <p class="text-lg opacity-90 leading-relaxed mb-4">
+            Mengimani Hari Akhir membuat kita selalu mawas diri (hati-hati dan waspada) terhadap hal negatif, karena sadar bahwa setiap perbuatan di dunia adalah bekal untuk pengadilan Allah di akhirat kelak.
+        </p>
+        <p class="text-md opacity-90">
+            Gunakan kekuatan masa muda, fisik yang sehat, dan waktu luang untuk memperbanyak ibadah wajib dan sunah, menuntut ilmu, dan berbuat kebaikan kepada sesama secara adil dan bertanggung jawab!
+        </p>
+    </div>
+</div>
+
+        `
+    },
+    {
         "id": "kls9-smtganjil-bab3",
         "kelas": 9,
         "semester": "Ganjil",
@@ -4265,7 +4471,7 @@ const materiData = [
 <!-- Bagian 3: Tokoh -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Tokoh-Tokoh Terkait</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Tokoh</th>
@@ -4373,7 +4579,7 @@ const materiData = [
 <!-- Bagian 7: Istilah Kunci -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
@@ -4393,7 +4599,7 @@ const materiData = [
 <!-- Bagian 8: Daftar Cendekiawan -->
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">8. Daftar Cendekiawan &amp; Ilmuwan Masa Daulah Syafawi</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-primary/10">
                 <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">No</th>
@@ -4505,7 +4711,7 @@ const materiData = [
 
 <!-- Tabel Mad -->
 <div class="overflow-x-auto mb-12">
-    <table class="min-w-full text-left text-sm whitespace-nowrap bg-white rounded-2xl overflow-hidden border border-outline-variant/20 shadow-sm">
+    <table class="min-w-full text-left text-sm  bg-white rounded-2xl overflow-hidden border border-outline-variant/20 shadow-sm">
         <thead class="bg-surface-container-low text-on-surface">
             <tr>
                 <th scope="col" class="px-6 py-4 font-bold">Nama Mad</th>
@@ -5027,7 +5233,7 @@ const materiData = [
 <!-- Bagian 6: Klasifikasi Rukhsah -->
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">6. Macam-Macam Bentuk Rukhsah</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-primary/10">
                 <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">Bidang</th>
@@ -5064,7 +5270,7 @@ const materiData = [
 <!-- Bagian 7: Istilah Kunci -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata Fiqih)</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
@@ -5225,7 +5431,7 @@ const materiData = [
 <!-- Bagian 3: Tokoh -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">3. Tokoh-Tokoh Terkait</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Tokoh</th>
@@ -5336,7 +5542,7 @@ const materiData = [
 <!-- Bagian 7: Istilah Kunci -->
 <h3 class="font-headline text-2xl font-bold text-tertiary mt-12 mb-6">7. Istilah Kunci (Kosakata)</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-tertiary/10">
                 <th class="text-left p-3 font-bold text-tertiary border-b border-outline-variant/20">Istilah</th>
@@ -5356,7 +5562,7 @@ const materiData = [
 <!-- Bagian 8: Daftar Cendekiawan -->
 <h3 class="font-headline text-2xl font-bold text-primary mt-12 mb-6">8. Daftar Cendekiawan &amp; Karya Sastra Masa Daulah Mughal</h3>
 <div class="overflow-x-auto mb-12">
-    <table class="w-full text-sm border-collapse">
+    <table class="w-full text-sm border-collapse min-w-[600px]">
         <thead>
             <tr class="bg-primary/10">
                 <th class="text-left p-3 font-bold text-primary border-b border-outline-variant/20">No</th>
