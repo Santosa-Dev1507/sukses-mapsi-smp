@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html class="light" lang="id">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Lomba Azan & Iqamah MAPSI SMP - Pusat Persiapan ESPEMA</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-container": "#00875a",
+                        "on-secondary": "#ffffff",
+                        "surface-container-high": "#e9e8e4",
+                        "error-container": "#ffdad6",
+                        "surface-container-highest": "#e3e2df",
+                        "surface-container-low": "#f4f4f0",
+                        "surface": "#faf9f5",
+                        "on-surface": "#1b1c1a",
+                        "on-primary-container": "#ffffff",
+                        "surface-container": "#efeeea",
+                        "secondary-container": "#fed65b",
+                        "background": "#faf9f5",
+                        "surface-container-lowest": "#ffffff",
+                        "error": "#ba1a1a",
+                        "on-surface-variant": "#3e4942",
+                        "primary": "#006b47",
+                        "secondary": "#735c00",
+                        "tertiary": "#6b5e2b",
+                        "outline-variant": "#bdcac0"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "arabic": ["Amiri", "serif"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .sidebar-scroll::-webkit-scrollbar { width: 4px; }
+        .sidebar-scroll::-webkit-scrollbar-thumb { background-color: #e3e2df; border-radius: 4px; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body overflow-hidden flex h-screen">
+
+    <!-- Mobile Topbar -->
+    <div class="lg:hidden fixed top-0 w-full h-16 bg-surface-container-lowest border-b border-outline-variant/20 z-40 flex items-center px-4 gap-4">
+        <button id="mobile-menu-btn" class="w-10 h-10 shrink-0 rounded-xl bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-primary text-2xl">school</span>
+            <span class="font-headline font-bold text-primary-container truncate">SUKSES MAPSI ESPEMA</span>
+        </div>
+    </div>
+
+    <!-- Sidebar Overlay (Mobile) -->
+    <div id="sidebar-overlay" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 hidden lg:hidden transition-opacity opacity-0"></div>
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="fixed lg:static top-0 left-0 h-full w-[280px] bg-surface-container-lowest border-r border-outline-variant/20 z-50 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 flex flex-col">
+        <!-- Logo Area -->
+        <div class="h-20 lg:h-24 flex flex-col justify-center px-8 border-b border-outline-variant/10 shrink-0 relative">
+            <h1 class="text-xl font-headline font-extrabold text-emerald-800 flex items-center gap-2">
+                <span class="material-symbols-outlined text-primary">school</span>
+                SUKSES MAPSI ESPEMA
+            </h1>
+            <p class="text-xs text-on-surface-variant font-medium mt-1">SMPN 5 Klaten</p>
+            <button id="close-sidebar-btn" class="lg:hidden absolute right-4 top-6 w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant">
+                <span class="material-symbols-outlined text-sm">close</span>
+            </button>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="flex-grow overflow-y-auto sidebar-scroll py-6 px-4 space-y-8">
+            <div>
+                <h3 class="px-4 text-xs font-bold text-on-surface-variant/70 uppercase tracking-widest mb-3">Utama</h3>
+                <nav class="space-y-1">
+                    <a href="index.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">dashboard</span> Dashboard
+                    </a>
+                </nav>
+            </div>
+            <div>
+                <h3 class="px-4 text-xs font-bold text-on-surface-variant/70 uppercase tracking-widest mb-3">CCAI (E-Learning)</h3>
+                <nav class="space-y-1">
+                    <a href="ccai.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">menu_book</span> Beranda CCAI
+                    </a>
+                    <a href="kisi-kisi.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">fact_check</span> Kisi-kisi
+                    </a>
+                    <a href="daftar-materi.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">library_books</span> Materi Belajar
+                    </a>
+                    <a href="latihan-soal.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">quiz</span> Bank Soal
+                    </a>
+                    <a href="belajar-mandiri-ai.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">smart_toy</span> Belajar Bersama AI
+                    </a>
+                </nav>
+            </div>
+            <div>
+                <h3 class="px-4 text-xs font-bold text-on-surface-variant/70 uppercase tracking-widest mb-3">Cabang Lomba</h3>
+                <nav class="space-y-1">
+                    <a href="kaligrafi.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">draw</span> Kaligrafi / Khot
+                    </a>
+                    <a href="pidato.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">record_voice_over</span> Pidato / Khitobah
+                    </a>
+                    <a href="azan.html" class="flex items-center gap-3 px-4 py-3 rounded-xl bg-primary/10 text-primary font-bold transition-all">
+                        <span class="material-symbols-outlined text-primary">volume_up</span> Azan &amp; Iqamah
+                    </a>
+                </nav>
+            </div>
+            <div>
+                <h3 class="px-4 text-xs font-bold text-on-surface-variant/70 uppercase tracking-widest mb-3">Sistem & Jadwal</h3>
+                <nav class="space-y-1">
+                    <a href="jadwal.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">event_available</span> Jadwal Siswa
+                    </a>
+                    <a href="dashboard-guru.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">admin_panel_settings</span> Akses Guru
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="flex-1 flex flex-col h-full overflow-hidden relative">
+        <main class="flex-1 overflow-y-auto pt-20 lg:pt-8 px-6 lg:px-12 pb-24">
+
+            <div class="max-w-5xl mx-auto space-y-12">
+
+                <!-- Hero Section -->
+                <div class="bg-gradient-to-br from-primary/10 via-surface-container-lowest to-surface-container-low rounded-[3rem] p-8 sm:p-12 shadow-xl border border-primary/20 text-center relative overflow-hidden">
+                    <div class="w-20 h-20 bg-primary/10 text-primary rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1;">volume_up</span>
+                    </div>
+                    <span class="text-xs font-extrabold uppercase tracking-widest text-primary bg-primary/10 px-4 py-1.5 rounded-full inline-block mb-4">Cabang Lomba MAPSI SMP</span>
+                    <h1 class="font-headline font-extrabold text-3xl sm:text-4xl text-on-surface mb-4">Lomba Azan &amp; Iqamah MAPSI SMP</h1>
+                    <p class="text-on-surface-variant text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+                        Pusat panduan resmi, lafaz berharakat presisi, kaidah tajwid, seni lagu maqam Azan, dan standar penilaian Lomba Azan &amp; Iqamah MAPSI SMP.
+                    </p>
+
+                    <!-- Quick Stats Badges -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 max-w-3xl mx-auto">
+                        <div class="bg-white p-4 rounded-2xl border border-outline-variant/20 shadow-sm text-center">
+                            <span class="material-symbols-outlined text-primary text-2xl mb-1">timer</span>
+                            <p class="text-xs text-on-surface-variant">Durasi Tampil</p>
+                            <p class="font-bold text-sm text-on-surface">5–7 Menit</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-2xl border border-outline-variant/20 shadow-sm text-center">
+                            <span class="material-symbols-outlined text-secondary text-2xl mb-1">graphic_eq</span>
+                            <p class="text-xs text-on-surface-variant">Ragam Maqam</p>
+                            <p class="font-bold text-sm text-on-surface">Rost / Bayati / Hijaz</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-2xl border border-outline-variant/20 shadow-sm text-center">
+                            <span class="material-symbols-outlined text-tertiary text-2xl mb-1">record_voice_over</span>
+                            <p class="text-xs text-on-surface-variant">Makhraj &amp; Tajwid</p>
+                            <p class="font-bold text-sm text-on-surface">Bobot 40%</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-2xl border border-outline-variant/20 shadow-sm text-center">
+                            <span class="material-symbols-outlined text-error text-2xl mb-1">military_tech</span>
+                            <p class="text-xs text-on-surface-variant">Kategori Peserta</p>
+                            <p class="font-bold text-sm text-on-surface">Putra (SMP)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section: Lafaz Azan & Iqamah -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center font-bold">1</div>
+                        <div>
+                            <h2 class="font-headline font-bold text-2xl text-on-surface">Lafaz Azan &amp; Iqamah Berharakat Lengkap</h2>
+                            <p class="text-sm text-on-surface-variant">Teks Arab berharakat presisi beserta transliterasi dan terjemahannya.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tab Switcher -->
+                    <div class="flex flex-wrap gap-2 border-b border-outline-variant/20 pb-4">
+                        <button onclick="switchAzanTab('subuh')" id="tab-btn-subuh" class="px-6 py-3 rounded-xl font-bold text-sm bg-primary text-white shadow-md transition-all flex items-center gap-2">
+                            <span class="material-symbols-outlined text-sm">wb_twilight</span> Azan Subuh
+                        </button>
+                        <button onclick="switchAzanTab('fardhu')" id="tab-btn-fardhu" class="px-6 py-3 rounded-xl font-bold text-sm bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all flex items-center gap-2">
+                            <span class="material-symbols-outlined text-sm">wb_sunny</span> Azan Fardhu (Zuhur-Isya)
+                        </button>
+                        <button onclick="switchAzanTab('iqamah')" id="tab-btn-iqamah" class="px-6 py-3 rounded-xl font-bold text-sm bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all flex items-center gap-2">
+                            <span class="material-symbols-outlined text-sm">mosque</span> Lafaz Iqamah
+                        </button>
+                    </div>
+
+                    <!-- Content Tab: Azan Subuh -->
+                    <div id="azan-tab-subuh" class="space-y-4">
+                        <div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-8 border border-outline-variant/20 shadow-sm space-y-6">
+                            <div class="bg-primary/5 p-4 rounded-2xl border border-primary/20 text-xs text-primary font-bold flex items-center gap-2">
+                                <span class="material-symbols-outlined text-base">info</span>
+                                Catatan: Azan Subuh memiliki lafaz khusus yaitu "الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ" (2x) setelah Hayya 'alalfalah.
+                            </div>
+
+                            <div class="space-y-6 divide-y divide-outline-variant/10">
+                                <div class="pt-4 first:pt-0 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                    <span class="w-8 h-8 rounded-full bg-primary/10 text-primary font-bold flex items-center justify-center text-xs shrink-0">2x</span>
+                                    <div class="text-right sm:flex-1">
+                                        <p dir="rtl" class="font-arabic text-2xl sm:text-3xl text-on-surface leading-loose">اللهُ أَكْبَرُ، اللهُ أَكْبَرُ</p>
+                                        <p class="text-xs text-on-surface-variant mt-1 font-medium">Allāhu Akbar, Allāhu Akbar</p>
+                                        <p class="text-xs text-on-surface-variant/80 italic">Allah Maha Besar, Allah Maha Besar</p>
+                                    </div>
+                                </div>
+
+                                <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                    <span class="w-8 h-8 rounded-full bg-primary/10 text-primary font-bold flex items-center justify-center text-xs shrink-0">2x</span>
+                                    <div class="text-right sm:flex-1">
+                                        <p dir="rtl" class="font-arabic text-2xl sm:text-3xl text-on-surface leading-loose">أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ</p>
+                                        <p class="text-xs text-on-surface-variant mt-1 font-medium">Asyhadu allā ilāha illallāh</p>
+                                        <p class="text-xs text-on-surface-variant/80 italic">Aku bersaksi bahwa tidak ada tuhan selain Allah</p>
+                                    </div>
+                                </div>
+
+                                <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                    <span class="w-8 h-8 rounded-full bg-primary/10 text-primary font-bold flex items-center justify-center text-xs shrink-0">2x</span>
+                                    <div class="text-right sm:flex-1">
+                                        <p dir="rtl" class="font-arabic text-2xl sm:text-3xl text-on-surface leading-loose">أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ</p>
+                                        <p class="text-xs text-on-surface-variant mt-1 font-medium">Asyhadu anna Muḥammadan rasūlullāh</p>
+                                        <p class="text-xs text-on-surface-variant/80 italic">Aku bersaksi bahwa Nabi Muhammad adalah utusan Allah</p>
+                                    </div>
+                                </div>
+
+                                <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                    <span class="w-8 h-8 rounded-full bg-secondary/10 text-secondary font-bold flex items-center justify-center text-xs shrink-0">2x</span>
+                                    <div class="text-right sm:flex-1">
+                                        <p dir="rtl" class="font-arabic text-2xl sm:text-3xl text-on-surface leading-loose">حَيَّ عَلَى الصَّلَاةِ</p>
+                                        <p class="text-xs text-on-surface-variant mt-1 font-medium">Ḥayya 'alaṣ-ṣalāh</p>
+                                        <p class="text-xs text-on-surface-variant/80 italic">Mari melaksanakan salat (menengok ke kanan)</p>
+                                    </div>
+                                </div>
+
+                                <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                    <span class="w-8 h-8 rounded-full bg-secondary/10 text-secondary font-bold flex items-center justify-center text-xs shrink-0">2x</span>
+                                    <div class="text-right sm:flex-1">
+                                        <p dir="rtl" class="font-arabic text-2xl sm:text-3xl text-on-surface leading-loose">حَيَّ عَلَى الْفَلَاحِ</p>
+                                        <p class="text-xs text-on-surface-variant mt-1 font-medium">Ḥayya 'alal-falāḥ</p>
+                                        <p class="text-xs text-on-surface-variant/80 italic">Mari meraih kemenangan (menengok ke kiri)</p>
+                                    </div>
+                                </div>
+
+                                <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-amber-500/10 p-4 rounded-2xl border border-amber-500/20">
+                                    <span class="w-8 h-8 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center text-xs shrink-0">2x</span>
+                                    <div class="text-right sm:flex-1">
+                                        <p dir="rtl" class="font-arabic text-2xl sm:text-3xl text-amber-900 font-bold leading-loose">الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ</p>
+                                        <p class="text-xs text-amber-800 mt-1 font-bold">Aṣ-ṣalātu khairum minan-naūm (Khusus Subuh)</p>
+                                        <p class="text-xs text-amber-700 italic">Salat itu lebih baik daripada tidur</p>
+                                    </div>
+                                </div>
+
+                                <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                    <span class="w-8 h-8 rounded-full bg-primary/10 text-primary font-bold flex items-center justify-center text-xs shrink-0">1x</span>
+                                    <div class="text-right sm:flex-1">
+                                        <p dir="rtl" class="font-arabic text-2xl sm:text-3xl text-on-surface leading-loose">اللهُ أَكْبَرُ، اللهُ أَكْبَرُ</p>
+                                        <p class="text-xs text-on-surface-variant mt-1 font-medium">Allāhu Akbar, Allāhu Akbar</p>
+                                        <p class="text-xs text-on-surface-variant/80 italic">Allah Maha Besar, Allah Maha Besar</p>
+                                    </div>
+                                </div>
+
+                                <div class="pt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                    <span class="w-8 h-8 rounded-full bg-primary/10 text-primary font-bold flex items-center justify-center text-xs shrink-0">1x</span>
+                                    <div class="text-right sm:flex-1">
+                                        <p dir="rtl" class="font-arabic text-2xl sm:text-3xl text-on-surface leading-loose">لَا إِلٰهَ إِلَّا اللهُ</p>
+                                        <p class="text-xs text-on-surface-variant mt-1 font-medium">Lā ilāha illallāh</p>
+                                        <p class="text-xs text-on-surface-variant/80 italic">Tidak ada tuhan selain Allah</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Tab: Azan Fardhu -->
+                    <div id="azan-tab-fardhu" class="hidden space-y-4">
+                        <div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-8 border border-outline-variant/20 shadow-sm space-y-6">
+                            <p class="text-sm text-on-surface-variant">Lafaz Azan Fardhu untuk waktu Zuhur, Ashar, Maghrib, dan Isya (tanpa ucapan *As-Shalatu Khairum Minan Naum*).</p>
+                            <div class="space-y-4">
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-primary">1. Allāhu Akbar, Allāhu Akbar (2x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">اللهُ أَكْبَرُ، اللهُ أَكْبَرُ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-primary">2. Asyhadu allā ilāha illallāh (2x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-primary">3. Asyhadu anna Muḥammadan rasūlullāh (2x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-secondary">4. Ḥayya 'alaṣ-ṣalāh (2x - menengok kanan)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">حَيَّ عَلَى الصَّلَاةِ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-secondary">5. Ḥayya 'alal-falāḥ (2x - menengok kiri)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">حَيَّ عَلَى الْفَلَاحِ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-primary">6. Allāhu Akbar, Allāhu Akbar (1x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">اللهُ أَكْبَرُ، اللهُ أَكْبَرُ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-primary">7. Lā ilāha illallāh (1x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">لَا إِلٰهَ إِلَّا اللهُ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Tab: Lafaz Iqamah -->
+                    <div id="azan-tab-iqamah" class="hidden space-y-4">
+                        <div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-8 border border-outline-variant/20 shadow-sm space-y-4">
+                            <p class="text-sm text-on-surface-variant">Lafaz Iqamah dibaca lebih cepat (*ḥadr*) untuk menandai salat akan segera dimulai.</p>
+                            <div class="space-y-3">
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-primary">1. Allāhu Akbar, Allāhu Akbar (1x / 2x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">اللهُ أَكْبَرُ، اللهُ أَكْبَرُ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-primary">2. Asyhadu allā ilāha illallāh (1x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-primary">3. Asyhadu anna Muḥammadan rasūlullāh (1x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-secondary">4. Ḥayya 'alaṣ-ṣalāh (1x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">حَيَّ عَلَى الصَّلَاةِ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-secondary">5. Ḥayya 'alal-falāḥ (1x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">حَيَّ عَلَى الْفَلَاحِ</span>
+                                </div>
+                                <div class="p-4 bg-amber-500/10 rounded-2xl border border-amber-500/20 flex justify-between items-center">
+                                    <span class="font-bold text-amber-900">6. Qad qāmatiṣ-ṣalāh, qad qāmatiṣ-ṣalāh (2x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-amber-900 font-bold">قَدْ قَامَتِ الصَّلَاةُ، قَدْ قَامَتِ الصَّلَاةُ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-primary">7. Allāhu Akbar, Allāhu Akbar (1x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">اللهُ أَكْبَرُ، اللهُ أَكْبَرُ</span>
+                                </div>
+                                <div class="p-4 bg-surface-container-low rounded-2xl flex justify-between items-center">
+                                    <span class="font-bold text-primary">8. Lā ilāha illallāh (1x)</span>
+                                    <span dir="rtl" class="font-arabic text-xl text-on-surface">لَا إِلٰهَ إِلَّا اللهُ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section: Aspek Penilaian Lomba -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-secondary/10 text-secondary flex items-center justify-center font-bold">2</div>
+                        <div>
+                            <h2 class="font-headline font-bold text-2xl text-on-surface">Kriteria &amp; Rubrik Penilaian Dewan Juri</h2>
+                            <p class="text-sm text-on-surface-variant">Standar bobot penilaian Lomba Azan MAPSI SMP tingkat kabupaten.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <!-- Card 1 -->
+                        <div class="bg-white rounded-3xl p-6 border border-outline-variant/20 shadow-sm hover:border-primary/30 transition-all flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="w-12 h-12 bg-primary/10 text-primary rounded-2xl flex items-center justify-center material-symbols-outlined text-2xl">record_voice_over</span>
+                                    <span class="bg-primary/10 text-primary font-extrabold text-sm px-3 py-1 rounded-full">Bobot 40%</span>
+                                </div>
+                                <h3 class="font-bold text-lg text-on-surface mb-2">Vokal, Makhraj, &amp; Tajwid</h3>
+                                <p class="text-xs text-on-surface-variant leading-relaxed mb-4">
+                                    Ketepatan pengucapan huruf hijaiyah (*makharijul huruf*), panjang-pendek (*mad*), kejelasan lafaz, kelancaran napas, serta tidak ada pengubahan harakat.
+                                </p>
+                            </div>
+                            <ul class="text-xs text-on-surface-variant space-y-1.5 border-t border-outline-variant/10 pt-4">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Makhraj huruf tepat</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Penguasaan hukum Mad</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">check_circle</span> Nafas kuat &amp; bulat</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="bg-white rounded-3xl p-6 border border-outline-variant/20 shadow-sm hover:border-secondary/30 transition-all flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="w-12 h-12 bg-secondary/10 text-secondary rounded-2xl flex items-center justify-center material-symbols-outlined text-2xl">graphic_eq</span>
+                                    <span class="bg-secondary/10 text-secondary font-extrabold text-sm px-3 py-1 rounded-full">Bobot 40%</span>
+                                </div>
+                                <h3 class="font-bold text-lg text-on-surface mb-2">Lagu, Irama, &amp; Variasi Nada</h3>
+                                <p class="text-xs text-on-surface-variant leading-relaxed mb-4">
+                                    Keindahan melodi/seni lagu Azan (seperti Rost, Bayati, Hijaz), variasi nada yang harmonis, keutuhan irama dari awal hingga akhir, serta keindahan penghayatan.
+                                </p>
+                            </div>
+                            <ul class="text-xs text-on-surface-variant space-y-1.5 border-t border-outline-variant/10 pt-4">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Pilihan Maqam/Lagu</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Harmonisme naik-turun nada</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span> Penjiwaan &amp; ekspresi suara</li>
+                            </ul>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="bg-white rounded-3xl p-6 border border-outline-variant/20 shadow-sm hover:border-tertiary/30 transition-all flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="w-12 h-12 bg-tertiary/10 text-tertiary rounded-2xl flex items-center justify-center material-symbols-outlined text-2xl">accessibility_new</span>
+                                    <span class="bg-tertiary/10 text-tertiary font-extrabold text-sm px-3 py-1 rounded-full">Bobot 20%</span>
+                                </div>
+                                <h3 class="font-bold text-lg text-on-surface mb-2">Adab, Penampilan, &amp; Doa</h3>
+                                <p class="text-xs text-on-surface-variant leading-relaxed mb-4">
+                                    Sikap berdiri menghadap kiblat, posisi tangan menutup telinga saat Azan, kerapian baju/peci, keberanian panggung, dan kelancaran doa setelah Azan.
+                                </p>
+                            </div>
+                            <ul class="text-xs text-on-surface-variant space-y-1.5 border-t border-outline-variant/10 pt-4">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-tertiary text-sm">check_circle</span> Pakaian busana muslim rapi</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-tertiary text-sm">check_circle</span> Gerakan tubuh &amp; menengok</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-tertiary text-sm">check_circle</span> Pembacaan Doa Ba'da Azan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section: Doa Setelah Azan -->
+                <div class="bg-gradient-to-r from-primary/10 to-transparent rounded-3xl p-8 border border-primary/20 space-y-6">
+                    <div class="flex items-center gap-3">
+                        <span class="material-symbols-outlined text-primary text-3xl">menu_book</span>
+                        <div>
+                            <h3 class="font-headline font-bold text-xl text-on-surface">Doa Setelah Membaca Azan</h3>
+                            <p class="text-xs text-on-surface-variant">Sunnah dibaca oleh Muazin setelah selesai mengumandangkan Azan.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-outline-variant/20 text-right space-y-3">
+                        <p dir="rtl" class="font-arabic text-2xl sm:text-3xl text-on-surface leading-loose">
+                            اللَّهُمَّ رَبَّ هٰذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلَاةِ الْقَائِمَةِ، آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ
+                        </p>
+                        <p class="text-xs text-on-surface-variant text-left font-medium">
+                            Allāhumma rabba hādzihid-da'watit-tāmmah, waṣ-ṣalātil-qā'imah, āti Muḥammadanil-wasīlata wal-faḍīlah, wab'atshu maqāmam maḥmūdanil-ladzī wa'adtah.
+                        </p>
+                        <p class="text-xs text-on-surface-variant/80 italic text-left">
+                            "Ya Allah, Tuhan pemilik seruan yang sempurna ini dan salat yang ditegakkan, berikanlah kepada Nabi Muhammad wasilah (kedudukan tinggi) dan keutamaan, serta bangkitkanlah beliau ke tempat terpuji yang telah Engkau janjikan."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Section: Tips & Trik Juara Lomba Azan -->
+                <div class="bg-white rounded-3xl p-8 border border-outline-variant/20 shadow-sm space-y-6">
+                    <h3 class="font-headline font-bold text-xl text-on-surface flex items-center gap-2">
+                        <span class="material-symbols-outlined text-secondary">lightbulb</span> Tips &amp; Trik Juara Lomba Azan MAPSI
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-on-surface-variant">
+                        <div class="p-4 bg-surface-container-low rounded-2xl space-y-1">
+                            <p class="font-bold text-sm text-on-surface">1. Latihan Pernapasan Diafragma</p>
+                            <p>Gunakan pernapasan perut agar embusan suara Azan panjang, bulat, dan tidak putus di tengah lafal tajwid.</p>
+                        </div>
+                        <div class="p-4 bg-surface-container-low rounded-2xl space-y-1">
+                            <p class="font-bold text-sm text-on-surface">2. Menguasai Satu Maqam Utama</p>
+                            <p>Fokus kuasai 1 irama khas (seperti Maqam Rost atau Bayati) dengan naik-turun nada yang stabil dan indah.</p>
+                        </div>
+                        <div class="p-4 bg-surface-container-low rounded-2xl space-y-1">
+                            <p class="font-bold text-sm text-on-surface">3. Jaga Jarak Mikrofon</p>
+                            <p>Posisikan mikrofon 5–10 cm di depan mulut. Jangan terlalu dekat agar suara tidak berdengung atau terdistorsi.</p>
+                        </div>
+                        <div class="p-4 bg-surface-container-low rounded-2xl space-y-1">
+                            <p class="font-bold text-sm text-on-surface">4. Sikap &amp; Adab Sempurna</p>
+                            <p>Berdiri tegak, tempatkan jari telunjuk di telinga saat Azan, dan tengokkan wajah ke kanan (*hayya 'alas-salah*) dan kiri (*hayya 'alal-falah*).</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Script Tab Switching & Mobile Menu -->
+    <script>
+        function switchAzanTab(tab) {
+            document.getElementById('azan-tab-subuh').classList.toggle('hidden', tab !== 'subuh');
+            document.getElementById('azan-tab-fardhu').classList.toggle('hidden', tab !== 'fardhu');
+            document.getElementById('azan-tab-iqamah').classList.toggle('hidden', tab !== 'iqamah');
+
+            const btnSubuh  = document.getElementById('tab-btn-subuh');
+            const btnFardhu = document.getElementById('tab-btn-fardhu');
+            const btnIqamah = document.getElementById('tab-btn-iqamah');
+
+            btnSubuh.className  = tab === 'subuh'  ? 'px-6 py-3 rounded-xl font-bold text-sm bg-primary text-white shadow-md transition-all flex items-center gap-2' : 'px-6 py-3 rounded-xl font-bold text-sm bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all flex items-center gap-2';
+            btnFardhu.className = tab === 'fardhu' ? 'px-6 py-3 rounded-xl font-bold text-sm bg-primary text-white shadow-md transition-all flex items-center gap-2' : 'px-6 py-3 rounded-xl font-bold text-sm bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all flex items-center gap-2';
+            btnIqamah.className = tab === 'iqamah' ? 'px-6 py-3 rounded-xl font-bold text-sm bg-primary text-white shadow-md transition-all flex items-center gap-2' : 'px-6 py-3 rounded-xl font-bold text-sm bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all flex items-center gap-2';
+        }
+
+        // Mobile Sidebar Toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const closeBtn = document.getElementById('close-sidebar-btn');
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('sidebar-overlay');
+
+        if(menuBtn && sidebar && overlay) {
+            menuBtn.addEventListener('click', () => {
+                sidebar.classList.remove('-translate-x-full');
+                overlay.classList.remove('hidden');
+                setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+            });
+        }
+
+        const closeSidebar = () => {
+            if(sidebar && overlay) {
+                sidebar.classList.add('-translate-x-full');
+                overlay.classList.add('opacity-0');
+                setTimeout(() => overlay.classList.add('hidden'), 300);
+            }
+        };
+
+        if(closeBtn) closeBtn.addEventListener('click', closeSidebar);
+        if(overlay) overlay.addEventListener('click', closeSidebar);
+    </script>
+</body>
+</html>
