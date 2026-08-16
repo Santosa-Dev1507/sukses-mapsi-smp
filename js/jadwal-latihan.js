@@ -12,6 +12,12 @@ var jadwalLatihan = {
 // ID harus sesuai nama file (tanpa .js) di folder js/latihan/
 // ═══════════════════════════════════════════════════════════
 var infoLatihan = {
+    "bab4-fikih-ski": {
+        judul: "BAB 4 Fikih-SKI (KAMIS)",
+        subjudul: "PENYELENGGARAAN JENAZAH & DAULAH TURKI USMANI",
+        ikon: "mosque",
+        warna: "error"
+    },
     "bab3-fikih-ski": {
         judul: "BAB 3 Fikih-SKI (RABU)",
         subjudul: "PAHALA SETARA HAJI/UMRAH & DAULAH FATIMIYYAH",
@@ -159,6 +165,7 @@ var DAFTAR_SOAL = [
     // --- KELOMPOK 3: FIKIH & SKI (SENIN - JUMAT) ---
     { id: "bab1-fikih-ski",               label: "BAB 1 Fikih-SKI (SENIN) — Sujud Sahwi, Syukur, Tilawah & Daulah Bani Umayyah" },
     { id: "bab3-fikih-ski",               label: "BAB 3 Fikih-SKI (RABU) — Pahala Setara Haji/Umrah & Daulah Fatimiyah" },
+    { id: "bab4-fikih-ski",               label: "BAB 4 Fikih-SKI (KAMIS) — Penyelenggaraan Jenazah & Daulah Turki Usmani" },
 
     // --- TOPIK SPESIFIK LAINNYA ---
     { id: "quran-cinta-tanah-air",        label: "Al-Qur'an & Hadis — Cinta Tanah Air (Q.S. Al-Qashash/28: 85)" },
