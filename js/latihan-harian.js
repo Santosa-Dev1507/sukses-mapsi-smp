@@ -1,3 +1,14 @@
+// ── Helper Otomatis Memperbesar Teks Arab (Ayat/Lafal) ──
+function formatTeksArab(str) {
+    if (!str || typeof str !== 'string') return str;
+    const reArab = /([\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]+(?:[\s\u064B-\u065F\u0670\u06D6-\u06DC\u06DF-\u06E8\u06EA-\u06ED]+[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]+)*)/g;
+    return str.replace(reArab, (match) => {
+        const trimmed = match.trim();
+        if (!trimmed || !/[\u0600-\u06FF]/.test(trimmed)) return match;
+        return `<span class="font-arabic-inline" dir="rtl">${trimmed}</span>`;
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // ══════════════════════════════════════════════
@@ -339,20 +350,20 @@ document.addEventListener('DOMContentLoaded', () => {
         if (soal.stimulus) {
             const stimLines = soal.stimulus.split('\n').map(l => l.trim()).filter(Boolean);
             html += `<div class="bg-surface-container-low border-l-4 border-secondary/40 rounded-xl p-4 mb-5 text-sm text-on-surface-variant leading-relaxed">`;
-            stimLines.forEach(line => { html += `<p class="mb-1 last:mb-0">${line}</p>`; });
+            stimLines.forEach(line => { html += `<p class="mb-1 last:mb-0">${formatTeksArab(line)}</p>`; });
             html += `</div>`;
         }
 
         // Kutipan Arab
         if (soal.kutipan) {
             html += `<div class="bg-primary/5 border border-primary/10 rounded-2xl p-4 sm:p-6 mb-5 text-center">
-                <p dir="rtl" class="font-arabic text-2xl sm:text-3xl text-on-surface leading-loose mb-2">${soal.kutipan}</p>
+                <p dir="rtl" class="font-arabic text-3xl sm:text-4xl text-primary font-bold leading-[2.5] mb-3 select-all">${soal.kutipan}</p>
                 ${soal.kutipanTerjemah ? `<p class="text-xs text-on-surface-variant italic">${soal.kutipanTerjemah}</p>` : ''}
             </div>`;
         }
 
         // Pertanyaan
-        html += `<p class="text-on-surface font-semibold text-sm sm:text-base leading-relaxed mb-5">${soal.pertanyaan}</p>`;
+        html += `<p class="text-on-surface font-semibold text-sm sm:text-base leading-relaxed mb-5">${formatTeksArab(soal.pertanyaan)}</p>`;
 
         // AREA JAWABAN SESUAI TIPE
         if (soal.tipe === 'menjodohkan') {
@@ -361,7 +372,7 @@ document.addEventListener('DOMContentLoaded', () => {
             soal.kolomKiri.forEach((itemKiri, kIdx) => {
                 html += `
                 <div class="p-4 rounded-xl border border-outline-variant/20 bg-surface-container-low/50 flex flex-col sm:flex-row sm:items-center justify-between gap-3" id="jodoh-row-${idx}-${kIdx}">
-                    <div class="font-bold text-sm text-on-surface flex-1">${itemKiri}</div>
+                    <div class="font-bold text-sm text-on-surface flex-1">${formatTeksArab(itemKiri)}</div>
                     <div class="shrink-0 w-full sm:w-72">
                         <select data-soal="${idx}" data-kiri="${kIdx}" class="jodoh-sel w-full p-3 rounded-xl border border-outline-variant/40 bg-white text-sm font-medium text-on-surface focus:border-primary focus:outline-none transition-colors">
                             <option value="">-- Pilih Pasangan --</option>
@@ -385,7 +396,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span class="opsi-box w-7 h-7 sm:w-8 sm:h-8 rounded-lg border-2 border-outline-variant/40 bg-surface-container flex items-center justify-center text-xs sm:text-sm font-bold text-on-surface-variant shrink-0 group-hover:border-purple-400 transition-all">
                         <span class="material-symbols-outlined text-base text-white hidden">check</span>
                     </span>
-                    <span class="text-sm sm:text-base text-on-surface flex-1">${opsi}</span>
+                    <span class="text-sm sm:text-base text-on-surface flex-1">${formatTeksArab(opsi)}</span>
                 </button>`;
             });
             html += `</div>`;
@@ -402,7 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     data-opsi="${opsiIdx}"
                     class="opsi-btn w-full text-left flex items-center gap-4 p-3 sm:p-4 rounded-xl border-2 border-outline-variant/20 bg-white hover:border-primary/40 hover:bg-primary/5 transition-all duration-200 group active:scale-[0.99]">
                     <span class="opsi-huruf w-7 h-7 sm:w-8 sm:h-8 rounded-lg border-2 border-outline-variant/40 bg-surface-container flex items-center justify-center text-xs sm:text-sm font-bold text-on-surface-variant shrink-0 group-hover:border-primary/40 group-hover:text-primary transition-all">${huruf[opsiIdx]}</span>
-                    <span class="${isArab ? 'font-arabic text-lg sm:text-xl text-right w-full' : 'text-sm sm:text-base text-on-surface'}" ${isArab ? 'dir="rtl"' : ''}>${opsi}</span>
+                    <span class="${isArab ? 'font-arabic text-2xl sm:text-3xl font-bold text-primary text-right w-full leading-loose' : 'text-sm sm:text-base text-on-surface flex-1'}" ${isArab ? 'dir="rtl"' : ''}>${isArab ? opsi : formatTeksArab(opsi)}</span>
                 </button>`;
             });
             html += `</div>`;
@@ -649,7 +660,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div>Jawaban Belum Tepat — Kunci Benar: <strong>${kunciTxt}</strong></div>
                         </div>
                         <div class="text-sm text-on-surface-variant leading-relaxed">
-                            <span class="font-semibold text-on-surface">💡 Penjelasan: </span>${soal.penjelasan}
+                            <span class="font-semibold text-on-surface">💡 Penjelasan: </span>${formatTeksArab(soal.penjelasan)}
                         </div>`;
                     hasilEl.className = 'mt-5 p-4 rounded-xl bg-red-50 border border-red-200';
                 }
