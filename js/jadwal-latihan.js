@@ -12,6 +12,18 @@ var jadwalLatihan = {
 // ID harus sesuai nama file (tanpa .js) di folder js/latihan/
 // ═══════════════════════════════════════════════════════════
 var infoLatihan = {
+    "bab2-fikih-ski": {
+        judul: "BAB 2 Fikih-SKI (SELASA)",
+        subjudul: "SALAT JUMAT, PERJALANAN MUSAFIR & PERADABAN ABBASIYAH",
+        ikon: "mosque",
+        warna: "secondary"
+    },
+    "bab5-fikih-ski": {
+        judul: "BAB 5 Fikih-SKI (JUMAT)",
+        subjudul: "KETENTUAN KURBAN, AKIKAH & DAULAH SYAFAWI / MUGHAL",
+        ikon: "mosque",
+        warna: "primary"
+    },
     "bab4-fikih-ski": {
         judul: "BAB 4 Fikih-SKI (KAMIS)",
         subjudul: "PENYELENGGARAAN JENAZAH & DAULAH TURKI USMANI",
@@ -164,8 +176,10 @@ var DAFTAR_SOAL = [
 
     // --- KELOMPOK 3: FIKIH & SKI (SENIN - JUMAT) ---
     { id: "bab1-fikih-ski",               label: "BAB 1 Fikih-SKI (SENIN) — Sujud Sahwi, Syukur, Tilawah & Daulah Bani Umayyah" },
+    { id: "bab2-fikih-ski",               label: "BAB 2 Fikih-SKI (SELASA) — Salat Jumat, Perjalanan Musafir & Peradaban Abbasiyah" },
     { id: "bab3-fikih-ski",               label: "BAB 3 Fikih-SKI (RABU) — Pahala Setara Haji/Umrah & Daulah Fatimiyah" },
     { id: "bab4-fikih-ski",               label: "BAB 4 Fikih-SKI (KAMIS) — Penyelenggaraan Jenazah & Daulah Turki Usmani" },
+    { id: "bab5-fikih-ski",               label: "BAB 5 Fikih-SKI (JUMAT) — Ketentuan Kurban, Akikah & Daulah Syafawi/Mughal" },
 
     // --- TOPIK SPESIFIK LAINNYA ---
     { id: "quran-cinta-tanah-air",        label: "Al-Qur'an & Hadis — Cinta Tanah Air (Q.S. Al-Qashash/28: 85)" },
