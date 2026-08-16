@@ -521,7 +521,7 @@
 
     // DAFTAR_SOAL dimuat otomatis dari js/jadwal-latihan.js
 
-    let jadwalLatihan = JSON.parse(localStorage.getItem(LATIHAN_KEY) || '{}');
+    var jadwalLatihan = JSON.parse(localStorage.getItem(LATIHAN_KEY) || '{}');
 
     // ── Tambah baris dropdown ──
     window.tambahBarisTopik = function() {

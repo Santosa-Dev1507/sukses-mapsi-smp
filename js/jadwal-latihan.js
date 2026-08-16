@@ -3,7 +3,7 @@
 // ID soal harus sesuai dengan nama file di js/latihan/[id].js
 // Jadwal latihan dikendalikan penuh oleh Guru melalui Dashboard Guru
 // ═══════════════════════════════════════════════════════════
-const jadwalLatihan = {
+var jadwalLatihan = {
     // Jadwal diisi secara dinamis melalui Dashboard Guru / Google Sheets
 };
 
@@ -11,7 +11,7 @@ const jadwalLatihan = {
 // METADATA SET SOAL
 // ID harus sesuai nama file (tanpa .js) di folder js/latihan/
 // ═══════════════════════════════════════════════════════════
-const infoLatihan = {
+var infoLatihan = {
     "bab1-fikih-ski": {
         judul: "BAB 1 Fikih-SKI (SENIN)",
         subjudul: "SUJUD SAHWI, SYUKUR, TILAWAH & DAULAH BANI UMAYYAH",
@@ -135,7 +135,7 @@ const infoLatihan = {
 };
 
 // Daftar set soal yang bisa dipilih guru di Dashboard Guru
-const DAFTAR_SOAL = [
+var DAFTAR_SOAL = [
     // --- KELOMPOK 1: QURAN HADIS (SENIN - JUMAT) ---
     { id: "bab1-keimanan-cci",            label: "BAB 1 Quran Hadis (SENIN) — QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 - KEIMANAN" },
     { id: "bab2-ketakwaan-cci",           label: "BAB 2 Quran Hadis (SELASA) — QS. Ali Imran/3:102 & QS. Luqman/31:33 - KETAKWAAN" },
