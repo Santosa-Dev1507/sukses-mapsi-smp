@@ -12,6 +12,12 @@ var jadwalLatihan = {
 // ID harus sesuai nama file (tanpa .js) di folder js/latihan/
 // ═══════════════════════════════════════════════════════════
 var infoLatihan = {
+    "bab6-aqidah-aa": {
+        judul: "BAB 6 Aqidah-Akhlak (SABTU)",
+        subjudul: "IMAN QADA & QADAR & KASIH SAYANG LINGKUNGAN ALAM",
+        ikon: "nature_people",
+        warna: "primary"
+    },
     "bab6-fikih-ski": {
         judul: "BAB 6 Fikih-SKI (SABTU)",
         subjudul: "RUKHSAH IBADAH & DAULAH MUGHAL DI INDIA",
@@ -179,6 +185,7 @@ var DAFTAR_SOAL = [
     { id: "bab3-aqidah-aa",               label: "BAB 3 Aqidah-Akhlak (RABU) — Iman kepada Rasul, Cinta Rasul & Husnuzan" },
     { id: "bab4-aqidah-aa",               label: "BAB 4 Aqidah-Akhlak (KAMIS) — Iman Kiamat, Kasih Sayang Sesama & Alam" },
     { id: "bab5-aqidah-aa",               label: "BAB 5 Aqidah-Akhlak (JUMAT) — Iman Qada & Qadar, Akhlak Sabar, Optimis, Pemaaf & Adab" },
+    { id: "bab6-aqidah-aa",               label: "BAB 6 Aqidah-Akhlak (SABTU) — Iman Qada & Qadar & Kasih Sayang Lingkungan Alam" },
 
     // --- KELOMPOK 3: FIKIH & SKI (SENIN - JUMAT) ---
     { id: "bab1-fikih-ski",               label: "BAB 1 Fikih-SKI (SENIN) — Sujud Sahwi, Syukur, Tilawah & Daulah Bani Umayyah" },
