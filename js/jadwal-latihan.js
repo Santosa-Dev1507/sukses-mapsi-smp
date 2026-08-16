@@ -12,6 +12,12 @@ const jadwalLatihan = {
 // ID harus sesuai nama file (tanpa .js) di folder js/latihan/
 // ═══════════════════════════════════════════════════════════
 const infoLatihan = {
+    "bab1-aqidah-aa": {
+        judul: "BAB 1 Aqidah-Akhlak (SENIN)",
+        subjudul: "IMAN KEPADA ALLAH, ASMAUL HUSNA & AKHLAK IKHLAS",
+        ikon: "star",
+        warna: "secondary"
+    },
     "bab1-keimanan-cci": {
         judul: "BAB 1 Quran Hadis (SENIN)",
         subjudul: "QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 - KEIMANAN",
@@ -100,6 +106,7 @@ const infoLatihan = {
 
 // Daftar set soal yang bisa dipilih guru di Dashboard Guru
 const DAFTAR_SOAL = [
+    { id: "bab1-aqidah-aa", label: "BAB 1 Aqidah-Akhlak (SENIN) — Iman kepada Allah, Asmaul Husna & Akhlak Ikhlas" },
     { id: "bab1-keimanan-cci", label: "BAB 1 Quran Hadis (SENIN) — QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 - KEIMANAN" },
     { id: "bab2-ketakwaan-cci", label: "BAB 2 Quran Hadis (SELASA) — QS. Ali Imran/3:102 & QS. Luqman/31:33 - KETAKWAAN" },
     { id: "bab3-toleransi-cci", label: "BAB 3 Quran Hadis (RABU) — QS. Al-Baqarah/2:256 - TOLERANSI" },
