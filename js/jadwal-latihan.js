@@ -1,29 +1,10 @@
 // ═══════════════════════════════════════════════════════════
 // JADWAL LATIHAN HARIAN
 // ID soal harus sesuai dengan nama file di js/latihan/[id].js
-// Jadwal ini sebagai FALLBACK offline — jadwal utama dari Google Sheets
+// Jadwal latihan dikendalikan penuh oleh Guru melalui Dashboard Guru
 // ═══════════════════════════════════════════════════════════
 const jadwalLatihan = {
-    // Agustus 2026 — Paket Bab 1 - Bab 5 Lintas Bidang MAPSI
-    "2026-08-14": "bab1-keimanan-cci",
-    "2026-08-15": "bab2-ketakwaan-cci",
-    "2026-08-16": "bab3-toleransi-cci",
-    "2026-08-17": "bab4-cinta-tanah-air-cci",
-    "2026-08-18": "bab5-menuntut-ilmu-cci",
-    "2026-08-19": "bab1-keimanan-cci",
-    // Agustus 2026 — Minggu 3-4: Keimanan
-    "2026-08-20": "bab2-ketakwaan-cci",
-    "2026-08-21": "bab3-toleransi-cci",
-    "2026-08-25": "bab4-cinta-tanah-air-cci",
-    "2026-08-26": "bab5-menuntut-ilmu-cci",
-    "2026-08-27": "aqidah-keimanan-kitab-rasul",
-    "2026-08-28": "aqidah-keimanan-kitab-rasul",
-    // September 2026 — Rukhsah
-    "2026-09-05": "fikih-rukhsah",
-    // September 2026 — SKI
-    "2026-09-06": "ski-turki-usmani",
-    "2026-09-07": "ski-syafawi",
-    "2026-09-08": "ski-mughal",
+    // Jadwal diisi secara dinamis melalui Dashboard Guru / Google Sheets
 };
 
 // ═══════════════════════════════════════════════════════════
@@ -98,23 +79,39 @@ const infoLatihan = {
         warna: "tertiary"
     },
     "ski-turki-usmani": {
-        judul: "SKI",
-        subjudul: "Sejarah Peradaban Islam pada Masa Daulah Turki Usmani",
+        judul: "Sejarah Kebudayaan Islam",
+        subjudul: "Peradaban Islam Daulah Usmani",
         ikon: "history_edu",
         warna: "primary"
     },
     "ski-syafawi": {
-        judul: "SKI",
-        subjudul: "Sejarah Peradaban Islam pada Masa Daulah Syafawi di Persia",
+        judul: "Sejarah Kebudayaan Islam",
+        subjudul: "Peradaban Islam Daulah Syafawi di Persia",
         ikon: "history_edu",
         warna: "secondary"
     },
     "ski-mughal": {
-        judul: "SKI",
-        subjudul: "Sejarah Peradaban Islam pada Masa Daulah Mughal di India",
+        judul: "Sejarah Kebudayaan Islam",
+        subjudul: "Peradaban Islam Daulah Mughal di India",
         ikon: "history_edu",
         warna: "tertiary"
-    },
-    // Tambah set soal baru di sini (ID = nama file js/latihan/xxx.js):
-    // "ski-daulah-abbasiyah":  { judul: "SKI",   subjudul: "Daulah Abbasiyah",       ikon: "history_edu", warna: "secondary" },
+    }
 };
+
+// Daftar set soal yang bisa dipilih guru di Dashboard Guru
+const DAFTAR_SOAL = [
+    { id: "bab1-keimanan-cci", label: "BAB 1 Quran Hadis (SENIN) — QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 - KEIMANAN" },
+    { id: "bab2-ketakwaan-cci", label: "BAB 2 Quran Hadis (SELASA) — QS. Ali Imran/3:102 & QS. Luqman/31:33 - KETAKWAAN" },
+    { id: "bab3-toleransi-cci", label: "BAB 3 Quran Hadis (RABU) — QS. Al-Baqarah/2:256 - TOLERANSI" },
+    { id: "bab4-cinta-tanah-air-cci", label: "BAB 4 Quran Hadis (KAMIS) — QS. Al-Qashas/28:85 & QS. An-Nisa/4:66 - CINTA TANAH AIR" },
+    { id: "bab5-menuntut-ilmu-cci", label: "BAB 5 Quran Hadis (JUMAT) — QS. Al-Mujadalah/58:11 & QS. Az-Zumar/39:9 - SEMANGAT MENUNTUT ILMU" },
+    { id: "quran-cinta-tanah-air", label: "Al-Qur'an & Hadis — Cinta Tanah Air (Q.S. Al-Qashash/28: 85)" },
+    { id: "aqidah-keimanan-kitab-rasul", label: "Aqidah — Keimanan kepada Kitab dan Rasul" },
+    { id: "akhlak-sabar-musibah", label: "Akhlak — Sabar Menghadapi Musibah & Ujian" },
+    { id: "fikih-penyelenggaraan-jenazah", label: "Fikih — Pengurusan Jenazah & Ziarah Kubur" },
+    { id: "fikih-penyembelihan-kurban-akikah", label: "Fikih — Penyembelihan, Kurban & Akikah" },
+    { id: "fikih-rukhsah", label: "Fikih — Rukhsah dalam Ibada" },
+    { id: "ski-turki-usmani", label: "SKI — Daulah Turki Usmani" },
+    { id: "ski-syafawi", label: "SKI — Daulah Syafawi di Persia" },
+    { id: "ski-mughal", label: "SKI — Daulah Mughal di India" }
+];
