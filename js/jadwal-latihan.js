@@ -12,6 +12,12 @@ const jadwalLatihan = {
 // ID harus sesuai nama file (tanpa .js) di folder js/latihan/
 // ═══════════════════════════════════════════════════════════
 const infoLatihan = {
+    "bab5-aqidah-aa": {
+        judul: "BAB 5 Aqidah-Akhlak (JUMAT)",
+        subjudul: "IMAN KEPADA QADA & QADAR, AKHLAK SABAR, OPTIMIS, PEMAAF & ADAB",
+        ikon: "school",
+        warna: "primary"
+    },
     "bab4-aqidah-aa": {
         judul: "BAB 4 Aqidah-Akhlak (KAMIS)",
         subjudul: "IMAN KEPADA HARI KIAMAT, KASIH SAYANG SESAMA & LINGKUNGAN ALAM",
@@ -124,6 +130,7 @@ const infoLatihan = {
 
 // Daftar set soal yang bisa dipilih guru di Dashboard Guru
 const DAFTAR_SOAL = [
+    { id: "bab5-aqidah-aa", label: "BAB 5 Aqidah-Akhlak (JUMAT) — Iman Qada & Qadar, Akhlak Sabar, Optimis, Pemaaf & Adab" },
     { id: "bab4-aqidah-aa", label: "BAB 4 Aqidah-Akhlak (KAMIS) — Iman Kiamat, Kasih Sayang Sesama & Alam" },
     { id: "bab3-aqidah-aa", label: "BAB 3 Aqidah-Akhlak (RABU) — Iman kepada Rasul, Cinta Rasul & Husnuzan" },
     { id: "bab2-aqidah-aa", label: "BAB 2 Aqidah-Akhlak (SELASA) — Iman kepada Malaikat, Kitab & Akhlak Bersyukur" },
