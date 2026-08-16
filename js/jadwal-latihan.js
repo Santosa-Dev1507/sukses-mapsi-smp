@@ -12,6 +12,12 @@ const jadwalLatihan = {
 // ID harus sesuai nama file (tanpa .js) di folder js/latihan/
 // ═══════════════════════════════════════════════════════════
 const infoLatihan = {
+    "bab3-aqidah-aa": {
+        judul: "BAB 3 Aqidah-Akhlak (RABU)",
+        subjudul: "IMAN KEPADA RASUL, AKHLAK CINTA RASUL & HUSNUZAN",
+        ikon: "handshake",
+        warna: "primary"
+    },
     "bab2-aqidah-aa": {
         judul: "BAB 2 Aqidah-Akhlak (SELASA)",
         subjudul: "IMAN KEPADA MALAIKAT, KITAB-KITAB ALLAH & AKHLAK BERSYUKUR",
@@ -112,6 +118,7 @@ const infoLatihan = {
 
 // Daftar set soal yang bisa dipilih guru di Dashboard Guru
 const DAFTAR_SOAL = [
+    { id: "bab3-aqidah-aa", label: "BAB 3 Aqidah-Akhlak (RABU) — Iman kepada Rasul, Cinta Rasul & Husnuzan" },
     { id: "bab2-aqidah-aa", label: "BAB 2 Aqidah-Akhlak (SELASA) — Iman kepada Malaikat, Kitab & Akhlak Bersyukur" },
     { id: "bab1-aqidah-aa", label: "BAB 1 Aqidah-Akhlak (SENIN) — Iman kepada Allah, Asmaul Husna & Akhlak Ikhlas" },
     { id: "bab1-keimanan-cci", label: "BAB 1 Quran Hadis (SENIN) — QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 - KEIMANAN" },
