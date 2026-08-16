@@ -12,6 +12,12 @@ var jadwalLatihan = {
 // ID harus sesuai nama file (tanpa .js) di folder js/latihan/
 // ═══════════════════════════════════════════════════════════
 var infoLatihan = {
+    "bab6-fikih-ski": {
+        judul: "BAB 6 Fikih-SKI (SABTU)",
+        subjudul: "RUKHSAH IBADAH & DAULAH MUGHAL DI INDIA",
+        ikon: "mosque",
+        warna: "tertiary"
+    },
     "bab2-fikih-ski": {
         judul: "BAB 2 Fikih-SKI (SELASA)",
         subjudul: "SALAT JUMAT, PERJALANAN MUSAFIR & PERADABAN ABBASIYAH",
@@ -180,6 +186,7 @@ var DAFTAR_SOAL = [
     { id: "bab3-fikih-ski",               label: "BAB 3 Fikih-SKI (RABU) — Pahala Setara Haji/Umrah & Daulah Fatimiyah" },
     { id: "bab4-fikih-ski",               label: "BAB 4 Fikih-SKI (KAMIS) — Penyelenggaraan Jenazah & Daulah Turki Usmani" },
     { id: "bab5-fikih-ski",               label: "BAB 5 Fikih-SKI (JUMAT) — Ketentuan Kurban, Akikah & Daulah Syafawi/Mughal" },
+    { id: "bab6-fikih-ski",               label: "BAB 6 Fikih-SKI (SABTU) — Rukhshah Ibadah & Daulah Mughal di India" },
 
     // --- TOPIK SPESIFIK LAINNYA ---
     { id: "quran-cinta-tanah-air",        label: "Al-Qur'an & Hadis — Cinta Tanah Air (Q.S. Al-Qashash/28: 85)" },
