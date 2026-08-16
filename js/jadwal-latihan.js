@@ -12,6 +12,12 @@ var jadwalLatihan = {
 // ID harus sesuai nama file (tanpa .js) di folder js/latihan/
 // ═══════════════════════════════════════════════════════════
 var infoLatihan = {
+    "bab6-ilmu-takwa-cci": {
+        judul: "BAB 6 Quran Hadis (SABTU)",
+        subjudul: "QS. AT-TAUBAH: 122 & QS. LUQMAN: 33 — KETAKWAAN & TAFFAQUH FID-DIN",
+        ikon: "school",
+        warna: "primary"
+    },
     "bab6-aqidah-aa": {
         judul: "BAB 6 Aqidah-Akhlak (SABTU)",
         subjudul: "IMAN QADA & QADAR & KASIH SAYANG LINGKUNGAN ALAM",
@@ -178,6 +184,7 @@ var DAFTAR_SOAL = [
     { id: "bab3-toleransi-cci",           label: "BAB 3 Quran Hadis (RABU) — QS. Al-Baqarah/2:256 - TOLERANSI" },
     { id: "bab4-cinta-tanah-air-cci",     label: "BAB 4 Quran Hadis (KAMIS) — QS. Al-Qashas/28:85 & QS. An-Nisa/4:66 - CINTA TANAH AIR" },
     { id: "bab5-menuntut-ilmu-cci",       label: "BAB 5 Quran Hadis (JUMAT) — QS. Al-Mujadalah/58:11 & QS. Az-Zumar/39:9 - SEMANGAT MENUNTUT ILMU" },
+    { id: "bab6-ilmu-takwa-cci",          label: "BAB 6 Quran Hadis (SABTU) — QS. At-Taubah:122 & QS. Luqman:33 - KETAKWAAN & TAFFAQUH" },
 
     // --- KELOMPOK 2: AQIDAH AKHLAK (SENIN - JUMAT) ---
     { id: "bab1-aqidah-aa",               label: "BAB 1 Aqidah-Akhlak (SENIN) — Iman kepada Allah, Asmaul Husna & Akhlak Ikhlas" },
