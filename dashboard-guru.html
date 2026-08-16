@@ -326,6 +326,7 @@
         </main>
     </div>
 
+<script src="js/jadwal-latihan.js"></script>
 <script>
     const mobileBtn = document.getElementById('mobile-menu-btn');
     const closeBtn = document.getElementById('close-sidebar-btn');
@@ -519,30 +520,40 @@
     const HARI = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
 
     // Daftar set soal yang tersedia — tambah baris setiap ada file baru di js/latihan/
-    const DAFTAR_SOAL = [
-        { id: 'bab1-keimanan-cci',            label: "BAB 1 Quran Hadis (SENIN) — QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 -KEIMANAN" },
-        { id: 'bab2-ketakwaan-cci',           label: "BAB 2 Quran Hadis (SELASA) — QS. Ali Imran/3:102 & QS. Luqman/31:33 -KETAKWAAN" },
-        { id: 'bab3-toleransi-cci',           label: "BAB 3 Quran Hadis (RABU) — QS. Al-Baqarah/2:256 -TOLERANSI" },
-        { id: 'bab4-cinta-tanah-air-cci',     label: "BAB 4 Quran Hadis (KAMIS) — QS. Al-Qashas/28:85 & QS. An-Nisa/4:66 -CINTA TANAH AIR" },
-        { id: 'bab5-menuntut-ilmu-cci',       label: "BAB 5 Quran Hadis (JUMAT) — QS. Al-Mujadalah/58:11 & QS. Az-Zumar/39:9 -SEMANGAT MENUNTUT ILMU" },
-        { id: 'quran-cinta-tanah-air',        label: "Cinta Tanah Air (Q.S. Al-Qashash/28:85)" },
-        { id: 'aqidah-keimanan-kitab-rasul',  label: "Keimanan kepada Kitab & Rasul (Q.S. al-Baqarah/2:285)" },
-        { id: 'aqidah-iman-kepada-rasul',     label: "Iman kepada Rasul-Rasul Allah" },
-        { id: 'aqidah-iman-hari-kiamat',      label: "Iman kepada Hari Kiamat" },
-        { id: 'aqidah-qada-qadar',            label: "Iman kepada Qada dan Qadar" },
-        { id: 'akhlak-husnuzan',              label: "Husnuzan (Berbaik Sangka)" },
-        { id: 'akhlak-kasih-sayang-sesama',   label: "Kasih Sayang kepada Sesama" },
-        { id: 'akhlak-kasih-sayang-alam',     label: "Makna Kasih Sayang kepada Lingkungan Alam" },
-        { id: 'fikih-penyelenggaraan-jenazah', label: "Penyelenggaraan Jenazah" },
-        { id: 'fikih-penyembelihan-kurban-akikah', label: "Penyembelihan Hewan, Kurban, dan Akikah" },
-        { id: 'fikih-rukhsah',                label: "Rukhsah dalam Perspektif Mazhab Fiqh" },
-        { id: 'ski-turki-usmani',             label: "Sejarah Peradaban Islam: Turki Usmani" },
-        { id: 'ski-syafawi',                  label: "Sejarah Peradaban Islam: Daulah Syafawi" },
-        { id: 'ski-mughal',                   label: "Sejarah Peradaban Islam: Daulah Mughal" },
-        { id: 'akhlak-sabar-musibah',         label: "Sabar Menghadapi Musibah (Q.S. al-Baqarah/2:155-156)" },
-        // Tambah baris berikutnya saat ada file soal baru:
-        // { id: 'fikih-shalat-jamak',         label: "Shalat Jamak & Qashar" },
-        // { id: 'ski-daulah-abbasiyah',       label: "Sejarah Daulah Abbasiyah" },
+    const DAFTAR_SOAL = (typeof window.DAFTAR_SOAL !== 'undefined') ? window.DAFTAR_SOAL : [
+        // --- KELOMPOK 1: QURAN HADIS (SENIN - JUMAT) ---
+        { id: 'bab1-keimanan-cci',            label: "BAB 1 Quran Hadis (SENIN) — QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 - KEIMANAN" },
+        { id: 'bab2-ketakwaan-cci',           label: "BAB 2 Quran Hadis (SELASA) — QS. Ali Imran/3:102 & QS. Luqman/31:33 - KETAKWAAN" },
+        { id: 'bab3-toleransi-cci',           label: "BAB 3 Quran Hadis (RABU) — QS. Al-Baqarah/2:256 - TOLERANSI" },
+        { id: 'bab4-cinta-tanah-air-cci',     label: "BAB 4 Quran Hadis (KAMIS) — QS. Al-Qashas/28:85 & QS. An-Nisa/4:66 - CINTA TANAH AIR" },
+        { id: 'bab5-menuntut-ilmu-cci',       label: "BAB 5 Quran Hadis (JUMAT) — QS. Al-Mujadalah/58:11 & QS. Az-Zumar/39:9 - SEMANGAT MENUNTUT ILMU" },
+
+        // --- KELOMPOK 2: AQIDAH AKHLAK (SENIN - JUMAT) ---
+        { id: 'bab1-aqidah-aa',               label: "BAB 1 Aqidah-Akhlak (SENIN) — Iman kepada Allah, Asmaul Husna & Akhlak Ikhlas" },
+        { id: 'bab2-aqidah-aa',               label: "BAB 2 Aqidah-Akhlak (SELASA) — Iman kepada Malaikat, Kitab & Akhlak Bersyukur" },
+        { id: 'bab3-aqidah-aa',               label: "BAB 3 Aqidah-Akhlak (RABU) — Iman kepada Rasul, Cinta Rasul & Husnuzan" },
+        { id: 'bab4-aqidah-aa',               label: "BAB 4 Aqidah-Akhlak (KAMIS) — Iman Kiamat, Kasih Sayang Sesama & Alam" },
+        { id: 'bab5-aqidah-aa',               label: "BAB 5 Aqidah-Akhlak (JUMAT) — Iman Qada & Qadar, Akhlak Sabar, Optimis, Pemaaf & Adab" },
+
+        // --- KELOMPOK 3: FIKIH & SKI (SENIN - JUMAT) ---
+        { id: 'bab1-fikih-ski',               label: "BAB 1 Fikih-SKI (SENIN) — Sujud Sahwi, Syukur, Tilawah & Daulah Bani Umayyah" },
+
+        // --- TOPIK SPESIFIK LAINNYA ---
+        { id: 'quran-cinta-tanah-air',        label: "Al-Qur'an & Hadis — Cinta Tanah Air (Q.S. Al-Qashash/28: 85)" },
+        { id: 'aqidah-keimanan-kitab-rasul',  label: "Aqidah — Keimanan kepada Kitab dan Rasul" },
+        { id: 'aqidah-iman-kepada-rasul',     label: "Aqidah — Iman kepada Rasul-Rasul Allah" },
+        { id: 'aqidah-iman-hari-kiamat',      label: "Aqidah — Iman kepada Hari Kiamat" },
+        { id: 'aqidah-qada-qadar',            label: "Aqidah — Iman kepada Qada dan Qadar" },
+        { id: 'akhlak-husnuzan',              label: "Akhlak — Husnuzan (Berbaik Sangka)" },
+        { id: 'akhlak-kasih-sayang-sesama',   label: "Akhlak — Kasih Sayang kepada Sesama" },
+        { id: 'akhlak-kasih-sayang-alam',     label: "Akhlak — Makna Kasih Sayang kepada Lingkungan Alam" },
+        { id: 'akhlak-sabar-musibah',         label: "Akhlak — Sabar Menghadapi Musibah & Ujian" },
+        { id: 'fikih-penyelenggaraan-jenazah', label: "Fikih — Pengurusan Jenazah & Ziarah Kubur" },
+        { id: 'fikih-penyembelihan-kurban-akikah', label: "Fikih — Penyembelihan, Kurban & Akikah" },
+        { id: 'fikih-rukhsah',                label: "Fikih — Rukhsah dalam Ibadah" },
+        { id: 'ski-turki-usmani',             label: "SKI — Daulah Turki Usmani" },
+        { id: 'ski-syafawi',                  label: "SKI — Daulah Syafawi di Persia" },
+        { id: 'ski-mughal',                   label: "SKI — Daulah Mughal di India" }
     ];
 
     let jadwalLatihan = JSON.parse(localStorage.getItem(LATIHAN_KEY) || '{}');

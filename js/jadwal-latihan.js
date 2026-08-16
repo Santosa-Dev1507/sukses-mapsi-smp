@@ -136,24 +136,37 @@ const infoLatihan = {
 
 // Daftar set soal yang bisa dipilih guru di Dashboard Guru
 const DAFTAR_SOAL = [
-    { id: "bab1-fikih-ski", label: "BAB 1 Fikih-SKI (SENIN) — Sujud Sahwi, Syukur, Tilawah & Daulah Bani Umayyah" },
-    { id: "bab5-aqidah-aa", label: "BAB 5 Aqidah-Akhlak (JUMAT) — Iman Qada & Qadar, Akhlak Sabar, Optimis, Pemaaf & Adab" },
-    { id: "bab4-aqidah-aa", label: "BAB 4 Aqidah-Akhlak (KAMIS) — Iman Kiamat, Kasih Sayang Sesama & Alam" },
-    { id: "bab3-aqidah-aa", label: "BAB 3 Aqidah-Akhlak (RABU) — Iman kepada Rasul, Cinta Rasul & Husnuzan" },
-    { id: "bab2-aqidah-aa", label: "BAB 2 Aqidah-Akhlak (SELASA) — Iman kepada Malaikat, Kitab & Akhlak Bersyukur" },
-    { id: "bab1-aqidah-aa", label: "BAB 1 Aqidah-Akhlak (SENIN) — Iman kepada Allah, Asmaul Husna & Akhlak Ikhlas" },
-    { id: "bab1-keimanan-cci", label: "BAB 1 Quran Hadis (SENIN) — QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 - KEIMANAN" },
-    { id: "bab2-ketakwaan-cci", label: "BAB 2 Quran Hadis (SELASA) — QS. Ali Imran/3:102 & QS. Luqman/31:33 - KETAKWAAN" },
-    { id: "bab3-toleransi-cci", label: "BAB 3 Quran Hadis (RABU) — QS. Al-Baqarah/2:256 - TOLERANSI" },
-    { id: "bab4-cinta-tanah-air-cci", label: "BAB 4 Quran Hadis (KAMIS) — QS. Al-Qashas/28:85 & QS. An-Nisa/4:66 - CINTA TANAH AIR" },
-    { id: "bab5-menuntut-ilmu-cci", label: "BAB 5 Quran Hadis (JUMAT) — QS. Al-Mujadalah/58:11 & QS. Az-Zumar/39:9 - SEMANGAT MENUNTUT ILMU" },
-    { id: "quran-cinta-tanah-air", label: "Al-Qur'an & Hadis — Cinta Tanah Air (Q.S. Al-Qashash/28: 85)" },
-    { id: "aqidah-keimanan-kitab-rasul", label: "Aqidah — Keimanan kepada Kitab dan Rasul" },
-    { id: "akhlak-sabar-musibah", label: "Akhlak — Sabar Menghadapi Musibah & Ujian" },
+    // --- KELOMPOK 1: QURAN HADIS (SENIN - JUMAT) ---
+    { id: "bab1-keimanan-cci",            label: "BAB 1 Quran Hadis (SENIN) — QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 - KEIMANAN" },
+    { id: "bab2-ketakwaan-cci",           label: "BAB 2 Quran Hadis (SELASA) — QS. Ali Imran/3:102 & QS. Luqman/31:33 - KETAKWAAN" },
+    { id: "bab3-toleransi-cci",           label: "BAB 3 Quran Hadis (RABU) — QS. Al-Baqarah/2:256 - TOLERANSI" },
+    { id: "bab4-cinta-tanah-air-cci",     label: "BAB 4 Quran Hadis (KAMIS) — QS. Al-Qashas/28:85 & QS. An-Nisa/4:66 - CINTA TANAH AIR" },
+    { id: "bab5-menuntut-ilmu-cci",       label: "BAB 5 Quran Hadis (JUMAT) — QS. Al-Mujadalah/58:11 & QS. Az-Zumar/39:9 - SEMANGAT MENUNTUT ILMU" },
+
+    // --- KELOMPOK 2: AQIDAH AKHLAK (SENIN - JUMAT) ---
+    { id: "bab1-aqidah-aa",               label: "BAB 1 Aqidah-Akhlak (SENIN) — Iman kepada Allah, Asmaul Husna & Akhlak Ikhlas" },
+    { id: "bab2-aqidah-aa",               label: "BAB 2 Aqidah-Akhlak (SELASA) — Iman kepada Malaikat, Kitab & Akhlak Bersyukur" },
+    { id: "bab3-aqidah-aa",               label: "BAB 3 Aqidah-Akhlak (RABU) — Iman kepada Rasul, Cinta Rasul & Husnuzan" },
+    { id: "bab4-aqidah-aa",               label: "BAB 4 Aqidah-Akhlak (KAMIS) — Iman Kiamat, Kasih Sayang Sesama & Alam" },
+    { id: "bab5-aqidah-aa",               label: "BAB 5 Aqidah-Akhlak (JUMAT) — Iman Qada & Qadar, Akhlak Sabar, Optimis, Pemaaf & Adab" },
+
+    // --- KELOMPOK 3: FIKIH & SKI (SENIN - JUMAT) ---
+    { id: "bab1-fikih-ski",               label: "BAB 1 Fikih-SKI (SENIN) — Sujud Sahwi, Syukur, Tilawah & Daulah Bani Umayyah" },
+
+    // --- TOPIK SPESIFIK LAINNYA ---
+    { id: "quran-cinta-tanah-air",        label: "Al-Qur'an & Hadis — Cinta Tanah Air (Q.S. Al-Qashash/28: 85)" },
+    { id: "aqidah-keimanan-kitab-rasul",  label: "Aqidah — Keimanan kepada Kitab dan Rasul" },
+    { id: "aqidah-iman-kepada-rasul",     label: "Aqidah — Iman kepada Rasul-Rasul Allah" },
+    { id: "aqidah-iman-hari-kiamat",      label: "Aqidah — Iman kepada Hari Kiamat" },
+    { id: "aqidah-qada-qadar",            label: "Aqidah — Iman kepada Qada dan Qadar" },
+    { id: "akhlak-husnuzan",              label: "Akhlak — Husnuzan (Berbaik Sangka)" },
+    { id: "akhlak-kasih-sayang-sesama",   label: "Akhlak — Kasih Sayang kepada Sesama" },
+    { id: "akhlak-kasih-sayang-alam",     label: "Akhlak — Makna Kasih Sayang kepada Lingkungan Alam" },
+    { id: "akhlak-sabar-musibah",         label: "Akhlak — Sabar Menghadapi Musibah & Ujian" },
     { id: "fikih-penyelenggaraan-jenazah", label: "Fikih — Pengurusan Jenazah & Ziarah Kubur" },
     { id: "fikih-penyembelihan-kurban-akikah", label: "Fikih — Penyembelihan, Kurban & Akikah" },
-    { id: "fikih-rukhsah", label: "Fikih — Rukhsah dalam Ibada" },
-    { id: "ski-turki-usmani", label: "SKI — Daulah Turki Usmani" },
-    { id: "ski-syafawi", label: "SKI — Daulah Syafawi di Persia" },
-    { id: "ski-mughal", label: "SKI — Daulah Mughal di India" }
+    { id: "fikih-rukhsah",                label: "Fikih — Rukhsah dalam Ibadah" },
+    { id: "ski-turki-usmani",             label: "SKI — Daulah Turki Usmani" },
+    { id: "ski-syafawi",                  label: "SKI — Daulah Syafawi di Persia" },
+    { id: "ski-mughal",                   label: "SKI — Daulah Mughal di India" }
 ];
