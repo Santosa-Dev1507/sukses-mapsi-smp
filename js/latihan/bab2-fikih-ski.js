@@ -13,10 +13,10 @@ var latihanData = [
         tipe: "pg",
         topik: "Fikih — Hukum & Kewajiban Salat Jumat",
         level: "L1",
-        stimulus: "Allah Swt. berfirman dalam Q.S. al-Jumu'ah/62: 9:
+        stimulus: `Allah Swt. berfirman dalam Q.S. al-Jumu'ah/62: 9:
 
-يٰٓاَيُّهَا الَّذِيْنَ اٰمَنُوْٓا اِذَا نُوْدِيَ لِلصَّلٰوةِ مِنْ يَّوْمِ الْجُمُعَةِ فَاسْعَوْا اِلٰى ذِكْرِ اللّٰهِ وَذَرُوا الْبَيْعَ",
-        pertanyaan: "Berdasarkan firman Allah Swt. di atas, apa hukum menunaikan salat Jumat bagi seorang laki-laki muslim yang baligh, berakal, dan bermukim (tidak sedang safar)?",
+يٰٓاَيُّهَا الَّذِيْنَ اٰمَنُوْٓا اِذَا نُوْدِيَ لِلصَّلٰوةِ مِنْ يَّوْمِ الْجُمُعَةِ فَاسْعَوْا اِلٰى ذِكْرِ اللّٰهِ وَذَرُوا الْبَيْعَ`,
+        pertanyaan: `Berdasarkan firman Allah Swt. di atas, apa hukum menunaikan salat Jumat bagi seorang laki-laki muslim yang baligh, berakal, dan bermukim (tidak sedang safar)?`,
         opsi: [
             "Sunnah Muakkad",
             "Fardhu 'Ain",
@@ -33,8 +33,8 @@ var latihanData = [
         tipe: "pg",
         topik: "Fikih — Syarat Khotbah Jumat yang Sah",
         level: "L2",
-        stimulus: "Khotbah Jumat merupakan rukun wajib dalam rangkaian pelaksanaan salat Jumat yang disampaikan oleh khatib di atas mimbar sebelum salat dimulai.",
-        pertanyaan: "Manakah di antara pilihan berikut yang termasuk salah satu rukun khotbah Jumat yang wajib dipenuhi oleh khatib?",
+        stimulus: `Khotbah Jumat merupakan rukun wajib dalam rangkaian pelaksanaan salat Jumat yang disampaikan oleh khatib di atas mimbar sebelum salat dimulai.`,
+        pertanyaan: `Manakah di antara pilihan berikut yang termasuk salah satu rukun khotbah Jumat yang wajib dipenuhi oleh khatib?`,
         opsi: [
             "Membaca ayat Al-Qur'an pada salah satu dari dua khotbah dan membaca salawat atas Nabi Muhammad saw.",
             "Memakai pakaian jubah serba putih dan memegang tongkat kayu",
@@ -51,8 +51,8 @@ var latihanData = [
         tipe: "pg",
         topik: "Fikih — Ketentuan Salat Jama' dan Qashar bagi Musafir",
         level: "L2",
-        stimulus: "Rombongan siswa CCAI melakukan perjalanan belajar dari Semarang menuju Jakarta sejauh 450 km. Mereka berangkat pukul 07.00 WIB dan berniat menjamak salat Dzuhur dan Ashar di tempat istirahat.",
-        pertanyaan: "Tata cara menjamak salat Dzuhur dan Ashar masing-masing 2 rakaat yang dikerjakan pada waktu Dzuhur dinamakan...",
+        stimulus: `Rombongan siswa CCAI melakukan perjalanan belajar dari Semarang menuju Jakarta sejauh 450 km. Mereka berangkat pukul 07.00 WIB dan berniat menjamak salat Dzuhur dan Ashar di tempat istirahat.`,
+        pertanyaan: `Tata cara menjamak salat Dzuhur dan Ashar masing-masing 2 rakaat yang dikerjakan pada waktu Dzuhur dinamakan...`,
         opsi: [
             "Salat Jama' Taqdim Qashar",
             "Salat Jama' Takhir Qashar",
@@ -69,7 +69,7 @@ var latihanData = [
         tipe: "pg",
         topik: "Fikih — Jarak Minimal Rukhsah Safar",
         level: "L1",
-        pertanyaan: "Berapa jarak minimal perjalanan (safar) yang diperbolehkan oleh mayoritas ulama fikih bagi seorang musafir untuk mengambil rukhshah meringkas (qashar) salat?",
+        pertanyaan: `Berapa jarak minimal perjalanan (safar) yang diperbolehkan oleh mayoritas ulama fikih bagi seorang musafir untuk mengambil rukhshah meringkas (qashar) salat?`,
         opsi: [
             "Sekitar 15 km (1 marhalah)",
             "Sekitar 40 km",
@@ -86,8 +86,8 @@ var latihanData = [
         tipe: "pg",
         topik: "SKI — Pendiri Daulah Abbasiyah di Baghdad",
         level: "L1",
-        stimulus: "Daulah Abbasiyah berdiri pada tahun 132 H / 750 M setelah meruntuhkan kekuasaan Daulah Bani Umayyah dalam Pertempuran Sungai Zab.",
-        pertanyaan: "Siapakah khalifah pertama sekaligus pendiri Daulah Abbasiyah?",
+        stimulus: `Daulah Abbasiyah berdiri pada tahun 132 H / 750 M setelah meruntuhkan kekuasaan Daulah Bani Umayyah dalam Pertempuran Sungai Zab.`,
+        pertanyaan: `Siapakah khalifah pertama sekaligus pendiri Daulah Abbasiyah?`,
         opsi: [
             "Abu Ja'far al-Mansur",
             "Abul Abbas as-Saffah (Abu al-Abbas al-Saffah)",
@@ -104,8 +104,8 @@ var latihanData = [
         tipe: "pg",
         topik: "SKI — Pendiri Kota Baghdad (Abu Ja'far al-Mansur)",
         level: "L1",
-        stimulus: "Kota Baghdad dirancang sebagai kota bundar (Madinat as-Salam) di tepi Sungai Tigris yang indah dan menjadi pusat peradaban sains dunia.",
-        pertanyaan: "Khalifah Daulah Abbasiyah kedua yang memprakarsai pembangunan dan pemindahan ibu kota ke kota Baghdad adalah…",
+        stimulus: `Kota Baghdad dirancang sebagai kota bundar (Madinat as-Salam) di tepi Sungai Tigris yang indah dan menjadi pusat peradaban sains dunia.`,
+        pertanyaan: `Khalifah Daulah Abbasiyah kedua yang memprakarsai pembangunan dan pemindahan ibu kota ke kota Baghdad adalah…`,
         opsi: [
             "Abu al-Abbas as-Saffah",
             "Abu Ja'far al-Mansur",
@@ -122,8 +122,8 @@ var latihanData = [
         tipe: "pg",
         topik: "SKI — Lembaga Penerjemahan Bayt al-Hikmah",
         level: "L1",
-        stimulus: "Puncak keemasan sains dan literasi Daulah Abbasiyah ditandai dengan berdirinya perpustakaan raksasa sekaligus akademi penerjemahan di Baghdad.",
-        pertanyaan: "Apa nama lembaga penerjemahan dan perpustakaan megah yang didirikan oleh Khalifah Harun ar-Rasyid dan dikembangkan pesat oleh Khalifah Al-Ma'mun?",
+        stimulus: `Puncak keemasan sains dan literasi Daulah Abbasiyah ditandai dengan berdirinya perpustakaan raksasa sekaligus akademi penerjemahan di Baghdad.`,
+        pertanyaan: `Apa nama lembaga penerjemahan dan perpustakaan megah yang didirikan oleh Khalifah Harun ar-Rasyid dan dikembangkan pesat oleh Khalifah Al-Ma'mun?`,
         opsi: [
             "Darul Ulum",
             "Bayt al-Hikmah (بيت الحكمة)",
@@ -140,8 +140,8 @@ var latihanData = [
         tipe: "pg",
         topik: "SKI — Tokoh Ilmuwan Muslim Abbasiyah (Al-Khawarizmi)",
         level: "L1",
-        stimulus: "Ilmuwan muslim masa Abbasiyah ini menemukan konsep angka nol, melahirkan cabang matematika Aljabar (*Al-Jabr*), dan namanya diabadikan menjadi istilah Aljabar serta Algoritma dalam ilmu komputer.",
-        pertanyaan: "Siapakah nama cendekiawan muslim agung peneremu konsep aljabar tersebut?",
+        stimulus: `Ilmuwan muslim masa Abbasiyah ini menemukan konsep angka nol, melahirkan cabang matematika Aljabar (*Al-Jabr*), dan namanya diabadikan menjadi istilah Aljabar serta Algoritma dalam ilmu komputer.`,
+        pertanyaan: `Siapakah nama cendekiawan muslim agung peneremu konsep aljabar tersebut?`,
         opsi: [
             "Ibnu Sina (Avicenna)",
             "Muhammad bin Musa al-Khawarizmi",
@@ -158,7 +158,7 @@ var latihanData = [
         tipe: "pgk",
         topik: "Fikih — PGK Golongan yang Gugur Kewajiban Salat Jumat",
         level: "L2",
-        pertanyaan: "Salat Jumat wajib bagi laki-laki muslim. Namun, syariat memberikan keringanan (kemerdekaan) bagi kelompok tertentu sehingga tidak diwajibkan salat Jumat. Manakah dua golongan yang tidak diwajibkan salat Jumat menurut fikih? (Pilihlah dua jawaban yang benar!)",
+        pertanyaan: `Salat Jumat wajib bagi laki-laki muslim. Namun, syariat memberikan keringanan (kemerdekaan) bagi kelompok tertentu sehingga tidak diwajibkan salat Jumat. Manakah dua golongan yang tidak diwajibkan salat Jumat menurut fikih? (Pilihlah dua jawaban yang benar!)`,
         opsi: [
             "Wanita muslimah dan anak-anak yang belum baligh.",
             "Laki-laki dewasa yang sehat dan tinggal di dekat masjid.",
@@ -175,7 +175,7 @@ var latihanData = [
         tipe: "pgk",
         topik: "Fikih — PGK Pasangan Salat yang Boleh Dijamak",
         level: "L2",
-        pertanyaan: "Dalam rukhshah safar, tidak semua salat fardhu dapat digabungkan (dijamak). Manakah dua pasangan salat fardhu yang sah untuk dijamak menurut hukum fikih? (Pilihlah two jawaban yang benar!)",
+        pertanyaan: `Dalam rukhshah safar, tidak semua salat fardhu dapat digabungkan (dijamak). Manakah dua pasangan salat fardhu yang sah untuk dijamak menurut hukum fikih? (Pilihlah two jawaban yang benar!)`,
         opsi: [
             "Salat Dzuhur dengan salat Ashar.",
             "Salat Ashar dengan salat Maghrib.",
@@ -192,7 +192,7 @@ var latihanData = [
         tipe: "pgk",
         topik: "SKI — PGK Tokoh Kedokteran dan Filsafat Abbasiyah",
         level: "L2",
-        pertanyaan: "Masa keemasan Daulah Abbasiyah melahirkan ilmuwan-ilmuwan dunia yang karyanya menjadi rujukan universitas di Eropa selama berabad-abad. Manakah dua ilmuwan dibidang kedokteran dan filsafat peninggalan Abbasiyah? (Pilihlah dua jawaban yang benar!)",
+        pertanyaan: `Masa keemasan Daulah Abbasiyah melahirkan ilmuwan-ilmuwan dunia yang karyanya menjadi rujukan universitas di Eropa selama berabad-abad. Manakah dua ilmuwan dibidang kedokteran dan filsafat peninggalan Abbasiyah? (Pilihlah dua jawaban yang benar!)`,
         opsi: [
             "Ibnu Sina (Avicenna), penyusun mahakarya kitab kedokteran *Al-Qanun fi al-Tibb*.",
             "Ar-Razi (Rhazes), penemu perbedaan penyakit cacar air dan pembuat benang jahut bedah.",
@@ -209,7 +209,7 @@ var latihanData = [
         tipe: "pgk",
         topik: "SKI — PGK Faktor Kemajuan Peradaban Abbasiyah",
         level: "L3",
-        pertanyaan: "Kemajuan peradaban ilmu pengetahuan Daulah Abbasiyah dipengaruhi oleh berbagai kebijakan strategis penguasa. Manakah dua faktor utama pendorong kemajuan sains masa Abbasiyah? (Pilihlah dua jawaban yang benar!)",
+        pertanyaan: `Kemajuan peradaban ilmu pengetahuan Daulah Abbasiyah dipengaruhi oleh berbagai kebijakan strategis penguasa. Manakah dua faktor utama pendorong kemajuan sains masa Abbasiyah? (Pilihlah dua jawaban yang benar!)`,
         opsi: [
             "Dukungan penuh dan penghargaan finansial tinggi dari para khalifah terhadap ilmuwan dan penterjemah buku.",
             "Asimilasi budaya yang inklusif antara bangsa Arab dengan bangsa Persia, Yunani, dan India.",
@@ -226,9 +226,9 @@ var latihanData = [
         tipe: "pg",
         topik: "Fikih — B/S Salat Jumat Menggantikan Salat Dzuhur",
         level: "L1",
-        pertanyaan: "Laki-laki yang telah melaksanakan salat Jumat secara sah berjamaah di masjid tidak diwajibkan lagi untuk melaksanakan salat Dzuhur pada hari tersebut.
+        pertanyaan: `Laki-laki yang telah melaksanakan salat Jumat secara sah berjamaah di masjid tidak diwajibkan lagi untuk melaksanakan salat Dzuhur pada hari tersebut.
 
-Apakah pernyataan di atas BENAR atau SALAH?",
+Apakah pernyataan di atas BENAR atau SALAH?`,
         opsi: [
             "BENAR",
             "SALAH"
@@ -243,9 +243,9 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pg",
         topik: "Fikih — B/S Salat Subuh Boleh Di-qashar",
         level: "L1",
-        pertanyaan: "Seorang musafir diperbolehkan meringkas (qashar) salat Subuh dari 2 rakaat menjadi 1 rakaat saat melakukan perjalanan jauh.
+        pertanyaan: `Seorang musafir diperbolehkan meringkas (qashar) salat Subuh dari 2 rakaat menjadi 1 rakaat saat melakukan perjalanan jauh.
 
-Apakah pernyataan di atas BENAR atau SALAH?",
+Apakah pernyataan di atas BENAR atau SALAH?`,
         opsi: [
             "BENAR",
             "SALAH"
@@ -260,9 +260,9 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pg",
         topik: "SKI — B/S Perang Ain Jalut oleh Abbasiyah",
         level: "L2",
-        pertanyaan: "Kota Baghdad hancur rata dengan tanah akibat penyerbuan pasukan Mongol yang dipimpin oleh Hulagu Khan pada tahun 1258 M, menandai berakhirnya kekuasaan Daulah Abbasiyah di Baghdad.
+        pertanyaan: `Kota Baghdad hancur rata dengan tanah akibat penyerbuan pasukan Mongol yang dipimpin oleh Hulagu Khan pada tahun 1258 M, menandai berakhirnya kekuasaan Daulah Abbasiyah di Baghdad.
 
-Apakah pernyataan di atas BENAR atau SALAH?",
+Apakah pernyataan di atas BENAR atau SALAH?`,
         opsi: [
             "BENAR",
             "SALAH"
@@ -277,9 +277,9 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pg",
         topik: "SKI — B/S Penemu Kimia Jabir bin Hayyan",
         level: "L1",
-        pertanyaan: "Jabir bin Hayyan (Geber) dikenal sebagai bapak ilmu Kimia modern (*Al-Kimya*) peninggalan era emas peradaban Daulah Abbasiyah.
+        pertanyaan: `Jabir bin Hayyan (Geber) dikenal sebagai bapak ilmu Kimia modern (*Al-Kimya*) peninggalan era emas peradaban Daulah Abbasiyah.
 
-Apakah pernyataan di atas BENAR atau SALAH?",
+Apakah pernyataan di atas BENAR atau SALAH?`,
         opsi: [
             "BENAR",
             "SALAH"
@@ -296,10 +296,10 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pg",
         topik: "Al-Qur'an & Hadis — Ketakwaan dalam Q.S. Ali 'Imran/3: 102",
         level: "L1",
-        stimulus: "Allah Swt. berfirman dalam Q.S. Ali 'Imran/3: 102:
+        stimulus: `Allah Swt. berfirman dalam Q.S. Ali 'Imran/3: 102:
 
-يٰٓاَيُّهَا الَّذِيْنَ اٰمَنُوا اتَّقُوا اللّٰهَ حَقَّ تُقٰتِهٖ وَلَا تَمُوْتُنَّ اِلَّا وَاَنْتُمْ مُّسْلِمُوْنَ",
-        pertanyaan: "Pesan utama yang terkandung di dalam potongan ayat suci di atas adalah perintah untuk…",
+يٰٓاَيُّهَا الَّذِيْنَ اٰمَنُوا اتَّقُوا اللّٰهَ حَقَّ تُقٰتِهٖ وَلَا تَمُوْتُنَّ اِلَّا وَاَنْتُمْ مُّسْلِمُوْنَ`,
+        pertanyaan: `Pesan utama yang terkandung di dalam potongan ayat suci di atas adalah perintah untuk…`,
         opsi: [
             "Bertakwa kepada Allah Swt. dengan sebenar-benar takwa dan mempertahankan keislaman hingga akhir hayat",
             "Melakukan ekspansi dagang ke luar negeri dengan modal yang besar",
@@ -316,7 +316,7 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pg",
         topik: "Tajwid — Hukum Bacaan Qalqalah Kubra",
         level: "L2",
-        pertanyaan: "Manakah di antara lafal berikut yang mengandung hukum bacaan Qalqalah Kubra (suara memantul kuat karena di-waqaf-kan di akhir kata)?",
+        pertanyaan: `Manakah di antara lafal berikut yang mengandung hukum bacaan Qalqalah Kubra (suara memantul kuat karena di-waqaf-kan di akhir kata)?`,
         opsi: [
             "يَقْتُلُوْنَ",
             "قُلْ هُوَ اللّٰهُ اَحَدٌۚ",
@@ -333,7 +333,7 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pgk",
         topik: "Tajwid — PGK Hukum Bacaan Ghunnah",
         level: "L2",
-        pertanyaan: "Hukum bacaan Ghunnah Musyaddadah terjadi pada huruf Nun atau Mim yang bertanda tasydid. Manakah dua lafal di bawah ini yang wajib dibaca dengan Ghunnah mendengung 2 harakat? (Pilihlah dua jawaban yang benar!)",
+        pertanyaan: `Hukum bacaan Ghunnah Musyaddadah terjadi pada huruf Nun atau Mim yang bertanda tasydid. Manakah dua lafal di bawah ini yang wajib dibaca dengan Ghunnah mendengung 2 harakat? (Pilihlah dua jawaban yang benar!)`,
         opsi: [
             "اِنَّ الَّذِيْنَ (Nun bertasydid).",
             "مِنْ خَوْفٍ (Nun sukun bertemu Kha).",
@@ -350,9 +350,9 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pg",
         topik: "Al-Qur'an & Hadis — B/S Nasihat Luqman tentang Takwa (Q.S. Luqman: 33)",
         level: "L2",
-        pertanyaan: "Dalam Q.S. Luqman/31: 33, Allah Swt. mengingatkan manusia agar tidak terperdaya oleh kehidupan dunia dan tidak tertipu oleh bujuk rayu setan.
+        pertanyaan: `Dalam Q.S. Luqman/31: 33, Allah Swt. mengingatkan manusia agar tidak terperdaya oleh kehidupan dunia dan tidak tertipu oleh bujuk rayu setan.
 
-Apakah pernyataan di atas BENAR atau SALAH?",
+Apakah pernyataan di atas BENAR atau SALAH?`,
         opsi: [
             "BENAR",
             "SALAH"
@@ -369,7 +369,7 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pg",
         topik: "Aqidah — Tugas Malaikat Jibril dan Mikail",
         level: "L1",
-        pertanyaan: "Malaikat yang ditugaskan oleh Allah Swt. untuk menyampaikan wahyu kepada para nabi dan rasul adalah Malaikat…",
+        pertanyaan: `Malaikat yang ditugaskan oleh Allah Swt. untuk menyampaikan wahyu kepada para nabi dan rasul adalah Malaikat…`,
         opsi: [
             "Malaikat Mikail",
             "Malaikat Jibril",
@@ -386,8 +386,8 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pg",
         topik: "Akhlak — Akhlak Bersyukur atas Nikmat",
         level: "L2",
-        stimulus: "Nabila berhasil meraih juara I olimpiade sains. Ia tidak merasa sombong, melainkan langsung melakukan sujud syukur dan menyisihkan sebagian uang hadiahnya untuk disedekahkan.",
-        pertanyaan: "Sikap batin Nabila yang mengakui bahwa keberhasilan tersebut merupakan karunia Allah Swt. dinamakan…",
+        stimulus: `Nabila berhasil meraih juara I olimpiade sains. Ia tidak merasa sombong, melainkan langsung melakukan sujud syukur dan menyisihkan sebagian uang hadiahnya untuk disedekahkan.`,
+        pertanyaan: `Sikap batin Nabila yang mengakui bahwa keberhasilan tersebut merupakan karunia Allah Swt. dinamakan…`,
         opsi: [
             "Riya'",
             "Syukur (الشُّكْرُ)",
@@ -404,7 +404,7 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pgk",
         topik: "Aqidah — PGK Empat Kitab Allah dan Penerimanya",
         level: "L2",
-        pertanyaan: "Umat Islam wajib meyakini kitab-kitab Allah Swt.. Manakah dua pasangan kitab suci dan Nabi penerimanya yang benar? (Pilihlah dua jawaban yang benar!)",
+        pertanyaan: `Umat Islam wajib meyakini kitab-kitab Allah Swt.. Manakah dua pasangan kitab suci dan Nabi penerimanya yang benar? (Pilihlah dua jawaban yang benar!)`,
         opsi: [
             "Kitab Taurat diturunkan kepada Nabi Musa a.s..",
             "Kitab Injil diturunkan kepada Nabi Daud a.s..",
@@ -421,14 +421,14 @@ Apakah pernyataan di atas BENAR atau SALAH?",
         tipe: "pg",
         topik: "Akhlak — B/S Sifat Syukur Menambah Nikmat",
         level: "L1",
-        pertanyaan: "Berdasarkan firman Allah Swt. dalam Q.S. Ibrahim/14: 7, barangsiapa yang bersyukur atas nikmat Allah Swt., niscaya Allah Swt. akan menambah nikmat tersebut kepadanya.
+        pertanyaan: `Berdasarkan firman Allah Swt. dalam Q.S. Ibrahim/14: 7, barangsiapa yang bersyukur atas nikmat Allah Swt., niscaya Allah Swt. akan menambah nikmat tersebut kepadanya.
 
-Apakah pernyataan di atas BENAR atau SALAH?",
+Apakah pernyataan di atas BENAR atau SALAH?`,
         opsi: [
             "BENAR",
             "SALAH"
         ],
         kunci: 0,
-        penjelasan: "BENAR. Q.S. Ibrahim/14: 7 secara tegas menyatakan: "la'in syakartum la'azīdannakum" (jika kamu bersyukur niscaya Aku akan menambah nikmat kepadamu)."
+        penjelasan: `BENAR. Q.S. Ibrahim/14: 7 secara tegas menyatakan: "la'in syakartum la'azīdannakum" (jika kamu bersyukur niscaya Aku akan menambah nikmat kepadamu).`
     }
 ];
