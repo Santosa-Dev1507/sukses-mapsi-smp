@@ -1,40 +1,13 @@
-// ── Helper Otomatis Memperbesar Teks Arab (Ayat/Lafal) ──
-function formatTeksArab(str) {
-    if (!str || typeof str !== 'string') return str;
-    const reArab = /([\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]+(?:[\s\u064B-\u065F\u0670\u06D6-\u06DC\u06DF-\u06E8\u06EA-\u06ED]+[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]+)*)/g;
-    return str.replace(reArab, (match) => {
-        const trimmed = match.trim();
-        if (!trimmed || !/[\u0600-\u06FF]/.test(trimmed)) return match;
-        return `<span class="font-arabic-inline" dir="rtl">${trimmed}</span>`;
-    });
-}
-
 document.addEventListener('DOMContentLoaded', () => {
-
     // ══════════════════════════════════════════════
-    // KONFIGURASI
-    // ══════════════════════════════════════════════
-    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwQfgDcTK5fzkphsdawmcGpZjbOSwHAh_WadAie3UwCRLflSeFTLpFRIq4XGO81ykA1Iw/exec';
-    const STORAGE_KEY_NAMA  = 'latihanNama';
-    const STORAGE_KEY_KELAS = 'latihanKelas';
-
-    // ══════════════════════════════════════════════
-    // STATE
-    // ══════════════════════════════════════════════
-    let soalList     = [];
-    let jawabanSiswa = [];  // null untuk PG, [] untuk PGK, [null,..] untuk Menjodohkan
-    let sudahSubmit  = false;
-    let startTime    = null;
-    let namaKini     = localStorage.getItem(STORAGE_KEY_NAMA)  || '';
-    let kelasKini    = localStorage.getItem(STORAGE_KEY_KELAS) || '';
-
-    // ══════════════════════════════════════════════
-    // DOM REFERENCES
+    // ELEMENT DOM
     // ══════════════════════════════════════════════
     const elWelcome     = document.getElementById('welcome-section');
-    const elTidakAda    = document.getElementById('tidak-ada-latihan');
     const elArena       = document.getElementById('arena-latihan');
+    const elTidakAda    = document.getElementById('tidak-ada-latihan');
     const elHasil       = document.getElementById('hasil-section');
+    const elPilihTopik  = document.getElementById('pilih-topik');
+
     const elNamaDisplay = document.getElementById('nama-siswa-display');
     const elTopikJudul  = document.getElementById('topik-judul');
     const elTopikSub    = document.getElementById('topik-sub');
@@ -52,12 +25,47 @@ document.addEventListener('DOMContentLoaded', () => {
     const elBtnMulai    = document.getElementById('btn-mulai-latihan');
 
     // ══════════════════════════════════════════════
-    // INISIALISASI: ambil jadwal dari GAS lalu mulai
+    // INISIALISASI
     // ══════════════════════════════════════════════
-    const GAS_URL = 'https://script.google.com/macros/s/AKfycbwQfgDcTK5fzkphsdawmcGpZjbOSwHAh_WadAie3UwCRLflSeFTLpFRIq4XGO81ykA1Iw/exec';
-    const INFO_SET = (typeof infoLatihan !== 'undefined') ? infoLatihan : {};
-    let setIdsHariIni = []; // array setId yang aktif hari ini
+    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwQfgDcTK5fzkphsdawmcGpZjbOSwHAh_WadAie3UwCRLflSeFTLpFRIq4XGO81ykA1Iw/exec';
+    const GAS_URL   = 'https://script.google.com/macros/s/AKfycbwQfgDcTK5fzkphsdawmcGpZjbOSwHAh_WadAie3UwCRLflSeFTLpFRIq4XGO81ykA1Iw/exec';
+    const INFO_SET  = (typeof infoLatihan !== 'undefined') ? infoLatihan : {};
+    let setIdsHariIni = [];
     let setIdDipilih  = null;
+
+    let namaKini  = localStorage.getItem('nama_siswa_latihan')  || '';
+    let kelasKini = localStorage.getItem('kelas_siswa_latihan') || '';
+
+    let soalList     = [];
+    let jawabanSiswa = [];
+    let startTime    = 0;
+    let sudahSubmit  = false;
+
+    // Helper normalisasi kunci objek tanggal ke YYYY-MM-DD
+    function normalisasiJadwal(rawObj) {
+        const res = {};
+        if (!rawObj || typeof rawObj !== 'object') return res;
+        for (let k in rawObj) {
+            if (!rawObj[k]) continue;
+            let newKey = k;
+            if (!/^\d{4}-\d{2}-\d{2}$/.test(k)) {
+                const d = new Date(k);
+                if (!isNaN(d.getTime())) {
+                    newKey = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+                } else {
+                    continue;
+                }
+            }
+            if (!res[newKey]) {
+                res[newKey] = rawObj[k];
+            } else {
+                const arr1 = Array.isArray(res[newKey]) ? res[newKey] : [res[newKey]];
+                const arr2 = Array.isArray(rawObj[k]) ? rawObj[k] : [rawObj[k]];
+                res[newKey] = arr1.concat(arr2);
+            }
+        }
+        return res;
+    }
 
     async function fetchJadwalSheet() {
         try {
@@ -66,43 +74,47 @@ document.addEventListener('DOMContentLoaded', () => {
             const res  = await fetch(GAS_URL + '?action=getJadwalLatihan', { cache: 'no-store', signal: ctrl.signal });
             clearTimeout(tid);
             const rawData = await res.json();
-            const data = {};
-            for (let k in rawData) {
-                let newKey = k;
-                if (!/^\d{4}-\d{2}-\d{2}$/.test(k)) {
-                    const d = new Date(k);
-                    if (!isNaN(d.getTime())) {
-                        newKey = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-                    }
-                }
-                data[newKey] = rawData[k];
-            }
-            const lokal  = JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
-            const gabung = Object.assign({}, lokal, data);
+            const data    = normalisasiJadwal(rawData);
+
+            const lokalRaw = JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
+            const lokal    = normalisasiJadwal(lokalRaw);
+
+            const gabung   = Object.assign({}, lokal, data);
             localStorage.setItem('mapsi_jadwal_latihan', JSON.stringify(gabung));
             return gabung;
         } catch (_) {
-            return JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
+            const lokalRaw = JSON.parse(localStorage.getItem('mapsi_jadwal_latihan') || '{}');
+            return normalisasiJadwal(lokalRaw);
         }
     }
 
     async function init() {
         const today = getTodayStr();
 
+        // 1. Cek parameter URL (?id=... / ?set=... / ?topik=...)
         const urlParams = new URLSearchParams(window.location.search);
-        const urlId = urlParams.get('id') || urlParams.get('set') || urlParams.get('topik');
+        const urlId     = urlParams.get('id') || urlParams.get('set') || urlParams.get('topik');
 
         const jadwalLS = await fetchJadwalSheet();
-        const jadwalJS = (typeof jadwalLatihan !== 'undefined') ? jadwalLatihan : {};
+        const jadwalJS = (typeof jadwalLatihan !== 'undefined') ? normalisasiJadwal(jadwalLatihan) : {};
         const jadwalGabung = Object.assign({}, jadwalJS, jadwalLS);
 
+        if (urlId) {
+            const info  = INFO_SET[urlId] || {};
+            const topik = { id: urlId, label: info.judul || urlId };
+            setIdDipilih = urlId;
+            loadSoal(topik, today, jadwalGabung);
+            return;
+        }
+
         let allTopics = [];
-        let addedIds = new Set();
-        
-        // Kumpulkan semua topik dari tanggal yang lalu hingga hari ini (<= today)
-        for (const tgl in jadwalGabung) {
+        let addedIds  = new Set();
+
+        // Kumpulkan topik tanggal <= today
+        const sortedDates = Object.keys(jadwalGabung).sort();
+        for (const tgl of sortedDates) {
             if (tgl <= today) {
-                const val = jadwalGabung[tgl];
+                const val    = jadwalGabung[tgl];
                 const topiks = normalisasiTopik(val);
                 for (const top of topiks) {
                     if (!addedIds.has(top.id)) {
@@ -113,17 +125,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        if (urlId) {
-            const info = INFO_SET[urlId] || {};
-            const topik = { id: urlId, label: info.judul || urlId };
-            setIdDipilih = urlId;
-            loadSoal(topik, today, jadwalGabung);
-            return;
-        }
-
         setIdsHariIni = allTopics;
 
-        if (setIdsHariIni.length === 0) { tampilTidakAda(today, jadwalGabung); return; }
+        if (setIdsHariIni.length === 0) {
+            tampilTidakAda(today, jadwalGabung);
+            return;
+        }
 
         if (setIdsHariIni.length === 1) {
             setIdDipilih = setIdsHariIni[0].id;
@@ -181,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="shrink-0">
                     ${sudahDone
-                        ? '<span class="inline-flex items-center gap-1 bg-white/25 text-white text-xs font-bold px-3 py-1 rounded-full"><span class="material-symbols-outlined text-sm" style="font-variation-settings:\'FILL\' 1;">check_circle</span>Selesai</span>'
+                        ? '<span class="inline-flex items-center gap-1 bg-white/25 text-white text-xs font-bold px-3 py-1 rounded-full"><span class="material-symbols-outlined text-sm" style="font-variation-settings:'FILL' 1;">check_circle</span>Selesai</span>'
                         : '<span class="material-symbols-outlined text-3xl opacity-70">arrow_forward</span>'
                     }
                 </div>`;
@@ -230,64 +237,45 @@ document.addEventListener('DOMContentLoaded', () => {
         document.head.appendChild(script);
     }
 
-    // ══════════════════════════════════════════════
-    // IDENTITAS SISWA
-    // ══════════════════════════════════════════════
     function cekIdentitas() {
-        if (namaKini && kelasKini) {
-            tampilkanNama();
-            tampilWelcome();
+        if (!namaKini || !kelasKini) {
+            show(elModalNama);
         } else {
-            bukaModalNama();
-        }
-    }
-
-    function tampilkanNama() {
-        if (elNamaDisplay) elNamaDisplay.textContent = `${namaKini} · ${kelasKini}`;
-    }
-
-    function bukaModalNama() {
-        if (elModalNama) {
-            elModalNama.classList.remove('hidden');
-            elModalNama.classList.add('flex');
-        }
-    }
-
-    function tutupModalNama() {
-        if (elModalNama) {
-            elModalNama.classList.add('hidden');
-            elModalNama.classList.remove('flex');
+            tampilWelcome();
         }
     }
 
     if (elBtnMulai) {
         elBtnMulai.addEventListener('click', () => {
             const nama  = elInputNama  ? elInputNama.value.trim()  : '';
-            const kelas = elInputKelas ? elInputKelas.value         : '';
-            if (!nama || !kelas) {
-                if (elInputNama && !nama)   elInputNama.classList.add('border-red-500');
-                if (elInputKelas && !kelas) elInputKelas.classList.add('border-red-500');
-                return;
-            }
+            const kelas = elInputKelas ? elInputKelas.value.trim() : '';
+
+            if (!nama) { alert('Silakan isi Nama Lengkap'); return; }
+            if (!kelas) { alert('Silakan pilih Kelas'); return; }
+
             namaKini  = nama;
             kelasKini = kelas;
-            localStorage.setItem(STORAGE_KEY_NAMA,  nama);
-            localStorage.setItem(STORAGE_KEY_KELAS, kelas);
-            tutupModalNama();
-            tampilkanNama();
+
+            localStorage.setItem('nama_siswa_latihan',  namaKini);
+            localStorage.setItem('kelas_siswa_latihan', kelasKini);
+
+            hide(elModalNama);
             tampilWelcome();
         });
     }
 
     if (elBtnGanti) {
         elBtnGanti.addEventListener('click', () => {
-            if (elInputNama)  elInputNama.value   = namaKini;
-            if (elInputKelas) elInputKelas.value  = kelasKini;
-            bukaModalNama();
+            if (elInputNama)  elInputNama.value  = namaKini;
+            if (elInputKelas) elInputKelas.value = kelasKini;
+            show(elModalNama);
         });
     }
 
     function tampilWelcome() {
+        if (elNamaDisplay) {
+            elNamaDisplay.textContent = `${namaKini} (${kelasKini})`;
+        }
         show(elWelcome);
         hide(elArena);
         hide(elHasil);
@@ -296,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function tampilTidakAda(today, jadwalObj) {
         const berikutnya = getJadwalBerikutnya(today, jadwalObj || {});
-        const elPesan = document.getElementById('pesan-tidak-ada');
+        const elPesan    = document.getElementById('pesan-tidak-ada');
         if (elPesan && berikutnya) {
             elPesan.innerHTML = `Tidak ada latihan hari ini.<br><span class="text-sm font-normal">Jadwal berikutnya: <strong>${formatTanggal(berikutnya.tgl)}</strong></span>`;
         } else if (elPesan) {
@@ -339,341 +327,242 @@ document.addEventListener('DOMContentLoaded', () => {
         card.id        = `soal-card-${idx}`;
         card.className = 'soal-card bg-surface-container-lowest rounded-2xl sm:rounded-3xl p-5 sm:p-8 border border-outline-variant/10 shadow-sm transition-all duration-300';
 
-        let badgeTipe = `<span class="text-[10px] font-bold px-2.5 py-1 rounded-full shrink-0 ${levelWarna[soal.level] || 'bg-surface-container text-on-surface-variant'}">${levelLabel[soal.level] || soal.level}</span>`;
-        if (soal.tipe === 'menjodohkan') {
-            badgeTipe = `<span class="bg-amber-100 text-amber-900 text-[10px] font-bold px-2.5 py-1 rounded-full shrink-0">Menjodohkan</span>`;
-        } else if (soal.tipe === 'pgk' || soal.tipe === 'pga') {
-            badgeTipe = `<span class="bg-purple-100 text-purple-900 text-[10px] font-bold px-2.5 py-1 rounded-full shrink-0">PG Kompleks</span>`;
-        }
-
-        let html = `
-            <div class="flex items-start justify-between gap-3 mb-5">
-                <div class="flex items-center gap-3">
-                    <span class="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-primary text-white font-headline font-bold flex items-center justify-center text-base sm:text-lg shrink-0">${idx + 1}</span>
-                    <div>
-                        <p class="text-[10px] sm:text-xs font-bold text-on-surface-variant uppercase tracking-widest">${soal.topik || ''}</p>
-                    </div>
+        const headerHtml = `
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4 pb-4 border-b border-outline-variant/10">
+                <div class="flex items-center gap-2">
+                    <span class="w-8 h-8 rounded-full bg-primary text-white font-bold text-sm flex items-center justify-center">${idx + 1}</span>
+                    <span class="text-xs font-semibold text-on-surface-variant/70">${soal.topik || 'Soal'}</span>
                 </div>
-                ${badgeTipe}
+                <div class="flex items-center gap-2">
+                    ${soal.tipe === 'pgk' ? '<span class="text-xs font-bold bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full">PG Kompleks (Pilih 2)</span>' : ''}
+                    ${soal.tipe === 'menjodohkan' ? '<span class="text-xs font-bold bg-purple-100 text-purple-800 px-2.5 py-1 rounded-full">Menjodohkan</span>' : ''}
+                    <span class="text-xs font-bold px-2.5 py-1 rounded-full ${levelWarna[soal.level] || 'bg-surface-container text-on-surface-variant'}">${levelLabel[soal.level] || soal.level || ''}</span>
+                </div>
             </div>`;
 
-        // Stimulus (teks narasi)
+        let bodyHtml = '';
+
         if (soal.stimulus) {
-            const stimLines = soal.stimulus.split('\n').map(l => l.trim()).filter(Boolean);
-            html += `<div class="bg-surface-container-low border-l-4 border-secondary/40 rounded-xl p-4 mb-5 text-sm text-on-surface-variant leading-relaxed">`;
-            stimLines.forEach(line => { html += `<p class="mb-1 last:mb-0">${formatTeksArab(line)}</p>`; });
-            html += `</div>`;
-        }
-
-        // Kutipan Arab
-        if (soal.kutipan) {
-            html += `<div class="bg-primary/5 border border-primary/10 rounded-2xl p-4 sm:p-6 mb-5 text-center">
-                <p dir="rtl" class="font-arabic text-3xl sm:text-4xl text-primary font-bold leading-[2.5] mb-3 select-all">${soal.kutipan}</p>
-                ${soal.kutipanTerjemah ? `<p class="text-xs text-on-surface-variant italic">${soal.kutipanTerjemah}</p>` : ''}
-            </div>`;
-        }
-
-        // Pertanyaan
-        html += `<p class="text-on-surface font-semibold text-sm sm:text-base leading-relaxed mb-5">${formatTeksArab(soal.pertanyaan)}</p>`;
-
-        // AREA JAWABAN SESUAI TIPE
-        if (soal.tipe === 'menjodohkan') {
-            html += `<div class="space-y-4" id="opsi-${idx}">
-                <p class="text-xs text-amber-800 font-bold mb-2 flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">link</span> Pasangkanlah setiap item di Kolom Kiri dengan pilihan di Kolom Kanan:</p>`;
-            soal.kolomKiri.forEach((itemKiri, kIdx) => {
-                html += `
-                <div class="p-4 rounded-xl border border-outline-variant/20 bg-surface-container-low/50 flex flex-col sm:flex-row sm:items-center justify-between gap-3" id="jodoh-row-${idx}-${kIdx}">
-                    <div class="font-bold text-sm text-on-surface flex-1">${formatTeksArab(itemKiri)}</div>
-                    <div class="shrink-0 w-full sm:w-72">
-                        <select data-soal="${idx}" data-kiri="${kIdx}" class="jodoh-sel w-full p-3 rounded-xl border border-outline-variant/40 bg-white text-sm font-medium text-on-surface focus:border-primary focus:outline-none transition-colors">
-                            <option value="">-- Pilih Pasangan --</option>
-                            ${soal.kolomKanan.map((itemKanan, rIdx) => `<option value="${rIdx}">${itemKanan}</option>`).join('')}
-                        </select>
-                    </div>
+            bodyHtml += `
+                <div class="bg-surface-container-low rounded-xl p-4 sm:p-5 mb-4 border-l-4 border-primary text-sm sm:text-base text-on-surface-variant leading-relaxed font-sans font-normal">
+                    ${soal.stimulus.replace(/\n/g, '<br>')}
                 </div>`;
-            });
-            html += `</div>`;
-        } else if (soal.tipe === 'pgk' || soal.tipe === 'pga') {
-            html += `<div class="space-y-3" id="opsi-${idx}">
-                <p class="text-xs text-purple-800 font-bold mb-2 flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">check_box</span> Pilih lebih dari satu jawaban yang benar:</p>`;
-            const huruf = ['A', 'B', 'C', 'D', 'E'];
-            soal.opsi.forEach((opsi, opsiIdx) => {
-                html += `
-                <button type="button"
-                    id="opsi-btn-${idx}-${opsiIdx}"
-                    data-soal="${idx}"
-                    data-opsi="${opsiIdx}"
-                    class="opsi-btn-pgk w-full text-left flex items-center gap-4 p-3 sm:p-4 rounded-xl border-2 border-outline-variant/20 bg-white hover:border-purple-400 hover:bg-purple-50/50 transition-all duration-200 group active:scale-[0.99]">
-                    <span class="opsi-box w-7 h-7 sm:w-8 sm:h-8 rounded-lg border-2 border-outline-variant/40 bg-surface-container flex items-center justify-center text-xs sm:text-sm font-bold text-on-surface-variant shrink-0 group-hover:border-purple-400 transition-all">
-                        <span class="material-symbols-outlined text-base text-white hidden">check</span>
-                    </span>
-                    <span class="text-sm sm:text-base text-on-surface flex-1">${formatTeksArab(opsi)}</span>
-                </button>`;
-            });
-            html += `</div>`;
-        } else {
-            // Standard PG
-            html += `<div class="space-y-3" id="opsi-${idx}">`;
-            const huruf = ['A', 'B', 'C', 'D', 'E'];
-            soal.opsi.forEach((opsi, opsiIdx) => {
-                const isArab = soal.opsiArab;
-                html += `
-                <button type="button"
-                    id="opsi-btn-${idx}-${opsiIdx}"
-                    data-soal="${idx}"
-                    data-opsi="${opsiIdx}"
-                    class="opsi-btn w-full text-left flex items-center gap-4 p-3 sm:p-4 rounded-xl border-2 border-outline-variant/20 bg-white hover:border-primary/40 hover:bg-primary/5 transition-all duration-200 group active:scale-[0.99]">
-                    <span class="opsi-huruf w-7 h-7 sm:w-8 sm:h-8 rounded-lg border-2 border-outline-variant/40 bg-surface-container flex items-center justify-center text-xs sm:text-sm font-bold text-on-surface-variant shrink-0 group-hover:border-primary/40 group-hover:text-primary transition-all">${huruf[opsiIdx]}</span>
-                    <span class="${isArab ? 'font-arabic text-2xl sm:text-3xl font-bold text-primary text-right w-full leading-loose' : 'text-sm sm:text-base text-on-surface flex-1'}" ${isArab ? 'dir="rtl"' : ''}>${isArab ? opsi : formatTeksArab(opsi)}</span>
-                </button>`;
-            });
-            html += `</div>`;
         }
 
-        // Placeholder hasil (tampil setelah submit)
-        html += `<div id="hasil-${idx}" class="hidden mt-5 p-4 rounded-xl text-sm"></div>`;
+        bodyHtml += `
+            <p class="font-headline font-bold text-base sm:text-lg text-on-surface mb-5 leading-relaxed">
+                ${soal.pertanyaan.replace(/\n/g, '<br>')}
+            </p>`;
 
-        card.innerHTML = html;
-
-        // Event Listeners
-        if (soal.tipe === 'menjodohkan') {
-            card.querySelectorAll('.jodoh-sel').forEach(sel => {
-                sel.addEventListener('change', (e) => {
-                    if (sudahSubmit) return;
-                    const si = parseInt(e.target.dataset.soal);
-                    const ki = parseInt(e.target.dataset.kiri);
-                    const val = e.target.value === '' ? null : parseInt(e.target.value);
-                    pilihJodoh(si, ki, val);
-                });
+        if (soal.tipe === 'pgk') {
+            bodyHtml += `<div class="space-y-3">`;
+            soal.opsi.forEach((opsiTxt, oIdx) => {
+                const checked = (jawabanSiswa[idx] || []).includes(oIdx);
+                bodyHtml += `
+                    <label class="flex items-start gap-3.5 p-4 rounded-xl border border-outline-variant/20 hover:border-primary/50 hover:bg-primary/5 cursor-pointer transition-all ${checked ? 'border-primary bg-primary/5 font-semibold' : ''}">
+                        <input type="checkbox" name="soal-${idx}" value="${oIdx}" ${checked ? 'checked' : ''}
+                            onchange="pilihJawabanPGK(${idx}, ${oIdx}, this.checked)"
+                            class="mt-1 w-4 h-4 text-primary rounded border-outline-variant focus:ring-primary shrink-0">
+                        <span class="text-sm sm:text-base text-on-surface font-normal leading-relaxed">${opsiTxt}</span>
+                    </label>`;
             });
-        } else if (soal.tipe === 'pgk' || soal.tipe === 'pga') {
-            card.querySelectorAll('.opsi-btn-pgk').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    if (sudahSubmit) return;
-                    const si = parseInt(btn.dataset.soal);
-                    const oi = parseInt(btn.dataset.opsi);
-                    togglePGK(si, oi);
-                });
+            bodyHtml += `</div>`;
+        } else if (soal.tipe === 'menjodohkan') {
+            bodyHtml += `<div class="space-y-4">`;
+            soal.kolomKiri.forEach((kiriTxt, kIdx) => {
+                const valSaatIni = (jawabanSiswa[idx] || [])[kIdx];
+                bodyHtml += `
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 rounded-xl bg-surface-container-low border border-outline-variant/10">
+                        <span class="text-sm font-semibold text-on-surface">${kIdx + 1}. ${kiriTxt}</span>
+                        <select onchange="pilihJawabanMenjodohkan(${idx}, ${kIdx}, this.value)"
+                            class="text-sm rounded-lg border-outline-variant/30 bg-surface-container-lowest p-2 focus:ring-primary focus:border-primary">
+                            <option value="">-- Pilih Pasangan --</option>
+                            ${soal.kolomKanan.map((kananTxt, rIdx) => `
+                                <option value="${rIdx}" ${valSaatIni === rIdx ? 'selected' : ''}>${kananTxt}</option>
+                            `).join('')}
+                        </select>
+                    </div>`;
             });
+            bodyHtml += `</div>`;
         } else {
-            card.querySelectorAll('.opsi-btn').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    if (sudahSubmit) return;
-                    const si = parseInt(btn.dataset.soal);
-                    const oi = parseInt(btn.dataset.opsi);
-                    pilihJawaban(si, oi);
-                });
+            const HURUF = ['A', 'B', 'C', 'D', 'E'];
+            bodyHtml += `<div class="space-y-3">`;
+            soal.opsi.forEach((opsiTxt, oIdx) => {
+                const checked = jawabanSiswa[idx] === oIdx;
+                bodyHtml += `
+                    <label class="flex items-start gap-3.5 p-4 rounded-xl border border-outline-variant/20 hover:border-primary/50 hover:bg-primary/5 cursor-pointer transition-all ${checked ? 'border-primary bg-primary/5 font-semibold' : ''}">
+                        <input type="radio" name="soal-${idx}" value="${oIdx}" ${checked ? 'checked' : ''}
+                            onchange="pilihJawabanPG(${idx}, ${oIdx})"
+                            class="mt-1 w-4 h-4 text-primary border-outline-variant focus:ring-primary shrink-0">
+                        <span class="w-6 h-6 rounded-full bg-surface-container text-on-surface-variant text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">${HURUF[oIdx] || oIdx + 1}</span>
+                        <span class="text-sm sm:text-base text-on-surface font-normal leading-relaxed">${opsiTxt}</span>
+                    </label>`;
             });
+            bodyHtml += `</div>`;
         }
 
+        bodyHtml += `<div id="hasil-soal-${idx}" class="hidden mt-4"></div>`;
+
+        card.innerHTML = headerHtml + bodyHtml;
         return card;
     }
 
     // ══════════════════════════════════════════════
-    // INTERAKSI JAWABAN SISWA
+    // INTERAKSI JAWABAN
     // ══════════════════════════════════════════════
-    function pilihJawaban(soalIdx, opsiIdx) {
+    window.pilihJawabanPG = (soalIdx, opsiIdx) => {
+        if (sudahSubmit) return;
         jawabanSiswa[soalIdx] = opsiIdx;
-        document.querySelectorAll(`#opsi-${soalIdx} .opsi-btn`).forEach(btn => {
-            btn.className = btn.className
-                .replace(/border-primary[^\s]*/g, 'border-outline-variant/20')
-                .replace(/bg-primary[^\s]*/g, 'bg-white');
-            const hurufEl = btn.querySelector('.opsi-huruf');
-            if (hurufEl) {
-                hurufEl.className = hurufEl.className
-                    .replace(/border-primary[^\s]*/g, 'border-outline-variant/40')
-                    .replace(/bg-primary[^\s]*/g, 'bg-surface-container')
-                    .replace(/text-white/g, 'text-on-surface-variant');
-            }
-        });
-
-        const dipilih = document.getElementById(`opsi-btn-${soalIdx}-${opsiIdx}`);
-        if (dipilih) {
-            dipilih.classList.add('border-primary', 'bg-primary/10');
-            dipilih.classList.remove('border-outline-variant/20', 'bg-white');
-            const hurufEl = dipilih.querySelector('.opsi-huruf');
-            if (hurufEl) {
-                hurufEl.classList.add('bg-primary', 'border-primary', 'text-white');
-                hurufEl.classList.remove('border-outline-variant/40', 'bg-surface-container', 'text-on-surface-variant');
-            }
-        }
         updateProgress();
-    }
+        renderUlangKartu(soalIdx);
+    };
 
-    function togglePGK(soalIdx, opsiIdx) {
+    window.pilihJawabanPGK = (soalIdx, opsiIdx, isChecked) => {
+        if (sudahSubmit) return;
         if (!Array.isArray(jawabanSiswa[soalIdx])) jawabanSiswa[soalIdx] = [];
-        const arr = jawabanSiswa[soalIdx];
-        const pos = arr.indexOf(opsiIdx);
-        if (pos > -1) arr.splice(pos, 1);
-        else arr.push(opsiIdx);
 
-        const btn = document.getElementById(`opsi-btn-${soalIdx}-${opsiIdx}`);
-        if (btn) {
-            const isChecked = arr.includes(opsiIdx);
-            const box = btn.querySelector('.opsi-box');
-            const icon = box ? box.querySelector('.material-symbols-outlined') : null;
-
-            if (isChecked) {
-                btn.classList.add('border-purple-600', 'bg-purple-50');
-                btn.classList.remove('border-outline-variant/20', 'bg-white');
-                if (box) {
-                    box.classList.add('bg-purple-600', 'border-purple-600');
-                    box.classList.remove('bg-surface-container', 'border-outline-variant/40');
-                }
-                if (icon) icon.classList.remove('hidden');
-            } else {
-                btn.classList.remove('border-purple-600', 'bg-purple-50');
-                btn.classList.add('border-outline-variant/20', 'bg-white');
-                if (box) {
-                    box.classList.remove('bg-purple-600', 'border-purple-600');
-                    box.classList.add('bg-surface-container', 'border-outline-variant/40');
-                }
-                if (icon) icon.classList.add('hidden');
+        if (isChecked) {
+            if (!jawabanSiswa[soalIdx].includes(opsiIdx)) {
+                jawabanSiswa[soalIdx].push(opsiIdx);
             }
+        } else {
+            jawabanSiswa[soalIdx] = jawabanSiswa[soalIdx].filter(i => i !== opsiIdx);
         }
         updateProgress();
-    }
+    };
 
-    function pilihJodoh(soalIdx, kiriIdx, val) {
+    window.pilihJawabanMenjodohkan = (soalIdx, kiriIdx, val) => {
+        if (sudahSubmit) return;
         if (!Array.isArray(jawabanSiswa[soalIdx])) {
             jawabanSiswa[soalIdx] = new Array(soalList[soalIdx].kolomKiri.length).fill(null);
         }
-        jawabanSiswa[soalIdx][kiriIdx] = val;
+        jawabanSiswa[soalIdx][kiriIdx] = val === '' ? null : parseInt(val, 10);
         updateProgress();
+    };
+
+    function renderUlangKartu(idx) {
+        const oldCard = document.getElementById(`soal-card-${idx}`);
+        if (oldCard) {
+            const newCard = buatKartuSoal(soalList[idx], idx);
+            oldCard.replaceWith(newCard);
+        }
     }
 
-    // ══════════════════════════════════════════════
-    // PROGRESS BAR
-    // ══════════════════════════════════════════════
     function updateProgress() {
         let dijawab = 0;
         soalList.forEach((soal, idx) => {
-            const ans = jawabanSiswa[idx];
-            if (soal.tipe === 'menjodohkan') {
-                if (Array.isArray(ans) && ans.length === soal.kolomKiri.length && ans.every(v => v !== null && v !== undefined)) dijawab++;
-            } else if (soal.tipe === 'pgk' || soal.tipe === 'pga') {
-                if (Array.isArray(ans) && ans.length > 0) dijawab++;
+            const j = jawabanSiswa[idx];
+            if (soal.tipe === 'pgk' || soal.tipe === 'pga') {
+                if (Array.isArray(j) && j.length > 0) dijawab++;
+            } else if (soal.tipe === 'menjodohkan') {
+                if (Array.isArray(j) && j.some(val => val !== null)) dijawab++;
             } else {
-                if (ans !== null && ans !== undefined) dijawab++;
+                if (j !== null && j !== undefined) dijawab++;
             }
         });
-        const total = soalList.length;
-        const pct   = Math.round((dijawab / total) * 100);
-        if (elProgressBar) elProgressBar.style.width = pct + '%';
-        if (elProgressTxt) elProgressTxt.textContent  = `${dijawab} / ${total} soal dijawab`;
+
+        const total  = soalList.length;
+        const persen = total > 0 ? Math.round((dijawab / total) * 100) : 0;
+
+        if (elProgressTxt)   elProgressTxt.textContent = `${dijawab} / ${total} soal dijawab`;
+        if (elProgressBar)   elProgressBar.style.width = `${persen}%`;
 
         if (elBtnSubmit) {
-            const semua = dijawab === total;
-            elBtnSubmit.disabled = !semua;
-            elBtnSubmit.classList.toggle('opacity-50',   !semua);
-            elBtnSubmit.classList.toggle('cursor-not-allowed', !semua);
+            if (dijawab > 0) {
+                elBtnSubmit.disabled = false;
+                elBtnSubmit.classList.remove('opacity-50', 'cursor-not-allowed');
+            } else {
+                elBtnSubmit.disabled = true;
+                elBtnSubmit.classList.add('opacity-50', 'cursor-not-allowed');
+            }
         }
     }
 
     // ══════════════════════════════════════════════
-    // SUBMIT & EVALUASI
+    // SUBMIT & KOREKSI
     // ══════════════════════════════════════════════
     if (elBtnSubmit) {
-        elBtnSubmit.addEventListener('click', submit);
-    }
+        elBtnSubmit.addEventListener('click', () => {
+            if (sudahSubmit) return;
 
-    function submit() {
-        if (sudahSubmit) return;
-        sudahSubmit = true;
+            const belumDijawab = jawabanSiswa.filter((j, idx) => {
+                const s = soalList[idx];
+                if (s.tipe === 'pgk' || s.tipe === 'pga') return !Array.isArray(j) || j.length === 0;
+                if (s.tipe === 'menjodohkan') return !Array.isArray(j) || j.every(v => v === null);
+                return j === null || j === undefined;
+            }).length;
 
-        const durasi = startTime ? Math.round((Date.now() - startTime) / 60000) : 0;
-        let benar = 0;
-        const salahNomor = [];
-
-        soalList.forEach((soal, idx) => {
-            const pilihan = jawabanSiswa[idx];
-            let correct = false;
-
-            if (soal.tipe === 'menjodohkan') {
-                const uArr = pilihan || [];
-                const kArr = soal.kunci || [];
-                correct = uArr.length === kArr.length && uArr.every((v, i) => v === kArr[i]);
-
-                document.querySelectorAll(`#opsi-${idx} .jodoh-sel`).forEach((sel, ki) => {
-                    sel.disabled = true;
-                    const isRowCorrect = (pilihan && pilihan[ki] === soal.kunci[ki]);
-                    const rowEl = document.getElementById(`jodoh-row-${idx}-${ki}`);
-                    if (rowEl) {
-                        if (isRowCorrect) {
-                            rowEl.classList.add('border-emerald-500', 'bg-emerald-50/40');
-                        } else {
-                            rowEl.classList.add('border-red-400', 'bg-red-50/40');
-                        }
-                    }
-                });
-            } else if (soal.tipe === 'pgk' || soal.tipe === 'pga') {
-                const uArr = [...(pilihan || [])].sort((a,b)=>a-b);
-                const kArr = [...(soal.kunci || [])].sort((a,b)=>a-b);
-                correct = uArr.length === kArr.length && uArr.every((v, i) => v === kArr[i]);
-
-                document.querySelectorAll(`#opsi-${idx} .opsi-btn-pgk`).forEach((btn, oi) => {
-                    btn.style.pointerEvents = 'none';
-                    const isUserChecked = Array.isArray(pilihan) && pilihan.includes(oi);
-                    const isKey = Array.isArray(soal.kunci) && soal.kunci.includes(oi);
-
-                    if (isKey && isUserChecked) {
-                        btn.className = 'opsi-btn-pgk w-full text-left flex items-center gap-4 p-3 sm:p-4 rounded-xl border-2 border-emerald-500 bg-emerald-50';
-                    } else if (isUserChecked && !isKey) {
-                        btn.className = 'opsi-btn-pgk w-full text-left flex items-center gap-4 p-3 sm:p-4 rounded-xl border-2 border-red-400 bg-red-50';
-                    } else if (isKey) {
-                        btn.className = 'opsi-btn-pgk w-full text-left flex items-center gap-4 p-3 sm:p-4 rounded-xl border-2 border-emerald-300 bg-emerald-50/40';
-                    }
-                });
-            } else {
-                // PG Standar
-                correct = pilihan === soal.kunci;
-                document.querySelectorAll(`#opsi-${idx} .opsi-btn`).forEach((btn, oi) => {
-                    btn.style.pointerEvents = 'none';
-                    if (oi === soal.kunci && oi === pilihan) {
-                        btn.className = btn.className.replace(/border-\S+/g, '').replace(/bg-\S+/g, '');
-                        btn.classList.add('border-2', 'border-emerald-500', 'bg-emerald-50');
-                        const h = btn.querySelector('.opsi-huruf');
-                        if (h) { h.className = 'opsi-huruf w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center text-xs sm:text-sm font-bold bg-emerald-500 text-white shrink-0'; }
-                    } else if (oi === pilihan && oi !== soal.kunci) {
-                        btn.className = btn.className.replace(/border-\S+/g, '').replace(/bg-\S+/g, '');
-                        btn.classList.add('border-2', 'border-red-400', 'bg-red-50');
-                        const h = btn.querySelector('.opsi-huruf');
-                        if (h) { h.className = 'opsi-huruf w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center text-xs sm:text-sm font-bold bg-red-400 text-white shrink-0'; }
-                    } else if (oi === soal.kunci) {
-                        btn.classList.add('border-emerald-300', 'bg-emerald-50/50');
-                    }
-                });
+            if (belumDijawab > 0) {
+                if (!confirm(`Masih ada ${belumDijawab} soal yang belum dijawab. Yakin mau kirim sekarang?`)) {
+                    return;
+                }
             }
 
-            if (correct) benar++;
-            else salahNomor.push(idx + 1);
+            sudahSubmit = true;
+            koreksiDanTampil();
+        });
+    }
 
-            // Output Hasil Card
-            const hasilEl = document.getElementById(`hasil-${idx}`);
+    function koreksiDanTampil() {
+        let benar = 0;
+        const salahNomor = [];
+        const durasi = Math.max(1, Math.round((Date.now() - startTime) / 60000));
+
+        soalList.forEach((soal, idx) => {
+            const j = jawabanSiswa[idx];
+            let correct = false;
+
+            if (soal.tipe === 'pgk') {
+                const k = Array.isArray(soal.kunci) ? soal.kunci : [soal.kunci];
+                const s = Array.isArray(j) ? j : [];
+                correct = k.length === s.length && k.every(val => s.includes(val));
+            } else if (soal.tipe === 'menjodohkan') {
+                const k = soal.kunci;
+                const s = Array.isArray(j) ? j : [];
+                correct = k.length === s.length && k.every((val, i) => val === s[i]);
+            } else {
+                correct = (j === soal.kunci);
+            }
+
+            if (correct) {
+                benar++;
+            } else {
+                salahNomor.push(idx + 1);
+            }
+
+            const hasilEl = document.getElementById(`hasil-soal-${idx}`);
             if (hasilEl) {
-                const huruf = ['A', 'B', 'C', 'D', 'E'];
                 if (correct) {
-                    hasilEl.innerHTML = `<div class="flex items-center gap-2 text-emerald-700 font-bold"><span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">check_circle</span> Jawaban Benar!</div>`;
-                    hasilEl.className = 'mt-5 p-4 rounded-xl bg-emerald-50 border border-emerald-200';
+                    hasilEl.innerHTML = `
+                        <div class="flex items-start gap-3 text-emerald-700 bg-emerald-50 p-4 rounded-xl border border-emerald-200">
+                            <span class="material-symbols-outlined text-emerald-600 shrink-0 mt-0.5 font-bold">check_circle</span>
+                            <div>
+                                <p class="font-bold text-sm sm:text-base">Jawaban Benar!</p>
+                                ${soal.penjelasan ? `<p class="text-xs sm:text-sm text-emerald-900 mt-1 leading-relaxed">${soal.penjelasan.replace(/\n/g, '<br>')}</p>` : ''}
+                            </div>
+                        </div>`;
                 } else {
-                    let kunciTxt = '';
-                    if (soal.tipe === 'menjodohkan') {
-                        kunciTxt = soal.kolomKiri.map((k, i) => `<br>• ${k} ➔ <strong>${soal.kolomKanan[soal.kunci[i]]}</strong>`).join('');
-                    } else if (soal.tipe === 'pgk' || soal.tipe === 'pga') {
-                        kunciTxt = soal.kunci.map(i => huruf[i]).join(', ');
+                    let kunciText = '';
+                    if (soal.tipe === 'pgk') {
+                        const HURUF = ['A', 'B', 'C', 'D', 'E'];
+                        const kArr  = Array.isArray(soal.kunci) ? soal.kunci : [soal.kunci];
+                        kunciText   = kArr.map(kIdx => `${HURUF[kIdx] || kIdx + 1}. ${soal.opsi[kIdx]}`).join('<br>');
+                    } else if (soal.tipe === 'menjodohkan') {
+                        kunciText = soal.kolomKiri.map((kiri, i) => `${kiri} → ${soal.kolomKanan[soal.kunci[i]]}`).join('<br>');
                     } else {
-                        kunciTxt = huruf[soal.kunci];
+                        const HURUF = ['A', 'B', 'C', 'D', 'E'];
+                        kunciText   = `${HURUF[soal.kunci] || soal.kunci + 1}. ${soal.opsi[soal.kunci]}`;
                     }
 
                     hasilEl.innerHTML = `
-                        <div class="flex items-start gap-2 text-red-600 font-bold mb-3">
-                            <span class="material-symbols-outlined mt-0.5" style="font-variation-settings:'FILL' 1;">cancel</span>
-                            <div>Jawaban Belum Tepat — Kunci Benar: <strong>${kunciTxt}</strong></div>
-                        </div>
-                        <div class="text-sm text-on-surface-variant leading-relaxed">
-                            <span class="font-semibold text-on-surface">💡 Penjelasan: </span>${formatTeksArab(soal.penjelasan)}
+                        <div class="flex items-start gap-3 text-red-700 bg-red-50 p-4 rounded-xl border border-red-200">
+                            <span class="material-symbols-outlined text-red-600 shrink-0 mt-0.5 font-bold">cancel</span>
+                            <div class="text-sm">
+                                <p class="font-bold text-sm sm:text-base">Jawaban Kurang Tepat</p>
+                                <p class="text-xs sm:text-sm mt-1"><strong>Kunci Jawaban:</strong><br>${kunciText}</p>
+                                ${soal.penjelasan ? `<p class="text-xs sm:text-sm text-red-900 mt-2 leading-relaxed"><strong>Pembahasan:</strong><br>${soal.penjelasan.replace(/\n/g, '<br>')}</p>` : ''}
+                            </div>
                         </div>`;
-                    hasilEl.className = 'mt-5 p-4 rounded-xl bg-red-50 border border-red-200';
                 }
                 hasilEl.classList.remove('hidden');
             }
@@ -767,7 +656,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ══════════════════════════════════════════════
-    // KIRIM LAPORAN KE GOOGLE SHEETS (MODE JSON NO-CORS)
+    // KIRIM LAPORAN KE GOOGLE SHEETS
     // ══════════════════════════════════════════════
     function kirimLaporan(benar, total, salahNomor, durasi) {
         const today   = getTodayStr();
@@ -808,7 +697,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getJadwalBerikutnya(today, jadwalObj) {
-        const obj  = jadwalObj || {};
+        const obj  = normalisasiJadwal(jadwalObj || {});
         const keys = Object.keys(obj).sort();
         const next = keys.find(k => k > today);
         if (!next) return null;
@@ -816,7 +705,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function formatTanggal(str) {
-        const d = new Date(str + 'T00:00:00');
+        if (!str) return '';
+        const parts = str.split('-');
+        if (parts.length === 3) {
+            const d = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+            return d.toLocaleDateString('id-ID', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+        }
+        const d = new Date(str);
         return d.toLocaleDateString('id-ID', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
     }
 
