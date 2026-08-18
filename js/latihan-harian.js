@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.animationDelay = `${idx * 80}ms`;
             card.innerHTML = `
                 <div class="w-14 h-14 shrink-0 rounded-xl bg-white/20 flex items-center justify-center">
-                    <span class="material-symbols-outlined text-3xl" style="font-variation-settings:'FILL' 1;">${ikon}</span>
+                    <span class="material-symbols-outlined text-3xl" style="font-variation-settings:&quot;FILL&quot; 1;">${ikon}</span>
                 </div>
                 <div class="flex-1 min-w-0">
                     <p class="font-headline font-extrabold text-lg leading-tight">${label}</p>
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="shrink-0">
                     ${sudahDone
-                        ? '<span class="inline-flex items-center gap-1 bg-white/25 text-white text-xs font-bold px-3 py-1 rounded-full"><span class="material-symbols-outlined text-sm" style="font-variation-settings:'FILL' 1;">check_circle</span>Selesai</span>'
+                        ? '<span class="inline-flex items-center gap-1 bg-white/25 text-white text-xs font-bold px-3 py-1 rounded-full"><span class="material-symbols-outlined text-sm" style="font-variation-settings:&quot;FILL&quot; 1;">check_circle</span>Selesai</span>'
                         : '<span class="material-symbols-outlined text-3xl opacity-70">arrow_forward</span>'
                     }
                 </div>`;
