@@ -3,7 +3,7 @@
 // 24 Soal Premium Hari Senin (Bab 1) — Teks Arab Berharakat Presisi
 // Format: 12 PG Standar + 8 PGK (2 Jawaban Benar) + 4 Benar/Salah (BS)
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
 
     // ── BAGIAN 1: ASPEK QUR'AN-HADIS & TAJWID BAB 1 (SOAL 1 s.d. 16) ──
 

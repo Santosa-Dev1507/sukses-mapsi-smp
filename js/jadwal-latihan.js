@@ -3,38 +3,7 @@
 // ID soal harus sesuai dengan nama file di js/latihan/[id].js
 // Jadwal latihan dikendalikan penuh oleh Guru melalui Dashboard Guru
 // ═══════════════════════════════════════════════════════════
-var jadwalLatihan = {
-    "2026-08-17": [
-        { id: "bab1-keimanan-cci", label: "BAB 1 Quran Hadis (SENIN) — QS. Al-Baqarah/2:285 & QS. An-Nisa/4:150-151 - KEIMANAN" },
-        { id: "bab1-aqidah-aa", label: "BAB 1 Aqidah-Akhlak (SENIN) — Iman kepada Allah, Asmaul Husna & Akhlak Ikhlas" },
-        { id: "bab1-fikih-ski", label: "BAB 1 Fikih-SKI (SENIN) — Sujud Sahwi, Syukur, Tilawah & Daulah Bani Umayyah" }
-    ],
-    "2026-08-18": [
-        { id: "bab2-ketakwaan-cci", label: "BAB 2 Quran Hadis (SELASA) — QS. Ali Imran/3:102 & QS. Luqman/31:33 - KETAKWAAN" },
-        { id: "bab2-aqidah-aa", label: "BAB 2 Aqidah-Akhlak (SELASA) — Iman kepada Malaikat, Kitab & Akhlak Bersyukur" },
-        { id: "bab2-fikih-ski", label: "BAB 2 Fikih-SKI (SELASA) — Salat Jumat, Perjalanan Musafir & Peradaban Abbasiyah" }
-    ],
-    "2026-08-19": [
-        { id: "bab3-toleransi-cci", label: "BAB 3 Quran Hadis (RABU) — QS. Al-Baqarah/2:256 - TOLERANSI" },
-        { id: "bab3-aqidah-aa", label: "BAB 3 Aqidah-Akhlak (RABU) — Iman kepada Rasul, Cinta Rasul & Husnuzan" },
-        { id: "bab3-fikih-ski", label: "BAB 3 Fikih-SKI (RABU) — Pahala Setara Haji/Umrah & Daulah Fatimiyah" }
-    ],
-    "2026-08-20": [
-        { id: "bab4-cinta-tanah-air-cci", label: "BAB 4 Quran Hadis (KAMIS) — QS. Al-Qashas/28:85 & QS. An-Nisa/4:66 - CINTA TANAH AIR" },
-        { id: "bab4-aqidah-aa", label: "BAB 4 Aqidah-Akhlak (KAMIS) — Iman Kiamat, Kasih Sayang Sesama & Alam" },
-        { id: "bab4-fikih-ski", label: "BAB 4 Fikih-SKI (KAMIS) — Penyelenggaraan Jenazah & Daulah Turki Usmani" }
-    ],
-    "2026-08-21": [
-        { id: "bab5-menuntut-ilmu-cci", label: "BAB 5 Quran Hadis (JUMAT) — QS. Al-Mujadalah/58:11 & QS. Az-Zumar/39:9 - SEMANGAT MENUNTUT ILMU" },
-        { id: "bab5-aqidah-aa", label: "BAB 5 Aqidah-Akhlak (JUMAT) — Iman Qada & Qadar, Akhlak Sabar, Optimis, Pemaaf & Adab" },
-        { id: "bab5-fikih-ski", label: "BAB 5 Fikih-SKI (JUMAT) — Ketentuan Kurban, Akikah & Daulah Syafawi/Mughal" }
-    ],
-    "2026-08-22": [
-        { id: "bab6-ilmu-takwa-cci", label: "BAB 6 Quran Hadis (SABTU) — QS. At-Taubah:122 & QS. Luqman:33 - KETAKWAAN & TAFFAQUH" },
-        { id: "bab6-aqidah-aa", label: "BAB 6 Aqidah-Akhlak (SABTU) — Iman Qada & Qadar & Kasih Sayang Lingkungan Alam" },
-        { id: "bab6-fikih-ski", label: "BAB 6 Fikih-SKI (SABTU) — Rukhshah Ibadah & Daulah Mughal di India" }
-    ]
-};
+var jadwalLatihan = {};
 
 // ═══════════════════════════════════════════════════════════
 // METADATA SET SOAL

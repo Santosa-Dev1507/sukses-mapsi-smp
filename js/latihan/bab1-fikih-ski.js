@@ -3,7 +3,7 @@
 // 24 Soal Premium Hari Senin (Kelompok Fikih-SKI) — Teks Arab Berharakat Presisi
 // Format: 12 PG Standar + 6 PGK (2 Jawaban Benar) + 6 Benar/Salah (BS)
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
 
     // ── BAGIAN 1: ASPEK FIKIH & SKI BAB 1 (SOAL 1 s.d. 16) ──
 

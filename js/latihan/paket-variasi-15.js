@@ -2,7 +2,7 @@
 // PAKET LATIHAN HARIAN VARIASI 15 SOAL
 // Format: 6 PG Standar + 2 Menjodohkan + 2 PG Kompleks + 5 Lintas Bidang
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
 
     // ── BAGIAN 1: 6 SOAL PG STANDAR (Al-Qur'an & Hadis) ──
     {

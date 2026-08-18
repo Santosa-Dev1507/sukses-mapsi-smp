@@ -3,7 +3,7 @@
 // 24 Soal Premium Hari Jumat (Kelompok Aqidah-Akhlak) — Teks Arab Berharakat Presisi
 // Format: 12 PG Standar + 6 PGK (2 Jawaban Benar) + 6 Benar/Salah (BS)
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
 
     // ── BAGIAN 1: ASPEK AQIDAH-AKHLAK BAB 5 (SOAL 1 s.d. 16) ──
 

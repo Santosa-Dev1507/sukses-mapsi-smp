@@ -3,7 +3,7 @@
 // 24 Soal Premium Hari Rabu (Bab 3) — Teks Arab Berharakat Presisi
 // Format: 12 PG Standar + 6 PGK (2 Jawaban Benar) + 6 Benar/Salah (BS)
 // ═══════════════════════════════════════════════════════════
-const latihanData = [
+var latihanData = [
 
     // ── BAGIAN 1: ASPEK QUR'AN-HADIS & TAJWID BAB 3 (SOAL 1 s.d. 16) ──
 
