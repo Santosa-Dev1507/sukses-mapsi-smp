@@ -89,6 +89,9 @@ document.addEventListener('DOMContentLoaded', () => {
     async function init() {
         const today = getTodayStr();
 
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlId = urlParams.get('id') || urlParams.get('set') || urlParams.get('topik');
+
         const jadwalLS = await fetchJadwalSheet();
         const jadwalJS = (typeof jadwalLatihan !== 'undefined') ? jadwalLatihan : {};
         const jadwalGabung = Object.assign({}, jadwalJS, jadwalLS);
@@ -108,6 +111,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
             }
+        }
+
+        if (urlId) {
+            const info = INFO_SET[urlId] || {};
+            const topik = { id: urlId, label: info.judul || urlId };
+            setIdDipilih = urlId;
+            loadSoal(topik, today, jadwalGabung);
+            return;
         }
 
         setIdsHariIni = allTopics;
