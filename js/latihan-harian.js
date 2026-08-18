@@ -90,6 +90,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function init() {
         const today = getTodayStr();
+        const dBesok = new Date();
+        dBesok.setDate(dBesok.getDate() + 1);
+        const tomorrow = `${dBesok.getFullYear()}-${String(dBesok.getMonth() + 1).padStart(2, '0')}-${String(dBesok.getDate()).padStart(2, '0')}`;
 
         // 1. Cek parameter URL (?id=... / ?set=... / ?topik=...)
         const urlParams = new URLSearchParams(window.location.search);
@@ -113,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Kumpulkan topik tanggal <= today
         const sortedDates = Object.keys(jadwalGabung).sort();
         for (const tgl of sortedDates) {
-            if (tgl <= today) {
+            if (tgl <= tomorrow) {
                 const val    = jadwalGabung[tgl];
                 const topiks = normalisasiTopik(val);
                 for (const top of topiks) {
