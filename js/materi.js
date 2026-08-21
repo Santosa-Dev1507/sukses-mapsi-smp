@@ -1150,8 +1150,8 @@ const materiData = [
 
 
 
-<!-- 2. Nama Lain Malaikat -->
-<h3 class="font-headline text-2xl font-bold text-tertiary mb-6 flex items-center bg-tertiary/5 w-max pr-6 py-2 rounded-r-full mt-10"><span class="material-symbols-outlined mr-3 bg-tertiary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">badge</span> 2. Gelar & Nama Lain Malaikat</h3>
+<!-- 3. Nama Lain Malaikat -->
+<h3 class="font-headline text-2xl font-bold text-tertiary mb-6 flex items-center bg-tertiary/5 w-max pr-6 py-2 rounded-r-full mt-10"><span class="material-symbols-outlined mr-3 bg-tertiary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">badge</span> 3. Gelar & Nama Lain Malaikat</h3>
 <div class="bg-surface-container-low p-6 md:p-8 rounded-[2.5rem] border border-outline-variant/20 shadow-[0_4px_15px_rgba(0,0,0,0.02)] mb-14">
     <p class="text-[14.5px] text-on-surface-variant leading-relaxed mb-6 font-medium text-justify">
         Selain nama-nama utamanya, beberapa malaikat memiliki gelar atau sebutan lain yang disebutkan dalam dalil Al-Qur'an maupun Hadis sesuai dengan sifat dan tugas spesifiknya:
@@ -1203,29 +1203,68 @@ const materiData = [
         </div>
     </div>
 </div>
-<!-- 3. Refleksi Iman -->
-<h3 class="font-headline text-2xl font-bold text-secondary mb-6 flex items-center bg-secondary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-secondary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">self_improvement</span> 3. Dampak Mutasi Psikologis Berasaskan Iman</h3>
-<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-16 px-1">
+<!-- 4. MENGAPA -->
+<h3 class="font-headline text-2xl font-bold text-error mb-6 flex items-center bg-error/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-error text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">psychology_alt</span> 4. MENGAPA kita harus mengimani Malaikat? (Why)</h3>
+<div class="grid sm:grid-cols-2 gap-5 mb-14 px-1">
     <div class="bg-white p-6 md:p-8 rounded-3xl border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] hover:-translate-y-2 transition-transform">
-        <div class="w-14 h-14 bg-secondary/10 rounded-2xl flex items-center justify-center mb-5 border border-secondary/20">
-            <span class="material-symbols-outlined text-[32px] text-secondary">gpp_maybe</span>
+        <div class="w-14 h-14 bg-error/10 rounded-2xl flex items-center justify-center mb-5 border border-error/20">
+            <span class="material-symbols-outlined text-[32px] text-error">gavel</span>
         </div>
-        <h4 class="font-bold text-[16px] mb-3 text-secondary tracking-wide">Sensor "Mawas Diri Rem" Aktif Permanen</h4>
-        <p class="text-[13.5px] text-on-surface-variant leading-relaxed text-justify font-medium">Berdampak sadar telak bahwa malaikat <em>Rakib dan Atid</em> menempel *invisible* memikul kapasitas memori kamera *real-time* 24/7 memantau otak kanan-kiri. Bikin instan rasa malu bertindak culas di *sosmed*, bahkan pas posisi nyaman mengunci pintu sendirian menyepi dari jangkauan manusia.</p>
+        <h4 class="font-bold text-[16px] mb-3 text-error tracking-wide">Perintah Wajib</h4>
+        <p class="text-[13.5px] text-on-surface-variant leading-relaxed text-justify font-medium">Beriman kepada malaikat hukumnya adalah <strong>fardhu 'ain</strong> (wajib bagi setiap individu muslim) dan merupakan pilar <strong>rukun iman yang kedua</strong>.</p>
     </div>
     <div class="bg-white p-6 md:p-8 rounded-3xl border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] hover:-translate-y-2 transition-transform">
         <div class="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-5 border border-primary/20">
-            <span class="material-symbols-outlined text-[32px] text-primary">trending_up</span>
+            <span class="material-symbols-outlined text-[32px] text-primary">visibility</span>
         </div>
-        <h4 class="font-bold text-[16px] mb-3 text-primary tracking-wide">Suntikan Dosis Vaksin Anti Putus Asa Ekstrem</h4>
-        <p class="text-[13.5px] text-on-surface-variant leading-relaxed text-justify font-medium">Melahirkan gen rasa sangat <em>secure</em> super optimis! Mengapa? Karena lu sadar yakin di balik pertingkahan nasib <em>zero</em> bangkrut, ada sayap gaib dari komando malaikat *Mikail* yang siaga bertugas melacak sinyal keringat letihmu dan 100% mendeposit turun gajimu (jatah logistik rezeki) dr langit scr akurat tanpa potong pajak.</p>
+        <h4 class="font-bold text-[16px] mb-3 text-primary tracking-wide">Menjaga Perilaku Kita</h4>
+        <p class="text-[13.5px] text-on-surface-variant leading-relaxed text-justify font-medium">Dengan mengimani malaikat, kita sadar bahwa di dunia ini kita tidak pernah benar-benar sendirian. Ada Malaikat Rakib dan Atid yang selalu mengawal dan mencatat dengan sangat rapi setiap ucapan dan perbuatan kita. Keyakinan ini akan menumbuhkan rasa mawas diri dan membuat kita malu untuk berbuat dosa, bahkan saat sedang sendirian tanpa pengawasan orang lain.</p>
     </div>
-    <div class="bg-white p-6 md:p-8 rounded-3xl border border-outline-variant/30 shadow-[0_4px_15px_rgba(0,0,0,0.02)] hover:-translate-y-2 transition-transform group">
-        <div class="w-14 h-14 bg-error/10 rounded-2xl flex items-center justify-center mb-5 border border-error/20 group-hover:bg-error transition-colors">
-            <span class="material-symbols-outlined text-[32px] text-error group-hover:text-white">hourglass_bottom</span>
+</div>
+
+<!-- 5. BAGAIMANA -->
+<h3 class="font-headline text-2xl font-bold text-primary mb-6 flex items-center bg-primary/5 w-max pr-6 py-2 rounded-r-full"><span class="material-symbols-outlined mr-3 bg-primary text-white w-12 h-12 flex items-center justify-center rounded-full shadow-md">task_alt</span> 5. BAGAIMANA cara kita membuktikannya? (How)</h3>
+<div class="bg-surface-container-low p-6 md:p-8 rounded-[2.5rem] border border-outline-variant/20 shadow-[0_4px_15px_rgba(0,0,0,0.02)] mb-14">
+    <p class="text-[14.5px] text-on-surface-variant leading-relaxed mb-6 text-justify font-medium">
+        Kita bisa menunjukkan bukti keimanan kita kepada malaikat melalui tindakan nyata sehari-hari:
+    </p>
+    <div class="space-y-4">
+        <div class="flex gap-4 items-start bg-white p-5 rounded-2xl border border-outline-variant/30">
+            <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center shrink-0 border border-primary/20">
+                <span class="material-symbols-outlined text-primary text-xl">menu_book</span>
+            </div>
+            <div>
+                <h4 class="font-bold text-primary text-[14.5px] mb-1">Meneladani Malaikat Jibril</h4>
+                <p class="text-[13.5px] text-on-surface-variant font-medium">Rajin belajar membaca Al-Qur'an dan bersedia membagikan ilmu yang kita miliki kepada teman.</p>
+            </div>
         </div>
-        <h4 class="font-bold text-[16px] mb-3 text-error tracking-wide group-hover:text-error transition-colors">Disiplin Manajemen Jam Kematian Mengancam</h4>
-        <p class="text-[13.5px] text-on-surface-variant leading-relaxed text-justify font-medium">Memukul keras telinga untuk terus-terusan meraba detak detik jam <em>Izrail si Cabut Nyawa</em> berdetak sisa menuju tubuh ringkihmu. Memompa motivasi super ekstra untuk nyicil transfer tabungan nabung saldo amal ibadah bekal darurat di akhirat, mumpung urat nadinya belum mendadak ditebang.</p>
+        <div class="flex gap-4 items-start bg-white p-5 rounded-2xl border border-outline-variant/30">
+            <div class="w-10 h-10 bg-tertiary/10 rounded-full flex items-center justify-center shrink-0 border border-tertiary/20">
+                <span class="material-symbols-outlined text-tertiary text-xl">sentiment_satisfied</span>
+            </div>
+            <div>
+                <h4 class="font-bold text-tertiary text-[14.5px] mb-1">Meneladani Malaikat Mikail</h4>
+                <p class="text-[13.5px] text-on-surface-variant font-medium">Tetap optimis, giat berusaha, serta selalu mencari rezeki (seperti uang jajan atau makanan) yang baik dan halal.</p>
+            </div>
+        </div>
+        <div class="flex gap-4 items-start bg-white p-5 rounded-2xl border border-outline-variant/30">
+            <div class="w-10 h-10 bg-error/10 rounded-full flex items-center justify-center shrink-0 border border-error/20">
+                <span class="material-symbols-outlined text-error text-xl">verified_user</span>
+            </div>
+            <div>
+                <h4 class="font-bold text-error text-[14.5px] mb-1">Menyadari Tugas Rakib & Atid</h4>
+                <p class="text-[13.5px] text-on-surface-variant font-medium">Berusaha bersikap jujur dan menghindari kecurangan, seperti tidak mencontek saat mengerjakan ujian sekolah meskipun tidak ada pengawas ruangan.</p>
+            </div>
+        </div>
+        <div class="flex gap-4 items-start bg-white p-5 rounded-2xl border border-outline-variant/30">
+            <div class="w-10 h-10 bg-secondary/10 rounded-full flex items-center justify-center shrink-0 border border-secondary/20">
+                <span class="material-symbols-outlined text-secondary text-xl">nightlight</span>
+            </div>
+            <div>
+                <h4 class="font-bold text-secondary text-[14.5px] mb-1">Mempersiapkan Bekal Kematian</h4>
+                <p class="text-[13.5px] text-on-surface-variant font-medium">Rajin beribadah (shalat tepat waktu) dan menjauhi perbuatan maksiat agar kelak diselamatkan saat ajal menjemput dan diringankan dari siksa kubur.</p>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -2784,7 +2823,7 @@ const materiData = [
         <p class="font-bold text-lg text-tertiary">1x Seumur Hidup</p>
     </div>
     <div class="bg-error/5 p-4 rounded-2xl text-center border border-error/20">
-        <span class="material-symbols-outlined text-error text-3xl mb-2">fasting</span>
+        <span class="material-symbols-outlined text-error text-3xl mb-2">no_meals</span>
         <p class="text-xs text-on-surface-variant">Puasa Pengganti Dam</p>
         <p class="font-bold text-lg text-error">10 Hari</p>
         <p class="text-[10px] text-on-surface-variant">3 di tanah suci, 7 setelah pulang</p>

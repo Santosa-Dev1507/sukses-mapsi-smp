@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulasi Final CCI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1B2A4A; --navy2:#233559; --gold:#C9A227; --gold-light:#F2E4B8;
+    --cream:#FAF7F0; --card:#FFFFFF; --ink:#1B2A4A; --ink-soft:#5B6478;
+    --green:#1D9E75; --green-dark:#0F6E56; --red:#D85A30; --red-dark:#993C1D;
+    --line: rgba(27,42,74,0.12);
+    --radius: 16px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:'Manrope',sans-serif;
+    background: var(--navy);
+    background-image: radial-gradient(circle at 15% 0%, #24365c 0%, var(--navy) 55%);
+    color: var(--ink);
+    min-height:100vh;
+    padding: 28px 16px 60px;
+  }
+  .wrap{ max-width: 760px; margin: 0 auto; }
+  .top{
+    display:flex; align-items:center; justify-content:space-between;
+    margin-bottom: 22px; color: var(--cream);
+  }
+  .brand{ display:flex; align-items:center; gap:10px; }
+  .brand-mark{
+    width:34px; height:34px; border-radius:9px; background: var(--gold);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Fraunces',serif; font-weight:700; color: var(--navy); font-size:17px;
+  }
+  .brand-text h1{ font-family:'Fraunces',serif; font-weight:600; font-size:19px; margin:0; letter-spacing:0.2px;}
+  .brand-text p{ margin:0; font-size:12px; color:#B9C2D6; }
+  .btn-back{
+    background: rgba(255,255,255,0.1); color: #fff; padding: 6px 12px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600;
+  }
+  .btn-back:hover{ background: rgba(255,255,255,0.2); }
+
+  .modebar{
+    display:grid; grid-template-columns: repeat(3,1fr); gap:8px; margin-bottom:14px;
+  }
+  .mode-btn{
+    background: rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14);
+    color:#E7EAF2; border-radius: 12px; padding: 12px 8px; cursor:pointer;
+    font-family:'Manrope',sans-serif; font-weight:700; font-size:13.5px;
+    text-align:center; transition: all .15s ease;
+  }
+  .mode-btn small{ display:block; font-weight:500; font-size:11px; color:#A9B2C6; margin-top:2px;}
+  .mode-btn.active{ background: var(--gold); border-color: var(--gold); color: var(--navy); }
+  .mode-btn.active small{ color:#4A3B0A; }
+
+  .catbar{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:20px; }
+  .chip{
+    background: rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.15);
+    color:#D7DCEA; border-radius:999px; padding:6px 13px; font-size:12.5px; cursor:pointer;
+    font-weight:600;
+  }
+  .chip.active{ background:#fff; color:var(--navy); border-color:#fff; }
+
+  .stage{
+    background: var(--card); border-radius: var(--radius);
+    padding: 26px 24px 24px; box-shadow: 0 18px 40px rgba(0,0,0,0.28);
+    min-height: 340px; display:flex; flex-direction:column;
+  }
+  .idle{ text-align:center; padding: 30px 10px; color: var(--ink-soft); }
+  .idle h2{ font-family:'Fraunces',serif; color: var(--navy); font-size:22px; margin: 0 0 8px; }
+  .idle p{ font-size:14px; line-height:1.6; max-width:420px; margin: 0 auto 20px; }
+  .startbtn{
+    background: var(--navy); color:#fff; border:none; border-radius:12px;
+    padding: 13px 26px; font-weight:700; font-size:14.5px; cursor:pointer; font-family:'Manrope',sans-serif;
+  }
+  .startbtn:active{ transform: scale(0.98); }
+  .startbtn:disabled { background: #949CAE; cursor:not-allowed; transform:none; }
+
+  .qtop{ display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
+  .badge{
+    display:inline-block; background: var(--gold-light); color:#7A5E0B;
+    border-radius:999px; padding:4px 12px; font-size:11.5px; font-weight:700; letter-spacing:0.3px;
+  }
+  .qnum{ font-size:12px; color: var(--ink-soft); font-weight:600; }
+
+  .ringwrap{ position:relative; width:96px; height:96px; margin: 0 auto 18px; }
+  .ringwrap svg{ transform: rotate(-90deg); width:96px; height:96px; }
+  .ring-bg{ fill:none; stroke: rgba(27,42,74,0.1); stroke-width:8; }
+  .ring-fg{ fill:none; stroke: var(--green); stroke-width:8; stroke-linecap:round; transition: stroke-dashoffset 0.25s linear, stroke 0.3s; }
+  .ring-num{
+    position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    font-family:'Fraunces',serif; font-weight:700; font-size:28px; color: var(--navy);
+  }
+
+  .qtext{
+    font-family:'Fraunces',serif; font-size: 21px; line-height:1.5; color: var(--navy);
+    text-align:center; padding: 6px 4px 22px; min-height: 90px; display:flex; align-items:center; justify-content:center;
+  }
+  .qtext.reveal-mode{ font-size:19px; }
+
+  .rowbtn{ display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:auto; }
+  .btn{
+    border-radius:12px; padding:12px 20px; font-weight:700; font-size:14px; cursor:pointer;
+    border:1.5px solid var(--line); background:#fff; color:var(--navy); font-family:'Manrope',sans-serif;
+  }
+  .btn:active{ transform: scale(0.97); }
+  .btn.primary{ background: var(--navy); color:#fff; border-color: var(--navy); }
+  .btn.bel{
+    background: var(--gold); color:#4A3B0A; border-color: var(--gold);
+    font-size:16px; padding:16px 34px; border-radius:16px;
+  }
+  .btn.good{ background: #E1F5EE; color: var(--green-dark); border-color:#9FE1CB; }
+  .btn.mid{ background: var(--gold-light); color:#7A5E0B; border-color:#EAD69A; }
+  .btn.bad{ background:#FAECE7; color: var(--red-dark); border-color:#F0997B; }
+
+  .answerbox{
+    background: var(--cream); border:1px dashed var(--line); border-radius:12px;
+    padding:16px 18px; margin: 6px 0 18px; text-align:center;
+  }
+  .answerbox .lbl{ font-size:11px; color: var(--ink-soft); text-transform:uppercase; letter-spacing:0.6px; font-weight:700; margin-bottom:6px;}
+  .answerbox .val{ font-family:'Fraunces',serif; font-size:19px; color: var(--navy); font-weight:600; }
+
+  .revealtext{
+    font-family:'Fraunces',serif; font-size:18px; line-height:1.55; color: var(--navy);
+    text-align:center; padding: 4px 6px 10px; min-height:70px;
+  }
+  .revealtext .heard{ color: var(--navy); }
+  .revealtext .unheard{ color: rgba(27,42,74,0.18); }
+
+  .stats{
+    display:grid; grid-template-columns: repeat(4,1fr); gap:8px; margin-top:18px;
+  }
+  .stat{
+    background: rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.14);
+    border-radius:12px; padding:10px 6px; text-align:center;
+  }
+  .stat .n{ font-family:'Fraunces',serif; font-size:20px; font-weight:700; color:#fff; }
+  .stat .l{ font-size:10.5px; color:#B9C2D6; font-weight:600; margin-top:2px; }
+
+  .footnote{ text-align:center; color:#8891A6; font-size:11.5px; margin-top:16px; line-height:1.6; }
+  .resetlink{ color:#B9C2D6; text-decoration:underline; cursor:pointer; background:none; border:none; font-size:11.5px; font-family:'Manrope',sans-serif;}
+
+  @media (max-width:480px){
+    .qtext{ font-size:18px; }
+    .modebar{ grid-template-columns: 1fr 1fr; }
+    .modebar .mode-btn:nth-child(3){ grid-column: 1 / span 2; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <div class="brand">
+      <div class="brand-mark">C</div>
+      <div class="brand-text">
+        <h1>Simulasi Final</h1>
+        <p>Latihan Bel Cerdas Cermat Islami</p>
+      </div>
+    </div>
+    <a href="index.html" class="btn-back">Kembali ke Beranda</a>
+  </div>
+
+  <div class="modebar">
+    <button class="mode-btn active" data-mode="wajib">Wajib<small>10 detik</small></button>
+    <button class="mode-btn" data-mode="lemparan">Lemparan<small>5 detik</small></button>
+    <button class="mode-btn" data-mode="rebutan">Rebutan<small>tekan bel</small></button>
+  </div>
+
+  <div class="catbar" id="catbar"></div>
+
+  <div class="stage" id="stage"></div>
+
+  <div class="stats">
+    <div class="stat"><div class="n" id="statBenar">0</div><div class="l">Benar</div></div>
+    <div class="stat"><div class="n" id="statKurang">0</div><div class="l">Kurang lengkap</div></div>
+    <div class="stat"><div class="n" id="statSalah">0</div><div class="l">Salah</div></div>
+    <div class="stat"><div class="n" id="statRebutan">0</div><div class="l">Skor rebutan</div></div>
+  </div>
+
+  <div class="footnote">
+    Wajib: 10 dtk (hitungan 15 dtk). Sebagian benar = Salah (0).<br>
+    Lemparan: 5 dtk (hitungan 30 dtk). Sebagian benar = Nilai Parsial.<br>
+    Jawab lisan lantang, lalu nilai sendiri kejujuranmu.<br>
+    <button class="resetlink" id="resetBtn">Reset skor sesi ini</button>
+  </div>
+
+</div>
+
+<script>
+// STRUKTUR DATA BERDASARKAN PAKET SOAL
+const DATA_PAKET = {
+  "Paket 1": {
+    wajib: [
+      { cat: "LOTS • Al-Qur'an dan Hadis", q: "Sebutkan empat objek iman dalam Q.S. Al-Baqarah/2:285!", a: "Allah, malaikat-malaikat-Nya, kitab-kitab-Nya, dan rasul-rasul-Nya.", hitungan: false },
+      { cat: "LOTS • Aqidah", q: "Sebutkan empat sifat wajib rasul!", a: "Siddiq, amanah, tabligh, dan fatanah.", hitungan: false },
+      { cat: "LOTS • Fiqh", q: "Sebutkan empat kewajiban fardu kifayah dalam penyelenggaraan jenazah!", a: "Memandikan, mengafani, menyalatkan, dan menguburkan.", hitungan: false },
+      { cat: "MOTS • Tajwid", q: "Nun mati pada min ba'di bertemu ba. Sebutkan hukum dan cara membacanya!", a: "Iqlab; bunyi nun berubah menjadi mim samar disertai dengung.", hitungan: false },
+      { cat: "MOTS • Aqidah", q: "Jelaskan perbedaan al-Sami' dan al-Basir serta satu dampak perilakunya!", a: "Al-Sami' berarti Maha Mendengar dan al-Basir Maha Melihat; keduanya mendorong penjagaan ucapan dan tindakan.", hitungan: false },
+      { cat: "MOTS • Aqidah", q: "Regu kalah setelah berusaha. Sebutkan tiga sikap yang sesuai iman kepada qada-qadar!", a: "Mengevaluasi ikhtiar, berdoa dan bertawakal, lalu menerima hasil tanpa putus asa.", hitungan: false },
+      { cat: "MOTS • Fiqh", q: "Bedakan sebab sujud syukur dan sujud sahwi!", a: "Syukur karena nikmat khusus atau keselamatan; sahwi karena lupa atau ragu tertentu dalam salat.", hitungan: false },
+      { cat: "MOTS • Sejarah", q: "Jelaskan hubungan penerjemahan dan Bayt al-Hikmah dengan kemajuan Abbasiyah!", a: "Bayt al-Hikmah menjadi pusat penerjemahan dan kajian; ilmu kemudian diuji serta dikembangkan.", hitungan: false },
+      { cat: "HOTS • Al-Qur'an dan Hadis", q: "Seorang siswa memakai la ikraha fid-din untuk menolak semua kewajiban. Nilai argumennya!", a: "Argumen keliru; ayat menolak pemaksaan keyakinan, bukan menghapus kewajiban seorang Muslim.", hitungan: false },
+      { cat: "HOTS • Fiqh", q: "Harga hewan A lebih mahal tetapi cacat berat; hewan B sehat dan cukup umur. Pilih dan jelaskan!", a: "Pilih hewan B karena syarat umur dan kondisi lebih menentukan daripada harga.", hitungan: false }
+    ],
+    lemparan: [
+      { cat: "LOTS • Tajwid", q: "Sebutkan empat huruf idgham bighunnah!", a: "Ya, nun, mim, dan wawu.", hitungan: false },
+      { cat: "LOTS • Sejarah", q: "Pasangkan Umayyah, Fatimiyah, dan Syafawi dengan pusat pentingnya!", a: "Umayyah-Damaskus; Fatimiyah-Kairo; Syafawi-Isfahan.", hitungan: false },
+      { cat: "MOTS • Aqidah", q: "Jelaskan hubungan iman kepada al-'Alim dengan perilaku belajar!", a: "Mendorong rendah hati, jujur secara akademik, dan sungguh-sungguh karena ilmu Allah tidak terbatas.", hitungan: false },
+      { cat: "MOTS • Akhlak", q: "Berikan dua contoh husnuzan yang disertai tabayun di sekolah!", a: "Tidak langsung menuduh dan memeriksa informasi; memberi kesempatan penjelasan sebelum menyimpulkan.", hitungan: false },
+      { cat: "MOTS • Fiqh", q: "Apa makna rukhsah? Berikan dua contoh yang berbeda sebab!", a: "Keringanan karena uzur; misalnya tayamum karena uzur air dan qasar karena perjalanan.", hitungan: false },
+      { cat: "MOTS • Fiqh", q: "Bedakan kurban dan akikah dari sisi sebab dan waktu!", a: "Kurban terkait Iduladha; akikah terkait kelahiran anak dan waktunya mengikuti ketentuan akikah.", hitungan: false },
+      { cat: "MOTS • Sejarah", q: "Jelaskan dua faktor yang membuat penerjemahan Abbasiyah berkembang menjadi inovasi!", a: "Contohnya dukungan lembaga/penguasa serta kegiatan kritik, pengujian, dan pengembangan ilmu.", hitungan: false },
+      { cat: "HOTS • Al-Qur'an dan Hadis", q: "Regu A menyebut sabar sebagai diam; regu B menyebut menerima hasil lalu berlatih lagi. Pilih dan beri alasan ayat!", a: "Regu B; ayat sabar menuntut keteguhan aktif, saling menguatkan, dan tetap siaga.", hitungan: false },
+      { cat: "HOTS • Akhlak", q: "Unggahan bantuan mendapat pujian lalu pelakunya merendahkan orang lain. Analisis masalah akhlaknya!", a: "Niat harus dievaluasi karena muncul riya atau ujub; bantuan tidak boleh menjadi alat merendahkan.", hitungan: false },
+      { cat: "HOTS • Sejarah", q: "Bangunan suatu daulah megah, tetapi konflik elite dan administrasi melemah. Apa simpulan sejarahnya?", a: "Warisan fisik tidak menjamin ketahanan; tata kelola dan persatuan tetap menentukan.", hitungan: false }
+    ],
+    rebutan: [
+      { cat: "LOTS • Al-Qur'an dan Hadis", q: "Ayat yang memuat la ikraha fid-din adalah?", a: "Q.S. Al-Baqarah/2:256." },
+      { cat: "MOTS • Tajwid", q: "Mim mati bertemu mim: hukum dan cara baca?", a: "Idgham mimi; mim melebur disertai dengung." },
+      { cat: "MOTS • Aqidah", q: "Pesan privat tetap diketahui Allah secara rinci. Asmaul Husna yang paling tepat?", a: "Al-Khabir." },
+      { cat: "MOTS • Fiqh", q: "Lupa jumlah rakaat: sujud apa?", a: "Sujud sahwi." },
+      { cat: "MOTS • Sejarah", q: "Kairo dan al-Azhar berkaitan dengan daulah apa?", a: "Daulah Fatimiyah." },
+      { cat: "HOTS • Aqidah", q: "Takdir dijadikan alasan tidak berlatih. Satu kata penilaiannya dan alasannya!", a: "Keliru; qadar tidak menghapus ikhtiar." },
+      { cat: "HOTS • Akhlak", q: "Kabar buruk belum terverifikasi. Dua tindakan akhlak paling tepat?", a: "Husnuzan dan tabayun." },
+      { cat: "HOTS • Fiqh", q: "Air membahayakan luka. Bentuk bersuci yang dianalisis lebih dahulu?", a: "Tayamum, jika syaratnya terpenuhi." },
+      { cat: "HOTS • Sejarah", q: "Penerjemahan tanpa kritik menghasilkan alih ilmu, tetapi kekurangan apa?", a: "Pengujian, pengembangan, dan inovasi." },
+      { cat: "HOTS • Sejarah", q: "Urutan Umayyah-Abbasiyah-Mughal-Fatimiyah salah di bagian mana?", a: "Fatimiyah harus ditempatkan sebelum Mughal." }
+    ]
+  },
+  "Paket 2": { wajib: [], lemparan: [], rebutan: [] },
+  "Paket 3": { wajib: [], lemparan: [], rebutan: [] }
+};
+
+const PAKET_KEYS = ["Latihan Acak", "Paket 1", "Paket 2", "Paket 3"];
+let activePaket = "Paket 1";
+let mode = "wajib";
+let stats = { benar:0, kurang:0, salah:0, rebutan:0 };
+let timer = null;
+let currentQ = null;
+let currentIndex = 0; // Digunakan jika memilih Paket tertentu
+
+const catbar = document.getElementById('catbar');
+PAKET_KEYS.forEach(c=>{
+  const b = document.createElement('button');
+  b.className = 'chip' + (c===activePaket ? ' active' : '');
+  b.textContent = c;
+  b.onclick = ()=>{ 
+    activePaket = c; 
+    currentIndex = 0; // Reset index tiap ganti paket
+    renderCatbar(); 
+    renderIdle(); 
+  };
+  b.dataset.cat = c;
+  catbar.appendChild(b);
+});
+
+function renderCatbar(){
+  [...catbar.children].forEach(b=> b.classList.toggle('active', b.dataset.cat === activePaket));
+}
+
+document.querySelectorAll('.mode-btn').forEach(btn=>{
+  btn.onclick = ()=>{
+    document.querySelectorAll('.mode-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    mode = btn.dataset.mode;
+    currentIndex = 0; // Reset index tiap ganti mode
+    clearTimer();
+    renderIdle();
+  };
+});
+
+document.getElementById('resetBtn').onclick = ()=>{
+  stats = { benar:0, kurang:0, salah:0, rebutan:0 };
+  updateStats();
+};
+
+function updateStats(){
+  document.getElementById('statBenar').textContent = stats.benar;
+  document.getElementById('statKurang').textContent = stats.kurang;
+  document.getElementById('statSalah').textContent = stats.salah;
+  document.getElementById('statRebutan').textContent = stats.rebutan;
+}
+
+// Fungsi untuk mengambil bank soal gabungan jika di mode "Latihan Acak"
+function getAcakPool() {
+  let pool = [];
+  for (let key in DATA_PAKET) {
+    if (DATA_PAKET[key][mode] && DATA_PAKET[key][mode].length > 0) {
+      pool = pool.concat(DATA_PAKET[key][mode]);
+    }
+  }
+  return pool;
+}
+
+function clearTimer(){ if(timer){ clearInterval(timer); timer=null; } }
+
+const stage = document.getElementById('stage');
+
+function renderIdle(){
+  clearTimer();
+  const label = mode==='wajib' ? 'Soal Wajib' : mode==='lemparan' ? 'Soal Lemparan' : 'Soal Rebutan';
+  
+  let desc = mode==='wajib'
+    ? 'Wajib: Jawab lisan dalam 10 detik (hitungan 15 detik). Sebagian benar dianggap SALAH.'
+    : mode==='lemparan'
+    ? 'Lemparan: Jawab lisan dalam 5 detik (hitungan 30 detik). Sebagian benar bisa dapat NILAI PARSIAL.'
+    : 'Rebutan: Soal dibaca bertahap. Tekan BEL secepatnya (+100 poin jika benar, -100 jika salah).';
+
+  let btnLabel = "";
+  let isFinished = false;
+
+  if (activePaket === "Latihan Acak") {
+    const p = getAcakPool();
+    if (p.length === 0) {
+      desc = "Belum ada soal tersedia di bank soal.";
+      btnLabel = "Belum Tersedia";
+      isFinished = true;
+    } else {
+      btnLabel = "Mulai Soal (Acak)";
+    }
+  } else {
+    // Mode berurutan berdasarkan paket
+    const paketData = DATA_PAKET[activePaket][mode];
+    if (!paketData || paketData.length === 0) {
+      desc = `Belum ada data soal untuk ${mode} di ${activePaket}.`;
+      btnLabel = "Belum Tersedia";
+      isFinished = true;
+    } else if (currentIndex >= paketData.length) {
+      desc = `Hebat! Anda telah menyelesaikan semua soal ${mode} di ${activePaket}.`;
+      btnLabel = "Selesai!";
+      isFinished = true;
+    } else {
+      btnLabel = `Mulai Soal ${currentIndex + 1} dari ${paketData.length}`;
+    }
+  }
+
+  stage.innerHTML = `
+    <div class="idle">
+      <h2 style="margin-bottom:2px;">${activePaket}</h2>
+      <div style="font-weight:700; color:var(--gold); margin-bottom:12px;">${label}</div>
+      <p>${desc}</p>
+      ${isFinished && activePaket !== "Latihan Acak" && DATA_PAKET[activePaket][mode].length > 0 
+        ? `<button class="startbtn" style="background:#5B6478" onclick="currentIndex=0; renderIdle();">Ulangi dari Awal</button>` 
+        : `<button class="startbtn" id="startBtn" ${isFinished ? 'disabled' : ''}>${btnLabel}</button>`
+      }
+    </div>`;
+
+  const stBtn = document.getElementById('startBtn');
+  if(stBtn) {
+    stBtn.onclick = mode==='rebutan' ? startRebutan : startTimed;
+  }
+}
+
+function pickCurrentQuestion() {
+  if (activePaket === "Latihan Acak") {
+    const p = getAcakPool();
+    return p[Math.floor(Math.random()*p.length)];
+  } else {
+    return DATA_PAKET[activePaket][mode][currentIndex];
+  }
+}
+
+function startTimed(){
+  currentQ = pickCurrentQuestion();
+  if(!currentQ){ return; }
+
+  // Penentuan waktu sesuai Juknis
+  let total = 10;
+  if (mode === 'wajib') {
+    total = currentQ.hitungan ? 15 : 10;
+  } else if (mode === 'lemparan') {
+    total = currentQ.hitungan ? 30 : 5;
+  }
+
+  let left = total;
+  const R = 40, C = 2*Math.PI*R;
+  const qTitle = activePaket === "Latihan Acak" ? "Acak" : `Soal ${currentIndex + 1}`;
+
+  stage.innerHTML = `
+    <div class="qtop">
+      <span class="badge">${currentQ.cat}</span>
+      <span class="qnum">${qTitle} &bull; ${mode==='wajib' ? 'Wajib' : 'Lemparan'}${currentQ.hitungan? ' (Hitungan)':''}</span>
+    </div>
+    <div class="ringwrap">
+      <svg viewBox="0 0 96 96">
+        <circle class="ring-bg" cx="48" cy="48" r="${R}"></circle>
+        <circle class="ring-fg" id="ring" cx="48" cy="48" r="${R}" stroke-dasharray="${C}" stroke-dashoffset="0"></circle>
+      </svg>
+      <div class="ring-num" id="ringNum">${left}</div>
+    </div>
+    <div class="qtext">${currentQ.q}</div>
+    <div class="rowbtn"><button class="btn primary" id="revealNow">Buka Jawaban</button></div>
+  `;
+  const ring = document.getElementById('ring');
+  const ringNum = document.getElementById('ringNum');
+  document.getElementById('revealNow').onclick = ()=>{ clearTimer(); showAnswer(); };
+
+  timer = setInterval(()=>{
+    left -= 1;
+    const pct = Math.max(0,left)/total;
+    ring.style.strokeDashoffset = (C*(1-pct)).toFixed(1);
+    ring.style.stroke = pct > 0.4 ? getComputedStyle(document.documentElement).getPropertyValue('--green') : (pct > 0.15 ? '#C9A227' : '#D85A30');
+    ringNum.textContent = Math.max(0,left);
+    if(left<=0){ clearTimer(); showAnswer(); }
+  },1000);
+}
+
+function showAnswer(){
+  const qTitle = activePaket === "Latihan Acak" ? "Acak" : `Soal ${currentIndex + 1}`;
+  stage.innerHTML = `
+    <div class="qtop"><span class="badge">${currentQ.cat}</span><span class="qnum">${qTitle} &bull; Jawaban</span></div>
+    <div class="qtext" style="font-size:16px;color:var(--ink-soft);font-family:'Manrope',sans-serif;font-weight:600;">${currentQ.q}</div>
+    <div class="answerbox"><div class="lbl">Kunci Jawaban</div><div class="val">${currentQ.a}</div></div>
+    <div class="rowbtn">
+      <button class="btn good" id="mkBenar">Benar</button>
+      <button class="btn mid" id="mkKurang">Sebagian Benar</button>
+      <button class="btn bad" id="mkSalah">Salah</button>
+    </div>
+  `;
+
+  const proceed = () => {
+    if (activePaket !== "Latihan Acak") currentIndex++;
+    renderIdle();
+  };
+
+  document.getElementById('mkBenar').onclick = ()=>{ stats.benar++; updateStats(); proceed(); };
+  document.getElementById('mkKurang').onclick = ()=>{ stats.kurang++; updateStats(); proceed(); };
+  document.getElementById('mkSalah').onclick = ()=>{ stats.salah++; updateStats(); proceed(); };
+}
+
+function startRebutan(){
+  currentQ = pickCurrentQuestion();
+  if(!currentQ){ return; }
+  const words = currentQ.q.split(' ');
+  let shown = 0;
+  const qTitle = activePaket === "Latihan Acak" ? "Acak" : `Soal ${currentIndex + 1}`;
+
+  stage.innerHTML = `
+    <div class="qtop"><span class="badge">${currentQ.cat}</span><span class="qnum">${qTitle} &bull; Rebutan</span></div>
+    <div class="revealtext" id="revealText"></div>
+    <div class="rowbtn"><button class="btn bel" id="belBtn">🔔 TEKAN BEL</button></div>
+  `;
+  renderWords();
+
+  timer = setInterval(()=>{
+    shown++;
+    renderWords();
+    if(shown>=words.length){ clearTimer(); }
+  }, 550);
+
+  document.getElementById('belBtn').onclick = ()=>{
+    clearTimer();
+    afterBel();
+  };
+
+  function renderWords(){
+    const html = words.map((w,i)=> `<span class="${i<shown?'heard':'unheard'}">${w} </span>`).join('');
+    document.getElementById('revealText').innerHTML = html;
+  }
+
+  function afterBel(){
+    stage.innerHTML = `
+      <div class="qtop"><span class="badge">${currentQ.cat}</span><span class="qnum">BEL DITEKAN!</span></div>
+      <div class="qtext" style="font-size:17px;">${currentQ.q}</div>
+      <div class="answerbox"><div class="lbl">Kunci Jawaban</div><div class="val">${currentQ.a}</div></div>
+      <p style="text-align:center;color:var(--ink-soft);font-size:13px;margin:-8px 0 14px;">Apakah jawaban peserta sesuai?</p>
+      <div class="rowbtn">
+        <button class="btn good" id="rbBenar">Benar (+100)</button>
+        <button class="btn bad" id="rbSalah">Salah (−100)</button>
+      </div>
+    `;
+
+    const proceed = () => {
+      if (activePaket !== "Latihan Acak") currentIndex++;
+      renderIdle();
+    };
+
+    document.getElementById('rbBenar').onclick = ()=>{ stats.rebutan += 100; stats.benar++; updateStats(); proceed(); };
+    document.getElementById('rbSalah').onclick = ()=>{ stats.rebutan -= 100; stats.salah++; updateStats(); proceed(); };
+  }
+}
+
+renderIdle();
+updateStats();
+</script>
+</body>
+</html>
