@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Latihan Harian V2 - Sukses MAPSI ESPEMA</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                "colors": {
+                    "primary-container": "#00875a","on-secondary": "#ffffff","on-tertiary-fixed": "#221b00",
+                    "surface-container-high": "#e9e8e4","tertiary-fixed": "#f5e2a2","error-container": "#ffdad6",
+                    "inverse-primary": "#71dba6","surface-container-highest": "#e3e2df","surface-container-low": "#f4f4f0",
+                    "on-primary-fixed": "#002113","surface": "#faf9f5","surface-bright": "#faf9f5","surface-dim": "#dbdad6",
+                    "secondary-fixed-dim": "#e9c349","on-primary-fixed-variant": "#005235","on-tertiary-container": "#4a3f0e",
+                    "on-secondary-fixed-variant": "#574500","secondary-fixed": "#ffe088","inverse-on-surface": "#f2f1ed",
+                    "outline": "#6e7a71","on-tertiary": "#ffffff","on-surface": "#1b1c1a","on-primary-container": "#ffffff",
+                    "surface-container": "#efeeea","on-error-container": "#93000a","on-secondary-container": "#745c00",
+                    "primary-fixed": "#8df7c1","outline-variant": "#bdcac0","surface-variant": "#e3e2df",
+                    "on-primary": "#ffffff","surface-tint": "#006c47","secondary-container": "#fed65b",
+                    "tertiary-container": "#bbaa6f","background": "#faf9f5","surface-container-lowest": "#ffffff",
+                    "inverse-surface": "#2f312e","error": "#ba1a1a","on-surface-variant": "#3e4942",
+                    "primary": "#006b47","on-error": "#ffffff","tertiary-fixed-dim": "#d8c688","on-secondary-fixed": "#241a00",
+                    "secondary": "#735c00","on-background": "#1b1c1a","tertiary": "#6b5e2b","on-tertiary-fixed-variant": "#524615",
+                    "primary-fixed-dim": "#71dba6"
+                },
+                "fontFamily": {
+                    "headline": ["Manrope"], "body": ["Inter"], "label": ["Inter"], "arabic": ["Amiri", "serif"]
+                }
+            },
+        },
+    }
+</script>
+<style>
+    /* Teks Ayat Qur'an & Lafal Arab Presisi (Besar, Jelas, & Berharakat Indah) */
+    .font-arabic {
+        font-family: 'Amiri', 'Scheherazade New', serif !important;
+        font-size: 2.25rem !important; /* 36px di desktop */
+        line-height: 2.5 !important;
+        font-weight: 700 !important;
+    }
+    .font-arabic-inline {
+        font-family: 'Amiri', 'Scheherazade New', serif !important;
+        font-size: 1.75rem !important; /* 28px di desktop - 100% lebih besar dari 14px! */
+        line-height: 2.3 !important;
+        font-weight: 700 !important;
+        color: #006b47 !important;
+        display: inline-block;
+        padding: 0 4px;
+        vertical-align: middle;
+    }
+    [dir="rtl"] { text-align: right; direction: rtl; }
+    .soal-card { scroll-margin-top: 5rem; }
+    @keyframes fadeUp { from { opacity:0; transform: translateY(16px); } to { opacity:1; transform: translateY(0); } }
+    .fade-up { animation: fadeUp 0.4s ease forwards; }
+    @media (max-width: 640px) {
+        .font-arabic { font-size: 1.85rem !important; line-height: 2.2 !important; }
+        .font-arabic-inline { font-size: 1.45rem !important; line-height: 2.0 !important; }
+    }
+</style>
+</head>
+<body class="bg-surface text-on-surface font-body flex h-screen overflow-hidden">
+
+<!-- ───── MODAL IDENTITAS ───── -->
+<div id="modal-nama" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-[100] hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl shadow-2xl w-full max-w-md p-8 fade-up">
+        <div class="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center mb-6 mx-auto">
+            <span class="material-symbols-outlined text-white text-3xl" style="font-variation-settings:'FILL' 1;">person</span>
+        </div>
+        <h2 class="font-headline font-extrabold text-2xl text-center text-on-surface mb-1">Siapa Namamu?</h2>
+        <p class="text-center text-on-surface-variant text-sm mb-8">Isi sekali, tersimpan di perangkat ini.</p>
+        <div class="space-y-4">
+            <div>
+                <label class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1 block">Nama Lengkap</label>
+                <input id="input-nama-latihan" type="text" placeholder="Contoh: Muhammad Fikri Azzam"
+                    class="w-full px-4 py-3 rounded-xl border-2 border-outline-variant/30 bg-surface-container-low text-on-surface text-sm focus:outline-none focus:border-primary transition-colors"/>
+            </div>
+            <div>
+                <label class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1 block">Kelas</label>
+                <select id="input-kelas-latihan"
+                    class="w-full px-4 py-3 rounded-xl border-2 border-outline-variant/30 bg-surface-container-low text-on-surface text-sm focus:outline-none focus:border-primary transition-colors">
+                    <option value="">-- Pilih Kelas --</option>
+                    <option>VIII A</option><option>VIII B</option><option>VIII C</option><option>VIII D</option><option>VIII E</option><option>VIII F</option><option>VIII G</option><option>VIII H</option>
+                    <option>IX A</option><option>IX B</option><option>IX C</option><option>IX D</option><option>IX E</option><option>IX F</option><option>IX G</option><option>IX H</option>
+                </select>
+            </div>
+            <button id="btn-mulai-latihan" class="w-full py-3.5 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 active:scale-95 transition-all mt-2">
+                Simpan & Mulai Latihan →
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- ───── MOBILE TOPBAR ───── -->
+<div class="lg:hidden fixed top-0 w-full h-16 bg-surface-container-lowest border-b border-outline-variant/20 z-40 flex items-center px-4 gap-4">
+    <button id="mobile-menu-btn" class="w-10 h-10 shrink-0 rounded-xl bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors">
+        <span class="material-symbols-outlined">menu</span>
+    </button>
+    <div class="flex items-center gap-2 min-w-0">
+        <span class="material-symbols-outlined text-primary text-2xl" style="font-variation-settings:'FILL' 1;">assignment</span>
+        <span class="font-headline font-bold text-primary truncate text-sm">Latihan Harian</span>
+    </div>
+</div>
+
+<!-- ───── SIDEBAR OVERLAY (Mobile) ───── -->
+<div id="sidebar-overlay" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 hidden lg:hidden opacity-0"></div>
+
+<!-- ───── SIDEBAR ───── -->
+<aside id="sidebar" class="fixed lg:static top-0 left-0 h-full w-[280px] bg-surface-container-lowest border-r border-outline-variant/20 z-50 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 flex flex-col shrink-0">
+    <div class="h-20 lg:h-24 flex flex-col justify-center px-8 border-b border-outline-variant/10 shrink-0 relative">
+        <h1 class="text-xl font-headline font-extrabold text-emerald-800 flex items-center gap-2">
+            <span class="material-symbols-outlined text-primary" style="font-variation-settings:'FILL' 1;">school</span>
+            SUKSES MAPSI ESPEMA
+        </h1>
+        <p class="text-xs text-on-surface-variant font-medium mt-1">SMPN 5 Klaten</p>
+        <button id="close-sidebar-btn" class="lg:hidden absolute right-4 top-6 w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant">
+            <span class="material-symbols-outlined text-sm">close</span>
+        </button>
+    </div>
+    <div class="flex-grow overflow-y-auto sidebar-scroll py-6 px-4 space-y-8">
+        <div>
+            <h3 class="px-4 text-xs font-bold text-on-surface-variant/70 uppercase tracking-widest mb-3">Utama</h3>
+            <nav class="space-y-1">
+                <a href="index.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                    <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">dashboard</span> Dashboard
+                </a>
+            </nav>
+        </div>
+        <div>
+            <h3 class="px-4 text-xs font-bold text-on-surface-variant/70 uppercase tracking-widest mb-3">CCAI (E-Learning)</h3>
+            <nav class="space-y-1">
+                <a href="ccai.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                    <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">menu_book</span> Beranda CCAI
+                </a>
+                <a href="daftar-materi.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                    <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">library_books</span> Materi Belajar
+                </a>
+                <a href="latihan-harian.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">assignment</span> Latihan Harian
+                    </a>
+                    <a href="simulasi-final.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">sports_score</span> Simulasi Babak Final
+                    </a>
+                <a href="latihan-soal.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                    <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">quiz</span> Bank Soal
+                </a>
+                <a href="kisi-kisi.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                    <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">fact_check</span> Kisi-kisi
+                </a>
+                                <a href="belajar-mandiri-ai.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">smart_toy</span> Belajar Bersama AI
+                    </a>
+                </nav>
+        </div>
+        <div>
+            <h3 class="px-4 text-xs font-bold text-on-surface-variant/70 uppercase tracking-widest mb-3">Cabang Lomba</h3>
+            <nav class="space-y-1">
+                <a href="kaligrafi.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                    <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">draw</span> Kaligrafi / Khot
+                </a>
+                <a href="pidato.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                    <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">record_voice_over</span> Pidato / Khitobah
+                </a>
+                    <a href="azan.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                        <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">volume_up</span> Azan &amp; Iqamah
+                    </a>
+            </nav>
+        </div>
+        <div>
+            <h3 class="px-4 text-xs font-bold text-on-surface-variant/70 uppercase tracking-widest mb-3">Sistem & Jadwal</h3>
+            <nav class="space-y-1">
+                <a href="jadwal.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                    <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">event_available</span> Jadwal Siswa
+                </a>
+                <a href="dashboard-guru.html" class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container hover:text-on-surface font-medium transition-all group">
+                    <span class="material-symbols-outlined text-on-surface-variant/70 group-hover:text-primary">admin_panel_settings</span> Akses Guru
+                </a>
+            </nav>
+        </div>
+
+        <!-- Info Siswa di Sidebar -->
+        <div class="mx-2 p-4 rounded-2xl bg-primary/5 border border-primary/10">
+            <p class="text-xs text-on-surface-variant mb-1">Masuk sebagai:</p>
+            <p id="nama-siswa-display" class="font-bold text-sm text-primary truncate">—</p>
+            <button id="btn-ganti-nama" class="mt-2 text-xs text-on-surface-variant/70 hover:text-primary transition-colors underline underline-offset-2">Ganti identitas</button>
+        </div>
+    </div>
+</aside>
+
+<!-- ───── MAIN CONTENT ───── -->
+<div class="flex-1 flex flex-col h-full overflow-hidden relative">
+    <main class="flex-1 overflow-y-auto pt-20 lg:pt-8 px-4 sm:px-6 lg:px-12 pb-24">
+
+        <!-- ══ SECTION: TIDAK ADA LATIHAN ══ -->
+        <div id="tidak-ada-latihan" class="hidden max-w-xl mx-auto text-center py-24">
+            <div class="w-20 h-20 rounded-3xl bg-surface-container mx-auto flex items-center justify-center mb-6">
+                <span class="material-symbols-outlined text-4xl text-on-surface-variant">event_busy</span>
+            </div>
+            <p id="pesan-tidak-ada" class="text-on-surface-variant text-lg leading-relaxed">Tidak ada latihan hari ini.</p>
+            <a href="daftar-materi.html" class="inline-flex items-center gap-2 mt-8 px-6 py-3 bg-primary text-white rounded-xl font-bold text-sm hover:bg-primary/90 transition-all">
+                <span class="material-symbols-outlined text-base">library_books</span> Baca Materi Dulu
+            </a>
+        </div>
+
+        <!-- ══ SECTION: PILIH TOPIK ══ -->
+        <div id="pilih-topik" class="hidden max-w-2xl mx-auto py-8 lg:py-12">
+            <div class="text-center mb-8">
+                <div class="inline-flex items-center gap-2 bg-primary/10 text-primary text-xs font-bold px-4 py-2 rounded-full uppercase tracking-widest mb-5">
+                    <span class="material-symbols-outlined text-sm" style="font-variation-settings:'FILL' 1;">today</span>
+                    Latihan Hari Ini
+                </div>
+                <h2 class="font-headline font-extrabold text-2xl sm:text-3xl text-on-surface mb-2">Pilih Topik Latihan</h2>
+                <p class="text-on-surface-variant text-sm">Pilih satu topik untuk dikerjakan hari ini</p>
+            </div>
+            <div id="kartu-topik" class="space-y-4"></div>
+        </div>
+
+        <!-- ══ SECTION: WELCOME / INFO LATIHAN ══ -->
+        <div id="welcome-section" class="hidden max-w-2xl mx-auto py-8 lg:py-12">
+            <div class="text-center mb-10">
+                <div class="inline-flex items-center gap-2 bg-primary/10 text-primary text-xs font-bold px-4 py-2 rounded-full uppercase tracking-widest mb-5">
+                    <span class="material-symbols-outlined text-sm" style="font-variation-settings:'FILL' 1;">today</span>
+                    Latihan Hari Ini
+                </div>
+                <h2 id="topik-judul" class="font-headline font-extrabold text-3xl sm:text-4xl text-on-surface mb-3">—</h2>
+                <p id="topik-sub" class="text-on-surface-variant text-sm sm:text-base"></p>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 mb-10">
+                <div class="bg-surface-container-lowest rounded-2xl p-5 text-center border border-outline-variant/10">
+                    <span class="material-symbols-outlined text-primary text-3xl mb-2 block" style="font-variation-settings:'FILL' 1;">quiz</span>
+                    <p class="font-headline font-extrabold text-2xl text-on-surface"><span id="jumlah-soal">20</span></p>
+                    <p class="text-xs text-on-surface-variant mt-1">Soal PG</p>
+                </div>
+                <div class="bg-surface-container-lowest rounded-2xl p-5 text-center border border-outline-variant/10">
+                    <span class="material-symbols-outlined text-secondary text-3xl mb-2 block" style="font-variation-settings:'FILL' 1;">timer</span>
+                    <p class="font-headline font-extrabold text-2xl text-on-surface">Bebas</p>
+                    <p class="text-xs text-on-surface-variant mt-1">Tidak ada timer</p>
+                </div>
+                <div class="bg-surface-container-lowest rounded-2xl p-5 text-center border border-outline-variant/10">
+                    <span class="material-symbols-outlined text-tertiary text-3xl mb-2 block" style="font-variation-settings:'FILL' 1;">replay</span>
+                    <p class="font-headline font-extrabold text-2xl text-on-surface">∞</p>
+                    <p class="text-xs text-on-surface-variant mt-1">Bisa diulang</p>
+                </div>
+            </div>
+
+            <div class="bg-surface-container-low rounded-2xl p-6 mb-8 space-y-3">
+                <div class="flex items-start gap-3">
+                    <span class="material-symbols-outlined text-primary mt-0.5" style="font-variation-settings:'FILL' 1;">check_circle</span>
+                    <p class="text-sm text-on-surface-variant">Semua 20 soal tampil sekaligus — gulir ke bawah untuk menjawab</p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="material-symbols-outlined text-primary mt-0.5" style="font-variation-settings:'FILL' 1;">check_circle</span>
+                    <p class="text-sm text-on-surface-variant">Setelah submit, kamu langsung tahu mana yang benar dan salah beserta penjelasannya</p>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="material-symbols-outlined text-primary mt-0.5" style="font-variation-settings:'FILL' 1;">check_circle</span>
+                    <p class="text-sm text-on-surface-variant">Hasil terkirim otomatis ke Bapak/Ibu Guru</p>
+                </div>
+            </div>
+
+            <button id="btn-mulai-kerjakan" class="w-full py-4 bg-primary text-white font-headline font-bold text-lg rounded-2xl hover:bg-primary/90 active:scale-[0.98] transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-3">
+                <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">play_arrow</span>
+                Mulai Mengerjakan
+            </button>
+        </div>
+
+        <!-- ══ SECTION: ARENA LATIHAN ══ -->
+        <div id="arena-latihan" class="hidden max-w-3xl mx-auto py-6 lg:py-10">
+
+            <!-- Header Arena -->
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+                <div>
+                    <h2 id="topik-judul-arena" class="font-headline font-bold text-xl text-on-surface">Latihan Harian</h2>
+                    <p class="text-sm text-on-surface-variant">Jawab semua soal, lalu klik Kirim Jawaban</p>
+                </div>
+                <div class="text-right shrink-0">
+                    <p id="progress-txt" class="text-sm font-bold text-on-surface-variant">0 / 20 soal dijawab</p>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="w-full bg-surface-container rounded-full h-2.5 mb-8 overflow-hidden">
+                <div id="progress-bar-latihan" class="h-full bg-primary rounded-full transition-all duration-500" style="width:0%"></div>
+            </div>
+
+            <!-- Score Banner (tampil setelah submit) -->
+            <div id="score-banner" class="hidden mb-8"></div>
+
+            <!-- Daftar Soal -->
+            <div id="soal-list" class="space-y-6 sm:space-y-8"></div>
+
+            <!-- Tombol Submit -->
+            <div class="mt-10 flex flex-col sm:flex-row gap-4">
+                <button id="btn-submit" disabled
+                    class="flex-1 py-4 bg-primary text-white font-headline font-bold text-base rounded-2xl hover:bg-primary/90 active:scale-[0.98] transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-3 opacity-50 cursor-not-allowed">
+                    <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">send</span>
+                    Kirim Jawaban
+                </button>
+                <button id="btn-ulang" class="hidden flex-1 py-4 bg-surface-container text-on-surface font-bold text-base rounded-2xl hover:bg-surface-container-high active:scale-[0.98] transition-all flex items-center justify-center gap-3 border border-outline-variant/20">
+                    <span class="material-symbols-outlined">replay</span>
+                    Coba Lagi (Soal Diacak)
+                </button>
+            </div>
+        </div>
+
+    </main>
+</div>
+
+<!-- ───── SCRIPTS ───── -->
+<script src="js/materi-v2.js"></script>
+<script src="js/latihan-harian-v2.js"></script>
+<script>
+    const mobileBtn  = document.getElementById('mobile-menu-btn');
+    const closeBtn   = document.getElementById('close-sidebar-btn');
+    const sidebar    = document.getElementById('sidebar');
+    const overlay    = document.getElementById('sidebar-overlay');
+
+    function toggleSidebar() {
+        const isClosed = sidebar.classList.contains('-translate-x-full');
+        if (isClosed) {
+            sidebar.classList.remove('-translate-x-full');
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        } else {
+            sidebar.classList.add('-translate-x-full');
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+        }
+    }
+
+    if (mobileBtn) mobileBtn.addEventListener('click', toggleSidebar);
+    if (closeBtn)  closeBtn.addEventListener('click', toggleSidebar);
+    if (overlay)   overlay.addEventListener('click', toggleSidebar);
+</script>
+</body></html>
