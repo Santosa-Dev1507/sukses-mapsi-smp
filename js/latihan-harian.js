@@ -212,6 +212,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function loadSoal(topik, today, jadwalGabung) {
         const id    = typeof topik === 'string' ? topik : topik.id;
+        if (id.startsWith('paket-')) {
+            window.location.href = `latihan-harian-v2.html?soal=${id}`;
+            return;
+        }
+
         const label = typeof topik === 'string' ? (INFO_SET[topik]?.judul || topik) : (topik.label || id);
         const info  = INFO_SET[id] || {};
 

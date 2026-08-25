@@ -171,7 +171,43 @@ var infoLatihan = {
         subjudul: "Peradaban Islam Daulah Mughal di India",
         ikon: "history_edu",
         warna: "tertiary"
-    }
+    },
+    "paket-1-latihan-2-alquran-keimanan": {
+        judul: "Paket 1: Latihan 2 Al-Qur'an - Keimanan",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-2-latihan-2-alquran-ketakwaan": {
+        judul: "Paket 2: Latihan 2 Al-Qur'an - Ketakwaan",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-3-latihan-2-alquran-toleransi": {
+        judul: "Paket 3: Latihan 2 Al-Qur'an - Toleransi",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-4-latihan-2-alquran-cintatanahair": {
+        judul: "Paket 4: Latihan 2 Al-Qur'an - Cinta Tanah Air",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-5-latihan-2-alquran-menuntutilmu": {
+        judul: "Paket 5: Latihan 2 Al-Qur'an - Menuntut Ilmu",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-6-latihan-2-alquran-kesabaran": {
+        judul: "Paket 6: Latihan 2 Al-Qur'an - Kesabaran",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
 };
 
 // Daftar set soal yang bisa dipilih guru di Dashboard Guru
@@ -215,5 +251,12 @@ var DAFTAR_SOAL = [
     { id: "fikih-rukhsah",                label: "Fikih — Rukhsah dalam Ibadah" },
     { id: "ski-turki-usmani",             label: "SKI — Daulah Turki Usmani" },
     { id: "ski-syafawi",                  label: "SKI — Daulah Syafawi di Persia" },
-    { id: "ski-mughal",                   label: "SKI — Daulah Mughal di India" }
+    { id: "ski-mughal",                   label: "SKI — Daulah Mughal di India" },
+    // --- KELOMPOK 4: LATIHAN HARIAN V2 ---
+    { id: "paket-1-latihan-2-alquran-keimanan", label: "Paket 1: Latihan 2 Al-Qur'an - Keimanan" },
+    { id: "paket-2-latihan-2-alquran-ketakwaan", label: "Paket 2: Latihan 2 Al-Qur'an - Ketakwaan" },
+    { id: "paket-3-latihan-2-alquran-toleransi", label: "Paket 3: Latihan 2 Al-Qur'an - Toleransi" },
+    { id: "paket-4-latihan-2-alquran-cintatanahair", label: "Paket 4: Latihan 2 Al-Qur'an - Cinta Tanah Air" },
+    { id: "paket-5-latihan-2-alquran-menuntutilmu", label: "Paket 5: Latihan 2 Al-Qur'an - Menuntut Ilmu" },
+    { id: "paket-6-latihan-2-alquran-kesabaran", label: "Paket 6: Latihan 2 Al-Qur'an - Kesabaran" }
 ];
