@@ -208,6 +208,43 @@ var infoLatihan = {
         ikon: "assignment",
         warna: "primary"
     },
+,
+    "paket-1-latihan-2-aqidah-asmaulhusna": {
+        judul: "Paket 1: Latihan 2 Aqidah - Asmaul Husna",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-2-latihan-2-aqidah-malaikat": {
+        judul: "Paket 2: Latihan 2 Aqidah - Malaikat",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-3-latihan-2-aqidah-kitaballah": {
+        judul: "Paket 3: Latihan 2 Aqidah - Kitab-kitab Allah",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-4-latihan-2-aqidah-rasulallah": {
+        judul: "Paket 4: Latihan 2 Aqidah - Rasul-rasul Allah",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-5-latihan-2-aqidah-hariakhir": {
+        judul: "Paket 5: Latihan 2 Aqidah - Hari Kiamat",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-6-latihan-2-aqidah-qadaqadar": {
+        judul: "Paket 6: Latihan 2 Aqidah - Qada dan Qadar",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
 };
 
 // Daftar set soal yang bisa dipilih guru di Dashboard Guru
@@ -258,5 +295,12 @@ var DAFTAR_SOAL = [
     { id: "paket-3-latihan-2-alquran-toleransi", label: "Paket 3: Latihan 2 Al-Qur'an - Toleransi" },
     { id: "paket-4-latihan-2-alquran-cintatanahair", label: "Paket 4: Latihan 2 Al-Qur'an - Cinta Tanah Air" },
     { id: "paket-5-latihan-2-alquran-menuntutilmu", label: "Paket 5: Latihan 2 Al-Qur'an - Menuntut Ilmu" },
-    { id: "paket-6-latihan-2-alquran-kesabaran", label: "Paket 6: Latihan 2 Al-Qur'an - Kesabaran" }
+    { id: "paket-6-latihan-2-alquran-kesabaran", label: "Paket 6: Latihan 2 Al-Qur'an - Kesabaran" },
+    // --- KELOMPOK 5: LATIHAN HARIAN V2 (AQIDAH AKHLAK) ---
+    { id: "paket-1-latihan-2-aqidah-asmaulhusna", label: "Paket 1: Latihan 2 Aqidah - Asmaul Husna" },
+    { id: "paket-2-latihan-2-aqidah-malaikat", label: "Paket 2: Latihan 2 Aqidah - Malaikat" },
+    { id: "paket-3-latihan-2-aqidah-kitaballah", label: "Paket 3: Latihan 2 Aqidah - Kitab-kitab Allah" },
+    { id: "paket-4-latihan-2-aqidah-rasulallah", label: "Paket 4: Latihan 2 Aqidah - Rasul-rasul Allah" },
+    { id: "paket-5-latihan-2-aqidah-hariakhir", label: "Paket 5: Latihan 2 Aqidah - Hari Kiamat" },
+    { id: "paket-6-latihan-2-aqidah-qadaqadar", label: "Paket 6: Latihan 2 Aqidah - Qada dan Qadar" }
 ];
