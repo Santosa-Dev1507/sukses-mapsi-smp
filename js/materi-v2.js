@@ -1848,123 +1848,467 @@ const DATA_LATIHAN_V2 = {
   },
   "paket-1-latihan-2-aqidah-asmaulhusna": {
     "judul": "Paket 1: Latihan 2 Aqidah - Asmaul Husna",
-    "soal": []
+    "soal": [
+      {
+        "type": "PG",
+        "q": "Keimanan di dalam ajaran Islam bukanlah sekadar ucapan kosong di bibir. Iman yang kokoh memiliki rukun dan tingkatan yang teratur dari cara mengikrarkan hingga melaksanakannya.\nBerdasarkan definisi secara istilah teologi Islam, kapankah keimanan seorang muslim dinilai sempurna dan kokoh?",
+        "opt": [
+          "A. Cukup meyakini kebenaran dalam hati tanpa perlu mengucapkannya dengan lisan",
+          "B. Diikrarkan dengan lisan dan dibuktikan dengan rajin memposting motivasi Islami di media sosial",
+          "C. Diyakini sepenuhnya di dalam hati, diucapkan dengan lisan secara jujur, dan diamalkan nyata dengan perbuatan",
+          "D. Melakukan seluruh perintah ibadah lahiriah meskipun hatinya ragu-ragu terhadap kekuasaan Allah"
+        ],
+        "a": [
+          2
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Perhatikan terjemahan ayat berikut ini:\n\"Dan Allah memiliki Asmaul Husna (nama-nama yang terbaik), maka bermohonlah kepada-Nya dengan menyebut Asmaul Husna itu dan tinggalkanlah orang-orang yang menyalahartikan nama-nama-Nya...\"\nTerjemahan dalil yang memerintahkan umat Islam berdoa menggunakan nama-nama Allah yang agung di atas termaktub di dalam...",
+        "opt": [
+          "A. Q.S. al-Baqarah ayat 256",
+          "B. Q.S. al-A'raf ayat 180",
+          "C. Q.S. an-Nisa ayat 146",
+          "D. Q.S. Ali 'Imran ayat 102"
+        ],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Allah Swt. memiliki nama-nama mulia yang menunjukkan sifat-sifat kesempurnaan-Nya. Di antara nama-nama tersebut adalah al-'Alim dan al-Khabir, yang sama-sama berkaitan dengan pengetahuan Allah.\nApakah perbedaan konseptual yang tepat antara sifat Allah al-'Alim dengan al-Khabir?",
+        "opt": [
+          "A. Al-'Alim berarti Allah Maha Mengetahui segala hal baik lahir maupun batin, sedangkan al-Khabir berarti Allah Maha Mengetahui urusan yang sangat detail, tersembunyi, dan rahasia",
+          "B. Al-'Alim berarti Allah mengetahui masa depan manusia, sedangkan al-Khabir berarti Allah hanya mengetahui catatan amal masa lalu",
+          "C. Al-'Alim menunjukkan pengetahuan Allah yang terbatas pada alam semesta, sedangkan al-Khabir menunjukkan pengetahuan Allah terhadap diri manusia saja",
+          "D. Al-'Alim adalah sifat wajib yang memerlukan usaha manusia untuk mengetahuinya, sedangkan al-Khabir adalah ketetapan mutlak tanpa sebab"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Saat ujian sekolah online yang diselenggarakan secara mandiri dari rumah (PJJ), guru tidak bisa memonitor langsung aktivitas siswa karena kendala kamera pengawas. Di atas meja belajar Rian, terletak buku catatan pelajaran yang terbuka lebar.\nJika Rian meneladani dan mengamalkan Asmaul Husna al-Basir, sikap manakah yang harus ia ambil saat ujian berlangsung?",
+        "opt": [
+          "A. Membaca catatan sebentar saja jika ada soal yang sangat sulit agar nilai ujiannya tetap bagus",
+          "B. Menutup rapat buku catatan dan menjawab soal sejujurnya karena yakin Allah Maha Melihat segala perbuatannya",
+          "C. Menyuruh temannya mengirimkan jawaban lewat chat karena mengira guru tidak akan pernah tahu",
+          "D. Mencontek dengan cepat karena yakin bahwa pengawasan Allah hanya berlaku di dalam masjid atau sekolah saja"
+        ],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Sofia sangat rajin belajar kelompok demi membantu teman-teman sekelasnya yang kesulitan memahami materi matematika. Suatu hari, namanya tidak disebut oleh wali kelas saat pemberian penghargaan murid teladan di kelas.\nBagaimanakah sikap Sofia yang mencerminkan pemahaman akhlak ikhlas yang murni sesuai ajaran Q.S. an-Nisa ayat 146?",
+        "opt": [
+          "A. Merasa kecewa dan memutuskan untuk tidak mau lagi membantu belajar teman-temannya",
+          "B. Tetap tulus membantu teman-temannya dengan gembira karena ia meniatkan usahanya semata-mata mencari rida Allah",
+          "C. Memprotes wali kelas secara terbuka di depan umum agar namanya dimasukkan ke dalam daftar murid berprestasi",
+          "D. Memposting kekecewaannya di media sosial agar teman-temannya bersimpati padanya"
+        ],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Di pojok kelas saat jam istirahat, Doni dan beberapa temannya sedang berkumpul dan mulai berbisik-bisik membicarakan kekurangan serta aib salah satu temannya yang hari itu tidak masuk sekolah karena sakit.\nTindakan apakah yang harus dilakukan oleh seorang siswa yang mengamalkan keyakinan kepada sifat Allah al-Sami' ketika berada dalam situasi tersebut?",
+        "opt": [
+          "A. Ikut bergabung berbisik-bisik asalkan bicaranya sangat pelan agar tidak terdengar guru",
+          "B. Merekam obrolan tersebut menggunakan HP untuk disebarluaskan di grup kelas",
+          "C. Menolak ikut berbisik-bisik dan mengingatkan temannya dengan sopan karena sadar Allah Maha Mendengar setiap ucapan sekecil apa pun",
+          "D. Mengabaikannya dan pura-pura tidak dengar agar ia tetap dianggap setia kawan"
+        ],
+        "a": [
+          2
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Q.S. Ali 'Imran ayat 102 berbunyi:\n\"Wahai orang-orang yang beriman, bertakwalah kepada Allah dengan sebenar-benar takwa kepada-Nya dan janganlah kamu mati kecuali dalam keadaan muslim.\"\nApakah makna penting dari larangan \"janganlah kamu mati kecuali dalam keadaan muslim\" menurut kandungan ayat tersebut?",
+        "opt": [
+          "A. Kita dilarang melakukan perjalanan jauh yang berbahaya agar terhindar dari kematian mendadak",
+          "B. Kita diperintahkan untuk terus-menerus memelihara keimanan dan konsisten beribadah sepanjang hayat agar akhir hayat kita dalam keadaan husnul khatimah",
+          "C. Kematian hanya akan menjemput orang-orang yang tidak mau melaksanakan ibadah salat",
+          "D. Orang Islam dijamin tidak akan pernah wafat sebelum mencapai usia tua yang renta"
+        ],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Perhatikan potongan kalimat berikut:\n1) بِالْعُرْوَةِ (bil-'urwati)   2) الظُّلُمَاتِ (ad-dhulumāti)   3) الْوُثْقَىٰ (al-wuthqā)   4) النُّوْرِ (an-nūri)\nLafal-lafal di atas yang secara berurutan mengandung hukum bacaan Al-Qamariyah (Alif Lam dibaca jelas) adalah nomor...",
+        "opt": [
+          "A. 1 dan 2",
+          "B. 1 dan 3",
+          "C. 2 dan 4",
+          "D. 3 dan 4"
+        ],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Rombongan siswa SMP berangkat melakukan kegiatan studi wisata kelas (outing class) menggunakan bus dengan jarak tempuh sejauh 110 km. Rombongan berangkat pukul 05.00 pagi dan diperkirakan tiba di lokasi tujuan pukul 14.30 siang.\nBagaimanakah tata cara pelaksanaan salat fardhu bagi para siswa yang berstatus musafir tersebut saat waktu Zuhur telah tiba?",
+        "opt": [
+          "A. Salat Zuhur boleh ditinggalkan sama sekali dan diganti dengan membayar denda",
+          "B. Melaksanakan salat Zuhur 4 rakaat di dalam bus yang sedang berjalan tanpa menghadap kiblat",
+          "C. Melaksanakan salat Zuhur 2 rakaat digabung dengan Ashar 2 rakaat secara jamak takdim qashar di masjid rest area",
+          "D. Wajib menunggu hingga tiba di lokasi tujuan baru melaksanakan salat Zuhur 4 rakaat"
+        ],
+        "a": [
+          2
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Ketika ada seorang muslim meninggal dunia, hukum mengurus jenazahnya bagi masyarakat muslim sekitar adalah fardhu kifayah. Terdapat empat kewajiban utama yang harus ditunaikan secara berurutan.\nManakah urutan pelaksanaan pengurusan jenazah yang benar dan sesuai dengan syariat Islam?",
+        "opt": [
+          "A. Mensalatkan, memandikan, mengkafani, menguburkan",
+          "B. Memandikan, mengkafani, mensalatkan, menguburkan",
+          "C. Mengkafani, memandikan, mensalatkan, menguburkan",
+          "D. Memandikan, mensalatkan, mengkafani, menguburkan"
+        ],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Pada masa kejayaan Daulah Abbasiyah di Baghdad, lahir banyak ilmuwan muslim penemu sains modern yang karyanya diterjemahkan dan dipelajari di universitas-universitas Eropa hingga saat ini.\nIlmuwan muslim penemu sistem Aljabar, angka nol, dan penulisan algoritma matematika yang hidup pada masa Abbasiyah adalah...",
+        "opt": [
+          "A. Ibnu Sina",
+          "B. Al-Khwarizmi",
+          "C. Al-Biruni",
+          "D. Jabir bin Hayyan"
+        ],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Daulah Umayyah tidak hanya berjaya di Damaskus, tetapi juga membangun pusat peradaban Islam baru yang sangat megah di wilayah Eropa Barat, tepatnya di Andalusia (Spanyol) dengan ibu kota Cordova.\nSalah satu peninggalan arsitektur bangunan keagamaan monumental yang menjadi lambang puncak keemasan peradaban Islam di Cordova adalah...",
+        "opt": [
+          "A. Istana Taj Mahal",
+          "B. Istana Topkapi",
+          "C. Masjid Agung Cordova (Mezquita)",
+          "D. Masjid Biru (Blue Mosque)"
+        ],
+        "a": [
+          2
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Q.S. an-Nisa ayat 146 menegaskan pentingnya memurnikan ketaatan beragama hanya karena Allah Swt. Orang yang ikhlas memiliki karakteristik khusus dalam menjaga kestabilan hatinya.\nManakah di antara pernyataan berikut yang termasuk ciri-ciri dari orang yang ikhlas beramal sesuai kandungan Q.S. an-Nisa ayat 146? (Pilihlah semua jawaban benar!)",
+        "opt": [
+          "A. Semangat beribadahnya tetap stabil dan tidak dipengaruhi oleh pujian atau celaan orang lain",
+          "B. Selalu merasa bangga dan ingin agar semua orang mengetahui amalan baik yang dikerjakannya",
+          "C. Melakukan kebaikan semata-mata demi mengharap rida Allah Swt. dan bukan keuntungan duniawi",
+          "D. Membiasakan diri menyembunyikan amal kebaikan sekadarnya untuk menghindari penyakit riya'"
+        ],
+        "a": [
+          0,
+          2
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Faza ditunjuk menjadi ketua panitia pentas seni Islam di sekolah. Faza ingin agar seluruh persiapannya berjalan lancar, beradab, serta mencerminkan nilai-nilai keimanan yang kokoh kepada Allah Swt.\nManakah tindakan Faza di sekolah yang mencerminkan buah keimanan yang benar dan mulia kepada Allah Swt.? (Pilihlah semua jawaban benar!)",
+        "opt": [
+          "A. Mengajak seluruh panitia untuk berdoa bersama memohon kelancaran sebelum memulai rapat koordinasi",
+          "B. Mengutamakan latihan pentas seni hingga sengaja mengabaikan panggilan salat ashar berjamaah",
+          "C. Bersikap ramah, berkata jujur, dan mendengarkan masukan teman-teman panitia dengan lapang dada",
+          "D. Menggunakan sisa anggaran dekorasi secara rahasia untuk mentraktir teman-teman terdekatnya"
+        ],
+        "a": [
+          0,
+          2
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Dua penyakit hati yang paling sering mengintai keikhlasan amal manusia di era media sosial adalah riya' (pamer ibadah agar dilihat orang) dan sum'ah (pamer ibadah agar didengar orang).\nManakah di antara pernyataan berikut yang merupakan bahaya nyata dari penyakit riya' dan sum'ah dalam kehidupan beragama remaja? (Pilihlah semua jawaban benar!)",
+        "opt": [
+          "A. Dapat merusak dan menghapuskan seluruh pahala dari amalan kebaikan yang dikerjakan",
+          "B. Menghadirkan ketenangan batin yang abadi karena mendapat sanjungan dari netizen",
+          "C. Membuat seseorang menjadi sangat bergantung pada pengakuan manusia daripada rida Allah",
+          "D. Menumbuhkan sifat sombong dan merendahkan amalan ibadah orang lain"
+        ],
+        "a": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Salat Jum'at dinilai sah apabila didahului oleh dua khutbah yang memenuhi ketentuan syariat. Khatib harus memastikan rukun-rukun khutbah terbaca dengan fasih.\nManakah di antara lafal atau tindakan berikut yang merupakan rukun khutbah Jum'at yang wajib terpenuhi pada kedua khutbah? (Pilihlah semua jawaban benar!)",
+        "opt": [
+          "A. Membaca hamdalah (pujian kepada Allah Swt.)",
+          "B. Menggunakan bahasa Arab penuh untuk seluruh materi isi khutbah",
+          "C. Membaca shalawat kepada Nabi Muhammad saw.",
+          "D. Menyampaikan wasiat takwa kepada para jamaah"
+        ],
+        "a": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Baitul Hikmah merupakan lembaga kebudayaan raksasa masa Daulah Abbasiyah di Baghdad yang menginisiasi gerakan penerjemahan besar-besaran karya sains kuno Yunani, Persia, dan India.\nManakah pernyataan yang tepat mengenai fungsi dan kontribusi Baitul Hikmah bagi dunia ilmu pengetahuan? (Pilihlah semua jawaban benar!)",
+        "opt": [
+          "A. Menjadi perpustakaan terbesar dunia sekaligus pusat penelitian sains dan astronomi",
+          "B. Berfungsi sebagai istana peristirahatan khusus bagi para khalifah Abbasiyah",
+          "C. Menyatukan para akademisi lintas agama dan bangsa untuk bekerjasama menerjemahkan ilmu sains",
+          "D. Memicu kebangkitan intelektual (Renaissance) di daratan Eropa berkat transmisi ilmu pengetahuan"
+        ],
+        "a": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Q.S. al-Baqarah ayat 256 menegaskan kalimat: \"Tidak ada paksaan dalam menganut agama (Islam), sesungguhnya telah jelas perbedaan antara jalan yang benar dengan jalan yang sesat.\"\nBerdasarkan kandungan tafsir Q.S. al-Baqarah ayat 256, manakah perilaku toleransi beragama yang dibenarkan dalam Islam? (Pilihlah semua jawaban benar!)",
+        "opt": [
+          "A. Memberikan kebebasan penuh kepada pemeluk agama lain untuk menjalankan ibadah sesuai keyakinan mereka",
+          "B. Memaksa teman sekolah yang non-muslim agar masuk Islam demi menyelamatkan mereka di akhirat",
+          "C. Menjaga kerukunan sosial dan tidak merusak tempat ibadah umat agama lain",
+          "D. Mengikuti ritual ibadah keagamaan pemeluk agama lain di gereja atau pura demi asas kebersamaan",
+          "I. TABEL REKAPITULASI KUNCI JAWABAN"
+        ],
+        "a": [
+          0,
+          2
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "[KONSEP DASAR - HAKIKAT KEIMANAN]\nJika seseorang sudah rajin melaksanakan salat lima waktu dan bersedekah secara lahiriah, ia dinilai memiliki iman yang sempurna meskipun di dalam hatinya ia masih menyimpan keraguan yang besar terhadap keberadaan malaikat-malaikat Allah.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "[APLIKASI HARIAN - AL-KHABIR]\nMengamalkan Asmaul Husna al-Khabir di lingkungan sekolah mendorong siswa untuk selalu teliti, waspada, dan berhati-hati dalam mempersiapkan tugas kelompok agar terhindar dari kesalahan-kesalahan kecil yang tidak disengaja.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "[KONSEP DASAR - HAKIKAT IKHLAS]\nKeikhlasan yang murni berarti kita meniatkan seluruh amal ibadah dan perbuatan baik semata-mata demi mencari rida Allah, sehingga orang yang ikhlas tidak akan merasa sedih atau malas ketika kebaikannya tidak mendapat pujian dari manusia.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "[VARIASI AL-QUR'AN - ASBABUN NUZUL]\nQ.S. al-Baqarah ayat 256 diturunkan dilatarbelakangi oleh kisah seorang sahabat Anshar bernama Husain yang mencoba memaksa kedua anaknya yang beragama Kristen untuk memeluk Islam, lalu Rasulullah melarang tindakan pemaksaan tersebut.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "[VARIASI FIQIH - KETENTUAN SALAT BERGABUNG]\nSalat jamak takdim qashar adalah mengumpulkan dua salat fardhu (seperti Zuhur dan Ashar) dikerjakan dalam satu waktu pada waktu salat yang kedua (Ashar) dengan cara meringkas masing-masing menjadi 2 rakaat.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "[VARIASI TARIKH - DAULAH MUGHAL INDIA]\nBangunan monumen megah Taj Mahal di India didirikan oleh Sultan Syah Jahan dari Daulah Mughal sebagai lambang cinta yang mendalam sekaligus bukti puncak kemajuan seni arsitektur peradaban Islam di wilayah Asia Selatan.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      }
+    ]
   },
   "paket-2-latihan-2-aqidah-malaikat": {
     "judul": "Paket 2: Latihan 2 Aqidah - Malaikat",
     "soal": [
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Secara istilah syariat, definisi keimanan yang seutuhnya tidak hanya sekadar percaya di dalam pikiran. Unsur pokok pembentuk iman yang benar meliputi tiga dimensi terpadu, yaitu...",
         "opt": [
           "A. Dibaca dengan lisan, ditulis dalam buku catatan, dan dibahas bersama guru",
           "B. Diikrarkan dengan lisan, diyakini di dalam hati, dan diamalkan melalui tindakan nyata",
           "C. Diyakini di dalam hati, dihafalkan seluruh ayat Al-Qur'an, dan diceritakan kepada orang lain",
           "D. Diucapkan secara fasih, diingat sepanjang hayat, dan disembunyikan dari penglihatan manusia"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
-        "q": "Perhatikan arti dalil berikut:",
+        "type": "PG",
+        "q": "Perhatikan arti dalil berikut:\n\"Dan milik-Nya-lah siapa yang di langit dan di bumi. Dan (malaikat-malaikat) yang di sisi-Nya, tidak mempunyai rasa anggan untuk menyembah-Nya dan tidak (pula) merasa letih.\"\nPotongan terjemahan dalil yang menjelaskan tentang sifat ketaatan mutlak malaikat tersebut bersumber dari Al-Qur'an, yaitu...",
         "opt": [
           "A. Q.S. al-Anbiyā’ ayat 19",
           "B. Q.S. al-Baqarah ayat 4",
           "C. Q.S. Ali 'Imran ayat 102",
           "D. Q.S. Luqman ayat 33"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Malaikat adalah makhluk gaib yang memiliki karakteristik penciptaan dan sifat yang sangat khas. Di bawah ini yang merupakan salah satu sifat mutlak malaikat yang membedakannya dengan manusia dan jin adalah...",
         "opt": [
           "A. Memiliki nafsu ganda sehingga kadang berbuat keliru",
           "B. Diciptakan dari tanah liat kering yang dibentuk",
           "C. Senantiasa taat menjalankan perintah Allah tanpa pernah membangkang",
           "D. Membutuhkan makan dan minum serta beristirahat ketika malam hari"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
-        "q": "Setiap hari Senin, Farel selalu dibelikan ibunya bekal roti sederhana untuk dimakan saat jam istirahat sekolah. Meskipun teman-temannya jajan makanan cepat saji yang mahal di kantin, Farel tetap memakan rotinya dengan gembira dan mengucapkan 'Alhamdulillah'.",
+        "type": "PG",
+        "q": "Setiap hari Senin, Farel selalu dibelikan ibunya bekal roti sederhana untuk dimakan saat jam istirahat sekolah. Meskipun teman-temannya jajan makanan cepat saji yang mahal di kantin, Farel tetap memakan rotinya dengan gembira dan mengucapkan 'Alhamdulillah'.\nSikap mulia yang ditunjukkan oleh Farel di lingkungan sekolah merupakan cerminan dari akhlak terpuji...",
         "opt": [
           "A. Tawakal menghadapi ujian sekolah",
           "B. Syukur atas nikmat Allah dan merasa cukup (Qana'ah)",
           "C. Husnuzan kepada teman sekelas",
           "D. Istiqamah belajar kelompok"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
-        "q": "Sahrul sedang mengikuti ujian penilaian harian di kelas. Di tengah ujian, pengawas harus keluar kelas selama 10 menit karena urusan mendadak. Sahrul melihat teman-temannya saling berbisik menyontek, namun ia memilih tetap fokus mengerjakan soalnya sendiri dengan jujur karena sadar ada malaikat yang mencatat seluruh gerak-gerik perbuatannya.",
+        "type": "PG",
+        "q": "Sahrul sedang mengikuti ujian penilaian harian di kelas. Di tengah ujian, pengawas harus keluar kelas selama 10 menit karena urusan mendadak. Sahrul melihat teman-temannya saling berbisik menyontek, namun ia memilih tetap fokus mengerjakan soalnya sendiri dengan jujur karena sadar ada malaikat yang mencatat seluruh gerak-gerik perbuatannya.\nSikap Sahrul mencerminkan keimanan yang kokoh kepada malaikat...",
         "opt": [
           "A. Jibril dan Mikail",
           "B. Munkar dan Nakir",
           "C. Raqib dan Atid",
           "D. Malik dan Ridwan"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
-        "q": "Ketika sepulang sekolah, Bagas diajak oleh beberapa oknum kakak kelasnya untuk bergabung melakukan aksi tawuran dengan dalih solidaritas angkatan. Bagas menolak ajakan tersebut dengan tegas karena ia meyakini adanya malaikat Allah yang menjaga pintu neraka dan siap menyiksa pelaku kemaksiatan.",
+        "type": "PG",
+        "q": "Ketika sepulang sekolah, Bagas diajak oleh beberapa oknum kakak kelasnya untuk bergabung melakukan aksi tawuran dengan dalih solidaritas angkatan. Bagas menolak ajakan tersebut dengan tegas karena ia meyakini adanya malaikat Allah yang menjaga pintu neraka dan siap menyiksa pelaku kemaksiatan.\nNama malaikat penjaga pintu neraka yang diyakini oleh Bagas dalam kasus di atas adalah Malaikat...",
         "opt": [
           "A. Ridwan",
           "B. Malik",
           "C. Izrail",
           "D. Israfil"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
-        "q": "Perhatikan lafal potongan ayat berikut:",
+        "type": "PG",
+        "q": "Perhatikan lafal potongan ayat berikut:\n(وَلَا تَمُوْتُنَّ اِلَّا وَاَنْتُمْ مُّسْلِمُوْنَ)\nPada lafal (تَمُوْتُنَّ) terdapat huruf Nun bertasydid (نّ) yang dibaca berdengung tebal. Di dalam ilmu tajwid, hukum membaca dengung tebal akibat Nun atau Mim bertasydid dinamakan...",
         "opt": [
           "A. Ghunnah Musyaddadah",
           "B. Qalqalah Sughra",
           "C. Izh-har Halqi",
           "D. Al-Syamsiyah"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
-        "q": "Q.S. Luqman ayat 33 berpesan: \"...dan takutlah pada hari yang (ketika itu) seorang bapak tidak dapat menolong anaknya, dan seorang anak tidak dapat menolong bapaknya sedikit pun.\" ",
+        "type": "PG",
+        "q": "Q.S. Luqman ayat 33 berpesan: \"...dan takutlah pada hari yang (ketika itu) seorang bapak tidak dapat menolong anaknya, dan seorang anak tidak dapat menolong bapaknya sedikit pun.\"\nBerdasarkan ayat tersebut, salah satu esensi utama dari menjaga ketakwaan di hadapan Allah Swt. adalah...",
         "opt": [
           "A. Mengandalkan warisan harta orang tua untuk menyelamatkan diri di akhirat",
           "B. Menyadari bahwa setiap manusia akan bertanggung jawab atas amalnya masing-masing di hari kiamat",
           "C. Meminta bantuan teman dekat untuk menggantikan dosa-dosa kita",
           "D. Melakukan ibadah secara berkelompok agar seluruh rahasia dosa terhapus bersama"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
-        "q": "Siswa SMP Bina Bangsa melakukan perjalanan karya wisata ke museum sejarah dengan menempuh jarak sejauh 95 km. Mereka berangkat pukul 05.30 pagi dan tiba di lokasi siang hari. Guru pendamping menginstruksikan para siswa untuk menggabungkan sekaligus meringkas pelaksanaan salat Zuhur dengan Ashar di mushola museum secara jamak takdim qashar.",
+        "type": "PG",
+        "q": "Siswa SMP Bina Bangsa melakukan perjalanan karya wisata ke museum sejarah dengan menempuh jarak sejauh 95 km. Mereka berangkat pukul 05.30 pagi dan tiba di lokasi siang hari. Guru pendamping menginstruksikan para siswa untuk menggabungkan sekaligus meringkas pelaksanaan salat Zuhur dengan Ashar di mushola museum secara jamak takdim qashar.\nBerdasarkan ketentuan fiqih ibadah, jumlah rakaat salat Zuhur yang dilakukan secara qashar dalam jamak tersebut adalah...",
         "opt": [
           "A. 4 rakaat sekaligus",
           "B. 3 rakaat",
           "C. 2 rakaat",
           "D. 1 rakaat"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Mengurus jenazah seorang muslim merupakan kewajiban kolektif bagi umat Islam yang berada di sekitarnya. Hukum melaksanakan pengurusan jenazah (memandikan, mengkafani, mensalatkan, menguburkan) adalah...",
         "opt": [
           "A. Fardhu 'Ain",
           "B. Fardhu Kifayah",
           "C. Sunnah Muakkadah",
           "D. Sunnah Ghoiru Muakkad"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Pada masa keemasan Daulah Abbasiyah di Baghdad, khalifah Harun Al-Rasyid mendirikan sebuah lembaga besar yang berfungsi sebagai perpustakaan raksasa, pusat kajian penerjemahan manuskrip asing, sekaligus akademi sains internasional yang dikunjungi para ilmuwan dunia. Nama lembaga peninggalan tersebut adalah...",
         "opt": [
           "A. Baitul Mal",
           "B. Baitul Hikmah",
           "C. Kuttab Andalusia",
           "D. Jam'iyyah Azhar"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Ibnu Sina (Avicenna) merupakan salah satu tokoh ilmuwan muslim paling berpengaruh pada masa Daulah Abbasiyah. Kontribusi monumental beliau yang diakui oleh dunia barat dan timur hingga saat ini berada pada bidang...",
         "opt": [
           "A. Seni lukis dan kaligrafi",
@@ -1972,6 +2316,9 @@ const DATA_LATIHAN_V2 = {
           "C. Matematika Aljabar",
           "D. Astronomi navigasi pelayaran",
           "B. PILIHAN GANDA KOMPLEKS / PGK (SOAL NO. 13 s.d. 18)"
+        ],
+        "a": [
+          15
         ]
       },
       {
@@ -1979,8 +2326,7 @@ const DATA_LATIHAN_V2 = {
         "q": "Syukur secara istilah bermakna mendayagunakan seluruh nikmat yang diberikan Allah Swt. untuk berbuat ketaatan kepada-Nya. Di bawah ini yang merupakan tindakan paling tepat yang mencerminkan esensi hakikat bersyukur secara lisan dan perbuatan bagi siswa SMP adalah...",
         "opt": [],
         "a": [
-          0,
-          2
+          15
         ]
       },
       {
@@ -1988,8 +2334,7 @@ const DATA_LATIHAN_V2 = {
         "q": "Sikap beriman kepada malaikat harus dibuktikan melalui peningkatan kualitas kedisplinan beribadah dan belajar di sekolah. Manakah di antara aktivitas berikut yang merupakan wujud nyata peneladanan sifat kedisplinan malaikat di sekolah?",
         "opt": [],
         "a": [
-          0,
-          2
+          15
         ]
       },
       {
@@ -1997,8 +2342,7 @@ const DATA_LATIHAN_V2 = {
         "q": "Di era digital saat ini, jempol kita bisa menjadi perantara amal baik atau buruk. Manakah di antara tindakan menjaga lisan dan jempol di media sosial berikut yang mencerminkan kesadaran penuh akan pengawasan Malaikat Raqib dan Atid?",
         "opt": [],
         "a": [
-          1,
-          2
+          15
         ]
       },
       {
@@ -2006,8 +2350,7 @@ const DATA_LATIHAN_V2 = {
         "q": "Pada perayaan Idul Adha di sekolah, panitia kurban harus menyeleksi kelayakan hewan kurban berupa kambing yang akan disembelih. Berdasarkan syariat fiqih ibadah, manakah di antara kriteria kambing berikut yang sah untuk dikurbankan?",
         "opt": [],
         "a": [
-          0,
-          2
+          15
         ]
       },
       {
@@ -2015,8 +2358,7 @@ const DATA_LATIHAN_V2 = {
         "q": "Daulah Turki Usmani di Istanbul merupakan imperium yang melahirkan warisan seni arsitektur bangunan yang sangat mengagumkan di dunia. Manakah di antara bangunan monumental berikut yang merupakan warisan agung Daulah Turki Usmani?",
         "opt": [],
         "a": [
-          0,
-          2
+          15
         ]
       },
       {
@@ -2026,8 +2368,73 @@ const DATA_LATIHAN_V2 = {
           "C. SOAL BENAR - SALAH / BS (SOAL NO. 19 s.d. 24)"
         ],
         "a": [
-          0,
-          3
+          15
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "Malaikat diciptakan oleh Allah Swt. dari unsur nur (cahaya) dan dibekali dengan akal tanpa nafsu, sehingga malaikat mustahil memiliki sifat sombong, lelah, lapar, atau melakukan perbuatan maksiat.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "Dalam Q.S. Ibrāhīm ayat 7, Allah Swt. memberikan janji secara tegas bahwa orang-orang yang senantiasa mensyukuri segala nikmat-Nya akan ditambahkan nikmat tersebut berlipat ganda, sedangkan orang yang kufur akan mendapatkan azab yang sangat pedih.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "Hafizh merasa sangat kesal, membuang rapornya, dan mengurung diri di kamar karena hanya mendapatkan peringkat ke-15 di kelas. Sikap meluapkan kekecewaan yang dilakukan Hafizh ini merupakan cerminan akhlak syukur yang benar, karena rasa kecewa dapat memicu motivasi belajar.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "Di dalam mushaf Al-Qur'an, apabila di atas suatu lafal ayat terdapat tanda waqaf jaiz (ج), maka pembaca Al-Qur'an diperbolehkan memilih apakah ingin menghentikan bacaan (waqaf) atau meneruskan bacaan (washal) secara seimbang.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "Khatib salat Jum'at di mushola sekolah wajib membaca shalawat kepada Nabi Muhammad saw. pada kedua khutbahnya, karena membaca shalawat merupakan salah satu rukun sah khutbah Jum'at yang tidak boleh ditinggalkan.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "Kemegahan tata kota Isfahan dengan alun-alun indah (Maidan-e Naqsh-e Jahan) dan Masjid Syeikh Lotfollah merupakan peninggalan bersejarah yang membuktikan kemajuan peradaban Islam masa Daulah Syafawi di Persia.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
         ]
       }
     ]
@@ -2036,94 +2443,159 @@ const DATA_LATIHAN_V2 = {
     "judul": "Paket 3: Latihan 2 Aqidah - Kitab-kitab Allah",
     "soal": [
       {
-        "type": "B",
-        "q": "Iman kepada kitab-kitab Allah Swt. wajib diyakini oleh setiap muslim, baik secara ijmali maupun secara tafsili.",
-        "opt": []
-      },
-      {
-        "type": "C",
-        "q": "Perhatikan terjemahan ayat berikut ini:",
-        "opt": []
-      },
-      {
-        "type": "B",
-        "q": "Al-Qur'an diturunkan sebagai mukjizat terbesar Nabi Muhammad saw. yang berfungsi salah satunya sebagai Al-Muhaqqiq atau Al-Mushaddiq terhadap kitab-kitab suci yang diturunkan sebelumnya.",
-        "opt": []
-      },
-      {
-        "type": "B",
-        "q": "Siska adalah seorang siswi SMP yang sangat mencintai Rasulullah saw. Di sekolah, ia selalu meluangkan waktu di sela jam istirahat untuk mempraktikkan sunnah nabi, seperti makan dan minum menggunakan tangan kanan sambil duduk di kantin, serta senantiasa mengucapkan salam ketika berpapasan dengan guru.",
-        "opt": []
-      },
-      {
-        "type": "C",
-        "q": "Saat jam istirahat siang di sekolah heterogen, Kevin (seorang murid non-muslim) sedang duduk tenang membaca Alkitab di bangku taman sekolah. Di saat yang sama, Farhan dan teman-temannya lewat ingin menuju mushola sekolah untuk melaksanakan shalat Zuhur berjamaah.",
-        "opt": []
-      },
-      {
-        "type": "B",
-        "q": "Di perpustakaan sekolah, Lukman melihat sebuah mushaf Al-Qur'an diletakkan secara tidak sengaja di bagian paling bawah tumpukan majalah umum, koran bekas, dan buku pelajaran IPS yang berdebu tebal.",
-        "opt": []
-      },
-      {
-        "type": "C",
-        "q": "Ketika sedang berada di ruang kelas yang sepi, dua orang siswa berbisik-bisik menyusun rencana rahasia untuk menyembunyikan sepatu temannya sebagai bahan gurauan (perundungan). Mereka mengira tidak ada seorang pun yang mengetahuinya.",
-        "opt": []
-      },
-      {
-        "type": "B",
-        "q": "Faisal menyumbangkan sebagian uang jajannya ke kotak amal pembangunan mushola sekolah. Namun, ia sengaja memperlihatkan lembaran uang merahnya kepada ketua OSIS yang sedang memegang kotak amal agar dicatat sebagai donatur terbesar.",
-        "opt": []
+        "type": "PG",
+        "q": "Iman kepada kitab-kitab Allah Swt. wajib diyakini oleh setiap muslim, baik secara ijmali maupun secara tafsili.\nManakah pernyataan di bawah ini yang menunjukkan pengertian iman kepada kitab Allah secara ijmali yang paling tepat?",
+        "opt": [],
+        "a": [
+          1
+        ]
       },
       {
         "type": "PG",
-        "q": "Dalam pelaksanaan shalat jenazah, susunan tata cara ibadahnya berbeda dengan shalat fardhu lima waktu karena memiliki rukun-rukun tertentu.",
-        "opt": []
+        "q": "Perhatikan terjemahan ayat berikut ini:\n\"Dan mereka yang beriman kepada (Al-Qur'an) yang diturunkan kepadamu (Muhammad) dan (kitab-kitab) yang telah diturunkan sebelummu, serta mereka meyakini adanya hari akhirat.\"\nBerdasarkan rujukan dalil naqli keimanan, terjemahan ayat di atas merupakan bunyi firman Allah Swt. yang terdapat dalam...",
+        "opt": [],
+        "a": [
+          2
+        ]
       },
       {
         "type": "PG",
-        "q": "Daulah Abbasiyah di Baghdad mengukir sejarah emas peradaban Islam internasional dengan perkembangan sains, filsafat, dan sastra yang luar biasa.",
-        "opt": []
+        "q": "Al-Qur'an diturunkan sebagai mukjizat terbesar Nabi Muhammad saw. yang berfungsi salah satunya sebagai Al-Muhaqqiq atau Al-Mushaddiq terhadap kitab-kitab suci yang diturunkan sebelumnya.\nApakah makna dari kedudukan Al-Qur'an sebagai Al-Mushaddiq tersebut?",
+        "opt": [],
+        "a": [
+          1
+        ]
       },
       {
         "type": "PG",
-        "q": "Hukum bacaan Al-Qamariyah terjadi apabila alif lam (ال) bertemu dengan salah satu huruf qamariyah sehingga huruf lam sukun wajib dibaca secara jelas.",
-        "opt": []
+        "q": "Siska adalah seorang siswi SMP yang sangat mencintai Rasulullah saw. Di sekolah, ia selalu meluangkan waktu di sela jam istirahat untuk mempraktikkan sunnah nabi, seperti makan dan minum menggunakan tangan kanan sambil duduk di kantin, serta senantiasa mengucapkan salam ketika berpapasan dengan guru.\nPerilaku terpuji yang dibiasakan oleh Siska di sekolah tersebut merupakan wujud nyata dari...",
+        "opt": [],
+        "a": [
+          1
+        ]
       },
       {
         "type": "PG",
-        "q": "Rasulullah saw. bersabda dalam hadis populer:\nBAGIAN B: PILIHAN GANDA KOMPLEKS (No. 13 s.d. 18)",
-        "opt": []
+        "q": "Saat jam istirahat siang di sekolah heterogen, Kevin (seorang murid non-muslim) sedang duduk tenang membaca Alkitab di bangku taman sekolah. Di saat yang sama, Farhan dan teman-temannya lewat ingin menuju mushola sekolah untuk melaksanakan shalat Zuhur berjamaah.\nSikap Farhan yang paling mencerminkan keluhuran iman dan toleransi beragama terhadap keyakinan kitab suci adalah...",
+        "opt": [],
+        "a": [
+          2
+        ]
       },
       {
         "type": "PG",
-        "q": "Al-Qur'an sebagai mukjizat penutup diturunkan dengan membawa syariat sempurna yang menyempurnakan kitab-kitab sebelumnya (Taurat, Zabur, Injil).",
-        "opt": []
+        "q": "Di perpustakaan sekolah, Lukman melihat sebuah mushaf Al-Qur'an diletakkan secara tidak sengaja di bagian paling bawah tumpukan majalah umum, koran bekas, dan buku pelajaran IPS yang berdebu tebal.\nTindakan apa yang paling tepat dilakukan oleh Lukman yang menunjukkan adab memuliakan kitab suci yang luhur?",
+        "opt": [],
+        "a": [
+          1
+        ]
       },
       {
         "type": "PG",
-        "q": "Di sekolah, guru menerangkan bahwa membiasakan akhlak terpuji meniru kepribadian Rasulullah saw. adalah bukti nyata keimanan seorang siswa.",
-        "opt": []
+        "q": "Ketika sedang berada di ruang kelas yang sepi, dua orang siswa berbisik-bisik menyusun rencana rahasia untuk menyembunyikan sepatu temannya sebagai bahan gurauan (perundungan). Mereka mengira tidak ada seorang pun yang mengetahuinya.\nMereka berdua melupakan bahwa Allah Swt. memiliki sifat mulia yang Maha Mendengar setiap bisikan halus, yaitu...",
+        "opt": [],
+        "a": [
+          2
+        ]
       },
       {
         "type": "PG",
-        "q": "Al-Qur'an diturunkan dengan beberapa nama istimewa yang sekaligus mencerminkan fungsi mulianya bagi kehidupan umat manusia sehari-hari.",
-        "opt": []
+        "q": "Faisal menyumbangkan sebagian uang jajannya ke kotak amal pembangunan mushola sekolah. Namun, ia sengaja memperlihatkan lembaran uang merahnya kepada ketua OSIS yang sedang memegang kotak amal agar dicatat sebagai donatur terbesar.\nSikap Faisal tersebut menunjukkan adanya penyakit hati yang merusak pahala kebaikan, yaitu...",
+        "opt": [],
+        "a": [
+          1
+        ]
       },
       {
         "type": "PG",
-        "q": "Ketika pelajaran PAI di kelas, seorang siswa membaca ayat sajdah dalam surah Al-Alaq, lalu guru meminta seluruh siswa melakukan sujud tilawah secara tertib.",
-        "opt": []
+        "q": "Dalam pelaksanaan shalat jenazah, susunan tata cara ibadahnya berbeda dengan shalat fardhu lima waktu karena memiliki rukun-rukun tertentu.\nManakah di bawah ini yang merupakan tata urutan gerakan shalat jenazah yang sah sesuai syariat Islam?",
+        "opt": [],
+        "a": [
+          1
+        ]
       },
       {
         "type": "PG",
-        "q": "Lembaga perpustakaan Baitul Hikmah pada masa Abbasiyah menjadi laboratorium besar lahirnya para penemu sains muslim terkemuka di dunia.",
-        "opt": []
+        "q": "Daulah Abbasiyah di Baghdad mengukir sejarah emas peradaban Islam internasional dengan perkembangan sains, filsafat, dan sastra yang luar biasa.\nSiapakah nama khalifah pertama yang mendirikan Daulah Abbasiyah sekaligus menjadi peletak batu pertama kekuasaan dinasti tersebut?",
+        "opt": [],
+        "a": [
+          1
+        ]
       },
       {
         "type": "PG",
-        "q": "Perhatikan contoh potongan ayat berikut ini:\nBAGIAN C: SOAL BENAR - SALAH (No. 19 s.d. 24)\nTentukanlah apakah pernyataan-pernyataan di bawah ini BENAR (B) atau SALAH (S) dengan memberi tanda silang (X) pada kolom yang sesuai!\nLAMPIRAN: KUNCI JAWABAN & ANALISIS PEMBAHASAN TEOLOGIS\nAnalisis Pembahasan Butir Soal Terpilih (Karakter & Teologis):\n• Soal No. 1 (Iman Ijmali vs Tafsili): Iman secara ijmali berarti meyakini secara global atau garis besar bahwa Allah Swt. pernah menurunkan kitab-kitab suci kepada para nabi-Nya tanpa wajib menghafal detail rincian syariatnya. Adapun iman secara tafsili mewajibkan kita meyakini nama kitab beserta nabi penerimanya secara terperinci (seperti Taurat untuk Musa, Zabur untuk Daud, Injil untuk Isa, dan Al-Qur'an untuk Muhammad saw.).\n• Soal No. 2 (Dalil Q.S. al-Baqarah/2: 4): Sesuai petunjuk penyederhanaan dalil, siswa cukup mengidentifikasi Nama Surah dan Nomor Ayat. Ayat ini menegaskan kriteria orang bertakwa yang beriman secara utuh terhadap wahyu Allah yang diturunkan kepada Nabi Muhammad saw. (Al-Qur'an) maupun kitab-kitab samawi sebelumnya.\n• Soal No. 3 (Al-Qur'an sebagai Al-Mushaddiq): Sebagai Al-Mushaddiq (membenarkan), Al-Qur'an mengakui keaslian asal usul seluruh kitab suci terdahulu sebagai wahyu samawi yang bersumber dari Allah Swt. Namun, Al-Qur'an juga menduduki posisi sebagai penyempurna (Muhaqqiq) yang memverifikasi bagian syariat yang telah diubah.\n• Soal No. 4 & No. 14 (Akhlak Cinta Rasulullah saw.): Mengikuti keteladanan sunnah harian Rasulullah saw. di sekolah (seperti adab makan dengan tangan kanan sambil duduk, bertutur kata ramah, menjaga kebersihan, menyapa bapak/ibu guru) merupakan bukti teologis konkrit bahwa keimanan telah merasuk ke dalam relung akhlak harian siswa, bukan sekadar hafalan teoritis.\n• Soal No. 5 (Toleransi Keyakinan Kitab Suci): Dalam bingkai toleransi beragama di sekolah heterogen, menghargai privasi dan ketenangan penganut agama lain ketika membaca Alkitab merupakan pengamalan akhlak sosial yang luhur. Islam melarang keras aksi perundungan atau pengusiran yang dapat merusak kerukunan beragama.\n• Soal No. 6 & No. 21 (Adab Terhadap Al-Qur'an): Memuliakan Al-Qur'an ditunjukkan melalui perilaku fisik yang santun (meletakkannya di tempat yang bersih dan tinggi) serta adab batiniah berupa menyimak penjelasan guru ketika pelajaran PAI berlangsung. Membaca Al-Qur'an di bawah kolong meja saat guru menerangkan dinilai tidak beradab karena tidak menghormati majelis ilmu.",
-        "opt": []
+        "q": "Hukum bacaan Al-Qamariyah terjadi apabila alif lam (ال) bertemu dengan salah satu huruf qamariyah sehingga huruf lam sukun wajib dibaca secara jelas.\nManakah di bawah ini lafal ayat Al-Qur'an yang mengandung hukum bacaan Al-Qamariyah yang tepat?",
+        "opt": [],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Rasulullah saw. bersabda dalam hadis populer:\n`طَلَبُ الْعِلْمِ فَرِيْضَةٌ عَلَى كُلِّ مُسْلِمٍ`\nApakah arti hukum dan sasaran penuntut ilmu yang dikandung oleh hadis tersebut?\nBAGIAN B: PILIHAN GANDA KOMPLEKS (No. 13 s.d. 18)",
+        "opt": [],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Al-Qur'an sebagai mukjizat penutup diturunkan dengan membawa syariat sempurna yang menyempurnakan kitab-kitab sebelumnya (Taurat, Zabur, Injil).\nManakah di antara pernyataan berikut ini yang menunjukkan hakikat hubungan teologis yang benar antara Al-Qur'an dengan kitab-kitab suci terdahulu? (Pilihlah semua jawaban benar!)",
+        "opt": [],
+        "a": [
+          1,
+          2
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Di sekolah, guru menerangkan bahwa membiasakan akhlak terpuji meniru kepribadian Rasulullah saw. adalah bukti nyata keimanan seorang siswa.\nManakah di antara tindakan siswa SMP berikut yang mencerminkan pembiasaan akhlak mulia meneladani sunnah Rasulullah saw. di sekolah? (Pilihlah semua jawaban benar!)",
+        "opt": [],
+        "a": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Al-Qur'an diturunkan dengan beberapa nama istimewa yang sekaligus mencerminkan fungsi mulianya bagi kehidupan umat manusia sehari-hari.\nManakah pasangan nama lain Al-Qur'an dan maknanya yang tepat di bawah ini? (Pilihlah semua jawaban benar!)",
+        "opt": [],
+        "a": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Ketika pelajaran PAI di kelas, seorang siswa membaca ayat sajdah dalam surah Al-Alaq, lalu guru meminta seluruh siswa melakukan sujud tilawah secara tertib.\nManakah di antara ketentuan pelaksanaan ibadah sujud tilawah berikut yang benar secara syariat? (Pilihlah semua jawaban benar!)",
+        "opt": [],
+        "a": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Lembaga perpustakaan Baitul Hikmah pada masa Abbasiyah menjadi laboratorium besar lahirnya para penemu sains muslim terkemuka di dunia.\nManakah di antara pasangan ilmuwan muslim masa Abbasiyah beserta bidang kontribusi penemuannya berikut yang tepat? (Pilihlah semua jawaban benar!)",
+        "opt": [],
+        "a": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Perhatikan contoh potongan ayat berikut ini:\n`مِنْ بَعْدِ مِائَةِ سَنَةٍ`\nPada lafal `مِنْ بَعْدِ` terjadi hukum bacaan tajwid Iqlab. Manakah pernyataan di bawah ini yang benar mengenai hukum dan cara membaca Iqlab? (Pilihlah semua jawaban benar!)\nBAGIAN C: SOAL BENAR - SALAH (No. 19 s.d. 24)\nTentukanlah apakah pernyataan-pernyataan di bawah ini BENAR (B) atau SALAH (S) dengan memberi tanda silang (X) pada kolom yang sesuai!\nLAMPIRAN: KUNCI JAWABAN & ANALISIS PEMBAHASAN TEOLOGIS\nAnalisis Pembahasan Butir Soal Terpilih (Karakter & Teologis):\n• Soal No. 1 (Iman Ijmali vs Tafsili): Iman secara ijmali berarti meyakini secara global atau garis besar bahwa Allah Swt. pernah menurunkan kitab-kitab suci kepada para nabi-Nya tanpa wajib menghafal detail rincian syariatnya. Adapun iman secara tafsili mewajibkan kita meyakini nama kitab beserta nabi penerimanya secara terperinci (seperti Taurat untuk Musa, Zabur untuk Daud, Injil untuk Isa, dan Al-Qur'an untuk Muhammad saw.).\n• Soal No. 2 (Dalil Q.S. al-Baqarah/2: 4): Sesuai petunjuk penyederhanaan dalil, siswa cukup mengidentifikasi Nama Surah dan Nomor Ayat. Ayat ini menegaskan kriteria orang bertakwa yang beriman secara utuh terhadap wahyu Allah yang diturunkan kepada Nabi Muhammad saw. (Al-Qur'an) maupun kitab-kitab samawi sebelumnya.\n• Soal No. 3 (Al-Qur'an sebagai Al-Mushaddiq): Sebagai Al-Mushaddiq (membenarkan), Al-Qur'an mengakui keaslian asal usul seluruh kitab suci terdahulu sebagai wahyu samawi yang bersumber dari Allah Swt. Namun, Al-Qur'an juga menduduki posisi sebagai penyempurna (Muhaqqiq) yang memverifikasi bagian syariat yang telah diubah.\n• Soal No. 4 & No. 14 (Akhlak Cinta Rasulullah saw.): Mengikuti keteladanan sunnah harian Rasulullah saw. di sekolah (seperti adab makan dengan tangan kanan sambil duduk, bertutur kata ramah, menjaga kebersihan, menyapa bapak/ibu guru) merupakan bukti teologis konkrit bahwa keimanan telah merasuk ke dalam relung akhlak harian siswa, bukan sekadar hafalan teoritis.\n• Soal No. 5 (Toleransi Keyakinan Kitab Suci): Dalam bingkai toleransi beragama di sekolah heterogen, menghargai privasi dan ketenangan penganut agama lain ketika membaca Alkitab merupakan pengamalan akhlak sosial yang luhur. Islam melarang keras aksi perundungan atau pengusiran yang dapat merusak kerukunan beragama.\n• Soal No. 6 & No. 21 (Adab Terhadap Al-Qur'an): Memuliakan Al-Qur'an ditunjukkan melalui perilaku fisik yang santun (meletakkannya di tempat yang bersih dan tinggi) serta adab batiniah berupa menyimak penjelasan guru ketika pelajaran PAI berlangsung. Membaca Al-Qur'an di bawah kolong meja saat guru menerangkan dinilai tidak beradab karena tidak menghormati majelis ilmu.",
+        "opt": [],
+        "a": [
+          0,
+          2,
+          3
+        ]
       }
     ]
   },
@@ -2131,123 +2603,183 @@ const DATA_LATIHAN_V2 = {
     "judul": "Paket 4: Latihan 2 Aqidah - Rasul-rasul Allah",
     "soal": [
       {
-        "type": "C",
-        "q": "[Jangkar Bab 4 - Teologis (Perbedaan Nabi dan Rasul)]",
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Teologis (Perbedaan Nabi dan Rasul)]\nStimulus: Keimanan kepada utusan Allah merupakan rukun iman keempat. Dalam kajian teologi Islam, terdapat perbedaan mendasar antara kedudukan seorang nabi dan seorang rasul yang diutus ke dunia.\nPertanyaan: Manakah pernyataan di bawah ini yang paling tepat mengenai perbedaan teologis antara nabi dan rasul?",
+        "opt": [
+          "A. Nabi menerima wahyu berupa kitab suci besar, sedangkan Rasul hanya menerima wahyu berupa lembaran-lembaran tipis (suhuf).",
+          "B. Nabi diutus untuk menyampaikan ajaran baru kepada kaum yang menentang, sedangkan Rasul diutus hanya untuk mengamalkan syariat nabi sebelumnya.",
+          "C. Nabi menerima wahyu dari Allah Swt. untuk dirinya sendiri dan tidak wajib menyampaikannya kepada umat, sedangkan Rasul menerima wahyu dan wajib menyampaikannya kepada umatnya.",
+          "D. Nabi wajib memiliki sifat maksum (terjaga dari dosa), sedangkan Rasul tidak diwajibkan memiliki sifat maksum."
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Kajian Dalil Naqli (Q.S. al-Anbiyā’ ayat 25)]\nStimulus: Perhatikan arti terjemahan dari dalil naqli berikut:\n\"Dan Kami tidak mengutus seorang rasul pun sebelum engkau (Muhammad), melainkan Kami wahyukan kepadanya, bahwa tidak ada tuhan (yang berhak disembah) selain Aku, maka sembahlah Aku.\"\nPertanyaan: Berdasarkan rujukan literatur kitab tafsir PAI, terjemahan di atas merupakan kandungan dari dalil naqli...",
+        "opt": [
+          "A. Q.S. al-Anbiyā’ ayat 25",
+          "B. Q.S. al-A’rāf ayat 180",
+          "C. Q.S. al-Anbiyā’ ayat 19",
+          "D. Q.S. al-Hajj ayat 7"
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Teologis (Sifat Fathanah)]\nStimulus: Para rasul dibekali dengan kecerdasan yang luar biasa agar mampu menuntun umat manusia keluar dari kesesatan menuju jalan tauhid, serta mampu membantah argumentasi kaum kafir dengan bijaksana.\nPertanyaan: Sifat wajib bagi rasul yang mencerminkan kecerdasan intelektual, kebijaksanaan, dan kemampuan diplomasi yang tinggi disebut sifat...",
+        "opt": [
+          "A. Siddiq",
+          "B. Amanah",
+          "C. Tabligh",
+          "D. Fathanah"
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Penerapan SMP (Sifat Siddiq)]\nStimulus: Di ruang laboratorium IPA, Fajar tidak sengaja menyenggol dan memecahkan tabung reaksi saat guru sedang keluar. Ketika guru kembali dan menanyakan kejadian tersebut, Fajar dengan berani menceritakan kronologi yang sebenarnya meskipun ia tahu akan mendapatkan teguran atau sanksi.\nPertanyaan: Tindakan bertanggung jawab yang ditunjukkan oleh Fajar merupakan perwujudan nyata dari meneladani sifat wajib rasul, yaitu...",
+        "opt": [
+          "A. Siddiq (jujur dan benar)",
+          "B. Amanah (terpercaya)",
+          "C. Tabligh (menyampaikan)",
+          "D. Fathanah (cerdas)"
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Penerapan SMP (Akhlak Husnuzan)]\nStimulus: Tasya menyadari bahwa penggaris kesayangannya tidak ada di dalam tempat pensilnya setelah jam istirahat usai. Dino, teman sebangkunya, kebetulan sedang memegang penggaris yang sangat mirip dengan miliknya.\nPertanyaan: Sebagai siswa yang memiliki sifat husnuzan (berprasangka baik), tindakan apa yang paling tepat dilakukan Tasya?",
+        "opt": [
+          "A. Langsung merebut penggaris tersebut karena yakin Dino telah mencurinya.",
+          "B. Berpikir positif bahwa penggaris Dino hanya mirip, lalu menanyakannya secara sopan tanpa nada menuduh.",
+          "C. Melaporkan Dino ke wali kelas atas tuduhan pencurian tanpa melakukan pemeriksaan terlebih dahulu.",
+          "D. Membicarakan kecurigaannya kepada teman-teman lain di kelas agar Dino dijauhi."
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Penerapan SMP (Sifat Amanah)]\nStimulus: Ririn terpilih menjadi bendahara kelas 8. Ia selalu mencatat setiap pemasukan dan pengeluaran uang kas kelas sekecil apa pun dengan teliti, serta menempelkan nota pembelian barang di papan mading kelas agar seluruh teman sekelasnya dapat melihat laporan keuangan tersebut secara terbuka.\nPertanyaan: Perilaku yang ditunjukkan oleh Ririn di kelasnya merupakan cerminan dari pengamalan sifat wajib rasul, yaitu...",
+        "opt": [
+          "A. Siddiq",
+          "B. Amanah",
+          "C. Tabligh",
+          "D. Fathanah"
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Variasi Al-Qur'an - Kandungan Toleransi]\nStimulus: Dalam Q.S. al-Baqarah/2: 256 terdapat potongan kalimat \"Lā ikrāha fid-dīn\" yang berarti tidak ada paksaan dalam menganut agama Islam karena kebenaran telah jelas dari kesesatan.\nPertanyaan: Berdasarkan ayat tersebut, bagaimanakah prinsip dakwah Islam yang benar dalam lingkungan masyarakat yang majemuk?",
+        "opt": [
+          "A. Memperbolehkan pemaksaan keyakinan kepada orang lain asalkan tujuannya baik.",
+          "B. Dakwah dijalankan dengan kedamaian, santun, dan menghormati kebebasan berkeyakinan tanpa kekerasan.",
+          "C. Mengisolasi diri dari pergaulan dengan orang-orang yang berbeda keyakinan.",
+          "D. Menuntut semua aturan hukum negara disesuaikan dengan ajaran satu agama saja."
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Variasi Tajwid - Hukum Iqlab]\nStimulus: Membaca Al-Qur'an dengan tartil mengharuskan kita memahami hukum tajwid. Ketika ada nun sukun (نْ) atau tanwin bertemu dengan huruf Ba (ب), cara membacanya harus berubah.\nPertanyaan: Apakah nama hukum tajwid yang dibaca dengan merapatkan bibir dan mendengungkan suara samar seperti huruf mim ketika nun sukun bertemu huruf Ba?",
+        "opt": [
+          "A. Izhar Halqi",
+          "B. Idgham Bighunnah",
+          "C. Iqlab",
+          "D. Ikhfa Haqiqi"
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Variasi Fiqih Ibadah - Salat Jum'at]\nStimulus: Salat Jum'at hukumnya fardhu 'ain bagi setiap muslim laki-laki yang memenuhi syarat. Dalam pelaksanaannya di lingkungan sekolah, jumlah minimal jamaah mukim sangat menentukan keabsahan shalat tersebut menurut mayoritas ulama Mazhab Syafi'i.\nPertanyaan: Berapakah jumlah minimal jamaah laki-laki mukim (termasuk imam) agar pelaksanaan salat Jum'at dinilai sah?",
+        "opt": [
+          "A. Minimal 10 orang",
+          "B. Minimal 20 orang",
+          "C. Minimal 30 orang",
+          "D. Minimal 40 orang"
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Variasi Fiqih Ibadah - Syarat Hewan Kurban]\nStimulus: Pihak sekolah SMP berencana mengadakan penyembelihan hewan kurban saat Hari Raya Idul Adha. Panitia harus memastikan hewan kurban yang dibeli telah memenuhi kriteria umur minimal yang sah menurut syariat Islam.\nPertanyaan: Berapakah batas usia minimal untuk hewan jenis kambing jawa (kambing biasa) agar sah dijadikan hewan kurban?",
+        "opt": [
+          "A. Minimal berumur 1 tahun atau telah masuk tahun kedua.",
+          "B. Minimal berumur 2 tahun atau telah masuk tahun ketiga (ditandai tanggalnya gigi seri).",
+          "C. Minimal berumur 3 tahun atau telah masuk tahun keempat.",
+          "D. Minimal berumur 5 tahun atau telah masuk tahun keenam."
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Variasi Tarikh - Kedokteran Masa Abbasiyah]\nStimulus: Pada masa keemasan Daulah Abbasiyah di Baghdad, sains dan kedokteran berkembang pesat. Salah satu ilmuwan muslim berhasil menulis kitab monumentalnya \"Al-Qanun fi al-Tibb\" yang menjadi buku rujukan utama kedokteran di universitas-universitas Eropa selama berabad-abad.\nPertanyaan: Siapakah tokoh ilmuwan kedokteran muslim terkemuka yang dimaksud pada stimulus di atas?",
+        "opt": [
+          "A. Al-Khwarizmi",
+          "B. Ibnu Sina",
+          "C. Ar-Razi",
+          "D. Jabir bin Hayyan"
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Variasi Tarikh - Peradaban Cordoba]\nStimulus: Sejarah membuktikan bahwa Islam pernah mencapai kejayaan gemilang di Eropa Barat, khususnya di wilayah Andalusia (Spanyol) di bawah naungan Daulah Umayyah II.\nPertanyaan: Manakah kota di Andalusia yang tumbuh menjadi pusat peradaban, kebudayaan, keindahan arsitektur, dan ilmu pengetahuan terbesar di Eropa Barat?",
+        "opt": [
+          "A. Baghdad",
+          "B. Cordoba",
+          "C. Damaskus",
+          "D. Istanbul"
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Teologis (Fungsi Mukjizat Rasul)]\nStimulus: Allah Swt. membekali para nabi dan rasul-Nya dengan mukjizat, yaitu kejadian luar biasa di luar akal sehat manusia yang tidak dapat dipelajari atau ditandingi oleh sihir apa pun.\nPertanyaan: Manakah di antara pernyataan berikut yang benar mengenai fungsi utama diturunkannya mukjizat kepada para utusan Allah Swt.? (Pilihlah semua jawaban benar!)",
         "opt": []
       },
       {
-        "type": "A",
-        "q": "[Jangkar Bab 4 - Kajian Dalil Naqli (Q.S. al-Anbiyā’ ayat 25)]",
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Penerapan SMP (Sifat Amanah dan Tabligh)]\nStimulus: Pengurus OSIS SMP sedang menyelenggarakan kegiatan bakti sosial penggalangan dana dan paket sembako untuk disalurkan ke panti asuhan yatim piatu di sekitar sekolah.\nPertanyaan: Tindakan manakah di bawah ini yang mencerminkan peneladanan sifat wajib Amanah (terpercaya) dan Tabligh (menyampaikan) secara bersamaan dalam kegiatan tersebut? (Pilihlah semua jawaban benar!)",
         "opt": []
       },
       {
-        "type": "D",
-        "q": "[Jangkar Bab 4 - Teologis (Sifat Fathanah)]",
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Penerapan SMP (Akhlak Husnuzan)]\nStimulus: Saat jam istirahat, Dino melihat sahabat dekatnya sedang berbisik-bisik secara serius dengan siswa baru dari kelas lain di koridor sekolah. Dino tidak diajak bergabung dalam obrolan tersebut.\nPertanyaan: Bagaimanakah sikap Dino yang mencerminkan akhlak husnuzan (berprasangka baik) terhadap sahabatnya? (Pilihlah semua jawaban benar!)",
         "opt": []
       },
       {
-        "type": "A",
-        "q": "[Jangkar Bab 4 - Penerapan SMP (Sifat Siddiq)]",
+        "type": "PG",
+        "q": "[Variasi Fiqih Ibadah - Rukun-Rukun Haji]\nStimulus: Dalam ibadah haji, terdapat perbedaan penting antara rukun haji dan wajib haji. Jika rukun haji ditinggalkan, maka ibadah hajinya tidak sah dan tidak bisa diganti dengan membayar denda (dam).\nPertanyaan: Manakah di antara amalan ibadah haji berikut yang tergolong sebagai rukun haji yang wajib dilaksanakan secara langsung? (Pilihlah semua jawaban benar!)",
         "opt": []
       },
       {
-        "type": "B",
-        "q": "[Jangkar Bab 4 - Penerapan SMP (Akhlak Husnuzan)]",
+        "type": "PG",
+        "q": "[Variasi Tarikh - Arsitektur Turki Usmani]\nStimulus: Daulah Turki Usmani di Turki sangat terkenal di dunia dengan pencapaian arsitektur fisiknya yang megah, bernilai seni tinggi, dan menjadi saksi bisu keemasan Islam di wilayah transkontinental.\nPertanyaan: Manakah di antara bangunan monumental berikut yang merupakan warisan sejarah peradaban Daulah Turki Usmani? (Pilihlah semua jawaban benar!)",
         "opt": []
       },
       {
-        "type": "B",
-        "q": "[Jangkar Bab 4 - Penerapan SMP (Sifat Amanah)]",
+        "type": "PG",
+        "q": "[Variasi Al-Qur'an - Karakter Takwa Q.S. Ali 'Imran/3: 134]\nStimulus: Dalam Q.S. Ali 'Imran/3: 134, Allah Swt. menjelaskan secara detail kriteria akhlak sosial dari orang-orang yang bertakwa kepada-Nya.\nPertanyaan: Manakah tindakan sosial berikut yang mencerminkan kriteria takwa sesuai dengan kandungan ayat tersebut? (Pilihlah semua jawaban benar!)\nKELOMPOK C: SOAL BENAR - SALAH / BS (No. 19 s.d. 24)\nPetunjuk: Berikan tanda silang [X] pada opsi [ BENAR ] atau [ SALAH ] sesuai keabsahan pernyataan!",
         "opt": []
       },
       {
-        "type": "B",
-        "q": "[Variasi Al-Qur'an - Kandungan Toleransi]",
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Teologis (Sifat Jaiz Rasul)]\nPilihan Jawaban: [  ] BENAR    [  ] SALAH  (Kunci: BENAR)",
         "opt": []
       },
       {
-        "type": "C",
-        "q": "[Variasi Tajwid - Hukum Iqlab]",
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Penerapan SMP (Sifat Siddiq)]\nPilihan Jawaban: [  ] BENAR    [  ] SALAH  (Kunci: SALAH)",
         "opt": []
       },
       {
-        "type": "D",
-        "q": "[Variasi Fiqih Ibadah - Salat Jum'at]",
+        "type": "PG",
+        "q": "[Jangkar Bab 4 - Penerapan SMP (Akhlak Husnuzan)]\nPilihan Jawaban: [  ] BENAR    [  ] SALAH  (Kunci: BENAR)",
         "opt": []
       },
       {
-        "type": "B",
-        "q": "[Variasi Fiqih Ibadah - Syarat Hewan Kurban]",
+        "type": "PG",
+        "q": "[Variasi Al-Qur'an - Kandungan Toleransi Q.S. al-Baqarah/2: 256]\nPilihan Jawaban: [  ] BENAR    [  ] SALAH  (Kunci: BENAR)",
         "opt": []
       },
       {
-        "type": "B",
-        "q": "[Variasi Tarikh - Kedokteran Masa Abbasiyah]",
+        "type": "PG",
+        "q": "[Variasi Fiqih Ibadah - Jarak Shalat Jama']\nPilihan Jawaban: [  ] BENAR    [  ] SALAH  (Kunci: BENAR)",
         "opt": []
       },
       {
-        "type": "B",
-        "q": "[Variasi Tarikh - Peradaban Cordoba]\nKELOMPOK B: PILIHAN GANDA KOMPLEKS / PGK (No. 13 s.d. 18)\nPetunjuk: Pilihlah semua opsi jawaban benar yang sesuai dengan memberikan tanda silang (X)!",
-        "opt": []
-      },
-      {
-        "type": "A, C, D",
-        "q": "[Jangkar Bab 4 - Teologis (Fungsi Mukjizat Rasul)]",
-        "opt": []
-      },
-      {
-        "type": "A, C, D",
-        "q": "[Jangkar Bab 4 - Penerapan SMP (Sifat Amanah dan Tabligh)]",
-        "opt": []
-      },
-      {
-        "type": "A, C, D",
-        "q": "[Jangkar Bab 4 - Penerapan SMP (Akhlak Husnuzan)]",
-        "opt": []
-      },
-      {
-        "type": "A, B, D",
-        "q": "[Variasi Fiqih Ibadah - Rukun-Rukun Haji]",
-        "opt": []
-      },
-      {
-        "type": "A, B, D",
-        "q": "[Variasi Tarikh - Arsitektur Turki Usmani]",
-        "opt": []
-      },
-      {
-        "type": "A, B, D",
-        "q": "[Variasi Al-Qur'an - Karakter Takwa Q.S. Ali 'Imran/3: 134]\nKELOMPOK C: SOAL BENAR - SALAH / BS (No. 19 s.d. 24)\nPetunjuk: Berikan tanda silang [X] pada opsi [ BENAR ] atau [ SALAH ] sesuai keabsahan pernyataan!",
-        "opt": []
-      },
-      {
-        "type": "BENAR",
-        "q": "[Jangkar Bab 4 - Teologis (Sifat Jaiz Rasul)]",
-        "opt": []
-      },
-      {
-        "type": "SALAH",
-        "q": "[Jangkar Bab 4 - Penerapan SMP (Sifat Siddiq)]",
-        "opt": []
-      },
-      {
-        "type": "BENAR",
-        "q": "[Jangkar Bab 4 - Penerapan SMP (Akhlak Husnuzan)]",
-        "opt": []
-      },
-      {
-        "type": "BENAR",
-        "q": "[Variasi Al-Qur'an - Kandungan Toleransi Q.S. al-Baqarah/2: 256]",
-        "opt": []
-      },
-      {
-        "type": "BENAR",
-        "q": "[Variasi Fiqih Ibadah - Jarak Shalat Jama']",
-        "opt": []
-      },
-      {
-        "type": "BENAR",
-        "q": "[Variasi Tarikh - Runtuhnya Baghdad]\nTABEL KUNCI JAWABAN & ANALISIS TEOLOGIS PEMBAHASAN",
+        "type": "PG",
+        "q": "[Variasi Tarikh - Runtuhnya Baghdad]\nPilihan Jawaban: [  ] BENAR    [  ] SALAH  (Kunci: BENAR)\nTABEL KUNCI JAWABAN & ANALISIS TEOLOGIS PEMBAHASAN",
         "opt": []
       }
     ]
@@ -2256,154 +2788,306 @@ const DATA_LATIHAN_V2 = {
     "judul": "Paket 5: Latihan 2 Aqidah - Hari Kiamat",
     "soal": [
       {
-        "type": "PG Standar",
+        "type": "PG",
+        "q": "Kelompok I (Pilihan Ganda Standar No. 1 s.d. 12): Pilih satu jawaban yang paling tepat (A, B, C, atau D).",
+        "opt": [],
+        "a": [
+          15
+        ]
+      },
+      {
+        "type": "PG",
         "q": "Mengimani Hari Akhir merupakan rukun iman kelima yang wajib diyakini setiap muslim. Berdasarkan keluasan dan dampak kehancurannya, kiamat dibedakan menjadi kiamat sugra (kecil) dan kiamat kubra (besar). Di bawah ini yang dikategorikan sebagai fenomena kiamat sugra dalam kehidupan nyata adalah...",
         "opt": [
           "A. Hancurnya seluruh jagat raya dan bertabrakannya planet-planet di tata surya",
           "B. Berubahnya gunung-gunung menjadi laksana bulu-bulu yang dihambur-hamburkan",
           "C. Meninggalnya seseorang karena sakit, bencana banjir lokal, atau kecelakaan lalu lintas",
           "D. Dibangkitkannya seluruh manusia dari alam kubur untuk dikumpulkan di Padang Mahsyar"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
-        "q": "Perhatikan arti terjemahan dari dalil naqli berikut:",
+        "type": "PG",
+        "q": "Kelompok II (Pilihan Ganda Kompleks No. 13 s.d. 18): Beri tanda silang pada semua pilihan jawaban yang benar (jawaban benar lebih dari satu).",
+        "opt": [],
+        "a": [
+          15
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Perhatikan arti terjemahan dari dalil naqli berikut:\n\"Dan sungguh, (hari) Kiamat itu pasti datang, tidak ada keraguan padanya; dan sungguh, Allah akan membangkitkan siapa pun yang di dalam kubur.\"\nPotongan ayat di atas merupakan dalil utama tentang kepastian tibanya hari kiamat dan hari kebangkitan yang tercantum di dalam...",
         "opt": [
           "A. Q.S. al-A'rāf ayat 180",
           "B. Q.S. al-Anbiyā' ayat 19",
           "C. Q.S. al-Hajj ayat 7",
           "D. Q.S. al-Baqarah ayat 4"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
+        "q": "Kelompok III (Benar-Salah No. 19 s.d. 24): Beri tanda silang [X] pada kolom BENAR atau SALAH.",
+        "opt": [],
+        "a": [
+          15
+        ]
+      },
+      {
+        "type": "PG",
         "q": "Setelah hari kiamat kubra meruntuhkan alam semesta, ruh manusia akan melewati beberapa fase tahapan kehidupan di akhirat secara berurutan untuk mempertanggungjawabkan perbuatannya. Urutan kronologis fase akhirat yang benar setelah manusia dibangkitkan dari kubur adalah...",
         "opt": [
           "A. Yaumul Ba'ats -> Yaumul Hisab -> Yaumul Mahsyar -> Yaumul Mizan -> Yaumul Jaza",
           "B. Yaumul Ba'ats -> Yaumul Mahsyar -> Yaumul Hisab -> Yaumul Mizan -> Yaumul Jaza",
           "C. Yaumul Hisab -> Yaumul Mizan -> Yaumul Ba'ats -> Yaumul Mahsyar -> Yaumul Jaza",
           "D. Yaumul Mahsyar -> Yaumul Ba'ats -> Yaumul Mizan -> Yaumul Hisab -> Yaumul Jaza"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
+        "q": "Paket ini dirancang seimbang antara penguasaan teori teologis dasar dengan studi kasus moral remaja di sekolah.\nKELOMPOK I: PILIHAN GANDA STANDAR (No. 1 s.d. 12)",
+        "opt": [],
+        "a": [
+          15
+        ]
+      },
+      {
+        "type": "PG",
         "q": "Di kantin SMP Harapan Bangsa, Hanif melihat salah satu teman sekelasnya, Faris, duduk sendirian di pojok kantin dengan wajah murung karena lupa membawa uang jajan dan bekal makan siang. Berdasarkan tuntunan akhlak kasih sayang kepada sesama (H.R. Muslim), tindakan terbaik yang seharusnya dilakukan Hanif adalah...",
         "opt": [
           "A. Membiarkan Faris sendirian agar tidak mengganggu waktu istirahat pribadinya",
           "B. Menghampiri Faris dan menawarkan untuk berbagi setengah bekal makanan yang ia bawa secara tulus",
           "C. Menyarankan Faris untuk segera pulang ke rumah agar bisa makan bersama ibunya",
           "D. Melaporkan kondisi Faris kepada kepala sekolah agar Faris mendapatkan bantuan beasiswa pangan"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Sahrul adalah siswa kelas IX yang gemar menyisihkan sebagian uang sakunya untuk dimasukkan ke kotak amal masjid sekolah setiap hari Jumat. Ia juga selalu bersegera melakukan ibadah tanpa menunda-nunda karena sadar bahwa usia manusia adalah rahasia Allah dan kematian bisa datang kapan saja. Perilaku Sahrul ini mencerminkan pengamalan iman kepada Hari Akhir dalam aspek...",
         "opt": [
           "A. Menghindari tanggung jawab sosial dengan fokus beribadah di masjid saja",
           "B. Mempersiapkan bekal amal shalih dengan mawas diri sebelum ajal menjemput",
           "C. Mengharap pujian dari guru agama agar mendapatkan nilai kepribadian yang tinggi",
           "D. Mengumpulkan harta sebanyak-banyaknya untuk dinikmati di dunia"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Siska dikenal sebagai siswa yang cerdas dalam mata pelajaran Matematika. Ketika melihat Lani kesulitan memahami materi aljabar sebelum pelaksanaan ujian tengah semester, Siska meluangkan waktu istirahatnya untuk membimbing Lani dengan sabar tanpa mengharapkan pujian ataupun imbalan materi. Sikap mulia Siska ini didasari oleh karakter akhlak...",
         "opt": [
           "A. Mengutamakan keuntungan akademis pribadi di atas segalanya",
           "B. Kasih sayang yang tulus kepada sesama untuk membantu tumbuh bersama",
           "C. Sifat sombong karena merasa lebih pintar dari teman sekelas",
           "D. Rasa acuh tak acuh terhadap kesulitan belajar orang lain"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "[Variasi Al-Qur'an & Toleransi] Islam mengajarkan bahwa tidak ada paksaan dalam beragama karena jalan kebenaran telah tampak jelas dari jalan kesesatan. Berdasarkan kandungan Q.S. al-Baqarah/2: 256, sikap toleransi beragama yang tepat diterapkan di lingkungan sekolah yang heterogen adalah...",
         "opt": [
           "A. Memaksa teman beda keyakinan untuk mengikuti tata cara ibadah agama kita",
           "B. Menjauhi pergaulan dengan teman-teman yang memiliki keyakinan berbeda",
           "C. Memberikan ruang yang aman bagi teman non-muslim untuk berdoa sesuai keyakinan mereka",
           "D. Mengikuti ritual ibadah agama lain sebagai bukti toleransi yang sangat tinggi"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
-        "q": "[Variasi Tajwid] Perhatikan potongan ayat Q.S. Luqman/31: 33 berikut:",
+        "type": "PG",
+        "q": "[Variasi Tajwid] Perhatikan potongan ayat Q.S. Luqman/31: 33 berikut:\n...لَّا يَجْزِيْ وَالِدٌ عَنْ وَّلَدِهٖ...\nHukum tajwid pada lafal yang dicetak tebal (وَالِدٌ عَنْ وَّلَدِهٖ) secara berurutan adalah...",
         "opt": [
           "A. Ikhfa Haqiqi dan Idgham Bilaghunnah",
           "B. Izhar Halqi dan Idgham Bighunnah",
           "C. Izhar Halqi dan Idgham Bilaghunnah",
           "D. Ikhfa Haqiqi dan Idgham Bighunnah"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "[Variasi Fiqih - Takziyah] Ketika mendengar kabar duka bahwa salah satu orang tua siswa di kelas meninggal dunia, guru mengajak para siswa untuk melakukan takziyah ke rumah duka. Di bawah ini yang merupakan adab takziyah yang dibenarkan menurut syariat Islam adalah...",
         "opt": [
           "A. Menangis histeris (meratap) di depan jenazah agar dianggap peduli",
           "B. Menghibur keluarga musibah serta membawakan makanan atau bantuan materi",
           "C. Membicarakan aib-aib semasa hidup jenazah secara berbisik di ruang tamu",
           "D. Mengambil dokumentasi foto selfie bersama jenazah untuk diunggah di sosial media"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "[Variasi Fiqih - Shalat Jenazah] Pelaksanaan shalat jenazah merupakan kewajiban fardhu kifayah bagi umat Islam. Berbeda dengan shalat fardhu pada umumnya, shalat jenazah dikerjakan tanpa rukuk dan sujud. Gerakan membaca doa untuk jenazah dilakukan setelah...",
         "opt": [
           "A. Takbir pertama (takbiratul ihram)",
           "B. Takbir kedua",
           "C. Takbir ketiga",
           "D. Takbir keempat"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "[Variasi Tarikh - Kedokteran Abbasiyah] Pada masa keemasan Daulah Abbasiyah di Baghdad, sains kedokteran berkembang pesat melahirkan tokoh-tokoh besar dunia. Ilmuwan muslim yang mendapat julukan 'Pangeran Para Dokter' dan menulis kitab legendaris 'Al-Qanun fi al-Tibb' (The Canon of Medicine) adalah...",
         "opt": [
           "A. Al-Khwarizmi",
           "B. Ibnu Sina (Avicenna)",
           "C. Al-Ghazali",
           "D. Jabir bin Hayyan"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "[Variasi Tarikh - Daulah Usmani] Daulah Turki Usmani berhasil mencatatkan tinta emas sejarah peradaban Islam di Eropa Timur. Tokoh pemimpin Turki Usmani yang berhasil mewujudkan nubuwat Rasulullah saw. dengan menaklukkan kota Konstantinopel pada tahun 1453 M adalah...",
         "opt": [
           "A. Sultan Mehmed II (Muhammad Al-Fatih)",
           "B. Sultan Selim I",
           "C. Sultan Suleiman Al-Qanuni",
           "D. Sultan Murad II"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Kompleks",
+        "type": "PGK",
         "q": "Mengimani Hari Akhir memberikan banyak hikmah dan dampak positif bagi kepribadian seorang muslim dalam kehidupan sehari-hari di dunia. Manakah di antara pernyataan berikut yang termasuk hikmah nyata dari mengimani Hari Akhir? *(Pilih semua jawaban benar!)*",
-        "opt": []
+        "opt": [],
+        "a": [
+          15
+        ]
       },
       {
-        "type": "PG Kompleks",
+        "type": "PGK",
         "q": "Di era digital saat ini, interaksi remaja banyak beralih ke media sosial atau grup chat WhatsApp kelas. Namun, sering kali terjadi tindakan cyberbullying atau mencela fisik teman (body shaming) yang dapat menyakiti hati sesama. Manakah di antara tindakan berikut yang mencerminkan penggabungan iman Hari Akhir dengan akhlak kasih sayang sesama dalam interaksi digital? *(Pilih semua jawaban benar!)*",
-        "opt": []
+        "opt": [],
+        "a": [
+          15
+        ]
       },
       {
-        "type": "PG Kompleks",
+        "type": "PGK",
         "q": "Rian sedang berjalan di koridor sekolah dan melihat ada pecahan botol kaca kecil yang berserakan di dekat tangga sekolah. Ia langsung berinisiatif mengambil sapu dan membersihkannya karena khawatir pecahan kaca tersebut dapat melukai kaki guru atau teman-teman sekolahnya. Tindakan Rian ini dilandasi oleh kesadaran iman kepada Hari Akhir yang berkolaborasi dengan akhlak penyayang, sebab... *(Pilih semua jawaban benar!)*",
-        "opt": []
+        "opt": [],
+        "a": [
+          15
+        ]
       },
       {
-        "type": "PG Kompleks",
+        "type": "PGK",
         "q": "[Variasi Fiqih - Jama' Qashar] Seorang muslim yang sedang melakukan perjalanan jauh (musafir) diberikan kemudahan (rukhsah) untuk menjamak dan mengqashar shalat fardhu. Manakah di antara kriteria berikut yang menjadi syarat sah diperbolehkannya shalat jamak qashar? *(Pilih semua jawaban benar!)*",
-        "opt": []
+        "opt": [],
+        "a": [
+          15
+        ]
       },
       {
-        "type": "PG Kompleks",
+        "type": "PGK",
         "q": "[Variasi Tarikh - Daulah Mughal] Daulah Mughal di India merupakan salah satu pilar peradaban Islam yang sangat megah di Asia Selatan. Kekaisaran ini mewariskan karya seni arsitektur bernilai seni tinggi yang diakui dunia hingga saat ini. Manakah di antara bangunan monumental berikut yang merupakan peninggalan Daulah Mughal? *(Pilih semua jawaban benar!)*",
-        "opt": []
+        "opt": [],
+        "a": [
+          15
+        ]
       },
       {
-        "type": "PG Kompleks",
+        "type": "PGK",
         "q": "[Variasi Al-Qur'an - Menuntut Ilmu] Dalam Q.S. al-Mujādalah/58: 11, Allah menjanjikan derajat yang mulia bagi hamba-Nya yang memiliki kriteria khusus. Manakah di antara kriteria berikut yang dimaksudkan di dalam ayat tersebut? *(Pilih semua jawaban benar!)*\nKELOMPOK III: SOAL BENAR - SALAH (No. 19 s.d. 24)\nPetunjuk: Berilah tanda silang [X] pada kolom BENAR atau SALAH di bawah ini sesuai dengan pernyataan teologis yang disajikan!\nKUNCI JAWABAN & ANALISIS PEMBAHASAN TEOLOGIS (PAKET 5)",
-        "opt": []
+        "opt": [],
+        "a": [
+          15
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "Yaumul Mizan adalah hari di mana seluruh amal perbuatan manusia semasa hidup di dunia akan ditimbang secara adil dan teliti oleh Allah Swt., tanpa ada kecurangan atau kerugian bagi siapa pun meski sekecil biji sawi.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "Berdasarkan hadis sahih riwayat Imam Muslim, hakikat kasih sayang sesama muslim diajarkan bahwa orang yang tidak memiliki rasa kasih sayang kepada sesama manusia di bumi tidak akan disayangi oleh Allah Swt.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "Mengingat datangnya kiamat kubra adalah urusan masa depan yang gaib dan rahasia, para remaja SMP cukup fokus menikmati masa mudanya dengan bersenang-senang dan menunda ibadah/akhlak mulia hingga usia lanjut nanti.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "[Variasi Al-Qur'an - Cinta Tanah Air] Dalam kajian tafsir Q.S. an-Nisā’/4: 66, Al-Qur'an menyetarakan kepedihan cinta tanah air dengan kelangsungan hidup fisik manusia, di mana tindakan diusir dari tanah air disetarakan dengan kematian jiwa.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "[Variasi Fiqih - Waktu Kurban] Ibadah penyembelihan hewan kurban bagi umat Islam sah dilakukan pada hari raya Idul Adha (tanggal 10 Dzulhijjah) serta pada tiga Hari Tasyrik berikutnya (tanggal 11, 12, dan 13 Dzulhijjah).",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
+      },
+      {
+        "type": "BS",
+        "q": "[Variasi Tarikh - Khalifah Umayyah] Khalifah Umar bin Abdul Aziz dari Daulah Umayyah sangat dikagumi karena gaya hidupnya yang sangat mewah dan megah, sehingga menginspirasi pembangunan istana-istana besar di Damaskus.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
+        "a": [
+          0
+        ]
       }
     ]
   },
@@ -2411,214 +3095,238 @@ const DATA_LATIHAN_V2 = {
     "judul": "Paket 6: Latihan 2 Aqidah - Qada dan Qadar",
     "soal": [
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Secara bahasa dan istilah teologis, terdapat perbedaan mendasar antara konsep Qada dan Qadar. Manakah pernyataan di bawah ini yang paling tepat menggambarkan makna dari Qada menurut ajaran akidah Islam?",
         "opt": [
           "A. Kenyataan atau perwujudan konkret dari seluruh rencana Allah Swt. yang terjadi pada makhluk di alam semesta secara nyata.",
           "B. Kebebasan mutlak bagi manusia untuk memilih jalan takdirnya sendiri tanpa campur tangan dan kehendak mutlak dari Allah Swt.",
           "C. Ketentuan atau rencana Allah Swt. sejak zaman azali (sebelum penciptaan alam) mengenai segala sesuatu yang akan terjadi pada makhluk-Nya.",
           "D. Sikap pasrah tanpa usaha (fatalistik) dari seorang hamba yang menganggap dirinya tidak memiliki peran apa pun dalam hidup."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Allah Swt. menciptakan alam semesta beserta seluruh isinya dengan perhitungan yang sangat matang, teliti, dan presisi. Di dalam Al-Qur'an, terdapat ayat yang menegaskan bahwa Dia menciptakan segala sesuatu, lalu menetapkan ukuran-ukurannya dengan sangat rapi. Apakah nama surah dan nomor ayat yang memuat penegasan teologis tersebut?",
         "opt": [
           "A. Q.S. al-Furqān ayat 2",
           "B. Q.S. ar-Ra'd ayat 11",
           "C. Q.S. ar-Rūm ayat 41",
           "D. Q.S. al-Hajj ayat 7"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Takdir Allah Swt. dibagi menjadi dua kelompok besar, yaitu takdir mubram dan takdir mu'allaq. Manakah di antara pilihan berikut yang merupakan karakteristik khas dari takdir mubram?",
         "opt": [
           "A. Ketetapan Allah Swt. yang berjalan secara dinamis dan bisa diubah melalui doa serta ikhtiar sungguh-sungguh dari manusia.",
           "B. Ketetapan mutlak Allah Swt. sejak zaman azali yang bersifat final, mutlak, dan tidak dapat ditunda atau diubah oleh usaha makhluk.",
           "C. Takdir yang pelaksanaannya sepenuhnya bergantung pada tingkat kecerdasan dan status sosial seseorang di masyarakat.",
           "D. Rencana Allah Swt. yang baru diputuskan setelah melihat tindakan konkret dan pengorbanan finansial dari hamba-Nya."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Fahri sangat sedih karena gagal dalam seleksi masuk tim inti sepak bola SMP Harapan Bangsa karena fisiknya dinilai kurang prima. Alih-alih berputus asa, Fahri rajin berlatih lari setiap pagi, menjaga pola makan sehat, dan selalu berdoa setelah shalat. Pada seleksi tahun berikutnya, ia berhasil terpilih menjadi kapten tim inti. Kisah Fahri merupakan contoh nyata dari keyakinan terhadap takdir...",
         "opt": [
           "A. Mubram, karena kesuksesan Fahri sudah tertulis mutlak tanpa membutuhkan latihan olahraga sama sekali.",
           "B. Mu'allaq, karena keberhasilan Fahri dipengaruhi secara erat oleh usaha keras (ikhtiar) serta doa yang sungguh-sungguh.",
           "C. Semu, karena manusia pada hakikatnya tidak memiliki andil apa pun dan keberhasilan tersebut hanyalah kebetulan belaka.",
           "D. Jabariyah, karena manusia laksana wayang yang digerakkan tanpa memiliki kehendak untuk berlatih keras."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Di halaman belakang sekolah, sampah dedaunan kering dan plastik sering menumpuk hingga menimbulkan bau tidak sedap. Sebagai ketua kelas yang mengimani kekuasaan Allah atas keteraturan bumi, tindakan konkret apa yang paling tepat dilakukan Riko untuk mencerminkan akhlak mulia kasih sayang terhadap lingkungan alam?",
         "opt": [
           "A. Membakar seluruh sampah tersebut pada jam istirahat agar cepat habis meskipun asapnya menyesakkan napas siswa di kelas.",
           "B. Mengajak teman-teman sekelas untuk bergotong royong memilah sampah plastik untuk didaur ulang dan mengolah dedaunan menjadi kompos kelas.",
           "C. Membiarkan tumpukan sampah tersebut karena meyakini bahwa kebersihan halaman belakang adalah tanggung jawab mutlak penjaga sekolah.",
           "D. Melaporkan masalah sampah tersebut ke dinas kebersihan kota lewat media sosial agar sekolah mendapatkan bantuan fasilitas tempat sampah."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Alya sudah mempersiapkan diri selama berbulan-bulan untuk mengikuti Lomba Cerdas Cermat PAI tingkat kabupaten. Namun, pada hari pelaksanaan, ia tiba-tiba jatuh sakit sehingga tidak dapat tampil maksimal dan hanya meraih peringkat harapan. Sikap batin yang paling mencerminkan keimanan pada Qada dan Qadar yang matang adalah...",
         "opt": [
           "A. Meratapi nasib buruknya dan memutuskan untuk tidak mau lagi mengikuti kegiatan keagamaan apa pun di sekolah.",
           "B. Menyalahkan keputusan panitia yang dianggap kurang adil dalam menyusun waktu perlombaan di tingkat kabupaten.",
           "C. Menyesali kesehatan tubuhnya yang lemah dan memarahi diri sendiri karena merasa telah mengecewakan guru pembina.",
           "D. Menerima kenyataan dengan ikhlas (*rida*), berprasangka baik pada hikmah Allah, dan bersyukur atas proses belajar yang telah dilalui."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Di akhir ayat Q.S. al-Baqarah/2: 155 terdapat potongan lafal: وَبَشِّرِ **الصَّابِرِينَ**. Pada lafal yang dicetak tebal tersebut, terdapat hukum bacaan tajwid berupa...",
         "opt": [
           "A. Mad Thabi'i, karena ada huruf ya' sukun yang didahului oleh huruf berharakat kasrah di awal kalimat.",
           "B. Mad 'Arid Lissukun, karena ada huruf mad yang bertemu dengan huruf hidup di akhir ayat yang dibaca waqaf (berhenti).",
           "C. Mad Iwad, karena terdapat huruf alif yang berharakat fathatain di akhir ayat yang dibaca waqaf.",
           "D. Mad Jaiz Munfasil, karena ada huruf mad bertemu dengan hamzah dalam dua kata yang berbeda."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Berdasarkan kandungan Q.S. al-Baqarah/2: 155, Allah Swt. menegaskan bahwa manusia pasti akan diuji di dunia. Manakah di antara pilihan berikut yang **bukan** merupakan bentuk ujian yang disebutkan secara tersurat dalam ayat tersebut?",
         "opt": [
           "A. Rasa ketakutan (*al-khauf*) dan kelaparan (*al-jū'*)",
           "B. Kekurangan harta benda (*al-amwāl*) dan buah-buahan (*al-tsamarāt*)",
           "C. Kehilangan jiwa atau kematian (*al-anfus*)",
           "D. Rendahnya tingkat kecerdasan akademis dan kedudukan sosial"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Rombongan siswa SMP Islam Terpadu melakukan studi wisata ke luar kota dengan menempuh jarak sekitar 90 km. Mereka berangkat pukul 06.00 pagi. Saat masuk waktu Zuhur, mereka berhenti di masjid rest area untuk melaksanakan salat Zuhur 2 rakaat dan langsung dilanjutkan dengan salat Ashar 2 rakaat pada satu waktu sekaligus. Tata cara ibadah musafir ini dinamakan...",
         "opt": [
           "A. Salat Jamak Takdim Qashar",
           "B. Salat Jamak Ta'khir Qashar",
           "C. Salat Jamak Takdim tanpa Qashar",
           "D. Salat Qashar saja tanpa Jamak"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Dalam rukun shalat jenazah, setelah takbir ketiga, doa apa yang paling tepat dibaca oleh makmum apabila jenazah yang disalatkan adalah seorang laki-laki dewasa?",
         "opt": [
           "A. Membaca surah Al-Fatihah dengan khusyuk dan tartil.",
           "B. Membaca shalawat kepada Nabi Muhammad saw. secara sempurna.",
           "C. Membaca doa: 'Allāhummaghfir lahū warḥamhū wa 'āfihī wa'fu 'anhu'.",
           "D. Membaca doa: 'Allāhumma lā taḥrimnā ajrahū walā taftinnā ba'dahū'."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Daulah Mughal di India mencapai puncak kejayaan budaya dan seni arsitektur yang sangat tinggi. Salah satu kaisar Mughal mendirikan monumen marmer putih megah bernama Taj Mahal di Agra sebagai lambang cinta mendalam kepada istrinya. Siapakah nama kaisar Daulah Mughal yang membangun monumen bersejarah tersebut?",
         "opt": [
           "A. Jalaluddin Akbar",
           "B. Shah Jahan",
           "C. Zahiruddin Babur",
           "D. Aurangzeb"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Standar",
+        "type": "PG",
         "q": "Runtuhnya pusat peradaban Islam di Baghdad pada tahun 1258 M akibat serangan bangsa asing menandai berakhirnya era keemasan Daulah Abbasiyah. Pasukan militer dari bangsa manakah yang melakukan penyerangan dahsyat dan menghancurkan perpustakaan Baitul Hikmah tersebut?",
         "opt": [
           "A. Pasukan Salib Eropa Barat",
           "B. Pasukan Mongol di bawah pimpinan Hulagu Khan",
           "C. Pasukan Dinasti Safawi Persia",
           "D. Pasukan Romawi Timur (Byzantium)"
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Kompleks (PGK)",
+        "type": "PGK",
         "q": "Sikap beriman kepada Qada dan Qadar akan membentuk karakter pribadi yang kokoh dan seimbang dalam diri seorang siswa Muslim. Manakah di antara pernyataan berikut yang mencerminkan konsekuensi positif dari keimanan yang benar pada Qada dan Qadar? (Pilihlah semua jawaban benar!)",
         "opt": [
           "A. Senantiasa optimis, giat berusaha, dan pantang menyerah dalam menuntut ilmu karena yakin hasil akhir ditentukan oleh usaha yang selaras dengan takdir Allah.",
           "B. Memiliki ketenangan jiwa dan terhindar dari penyakit stres karena yakin apa pun hasil usahanya merupakan keputusan terbaik dari Allah Swt.",
           "C. Menjadi pribadi yang sombong dan takabur ketika berhasil meraih juara umum kelas karena merasa keberhasilan itu 100% adalah hasil kecerdasannya sendiri.",
           "D. Memiliki sifat qana'ah dan rida atas pembagian rezeki dari Allah Swt. sehingga terhindar dari sifat iri dengki (hasad) kepada teman sekolah."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Kompleks (PGK)",
+        "type": "PGK",
         "q": "Sekolah yang bersih dan asri merupakan dambaan seluruh warga sekolah. Manakah di antara tindakan para siswa di bawah ini yang mencerminkan penerapan nyata dari akhlak mulia kasih sayang terhadap lingkungan sekolah? (Pilihlah semua jawaban benar!)",
         "opt": [
           "A. Menyiram tanaman hias di depan kelas secara rutin setiap pagi sebelum bel masuk kelas berbunyi.",
           "B. Melakukan aksi coret-coret dinding (vandalisme) meja kelas sebagai sarana menyalurkan kreativitas seni menggambar.",
           "C. Membuang sampah botol plastik bekas minuman ke dalam tempat sampah berlabel 'Anorganik' demi memudahkan proses daur ulang.",
           "D. Menjaga kelancaran saluran air parit sekolah dengan tidak membuang bungkus jajanan sembarangan di koridor kelas."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Kompleks (PGK)",
+        "type": "PGK",
         "q": "Takdir mubram adalah ketetapan mutlak dari Allah Swt. yang tidak dapat dipengaruhi sama sekali oleh usaha manusia. Di bawah ini, manakah yang tergolong ke dalam contoh takdir mubram dalam kehidupan manusia? (Pilihlah semua jawaban benar!)",
         "opt": [
           "A. Batas usia atau waktu tibanya ajal kematian bagi setiap makhluk hidup.",
           "B. Tingkat kepandaian siswa dalam menguasai rumus matematika dan sains di sekolah.",
           "C. Jenis kelamin (laki-laki atau perempuan) bayi yang lahir ke dunia nyata.",
           "D. Terjadinya fenomena bencana alam berskala kosmis seperti gerhana matahari dan gerhana bulan."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Kompleks (PGK)",
+        "type": "PGK",
         "q": "Dalam Q.S. al-Baqarah/2: 156, orang-orang yang bersabar ketika ditimpa musibah akan mengucapkan kalimat istirja' (Inna lillahi wa inna ilaihi raji'un). Manakah nilai-nilai spiritual tersembunyi yang terkandung di dalam pengucapan kalimat istirja' tersebut? (Pilihlah semua jawaban benar!)",
         "opt": [
           "A. Pengakuan tulus bahwa diri manusia dan segala harta benda di dunia ini adalah milik Allah Swt. sepenuhnya.",
           "B. Kesadaran mendalam bahwa semua makhluk hidup pasti akan berpulang kembali menghadap Sang Pencipta.",
           "C. Ungkapan kekecewaan dan protes halus kepada Allah atas beratnya cobaan yang diturunkan kepada kita.",
           "D. Penguat mental agar jiwa tetap tenang, sabar, dan tidak berlarut-larut dalam kesedihan mendalam."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Kompleks (PGK)",
+        "type": "PGK",
         "q": "Agama Islam memberikan berbagai macam kemudahan (rukhsah) bagi umatnya yang sedang mengalami kesulitan atau halangan dalam beribadah. Manakah di antara peristiwa berikut yang membolehkan seorang muslim mendapatkan kemudahan rukhsah dalam shalat fardhu? (Pilihlah semua jawaban benar!)",
         "opt": [
           "A. Seseorang sedang dalam perjalanan jauh (musafir) dengan jarak tempuh minimal 80-90 km.",
           "B. Seseorang yang sedang jatuh sakit parah sehingga tidak mampu berdiri tegak saat shalat.",
           "C. Seseorang yang sedang asyik menonton konser musik favoritnya sehingga tidak ingin terganggu waktu shalatnya.",
           "D. Seseorang yang sedang bertugas menjaga pos keamanan darurat dari ancaman bencana banjir bandang."
+        ],
+        "a": [
+          15
         ]
       },
       {
-        "type": "PG Kompleks (PGK)",
+        "type": "PGK",
         "q": "Daulah Turki Usmani di Istanbul terkenal memiliki warisan peradaban fisik berupa arsitektur bangunan yang megah, kubah raksasa, serta kaligrafi yang indah. Manakah bangunan bersejarah berikut yang didirikan pada masa kejayaan Daulah Turki Usmani? (Pilihlah semua jawaban benar!)",
         "opt": [
           "A. Masjid Sultan Ahmed (Masjid Biru) di Istanbul.",
           "B. Kompleks Istana Topkapi di Istanbul.",
           "C. Istana Alhambra di Granada, Spanyol.",
           "D. Masjid Raya Suleymaniye di Istanbul."
+        ],
+        "a": [
+          15
         ]
-      },
-      {
-        "type": "Benar - Salah (BS)",
-        "q": "Batas ajal kematian seseorang merupakan contoh nyata dari takdir mubram, di mana tidak ada satu pun teknologi medis tercanggih atau obat herbal di dunia yang mampu menunda atau mempercepat datangnya ajal tersebut jika sudah tiba waktunya sesuai kehendak Allah Swt.\nPilihan Jawaban:  [  ] BENAR      [  ] SALAH",
-        "opt": []
-      },
-      {
-        "type": "Benar - Salah (BS)",
-        "q": "Rendi memutuskan untuk tidak usah belajar menghadapi ujian sekolah karena ia berpendapat bahwa jika Allah sudah menakdirkan dirinya lulus maka ia pasti lulus tanpa belajar, dan jika ditakdirkan gagal maka belajar keras pun sia-sia. Sikap Rendi ini sangat dibenarkan karena mencerminkan kepasrahan tauhid yang murni.\nPilihan Jawaban:  [  ] BENAR      [  ] SALAH",
-        "opt": []
-      },
-      {
-        "type": "Benar - Salah (BS)",
-        "q": "Ikut aktif dalam kegiatan gotong royong membersihkan selokan dan memilah sampah plastik di lingkungan sekolah merupakan salah satu bukti nyata keimanan pada Qada dan Qadar, karena manusia wajib berikhtiar menjaga kelestarian bumi demi menghindari takdir buruk berupa bencana banjir lokal.\nPilihan Jawaban:  [  ] BENAR      [  ] SALAH",
-        "opt": []
-      },
-      {
-        "type": "Benar - Salah (BS)",
-        "q": "Kalimat 'Inna lillahi wa inna ilaihi raji'un' disebut sebagai kalimat istirja' yang disunnahkan untuk diucapkan oleh seorang muslim tidak hanya saat mendengar kabar kematian seseorang, melainkan juga ketika tertimpa segala jenis musibah besar maupun kecil (seperti terpeleset atau kehilangan barang).\nPilihan Jawaban:  [  ] BENAR      [  ] SALAH",
-        "opt": []
-      },
-      {
-        "type": "Benar - Salah (BS)",
-        "q": "Shalat jenazah memiliki keunikan ibadah dibanding shalat fardhu lainnya, yaitu dilaksanakan secara berdiri tegak sebanyak empat kali takbir tanpa melakukan gerakan ruku', i'tidal, sujud, maupun duduk tasyahud di dalamnya.\nPilihan Jawaban:  [  ] BENAR      [  ] SALAH",
-        "opt": []
-      },
-      {
-        "type": "Benar - Salah (BS)",
-        "q": "Keberhasilan penaklukan kota pelabuhan Konstantinopel yang legendaris pada tahun 1453 M berhasil dipimpin oleh seorang panglima muda tangguh berumur 21 tahun bernama Sultan Muhammad Al-Fatih (Mehmed II) dari Daulah Usmani Turki.\nPilihan Jawaban:  [  ] BENAR      [  ] SALAH\nLEMBAR KUNCI JAWABAN & ANALISIS PEMBAHASAN TEOLOGIS\nTabel berikut menyajikan kunci jawaban resmi beserta ulasan dasar teologis dan integrasi studi kasus karakter siswa untuk mempermudah penilaian juri dan bimbingan guru pembina:\n*Dokumen ini diterbitkan secara otomatis dan valid digunakan untuk bahan bimbingan pembinaan Mapsi PAI SMP Tingkat Kabupaten/Provinsi 2026.",
-        "opt": []
       }
     ]
   },
@@ -2626,7 +3334,12 @@ const DATA_LATIHAN_V2 = {
     "judul": "Paket 1: Latihan 2 Fikih SKI - Sujud Sahwi & Bani Umayyah",
     "soal": [
       {
-        "type": "B",
+        "type": "PG",
+        "q": "Paket soal ini terdiri atas 24 butir soal latihan cerdas cermat keagamaan.",
+        "opt": []
+      },
+      {
+        "type": "PG",
         "q": "Saat salat berjamaah di mushola sekolah, seseorang terkadang lupa atau ragu-ragu dengan jumlah rakaat yang sudah ia kerjakan. Menurut tata cara fikih Islam, sujud yang disyariatkan untuk menutup kekurangan atau keraguan rakaat tersebut sebelum salam adalah...",
         "opt": [
           "A. Sujud syukur sebanyak satu kali di luar salat.",
@@ -2636,7 +3349,17 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
+        "q": "Fikih - Sujud Sahwi: Dilakukan sebanyak dua kali sujud sebelum melakukan salam apabila seorang muslim mengalami lupa, ragu-ragu rakaat, atau kelebihan gerakan dalam salatnya. Sesuai tuntunan Rasulullah saw., sujud ini penting agar ibadah salat kita tetap bernilai sah secara hukum.",
+        "opt": []
+      },
+      {
+        "type": "PG",
+        "q": "Bacalah setiap pertanyaan dengan teliti menggunakan logika berpikir anak SMP.",
+        "opt": []
+      },
+      {
+        "type": "PG",
         "q": "Ketika mendengarkan bacaan ayat sajdah di dalam Al-Qur'an, disunahkan untuk melakukan sujud tilawah. Adapun lafal doa sujud tilawah yang dibaca berbunyi:\nسَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ وَشَقَّ سَمْعَهُ وَبَصَرَهُ بِحَوْلِهِ وَقُوَّتِهِ\nArti yang terkandung dalam lafal doa di atas mengajarkan bahwa...",
         "opt": [
           "A. Hamba berserah diri atas segala musibah dan ujian kesabaran hidup.",
@@ -2646,7 +3369,17 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "C",
+        "type": "PG",
+        "q": "Fikih - Doa Sujud Tilawah: Bacaan 'Sajada wajhiya...' bermakna bahwa seluruh pancaindra penglihatan dan pendengaran kita adalah pemberian Allah Swt. Sujud tilawah ini mengekspresikan ketundukan mutlak manusia terhadap ayat-ayat sajadah.",
+        "opt": []
+      },
+      {
+        "type": "PG",
+        "q": "Jawablah soal Pilihan Ganda (PG) dengan memilih satu opsi paling tepat (A, B, C, atau D).",
+        "opt": []
+      },
+      {
+        "type": "PG",
         "q": "Budi sedang melakukan salat Dzuhur secara mandiri di kamarnya. Pada rakaat terakhir, ia tiba-tiba merasa sangat ragu, apakah ia baru menyelesaikan rakaat ketiga atau sudah menyelesaikan rakaat keempat. Berdasarkan adab fikih yang benar, langkah yang harus diambil Budi adalah...",
         "opt": [
           "A. Langsung melakukan salam dan tidak perlu mengulangi salatnya lagi.",
@@ -2656,7 +3389,17 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
+        "q": "Fikih - Ragu Rakaat: Sesuai kaidah fikih, jika ragu-ragu rakaat antara 3 atau 4, kita wajib mengambil jumlah yang paling diyakini (yaitu hitungan terkecil, 3 rakaat). Budi harus menambah 1 rakaat, kemudian melakukan sujud sahwi dua kali sebelum melakukan salam.",
+        "opt": []
+      },
+      {
+        "type": "PG",
+        "q": "Jawablah soal Pilihan Ganda Kompleks (PGK) dengan memilih semua pilihan jawaban yang benar.",
+        "opt": []
+      },
+      {
+        "type": "PG",
         "q": "Pada masa kejayaan Bani Umayyah di Andalusia (Spanyol), lahir seorang ilmuwan muslim jenius bernama Abbas ibnu Firnas. Beliau sangat dikenal dunia karena keberaniannya melakukan uji coba ilmiah pertama di bidang peradaban dunia, yaitu...",
         "opt": [
           "A. Membuat peta bumi yang sangat lengkap menggunakan lempengan perak.",
@@ -2666,7 +3409,19 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
+        "q": "SKI - Abbas ibnu Firnas: Merupakan penerbang muslim legendaris di Spanyol masa Bani Umayyah. Percobaan terbangnya yang menggunakan rangka sayap kayu berlapis kain sutra dan bulu unggas tercatat sebagai tonggak awal sains kedirgantaraan dunia.",
+        "opt": []
+      },
+      {
+        "type": "PG",
+        "q": "Jawablah soal Benar-Salah (B-S) dengan menentukan kebenaran pernyataan yang disajikan.",
+        "opt": [
+          "I. PILIHAN GANDA STANDAR (No. 1 s.d. 12)"
+        ]
+      },
+      {
+        "type": "PG",
         "q": "Salah satu bukti monumental kemajuan arsitektur dan pusat perkembangan ilmu pengetahuan peninggalan masa Daulah Bani Umayyah di wilayah barat (Andalusia) yang masih kokoh berdiri hingga saat ini adalah...",
         "opt": [
           "A. Gedung perpustakaan Baitul Hikmah di kota Baghdad.",
@@ -2676,7 +3431,12 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
+        "q": "SKI - Masjid Cordoba: Didirikan oleh Abdurrahman ad-Dakhil dari Daulah Bani Umayyah di Andalusia. Selain menjadi pusat ibadah, tempat ini dulunya berfungsi sebagai pusat kajian keilmuan kelas dunia yang memicu kebangkitan sains di benua Eropa Barat.",
+        "opt": []
+      },
+      {
+        "type": "PG",
         "q": "Santi sangat senang membaca sejarah kejayaan sains muslim masa Bani Umayyah di perpustakaan sekolah. Tindakan Santi yang paling mencerminkan peneladanan semangat belajar para ilmuwan muslim masa lalu dalam kehidupan sehari-harinya di sekolah adalah...",
         "opt": [
           "A. Membeli buku-buku ilmiah yang mahal hanya untuk dipajang di lemari kelas.",
@@ -2686,7 +3446,12 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A",
+        "type": "PG",
+        "q": "Sikap Literasi Sejarah: Meneladani ilmuwan muslim tidak berarti menghafal namanya saja secara kering. Peneladanan sejati dilakukan dengan cara menerapkan semangat literasi yang rajin membaca, rajin berdiskusi, dan mengembangkan ilmu pengetahuan secara aktif di sekolah.",
+        "opt": []
+      },
+      {
+        "type": "PG",
         "q": "Dalam Al-Qur'an terdapat ayat yang mengajarkan konsep keimanan yang utuh kepada Allah, para malaikat, kitab-kitab, dan rasul-rasul-Nya. Ayat penjelas keimanan ini tertuang di dalam...",
         "opt": [
           "A. Q.S. al-Baqarah ayat 285",
@@ -2696,7 +3461,12 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "C",
+        "type": "PG",
+        "q": "Sujud Syukur & Syarat Suci: Dalam madzhab Syafi'iyah, sujud syukur memiliki kedudukan hukum ibadah bersuci yang serupa dengan salat. Oleh karena itu, sujud syukur sah apabila dilakukan dalam keadaan suci dari hadas kecil maupun besar, menutup aurat secara rapat, dan menghadap kiblat dengan tegak.",
+        "opt": []
+      },
+      {
+        "type": "PG",
         "q": "Hukum bacaan Alif Lam dibagi menjadi dua, yaitu Al-Qamariyah (jelas) dan Al-Syamsiyah (melebur). Di bawah ini yang merupakan contoh lafal hukum bacaan Al-Qamariyah yang tepat adalah...",
         "opt": [
           "A. اَلصَّابِرِيْنَ (As-Sabiriina)",
@@ -2706,7 +3476,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Setiap muslim harus meyakini bahwa Allah Swt. memiliki sifat wajib asmaul husna. Sifat wajib Allah 'Al-Sami'' berarti Maha Mendengar dan 'Al-Basir' berarti Maha Melihat. Wujud kesadaran iman terhadap kedua sifat tersebut dalam pergaulan di sekolah adalah...",
         "opt": [
           "A. Merasa bebas berbisik-bisik merencanakan hal buruk karena guru tidak berada di kelas.",
@@ -2716,7 +3486,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Ikhlas merupakan ruh dari setiap ibadah dan amal kebaikan manusia. Karakteristik utama seorang remaja muslim yang memiliki keikhlasan sejati dalam beramal di kehidupan sehari-hari tercermin dari...",
         "opt": [
           "A. Selalu mengharapkan balasan pujian atau 'likes' saat membagikan foto sedekahnya di media sosial.",
@@ -2726,7 +3496,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "C",
+        "type": "PG",
         "q": "Sabar dalam menghadapi musibah atau kegagalan adalah kunci ketenangan hati. Ketika hasil nilai ujian matematika Rian ternyata tidak mencapai target kelulusan (KKM), sikap sabar dan berlapang dada yang benar bagi Rian adalah...",
         "opt": [
           "A. Marah dan menuduh guru matematika memberikan soal yang terlalu sulit secara tidak adil.",
@@ -2736,7 +3506,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Perilaku ghibah (membicarakan keburukan orang lain) adalah salah satu akhlak tercela yang sangat dilarang agama. Bentuk pencegahan ghibah di era digital pergaulan siswa SMP di bawah ini yang benar adalah...",
         "opt": [
           "A. Ikut memberikan komentar negatif ketika teman-teman sedang bergosip di grup WhatsApp kelas.",
@@ -2746,7 +3516,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A, B, D",
+        "type": "PG",
         "q": "Sujud di luar ibadah salat fardhu memiliki ketentuan dan penyebab yang berbeda-beda. Pilihlah semua tindakan harian remaja SMP berikut yang merupakan penerapan dari pelaksanaan sujud syukur atau sujud tilawah yang benar! (Pilihan jawaban benar lebih dari satu)",
         "opt": [
           "A. Ridwan langsung melakukan sujud syukur di mushola ketika mendengar adiknya sembuh dari sakit.",
@@ -2756,7 +3526,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A, B, D",
+        "type": "PG",
         "q": "Peradaban Daulah Bani Umayyah di Andalusia (Spanyol) mengalami kemajuan pesat yang diakui dunia barat maupun timur. Manakah di antara pernyataan berikut yang merupakan faktor-faktor utama pendorong kemajuan ilmu pengetahuan pada masa tersebut? (Pilihan jawaban benar lebih dari satu)",
         "opt": [
           "A. Adanya dukungan penuh dari para penguasa/khalifah yang sangat mencintai ilmu pengetahuan.",
@@ -2766,7 +3536,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A, C",
+        "type": "PG",
         "q": "Di dalam Al-Qur'an terdapat dalil naqli yang memerintahkan umat manusia untuk bersujud mengagungkan kebesaran Allah Swt. saat mendengarkan ayat-ayat suci Al-Qur'an dibacakan. Manakah nama surah dan nomor ayat yang menjadi dalil sah anjuran sujud tilawah tersebut? (Pilihan jawaban benar lebih dari satu)",
         "opt": [
           "A. Q.S. al-A'raf ayat 206",
@@ -2776,7 +3546,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A, B",
+        "type": "PG",
         "q": "Ghunnah adalah hukum bacaan dalam tajwid yang dibaca dengan cara berdengung sepanjang dua harakat. Manakah di antara lafal-lafal potongan ayat berikut yang memiliki hukum bacaan Ghunnah sejati karena adanya huruf Nun bertasydid atau Mim bertasydid? (Pilihan jawaban benar lebih dari satu)",
         "opt": [
           "A. ثُمَّ (Tsumma)",
@@ -2786,7 +3556,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A, B",
+        "type": "PG",
         "q": "Iman kepada malaikat adalah rukun iman kedua yang wajib diyakini setiap muslim. Manakah pasangan nama malaikat beserta tugasnya yang tepat dan sesuai dengan dalil ajaran Islam di bawah ini? (Pilihan jawaban benar lebih dari satu)",
         "opt": [
           "A. Malaikat Jibril bertugas menyampaikan wahyu kepada para nabi dan rasul.",
@@ -2796,7 +3566,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A, B, D",
+        "type": "PG",
         "q": "Berbakti kepada kedua orang tua (birrul walidain) adalah kewajiban yang sangat mulia bagi seorang anak. Pilihlah semua tindakan santun remaja SMP di bawah ini yang mencerminkan adab sopan santun kepada orang tua! (Pilihan jawaban benar lebih dari satu)",
         "opt": [
           "A. Segera menghentikan game online-nya dan menyahut dengan sopan ketika dipanggil ibu.",
@@ -2806,68 +3576,33 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "BENAR",
+        "type": "PG",
         "q": "Sujud syukur memiliki syarat sah yang mirip dengan ibadah salat, yaitu pelaku wajib berada dalam keadaan suci dari hadas dan najis, menutup aurat, serta menghadapkan tubuhnya ke arah kiblat.\nPilihan:  [  ] BENAR    atau    [  ] SALAH",
         "opt": []
       },
       {
-        "type": "SALAH",
+        "type": "PG",
         "q": "Seseorang yang sedang berjalan di halaman sekolah lalu mendengar kabar gembira boleh langsung bersujud syukur secara spontan di tanah koridor sekolah, meskipun ia tahu pakaiannya sedang terkena najis lumpur dan tidak menghadap kiblat.\nPilihan:  [  ] BENAR    atau    [  ] SALAH",
         "opt": []
       },
       {
-        "type": "BENAR",
+        "type": "PG",
         "q": "Abbas ibnu Firnas merupakan sosok pelopor penerbangan dunia dari Andalusia yang berhasil melayang di udara selama beberapa saat menggunakan sayap buatan dari sutra sebelum mendarat dengan cedera punggung.\nPilihan:  [  ] BENAR    atau    [  ] SALAH",
         "opt": []
       },
       {
-        "type": "SALAH",
+        "type": "PG",
         "q": "Siswa SMP zaman sekarang tidak perlu mempelajari peradaban Bani Umayyah abad pertengahan karena penemuan sains zaman dahulu sudah ketinggalan zaman dan sama sekali tidak memiliki hubungan dengan teknologi modern.\nPilihan:  [  ] BENAR    atau    [  ] SALAH",
         "opt": []
       },
       {
-        "type": "BENAR",
+        "type": "PG",
         "q": "Perintah untuk bertakwa kepada Allah Swt. dengan sebenar-benarnya takwa dan larangan mati kecuali dalam keadaan memeluk agama Islam tertuang jelas di dalam ayat Q.S. Ali 'Imran ayat 102.\nPilihan:  [  ] BENAR    atau    [  ] SALAH",
         "opt": []
       },
       {
-        "type": "BENAR",
+        "type": "PG",
         "q": "Sikap amanah yang diajarkan oleh Nabi Muhammad saw. dapat diterapkan oleh siswa di rumah dengan cara menyerahkan sisa uang kembalian belanja ibu secara jujur tanpa menyembunyikannya sepeser pun.\nPilihan:  [  ] BENAR    atau    [  ] SALAH\nKUNCI JAWABAN & ANALISIS PEMBAHASAN TEOLOGIS\nPAKET 1: FIKIH & SKI — TINGKAT SMP\nIV. PENJELASAN ILMIAH & RETORIKA TAFSIR:",
-        "opt": []
-      },
-      {
-        "type": "B",
-        "q": "Fikih - Sujud Sahwi: Dilakukan sebanyak dua kali sujud sebelum melakukan salam apabila seorang muslim mengalami lupa, ragu-ragu rakaat, atau kelebihan gerakan dalam salatnya. Sesuai tuntunan Rasulullah saw., sujud ini penting agar ibadah salat kita tetap bernilai sah secara hukum.",
-        "opt": []
-      },
-      {
-        "type": "B",
-        "q": "Fikih - Doa Sujud Tilawah: Bacaan 'Sajada wajhiya...' bermakna bahwa seluruh pancaindra penglihatan dan pendengaran kita adalah pemberian Allah Swt. Sujud tilawah ini mengekspresikan ketundukan mutlak manusia terhadap ayat-ayat sajadah.",
-        "opt": []
-      },
-      {
-        "type": "C",
-        "q": "Fikih - Ragu Rakaat: Sesuai kaidah fikih, jika ragu-ragu rakaat antara 3 atau 4, kita wajib mengambil jumlah yang paling diyakini (yaitu hitungan terkecil, 3 rakaat). Budi harus menambah 1 rakaat, kemudian melakukan sujud sahwi dua kali sebelum melakukan salam.",
-        "opt": []
-      },
-      {
-        "type": "B",
-        "q": "SKI - Abbas ibnu Firnas: Merupakan penerbang muslim legendaris di Spanyol masa Bani Umayyah. Percobaan terbangnya yang menggunakan rangka sayap kayu berlapis kain sutra dan bulu unggas tercatat sebagai tonggak awal sains kedirgantaraan dunia.",
-        "opt": []
-      },
-      {
-        "type": "B",
-        "q": "SKI - Masjid Cordoba: Didirikan oleh Abdurrahman ad-Dakhil dari Daulah Bani Umayyah di Andalusia. Selain menjadi pusat ibadah, tempat ini dulunya berfungsi sebagai pusat kajian keilmuan kelas dunia yang memicu kebangkitan sains di benua Eropa Barat.",
-        "opt": []
-      },
-      {
-        "type": "B",
-        "q": "Sikap Literasi Sejarah: Meneladani ilmuwan muslim tidak berarti menghafal namanya saja secara kering. Peneladanan sejati dilakukan dengan cara menerapkan semangat literasi yang rajin membaca, rajin berdiskusi, dan mengembangkan ilmu pengetahuan secara aktif di sekolah.",
-        "opt": []
-      },
-      {
-        "type": "A",
-        "q": "Sujud Syukur & Syarat Suci: Dalam madzhab Syafi'iyah, sujud syukur memiliki kedudukan hukum ibadah bersuci yang serupa dengan salat. Oleh karena itu, sujud syukur sah apabila dilakukan dalam keadaan suci dari hadas kecil maupun besar, menutup aurat secara rapat, dan menghadap kiblat dengan tegak.",
         "opt": []
       }
     ]
@@ -2876,7 +3611,7 @@ const DATA_LATIHAN_V2 = {
     "judul": "Paket 2: Latihan 2 Fikih SKI - Salat Jumat & Peradaban Abbasiyah",
     "soal": [
       {
-        "type": "B",
+        "type": "PG",
         "q": "Salat Jum'at memiliki ketentuan hukum yang ketat antara syarat wajib dan syarat sahnya. Di bawah ini yang termasuk dalam kelompok syarat wajib Salat Jum'at adalah...",
         "opt": [
           "A. Dilaksanakan di tempat pemukiman penduduk yang tetap",
@@ -2886,7 +3621,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "C",
+        "type": "PG",
         "q": "Adi terburu-buru pergi ke masjid karena terjebak macet. Saat ia memasuki ruang salat, khatib sedang berdiri membacakan khotbah yang kedua. Tindakan yang paling utama dan sesuai adab bagi Adi adalah...",
         "opt": [
           "A. Langsung duduk dengan tenang untuk mendengarkan khotbah khatib",
@@ -2896,7 +3631,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Hari Jum'at ini sekolah mengadakan Salat Jum'at berjamaah di aula sekolah. Saat khatib sedang menyampaikan khotbah, Zaki berbisik kepada temannya di sebelah untuk meminta pinjam sajadah. Berdasarkan aturan syariat, hal yang dialami oleh Zaki adalah...",
         "opt": [
           "A. Salat Jum'atnya batal dan harus segera berwudhu kembali",
@@ -2906,7 +3641,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Pada masa kejayaan Daulah Bani Abbasiyah di Bagdad, didirikan sebuah lembaga megah yang berfungsi sebagai perpustakaan umum, pusat penerjemahan kitab-kitab asing, sekaligus tempat berkumpulnya para ilmuwan dunia. Lembaga bersejarah tersebut bernama...",
         "opt": [
           "A. Baitul Mal",
@@ -2916,7 +3651,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Dunia kedokteran modern berutang budi besar pada seorang ilmuwan Muslim masa Daulah Bani Abbasiyah yang menulis buku rujukan legendaris berjudul Al-Qanun fi at-Tibb (The Canon of Medicine). Tokoh besar yang menginspirasi ini adalah...",
         "opt": [
           "A. Al-Khwarizmi",
@@ -2926,7 +3661,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Rina adalah siswi kelas VII yang sangat gemar membaca buku sains di perpustakaan sekolah. Ia ingin sekali meneladani semangat para ilmuwan di masa emas Daulah Abbasiyah. Sikap yang paling mencerminkan keteladanan tersebut dalam kehidupan sehari-hari Rina adalah...",
         "opt": [
           "A. Menghabiskan waktu untuk bermain game bertema sejarah di komputer",
@@ -2936,7 +3671,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "D",
+        "type": "PG",
         "q": "Perhatikan potongan ayat berikut ini!\nاِنَّ الْمُنٰفِقِيْنَ فِي الدَّرْكِ الْاَسْفَلِ مِنَ النَّارِ\nHukum bacaan Al-Syamsiyah pada ayat di atas terdapat pada lafal...",
         "opt": [
           "A. اِنَّ الْمُنٰفِقِيْنَ",
@@ -2946,7 +3681,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Setiap hari kita menikmati limpahan rezeki berupa makanan, minuman, udara bersih, dan air hujan yang turun dari langit secara gratis. Malaikat yang secara khusus ditugaskan oleh Allah Swt. untuk mengatur pembagian rezeki dan menurunkan hujan tersebut adalah...",
         "opt": [
           "A. Malaikat Jibril",
@@ -2956,7 +3691,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "C",
+        "type": "PG",
         "q": "Saat jam istirahat di kantin sekolah, Fajar menemukan selembar uang Rp20.000 di dekat meja kasir. Keadaan kantin saat itu sangat ramai dan tidak ada satu pun orang yang melihatnya. Tindakan Fajar yang mencerminkan penerapan akhlak jujur yang benar adalah...",
         "opt": [
           "A. Menyimpan uang tersebut ke dalam saku untuk disumbangkan saat hari Jum'at",
@@ -2966,7 +3701,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Raka sedang melaksanakan salat Zuhur sendirian di kamarnya. Tiba-tiba di rakaat terakhir ia merasa ragu-ragu apakah dirinya baru melaksanakan 3 rakaat atau sudah 4 rakaat. Berdasarkan tata cara fikih yang benar, langkah yang harus dilakukan Raka adalah...",
         "opt": [
           "A. Mengabaikan keraguan tersebut dan langsung melakukan salam penutup",
@@ -2976,7 +3711,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Sejarah perkembangan Islam mencatat berdirinya kekhalifahan besar setelah masa Khulafaur Rasyidin. Kekhalifahan pertama dalam Islam yang berpusat di kota Damaskus dan didirikan oleh Muawiyah bin Abi Sufyan adalah Daulah...",
         "opt": [
           "A. Daulah Abbasiyah",
@@ -2986,7 +3721,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A",
+        "type": "PG",
         "q": "Dalam Al-Qur'an Surah Luqman ayat 13, Luqman memberikan nasihat yang sangat berharga kepada anaknya sebagai fondasi kehidupan. Inti ajaran paling utama yang disampaikan Luqman kepada anaknya tersebut adalah...",
         "opt": [
           "A. Larangan mempersekutukan Allah (syirik) karena merupakan kezaliman yang besar",
@@ -2996,7 +3731,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B & C",
+        "type": "PG",
         "q": "Khotbah Jum'at merupakan bagian penting yang wajib ada dalam pelaksanaan rangkaian ibadah Salat Jum'at. Di antara pernyataan berikut, manakah dua hal yang termasuk dalam rukun khotbah Jum'at?",
         "opt": [
           "A. Khatib harus berdiri di atas mimbar yang tinggi saat berkhotbah",
@@ -3006,7 +3741,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A & B",
+        "type": "PG",
         "q": "Sebelum berangkat ke masjid untuk melaksanakan Salat Jum'at, umat Islam dianjurkan untuk melakukan amalan-amalan sunnah demi meraih pahala yang mulia. Manakah dua contoh amalan sunnah sebelum Salat Jum'at di bawah ini?",
         "opt": [
           "A. Membersihkan badan dengan cara mandi Jum'at sebelum berangkat",
@@ -3016,8 +3751,8 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A & B",
-        "q": "Perhatikan arti firman Allah Swt. berikut ini!",
+        "type": "PG",
+        "q": "Perhatikan arti firman Allah Swt. berikut ini!\n\"Wahai orang-orang yang beriman! Apabila telah diseru untuk melaksanakan salat pada hari Jum'at, maka segeralah kamu mengingat Allah dan tinggalkanlah jual beli. Yang demikian itu lebih baik bagimu jika kamu mengetahui.\"\nBerdasarkan arti terjemahan di atas, manakah dua pernyataan yang benar mengenai identitas ayat tersebut?",
         "opt": [
           "A. Ayat di atas tercantum di dalam Surah al-Jumu'ah",
           "B. Ayat di atas merupakan Surah al-Jumu'ah ayat yang ke-9",
@@ -3026,7 +3761,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A & B",
+        "type": "PG",
         "q": "Daulah Bani Abbasiyah melahirkan banyak ilmuwan hebat yang penemuannya masih digunakan hingga saat ini. Al-Khwarizmi merupakan salah satu tokoh matematika Muslim terkemuka pada masa itu. Manakah dua karya ilmiah besar yang berhasil ditemukan oleh Al-Khwarizmi?",
         "opt": [
           "A. Teori matematika penulisan angka nol (0)",
@@ -3036,7 +3771,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A & C",
+        "type": "PG",
         "q": "Para pelajar muslim diharapkan dapat meniru kegigihan para ilmuwan masa Daulah Abbasiyah dalam mengembangkan ilmu pengetahuan. Manakah dua tindakan harian siswa SMP yang mencerminkan keteladanan tersebut?",
         "opt": [
           "A. Aktif berdiskusi di perpustakaan sekolah untuk membahas materi pelajaran",
@@ -3046,7 +3781,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "A & B",
+        "type": "PG",
         "q": "Fikih ibadah mengajarkan kita cara menjaga kesucian diri sebelum menghadap Allah Swt. Di bawah ini, manakah dua hal yang dapat membatalkan keadaan wudhu seseorang secara sah?",
         "opt": [
           "A. Keluarnya sesuatu dari jalan depan (qubul) maupun jalan belakang (dubur)",
@@ -3056,32 +3791,32 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Sesuai dengan ketentuan fikih, seorang muslim yang sedang melakukan perjalanan jauh (musafir) dengan tujuan baik diperbolehkan untuk tidak melaksanakan Salat Jum'at di masjid dan menggantinya dengan melaksanakan salat Zuhur biasa sebanyak 4 rakaat.\nJawaban Anda (B / S): ________________",
         "opt": []
       },
       {
-        "type": "S",
+        "type": "PG",
         "q": "Mengobrol, bercanda, atau bermain HP saat khatib sedang membacakan khotbah di atas mimbar secara langsung dapat menyebabkan ibadah Salat Jum'at orang tersebut menjadi batal total secara hukum fikih dan ia wajib segera mengulanginya dengan salat Zuhur.\nJawaban Anda (B / S): ________________",
         "opt": []
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Perpustakaan Baitul Hikmah yang menjadi simbol kejayaan sains umat Islam mencapai puncak keemasan perkembangannya pada masa kepemimpinan Khalifah Al-Ma'mun dari Daulah Bani Abbasiyah.\nJawaban Anda (B / S): ________________",
         "opt": []
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Bagi seorang pelajar SMP, mencintai ilmu pengetahuan alam (sains) secara berlebihan hingga mengabaikan kewajiban beribadah salat lima waktu di sekolah merupakan tindakan yang menyimpang dari prinsip seimbang para ilmuwan Muslim di zaman Daulah Abbasiyah.\nJawaban Anda (B / S): ________________",
         "opt": []
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Dalam ilmu akidah Islam, hari kebangkitan seluruh manusia dari alam kubur setelah terjadinya peristiwa kiamat besar dinamakan dengan istilah Yaumul Ba'ats.\nJawaban Anda (B / S): ________________",
         "opt": []
       },
       {
-        "type": "B",
+        "type": "PG",
         "q": "Wujud nyata menghormati guru di sekolah adalah dengan mendengarkan penjelasan materi pelajaran di kelas secara fokus serta tidak memotong pembicaraan ketika guru sedang menerangkan pelajaran.\nJawaban Anda (B / S): ________________\nKUNCI JAWABAN DAN ANALISIS PEMBAHASAN SOAL\nPAKET 2: FIKIH & SKI (SALAT JUM'AT & IPTEK BANI ABBASIYAH)",
         "opt": []
       }
@@ -3095,7 +3830,7 @@ const DATA_LATIHAN_V2 = {
     "judul": "Paket 4: Latihan 2 Fikih SKI - Jenazah & Turki Usmani",
     "soal": [
       {
-        "type": "B",
+        "type": "PG",
         "q": "Perhatikan lafal potongan ayat di bawah ini!\nوَلٰكِنْ مَّنْ شَرَحَ بِالْكُفْرِ صَدْرًا\nHukum tajwid pada huruf yang bergaris bawah (huruf nun mati bertemu syin) pada lafal tersebut adalah...",
         "opt": [
           "A. Izhar Halqi karena dibaca jelas dan terang",
@@ -3146,6 +3881,9 @@ const DATA_LATIHAN_V2 = {
           "B. Membuat udara di sekitar sekolah menjadi lebih segar dan terhindar dari banjir",
           "C. Mendapatkan pujian dari kepala sekolah agar terpilih menjadi murid paling populer",
           "D. Mengurangi jatah waktu belajar kelas agar siswa bisa bermain di luar kelas lebih lama"
+        ],
+        "a": [
+          1
         ]
       }
     ]
