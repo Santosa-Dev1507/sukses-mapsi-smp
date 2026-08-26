@@ -245,6 +245,43 @@ var infoLatihan = {
         ikon: "assignment",
         warna: "primary"
     },
+
+    "paket-1-latihan-2-fikih-ski": {
+        judul: "Paket 1: Latihan 2 Fikih SKI - Sujud Sahwi & Bani Umayyah",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-2-latihan-2-fikih-ski": {
+        judul: "Paket 2: Latihan 2 Fikih SKI - Salat Jumat & Peradaban Abbasiyah",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-3-latihan-2-fikih-ski": {
+        judul: "Paket 3: Latihan 2 Fikih SKI - Haji/Umrah & Daulah Fatimiyah",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-4-latihan-2-fikih-ski": {
+        judul: "Paket 4: Latihan 2 Fikih SKI - Jenazah & Turki Usmani",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-5-latihan-2-fikih-ski": {
+        judul: "Paket 5: Latihan 2 Fikih SKI - Kurban, Akikah & Syafawi/Mughal",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    },
+    "paket-6-latihan-2-fikih-ski": {
+        judul: "Paket 6: Latihan 2 Fikih SKI - Rukhshah & Mughal India",
+        subjudul: "Latihan Harian Variasi 2 (24 Soal)",
+        ikon: "assignment",
+        warna: "primary"
+    }
 };
 
 // Daftar set soal yang bisa dipilih guru di Dashboard Guru
@@ -302,5 +339,12 @@ var DAFTAR_SOAL = [
     { id: "paket-3-latihan-2-aqidah-kitaballah", label: "Paket 3: Latihan 2 Aqidah - Kitab-kitab Allah" },
     { id: "paket-4-latihan-2-aqidah-rasulallah", label: "Paket 4: Latihan 2 Aqidah - Rasul-rasul Allah" },
     { id: "paket-5-latihan-2-aqidah-hariakhir", label: "Paket 5: Latihan 2 Aqidah - Hari Kiamat" },
-    { id: "paket-6-latihan-2-aqidah-qadaqadar", label: "Paket 6: Latihan 2 Aqidah - Qada dan Qadar" }
+    { id: "paket-6-latihan-2-aqidah-qadaqadar", label: "Paket 6: Latihan 2 Aqidah - Qada dan Qadar" },
+    // --- KELOMPOK 6: LATIHAN HARIAN V2 (FIKIH & SKI) ---
+    { id: "paket-1-latihan-2-fikih-ski", label: "Paket 1: Latihan 2 Fikih SKI - Sujud Sahwi & Bani Umayyah" },
+    { id: "paket-2-latihan-2-fikih-ski", label: "Paket 2: Latihan 2 Fikih SKI - Salat Jumat & Peradaban Abbasiyah" },
+    { id: "paket-3-latihan-2-fikih-ski", label: "Paket 3: Latihan 2 Fikih SKI - Haji/Umrah & Daulah Fatimiyah" },
+    { id: "paket-4-latihan-2-fikih-ski", label: "Paket 4: Latihan 2 Fikih SKI - Jenazah & Turki Usmani" },
+    { id: "paket-5-latihan-2-fikih-ski", label: "Paket 5: Latihan 2 Fikih SKI - Kurban, Akikah & Syafawi/Mughal" },
+    { id: "paket-6-latihan-2-fikih-ski", label: "Paket 6: Latihan 2 Fikih SKI - Rukhshah & Mughal India" }
 ];
