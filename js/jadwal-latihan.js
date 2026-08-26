@@ -208,7 +208,7 @@ var infoLatihan = {
         ikon: "assignment",
         warna: "primary"
     },
-,
+
     "paket-1-latihan-2-aqidah-asmaulhusna": {
         judul: "Paket 1: Latihan 2 Aqidah - Asmaul Husna",
         subjudul: "Latihan Harian Variasi 2 (24 Soal)",
