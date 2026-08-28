@@ -1589,17 +1589,23 @@ const DATA_LATIHAN_V2 = {
         "type": "PG",
         "q": "Perhatikan potongan Q.S. al-Baqarah/2: 155 berikut:\nوَلَنَبْلُوَنَّكُمْ بِشَيْءٍ مِّنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنْفُسِ وَالثَّمَرَاتِۗ\nApakah arti dari potongan kata yang dicetak tebal (وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنْفُسِ) pada ayat di atas?",
         "opt": [
-          "Siksaan yang pedih berupa badai dan kelaparan ekstrem\nB. Berkurangnya rasa aman serta menyebarnya wabah penyakit menular\nC. Dan hilangnya kesempatan untuk memperoleh keturunan yang saleh\nD. Dan kekurangan harta benda, kehilangan jiwa (kematian)"
+          "Siksaan yang pedih berupa badai dan kelaparan ekstrem",
+          "Berkurangnya rasa aman serta menyebarnya wabah penyakit menular",
+          "Dan hilangnya kesempatan untuk memperoleh keturunan yang saleh",
+          "Dan kekurangan harta benda, kehilangan jiwa (kematian)"
         ],
         "a": [
-          2
+          3
         ]
       },
       {
         "type": "PG",
         "q": "Perhatikan kembali penggalan akhir Q.S. al-Baqarah/2: 155 berikut ini:\n...وَبَشِّرِ الصّٰبِرِيْنَ\nHukum tajwid apakah yang terjadi apabila kita menghentikan bacaan (waqaf) pada kata yang dicetak tebal di atas?",
         "opt": [
-          "Mad Thabi'i karena harakat kasrah bertemu huruf ya sukun\nB. Mad 'Arid Lissukun karena mad asli bertemu huruf hidup yang dibaca sukun akibat waqaf\nC. Mad Iwadl karena huruf tanwin fathah di akhir kalimat dibaca panjang\nD. Al-Syamsiyah karena huruf alif lam bertemu dengan huruf shad yang bertasydid"
+          "Mad Thabi'i karena harakat kasrah bertemu huruf ya sukun",
+          "Mad 'Arid Lissukun karena mad asli bertemu huruf hidup yang dibaca sukun akibat waqaf",
+          "Mad Iwadl karena huruf tanwin fathah di akhir kalimat dibaca panjang",
+          "Al-Syamsiyah karena huruf alif lam bertemu dengan huruf shad yang bertasydid"
         ],
         "a": [
           1
@@ -1609,27 +1615,49 @@ const DATA_LATIHAN_V2 = {
         "type": "PG",
         "q": "Ketika tertimpa musibah, orang beriman yang sabar diajarkan untuk mengucapkan kalimat istirja' (اِنَّا لِلّٰهِ وَاِنَّآ اِلَيْهِ رٰجِعُوْنَ). Berdasarkan kandungan teologis Q.S. al-Baqarah/2: 156, apakah makna mendalam dari kalimat istirja' tersebut?",
         "opt": [
-          "Pengakuan bahwa musibah hanyalah siksaan dunia yang sia-sia\nB. Permohonan agar Allah Swt. melipatgandakan kekayaan kita setelah musibah lewat\nC. Kesadaran total bahwa diri kita adalah milik Allah Swt. dan pasti akan kembali kepada-Nya\nD. Ungkapan rasa putus asa karena merasa cobaan hidup terlalu berat untuk dipikul"
+          "Pengakuan bahwa musibah hanyalah siksaan dunia yang sia-sia",
+          "Permohonan agar Allah Swt. melipatgandakan kekayaan kita setelah musibah lewat",
+          "Kesadaran total bahwa diri kita adalah milik Allah Swt. dan pasti akan kembali kepada-Nya",
+          "Ungkapan rasa putus asa karena merasa cobaan hidup terlalu berat untuk dipikul"
         ],
         "a": [
-          1
+          2
         ]
       },
       {
         "type": "PG",
         "q": "Fajar sangat ingin masuk ke dalam tim inti futsal SMP Harapan Bangsa. Namun, setelah mengikuti seleksi ketat, namanya tidak tercantum dalam daftar tim inti yang dirilis pelatih. Sesuai ajaran bersikap sabar aktif dalam Q.S. al-Baqarah/2: 155, bagaimanakah sikap Fajar yang paling terpuji?",
         "opt": [
-          "Menerima dengan ikhlas, tetap rajin berlatih mandiri, dan mengevaluasi kekurangan teknik bermainnya\nB. Menuduh pelatih bersikap tidak adil dan memutuskan untuk berhenti bermain futsal selamanya\nC. Pura-pura tidak peduli dan mencari ekstrakurikuler lain agar tidak diejek teman kelas\nD. Memaksa orang tuanya untuk protes ke pihak sekolah agar ia dimasukkan ke tim inti"
+          "Menerima dengan ikhlas, tetap rajin berlatih mandiri, dan mengevaluasi kekurangan teknik bermainnya",
+          "Menuduh pelatih bersikap tidak adil dan memutuskan untuk berhenti bermain futsal selamanya",
+          "Pura-pura tidak peduli dan mencari ekstrakurikuler lain agar tidak diejek teman kelas",
+          "Memaksa orang tuanya untuk protes ke pihak sekolah agar ia dimasukkan ke tim inti"
         ],
         "a": [
-          1
+          0
         ]
       },
       {
         "type": "PG",
         "q": "Saat jam istirahat sekolah selesai, Lutfi menyadari bahwa dompetnya yang berisi kartu OSIS dan uang saku telah hilang di lapangan sekolah. Spontan, ia mengucapkan kalimat istirja' dengan tenang lalu melaporkannya ke guru piket. Tindakan Lutfi mencerminkan...",
         "opt": [
-          "Sikap pasrah yang lemah tanpa mau berusaha mencari barangnya kembali\nB. Ketergesaan mengambinghitamkan teman kelas yang terakhir berpapasan dengannya\nC. Pengendalian emosi yang matang dan keyakinan bahwa segala sesuatu adalah titipan Allah Swt.\nD. Rasa tidak peduli karena ia bisa meminta uang saku baru kepada orang tuanya"
+          "Sikap pasrah yang lemah tanpa mau berusaha mencari barangnya kembali",
+          "Ketergesaan mengambinghitamkan teman kelas yang terakhir berpapasan dengannya",
+          "Pengendalian emosi yang matang dan keyakinan bahwa segala sesuatu adalah titipan Allah Swt.",
+          "Rasa tidak peduli karena ia bisa meminta uang saku baru kepada orang tuanya"
+        ],
+        "a": [
+          2
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Saat mengantre makanan di kantin sekolah yang ramai, bahu Danu tidak sengaja disenggol dengan keras oleh salah seorang adik kelas hingga kuah baksonya sedikit tumpah. Danu menahan amarahnya, menarik napas dalam, dan menerima permintaan maaf adik kelas itu dengan tersenyum. Danu telah menerapkan prinsip sabar menghadapi sesama manusia, karena ia menyadari...",
+        "opt": [
+          "Menghukum adik kelas akan menurunkan reputasinya sebagai siswa senior",
+          "Sabar menahan amarah adalah bagian dari menjaga kehormatan diri dan persaudaraan sesama muslim",
+          "Adik kelas tersebut pasti memiliki fisik yang lebih kuat sehingga ia takut melawannya",
+          "Peristiwa tersebut disaksikan oleh banyak guru yang sedang mengawasi kantin"
         ],
         "a": [
           1
@@ -1637,19 +1665,12 @@ const DATA_LATIHAN_V2 = {
       },
       {
         "type": "PG",
-        "q": "Saat mengantre makanan di kantin sekolah yang ramai, bahu Danu tidak sengaja disenggol dengan keras oleh salah seorang adik kelas hingga kuah baksonya sedikit tumpah. Danu menahan amarahnya, menarik napas dalam, dan menerima permintaan maaf adik kelas itu dengan tersenyum. Danu telah menerapkan prinsip sabar menghadapi sesama manusia, karena ia menyadari...",
-        "opt": [
-          "Menghukum adik kelas akan menurunkan reputasinya sebagai siswa senior\nB. Sabar menahan amarah adalah bagian dari menjaga kehormatan diri dan persaudaraan sesama muslim\nC. Adik kelas tersebut pasti memiliki fisik yang lebih kuat sehingga ia takut melawannya\nD. Peristiwa tersebut disaksikan oleh banyak guru yang sedang mengawasi kantin"
-        ],
-        "a": [
-          3
-        ]
-      },
-      {
-        "type": "PG",
         "q": "Fariz berteman dengan sekelompok anak di luar sekolah yang sering mengajaknya ikut serta dalam tawuran dan balapan liar. Sadar bahwa perbuatan tersebut sangat dilarang oleh Allah Swt. dan diawasi oleh malaikat penjaga pintu neraka, Fariz dengan tegas menolak dan menjauhi lingkaran pertemanan buruk tersebut. Malaikat Allah Swt. yang bertugas menjaga pintu neraka yang diyakini Fariz bernama...",
         "opt": [
-          "Malaikat Ridwan\nB. Malaikat Malik\nC. Malaikat Izrail\nD. Malaikat Israfil"
+          "Malaikat Ridwan",
+          "Malaikat Malik",
+          "Malaikat Izrail",
+          "Malaikat Israfil"
         ],
         "a": [
           1
@@ -1659,17 +1680,23 @@ const DATA_LATIHAN_V2 = {
         "type": "PG",
         "q": "Alya telah belajar dengan giat setiap malam dan berdoa sungguh-sungguh untuk menghadapi ujian kelulusan tingkat SMP. Ketika hasil pengumuman keluar, ternyata Alya belum berhasil meraih peringkat pertama di sekolahnya. Alya menerima kenyataan tersebut dengan tenang dan berprasangka baik bahwa ketentuan Allah Swt. adalah yang terbaik. Sikap Alya merupakan bukti keimanan terhadap...",
         "opt": [
-          "Kitab-kitab suci terdahulu sebelum Al-Qur'an\nB. Hari akhir dan kehidupan setelah kematian\nC. Qada' dan Qadar Allah Swt.\nD. Sifat-sifat mustahil bagi para rasul"
+          "Kitab-kitab suci terdahulu sebelum Al-Qur'an",
+          "Hari akhir dan kehidupan setelah kematian",
+          "Qada' dan Qadar Allah Swt.",
+          "Sifat-sifat mustahil bagi para rasul"
         ],
         "a": [
-          3
+          2
         ]
       },
       {
         "type": "PG",
         "q": "Rian melihat sahabat karibnya, Bagas, membawa handphone baru berspesifikasi tinggi pemberian orang tuanya ke sekolah. Di dalam hati Rian, sempat muncul rasa kesal dan berandai-andai agar handphone Bagas tersebut rusak atau hilang. Namun, Rian segera beristighfar dan menepis perasaan buruk tersebut. Perilaku tercela yang coba dihindari oleh Rian adalah...",
         "opt": [
-          "Hasad (iri hati)\nB. Ghibah (menggunjing)\nC. Riya' (pamer)\nD. Namimah (adu domba)"
+          "Hasad (iri hati)",
+          "Ghibah (menggunjing)",
+          "Riya' (pamer)",
+          "Namimah (adu domba)"
         ],
         "a": [
           0
@@ -1679,7 +1706,23 @@ const DATA_LATIHAN_V2 = {
         "type": "PG",
         "q": "Saat panitia OSIS menyelenggarakan donasi dana sosial untuk korban bencana alam di aula sekolah, Zaki sengaja memberikan sumbangan dalam jumlah besar hanya ketika teman-teman kelasnya sedang ramai berkumpul di sekeliling kotak amal agar ia dipuji sebagai anak yang dermawan. Perilaku Zaki tersebut tergolong sebagai penyakit hati yaitu...",
         "opt": [
-          "Nifak\nB. Riya' dan Sum'ah\nC. Hasad\nD. Takabur"
+          "Nifak",
+          "Riya' dan Sum'ah",
+          "Hasad",
+          "Takabur"
+        ],
+        "a": [
+          1
+        ]
+      },
+      {
+        "type": "PG",
+        "q": "Siswa SMP Bina Bangsa sedang melakukan kegiatan studi wisata (outing class) ke luar kota dengan rute perjalanan menempuh jarak lebih dari 90 kilometer. Karena waktu Zuhur telah masuk di tengah perjalanan, guru pendamping mengajak siswa untuk melakukan salat Zuhur dan Ashar sekaligus secara bersamaan di rest area masjid terdekat dengan meringkas rakaatnya menjadi masing-masing 2 rakaat. Kemudahan beribadah (rukhsah) ini dinamakan...",
+        "opt": [
+          "Salat Jamak Taqdim",
+          "Salat Qashar Munfarid",
+          "Salat Jamak Qashar",
+          "Salat Jamak Takhir Khauf"
         ],
         "a": [
           2
@@ -1687,29 +1730,39 @@ const DATA_LATIHAN_V2 = {
       },
       {
         "type": "PG",
-        "q": "Siswa SMP Bina Bangsa sedang melakukan kegiatan studi wisata (outing class) ke luar kota dengan rute perjalanan menempuh jarak lebih dari 90 kilometer. Karena waktu Zuhur telah masuk di tengah perjalanan, guru pendamping mengajak siswa untuk melakukan salat Zuhur dan Ashar sekaligus secara bersamaan di rest area masjid terdekat dengan meringkas rakaatnya menjadi masing-masing 2 rakaat. Kemudahan beribadah (rukhsah) ini dinamakan...",
-        "opt": [
-          "Salat Jamak Taqdim\nB. Salat Qashar Munfarid\nC. Salat Jamak Qashar\nD. Salat Jamak Takhir Khauf"
-        ],
-        "a": [
-          1
-        ]
-      },
-      {
-        "type": "PG",
         "q": "Sultan Shah Jahan mendirikan sebuah monumen makam marmer putih yang sangat indah dan megah di kota Agra untuk mengenang mendiang istri tercintanya, Mumtaz Mahal. Bangunan bersejarah peninggalan Daulah Mughal di India yang kini menjadi salah satu keajaiban dunia ini bernama...",
         "opt": [
-          "Taj Mahal\nB. Benteng Merah (Red Fort)\nC. Istana Al-Hamra\nD. Masjid Jami' Delhi"
+          "Taj Mahal",
+          "Benteng Merah (Red Fort)",
+          "Istana Al-Hamra",
+          "Masjid Jami' Delhi"
         ],
         "a": [
-          1
+          0
         ]
       },
       {
         "type": "PGK",
         "q": "Sabar merupakan pilar akhlak mulia yang sangat luas cakupannya dalam kehidupan seorang muslim. Berdasarkan klasifikasi para ulama, manakah di antara tindakan berikut yang termasuk ke dalam kategori sabar dalam ketaatan kepada Allah Swt.? (Pilihlah semua jawaban benar yang sesuai)",
         "opt": [
-          "Tetap istiqamah bangun pagi untuk mendirikan salat Subuh tepat waktu meskipun udara sangat dingin\n[  ] B. Menolak dengan tegas ajakan membolos sekolah meskipun diiming-imingi traktiran oleh teman\n[  ] C. Menahan lisan agar tidak mengeluh dan mengumpat saat terkena musibah banjir bandang\n[  ] D. Bersungguh-sungguh belajar menyisihkan waktu bermain game demi menghafal ayat-asajdah Al-Qur'an"
+          "Tetap istiqamah bangun pagi untuk mendirikan salat Subuh tepat waktu meskipun udara sangat dingin",
+          "Menolak dengan tegas ajakan membolos sekolah meskipun diiming-imingi traktiran oleh teman",
+          "Menahan lisan agar tidak mengeluh dan mengumpat saat terkena musibah banjir bandang",
+          "Bersungguh-sungguh belajar menyisihkan waktu bermain game demi menghafal ayat-asajdah Al-Qur'an"
+        ],
+        "a": [
+          0,
+          3
+        ]
+      },
+      {
+        "type": "PGK",
+        "q": "Roni mendapati nilai ujian matematika miliknya berada di bawah standar ketuntasan minimal (KKM). Sesuai ajaran sabar menghadapi kegagalan dan cobaan hidup, manakah tindakan-tindakan berikut yang mencerminkan sikap sabar aktif dan terpuji bagi Roni? (Pilihlah semua jawaban benar yang sesuai)",
+        "opt": [
+          "Menerima dengan lapang dada tanpa rasa marah kepada guru matematika",
+          "Meminta bantuan teman sebangku yang lebih paham untuk mengajarinya materi yang sulit",
+          "Memutuskan untuk tidak belajar lagi karena merasa dirinya memang tidak berbakat dalam matematika",
+          "Menyusun jadwal belajar baru yang lebih disiplin untuk mempersiapkan diri menghadapi ujian perbaikan (remedial)"
         ],
         "a": [
           0,
@@ -1719,9 +1772,12 @@ const DATA_LATIHAN_V2 = {
       },
       {
         "type": "PGK",
-        "q": "Roni mendapati nilai ujian matematika miliknya berada di bawah standar ketuntasan minimal (KKM). Sesuai ajaran sabar menghadapi kegagalan dan cobaan hidup, manakah tindakan-tindakan berikut yang mencerminkan sikap sabar aktif dan terpuji bagi Roni? (Pilihlah semua jawaban benar yang sesuai)",
+        "q": "Sesuai kandungan Q.S. al-Baqarah/2: 156, orang yang sabar ketika tertimpa musibah akan mengucapkan kalimat istirja' dan berpasrah diri kepada Allah Swt. Sebagai teman sekelas yang baik, tindakan kepedulian sosial apakah yang bernilai ibadah saat menghibur teman sekelas yang sedang berduka karena orang tuanya wafat? (Pilihlah semua jawaban benar yang sesuai)",
         "opt": [
-          "Menerima dengan lapang dada tanpa rasa marah kepada guru matematika\n[  ] B. Meminta bantuan teman sebangku yang lebih paham untuk mengajarinya materi yang sulit\n[  ] C. Memutuskan untuk tidak belajar lagi karena merasa dirinya memang tidak berbakat dalam matematika\n[  ] D. Menyusun jadwal belajar baru yang lebih disiplin untuk mempersiapkan diri menghadapi ujian perbaikan (remedial)"
+          "Menjenguk (takziyah) ke rumah duka bersama perwakilan kelas dan guru wali kelas",
+          "Mengajak teman yang sedang berduka tersebut bercanda berlebihan agar ia segera melupakan kesedihannya",
+          "Mendoakan jenazah orang tuanya agar diampuni segala kesalahannya oleh Allah Swt.",
+          "Memberikan dukungan emosional dengan mendengarkan curahan hatinya secara tulus tanpa menghakimi"
         ],
         "a": [
           0,
@@ -1731,32 +1787,27 @@ const DATA_LATIHAN_V2 = {
       },
       {
         "type": "PGK",
-        "q": "Sesuai kandungan Q.S. al-Baqarah/2: 156, orang yang sabar ketika tertimpa musibah akan mengucapkan kalimat istirja' dan berpasrah diri kepada Allah Swt. Sebagai teman sekelas yang baik, tindakan kepedulian sosial apakah yang bernilai ibadah saat menghibur teman sekelas yang sedang berduka karena orang tuanya wafat? (Pilihlah semua jawaban benar yang sesuai)",
-        "opt": [
-          "Menjenguk (takziyah) ke rumah duka bersama perwakilan kelas dan guru wali kelas\n[  ] B. Mengajak teman yang sedang berduka tersebut bercanda berlebihan agar ia segera melupakan kesedihannya\n[  ] C. Mendoakan jenazah orang tuanya agar diampuni segala kesalahannya oleh Allah Swt.\n[  ] D. Memberikan dukungan emosional dengan mendengarkan curahan hatinya secara tulus tanpa menghakimi"
-        ],
-        "a": [
-          0,
-          2
-        ]
-      },
-      {
-        "type": "PGK",
         "q": "Ibadah kurban dilaksanakan pada Hari Raya Idul Adha dan hari tasyrik. Agar pelaksanaan ibadah kurban dinilai sah secara syariat Islam, kriteria fisik dan usia hewan kurban manakah yang wajib dipenuhi oleh pekurban? (Pilihlah semua jawaban benar yang sesuai)",
         "opt": [
-          "Kambing atau domba yang telah genap berusia minimal 1 tahun dan gigi serinya telah tanggal (musinnah)\n[  ] B. Sapi atau kerbau yang telah genap berusia minimal 2 tahun memasuki tahun ketiga\n[  ] C. Hewan ternak yang dalam kondisi sehat walafiat, tidak pincang, tidak buta, dan tidak sangat kurus\n[  ] D. Hewan ternak jenis apa saja yang penting harganya mahal meskipun kondisinya sedang sakit parah"
+          "Kambing atau domba yang telah genap berusia minimal 1 tahun dan gigi serinya telah tanggal (musinnah)",
+          "Sapi atau kerbau yang telah genap berusia minimal 2 tahun memasuki tahun ketiga",
+          "Hewan ternak yang dalam kondisi sehat walafiat, tidak pincang, tidak buta, dan tidak sangat kurus",
+          "Hewan ternak jenis apa saja yang penting harganya mahal meskipun kondisinya sedang sakit parah"
         ],
         "a": [
           0,
           1,
-          3
+          2
         ]
       },
       {
         "type": "PGK",
         "q": "Puncak kejayaan Daulah Syafawi di Persia dicapai di bawah kepemimpinan Shah Abbas I. Manakah di antara langkah strategis atau pencapaian monumental berikut yang terjadi pada masa pemerintahan beliau? (Pilihlah semua jawaban benar yang sesuai)",
         "opt": [
-          "Memindahkan ibu kota Daulah Syafawi dari Qazvin ke Isfahan pada tahun 1598 M\n[  ] B. Membentuk pasukan militer khusus Ghulam yang loyal langsung kepada sultan\n[  ] C. Membangun kota baru Kairawan sebagai benteng pertahanan militer utama di Afrika Utara\n[  ] D. Menjalin hubungan perdagangan dan diplomasi internasional dengan negara-negara Eropa"
+          "Memindahkan ibu kota Daulah Syafawi dari Qazvin ke Isfahan pada tahun 1598 M",
+          "Membentuk pasukan militer khusus Ghulam yang loyal langsung kepada sultan",
+          "Membangun kota baru Kairawan sebagai benteng pertahanan militer utama di Afrika Utara",
+          "Menjalin hubungan perdagangan dan diplomasi internasional dengan negara-negara Eropa"
         ],
         "a": [
           0,
@@ -1768,7 +1819,10 @@ const DATA_LATIHAN_V2 = {
         "type": "PGK",
         "q": "Di dalam Q.S. az-Zumar/39: 9, Allah Swt. menegaskan perbedaan derajat antara orang yang berilmu dengan orang yang tidak berilmu, serta menyebut kelompok pencari ilmu yang berzikir dan berpikir sebagai Ulul Albab. Siapakah yang dimaksud dengan Ulul Albab tersebut? (Pilihlah semua jawaban benar yang sesuai)",
         "opt": [
-          "Orang yang memiliki akal pikiran yang sehat dan menggunakan akalnya untuk merenungi keagungan ciptaan Allah Swt.\n[  ] B. Orang yang selalu menyeimbangkan antara aktivitas zikir di waktu malam dengan aktivitas menuntut ilmu di waktu siang\n[  ] C. Orang yang menghafal seluruh teori sains barat namun mengabaikan keberadaan syariat agama Allah Swt.\n[  ] D. Orang yang mengambil pelajaran dari setiap kejadian alam semesta untuk meningkatkan keimanan dan ketakwaan kepada Allah Swt."
+          "Orang yang memiliki akal pikiran yang sehat dan menggunakan akalnya untuk merenungi keagungan ciptaan Allah Swt.",
+          "Orang yang selalu menyeimbangkan antara aktivitas zikir di waktu malam dengan aktivitas menuntut ilmu di waktu siang",
+          "Orang yang menghafal seluruh teori sains barat namun mengabaikan keberadaan syariat agama Allah Swt.",
+          "Orang yang mengambil pelajaran dari setiap kejadian alam semesta untuk meningkatkan keimanan dan ketakwaan kepada Allah Swt."
         ],
         "a": [
           0,
@@ -1795,7 +1849,7 @@ const DATA_LATIHAN_V2 = {
           "SALAH"
         ],
         "a": [
-          0
+          1
         ]
       },
       {
@@ -1806,7 +1860,7 @@ const DATA_LATIHAN_V2 = {
           "SALAH"
         ],
         "a": [
-          1
+          0
         ]
       },
       {
@@ -1839,7 +1893,7 @@ const DATA_LATIHAN_V2 = {
           "SALAH"
         ],
         "a": [
-          1
+          0
         ]
       }
     ]
@@ -4075,7 +4129,7 @@ const DATA_LATIHAN_V2 = {
           "Berdiri terus sampai khatib selesai berkhotbah baru kemudian ikut salat berjamaah"
         ],
         "a": [
-          1
+          2
         ]
       },
       {
@@ -4088,7 +4142,7 @@ const DATA_LATIHAN_V2 = {
           "Mendapat pahala ganda karena menolong teman yang membutuhkan"
         ],
         "a": [
-          2
+          1
         ]
       },
       {
@@ -4140,7 +4194,7 @@ const DATA_LATIHAN_V2 = {
           "مِنَ النَّارِ"
         ],
         "a": [
-          0
+          3
         ]
       },
       {
@@ -4153,7 +4207,7 @@ const DATA_LATIHAN_V2 = {
           "Malaikat Ridwan"
         ],
         "a": [
-          2
+          1
         ]
       },
       {
@@ -4166,7 +4220,7 @@ const DATA_LATIHAN_V2 = {
           "Membiarkan saja uang tersebut tergeletak di lantai agar diambil oleh orang lain"
         ],
         "a": [
-          1
+          2
         ]
       },
       {
@@ -4192,7 +4246,7 @@ const DATA_LATIHAN_V2 = {
           "Daulah Usmani"
         ],
         "a": [
-          2
+          1
         ]
       },
       {
@@ -4205,7 +4259,7 @@ const DATA_LATIHAN_V2 = {
           "Perintah untuk mendirikan salat lima waktu secara tepat waktu"
         ],
         "a": [
-          1
+          0
         ]
       },
       {
@@ -4218,9 +4272,8 @@ const DATA_LATIHAN_V2 = {
           "Menggunakan bahasa Arab yang fasih untuk menerangkan seluruh isi materi"
         ],
         "a": [
-          0,
           1,
-          3
+          2
         ]
       },
       {
@@ -4234,8 +4287,7 @@ const DATA_LATIHAN_V2 = {
         ],
         "a": [
           0,
-          1,
-          3
+          1
         ]
       },
       {
@@ -4249,7 +4301,7 @@ const DATA_LATIHAN_V2 = {
         ],
         "a": [
           0,
-          2
+          1
         ]
       },
       {
@@ -4277,7 +4329,7 @@ const DATA_LATIHAN_V2 = {
         ],
         "a": [
           0,
-          1
+          2
         ]
       },
       {
@@ -4291,8 +4343,7 @@ const DATA_LATIHAN_V2 = {
         ],
         "a": [
           0,
-          1,
-          3
+          1
         ]
       },
       {
@@ -4336,7 +4387,7 @@ const DATA_LATIHAN_V2 = {
           "SALAH"
         ],
         "a": [
-          1
+          0
         ]
       },
       {
@@ -4658,7 +4709,7 @@ const DATA_LATIHAN_V2 = {
           "SALAH"
         ],
         "a": [
-          1
+          0
         ]
       },
       {
@@ -4919,68 +4970,68 @@ const DATA_LATIHAN_V2 = {
       },
       {
         "type": "BS",
-        "a": [
-          0
-        ],
-        "q": "Hukum asal menshalatkan jenazah seorang muslim yang meninggal dunia adalah fardhu kifayah, yang berarti jika sudah ada sebagian kaum muslimin yang melaksanakannya maka kewajiban tersebut gugur dari seluruh anggota masyarakat muslim lainnya.",
+        "q": "Hukum asal menshalatkan jenazah seorang muslim yang meninggal dunia adalah fardhu kifayah, yang berarti jika sebagian orang dalam satu wilayah sudah mengerjakannya, maka kewajiban bagi muslim lainnya di wilayah tersebut menjadi gugur.",
         "opt": [
           "BENAR",
           "SALAH"
+        ],
+        "a": [
+          0
         ]
       },
       {
         "type": "BS",
-        "a": [
-          0
-        ],
-        "q": "Berbeda dengan salat biasa pada umumnya, ibadah salat jenazah dilaksanakan tanpa adanya gerakan rukuk, iktidal, sujud, dan duduk tasyahud, melainkan hanya berdiri tegak dengan membaca bacaan tertentu setelah setiap takbir.",
+        "q": "Berbeda dengan salat biasa pada umumnya, ibadah salat jenazah dilaksanakan tanpa adanya gerakan rukuk, iktidal, sujud, maupun duduk di antara dua sujud, melainkan hanya berdiri tegak melakukan empat kali takbir yang diselingi doa dan diakhiri dengan salam.",
         "opt": [
           "BENAR",
           "SALAH"
+        ],
+        "a": [
+          0
         ]
       },
       {
         "type": "BS",
+        "q": "Puncak kejayaan militer, kemajuan undang-undang kekaisaran, dan perluasan wilayah kekuasaan Daulah Turki Usmani dicapai pada masa kepemimpinan Sultan Orhan, yang berhasil menyusun kitab undang-undang formal sehingga dijuluki sebagai Orhan Al-Qanuni.",
+        "opt": [
+          "BENAR",
+          "SALAH"
+        ],
         "a": [
           1
-        ],
-        "q": "Puncak kejayaan militer, kemajuan undang-undang kekaisaran, dan perluasan wilayah kekuasaan Daulah Turki Usmani dicapai pada masa pemerintahan Sultan Orhan yang memerintah setelah ayahnya, Osman I.",
-        "opt": [
-          "BENAR",
-          "SALAH"
         ]
       },
       {
         "type": "BS",
-        "a": [
-          0
-        ],
-        "q": "Kekuasaan Daulah Turki Usmani secara resmi runtuh pada awal abad ke-20 (tahun 1924 M) setelah digantikan oleh Republik Turki yang diproklamasikan oleh Mustafa Kemal Ataturk.",
+        "q": "Kekuasaan Daulah Turki Usmani secara resmi runtuh pada awal abad ke-20 (tahun 1924 M) setelah digantikan oleh berdirinya negara Republik Turki yang sekuler di bawah kepemimpinan Mustafa Kemal Ataturk.",
         "opt": [
           "BENAR",
           "SALAH"
+        ],
+        "a": [
+          0
         ]
       },
       {
         "type": "BS",
-        "a": [
-          0
-        ],
-        "q": "Sesuai dengan ajaran syariat Islam, sujud syukur boleh dilakukan oleh seseorang di mana saja secara spontan sebagai ungkapan rasa syukur kepada Allah Swt. atas nikmat besar yang baru saja diterimanya.",
+        "q": "Sesuai dengan ajaran syariat Islam, sujud syukur boleh dilakukan oleh seseorang di mana saja secara spontan ketika mendengar kabar gembira atau terhindar dari bahaya besar, tanpa perlu berwudhu terlebih dahulu apabila kondisi memang tidak memungkinkan.",
         "opt": [
           "BENAR",
           "SALAH"
+        ],
+        "a": [
+          0
         ]
       },
       {
         "type": "BS",
-        "a": [
-          0
-        ],
-        "q": "Adab utama seorang siswa saat berdiskusi kelompok di dalam kelas adalah mendengarkan dengan penuh rasa hormat ketika giliran teman sedang menyampaikan pendapatnya tanpa memotong pembicaraan.",
+        "q": "Adab utama seorang siswa saat berdiskusi kelompok di dalam kelas adalah mendengarkan dengan penuh rasa hormat serta tidak memotong pembicaraan teman sekelas yang sedang menyampaikan usulan kebaikan.",
         "opt": [
           "BENAR",
           "SALAH"
+        ],
+        "a": [
+          0
         ]
       }
     ]
@@ -5083,6 +5134,7 @@ const DATA_LATIHAN_V2 = {
         "type": "PG",
         "q": "Daulah Syafawi pada mulanya terbentuk dari sebuah gerakan tarekat keagamaan yang damai, sebelum akhirnya berkembang menjadi kekuatan politik dan militer yang bersatu padu. Sikap keteladanan yang bisa diterapkan oleh siswa di sekolah dari sejarah persatuan Daulah Syafawi adalah...",
         "opt": [
+          "Membuat kelompok bermain yang eksklusif untuk bersaing menguasai organisasi kelas",
           "Menjaga kerukunan dan kekompakan dengan semua teman tanpa membeda-bedakan suku atau latar belakang",
           "Mengajak teman-teman sekelas melakukan protes keras apabila ada peraturan sekolah yang kurang disukai",
           "Membantu teman dekat saat berbuat salah agar terhindar dari hukuman guru piket"
@@ -5092,7 +5144,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "PGK",
+        "type": "PG",
         "q": "Daulah Syafawi mencapai puncak kejayaan yang luar biasa di bidang ekonomi, politik, sosial, dan seni budaya di bawah kepemimpinan seorang penguasa yang bijaksana bernama...",
         "opt": [
           "Shah Ismail I",
@@ -5105,7 +5157,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "PGK",
+        "type": "PG",
         "q": "Di masa kejayaannya, ibu kota Daulah Syafawi dipindahkan ke sebuah kota indah yang ditata dengan taman-taman asri, jembatan megah, istana menawan, serta masjid berarsitektur tinggi yang disebut Isfahan. Mengetahui sejarah keindahan Isfahan, tindakan positif yang bisa ditiru siswa di lingkungan sekolah harian adalah...",
         "opt": [
           "Melukis dinding-dinding luar kelas dengan gambar masjid indah tanpa meminta izin sekolah",
@@ -5118,7 +5170,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "PGK",
+        "type": "PG",
         "q": "Masjid legendaris peninggalan Daulah Syafawi di kota Isfahan yang terkenal dengan keindahan kubah biru besarnya dan hiasan ubin keramik beraksen kaligrafi yang sangat menawan adalah...",
         "opt": [
           "Masjid Biru (Blue Mosque)",
@@ -5131,7 +5183,7 @@ const DATA_LATIHAN_V2 = {
         ]
       },
       {
-        "type": "PGK",
+        "type": "PG",
         "q": "Daulah Syafawi dikenal sangat menghargai para seniman, sastrawan, dan arsitek dari berbagai penjuru dunia untuk memperindah bangunan kota. Sikap yang mencerminkan keteladanan menghargai karya seni tersebut dalam kehidupan siswa sehari-hari adalah...",
         "opt": [
           "Memberikan pujian dan apresiasi yang tulus atas hasil lukisan atau karya kerajinan tangan teman sekelas",
@@ -5308,7 +5360,7 @@ const DATA_LATIHAN_V2 = {
           "Sunnah"
         ],
         "a": [
-          0
+          1
         ]
       },
       {
@@ -5334,7 +5386,7 @@ const DATA_LATIHAN_V2 = {
           "Mengganti salat fardhu yang terlewat dengan membayar denda sedekah"
         ],
         "a": [
-          0
+          1
         ]
       },
       {
@@ -5373,7 +5425,7 @@ const DATA_LATIHAN_V2 = {
           "Memusuhi teman kelas yang tidak mau mengikuti gaya pergaulannya"
         ],
         "a": [
-          0
+          1
         ]
       },
       {
@@ -5425,7 +5477,7 @@ const DATA_LATIHAN_V2 = {
           "Langsung salam di rakaat kedua dan pulang ke rumah"
         ],
         "a": [
-          0
+          1
         ]
       },
       {
@@ -5451,7 +5503,7 @@ const DATA_LATIHAN_V2 = {
           "Mengeluarkan zakat mal secara rutin setiap tahun"
         ],
         "a": [
-          0
+          1
         ]
       },
       {
