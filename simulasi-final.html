@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Simulasi Final CCI</title>
+<title>Simulasi Final CCI MAPSI SMP 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -23,68 +23,89 @@
     background-image: radial-gradient(circle at 15% 0%, #24365c 0%, var(--navy) 55%);
     color: var(--ink);
     min-height:100vh;
-    padding: 28px 16px 60px;
+    padding: 24px 16px 60px;
   }
-  .wrap{ max-width: 760px; margin: 0 auto; }
+  .wrap{ max-width: 780px; margin: 0 auto; }
   .top{
     display:flex; align-items:center; justify-content:space-between;
-    margin-bottom: 22px; color: var(--cream);
+    margin-bottom: 20px; color: var(--cream); gap: 12px;
   }
   .brand{ display:flex; align-items:center; gap:10px; }
   .brand-mark{
-    width:34px; height:34px; border-radius:9px; background: var(--gold);
+    width:36px; height:36px; border-radius:10px; background: var(--gold);
     display:flex; align-items:center; justify-content:center;
-    font-family:'Fraunces',serif; font-weight:700; color: var(--navy); font-size:17px;
+    font-family:'Fraunces',serif; font-weight:700; color: var(--navy); font-size:18px;
+    box-shadow: 0 4px 12px rgba(201,162,39,0.3);
   }
   .brand-text h1{ font-family:'Fraunces',serif; font-weight:600; font-size:19px; margin:0; letter-spacing:0.2px;}
   .brand-text p{ margin:0; font-size:12px; color:#B9C2D6; }
-  .btn-back{
-    background: rgba(255,255,255,0.1); color: #fff; padding: 6px 12px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: 600;
+  
+  .top-actions{ display:flex; align-items:center; gap:8px; }
+  .btn-top{
+    background: rgba(255,255,255,0.1); color: #fff; padding: 7px 12px; border-radius: 8px; 
+    text-decoration: none; font-size: 12.5px; font-weight: 600; display:inline-flex; align-items:center; gap:5px;
+    border: 1px solid rgba(255,255,255,0.14); transition: all .15s ease; cursor:pointer;
   }
-  .btn-back:hover{ background: rgba(255,255,255,0.2); }
+  .btn-top:hover{ background: rgba(255,255,255,0.18); }
+  .btn-top.gold{ background: rgba(201,162,39,0.22); color: var(--gold-light); border-color: rgba(201,162,39,0.4); }
+  .btn-top.gold:hover{ background: rgba(201,162,39,0.35); }
 
   .modebar{
-    display:grid; grid-template-columns: repeat(3,1fr); gap:8px; margin-bottom:14px;
+    display:grid; grid-template-columns: repeat(4,1fr); gap:8px; margin-bottom:14px;
   }
   .mode-btn{
     background: rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14);
-    color:#E7EAF2; border-radius: 12px; padding: 12px 8px; cursor:pointer;
-    font-family:'Manrope',sans-serif; font-weight:700; font-size:13.5px;
+    color:#E7EAF2; border-radius: 12px; padding: 12px 6px; cursor:pointer;
+    font-family:'Manrope',sans-serif; font-weight:700; font-size:13px;
     text-align:center; transition: all .15s ease;
   }
   .mode-btn small{ display:block; font-weight:500; font-size:11px; color:#A9B2C6; margin-top:2px;}
   .mode-btn.active{ background: var(--gold); border-color: var(--gold); color: var(--navy); }
   .mode-btn.active small{ color:#4A3B0A; }
 
-  .catbar{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:20px; }
+  .catbar{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
   .chip{
     background: rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.15);
-    color:#D7DCEA; border-radius:999px; padding:6px 13px; font-size:12.5px; cursor:pointer;
-    font-weight:600;
+    color:#D7DCEA; border-radius:999px; padding:6px 14px; font-size:12.5px; cursor:pointer;
+    font-weight:600; transition: all .15s ease;
   }
-  .chip.active{ background:#fff; color:var(--navy); border-color:#fff; }
+  .chip:hover{ background: rgba(255,255,255,0.14); }
+  .chip.active{ background:#fff; color:var(--navy); border-color:#fff; box-shadow:0 2px 8px rgba(0,0,0,0.2); }
+
+  .regubar{
+    display:flex; flex-wrap:wrap; gap:6px; margin-bottom:18px; padding-top:2px;
+  }
+  .chip-regu{
+    background: rgba(201,162,39,0.12); border:1px solid rgba(201,162,39,0.25);
+    color:#F5E6B8; border-radius:999px; padding:5px 12px; font-size:12px; cursor:pointer;
+    font-weight:600; transition: all .15s ease;
+  }
+  .chip-regu:hover{ background: rgba(201,162,39,0.22); }
+  .chip-regu.active{ background: var(--gold); color: var(--navy); border-color: var(--gold); font-weight:700; }
 
   .stage{
     background: var(--card); border-radius: var(--radius);
     padding: 26px 24px 24px; box-shadow: 0 18px 40px rgba(0,0,0,0.28);
-    min-height: 340px; display:flex; flex-direction:column;
+    min-height: 350px; display:flex; flex-direction:column;
   }
   .idle{ text-align:center; padding: 30px 10px; color: var(--ink-soft); }
   .idle h2{ font-family:'Fraunces',serif; color: var(--navy); font-size:22px; margin: 0 0 8px; }
-  .idle p{ font-size:14px; line-height:1.6; max-width:420px; margin: 0 auto 20px; }
+  .idle p{ font-size:14px; line-height:1.6; max-width:480px; margin: 0 auto 20px; }
   .startbtn{
     background: var(--navy); color:#fff; border:none; border-radius:12px;
-    padding: 13px 26px; font-weight:700; font-size:14.5px; cursor:pointer; font-family:'Manrope',sans-serif;
+    padding: 13px 28px; font-weight:700; font-size:14.5px; cursor:pointer; font-family:'Manrope',sans-serif;
+    transition: all .15s ease;
   }
+  .startbtn:hover{ background: var(--navy2); }
   .startbtn:active{ transform: scale(0.98); }
   .startbtn:disabled { background: #949CAE; cursor:not-allowed; transform:none; }
 
-  .qtop{ display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
+  .qtop{ display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; flex-wrap:wrap; gap:8px; }
   .badge{
     display:inline-block; background: var(--gold-light); color:#7A5E0B;
     border-radius:999px; padding:4px 12px; font-size:11.5px; font-weight:700; letter-spacing:0.3px;
   }
-  .qnum{ font-size:12px; color: var(--ink-soft); font-weight:600; }
+  .qnum{ font-size:12.5px; color: var(--ink-soft); font-weight:700; }
 
   .ringwrap{ position:relative; width:96px; height:96px; margin: 0 auto 18px; }
   .ringwrap svg{ transform: rotate(-90deg); width:96px; height:96px; }
@@ -96,22 +117,26 @@
   }
 
   .qtext{
-    font-family:'Fraunces',serif; font-size: 21px; line-height:1.5; color: var(--navy);
-    text-align:center; padding: 6px 4px 22px; min-height: 90px; display:flex; align-items:center; justify-content:center;
+    font-family:'Fraunces',serif; font-size: 20px; line-height:1.55; color: var(--navy);
+    text-align:center; padding: 6px 4px 20px; min-height: 90px; display:flex; align-items:center; justify-content:center;
   }
-  .qtext.reveal-mode{ font-size:19px; }
+  .qtext.reveal-mode{ font-size:18.5px; }
 
   .rowbtn{ display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:auto; }
   .btn{
     border-radius:12px; padding:12px 20px; font-weight:700; font-size:14px; cursor:pointer;
     border:1.5px solid var(--line); background:#fff; color:var(--navy); font-family:'Manrope',sans-serif;
+    transition: all .15s ease;
   }
   .btn:active{ transform: scale(0.97); }
   .btn.primary{ background: var(--navy); color:#fff; border-color: var(--navy); }
+  .btn.primary:hover{ background: var(--navy2); }
   .btn.bel{
     background: var(--gold); color:#4A3B0A; border-color: var(--gold);
-    font-size:16px; padding:16px 34px; border-radius:16px;
+    font-size:16px; padding:16px 36px; border-radius:16px; font-weight:800;
+    box-shadow: 0 6px 20px rgba(201,162,39,0.35);
   }
+  .btn.bel:active{ transform: scale(0.96); }
   .btn.good{ background: #E1F5EE; color: var(--green-dark); border-color:#9FE1CB; }
   .btn.mid{ background: var(--gold-light); color:#7A5E0B; border-color:#EAD69A; }
   .btn.bad{ background:#FAECE7; color: var(--red-dark); border-color:#F0997B; }
@@ -121,14 +146,19 @@
     padding:16px 18px; margin: 6px 0 18px; text-align:center;
   }
   .answerbox .lbl{ font-size:11px; color: var(--ink-soft); text-transform:uppercase; letter-spacing:0.6px; font-weight:700; margin-bottom:6px;}
-  .answerbox .val{ font-family:'Fraunces',serif; font-size:19px; color: var(--navy); font-weight:600; }
+  .answerbox .val{ font-family:'Fraunces',serif; font-size:19px; color: var(--navy); font-weight:700; }
+  .answerbox .pedoman-box{
+    font-size:12.5px; color:var(--ink-soft); margin-top:10px; padding-top:10px; 
+    border-top:1px dashed var(--line); line-height:1.5; text-align:left;
+  }
+  .answerbox .pedoman-box strong{ color: var(--navy); }
 
   .revealtext{
-    font-family:'Fraunces',serif; font-size:18px; line-height:1.55; color: var(--navy);
-    text-align:center; padding: 4px 6px 10px; min-height:70px;
+    font-family:'Fraunces',serif; font-size:18.5px; line-height:1.6; color: var(--navy);
+    text-align:center; padding: 6px 6px 12px; min-height:75px;
   }
   .revealtext .heard{ color: var(--navy); }
-  .revealtext .unheard{ color: rgba(27,42,74,0.18); }
+  .revealtext .unheard{ color: rgba(27,42,74,0.16); }
 
   .stats{
     display:grid; grid-template-columns: repeat(4,1fr); gap:8px; margin-top:18px;
@@ -140,13 +170,26 @@
   .stat .n{ font-family:'Fraunces',serif; font-size:20px; font-weight:700; color:#fff; }
   .stat .l{ font-size:10.5px; color:#B9C2D6; font-weight:600; margin-top:2px; }
 
-  .footnote{ text-align:center; color:#8891A6; font-size:11.5px; margin-top:16px; line-height:1.6; }
+  .footnote{ text-align:center; color:#8891A6; font-size:12px; margin-top:16px; line-height:1.6; }
   .resetlink{ color:#B9C2D6; text-decoration:underline; cursor:pointer; background:none; border:none; font-size:11.5px; font-family:'Manrope',sans-serif;}
+
+  /* Modal Panduan Juri */
+  .modal-overlay{
+    display:none; position:fixed; inset:0; background:rgba(10,18,34,0.75); z-index:9999;
+    align-items:center; justify-content:center; padding:16px; backdrop-filter:blur(3px);
+  }
+  .modal-card{
+    background:#fff; border-radius:18px; max-width:580px; width:100%; max-height:85vh;
+    overflow-y:auto; padding:24px 26px; color:var(--navy); box-shadow:0 24px 50px rgba(0,0,0,0.4);
+  }
+  .modal-hdr{ display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; border-bottom:1px solid #EEF0F5; padding-bottom:10px; }
+  .modal-hdr h3{ margin:0; font-family:'Fraunces',serif; font-size:18px; color:var(--navy); }
+  .modal-close{ background:none; border:none; font-size:24px; cursor:pointer; color:#8891A6; line-height:1; }
 
   @media (max-width:480px){
     .qtext{ font-size:18px; }
     .modebar{ grid-template-columns: 1fr 1fr; }
-    .modebar .mode-btn:nth-child(3){ grid-column: 1 / span 2; }
+    .stats{ grid-template-columns: 1fr 1fr; }
   }
 </style>
 </head>
@@ -158,19 +201,27 @@
       <div class="brand-mark">C</div>
       <div class="brand-text">
         <h1>Simulasi Final</h1>
-        <p>Latihan Bel Cerdas Cermat Islami</p>
+        <p>CCAI MAPSI SMP Tingkat Kabupaten / Provinsi</p>
       </div>
     </div>
-    <a href="index.html" class="btn-back">Kembali ke Beranda</a>
+    <div class="top-actions">
+      <button class="btn-top gold" id="openJuriBtn">📋 Panduan Juri</button>
+      <a href="index.html" class="btn-top">Kembali</a>
+    </div>
   </div>
 
   <div class="modebar">
-    <button class="mode-btn active" data-mode="wajib">Wajib<small>10 detik</small></button>
+    <button class="mode-btn active" data-mode="wajib">Wajib<small>5 detik</small></button>
     <button class="mode-btn" data-mode="lemparan">Lemparan<small>5 detik</small></button>
     <button class="mode-btn" data-mode="rebutan">Rebutan<small>tekan bel</small></button>
+    <button class="mode-btn" data-mode="cadangan">Cadangan<small>tie-breaker</small></button>
   </div>
 
+  <!-- Catbar (Pilihan Paket) -->
   <div class="catbar" id="catbar"></div>
+
+  <!-- Regubar (Selector Sub-Regu Opsi 2) -->
+  <div class="regubar" id="regubar"></div>
 
   <div class="stage" id="stage"></div>
 
@@ -182,67 +233,52 @@
   </div>
 
   <div class="footnote">
-    Wajib: 10 dtk (hitungan 15 dtk). Sebagian benar = Salah (0).<br>
-    Lemparan: 5 dtk (hitungan 30 dtk). Sebagian benar = Nilai Parsial.<br>
-    Jawab lisan lantang, lalu nilai sendiri kejujuranmu.<br>
+    Wajib: 5 dtk berpikir (+100 / 0). Lemparan: 5 dtk utama (+100), lemparan 3 dtk (-25).<br>
+    Rebutan: Tekan Bel (+100 / -100). Cadangan: Khusus nilai imbang (tie-breaker).<br>
     <button class="resetlink" id="resetBtn">Reset skor sesi ini</button>
   </div>
 
 </div>
 
+<!-- Modal Panduan Dewan Juri -->
+<div class="modal-overlay" id="juriModal">
+  <div class="modal-card">
+    <div class="modal-hdr">
+      <h3>Panduan Operasional Dewan Juri & Aturan Lomba</h3>
+      <button class="modal-close" id="closeJuriBtn">&times;</button>
+    </div>
+    <div style="font-size:13px; line-height:1.65; color:#3A4456;">
+      <p style="margin-top:0;"><strong>1. Kriteria Soal Lisan Baku:</strong> Seluruh butir soal dirancang to-the-point dan berujung pada jawaban eksak (nama tokoh/istilah/angka/kaidah), tanpa pertanyaan 'mengapa' guna menjamin 100% objektivitas penilaian.</p>
+      <p><strong>2. Babak I (Soal Wajib):</strong> 10 soal untuk masing-masing Regu A, B, dan C. Waktu berpikir maksimal <strong>5 detik</strong> setelah soal selesai dibacakan. Benar = <strong>+100 poin</strong>, Salah / Tidak Menjawab = <strong>0 poin</strong> (Tidak dilempar).</p>
+      <p><strong>3. Babak II (Soal Lemparan):</strong> Tiap regu memiliki hak 5 soal lemparan bergilir. Waktu berpikir regu utama <strong>5 detik</strong>. Jika salah/tidak jawab, dilempar ke regu berikutnya (waktu <strong>3 detik</strong>). Benar = <strong>+100 poin</strong>, Salah menjawab lemparan = <strong>-25 poin</strong>.</p>
+      <p><strong>4. Babak III (Soal Rebutan):</strong> 15 soal cepat tepat dengan menekan bel. Boleh memencet bel saat soal sedang dibacakan. Benar = <strong>+100 poin</strong>, Salah / Menjawab sebelum dipersilakan juri = <strong>-100 poin</strong>.</p>
+      <p><strong>5. Babak IV (Soal Cadangan):</strong> 5 soal tambahan khusus adjudikasi / tie-breaker jika terjadi nilai seri.</p>
+    </div>
+    <button class="btn primary" style="width:100%; margin-top:16px;" onclick="document.getElementById('juriModal').style.display='none'">Tutup Panduan</button>
+  </div>
+</div>
+
+<!-- Load Bank Data Soal -->
+<script src="js/data-simulasi-final.js"></script>
+
 <script>
-// STRUKTUR DATA BERDASARKAN PAKET SOAL
-const DATA_PAKET = {
-  "Paket 1": {
-    wajib: [
-      { cat: "LOTS • Al-Qur'an dan Hadis", q: "Sebutkan empat objek iman dalam Q.S. Al-Baqarah/2:285!", a: "Allah, malaikat-malaikat-Nya, kitab-kitab-Nya, dan rasul-rasul-Nya.", hitungan: false },
-      { cat: "LOTS • Aqidah", q: "Sebutkan empat sifat wajib rasul!", a: "Siddiq, amanah, tabligh, dan fatanah.", hitungan: false },
-      { cat: "LOTS • Fiqh", q: "Sebutkan empat kewajiban fardu kifayah dalam penyelenggaraan jenazah!", a: "Memandikan, mengafani, menyalatkan, dan menguburkan.", hitungan: false },
-      { cat: "MOTS • Tajwid", q: "Nun mati pada min ba'di bertemu ba. Sebutkan hukum dan cara membacanya!", a: "Iqlab; bunyi nun berubah menjadi mim samar disertai dengung.", hitungan: false },
-      { cat: "MOTS • Aqidah", q: "Jelaskan perbedaan al-Sami' dan al-Basir serta satu dampak perilakunya!", a: "Al-Sami' berarti Maha Mendengar dan al-Basir Maha Melihat; keduanya mendorong penjagaan ucapan dan tindakan.", hitungan: false },
-      { cat: "MOTS • Aqidah", q: "Regu kalah setelah berusaha. Sebutkan tiga sikap yang sesuai iman kepada qada-qadar!", a: "Mengevaluasi ikhtiar, berdoa dan bertawakal, lalu menerima hasil tanpa putus asa.", hitungan: false },
-      { cat: "MOTS • Fiqh", q: "Bedakan sebab sujud syukur dan sujud sahwi!", a: "Syukur karena nikmat khusus atau keselamatan; sahwi karena lupa atau ragu tertentu dalam salat.", hitungan: false },
-      { cat: "MOTS • Sejarah", q: "Jelaskan hubungan penerjemahan dan Bayt al-Hikmah dengan kemajuan Abbasiyah!", a: "Bayt al-Hikmah menjadi pusat penerjemahan dan kajian; ilmu kemudian diuji serta dikembangkan.", hitungan: false },
-      { cat: "HOTS • Al-Qur'an dan Hadis", q: "Seorang siswa memakai la ikraha fid-din untuk menolak semua kewajiban. Nilai argumennya!", a: "Argumen keliru; ayat menolak pemaksaan keyakinan, bukan menghapus kewajiban seorang Muslim.", hitungan: false },
-      { cat: "HOTS • Fiqh", q: "Harga hewan A lebih mahal tetapi cacat berat; hewan B sehat dan cukup umur. Pilih dan jelaskan!", a: "Pilih hewan B karena syarat umur dan kondisi lebih menentukan daripada harga.", hitungan: false }
-    ],
-    lemparan: [
-      { cat: "LOTS • Tajwid", q: "Sebutkan empat huruf idgham bighunnah!", a: "Ya, nun, mim, dan wawu.", hitungan: false },
-      { cat: "LOTS • Sejarah", q: "Pasangkan Umayyah, Fatimiyah, dan Syafawi dengan pusat pentingnya!", a: "Umayyah-Damaskus; Fatimiyah-Kairo; Syafawi-Isfahan.", hitungan: false },
-      { cat: "MOTS • Aqidah", q: "Jelaskan hubungan iman kepada al-'Alim dengan perilaku belajar!", a: "Mendorong rendah hati, jujur secara akademik, dan sungguh-sungguh karena ilmu Allah tidak terbatas.", hitungan: false },
-      { cat: "MOTS • Akhlak", q: "Berikan dua contoh husnuzan yang disertai tabayun di sekolah!", a: "Tidak langsung menuduh dan memeriksa informasi; memberi kesempatan penjelasan sebelum menyimpulkan.", hitungan: false },
-      { cat: "MOTS • Fiqh", q: "Apa makna rukhsah? Berikan dua contoh yang berbeda sebab!", a: "Keringanan karena uzur; misalnya tayamum karena uzur air dan qasar karena perjalanan.", hitungan: false },
-      { cat: "MOTS • Fiqh", q: "Bedakan kurban dan akikah dari sisi sebab dan waktu!", a: "Kurban terkait Iduladha; akikah terkait kelahiran anak dan waktunya mengikuti ketentuan akikah.", hitungan: false },
-      { cat: "MOTS • Sejarah", q: "Jelaskan dua faktor yang membuat penerjemahan Abbasiyah berkembang menjadi inovasi!", a: "Contohnya dukungan lembaga/penguasa serta kegiatan kritik, pengujian, dan pengembangan ilmu.", hitungan: false },
-      { cat: "HOTS • Al-Qur'an dan Hadis", q: "Regu A menyebut sabar sebagai diam; regu B menyebut menerima hasil lalu berlatih lagi. Pilih dan beri alasan ayat!", a: "Regu B; ayat sabar menuntut keteguhan aktif, saling menguatkan, dan tetap siaga.", hitungan: false },
-      { cat: "HOTS • Akhlak", q: "Unggahan bantuan mendapat pujian lalu pelakunya merendahkan orang lain. Analisis masalah akhlaknya!", a: "Niat harus dievaluasi karena muncul riya atau ujub; bantuan tidak boleh menjadi alat merendahkan.", hitungan: false },
-      { cat: "HOTS • Sejarah", q: "Bangunan suatu daulah megah, tetapi konflik elite dan administrasi melemah. Apa simpulan sejarahnya?", a: "Warisan fisik tidak menjamin ketahanan; tata kelola dan persatuan tetap menentukan.", hitungan: false }
-    ],
-    rebutan: [
-      { cat: "LOTS • Al-Qur'an dan Hadis", q: "Ayat yang memuat la ikraha fid-din adalah?", a: "Q.S. Al-Baqarah/2:256." },
-      { cat: "MOTS • Tajwid", q: "Mim mati bertemu mim: hukum dan cara baca?", a: "Idgham mimi; mim melebur disertai dengung." },
-      { cat: "MOTS • Aqidah", q: "Pesan privat tetap diketahui Allah secara rinci. Asmaul Husna yang paling tepat?", a: "Al-Khabir." },
-      { cat: "MOTS • Fiqh", q: "Lupa jumlah rakaat: sujud apa?", a: "Sujud sahwi." },
-      { cat: "MOTS • Sejarah", q: "Kairo dan al-Azhar berkaitan dengan daulah apa?", a: "Daulah Fatimiyah." },
-      { cat: "HOTS • Aqidah", q: "Takdir dijadikan alasan tidak berlatih. Satu kata penilaiannya dan alasannya!", a: "Keliru; qadar tidak menghapus ikhtiar." },
-      { cat: "HOTS • Akhlak", q: "Kabar buruk belum terverifikasi. Dua tindakan akhlak paling tepat?", a: "Husnuzan dan tabayun." },
-      { cat: "HOTS • Fiqh", q: "Air membahayakan luka. Bentuk bersuci yang dianalisis lebih dahulu?", a: "Tayamum, jika syaratnya terpenuhi." },
-      { cat: "HOTS • Sejarah", q: "Penerjemahan tanpa kritik menghasilkan alih ilmu, tetapi kekurangan apa?", a: "Pengujian, pengembangan, dan inovasi." },
-      { cat: "HOTS • Sejarah", q: "Urutan Umayyah-Abbasiyah-Mughal-Fatimiyah salah di bagian mana?", a: "Fatimiyah harus ditempatkan sebelum Mughal." }
-    ]
-  },
-  "Paket 2": { wajib: [], lemparan: [], rebutan: [] },
-  "Paket 3": { wajib: [], lemparan: [], rebutan: [] }
+// Data Sumber
+const DATA_PAKET = (typeof DATA_SIMULASI_FINAL !== 'undefined') ? DATA_SIMULASI_FINAL : {
+  "Paket 1": { wajib: [], lemparan: [], rebutan: [], cadangan: [] },
+  "Paket 2": { wajib: [], lemparan: [], rebutan: [], cadangan: [] },
+  "Paket 3": { wajib: [], lemparan: [], rebutan: [], cadangan: [] }
 };
 
 const PAKET_KEYS = ["Latihan Acak", "Paket 1", "Paket 2", "Paket 3"];
 let activePaket = "Paket 1";
-let mode = "wajib";
+let mode = "wajib"; // 'wajib' | 'lemparan' | 'rebutan' | 'cadangan'
+let activeRegu = "Semua"; // 'Semua' | 'Regu A' | 'Regu B' | 'Regu C'
 let stats = { benar:0, kurang:0, salah:0, rebutan:0 };
 let timer = null;
 let currentQ = null;
-let currentIndex = 0; // Digunakan jika memilih Paket tertentu
+let currentIndex = 0;
 
+// Render Catbar (Pilihan Paket)
 const catbar = document.getElementById('catbar');
 PAKET_KEYS.forEach(c=>{
   const b = document.createElement('button');
@@ -250,8 +286,9 @@ PAKET_KEYS.forEach(c=>{
   b.textContent = c;
   b.onclick = ()=>{ 
     activePaket = c; 
-    currentIndex = 0; // Reset index tiap ganti paket
+    currentIndex = 0;
     renderCatbar(); 
+    renderRegubar();
     renderIdle(); 
   };
   b.dataset.cat = c;
@@ -262,17 +299,60 @@ function renderCatbar(){
   [...catbar.children].forEach(b=> b.classList.toggle('active', b.dataset.cat === activePaket));
 }
 
+// Render Regubar (Selector Sub-Regu Opsi 2)
+function renderRegubar(){
+  const regubar = document.getElementById('regubar');
+  if (!regubar) return;
+  
+  if ((mode === 'wajib' || mode === 'lemparan') && activePaket !== "Latihan Acak") {
+    regubar.style.display = 'flex';
+    regubar.innerHTML = '';
+    
+    const reguItems = [
+      { id: "Semua", label: "Semua Regu" },
+      { id: "Regu A", label: mode === 'wajib' ? "Regu A (No. 1–10)" : "Regu A (No. 31–35)" },
+      { id: "Regu B", label: mode === 'wajib' ? "Regu B (No. 11–20)" : "Regu B (No. 36–40)" },
+      { id: "Regu C", label: mode === 'wajib' ? "Regu C (No. 21–30)" : "Regu C (No. 41–45)" }
+    ];
+
+    reguItems.forEach(item => {
+      const btn = document.createElement('button');
+      btn.className = 'chip-regu' + (item.id === activeRegu ? ' active' : '');
+      btn.textContent = item.label;
+      btn.onclick = () => {
+        activeRegu = item.id;
+        currentIndex = 0;
+        renderRegubar();
+        renderIdle();
+      };
+      regubar.appendChild(btn);
+    });
+  } else {
+    regubar.style.display = 'none';
+  }
+}
+
+// Mode Buttons
 document.querySelectorAll('.mode-btn').forEach(btn=>{
   btn.onclick = ()=>{
     document.querySelectorAll('.mode-btn').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
     mode = btn.dataset.mode;
-    currentIndex = 0; // Reset index tiap ganti mode
+    activeRegu = "Semua";
+    currentIndex = 0;
     clearTimer();
+    renderRegubar();
     renderIdle();
   };
 });
 
+// Modal Panduan Juri
+const juriModal = document.getElementById('juriModal');
+document.getElementById('openJuriBtn').onclick = () => juriModal.style.display = 'flex';
+document.getElementById('closeJuriBtn').onclick = () => juriModal.style.display = 'none';
+window.onclick = (e) => { if (e.target === juriModal) juriModal.style.display = 'none'; };
+
+// Reset Stats
 document.getElementById('resetBtn').onclick = ()=>{
   stats = { benar:0, kurang:0, salah:0, rebutan:0 };
   updateStats();
@@ -285,7 +365,7 @@ function updateStats(){
   document.getElementById('statRebutan').textContent = stats.rebutan;
 }
 
-// Fungsi untuk mengambil bank soal gabungan jika di mode "Latihan Acak"
+// Mengambil bank soal gabungan jika di mode "Latihan Acak"
 function getAcakPool() {
   let pool = [];
   for (let key in DATA_PAKET) {
@@ -296,71 +376,101 @@ function getAcakPool() {
   return pool;
 }
 
+// Mengambil list soal aktif dengan filter regu jika ada
+function getActiveQuestions() {
+  let list = [];
+  if (activePaket === "Latihan Acak") {
+    list = getAcakPool();
+  } else {
+    const pData = DATA_PAKET[activePaket] && DATA_PAKET[activePaket][mode] ? DATA_PAKET[activePaket][mode] : [];
+    list = pData;
+  }
+  
+  if ((mode === 'wajib' || mode === 'lemparan') && activeRegu !== "Semua") {
+    return list.filter(q => q.regu === activeRegu);
+  }
+  return list;
+}
+
 function clearTimer(){ if(timer){ clearInterval(timer); timer=null; } }
 
 const stage = document.getElementById('stage');
 
 function renderIdle(){
   clearTimer();
-  const label = mode==='wajib' ? 'Soal Wajib' : mode==='lemparan' ? 'Soal Lemparan' : 'Soal Rebutan';
+  const labelMap = {
+    'wajib': 'Babak I: Soal Wajib',
+    'lemparan': 'Babak II: Soal Lemparan',
+    'rebutan': 'Babak III: Soal Rebutan',
+    'cadangan': 'Babak IV: Soal Cadangan (Tie-Breaker)'
+  };
+  const label = labelMap[mode] || 'Simulasi Soal';
   
-  let desc = mode==='wajib'
-    ? 'Wajib: Jawab lisan dalam 10 detik (hitungan 15 detik). Sebagian benar dianggap SALAH.'
-    : mode==='lemparan'
-    ? 'Lemparan: Jawab lisan dalam 5 detik (hitungan 30 detik). Sebagian benar bisa dapat NILAI PARSIAL.'
-    : 'Rebutan: Soal dibaca bertahap. Tekan BEL secepatnya (+100 poin jika benar, -100 jika salah).';
+  let desc = '';
+  if (mode === 'wajib') {
+    desc = 'Soal Wajib: Jawab lisan dalam 5 detik setelah soal dibacakan. Benar = +100 poin, Salah / Tidak Menjawab = 0 poin (Tidak dilempar).';
+  } else if (mode === 'lemparan') {
+    desc = 'Soal Lemparan: Regu utama 5 detik (+100 poin). Jika salah/tidak jawab, dilempar ke regu berikutnya (3 detik, Benar = +100, Salah = -25 poin).';
+  } else if (mode === 'rebutan') {
+    desc = 'Soal Rebutan: 15 soal cepat tepat sistem bel. Teks muncul kata per kata. Tekan BEL secepatnya (+100 poin jika benar, -100 jika salah).';
+  } else {
+    desc = 'Soal Cadangan: 5 butir soal khusus adjudikasi penentuan juara jika terjadi nilai seri / imbang antar-regu.';
+  }
 
+  const qs = getActiveQuestions();
   let btnLabel = "";
   let isFinished = false;
 
   if (activePaket === "Latihan Acak") {
-    const p = getAcakPool();
-    if (p.length === 0) {
-      desc = "Belum ada soal tersedia di bank soal.";
+    if (qs.length === 0) {
+      desc = "Belum ada soal tersedia di bank soal acak untuk babak ini.";
       btnLabel = "Belum Tersedia";
       isFinished = true;
     } else {
       btnLabel = "Mulai Soal (Acak)";
     }
   } else {
-    // Mode berurutan berdasarkan paket
-    const paketData = DATA_PAKET[activePaket][mode];
-    if (!paketData || paketData.length === 0) {
-      desc = `Belum ada data soal untuk ${mode} di ${activePaket}.`;
+    if (!qs || qs.length === 0) {
+      desc = `Belum ada data soal untuk ${label} ${activeRegu !== "Semua" ? '(' + activeRegu + ') ' : ''}di ${activePaket}.`;
       btnLabel = "Belum Tersedia";
       isFinished = true;
-    } else if (currentIndex >= paketData.length) {
-      desc = `Hebat! Anda telah menyelesaikan semua soal ${mode} di ${activePaket}.`;
+    } else if (currentIndex >= qs.length) {
+      desc = `Alhamdulillah! Anda telah menyelesaikan seluruh soal ${label} ${activeRegu !== "Semua" ? '(' + activeRegu + ') ' : ''}di ${activePaket}.`;
       btnLabel = "Selesai!";
       isFinished = true;
     } else {
-      btnLabel = `Mulai Soal ${currentIndex + 1} dari ${paketData.length}`;
+      btnLabel = `Mulai Soal ${currentIndex + 1} dari ${qs.length}`;
     }
   }
+
+  const reguInfo = (activeRegu !== "Semua" && (mode === 'wajib' || mode === 'lemparan')) 
+    ? `<span style="display:inline-block; margin-top:4px; padding:3px 10px; background:rgba(201,162,39,0.15); border-radius:999px; font-size:12px; font-weight:700; color:var(--gold);">${activeRegu}</span>` 
+    : '';
 
   stage.innerHTML = `
     <div class="idle">
       <h2 style="margin-bottom:2px;">${activePaket}</h2>
-      <div style="font-weight:700; color:var(--gold); margin-bottom:12px;">${label}</div>
-      <p>${desc}</p>
-      ${isFinished && activePaket !== "Latihan Acak" && DATA_PAKET[activePaket][mode].length > 0 
+      <div style="font-weight:700; color:var(--gold); margin-bottom:6px;">${label}</div>
+      ${reguInfo}
+      <p style="margin-top:14px;">${desc}</p>
+      ${isFinished && activePaket !== "Latihan Acak" && qs.length > 0 
         ? `<button class="startbtn" style="background:#5B6478" onclick="currentIndex=0; renderIdle();">Ulangi dari Awal</button>` 
         : `<button class="startbtn" id="startBtn" ${isFinished ? 'disabled' : ''}>${btnLabel}</button>`
       }
     </div>`;
 
   const stBtn = document.getElementById('startBtn');
-  if(stBtn) {
+  if(stBtn && !isFinished) {
     stBtn.onclick = mode==='rebutan' ? startRebutan : startTimed;
   }
 }
 
 function pickCurrentQuestion() {
+  const qs = getActiveQuestions();
   if (activePaket === "Latihan Acak") {
-    const p = getAcakPool();
-    return p[Math.floor(Math.random()*p.length)];
+    return qs[Math.floor(Math.random()*qs.length)];
   } else {
-    return DATA_PAKET[activePaket][mode][currentIndex];
+    return qs[currentIndex];
   }
 }
 
@@ -368,22 +478,24 @@ function startTimed(){
   currentQ = pickCurrentQuestion();
   if(!currentQ){ return; }
 
-  // Penentuan waktu sesuai Juknis
-  let total = 10;
-  if (mode === 'wajib') {
-    total = currentQ.hitungan ? 15 : 10;
-  } else if (mode === 'lemparan') {
-    total = currentQ.hitungan ? 30 : 5;
+  // Durasi berpikir standar 5 detik (atau 15/30 jika hitungan)
+  let total = 5;
+  if (currentQ.hitungan) {
+    total = mode === 'wajib' ? 15 : 30;
   }
 
   let left = total;
   const R = 40, C = 2*Math.PI*R;
-  const qTitle = activePaket === "Latihan Acak" ? "Acak" : `Soal ${currentIndex + 1}`;
+  const qs = getActiveQuestions();
+  const reguLabel = currentQ.regu ? `${currentQ.regu} • ` : '';
+  const qTitle = activePaket === "Latihan Acak" ? "Acak" : `${reguLabel}Soal ${currentQ.num || (currentIndex + 1)} (${currentIndex + 1}/${qs.length})`;
+
+  const modeName = mode==='wajib' ? 'Wajib' : mode==='lemparan' ? 'Lemparan' : 'Cadangan';
 
   stage.innerHTML = `
     <div class="qtop">
       <span class="badge">${currentQ.cat}</span>
-      <span class="qnum">${qTitle} &bull; ${mode==='wajib' ? 'Wajib' : 'Lemparan'}${currentQ.hitungan? ' (Hitungan)':''}</span>
+      <span class="qnum">${qTitle} &bull; ${modeName}</span>
     </div>
     <div class="ringwrap">
       <svg viewBox="0 0 96 96">
@@ -410,15 +522,28 @@ function startTimed(){
 }
 
 function showAnswer(){
-  const qTitle = activePaket === "Latihan Acak" ? "Acak" : `Soal ${currentIndex + 1}`;
+  const qs = getActiveQuestions();
+  const reguLabel = currentQ.regu ? `${currentQ.regu} • ` : '';
+  const qTitle = activePaket === "Latihan Acak" ? "Acak" : `${reguLabel}Soal ${currentQ.num || (currentIndex + 1)} (${currentIndex + 1}/${qs.length})`;
+
+  const pedomanHtml = currentQ.pedoman ? `
+    <div class="pedoman-box">
+      <strong>Pedoman Penilaian Juri:</strong><br>${currentQ.pedoman}
+    </div>
+  ` : '';
+
   stage.innerHTML = `
     <div class="qtop"><span class="badge">${currentQ.cat}</span><span class="qnum">${qTitle} &bull; Jawaban</span></div>
     <div class="qtext" style="font-size:16px;color:var(--ink-soft);font-family:'Manrope',sans-serif;font-weight:600;">${currentQ.q}</div>
-    <div class="answerbox"><div class="lbl">Kunci Jawaban</div><div class="val">${currentQ.a}</div></div>
+    <div class="answerbox">
+      <div class="lbl">Kunci Jawaban Pasti</div>
+      <div class="val">${currentQ.a}</div>
+      ${pedomanHtml}
+    </div>
     <div class="rowbtn">
-      <button class="btn good" id="mkBenar">Benar</button>
+      <button class="btn good" id="mkBenar">Benar (+100)</button>
       <button class="btn mid" id="mkKurang">Sebagian Benar</button>
-      <button class="btn bad" id="mkSalah">Salah</button>
+      <button class="btn bad" id="mkSalah">Salah (0)</button>
     </div>
   `;
 
@@ -437,7 +562,8 @@ function startRebutan(){
   if(!currentQ){ return; }
   const words = currentQ.q.split(' ');
   let shown = 0;
-  const qTitle = activePaket === "Latihan Acak" ? "Acak" : `Soal ${currentIndex + 1}`;
+  const qs = getActiveQuestions();
+  const qTitle = activePaket === "Latihan Acak" ? "Acak" : `Soal ${currentQ.num || (currentIndex + 1)} (${currentIndex + 1}/${qs.length})`;
 
   stage.innerHTML = `
     <div class="qtop"><span class="badge">${currentQ.cat}</span><span class="qnum">${qTitle} &bull; Rebutan</span></div>
@@ -450,7 +576,7 @@ function startRebutan(){
     shown++;
     renderWords();
     if(shown>=words.length){ clearTimer(); }
-  }, 550);
+  }, 500);
 
   document.getElementById('belBtn').onclick = ()=>{
     clearTimer();
@@ -463,10 +589,20 @@ function startRebutan(){
   }
 
   function afterBel(){
+    const pedomanHtml = currentQ.pedoman ? `
+      <div class="pedoman-box">
+        <strong>Pedoman Penilaian Juri:</strong><br>${currentQ.pedoman}
+      </div>
+    ` : '';
+
     stage.innerHTML = `
-      <div class="qtop"><span class="badge">${currentQ.cat}</span><span class="qnum">BEL DITEKAN!</span></div>
+      <div class="qtop"><span class="badge">${currentQ.cat}</span><span class="qnum">BEL DITEKAN! (${qTitle})</span></div>
       <div class="qtext" style="font-size:17px;">${currentQ.q}</div>
-      <div class="answerbox"><div class="lbl">Kunci Jawaban</div><div class="val">${currentQ.a}</div></div>
+      <div class="answerbox">
+        <div class="lbl">Kunci Jawaban Pasti</div>
+        <div class="val">${currentQ.a}</div>
+        ${pedomanHtml}
+      </div>
       <p style="text-align:center;color:var(--ink-soft);font-size:13px;margin:-8px 0 14px;">Apakah jawaban peserta sesuai?</p>
       <div class="rowbtn">
         <button class="btn good" id="rbBenar">Benar (+100)</button>
@@ -484,6 +620,9 @@ function startRebutan(){
   }
 }
 
+// Inisialisasi awal
+renderCatbar();
+renderRegubar();
 renderIdle();
 updateStats();
 </script>
