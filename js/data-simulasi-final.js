@@ -1,6 +1,7 @@
 // BANK DATA SOAL SIMULASI FINAL CCAI MAPSI SMP 2026
 // Paket 1: Paket Standar Awal
-// Paket 2: Format Lisan Baku & Objektif (65 Soal Lengkap: Regu A/B/C, Lemparan, Rebutan, Cadangan)
+// Paket 2: Format Lisan Baku & Objektif — Edisi Perbaikan (65 Soal: Regu A/B/C, Lemparan, Rebutan, Cadangan)
+// Paket 3: Model Cerdas Cermat Klasik — Latihan 2 (65 Soal: Regu A/B/C, Lemparan, Rebutan, Cadangan)
 const DATA_SIMULASI_FINAL = {
   "Paket 1": {
     "wajib": [
@@ -692,10 +693,514 @@ const DATA_SIMULASI_FINAL = {
     ]
   },
   "Paket 3": {
-    "wajib": [],
-    "lemparan": [],
-    "rebutan": [],
-    "cadangan": []
+    "wajib": [
+      {
+        "num": 1,
+        "regu": "Regu A",
+        "cat": "Al-Qur'an & Tajwid",
+        "q": "Sebutkan 2 huruf Idgham Bighunnah yang tersisa apabila huruf Ya (ي) dan Nun (ن) telah disebutkan!",
+        "a": "Huruf Mim (م) dan Wau (و)",
+        "pedoman": "Siswa harus menyebutkan kedua huruf hijaiyah tersebut secara lengkap dan benar."
+      },
+      {
+        "num": 2,
+        "regu": "Regu A",
+        "cat": "Al-Qur'an Hadis",
+        "q": "Apakah arti dari kata 'at-thaghut' yang terdapat dalam Surah al-Baqarah ayat 256 secara istilah menurut kandungan tafsir?",
+        "a": "Setan atau segala sesuatu yang disembah selain Allah Swt.",
+        "pedoman": "Menerima jawaban 'setan', 'berhala', atau 'segala yang disembah selain Allah'."
+      },
+      {
+        "num": 3,
+        "regu": "Regu A",
+        "cat": "Akidah",
+        "q": "Apakah arti dari Asmaul Husna 'Al-Khabir'?",
+        "a": "Maha Teliti / Maha Mengetahui secara terperinci dan mendalam",
+        "pedoman": "Benar jika menjawab 'Maha Teliti', 'Maha Mengetahui secara detail', atau 'Maha Waspada'."
+      },
+      {
+        "num": 4,
+        "regu": "Regu A",
+        "cat": "Akidah",
+        "q": "Siapakah nama malaikat Allah Swt. yang memiliki tugas mulia meniup terompet sangkakala pada hari kiamat?",
+        "a": "Malaikat Israfil",
+        "pedoman": "Jawaban mutlak adalah Malaikat Israfil."
+      },
+      {
+        "num": 5,
+        "regu": "Regu A",
+        "cat": "Akhlak Mulia",
+        "q": "Sebutkan tiga tingkatan atau cara bersyukur kepada Allah Swt. menurut ajaran akhlak Islam!",
+        "a": "Syukur dengan hati (qalbu), syukur dengan lisan (ucapan), dan syukur dengan anggota badan (perbuatan/amal shalih)",
+        "pedoman": "Siswa harus menyebutkan ketiga unsur tersebut secara lengkap."
+      },
+      {
+        "num": 6,
+        "regu": "Regu A",
+        "cat": "Akhlak Mulia",
+        "q": "Apakah nama gelar kehormatan binti Khuwailid, istri pertama Rasulullah saw., yang disematkan masyarakat Arab karena kemuliaannya dan berarti 'wanita yang suci'?",
+        "a": "At-Tahirah (Wanita yang Suci)",
+        "pedoman": "Jawaban tepat adalah At-Tahirah."
+      },
+      {
+        "num": 7,
+        "regu": "Regu A",
+        "cat": "Fikih Ibadah",
+        "q": "Berapakah jumlah sujud yang dilakukan oleh seseorang ketika melaksanakan sujud sahwi di akhir salat?",
+        "a": "2 (Dua) kali sujud",
+        "pedoman": "Jawaban mutlak adalah dua kali sujud, dilakukan sebelum atau sesudah salam."
+      },
+      {
+        "num": 8,
+        "regu": "Regu A",
+        "cat": "Fikih Ibadah",
+        "q": "Siapakah nama sahabat nabi sekaligus duta dakwah pertama dalam sejarah Islam yang diutus berkhotbah di kota Madinah sebelum Rasulullah saw. berhijrah?",
+        "a": "Mush'ab bin Umair",
+        "pedoman": "Jawaban tepat adalah sahabat Mush'ab bin Umair."
+      },
+      {
+        "num": 9,
+        "regu": "Regu A",
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Di kota manakah terletak pusat pemerintahan Daulah Bani Umayyah di Asia yang didirikan oleh Khalifah Muawiyah bin Abu Sufyan?",
+        "a": "Kota Damaskus (Suriah)",
+        "pedoman": "Jawaban mutlak adalah Damaskus."
+      },
+      {
+        "num": 10,
+        "regu": "Regu A",
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Siapakah nama khalifah Daulah Abbasiyah yang memprakarsai pembangunan gedung perpustakaan agung sekaligus pusat riset sains Baitul Hikmah di kota Baghdad?",
+        "a": "Khalifah Harun ar-Rasyid",
+        "pedoman": "Juri menerima jawaban Khalifah Harun ar-Rasyid (atau Al-Ma'mun selaku pengembang puncaknya)."
+      },
+      {
+        "num": 11,
+        "regu": "Regu B",
+        "cat": "Al-Qur'an & Tajwid",
+        "q": "Sebutkan kelima huruf hijaiyah yang termasuk ke dalam hukum bacaan Qalqalah!",
+        "a": "Huruf Qaf (ق), Tha (ط), Ba (ب), Jim (ج), dan Dal (د)",
+        "pedoman": "Siswa harus menyebutkan kelima huruf tersebut secara lengkap (dapat disingkat 'baju di toko')."
+      },
+      {
+        "num": 12,
+        "regu": "Regu B",
+        "cat": "Al-Qur'an Hadis",
+        "q": "Sebutkan nama surah dan nomor ayat di dalam Al-Qur'an yang secara tegas melarang perilaku prasangka buruk, mencari-cari kesalahan orang lain, dan ghibah!",
+        "a": "Q.S. Al-Hujurat ayat 12",
+        "pedoman": "Siswa harus menyebutkan nama surah Al-Hujurat dan nomor ayatnya (ayat 12) secara lengkap."
+      },
+      {
+        "num": 13,
+        "regu": "Regu B",
+        "cat": "Akidah",
+        "q": "Apakah arti dari sifat wajib bagi para rasul yaitu 'Shiddiq'?",
+        "a": "Jujur atau Benar",
+        "pedoman": "Benar jika menjawab 'Jujur', 'Benar', atau 'Selalu berkata benar'."
+      },
+      {
+        "num": 14,
+        "regu": "Regu B",
+        "cat": "Akidah",
+        "q": "Apakah nama istilah hari di mana seluruh roh manusia akan dibangkitkan kembali dari alam kubur setelah terjadinya kiamat?",
+        "a": "Yaumul Ba'ats (Hari Kebangkitan)",
+        "pedoman": "Jawaban tepat adalah Yaumul Ba'ats atau Hari Kebangkitan."
+      },
+      {
+        "num": 15,
+        "regu": "Regu B",
+        "cat": "Akhlak Mulia",
+        "q": "Apakah nama istilah akhlak mulia untuk sikap senantiasa merasa cukup, berpuas diri, dan bersyukur atas segala nikmat pemberian Allah Swt.?",
+        "a": "Qana'ah",
+        "pedoman": "Jawaban tepat adalah Qana'ah."
+      },
+      {
+        "num": 16,
+        "regu": "Regu B",
+        "cat": "Akhlak Mulia",
+        "q": "Apakah istilah akhlak untuk sikap tangguh, tabah, menahan diri dari amarah, serta tidak berkeluh kesah saat tertimpa musibah hidup?",
+        "a": "Sabar",
+        "pedoman": "Jawaban tepat adalah Sabar."
+      },
+      {
+        "num": 17,
+        "regu": "Regu B",
+        "cat": "Fikih Ibadah",
+        "q": "Apakah nama rukun haji yang mengharuskan jamaah untuk berlari-lari kecil sebanyak tujuh kali putaran di antara bukit Safa dan bukit Marwah?",
+        "a": "Sa'i",
+        "pedoman": "Jawaban mutlak adalah Sa'i."
+      },
+      {
+        "num": 18,
+        "regu": "Regu B",
+        "cat": "Fikih Ibadah",
+        "q": "Berapakah jumlah lapis kain kafan yang disunnahkan oleh syariat Islam untuk membungkus jenazah muslimah atau perempuan?",
+        "a": "5 (Lima) lapis kain kafan",
+        "pedoman": "Jawaban mutlak adalah lima lapis kain kafan."
+      },
+      {
+        "num": 19,
+        "regu": "Regu B",
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Siapakah nama sultan agung dari Daulah Turki Usmani yang mendapat julukan pahlawan 'Al-Fatih' atau Sang Penakluk setelah membebaskan kota Konstantinopel pada tahun 1453?",
+        "a": "Sultan Muhammad Al-Fatih / Sultan Mehmed II",
+        "pedoman": "Juri menerima jawaban Sultan Muhammad Al-Fatih atau Sultan Mehmed II."
+      },
+      {
+        "num": 20,
+        "regu": "Regu B",
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Di negara manakah terletak bangunan makam bersejarah nan megah berlapis marmer putih bernama Taj Mahal yang dibangun oleh Sultan Shah Jahan?",
+        "a": "Negara India",
+        "pedoman": "Jawaban mutlak adalah India."
+      },
+      {
+        "num": 21,
+        "regu": "Regu C",
+        "cat": "Al-Qur'an & Tajwid",
+        "q": "Apabila ada huruf mim mati atau mim sukun bertemu langsung dengan huruf Ba (ب), apakah nama hukum bacaan tajwidnya?",
+        "a": "Ikhfa Syafawi",
+        "pedoman": "Jawaban mutlak adalah Ikhfa Syafawi."
+      },
+      {
+        "num": 22,
+        "regu": "Regu C",
+        "cat": "Al-Qur'an Hadis",
+        "q": "Sebutkan potongan lafal ayat di dalam Surah al-Baqarah ayat 256 yang memiliki arti 'Tidak ada paksaan dalam menganut agama'!",
+        "a": "Lā ikrāha fid-dīn ( لَآ اِكْرَاهَ فِى الدِّيْنِ )",
+        "pedoman": "Lafal harus dibaca secara jelas dan benar tajwidnya."
+      },
+      {
+        "num": 23,
+        "regu": "Regu C",
+        "cat": "Akidah",
+        "q": "Apakah nama istilah untuk ketentuan takdir Allah Swt. yang sudah terjadi sejak zaman azali dan tidak dapat diubah lagi oleh usaha makhluk, seperti kematian?",
+        "a": "Takdir Mubram",
+        "pedoman": "Jawaban tepat adalah Takdir Mubram."
+      },
+      {
+        "num": 24,
+        "regu": "Regu C",
+        "cat": "Akidah",
+        "q": "Sebutkan nama kitab suci yang diturunkan oleh Allah Swt. kepada utusan-Nya yaitu Nabi Musa a.s.!",
+        "a": "Kitab Taurat",
+        "pedoman": "Jawaban mutlak adalah Kitab Taurat."
+      },
+      {
+        "num": 25,
+        "regu": "Regu C",
+        "cat": "Akhlak Mulia",
+        "q": "Apakah istilah akhlak tercela untuk penyakit hati berupa perasaan tidak senang melihat orang lain mendapat bahagia dan berharap nikmat tersebut segera hilang?",
+        "a": "Hasad (Iri Dengki)",
+        "pedoman": "Benar jika menjawab 'Hasad', 'Iri', atau 'Dengki'."
+      },
+      {
+        "num": 26,
+        "regu": "Regu C",
+        "cat": "Akhlak Mulia",
+        "q": "Apakah nama istilah perilaku tercela berupa membicarakan, menceritakan, atau menggunjing keburukan dan aib orang lain di belakangnya?",
+        "a": "Ghibah",
+        "pedoman": "Jawaban tepat adalah Ghibah."
+      },
+      {
+        "num": 27,
+        "regu": "Regu C",
+        "cat": "Fikih Ibadah",
+        "q": "Berapakah jumlah kambing atau domba yang disyariatkan untuk disembelih sebagai hewan akikah bagi anak berjenis kelamin laki-laki?",
+        "a": "2 (Dua) ekor kambing/domba",
+        "pedoman": "Jawaban mutlak adalah dua ekor."
+      },
+      {
+        "num": 28,
+        "regu": "Regu C",
+        "cat": "Fikih Ibadah",
+        "q": "Apakah istilah fikih untuk keringanan ibadah berupa meringkas jumlah rakaat salat fardhu yang berjumlah empat rakaat menjadi dua rakaat bagi seorang musafir?",
+        "a": "Qashar (Salat Qashar)",
+        "pedoman": "Jawaban tepat adalah Qashar atau Salat Qashar."
+      },
+      {
+        "num": 29,
+        "regu": "Regu C",
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Siapakah nama panglima perang muslim pendiri pertama Daulah Mughal di daratan India yang merupakan keturunan langsung dari klan Timur Lenk?",
+        "a": "Zahiruddin Muhammad Babur",
+        "pedoman": "Menerima jawaban Zahiruddin Muhammad Babur atau Sultan Babur."
+      },
+      {
+        "num": 30,
+        "regu": "Regu C",
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Apakah nama masjid jami' bersejarah sekaligus lembaga pendidikan tinggi tertua di Kairo yang dibangun pada masa kekuasaan Daulah Fatimiyah?",
+        "a": "Masjid Al-Azhar / Universitas Al-Azhar",
+        "pedoman": "Benar jika menyebutkan nama Al-Azhar."
+      }
+    ],
+    "lemparan": [
+      {
+        "num": 31,
+        "regu": "Regu A",
+        "cat": "Al-Qur'an & Tajwid",
+        "q": "Berapakah jumlah huruf hijaiyah yang tergolong dalam hukum bacaan Al-Qamariyah?",
+        "a": "14 (Empat Belas) huruf",
+        "pedoman": "Jawaban mutlak adalah empat belas huruf."
+      },
+      {
+        "num": 32,
+        "regu": "Regu A",
+        "cat": "Akidah",
+        "q": "Apakah nama malaikat utusan Allah Swt. yang memiliki tugas mulia menjaga pintu surga?",
+        "a": "Malaikat Ridwan",
+        "pedoman": "Jawaban mutlak adalah Malaikat Ridwan."
+      },
+      {
+        "num": 33,
+        "regu": "Regu A",
+        "cat": "Akhlak Mulia",
+        "q": "Apakah istilah akhlak untuk perilaku memurnikan niat beramal semata-mata karena mencari ridha Allah Swt. tanpa pamrih manusia?",
+        "a": "Ikhlas",
+        "pedoman": "Jawaban tepat adalah Ikhlas."
+      },
+      {
+        "num": 34,
+        "regu": "Regu A",
+        "cat": "Fikih Ibadah",
+        "q": "Apakah nama jenis sujud yang dilakukan sebagai bentuk rasa syukur atas nikmat besar yang didapat atau karena terhindar dari musibah?",
+        "a": "Sujud Syukur",
+        "pedoman": "Jawaban mutlak adalah Sujud Syukur."
+      },
+      {
+        "num": 35,
+        "regu": "Regu A",
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Siapakah nama panglima perang muslim dari Daulah Bani Umayyah yang memimpin penyeberangan selat sempit melintasi Afrika Utara menuju daratan Andalusia?",
+        "a": "Thariq bin Ziyad",
+        "pedoman": "Jawaban mutlak adalah Thariq bin Ziyad (Jabal Thariq)."
+      },
+      {
+        "num": 36,
+        "regu": "Regu B",
+        "cat": "Al-Qur'an & Tajwid",
+        "q": "Sebutkan dua huruf hijaiyah yang menjadi huruf dari hukum bacaan Idgham Bilaghunnah!",
+        "a": "Huruf Lam (ل) dan Ra (ر)",
+        "pedoman": "Siswa harus menyebutkan kedua huruf tersebut secara tepat."
+      },
+      {
+        "num": 37,
+        "regu": "Regu B",
+        "cat": "Akidah",
+        "q": "Apakah arti dari sifat mustahil bagi rasul yaitu 'Kitman'?",
+        "a": "Menyembunyikan (wahyu atau kebenaran)",
+        "pedoman": "Jawaban tepat adalah 'Menyembunyikan' atau 'Tidak menyampaikan wahyu'."
+      },
+      {
+        "num": 38,
+        "regu": "Regu B",
+        "cat": "Akhlak Mulia",
+        "q": "Apakah sebutan dalam Islam untuk sikap rendah hati, tidak bersikap sombong, dan menghargai sesama hamba Allah Swt.?",
+        "a": "Tawadhu'",
+        "pedoman": "Jawaban tepat adalah Tawadhu'."
+      },
+      {
+        "num": 39,
+        "regu": "Regu B",
+        "cat": "Fikih Ibadah",
+        "q": "Sebutkan rukun haji yang berupa aktivitas utama berdiam diri di Padang Arafah pada tanggal 9 Zulhijjah!",
+        "a": "Wukuf (Wukuf di Padang Arafah)",
+        "pedoman": "Jawaban mutlak adalah Wukuf."
+      },
+      {
+        "num": 40,
+        "regu": "Regu B",
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Siapakah nama ilmuwan muslim legendaris penemu konsep aljabar dan penemu angka nol dalam matematika?",
+        "a": "Muhammad bin Musa al-Khwarizmi",
+        "pedoman": "Jawaban tepat adalah Al-Khwarizmi atau Muhammad bin Musa al-Khwarizmi."
+      },
+      {
+        "num": 41,
+        "regu": "Regu C",
+        "cat": "Al-Qur'an & Tajwid",
+        "q": "Apabila ada nun sukun atau tanwin bertemu langsung dengan huruf hamzah atau alif (ا), apakah nama hukum bacaan tajwidnya?",
+        "a": "Izhar Halqi",
+        "pedoman": "Jawaban mutlak adalah Izhar Halqi."
+      },
+      {
+        "num": 42,
+        "regu": "Regu C",
+        "cat": "Akidah",
+        "q": "Apakah nama istilah hari penimbangan amal perbuatan baik dan buruk manusia secara adil di akhirat nanti?",
+        "a": "Yaumul Mizan (Hari Penimbangan Amal)",
+        "pedoman": "Jawaban tepat adalah Yaumul Mizan atau Hari Penimbangan."
+      },
+      {
+        "num": 43,
+        "regu": "Regu C",
+        "cat": "Akhlak Mulia",
+        "q": "Apakah istilah akhlak untuk perilaku meneliti, memverifikasi, atau mengklarifikasi kebenaran suatu berita agar terhindar dari fitnah?",
+        "a": "Tabayyun (Klarifikasi)",
+        "pedoman": "Jawaban tepat adalah Tabayyun."
+      },
+      {
+        "num": 44,
+        "regu": "Regu C",
+        "cat": "Fikih Ibadah",
+        "q": "Sebutkan kriteria umum usia minimal seekor kambing atau domba gembel agar sah secara syariat dijadikan sebagai hewan kurban!",
+        "a": "Telah berumur genap 1 (Satu) tahun atau telah berganti gigi (poel)",
+        "pedoman": "Benar jika menjawab 'berumur 1 tahun' atau 'telah berganti gigi/kupas'."
+      },
+      {
+        "num": 45,
+        "regu": "Regu C",
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Siapakah nama khalifah Daulah Abbasiyah, putra dari Harun ar-Rasyid, yang membawa Baitul Hikmah mencapai masa keemasan dalam penerjemahan buku sains dunia?",
+        "a": "Khalifah Al-Ma'mun",
+        "pedoman": "Jawaban mutlak adalah Khalifah Al-Ma'mun."
+      }
+    ],
+    "rebutan": [
+      {
+        "num": 46,
+        "cat": "Fikih Ibadah",
+        "q": "Berapakah jumlah ruku' yang dilakukan dalam satu rakaat salat gerhana matahari maupun gerhana bulan menurut tata cara sunnah?",
+        "a": "2 (Dua) kali ruku' dalam satu rakaat",
+        "pedoman": "Jawaban mutlak adalah dua kali ruku'."
+      },
+      {
+        "num": 47,
+        "cat": "Akidah",
+        "q": "Apakah sebutan gelar bagi para nabi dan rasul yang dianugerahi ketabahan, kesabaran, dan keteguhan hati yang luar biasa dalam mengemban risalah?",
+        "a": "Ulul Azmi",
+        "pedoman": "Jawaban mutlak adalah Ulul Azmi."
+      },
+      {
+        "num": 48,
+        "cat": "Akhlak Mulia",
+        "q": "Apakah sebutan untuk penyakit hati berupa perasaan sombong, angkuh, merasa diri lebih hebat, yang pertama kali diperbuat oleh Iblis ketika menolak sujud kepada Adam?",
+        "a": "Takabur (Sombong / Al-Kibr)",
+        "pedoman": "Benar jika menjawab 'Takabur', 'Sombong', atau 'Kibar'."
+      },
+      {
+        "num": 49,
+        "cat": "Fikih Ibadah",
+        "q": "Apakah istilah fikih untuk kewajiban kolektif memandikan, mengafani, menyalatkan, dan menguburkan jenazah muslim yang dibebankan kepada masyarakat?",
+        "a": "Pengurusan Jenazah / Tajhizul Janazah (Fardhu Kifayah)",
+        "pedoman": "Menerima jawaban 'Pengurusan Jenazah', 'Tajhizul Janazah', atau 'Penyelenggaraan Jenazah'."
+      },
+      {
+        "num": 50,
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Apakah nama daulah kekhalifahan Islam yang secara resmi memindahkan pusat pemerintahan kekhalifahan dari kota Damaskus ke kota Baghdad?",
+        "a": "Daulah Bani Abbasiyah",
+        "pedoman": "Jawaban mutlak adalah Daulah Abbasiyah atau Bani Abbasiyah."
+      },
+      {
+        "num": 51,
+        "cat": "Al-Qur'an & Tajwid",
+        "q": "Sebutkan huruf hijaiyah yang menjadi satu-satunya huruf dalam hukum bacaan tajwid Iqlab!",
+        "a": "Huruf Ba (ب)",
+        "pedoman": "Jawaban mutlak adalah huruf Ba."
+      },
+      {
+        "num": 52,
+        "cat": "Akidah",
+        "q": "Apakah sebutan dalam rukun iman untuk perwujudan atau realisasi dari ketetapan Allah Swt. sejak zaman azali bagi kehidupan makhluk-Nya?",
+        "a": "Qadar (Takdir)",
+        "pedoman": "Jawaban tepat adalah Qadar."
+      },
+      {
+        "num": 53,
+        "cat": "Akhlak Mulia",
+        "q": "Apakah lawan atau antonim dari sifat wajib rasul 'Shiddiq' (Jujur), yang berarti berkata dusta atau berbohong?",
+        "a": "Kadzib (Dusta / Bohong / Sifat Mustahil)",
+        "pedoman": "Jawaban tepat adalah Kadzib, Dusta, atau Bohong."
+      },
+      {
+        "num": 54,
+        "cat": "Fikih Ibadah",
+        "q": "Berapakah jumlah minimal takbir yang dilakukan dalam tata cara pelaksanaan salat jenazah?",
+        "a": "4 (Empat) kali takbir",
+        "pedoman": "Jawaban mutlak adalah 4 kali takbir, dilakukan dalam posisi berdiri."
+      },
+      {
+        "num": 55,
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Siapakah nama raja agung Daulah Syafawi di Persia yang berhasil meredam konflik militer dan menata tata kota Isfahan menjadi sangat megah?",
+        "a": "Shah Abbas I",
+        "pedoman": "Jawaban mutlak adalah Shah Abbas I."
+      },
+      {
+        "num": 56,
+        "cat": "Al-Qur'an & Tajwid",
+        "q": "Apabila ada huruf mim mati atau mim sukun bertemu langsung dengan huruf mim yang berharakat, apakah nama hukum bacaan tajwidnya?",
+        "a": "Idgham Mimi / Idgham Mutamatsilain / Idgham Syafawi",
+        "pedoman": "Menerima jawaban 'Idgham Mimi', 'Idgham Mutamatsilain', atau 'Idgham Syafawi'."
+      },
+      {
+        "num": 57,
+        "cat": "Akidah",
+        "q": "Sebutkan nama kitab suci diturunkan oleh Allah Swt. kepada utusan-Nya yaitu Nabi Isa a.s.!",
+        "a": "Kitab Injil",
+        "pedoman": "Jawaban mutlak adalah Kitab Injil."
+      },
+      {
+        "num": 58,
+        "cat": "Akhlak Mulia",
+        "q": "Apakah nama istilah untuk perilaku terpuji berupa selalu berprasangka baik, berpikiran positif, dan berbaik sangka kepada ketetapan Allah Swt. maupun sesama?",
+        "a": "Husnuzan (Berprasangka Baik)",
+        "pedoman": "Jawaban tepat adalah Husnuzan atau Berprasangka Baik."
+      },
+      {
+        "num": 59,
+        "cat": "Fikih Ibadah",
+        "q": "Pada tanggal berapa sajakah umat Islam disyariatkan menyembelih hewan kurban pada perayaan Idul Adha dan Hari Tasyrik?",
+        "a": "Tanggal 10, 11, 12, dan 13 Zulhijjah",
+        "pedoman": "Siswa harus menyebutkan keempat hari penyembelihan kurban tersebut (hari raya dan 3 hari tasyrik)."
+      },
+      {
+        "num": 60,
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Apakah nama daulah Islamiyah di Mesir yang menisbatkan nama daulahnya pada putri agung Rasulullah saw. yaitu Fatimah az-Zahra?",
+        "a": "Daulah Fatimiyah",
+        "pedoman": "Jawaban mutlak adalah Daulah Fatimiyah."
+      }
+    ],
+    "cadangan": [
+      {
+        "num": 61,
+        "cat": "Al-Qur'an & Tajwid",
+        "q": "Apakah nama hukum tajwid apabila ada huruf Mad Thabi'i bertemu dengan huruf hamzah di dalam satu kalimat yang bersambung?",
+        "a": "Mad Wajib Muttashil",
+        "pedoman": "Jawaban mutlak adalah Mad Wajib Muttashil."
+      },
+      {
+        "num": 62,
+        "cat": "Akidah",
+        "q": "Siapakah nama malaikat Allah Swt. yang bertugas menjaga pintu neraka dengan ketegasan dan kewibawaan yang luar biasa?",
+        "a": "Malaikat Malik",
+        "pedoman": "Jawaban mutlak adalah Malaikat Malik."
+      },
+      {
+        "num": 63,
+        "cat": "Akhlak Mulia",
+        "q": "Apakah sebutan untuk akhlak tercela berupa sengaja memperlihatkan atau memamerkan amal ibadah kepada sesama manusia agar mendapat pujian?",
+        "a": "Riya'",
+        "pedoman": "Jawaban tepat adalah Riya'."
+      },
+      {
+        "num": 64,
+        "cat": "Fikih Ibadah",
+        "q": "Apakah nama jenis salat sunnah dua rakaat berjamaah yang disyariatkan untuk dilaksanakan guna memohon diturunkannya hujan ketika terjadi kemarau panjang?",
+        "a": "Salat Istisqa'",
+        "pedoman": "Jawaban mutlak adalah Salat Istisqa'."
+      },
+      {
+        "num": 65,
+        "cat": "Sejarah Peradaban Islam",
+        "q": "Siapakah nama tokoh kedokteran muslim legendaris masa Daulah Abbasiyah, penulis buku agung 'Al-Qanun fi al-Tibb' yang dijuluki Bapak Kedokteran Modern?",
+        "a": "Ibnu Sina (Avicenna)",
+        "pedoman": "Jawaban mutlak adalah Ibnu Sina atau Avicenna."
+      }
+    ]
   }
 };
 
