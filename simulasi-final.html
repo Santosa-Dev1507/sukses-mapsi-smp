@@ -302,9 +302,10 @@ function renderCatbar(){
 // Render Regubar (Selector Sub-Regu Opsi 2)
 function renderRegubar(){
   const regubar = document.getElementById('regubar');
-  if (!regubar) return;
-  
-  if ((mode === 'wajib' || mode === 'lemparan') && activePaket !== "Latihan Acak") {
+  const currentPaketData = DATA_PAKET[activePaket] && DATA_PAKET[activePaket][mode] ? DATA_PAKET[activePaket][mode] : [];
+  const hasRegu = currentPaketData.some(q => q.regu);
+
+  if ((mode === 'wajib' || mode === 'lemparan') && activePaket !== "Latihan Acak" && hasRegu) {
     regubar.style.display = 'flex';
     regubar.innerHTML = '';
     

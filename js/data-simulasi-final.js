@@ -1,7 +1,187 @@
 // BANK DATA SOAL SIMULASI FINAL CCAI MAPSI SMP 2026
-// Edisi Perbaikan: Format Lisan Baku & Objektif (Total 65 Soal Paket 1)
+// Paket 1: Paket Standar Awal
+// Paket 2: Format Lisan Baku & Objektif (65 Soal Lengkap: Regu A/B/C, Lemparan, Rebutan, Cadangan)
 const DATA_SIMULASI_FINAL = {
   "Paket 1": {
+    "wajib": [
+      {
+        "cat": "LOTS • Al-Qur'an dan Hadis",
+        "q": "Sebutkan empat objek iman dalam Q.S. Al-Baqarah/2:285!",
+        "a": "Allah, malaikat-malaikat-Nya, kitab-kitab-Nya, dan rasul-rasul-Nya.",
+        "hitungan": false
+      },
+      {
+        "cat": "LOTS • Aqidah",
+        "q": "Sebutkan empat sifat wajib rasul!",
+        "a": "Siddiq, amanah, tabligh, dan fatanah.",
+        "hitungan": false
+      },
+      {
+        "cat": "LOTS • Fiqh",
+        "q": "Sebutkan empat kewajiban fardu kifayah dalam penyelenggaraan jenazah!",
+        "a": "Memandikan, mengafani, menyalatkan, dan menguburkan.",
+        "hitungan": false
+      },
+      {
+        "cat": "MOTS • Tajwid",
+        "q": "Nun mati pada min ba'di bertemu ba. Sebutkan hukum dan cara membacanya!",
+        "a": "Iqlab; bunyi nun berubah menjadi mim samar disertai dengung.",
+        "hitungan": false
+      },
+      {
+        "cat": "MOTS • Aqidah",
+        "q": "Jelaskan perbedaan al-Sami' dan al-Basir serta satu dampak perilakunya!",
+        "a": "Al-Sami' berarti Maha Mendengar dan al-Basir Maha Melihat; keduanya mendorong penjagaan ucapan dan tindakan.",
+        "hitungan": false
+      },
+      {
+        "cat": "MOTS • Aqidah",
+        "q": "Regu kalah setelah berusaha. Sebutkan tiga sikap yang sesuai iman kepada qada-qadar!",
+        "a": "Mengevaluasi ikhtiar, berdoa dan bertawakal, lalu menerima hasil tanpa putus asa.",
+        "hitungan": false
+      },
+      {
+        "cat": "MOTS • Fiqh",
+        "q": "Bedakan sebab sujud syukur dan sujud sahwi!",
+        "a": "Syukur karena nikmat khusus atau keselamatan; sahwi karena lupa atau ragu tertentu dalam salat.",
+        "hitungan": false
+      },
+      {
+        "cat": "MOTS • Sejarah",
+        "q": "Jelaskan hubungan penerjemahan dan Bayt al-Hikmah dengan kemajuan Abbasiyah!",
+        "a": "Bayt al-Hikmah menjadi pusat penerjemahan dan kajian; ilmu kemudian diuji serta dikembangkan.",
+        "hitungan": false
+      },
+      {
+        "cat": "HOTS • Al-Qur'an dan Hadis",
+        "q": "Seorang siswa memakai la ikraha fid-din untuk menolak semua kewajiban. Nilai argumennya!",
+        "a": "Argumen keliru; ayat menolak pemaksaan keyakinan, bukan menghapus kewajiban seorang Muslim.",
+        "hitungan": false
+      },
+      {
+        "cat": "HOTS • Fiqh",
+        "q": "Harga hewan A lebih mahal tetapi cacat berat; hewan B sehat dan cukup umur. Pilih dan jelaskan!",
+        "a": "Pilih hewan B karena syarat umur dan kondisi lebih menentukan daripada harga.",
+        "hitungan": false
+      }
+    ],
+    "lemparan": [
+      {
+        "cat": "LOTS • Tajwid",
+        "q": "Sebutkan empat huruf idgham bighunnah!",
+        "a": "Ya, nun, mim, dan wawu.",
+        "hitungan": false
+      },
+      {
+        "cat": "LOTS • Sejarah",
+        "q": "Pasangkan Umayyah, Fatimiyah, dan Syafawi dengan pusat pentingnya!",
+        "a": "Umayyah-Damaskus; Fatimiyah-Kairo; Syafawi-Isfahan.",
+        "hitungan": false
+      },
+      {
+        "cat": "MOTS • Aqidah",
+        "q": "Jelaskan hubungan iman kepada al-'Alim dengan perilaku belajar!",
+        "a": "Mendorong rendah hati, jujur secara akademik, dan sungguh-sungguh karena ilmu Allah tidak terbatas.",
+        "hitungan": false
+      },
+      {
+        "cat": "MOTS • Akhlak",
+        "q": "Berikan dua contoh husnuzan yang disertai tabayun di sekolah!",
+        "a": "Tidak langsung menuduh dan memeriksa informasi; memberi kesempatan penjelasan sebelum menyimpulkan.",
+        "hitungan": false
+      },
+      {
+        "cat": "MOTS • Fiqh",
+        "q": "Apa makna rukhsah? Berikan dua contoh yang berbeda sebab!",
+        "a": "Keringanan karena uzur; misalnya tayamum karena uzur air dan qasar karena perjalanan.",
+        "hitungan": false
+      },
+      {
+        "cat": "MOTS • Fiqh",
+        "q": "Bedakan kurban dan akikah dari sisi sebab dan waktu!",
+        "a": "Kurban terkait Iduladha; akikah terkait kelahiran anak dan waktunya mengikuti ketentuan akikah.",
+        "hitungan": false
+      },
+      {
+        "cat": "MOTS • Sejarah",
+        "q": "Jelaskan dua faktor yang membuat penerjemahan Abbasiyah berkembang menjadi inovasi!",
+        "a": "Contohnya dukungan lembaga/penguasa serta kegiatan kritik, pengujian, dan pengembangan ilmu.",
+        "hitungan": false
+      },
+      {
+        "cat": "HOTS • Al-Qur'an dan Hadis",
+        "q": "Regu A menyebut sabar sebagai diam; regu B menyebut menerima hasil lalu berlatih lagi. Pilih dan beri alasan ayat!",
+        "a": "Regu B; ayat sabar menuntut keteguhan aktif, saling menguatkan, dan tetap siaga.",
+        "hitungan": false
+      },
+      {
+        "cat": "HOTS • Akhlak",
+        "q": "Unggahan bantuan mendapat pujian lalu pelakunya merendahkan orang lain. Analisis masalah akhlaknya!",
+        "a": "Niat harus dievaluasi karena muncul riya atau ujub; bantuan tidak boleh menjadi alat merendahkan.",
+        "hitungan": false
+      },
+      {
+        "cat": "HOTS • Sejarah",
+        "q": "Bangunan suatu daulah megah, tetapi konflik elite dan administrasi melemah. Apa simpulan sejarahnya!",
+        "a": "Warisan fisik tidak menjamin ketahanan; tata kelola dan persatuan tetap menentukan.",
+        "hitungan": false
+      }
+    ],
+    "rebutan": [
+      {
+        "cat": "LOTS • Al-Qur'an dan Hadis",
+        "q": "Ayat yang memuat la ikraha fid-din adalah?",
+        "a": "Q.S. Al-Baqarah/2:256."
+      },
+      {
+        "cat": "MOTS • Tajwid",
+        "q": "Mim mati bertemu mim: hukum dan cara baca?",
+        "a": "Idgham mimi; mim melebur disertai dengung."
+      },
+      {
+        "cat": "MOTS • Aqidah",
+        "q": "Pesan privat tetap diketahui Allah secara rinci. Asmaul Husna yang paling tepat?",
+        "a": "Al-Khabir."
+      },
+      {
+        "cat": "MOTS • Fiqh",
+        "q": "Lupa jumlah rakaat: sujud apa?",
+        "a": "Sujud sahwi."
+      },
+      {
+        "cat": "MOTS • Sejarah",
+        "q": "Kairo dan al-Azhar berkaitan dengan daulah apa?",
+        "a": "Daulah Fatimiyah."
+      },
+      {
+        "cat": "HOTS • Aqidah",
+        "q": "Takdir dijadikan alasan tidak berlatih. Satu kata penilaiannya dan alasannya!",
+        "a": "Keliru; qadar tidak menghapus ikhtiar."
+      },
+      {
+        "cat": "HOTS • Akhlak",
+        "q": "Kabar buruk belum terverifikasi. Dua tindakan akhlak paling tepat?",
+        "a": "Husnuzan dan tabayun."
+      },
+      {
+        "cat": "HOTS • Fiqh",
+        "q": "Air membahayakan luka. Bentuk bersuci yang dianalisis lebih dahulu?",
+        "a": "Tayamum, jika syaratnya terpenuhi."
+      },
+      {
+        "cat": "HOTS • Sejarah",
+        "q": "Penerjemahan tanpa kritik menghasilkan alih ilmu, tetapi kekurangan apa?",
+        "a": "Pengujian, pengembangan, dan inovasi."
+      },
+      {
+        "cat": "HOTS • Sejarah",
+        "q": "Urutan Umayyah-Abbasiyah-Mughal-Fatimiyah salah di bagian mana?",
+        "a": "Fatimiyah harus ditempatkan sebelum Mughal."
+      }
+    ],
+    "cadangan": []
+  },
+  "Paket 2": {
     "wajib": [
       {
         "num": 1,
@@ -510,12 +690,6 @@ const DATA_SIMULASI_FINAL = {
         "pedoman": "Benar jika menyebutkan Tawadhu'."
       }
     ]
-  },
-  "Paket 2": {
-    "wajib": [],
-    "lemparan": [],
-    "rebutan": [],
-    "cadangan": []
   },
   "Paket 3": {
     "wajib": [],
